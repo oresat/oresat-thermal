@@ -1,0 +1,49 @@
+﻿Alpha_BlackAnno	0.54	Absportivity of black anno	general	010100
+Alpha_PurpleCoating	0.8	Absorptivity of purple coating on PCB	general	010100
+Alpha_SolarPanel	0.92		general	010100
+BatteryHeatDissipation	1	Amount of heat (W) dissipated by battery pack	general	010100
+Conductance_End_caps	0.8045		general	010100
+cp_Al	900	Specific heat of 6061-type2 Al	general	010100
+cp_PCB	1144	Specific Heat of PCB assuming 97.5% FR4. 2.5% C	general	010100
+Epsilon_BlackAnno	0.75	Emissivity of black annodization	general	010100
+Epsilon_PurpleCoating	0.8	Emissivity of purple coating on PCB	general	010100
+Epsilon_SolarPanel	0.85		general	010100
+FotyPinConnector_Conductance	0.1178		general	010100
+hrBetaAngle	75		general	000100
+hrEccen	0		general	000100
+hrIllum	0		orbital	000100
+hrMeanAnom	180		orbital	000100
+hrPeriod	5553.62	Always in current user units. If programming, use hrPeriodSec so that conversion are correct	general	000100
+hrPeriodSec	5553.62		general	000100
+hrPlanetX	0.258819		orbital	000100
+hrPlanetY	-1.39995e-13		orbital	000100
+hrPlanetZ	-0.965926		orbital	000100
+hrPos	2		orbital	000100
+hrShadowEntry	-1		general	000100
+hrShadowExit	-1		general	000100
+hrSpeed	7.66856		orbital	000100
+hrSubSolarMeanAnom	1.04667e-11	-180 to 180	general	000100
+hrSubSolarTrueAnom	1.04667e-11	-180 to 180	general	000100
+hrSunX	1		orbital	000100
+hrSunY	0		orbital	000100
+hrSunZ	0		orbital	000100
+hrTime	2776.81	Always in current user units. If programming, use hrTimeSec so that conversion are correct	orbital	000100
+hrTimeSec	2776.81		orbital	000100
+hrTimeShadowEntry	-1		general	000100
+hrTimeShadowEntrySec	-1		general	000100
+hrTimeShadowExit	-1		general	000100
+hrTimeShadowExitSec	-1		general	000100
+hrTrueAnom	180		orbital	000100
+hrVelocityX	-6.09902e-14		orbital	000100
+hrVelocityY	-1		orbital	000100
+hrVelocityZ	1.28591e-13		orbital	000100
+k_Al	167	Conductivity of 6061-type2 Aluminum	general	010100
+k_PCB	12	Conductivity of 2-layer FR4 PCB. Calculated assuming 90% FR4, 10% Cu foil	general	010100
+m2_Conductance	0.0256		general	010100
+MechConn_BatteryToCard	0.108	Conductance of mechanical connection from battery to battery card	general	010100
+MechConn_CardToXFrame	0.144	Conductance of mechanical connection from PCB to (+x) frame	general	010100
+MechConn_CardToYFrames	0.3301	Conductance of mechanical connection from PCB to (+/- y) frames	general	010100
+rho_Al	2700	Density of 6061-type2 Al	general	010100
+rho_PCB	2077	Density of PCB assuming 97.5% FR4, 2.5% Cu	general	010100
+RVT_Conductance	1.21		general	010100
+SolarCardConnector_Conductance	0.00558		general	010100
