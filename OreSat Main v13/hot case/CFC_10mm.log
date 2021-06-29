@@ -1,0 +1,70 @@
+[ AutoCAD - Wed Jun 16 19:12:15 2021  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Overriding 2 symbol values for this case set
+
+Undefined symbol: 'MechConn_ThermalMassStandOffs' in expression:
+MechConn_ThermalMassStandOffs
+The error occurred while updating: Cond-Thermal mass stand off[CFC_ASSEM]::29D4
+There were expression errors, default value of 1.0 will be returned.
+
+Calculating SINDA/FLUINT data
+Calculating Thermal Analyzer Input took 2.17 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel BACKPLANE_TO_FRAME...
+Outputting data for submodel BATTERY...
+Outputting data for submodel CARDS...
+Outputting data for submodel CFC_ASSEM...
+Outputting data for submodel FORTY_PIN_CONNECTOR...
+Outputting data for submodel FRAMES...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel MAIN...
+Outputting data for submodel MECHANICAL_CONNECTIONS...
+Outputting data for submodel SOLARCARDS_CONNECTOR...
+Outputting data for submodel SOLAR_CARDS...
+Outputting data for submodel SOLAR_PANELS...
+Outputting data for submodel SPACE...
+    Number of nodes:      1661
+    Number of conductors: 3984
+    Number of thermoelectric coolers:    1
+
+
+*** RADCAD RAYTRACE RADK RUN START for database BASE-rcoptics.rck
+Creating new database named BASE-rcoptics.rck
+Using regular optical properties
+Time to calculate radk = 11.06 sec
+Outputting SINDA/FLUINT radks to file C3A0.k...
+Total elapsed time for calculations and output = 14.41 sec
+    1648 calculation nodes
+    51415 radks were output, 169037 radks were filtered out
+    5 nodes(0%) have bij sum + bij inactive < .9
+        This may be ok, but could be reduced by lowering the BIJ Cutoff on the RADK Output Page
+    25000 average number of rays per node shot
+    7 nodes(0%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlappings surfaces found.
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database BASE-75beta-rcoptics.rch
+Fast Spin about Vector 0.000000 0.000000 1.000000 is enabled
+
+Undefined symbol: 'MechConn_ThermalMassStandOffs' in expression:
+MechConn_ThermalMassStandOffs
+The error occurred while updating: Cond-Thermal mass stand off[CFC_ASSEM]::29D4
+There were expression errors, default value of 1.0 will be returned.
+Creating new database named BASE-75beta-rcoptics.rch
+Using regular optical properties
+Total Elapsed time for heating rate calculations = 106.33 sec
+Outputting SINDA/FLUINT heating rate data to files:
+    C3A1.hra for arrays and C3A1.hrl for logic...
+Total Elapsed time for heating rate calculations and output = 107.75 sec
+
+*** Running SINDA model named C:\Users\PSAS CAD\Desktop\OreSat Thermal\OreSat Sims\OreSat Main v13\Hot Case\CFC_10mm.inp
+Successful completion of processor
+From C:\Users\PSAS CAD\Desktop\OreSat Thermal\OreSat Sims\OreSat Main v13\Hot Case\messages_CFC_10mm.log
+     TIMEN  =    800.0000      The ASTAP execution time is:    14.5956328000029       seconds
+Time to run SINDA = 45.47 sec
+
+Case Set Solved::Elapsed time = 174.78 sec

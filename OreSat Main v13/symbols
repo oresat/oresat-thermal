@@ -1,0 +1,99 @@
+﻿Active_BatteryHeaters	1	Determines whether battery heaters are active	general	010100
+Active_HeatLoads	1	Determines whether misc heat loads (not including battery heaters) are active	general	010100
+Active_TEC	1	Determines whether TEC connection will be enabled	general	010100
+Alpha_BlackAnno	0.54	Absportivity of black anno	general	010100
+Alpha_Cu	0.30	Solar Absorptance of copper	general	010100
+Alpha_PurpleCoating	0.8	Absorptivity of purple coating on PCB	general	010100
+Alpha_SolarPanel	0.92		general	010100
+BatteryHeatDissipation	1	Amount of heat (W) dissipated by battery pack	general	010100
+Conductance_End_caps	0.8045		general	010100
+cp_Al	900	Specific heat of 6061-type2 Al	general	010100
+cp_Battery	837.4		general	010100
+cp_Cu
+"386"
+"Specific Heat of Copper
+"
+"general"
+"010100"
+cp_PCB	1144	Specific Heat of PCB assuming 97.5% FR4. 2.5% C	general	010100
+ElecConn_FortyPinConnector	0.1178		general	010100
+ElecConn_SolarCardConnector	0.00558		general	010100
+Epsilon_BlackAnno	0.75	Emissivity of black annodization	general	010100
+Epsilon_Cu	0.03	Emissivity of Copper	general	010100
+Epsilon_PurpleCoating	0.8	Emissivity of purple coating on PCB	general	010100
+Epsilon_SolarPanel	0.85		general	010100
+FotyPinConnector_Conductance	0.1178		general	010100
+hrBetaAngle	75		general	000100
+hrEccen	0		general	000100
+hrIllum	0		orbital	000100
+hrMeanAnom	120		orbital	000100
+hrPeriod	5553.62	Always in current user units. If programming, use hrPeriodSec so that conversion are correct	general	000100
+hrPeriodSec	5553.62		general	000100
+hrPlanetX	0.12941		orbital	000100
+hrPlanetY	-0.866025		orbital	000100
+hrPlanetZ	-0.482963		orbital	000100
+hrPos	4		orbital	000100
+hrShadowEntry	-1		general	000100
+hrShadowExit	-1		general	000100
+hrSpeed	7.66856		orbital	000100
+hrSubSolarMeanAnom	1.04667e-11	-180 to 180	general	000100
+hrSubSolarTrueAnom	1.04667e-11	-180 to 180	general	000100
+hrSunX	1		orbital	000100
+hrSunY	0		orbital	000100
+hrSunZ	0		orbital	000100
+hrTime	1851.21	Always in current user units. If programming, use hrTimeSec so that conversion are correct	orbital	000100
+hrTimeSec	1851.21		orbital	000100
+hrTimeShadowEntry	-1		general	000100
+hrTimeShadowEntrySec	-1		general	000100
+hrTimeShadowExit	-1		general	000100
+hrTimeShadowExitSec	-1		general	000100
+hrTrueAnom	120		orbital	000100
+hrVelocityX	-0.224144		orbital	000100
+hrVelocityY	-0.5		orbital	000100
+hrVelocityZ	0.836516		orbital	000100
+k_Al	167	Conductivity of 6061-type2 Aluminum	general	010100
+k_Battery	300		general	010100
+k_Cu	385	conductivity of copper	general	010100
+k_PCB	12	Conductivity of 2-layer FR4 PCB. Calculated assuming 90% FR4, 10% Cu foil	general	010100
+k_SS	17	Conductivity of Stainless Steel (used for fastener kA/L calcs). Min says 13, max says 17 W/m/K	general	010100
+m2_Conductance	0.0256		general	010100
+MechConn_24mmSSSocketHeadScrew	k_SS*(pi*(0.002/2)^2)/(0.024)	Conduction of 24mm M2 fastender (used to connect CFC cage, thermal mass, and PCB	general	010100
+MechConn_BatteryToCard	0.108	Conductance of mechanical connection from battery to battery card	general	010100
+MechConn_CardToXFrame	0.144	Conductance of mechanical connection from PCB to (+x) frame	general	010100
+MechConn_CardToYFrames	0.3301	Conductance of mechanical connection from PCB to (+/- y) frames	general	010100
+MechConn_CFCLensToLensMount	1	Conductance (W/C) from top edge of CFC lens to lens mount	general	010100
+MechConn_DetectorToTEC	11	Absolute Thermal Connection between CFC detector and TEC (in W/K)	general	010100
+MechConn_EndCaps	0.8045		general	010100
+MechConn_LensMountFastener	k_SS*(pi*(0.003)^2)/(0.011)	Conductance (W/K) for fasteners that fix thermal mass, CFC card, and lens mount together. Caluclated by k*A/L for 11-mm fastener w/ ~3mm dia. Made of SS	general	010100
+MechConn_LensMountLegs	1	Conductance (W/K) of lens mount `legs` (call them that because it looks a little like a table)	general	010100
+MechConn_M2	3.09		general	010100
+MechConn_OreSatLiveCardStandOffs	3.09	Conductance (W/C) for stand offs mounting OreSat Live card to DxWiFi	general	010100
+MechConn_RTV	1.21		general	010100
+MechConn_TECToPedestal	11	Connection between the thermo electric cooler and copper pedestal (or T-bar) - in W/K	general	010100
+MechConn_ThermalMassStandOff	1	(W/K) - k*A/L model for fiberglass washer stand off.	general	010100
+MechConn_ThermalStrap
+"k_Al*((0.006*0.015/0.0204)+(0.015*0.015/0.004))"
+"Conductance (W/K) Between the sides of the CFC camera lens to the side of the endcap facing space.
+Two A/l's to account for nonuniform cross-sectional area throughout.
+NOTE: This calc ignores contact resistance at the card and at the clamp.
+"
+"general"
+"010100"
+Power_CFCCard	0.5	Power of CFC card (in W)	general	010100
+Power_Detector	0.1	Power incident to detector (in W)	general	010100
+Power_HeatLoadAboveCFCCard	2	Power on card above CFC card	general	010100
+Power_OreSatLive	2.5	Power (W) for OreSat Live Card	general	010100
+Power_TEC	2	Power of CFC thermoelectric cooler (in W)	general	010100
+rho_Al	2700	Density of 6061-type2 Al	general	010100
+rho_Battery	2007.7		general	010100
+rho_Cu
+"8920"
+"Density of copper
+"
+"general"
+"010100"
+rho_PCB	2077	Density of PCB assuming 97.5% FR4, 2.5% Cu	general	010100
+RVT_Conductance	1.21		general	010100
+SolarCardConnector_Conductance	0.00558		general	010100
+Thickness_HeatSink	10	Thickness of Cu Heat Sink (in mm)	general	010100
+time_TransientFinal	4*hrPeriod	Total time to run transient simulation. Base case is set to four orbits.	general	010100
