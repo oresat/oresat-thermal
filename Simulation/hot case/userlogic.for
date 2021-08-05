@@ -248,10 +248,10 @@
        IF ( NSOL .LE. 1 ) THEN
            P__TD = P__TD * 0.50000000
        ELSE
-           T__TD = 0.25000000 * T(         487)
-     + + 0.25000000 * T(         507)
-     + + 0.25000000 * T(         513)
-     + + 0.25000000 * T(         520)
+           T__TD = 0.25000000 * T(         507)
+     + + 0.25000000 * T(         527)
+     + + 0.25000000 * T(         533)
+     + + 0.25000000 * T(         540)
            O__TD = -5.0000000
            F__TD = -6.0000000
            IF ( T__TD .GT. O__TD .OR.
@@ -268,16 +268,15 @@
        CALL TECUNITS( 'TPOWER' , 'W' )
        CALL TEC2( 'CFC_ASSEM' , NA(2046) , NA(2056) , NA(2051) , A(2041) , -3 ,
      + CU_2284 , V_2284 , P_2284 ,
-     + 1.50000000E-03 , 77 ,
-     + S_2284 , R_2284 , KK_2284 )
-       C__TD = T(         487) * 0.25000000
-     + + T(         507) * 0.25000000
-     + + T(         513) * 0.25000000
-     + + T(         520) * 0.25000000
-       H__TD = T(         486) * 0.25000000
-     + + T(         506) * 0.25000000
-     + + T(         512) * 0.25000000
-     + + T(         519) * 0.25000000
+     + 1.50000000E-03 , 77 , S_2284 , R_2284 , KK_2284 )
+       C__TD = T(         507) * 0.25000000
+     + + T(         527) * 0.25000000
+     + + T(         533) * 0.25000000
+     + + T(         540) * 0.25000000
+       H__TD = T(         506) * 0.25000000
+     + + T(         526) * 0.25000000
+     + + T(         532) * 0.25000000
+     + + T(         539) * 0.25000000
        CALL TECINFO( C__TD , H__TD , 1.50000000E-03 ,
      + S_2284 , R_2284 , KK_2284 ,
      + DT_2284 , IM_2284 , VM_2284 , QC_2284 ,
@@ -289,6 +288,10 @@
        END
        SUBROUTINE VA1_GLOBAL
        !DEC$ ATTRIBUTES DLLEXPORT::VA1_GLOBAL
+       RETURN
+       END
+       SUBROUTINE VA1_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::VA1_GLOBAL_INIT
        RETURN
        END
        SUBROUTINE VA10001
@@ -371,6 +374,10 @@
        END
        SUBROUTINE VA2_GLOBAL
        !DEC$ ATTRIBUTES DLLEXPORT::VA2_GLOBAL
+       RETURN
+       END
+       SUBROUTINE VA2_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::VA2_GLOBAL_INIT
        RETURN
        END
        SUBROUTINE VA20001
@@ -490,35 +497,55 @@
        use sf_interfaces
        USE USERREGISTER_MOD
        USE USERCOMMONDATA
-       Q(         456) = Q(         456) + 3.12500000E-02
-       Q(         457) = Q(         457) + 1.56250000E-02
-       Q(         458) = Q(         458) + 1.56250000E-02
-       Q(         459) = Q(         459) + 3.12500000E-02
-       Q(         460) = Q(         460) + 3.12500000E-02
-       Q(         461) = Q(         461) + 3.12500000E-02
-       Q(         462) = Q(         462) + 1.56250000E-02
-       Q(         463) = Q(         463) + 1.56250000E-02
-       Q(         464) = Q(         464) + 3.12500000E-02
-       Q(         465) = Q(         465) + 3.12500000E-02
-       Q(         466) = Q(         466) + 7.81250000E-03
-       Q(         467) = Q(         467) + 3.12500000E-02
-       Q(         468) = Q(         468) + 1.56250000E-02
-       Q(         469) = Q(         469) + 7.81250000E-03
-       Q(         470) = Q(         470) + 1.56250000E-02
-       Q(         471) = Q(         471) + 1.56250000E-02
-       Q(         472) = Q(         472) + 1.56250000E-02
-       Q(         473) = Q(         473) + 7.81250000E-03
-       Q(         474) = Q(         474) + 1.56250000E-02
-       Q(         475) = Q(         475) + 1.56250000E-02
-       Q(         476) = Q(         476) + 1.56250000E-02
-       Q(         477) = Q(         477) + 7.81250000E-03
-       Q(         478) = Q(         478) + 1.56250000E-02
-       Q(         479) = Q(         479) + 3.12500000E-02
-       Q(         480) = Q(         480) + 3.12500000E-02
-       Q(         482) = Q(         482) + 2.50000000E-02
+       Q(         456) = Q(         456) + 1.38888900E-02
+       Q(         457) = Q(         457) + 1.38888900E-02
+       Q(         458) = Q(         458) + 1.38888900E-02
+       Q(         459) = Q(         459) + 1.38888900E-02
+       Q(         460) = Q(         460) + 1.38888900E-02
+       Q(         461) = Q(         461) + 6.94444400E-03
+       Q(         462) = Q(         462) + 6.94444400E-03
+       Q(         463) = Q(         463) + 1.38888900E-02
+       Q(         464) = Q(         464) + 1.38888900E-02
+       Q(         465) = Q(         465) + 1.38888900E-02
+       Q(         466) = Q(         466) + 3.47222200E-03
+       Q(         467) = Q(         467) + 1.38888900E-02
+       Q(         468) = Q(         468) + 1.38888900E-02
+       Q(         469) = Q(         469) + 6.94444400E-03
+       Q(         470) = Q(         470) + 6.94444400E-03
+       Q(         471) = Q(         471) + 1.38888900E-02
+       Q(         472) = Q(         472) + 1.38888900E-02
+       Q(         473) = Q(         473) + 1.38888900E-02
+       Q(         474) = Q(         474) + 1.38888900E-02
+       Q(         475) = Q(         475) + 1.38888900E-02
+       Q(         476) = Q(         476) + 1.38888900E-02
+       Q(         477) = Q(         477) + 6.94444400E-03
+       Q(         478) = Q(         478) + 1.38888900E-02
+       Q(         479) = Q(         479) + 2.08333300E-02
+       Q(         480) = Q(         480) + 1.38888900E-02
+       Q(         481) = Q(         481) + 1.38888900E-02
+       Q(         482) = Q(         482) + 2.08333300E-02
+       Q(         483) = Q(         483) + 6.94444400E-03
+       Q(         484) = Q(         484) + 6.94444400E-03
+       Q(         485) = Q(         485) + 2.08333300E-02
+       Q(         486) = Q(         486) + 1.38888900E-02
+       Q(         487) = Q(         487) + 1.38888900E-02
+       Q(         488) = Q(         488) + 1.38888900E-02
+       Q(         489) = Q(         489) + 1.38888900E-02
+       Q(         490) = Q(         490) + 6.94444400E-03
+       Q(         491) = Q(         491) + 3.47222200E-03
+       Q(         492) = Q(         492) + 6.94444400E-03
+       Q(         493) = Q(         493) + 6.94444400E-03
+       Q(         494) = Q(         494) + 6.94444400E-03
+       Q(         495) = Q(         495) + 6.94444400E-03
+       Q(         496) = Q(         496) + 6.94444400E-03
+       Q(         497) = Q(         497) + 3.47222200E-03
+       Q(         498) = Q(         498) + 6.94444400E-03
+       Q(         499) = Q(         499) + 3.47222200E-03
+       Q(         500) = Q(         500) + 6.94444400E-03
        Q(         502) = Q(         502) + 2.50000000E-02
-       Q(         508) = Q(         508) + 2.50000000E-02
-       Q(         515) = Q(         515) + 2.50000000E-02
+       Q(         522) = Q(         522) + 2.50000000E-02
+       Q(         528) = Q(         528) + 2.50000000E-02
+       Q(         535) = Q(         535) + 2.50000000E-02
        CALL QVTIME('CFC_ASSEM')
        CALL GVTIME('CFC_ASSEM')
        CALL CVTIME('CFC_ASSEM')
@@ -528,7 +555,7 @@
        use sf_interfaces
        USE USERREGISTER_MOD
        USE USERCOMMONDATA
-      CALL LOADQ_C2A1_1624923482
+      CALL LOADQ_C2A1_1628201215
        CALL QVTIME('C2A1')
        CALL GVTIME('C2A1')
        CALL CVTIME('C2A1')
@@ -536,6 +563,10 @@
        END
        SUBROUTINE VA0_GLOBAL
        !DEC$ ATTRIBUTES DLLEXPORT::VA0_GLOBAL
+       RETURN
+       END
+       SUBROUTINE VA0_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::VA0_GLOBAL_INIT
        RETURN
        END
        SUBROUTINE VA00001
@@ -628,12 +659,24 @@
        !DEC$ ATTRIBUTES DLLEXPORT::FL1_GLOBAL
        RETURN
        END
+       SUBROUTINE FL1_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::FL1_GLOBAL_INIT
+       RETURN
+       END
        SUBROUTINE FL2_GLOBAL
        !DEC$ ATTRIBUTES DLLEXPORT::FL2_GLOBAL
        RETURN
        END
+       SUBROUTINE FL2_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::FL2_GLOBAL_INIT
+       RETURN
+       END
        SUBROUTINE FL0_GLOBAL
        !DEC$ ATTRIBUTES DLLEXPORT::FL0_GLOBAL
+       RETURN
+       END
+       SUBROUTINE FL0_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::FL0_GLOBAL_INIT
        RETURN
        END
        SUBROUTINE OPER
@@ -659,7 +702,6 @@
        NBNAM(  13) = 'C2A1                            '
        NBNAM(  14) = 'C2A0                            '
        CALL BUILD ('DEFAULT                         ',  14, NBNAM)
-       CALL DPCS
        CALL TDPOSTBL
        CALL TRANSIENT
        CALL TDHTOT
@@ -681,6 +723,10 @@
        ELSEIF(LOOPCT.GT.0)THEN
            CALL SAVE('ALL',0)
        ENDIF
+       RETURN
+       END
+       SUBROUTINE OUT_GLOBAL_INIT
+       !DEC$ ATTRIBUTES DLLEXPORT::OUT_GLOBAL_INIT
        RETURN
        END
        SUBROUTINE OUT0001
@@ -779,7 +825,7 @@
        USE USERCOMMONDATA
       RETURN
       END
-      RECURSIVE SUBROUTINE LOADQ_C2A1_1624923482
+      RECURSIVE SUBROUTINE LOADQ_C2A1_1628201215
       USE BINARY_READER_MOD
        use sf_interfaces
        USE USERREGISTER_MOD
@@ -789,17 +835,19 @@
       DATA NVAR__TD /-1/
       SAVE NVAR__TD, DATA__TD
       IF( NVAR__TD  .LT.  0 ) THEN
-          ALLOCATE (DATA__TD(22124))
+          ALLOCATE (DATA__TD(22176))
           CALL LOAD_BINARY_SINGLET_ARRAYS(
      +        'C2A1.hra_bin'
      +    , DATA__TD)
           NVAR__TD = 1
       ENDIF
-      CALL LOADQ('C2A1',1,113,
-     +    DATA__TD(1+1658),
-     +    DATA__TD(1+3316),
+      DATA__TD(1 + 5040 + 1) =
+     + A(2063+1)
+      CALL LOADQ('C2A1',1,114,
+     +    DATA__TD(1+1680),
+     +    DATA__TD(1+3360),
      +    DATA__TD(1),
-     +    DATA__TD(1+4974),
+     +    DATA__TD(1+5040),
      + A(2061) )
       RETURN
       END

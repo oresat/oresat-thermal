@@ -1,4 +1,4 @@
-NODES	PROPERTY NAME	EMISS	ALPHA	IR TRANS	SOL TRANS	IR TSPEC	SOL TSPEC	IR REFL SPEC	SOL REFL SPEC	..\OreSat Main v12\rcoptics.rco
+NODES	PROPERTY NAME	EMISS	ALPHA	IR TRANS	SOL TRANS	IR TSPEC	SOL TSPEC	IR REFL SPEC	SOL REFL SPEC	rcoptics.rco
 BATTERY.1	Annodized Black Aluminum	0.75	0.54							FD Brick-XMIN::1172, FD Brick-YMIN::1172, FD Brick-ZMIN::1172
 BATTERY.2	Annodized Black Aluminum	0.75	0.54							FD Brick-YMIN::1172, FD Brick-ZMIN::1172
 BATTERY.3	Annodized Black Aluminum	0.75	0.54							FD Brick-YMIN::1172, FD Brick-ZMIN::1172
@@ -472,10 +472,30 @@ CFC_ASSEM.893	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.896	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.899	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.902	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.903	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.904	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.905	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.906	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.907	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.908	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.909	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.910	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.911	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.912	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.913	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.914	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.915	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.916	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.917	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.918	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.919	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.920	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.921	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.922	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.923	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.924	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.925	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.926	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.933	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.976	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 CFC_ASSEM.1019	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
@@ -499,13 +519,18 @@ CFC_ASSEM.1038	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1039	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1040	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1042	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1043	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
+CFC_ASSEM.1043	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF, Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1044	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1044	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
 CFC_ASSEM.1045	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1046	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
+CFC_ASSEM.1046	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF, Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1047	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1047	DEFAULT	1.	1.							Cylinder-TOP::2156, Cylinder-BOT::2156
+CFC_ASSEM.1048	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1048	DEFAULT	1.	1.							Rect-TOP::21C1, Rect-BOT::21C1
+CFC_ASSEM.1049	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1049	DEFAULT	1.	1.							Rect-TOP::21F7, Rect-BOT::21F7
+CFC_ASSEM.1050	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1050	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
 CFC_ASSEM.1051	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1052	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF

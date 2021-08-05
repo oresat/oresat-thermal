@@ -1,0 +1,12 @@
+cp_Cu - Symbol may have a units problem as it has been used with different units
+       J/kg/C - units used by the following objects:
+               Thermo-Copper::TDP
+       m - units used by the following objects:
+              Rect-Thermal Mass[CFC_ASSEM]::2229 
+
+rho_Cu - Symbol may have a units problem as it has been used with different units
+       kg/m^3 - units used by the following objects:
+              Rect-Thermal Mass[CFC_ASSEM]::2229  Thermo-Copper::TDP
+       m - units used by the following objects:
+              Rect-Thermal Mass[CFC_ASSEM]::2229 
+

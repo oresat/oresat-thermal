@@ -1364,79 +1364,143 @@ Node: CFC_ASSEM.32
       CFC_ASSEM.32::29B2
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Node: CFC_ASSEM.851
-      CFC_ASSEM.851::1BF7
+      CFC_ASSEM.851::2B40
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.854
-      CFC_ASSEM.854::1BF8
+      CFC_ASSEM.854::2B41
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.857
-      CFC_ASSEM.857::1BF9
+      CFC_ASSEM.857::2B42
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.860
-      CFC_ASSEM.860::1BFA
+      CFC_ASSEM.860::2B43
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.863
-      CFC_ASSEM.863::1BFB
+      CFC_ASSEM.863::2B44
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.866
-      CFC_ASSEM.866::1BFC
+      CFC_ASSEM.866::2B45
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.869
-      CFC_ASSEM.869::1BFD
+      CFC_ASSEM.869::2B46
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.872
-      CFC_ASSEM.872::1BFE
+      CFC_ASSEM.872::2B47
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.875
-      CFC_ASSEM.875::1BFF
+      CFC_ASSEM.875::2B48
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.878
-      CFC_ASSEM.878::1C00
+      CFC_ASSEM.878::2B49
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.881
-      CFC_ASSEM.881::1BEF
+      CFC_ASSEM.881::2B38
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.884
-      CFC_ASSEM.884::1C01
+      CFC_ASSEM.884::2B4A
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.887
-      CFC_ASSEM.887::1C02
+      CFC_ASSEM.887::2B4B
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.890
-      CFC_ASSEM.890::1C03
+      CFC_ASSEM.890::2B4C
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.893
-      CFC_ASSEM.893::1C04
+      CFC_ASSEM.893::2B4D
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.896
-      CFC_ASSEM.896::1C05
+      CFC_ASSEM.896::2B4E
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.899
-      CFC_ASSEM.899::1C06
+      CFC_ASSEM.899::2B4F
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.902
-      CFC_ASSEM.902::1C07
+      CFC_ASSEM.902::2B50
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.903
+      CFC_ASSEM.903::2B51
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.904
+      CFC_ASSEM.904::2B52
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.905
-      CFC_ASSEM.905::1BF0
+      CFC_ASSEM.905::2B39
+      CFC_ASSEM.905::2B53
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.906
+      CFC_ASSEM.906::2B54
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.907
+      CFC_ASSEM.907::2B55
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.908
-      CFC_ASSEM.908::1BF1
+      CFC_ASSEM.908::2B3A
+      CFC_ASSEM.908::2B56
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.909
+      CFC_ASSEM.909::2B57
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.910
+      CFC_ASSEM.910::2B58
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.911
-      CFC_ASSEM.911::1BF2
+      CFC_ASSEM.911::2B3B
+      CFC_ASSEM.911::2B59
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.912
+      CFC_ASSEM.912::2B5A
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.913
+      CFC_ASSEM.913::2B5B
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.914
-      CFC_ASSEM.914::1BF3
+      CFC_ASSEM.914::2B3C
+      CFC_ASSEM.914::2B5C
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.915
+      CFC_ASSEM.915::2B5D
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.916
+      CFC_ASSEM.916::2B5E
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.917
+      CFC_ASSEM.917::2B5F
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.918
+      CFC_ASSEM.918::2B60
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.919
+      CFC_ASSEM.919::2B61
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.920
+      CFC_ASSEM.920::2B62
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.921
+      CFC_ASSEM.921::2B63
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.922
+      CFC_ASSEM.922::2B64
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.923
+      CFC_ASSEM.923::2B65
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.924
+      CFC_ASSEM.924::2B66
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.925
+      CFC_ASSEM.925::2B67
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+Node: CFC_ASSEM.926
+      CFC_ASSEM.926::2B68
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.933
-      CFC_ASSEM.933::1BF4
+      CFC_ASSEM.933::2B3D
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.976
-      CFC_ASSEM.976::1BF5
+      CFC_ASSEM.976::2B3E
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.1019
-      CFC_ASSEM.1019::1BF6
+      CFC_ASSEM.1019::2B3F
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Node: CFC_ASSEM.1020
       CFC_ASSEM.1020::2177
@@ -1445,7 +1509,7 @@ Node: CFC_ASSEM.1021
       CFC_ASSEM.1021::2189
       Rect-Detector[CFC_ASSEM]::2187
 Node: CFC_ASSEM.1023
-      CFC_ASSEM.1023::222B
+      CFC_ASSEM.1023::2B1F
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1024
       CFC_ASSEM.1024::28B3
@@ -1460,70 +1524,86 @@ Node: CFC_ASSEM.1027
       CFC_ASSEM.1027::29E0
       Rect-TEC Cold Side[CFC_ASSEM]::21F7
 Node: CFC_ASSEM.1028
-      CFC_ASSEM.1028::2234
+      CFC_ASSEM.1028::2B28
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1029
       CFC_ASSEM.1029::28BC
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1030
-      CFC_ASSEM.1030::2235
+      CFC_ASSEM.1030::2B29
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1031
       CFC_ASSEM.1031::28BD
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1032
-      CFC_ASSEM.1032::2236
+      CFC_ASSEM.1032::2B2A
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1033
       CFC_ASSEM.1033::28BE
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1035
-      CFC_ASSEM.1035::2237
+      CFC_ASSEM.1035::2B2B
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1036
       CFC_ASSEM.1036::28BF
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1037
-      CFC_ASSEM.1037::2238
+      CFC_ASSEM.1037::2B2C
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1038
       CFC_ASSEM.1038::28C0
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1039
-      CFC_ASSEM.1039::2239
+      CFC_ASSEM.1039::2B2D
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1040
       CFC_ASSEM.1040::28C1
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1042
-      CFC_ASSEM.1042::223A
+      CFC_ASSEM.1042::2B2E
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1043
       CFC_ASSEM.1043::28C2
+      CFC_ASSEM.1043::2B2F
       Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1044
       CFC_ASSEM.1044::218A
+      CFC_ASSEM.1044::2B30
       Rect-Detector[CFC_ASSEM]::2187
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1045
-      CFC_ASSEM.1045::222C
+      CFC_ASSEM.1045::2B20
+      CFC_ASSEM.1045::2B31
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1046
       CFC_ASSEM.1046::28B4
+      CFC_ASSEM.1046::2B32
       Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1047
       CFC_ASSEM.1047::2994
+      CFC_ASSEM.1047::2B33
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1048
       CFC_ASSEM.1048::29DD
+      CFC_ASSEM.1048::2B34
       Rect-TEC Hot Side[CFC_ASSEM]::21C1
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1049
       CFC_ASSEM.1049::29E1
+      CFC_ASSEM.1049::2B35
       Rect-TEC Cold Side[CFC_ASSEM]::21F7
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1050
       CFC_ASSEM.1050::218B
+      CFC_ASSEM.1050::2B36
       Rect-Detector[CFC_ASSEM]::2187
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1051
-      CFC_ASSEM.1051::222D
+      CFC_ASSEM.1051::2B21
+      CFC_ASSEM.1051::2B37
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1052
       CFC_ASSEM.1052::28B5
@@ -1544,7 +1624,7 @@ Node: CFC_ASSEM.1057
       CFC_ASSEM.1057::218C
       Rect-Detector[CFC_ASSEM]::2187
 Node: CFC_ASSEM.1059
-      CFC_ASSEM.1059::222E
+      CFC_ASSEM.1059::2B22
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1060
       CFC_ASSEM.1060::28B6
@@ -1562,13 +1642,13 @@ Node: CFC_ASSEM.1064
       CFC_ASSEM.1064::217B
       Disk-Lens[CFC_ASSEM]::2175
 Node: CFC_ASSEM.1065
-      CFC_ASSEM.1065::222F
+      CFC_ASSEM.1065::2B23
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1066
       CFC_ASSEM.1066::28B7
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1067
-      CFC_ASSEM.1067::2230
+      CFC_ASSEM.1067::2B24
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1068
       CFC_ASSEM.1068::28B8
@@ -1577,7 +1657,7 @@ Node: CFC_ASSEM.1069
       CFC_ASSEM.1069::217D
       Disk-Lens[CFC_ASSEM]::2175
 Node: CFC_ASSEM.1070
-      CFC_ASSEM.1070::2231
+      CFC_ASSEM.1070::2B25
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1071
       CFC_ASSEM.1071::28B9
@@ -1586,13 +1666,13 @@ Node: CFC_ASSEM.1072
       CFC_ASSEM.1072::217E
       Disk-Lens[CFC_ASSEM]::2175
 Node: CFC_ASSEM.1073
-      CFC_ASSEM.1073::2232
+      CFC_ASSEM.1073::2B26
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1074
       CFC_ASSEM.1074::28BA
       Rect-Lens Mount[CFC_ASSEM]::21DF
 Node: CFC_ASSEM.1075
-      CFC_ASSEM.1075::2233
+      CFC_ASSEM.1075::2B27
       Rect-Thermal Mass[CFC_ASSEM]::2229
 Node: CFC_ASSEM.1076
       CFC_ASSEM.1076::28BB
@@ -6639,134 +6719,100 @@ Conductor: CARDS.576
       Rect-(-z) Reaction Wheel[CARDS]::1C81
 Conductor: CARDS.577
       Rect-(-z) Reaction Wheel[CARDS]::1C81
-Conductor: CFC_ASSEM.47
-      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
-Conductor: CFC_ASSEM.48
-      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
-Conductor: CFC_ASSEM.49
-      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
-Conductor: CFC_ASSEM.50
-      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
-Conductor: CFC_ASSEM.51
-      Rect-Pedestal[CFC_ASSEM]::21A1
-Conductor: CFC_ASSEM.52
-      Rect-Pedestal[CFC_ASSEM]::21A1
-Conductor: CFC_ASSEM.53
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.54
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.55
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.56
-      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
-Conductor: CFC_ASSEM.57
-      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
-Conductor: CFC_ASSEM.58
-      Rect-Pedestal[CFC_ASSEM]::21A1
-Conductor: CFC_ASSEM.59
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.60
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.61
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
-Conductor: CFC_ASSEM.62
-      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
-Conductor: CFC_ASSEM.63
-      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.64
-      Rect-Pedestal[CFC_ASSEM]::21A1
+      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
 Conductor: CFC_ASSEM.65
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
 Conductor: CFC_ASSEM.66
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
 Conductor: CFC_ASSEM.67
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
 Conductor: CFC_ASSEM.68
-      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
+      Cond-Lens to -Z endcap[CFC_ASSEM]::29B4
 Conductor: CFC_ASSEM.69
-      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
+      Cond-Lens to -Z endcap[CFC_ASSEM]::29B6
 Conductor: CFC_ASSEM.70
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      Cond-Lens to -Z endcap[CFC_ASSEM]::29B5
 Conductor: CFC_ASSEM.71
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      Cond-Lens to -Z endcap[CFC_ASSEM]::29B3
 Conductor: CFC_ASSEM.72
-      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
+      Rect-Pedestal[CFC_ASSEM]::21A1
 Conductor: CFC_ASSEM.73
-      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
+      Rect-Pedestal[CFC_ASSEM]::21A1
 Conductor: CFC_ASSEM.74
-      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.75
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.76
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.77
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
 Conductor: CFC_ASSEM.78
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.79
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.80
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.81
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.82
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-Pedestal[CFC_ASSEM]::21A1
 Conductor: CFC_ASSEM.83
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.84
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.85
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.86
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.87
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.88
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
 Conductor: CFC_ASSEM.89
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.90
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.91
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Rect-Pedestal[CFC_ASSEM]::21A1
 Conductor: CFC_ASSEM.92
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.93
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.94
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.95
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.96
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.97
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.98
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.99
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
 Conductor: CFC_ASSEM.100
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.101
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.102
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 Conductor: CFC_ASSEM.103
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.104
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.105
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.106
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
 Conductor: CFC_ASSEM.107
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
 Conductor: CFC_ASSEM.108
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.109
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.110
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.111
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.112
@@ -6774,23 +6820,23 @@ Conductor: CFC_ASSEM.112
 Conductor: CFC_ASSEM.113
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.114
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.115
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.116
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.117
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.118
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.119
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.120
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.121
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.122
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
 Conductor: CFC_ASSEM.123
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.124
@@ -6802,105 +6848,105 @@ Conductor: CFC_ASSEM.126
 Conductor: CFC_ASSEM.127
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.128
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.129
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.130
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.131
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.132
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.133
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.134
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.135
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.136
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.137
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.138
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.139
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.140
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.141
       Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.142
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.143
-      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.144
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.145
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.146
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.147
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.148
-      Cond-Thermal mass stand off[CFC_ASSEM]::29D1
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.149
-      Cond-Lens mount/CFC card[CFC_ASSEM]::29DA
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.150
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.151
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.152
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.153
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.154
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.155
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.156
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.157
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.158
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.159
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.160
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.161
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.162
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.163
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.164
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.165
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.166
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.167
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.168
-      Cond-Thermal mass stand off[CFC_ASSEM]::29D3
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.169
-      Cond-Lens mount/CFC card[CFC_ASSEM]::29D8
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.170
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.171
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.172
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.173
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.174
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
 Conductor: CFC_ASSEM.175
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.176
-      Cond-Thermal mass stand off[CFC_ASSEM]::29D2
+      Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
 Conductor: CFC_ASSEM.177
-      Cond-Lens mount/CFC card[CFC_ASSEM]::29DB
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.178
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.179
@@ -6914,7 +6960,7 @@ Conductor: CFC_ASSEM.182
 Conductor: CFC_ASSEM.183
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.184
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B69
 Conductor: CFC_ASSEM.185
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.186
@@ -6922,179 +6968,408 @@ Conductor: CFC_ASSEM.186
 Conductor: CFC_ASSEM.187
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.188
-      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B6A
 Conductor: CFC_ASSEM.189
       Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.190
-      Cond-Thermal mass stand off[CFC_ASSEM]::29D4
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.191
-      Cond-Lens mount/CFC card[CFC_ASSEM]::29D9
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.192
-      Disk-Lens[CFC_ASSEM]::2175
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B6B
 Conductor: CFC_ASSEM.193
-      Disk-Lens[CFC_ASSEM]::2175
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.194
-      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.195
-      Rect-Detector[CFC_ASSEM]::2187
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.196
-      Rect-Detector[CFC_ASSEM]::2187
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.197
-      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CE
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.198
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.199
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.200
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.201
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.202
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.203
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.204
-      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.205
-      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.206
-      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.207
-      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.208
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.209
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.210
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.211
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.212
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.213
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Cond-Thermal Mass to CFC card[CFC_ASSEM]::2B6C
 Conductor: CFC_ASSEM.214
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.215
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.216
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.217
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.218
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.219
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.220
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.221
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.222
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.223
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.224
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.225
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.226
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.227
-      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CD
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B6D
 Conductor: CFC_ASSEM.228
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.229
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.230
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.231
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.232
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.233
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.234
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.235
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.236
-      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29D0
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.237
-      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.238
-      Rect-Detector[CFC_ASSEM]::2187
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.239
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.240
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.241
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.242
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.243
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.244
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B6E
 Conductor: CFC_ASSEM.245
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.246
-      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.247
-      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.248
-      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.249
-      Rect-Detector[CFC_ASSEM]::2187
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.250
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.251
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.252
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.253
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B71
 Conductor: CFC_ASSEM.254
-      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.255
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.256
-      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B70
 Conductor: CFC_ASSEM.257
-      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.258
-      Disk-Lens[CFC_ASSEM]::2175
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.259
-      Disk-Lens[CFC_ASSEM]::2175
+      Cond-Thermal Mass to CFC Card[CFC_ASSEM]::2B6F
 Conductor: CFC_ASSEM.260
-      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.261
-      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.262
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.263
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.264
-      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.265
-      Disk-Lens[CFC_ASSEM]::2175
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.266
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.267
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.268
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.269
-      Rect-Lens Mount[CFC_ASSEM]::21DF
+      Rect-(-z) CFC PCB[CFC_ASSEM]::1BEE
 Conductor: CFC_ASSEM.270
-      Rect-Thermal Mass[CFC_ASSEM]::2229
-Conductor: CFC_ASSEM.271
-      Rect-Lens Mount[CFC_ASSEM]::21DF
-Conductor: CFC_ASSEM.272
       Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.271
+      Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.272
+      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
 Conductor: CFC_ASSEM.273
-      Rect-Thermal Mass[CFC_ASSEM]::2229
+      Rect-Detector[CFC_ASSEM]::2187
 Conductor: CFC_ASSEM.274
+      Rect-Detector[CFC_ASSEM]::2187
+Conductor: CFC_ASSEM.275
+      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CE
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.276
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.277
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.278
       Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.279
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.280
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+Conductor: CFC_ASSEM.281
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.282
+      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+Conductor: CFC_ASSEM.283
+      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+Conductor: CFC_ASSEM.284
+      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+Conductor: CFC_ASSEM.285
+      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+Conductor: CFC_ASSEM.286
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.287
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.288
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.289
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.290
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.291
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.292
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.293
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.294
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.295
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.296
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.297
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.298
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.299
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.300
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.301
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.302
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.303
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.304
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.305
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.306
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.307
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.308
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.309
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.310
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.311
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.312
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.313
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.314
+      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CD
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.315
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.316
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.317
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.318
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.319
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.320
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.321
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.322
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.323
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.324
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.325
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.326
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.327
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.328
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.329
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.330
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.331
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.332
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.333
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.334
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.335
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.336
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.337
+      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29D0
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.338
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.339
+      Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+Conductor: CFC_ASSEM.340
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.341
+      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.342
+      Rect-Detector[CFC_ASSEM]::2187
+Conductor: CFC_ASSEM.343
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.344
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.345
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.346
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.347
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.348
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.349
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.350
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.351
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+Conductor: CFC_ASSEM.352
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.353
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.354
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.355
+      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+Conductor: CFC_ASSEM.356
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.357
+      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+Conductor: CFC_ASSEM.358
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.359
+      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+Conductor: CFC_ASSEM.360
+      Rect-Detector[CFC_ASSEM]::2187
+Conductor: CFC_ASSEM.361
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.362
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.363
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.364
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.365
+      Cylinder-Cirrus Flus Camera[CFC_ASSEM]::2156
+Conductor: CFC_ASSEM.366
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.367
+      Rect-TEC Hot Side[CFC_ASSEM]::21C1
+Conductor: CFC_ASSEM.368
+      Rect-TEC Cold Side[CFC_ASSEM]::21F7
+Conductor: CFC_ASSEM.369
+      Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.370
+      Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.371
+      Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+Conductor: CFC_ASSEM.372
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.373
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.374
+      Cond-Lens Mount/CFC card/thermal mass Fastener[CFC_ASSEM]::29CF
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.375
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.376
+      Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+Conductor: CFC_ASSEM.377
+      Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.378
+      Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
+Conductor: CFC_ASSEM.379
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.380
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.381
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.382
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.383
+      Disk-Lens[CFC_ASSEM]::2175
+Conductor: CFC_ASSEM.384
+      Rect-Thermal Mass[CFC_ASSEM]::2229
+Conductor: CFC_ASSEM.385
+      Rect-Lens Mount[CFC_ASSEM]::21DF
+Conductor: CFC_ASSEM.386
+      Rect-Thermal Mass[CFC_ASSEM]::2229
 Conductor: FORTY_PIN_CONNECTOR.1
       Edge Contactor-Top Battery - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::2059
 Conductor: FORTY_PIN_CONNECTOR.2
@@ -7192,18 +7467,30 @@ Conductor: FORTY_PIN_CONNECTOR.47
 Conductor: FORTY_PIN_CONNECTOR.48
       Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
 Conductor: FORTY_PIN_CONNECTOR.49
-      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
 Conductor: FORTY_PIN_CONNECTOR.50
-      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
 Conductor: FORTY_PIN_CONNECTOR.51
-      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
 Conductor: FORTY_PIN_CONNECTOR.52
       Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
 Conductor: FORTY_PIN_CONNECTOR.53
       Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
 Conductor: FORTY_PIN_CONNECTOR.54
-      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
+      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
 Conductor: FORTY_PIN_CONNECTOR.55
+      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
+Conductor: FORTY_PIN_CONNECTOR.56
+      Edge Contactor-OTRA - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205C
+Conductor: FORTY_PIN_CONNECTOR.57
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
+Conductor: FORTY_PIN_CONNECTOR.58
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
+Conductor: FORTY_PIN_CONNECTOR.59
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
+Conductor: FORTY_PIN_CONNECTOR.60
+      Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
+Conductor: FORTY_PIN_CONNECTOR.61
       Edge Contactor-CFC - 40 Pin to Backplane[FORTY_PIN_CONNECTOR][0]::205D
 Conductor: FRAMES.1
       Rect-(+y) frame[FRAMES]::254
@@ -10167,14 +10454,6 @@ Conductor: FRAMES.1480
       Rect-(+x) frame[FRAMES]::252
 Conductor: MAIN.1
       Cond[MAIN]::206A
-Conductor: MAIN.2
-      Cond[MAIN]::29B4
-Conductor: MAIN.3
-      Cond[MAIN]::29B6
-Conductor: MAIN.4
-      Cond[MAIN]::29B5
-Conductor: MAIN.5
-      Cond[MAIN]::29B3
 Conductor: MECHANICAL_CONNECTIONS.1
       Edge Contactor-Top battery card to frames (+X)[MECHANICAL_CONNECTIONS][1]::11D6
 Conductor: MECHANICAL_CONNECTIONS.2
@@ -11054,23 +11333,23 @@ Conductor: MECHANICAL_CONNECTIONS.438
 Conductor: MECHANICAL_CONNECTIONS.439
       Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.440
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.441
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.442
       Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.443
       Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.444
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.445
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.446
       Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.447
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.448
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.449
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.450
@@ -11082,25 +11361,25 @@ Conductor: MECHANICAL_CONNECTIONS.452
 Conductor: MECHANICAL_CONNECTIONS.453
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.454
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.455
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.456
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.457
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.458
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.459
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.460
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.461
-      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: MECHANICAL_CONNECTIONS.462
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.463
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.464
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.465
@@ -11124,8 +11403,20 @@ Conductor: MECHANICAL_CONNECTIONS.473
 Conductor: MECHANICAL_CONNECTIONS.474
       Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.475
-      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
 Conductor: MECHANICAL_CONNECTIONS.476
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+Conductor: MECHANICAL_CONNECTIONS.477
+      Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
+Conductor: MECHANICAL_CONNECTIONS.478
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+Conductor: MECHANICAL_CONNECTIONS.479
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+Conductor: MECHANICAL_CONNECTIONS.480
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+Conductor: MECHANICAL_CONNECTIONS.481
+      Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
+Conductor: MECHANICAL_CONNECTIONS.482
       Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
 Conductor: SOLARCARDS_CONNECTOR.1
       Cond[SOLARCARDS_CONNECTOR]::1AC4
@@ -13172,13 +13463,53 @@ Heat Load: CFC_ASSEM.899
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.902
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.903
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.904
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.905
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.906
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.907
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.908
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.909
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.910
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.911
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.912
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.913
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.914
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.915
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.916
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.917
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.918
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.919
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.920
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.921
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.922
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.923
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.924
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.925
+      Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+Heat Load: CFC_ASSEM.926
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
 Heat Load: CFC_ASSEM.933
       Heat Load-Loading on CFC card[CFC_ASSEM]::2A41

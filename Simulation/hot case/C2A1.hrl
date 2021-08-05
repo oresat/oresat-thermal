@@ -24,9 +24,9 @@ C     Array of steady state values
 C     Time array
 C     Scale array where heating rates can be scaled
 C
-F     CALL LOADQ_C2A1_1624923482
+F     CALL LOADQ_C2A1_1628201215
 HEADER SUBROUTINE
-F     RECURSIVE SUBROUTINE LOADQ_C2A1_1624923482
+F     RECURSIVE SUBROUTINE LOADQ_C2A1_1628201215
 F     USE BINARY_READER_MOD
       CALL COMMON
 F     INTEGER NVAR__TD
@@ -34,17 +34,19 @@ F     REAL, ALLOCATABLE ::  DATA__TD(:)
 F     DATA NVAR__TD /-1/
 F     SAVE NVAR__TD, DATA__TD
 F     IF( NVAR__TD .LT. 0 ) THEN
-F         ALLOCATE (DATA__TD(22124))
+F         ALLOCATE (DATA__TD(22176))
 F         CALL LOAD_BINARY_SINGLET_ARRAYS(
 F    +        'C2A1.hra_bin'
 F    +    , DATA__TD)
 F         NVAR__TD = 1
 F     ENDIF
-F     CALL LOADQ('C2A1',1,113,
-F    +    DATA__TD(1+1658),
-F    +    DATA__TD(1+3316),
+F     DATA__TD(1 + 5040 + 1) = 
+M    +     C2A1.A(5+1)
+F     CALL LOADQ('C2A1',1,114,
+F    +    DATA__TD(1+1680),
+F    +    DATA__TD(1+3360),
 F    +    DATA__TD(1),
-F    +    DATA__TD(1+4974),
+F    +    DATA__TD(1+5040),
 M    +    C2A1.A4)
 F     RETURN
 F     END

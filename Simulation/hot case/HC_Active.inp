@@ -12,7 +12,6 @@ TITLE SimpleOreSat_v13.dwg - HC_Active
 HEADER OPERATION DATA
       CALL TDPREBL   $ Place Before BUILD, Code in Subroutine data
 BUILD ALL
-      CALL DPCS $ Enables NODMAP in Model Browser
       CALL TDPOSTBL   $ Place After BUILD, Code in Subroutine data
 
       CALL TRANSIENT
