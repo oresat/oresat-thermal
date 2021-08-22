@@ -1,0 +1,63 @@
+[ AutoCAD - Thu Aug 19 17:37:34 2021  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Overriding 3 symbol values for this case set
+
+Calculating SINDA/FLUINT data
+Calculating Thermal Analyzer Input took 0.99 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel BACKPLANE_TO_FRAME...
+Outputting data for submodel BATTERY...
+Outputting data for submodel CARDS...
+Outputting data for submodel CFC_ASSEM...
+Outputting data for submodel FORTY_PIN_CONNECTOR...
+Outputting data for submodel FRAMES...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel MAIN...
+Outputting data for submodel MECHANICAL_CONNECTIONS...
+Outputting data for submodel SOLARCARDS_CONNECTOR...
+Outputting data for submodel SOLAR_CARDS...
+Outputting data for submodel SOLAR_PANELS...
+Outputting data for submodel SPACE...
+    Number of nodes:      1703
+    Number of conductors: 4116
+    Number of thermoelectric coolers:    1
+
+
+*** RADCAD RAYTRACE RADK RUN START for database BASE-rcoptics.rck
+Deleting old database named BASE-rcoptics.rck
+Creating new database named BASE-rcoptics.rck
+Using regular optical properties
+Time to calculate radk = 6.09 sec
+Outputting SINDA/FLUINT radks to file C1A0.k...
+Total elapsed time for calculations and output = 7.11 sec
+    1690 calculation nodes
+    54151 radks were output, 175007 radks were filtered out
+    3 nodes(0%) have bij sum + bij inactive < .9
+        This may be ok, but could be reduced by lowering the BIJ Cutoff on the RADK Output Page
+    25000 average number of rays per node shot
+    7 nodes(0%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlapping surfaces greater than 10.0% found in BASE
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database BASE-75beta-rcoptics.rch
+Fast Spin about Vector 0.000000 0.000000 1.000000 is enabled
+Deleting old database named BASE-75beta-rcoptics.rch
+Creating new database named BASE-75beta-rcoptics.rch
+Using regular optical properties
+Start and End position calc already done
+Total Elapsed time for heating rate calculations = 59.93 sec
+Outputting SINDA/FLUINT heating rate data to files:
+    C1A1.hra for arrays and C1A1.hrl for logic...
+Total Elapsed time for heating rate calculations and output = 60.78 sec
+
+*** Running SINDA model named E:\PSAS\OreSat\oresat-thermal\Simulation\Hot Case\HotCase.inp
+Successful completion of processor
+From E:\PSAS\OreSat\oresat-thermal\Simulation\Hot Case\messages_HotCase.log
+     TIMEN  =    22214.48      The ASTAP execution time is:    145.152638599975       seconds
+Time to run SINDA = 152.50 sec
+
+Case Set Solved::Elapsed time = 222.57 sec

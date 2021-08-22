@@ -519,19 +519,14 @@ CFC_ASSEM.1038	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1039	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1040	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1042	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1043	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF, Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1043	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1044	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1044	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
 CFC_ASSEM.1045	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1046	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF, Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1046	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1047	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1047	DEFAULT	1.	1.							Cylinder-TOP::2156, Cylinder-BOT::2156
 CFC_ASSEM.1048	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1048	DEFAULT	1.	1.							Rect-TOP::21C1, Rect-BOT::21C1
 CFC_ASSEM.1049	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1049	DEFAULT	1.	1.							Rect-TOP::21F7, Rect-BOT::21F7
 CFC_ASSEM.1050	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
-CFC_ASSEM.1050	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
 CFC_ASSEM.1051	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1052	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1053	DEFAULT	1.	1.							Cylinder-TOP::2156, Cylinder-BOT::2156
@@ -557,6 +552,19 @@ CFC_ASSEM.1073	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1074	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
 CFC_ASSEM.1075	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
 CFC_ASSEM.1076	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
+CFC_ASSEM.1077	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
+CFC_ASSEM.1078	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
+CFC_ASSEM.1079	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1080	Copper	0.03	0.3							Rect-TOP::21DF, Rect-BOT::21DF
+CFC_ASSEM.1081	DEFAULT	1.	1.							Cylinder-TOP::2156, Cylinder-BOT::2156
+CFC_ASSEM.1082	DEFAULT	1.	1.							Rect-TOP::21C1, Rect-BOT::21C1
+CFC_ASSEM.1083	DEFAULT	1.	1.							Rect-TOP::21F7, Rect-BOT::21F7
+CFC_ASSEM.1084	DEFAULT	1.	1.							Rect-TOP::2187, Rect-BOT::2187
+CFC_ASSEM.1085	Copper	0.03	0.3							Rect-TOP::2229, Rect-BOT::2229
+CFC_ASSEM.1086	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.1087	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.1088	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
+CFC_ASSEM.1089	Circuit Boards	0.8	0.8							Rect-TOP::1BEE, Rect-BOT::1BEE
 FRAMES.26	Annodized Black Aluminum	0.75	0.54							Rect-TOP::254, Rect-BOT::254
 FRAMES.29	Annodized Black Aluminum	0.75	0.54							Rect-TOP::254, Rect-BOT::254
 FRAMES.32	Annodized Black Aluminum	0.75	0.54							Rect-TOP::254, Rect-BOT::254

@@ -24,7 +24,7 @@ HEADER CONTROL DATA, GLOBAL
     nloops  = 1000
     nloopt  = 100
     timeo  = 0.
-    timend  = 22214.48
+    timend  = 1388.405
     dtimes  = 0.
     patmos  = 0.
     arlxca  = 0.001

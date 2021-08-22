@@ -1,0 +1,95 @@
+C   Case Set: HC_Passive
+C   
+C   Case Set Comments:
+C   Hot Case Passive.
+C   Simulation runs in transient for four orbits
+HEADER OPTIONS
+    OUTPUT = HotCase.out
+    SAVE = HotCase.sav
+    MLINE = 100000 $ Limits headers output
+
+TITLE SimpleOreSat_v13.dwg - HC_Passive
+HEADER OPERATION DATA
+      CALL TDPREBL   $ Place Before BUILD, Code in Subroutine data
+BUILD ALL
+      CALL TDPOSTBL   $ Place After BUILD, Code in Subroutine data
+
+      CALL TRANSIENT
+      CALL TDHTOT $ Output Heater Summary
+
+      CALL TDPOSTSL $ logic in Subroutine Data
+HEADER CONTROL DATA, GLOBAL
+    abszro = -273.15
+    sigma  = 5.670400e-08 
+    nloops  = 1000
+    nloopt  = 100
+    timeo  = 0.
+    timend  = 22214.48
+    dtimes  = 0.
+    patmos  = 0.
+    arlxca  = 0.001
+    drlxca  = 0.001
+    extlim  = 0.5
+    matmet = 12 $ AutoDetermine AMG
+    iterxt = 3
+    ebalsa  = 0.01
+    ebalna  = 0.
+    iterot  = 0
+    ithold  = 0
+    output  = 100.
+    atmpca  = 1.000000e+30 
+    dtmpca  = 50.
+    dtimei  = 0.
+    dtimel  = 0.
+    dtimeh  = 1.000000e+30 
+    csgfac  = 1.
+    opeitr  = 0
+    dtsizf  = 0.1
+    dttubf  = 0.1
+    dtmaxf  = 1.000000e+30 
+    dtminf  = 0.
+    outptf = 100.
+    opitrf  = 0
+    rerrf  = 0.01
+    rebalf  = 0.01
+    ithldf  = 0
+    itrotf  = 0
+    rssizf  = 0.5
+    rstubf  = 0.5
+    rsmaxf  = 3600.
+    fbebala  = 0.1
+    sparseg  = 0.001
+    fraver  = 0.
+    rmsplt  = 0.1
+    rmfrac  = 0.5
+    rmrate  = 0.1
+
+    UID =    SI
+HEADER SOLVER
+
+    adero  = 0.0001
+    rdero  = 0.02
+    aerro  = 0.0001
+    rerro  = 0.01
+    pusho  = 1.
+    rcacto  = 0.1
+    rcerro  = 0.003
+    achgo  = 0.1
+    rchgo  = 0.9
+    rcvio  = 0.2
+    metho  = 2
+    nloopo  = 100
+    mdero  = 0
+    nconvo  = 2
+    nervus  = 0
+    newpro  = 0
+    nloopr  = 100
+    aderr  = 0.01
+    rerrr  = 0.001
+    aerrr  = 1.000000e-05 
+    rderr  = 0.02
+
+INSERT HotCase.cc
+INSERT C1A0.k_in
+INSERT C1A1.hra
+INSERT C1A1.hrl

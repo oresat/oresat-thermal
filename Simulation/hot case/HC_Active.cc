@@ -1,6 +1,6 @@
 HEADER OPTIONS
 C    SINDA Data generated with Thermal Desktop 6.2 Patch 6
-C    Generated on Thu Aug  5 15:05:46 2021
+C    Generated on Thu Aug 19 18:44:59 2021
 C    From file: SimpleOreSat_v13.dwg
 C    Case Set: HC_Active
 C    Hot Case Passive.
@@ -24,7 +24,7 @@ C    User name:     marvi
 C    Symbol Names, Evaluated values, Input Strings, Comments
 C    Active_BatteryHeaters            1.            1                                   Determines whether battery he...
 C    Active_HeatLoads                 1.            1                                   Determines whether misc heat ...
-C    Active_TEC                       0.            0                                   Determines whether TEC connec...
+C    Active_TEC                       1.            1                                   Determines whether TEC connec...
 C    Alpha_BlackAnno                  0.54          0.54                                Absportivity of black anno
 C    Alpha_Cu                         0.3           0.30                                Solar Absorptance of copper
 C    Alpha_PurpleCoating              0.8           0.8                                 Absorptivity of purple coatin...
@@ -100,7 +100,7 @@ C    Power_CFCCard                    0.5           0.5                         
 C    Power_Detector                   0.1           0.1                                 Power incident to detector (i...
 C    Power_HeatLoadAboveCFCCard       2.            2                                   Power on card above CFC card
 C    Power_OreSatLive                 0.            0                                   Power (W) for OreSat Live Card
-C    Power_TEC                        2.            2                                   Power of CFC thermoelectric c...
+C    Power_TEC                        15.           15                                  Power of CFC thermoelectric c...
 C    rho_Al                           2700.         2700                                Density of 6061-type2 Al
 C    rho_Battery                      2007.7        2007.7 
 C    rho_Cu                           8920.         8920                                Density of copper
@@ -3583,16 +3583,16 @@ HEADER NODE DATA, CFC_ASSEM
             902,    20.,    1.028582
             903,    20.,    1.028582
             904,    20.,    1.028582
-            905,    20.,    1.028582
+            905,    20.,    0.514291
             906,    20.,    0.514291
             907,    20.,    1.028582
-            908,    20.,    1.542873
+            908,    20.,    1.028582
             909,    20.,    1.028582
             910,    20.,    1.028582
-            911,    20.,    1.542873
+            911,    20.,    1.028582
             912,    20.,    0.514291
             913,    20.,    0.514291
-            914,    20.,    1.542873
+            914,    20.,    1.028582
             915,    20.,    1.028582
             916,    20.,    1.028582
             917,    20.,    1.028582
@@ -3628,15 +3628,15 @@ HEADER NODE DATA, CFC_ASSEM
             1039,    20.,    7.395756
             1040,    20.,    3.404289
             1042,    20.,    7.395756
-            1043,    20.,    9.097901
-            1044,    20.,    8.824596
-            1045,    20.,    14.79151
-            1046,    20.,    10.80005
-            1047,    20.,    7.81062
-            1048,    20.,    7.845756
-            1049,    20.,    7.845756
-            1050,    20.,    8.824596
-            1051,    20.,    14.79151
+            1043,    20.,    7.395756
+            1044,    20.,    7.395756
+            1045,    20.,    7.395756
+            1046,    20.,    7.395756
+            1047,    20.,    7.395756
+            1048,    20.,    7.395756
+            1049,    20.,    7.395756
+            1050,    20.,    7.395756
+            1051,    20.,    7.395756
             1052,    20.,    3.404289
             1053,    20.,    0.414864
             1054,    20.,    0.45
@@ -3661,6 +3661,19 @@ HEADER NODE DATA, CFC_ASSEM
             1074,    20.,    3.404289
             1075,    20.,    7.395756
             1076,    20.,    3.404289
+            1077,    20.,    1.702145
+            1078,    20.,    1.42884
+            1079,    20.,    7.395756
+            1080,    20.,    3.404289
+            1081,    20.,    0.414864
+            1082,    20.,    0.45
+            1083,    20.,    0.45
+            1084,    20.,    1.42884
+            1085,    20.,    7.395756
+            1086,    20.,    0.514291
+            1087,    20.,    0.514291
+            1088,    20.,    0.514291
+            1089,    20.,    0.514291
 HEADER ARRAY DATA, CFC_ASSEM
 C     TEC_2284_areas:
             3 = 
@@ -3668,17 +3681,17 @@ C     TEC_2284_areas:
             0.000225,  0.000225
 C Integer    TEC_2284_cold_side_nodeids:
             1 = 
-          1027,          1049,          1055,          1063
+          1027,          1083,          1055,          1063
 C Integer    TEC_2284_conductor_ids:
             4 = 
             64,            65,            66,            67
 C Integer    TEC_2284_hot_side_nodeids:
             2 = 
-          1026,          1048,          1054,          1062
+          1026,          1082,          1054,          1062
 HEADER CONDUCTOR DATA, CFC_ASSEM
 C Calculated in TEC2 call
             64,    CFC_ASSEM.1026,    CFC_ASSEM.1027,    1.
-            65,    CFC_ASSEM.1048,    CFC_ASSEM.1049,    1.
+            65,    CFC_ASSEM.1082,    CFC_ASSEM.1083,    1.
             66,    CFC_ASSEM.1054,    CFC_ASSEM.1055,    1.
             67,    CFC_ASSEM.1062,    CFC_ASSEM.1063,    1.
 C Lens to -Z endcap
@@ -3707,11 +3720,10 @@ C Contact - Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
 C Contact - Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
             86,    CFC_ASSEM.2,    CFC_ASSEM.1035,    19.49063
             87,    CFC_ASSEM.2,    CFC_ASSEM.1037,    12.99375
+            88,    CFC_ASSEM.2,    CFC_ASSEM.1073,    12.99375
+            89,    CFC_ASSEM.2,    CFC_ASSEM.1075,    8.6625
 C Contact - Face Contactor-TEC To Pedestal[CFC_ASSEM][2]::2243
-            88,    CFC_ASSEM.2,    CFC_ASSEM.1048,    2.75
-C Contact - Face Contactor-Pedestal to Thermal Mass[CFC_ASSEM][3]::223B
-            89,    CFC_ASSEM.2,    CFC_ASSEM.1073,    12.99375
-            90,    CFC_ASSEM.2,    CFC_ASSEM.1075,    8.6625
+            90,    CFC_ASSEM.2,    CFC_ASSEM.1082,    2.75
             91,    CFC_ASSEM.3,    CFC_ASSEM.4,    0.385
 C Contact - Edge Contactor-Copper Pedestal to CFC board[CFC_ASSEM][1]::223F
             92,    CFC_ASSEM.3,    CFC_ASSEM.899,    0.009
@@ -3760,7 +3772,7 @@ C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
             126,    CFC_ASSEM.9,    CFC_ASSEM.1025,    0.2065096
             127,    CFC_ASSEM.10,    CFC_ASSEM.11,    0.1350494
             128,    CFC_ASSEM.10,    CFC_ASSEM.18,    0.2065096
-            129,    CFC_ASSEM.10,    CFC_ASSEM.1047,    0.2065096
+            129,    CFC_ASSEM.10,    CFC_ASSEM.1081,    0.2065096
             130,    CFC_ASSEM.11,    CFC_ASSEM.12,    0.1350494
             131,    CFC_ASSEM.11,    CFC_ASSEM.19,    0.2065096
             132,    CFC_ASSEM.11,    CFC_ASSEM.1053,    0.2065096
@@ -3817,23 +3829,23 @@ C Contact - Edge Contactor-Lens to CFC[CFC_ASSEM][2]::2183
             176,    CFC_ASSEM.32,    CFC_ASSEM.1069,    0.125
             177,    CFC_ASSEM.851,    CFC_ASSEM.854,    0.01971252
             178,    CFC_ASSEM.851,    CFC_ASSEM.872,    0.0187008
-            179,    CFC_ASSEM.851,    CFC_ASSEM.905,    0.0187008
-            180,    CFC_ASSEM.851,    CFC_ASSEM.1019,    0.01971252
+            179,    CFC_ASSEM.851,    CFC_ASSEM.1019,    0.01971252
+            180,    CFC_ASSEM.851,    CFC_ASSEM.1086,    0.0187008
             181,    CFC_ASSEM.854,    CFC_ASSEM.857,    0.01971252
             182,    CFC_ASSEM.854,    CFC_ASSEM.875,    0.0187008
-            183,    CFC_ASSEM.854,    CFC_ASSEM.908,    0.0187008
 C Thermal Mass to CFC Card
-            184,    CFC_ASSEM.854,    CFC_ASSEM.1045,    0.2925087
+            183,    CFC_ASSEM.854,    CFC_ASSEM.1079,    0.2925087
+            184,    CFC_ASSEM.854,    CFC_ASSEM.1087,    0.0187008
             185,    CFC_ASSEM.857,    CFC_ASSEM.860,    0.01971252
             186,    CFC_ASSEM.857,    CFC_ASSEM.878,    0.0187008
-            187,    CFC_ASSEM.857,    CFC_ASSEM.911,    0.0187008
 C Thermal Mass to CFC Card
-            188,    CFC_ASSEM.857,    CFC_ASSEM.1051,    0.2925087
+            187,    CFC_ASSEM.857,    CFC_ASSEM.1085,    0.2925087
+            188,    CFC_ASSEM.857,    CFC_ASSEM.1088,    0.0187008
             189,    CFC_ASSEM.860,    CFC_ASSEM.863,    0.01971252
             190,    CFC_ASSEM.860,    CFC_ASSEM.884,    0.0187008
-            191,    CFC_ASSEM.860,    CFC_ASSEM.914,    0.0187008
 C Thermal Mass to CFC Card
-            192,    CFC_ASSEM.860,    CFC_ASSEM.1059,    0.2925087
+            191,    CFC_ASSEM.860,    CFC_ASSEM.1059,    0.2925087
+            192,    CFC_ASSEM.860,    CFC_ASSEM.1089,    0.0187008
             193,    CFC_ASSEM.863,    CFC_ASSEM.866,    0.01971252
             194,    CFC_ASSEM.863,    CFC_ASSEM.887,    0.0187008
             195,    CFC_ASSEM.863,    CFC_ASSEM.933,    0.0187008
@@ -3848,8 +3860,8 @@ C Thermal Mass to CFC Card
             204,    CFC_ASSEM.875,    CFC_ASSEM.899,    0.0187008
             205,    CFC_ASSEM.878,    CFC_ASSEM.884,    0.01971252
             206,    CFC_ASSEM.878,    CFC_ASSEM.902,    0.0187008
-            207,    CFC_ASSEM.881,    CFC_ASSEM.905,    0.009856262
-            208,    CFC_ASSEM.881,    CFC_ASSEM.1019,    0.0093504
+            207,    CFC_ASSEM.881,    CFC_ASSEM.1019,    0.0093504
+            208,    CFC_ASSEM.881,    CFC_ASSEM.1086,    0.009856262
             209,    CFC_ASSEM.884,    CFC_ASSEM.887,    0.01971252
             210,    CFC_ASSEM.884,    CFC_ASSEM.903,    0.0187008
             211,    CFC_ASSEM.887,    CFC_ASSEM.890,    0.01971252
@@ -3871,198 +3883,199 @@ C Thermal Mass to CFC card
             226,    CFC_ASSEM.904,    CFC_ASSEM.911,    0.0187008
 C Thermal Mass to CFC Card
             227,    CFC_ASSEM.904,    CFC_ASSEM.1039,    0.2925087
-            228,    CFC_ASSEM.905,    CFC_ASSEM.908,    0.009856262
-            229,    CFC_ASSEM.905,    CFC_ASSEM.912,    0.0093504
-            230,    CFC_ASSEM.906,    CFC_ASSEM.907,    0.01971252
-            231,    CFC_ASSEM.906,    CFC_ASSEM.913,    0.0093504
-            232,    CFC_ASSEM.907,    CFC_ASSEM.908,    0.01971252
-            233,    CFC_ASSEM.907,    CFC_ASSEM.914,    0.0187008
-            234,    CFC_ASSEM.908,    CFC_ASSEM.909,    0.01971252
-            235,    CFC_ASSEM.908,    CFC_ASSEM.911,    0.009856262
-            236,    CFC_ASSEM.908,    CFC_ASSEM.915,    0.0187008
-            237,    CFC_ASSEM.909,    CFC_ASSEM.910,    0.01971252
-            238,    CFC_ASSEM.909,    CFC_ASSEM.916,    0.0187008
-            239,    CFC_ASSEM.910,    CFC_ASSEM.911,    0.01971252
-            240,    CFC_ASSEM.910,    CFC_ASSEM.917,    0.0187008
-            241,    CFC_ASSEM.911,    CFC_ASSEM.912,    0.01971252
-            242,    CFC_ASSEM.911,    CFC_ASSEM.914,    0.009856262
-            243,    CFC_ASSEM.911,    CFC_ASSEM.918,    0.0187008
+            228,    CFC_ASSEM.905,    CFC_ASSEM.912,    0.0093504
+            229,    CFC_ASSEM.906,    CFC_ASSEM.907,    0.01971252
+            230,    CFC_ASSEM.906,    CFC_ASSEM.913,    0.0093504
+            231,    CFC_ASSEM.907,    CFC_ASSEM.908,    0.01971252
+            232,    CFC_ASSEM.907,    CFC_ASSEM.914,    0.0187008
+            233,    CFC_ASSEM.908,    CFC_ASSEM.909,    0.01971252
+            234,    CFC_ASSEM.908,    CFC_ASSEM.915,    0.0187008
+            235,    CFC_ASSEM.909,    CFC_ASSEM.910,    0.01971252
+            236,    CFC_ASSEM.909,    CFC_ASSEM.916,    0.0187008
+            237,    CFC_ASSEM.910,    CFC_ASSEM.911,    0.01971252
+            238,    CFC_ASSEM.910,    CFC_ASSEM.917,    0.0187008
+            239,    CFC_ASSEM.911,    CFC_ASSEM.912,    0.01971252
+            240,    CFC_ASSEM.911,    CFC_ASSEM.918,    0.0187008
 C Thermal Mass to CFC Card
-            244,    CFC_ASSEM.911,    CFC_ASSEM.1046,    0.2925087
-            245,    CFC_ASSEM.912,    CFC_ASSEM.919,    0.0093504
-            246,    CFC_ASSEM.913,    CFC_ASSEM.914,    0.01971252
-            247,    CFC_ASSEM.913,    CFC_ASSEM.920,    0.0093504
-            248,    CFC_ASSEM.914,    CFC_ASSEM.915,    0.01971252
-            249,    CFC_ASSEM.914,    CFC_ASSEM.921,    0.0187008
-            250,    CFC_ASSEM.914,    CFC_ASSEM.933,    0.009856262
-            251,    CFC_ASSEM.915,    CFC_ASSEM.916,    0.01971252
-            252,    CFC_ASSEM.915,    CFC_ASSEM.922,    0.0187008
+            241,    CFC_ASSEM.911,    CFC_ASSEM.1046,    0.2925087
+            242,    CFC_ASSEM.912,    CFC_ASSEM.919,    0.0093504
+            243,    CFC_ASSEM.913,    CFC_ASSEM.914,    0.01971252
+            244,    CFC_ASSEM.913,    CFC_ASSEM.920,    0.0093504
+            245,    CFC_ASSEM.914,    CFC_ASSEM.915,    0.01971252
+            246,    CFC_ASSEM.914,    CFC_ASSEM.921,    0.0187008
+            247,    CFC_ASSEM.915,    CFC_ASSEM.916,    0.01971252
+            248,    CFC_ASSEM.915,    CFC_ASSEM.922,    0.0187008
 C Thermal Mass to CFC Card
-            253,    CFC_ASSEM.915,    CFC_ASSEM.1048,    0.2925087
-            254,    CFC_ASSEM.916,    CFC_ASSEM.917,    0.01971252
-            255,    CFC_ASSEM.916,    CFC_ASSEM.923,    0.0187008
+            249,    CFC_ASSEM.915,    CFC_ASSEM.1048,    0.2925087
+            250,    CFC_ASSEM.916,    CFC_ASSEM.917,    0.01971252
+            251,    CFC_ASSEM.916,    CFC_ASSEM.923,    0.0187008
 C Thermal Mass to CFC Card
-            256,    CFC_ASSEM.916,    CFC_ASSEM.1049,    0.2925087
-            257,    CFC_ASSEM.917,    CFC_ASSEM.918,    0.01971252
-            258,    CFC_ASSEM.917,    CFC_ASSEM.924,    0.0187008
+            252,    CFC_ASSEM.916,    CFC_ASSEM.1049,    0.2925087
+            253,    CFC_ASSEM.917,    CFC_ASSEM.918,    0.01971252
+            254,    CFC_ASSEM.917,    CFC_ASSEM.924,    0.0187008
 C Thermal Mass to CFC Card
-            259,    CFC_ASSEM.917,    CFC_ASSEM.1050,    0.2925087
-            260,    CFC_ASSEM.918,    CFC_ASSEM.919,    0.01971252
-            261,    CFC_ASSEM.918,    CFC_ASSEM.925,    0.0187008
-            262,    CFC_ASSEM.919,    CFC_ASSEM.926,    0.0093504
-            263,    CFC_ASSEM.920,    CFC_ASSEM.921,    0.009856262
-            264,    CFC_ASSEM.921,    CFC_ASSEM.922,    0.009856262
-            265,    CFC_ASSEM.922,    CFC_ASSEM.923,    0.009856262
-            266,    CFC_ASSEM.923,    CFC_ASSEM.924,    0.009856262
-            267,    CFC_ASSEM.924,    CFC_ASSEM.925,    0.009856262
-            268,    CFC_ASSEM.925,    CFC_ASSEM.926,    0.009856262
-            269,    CFC_ASSEM.933,    CFC_ASSEM.976,    0.009856262
-            270,    CFC_ASSEM.1020,    CFC_ASSEM.1056,    0.001256637
-            271,    CFC_ASSEM.1020,    CFC_ASSEM.1064,    0.001256637
+            255,    CFC_ASSEM.917,    CFC_ASSEM.1050,    0.2925087
+            256,    CFC_ASSEM.918,    CFC_ASSEM.919,    0.01971252
+            257,    CFC_ASSEM.918,    CFC_ASSEM.925,    0.0187008
+            258,    CFC_ASSEM.919,    CFC_ASSEM.926,    0.0093504
+            259,    CFC_ASSEM.920,    CFC_ASSEM.921,    0.009856262
+            260,    CFC_ASSEM.921,    CFC_ASSEM.922,    0.009856262
+            261,    CFC_ASSEM.922,    CFC_ASSEM.923,    0.009856262
+            262,    CFC_ASSEM.923,    CFC_ASSEM.924,    0.009856262
+            263,    CFC_ASSEM.924,    CFC_ASSEM.925,    0.009856262
+            264,    CFC_ASSEM.925,    CFC_ASSEM.926,    0.009856262
+            265,    CFC_ASSEM.933,    CFC_ASSEM.976,    0.009856262
+            266,    CFC_ASSEM.933,    CFC_ASSEM.1089,    0.009856262
+            267,    CFC_ASSEM.1020,    CFC_ASSEM.1056,    0.001256637
+            268,    CFC_ASSEM.1020,    CFC_ASSEM.1064,    0.001256637
 C Contact - Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
-            272,    CFC_ASSEM.1021,    CFC_ASSEM.1027,    2.75
-            273,    CFC_ASSEM.1021,    CFC_ASSEM.1044,    0.2505
-            274,    CFC_ASSEM.1021,    CFC_ASSEM.1050,    0.2505
+            269,    CFC_ASSEM.1021,    CFC_ASSEM.1027,    2.75
+            270,    CFC_ASSEM.1021,    CFC_ASSEM.1078,    0.2505
+            271,    CFC_ASSEM.1021,    CFC_ASSEM.1084,    0.2505
 C Lens Mount/CFC card/thermal mass Fastener
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            275,    CFC_ASSEM.1023,    CFC_ASSEM.1024,    1.472563
-            276,    CFC_ASSEM.1023,    CFC_ASSEM.1045,    2.861497
-            277,    CFC_ASSEM.1023,    CFC_ASSEM.1067,    2.861497
-            278,    CFC_ASSEM.1024,    CFC_ASSEM.1046,    0.625625
-            279,    CFC_ASSEM.1024,    CFC_ASSEM.1066,    0.625625
-            280,    CFC_ASSEM.1025,    CFC_ASSEM.1047,    0.1350494
+            272,    CFC_ASSEM.1023,    CFC_ASSEM.1024,    1.472563
+            273,    CFC_ASSEM.1023,    CFC_ASSEM.1067,    2.861497
+            274,    CFC_ASSEM.1023,    CFC_ASSEM.1079,    2.861497
+            275,    CFC_ASSEM.1024,    CFC_ASSEM.1066,    0.625625
+            276,    CFC_ASSEM.1024,    CFC_ASSEM.1080,    0.625625
 C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
-            281,    CFC_ASSEM.1025,    CFC_ASSEM.1071,    0.09595829
-            282,    CFC_ASSEM.1026,    CFC_ASSEM.1048,    0.0008
-            283,    CFC_ASSEM.1026,    CFC_ASSEM.1054,    0.0008
-            284,    CFC_ASSEM.1027,    CFC_ASSEM.1049,    0.0008
-            285,    CFC_ASSEM.1027,    CFC_ASSEM.1055,    0.0008
-            286,    CFC_ASSEM.1028,    CFC_ASSEM.1039,    2.861497
-            287,    CFC_ASSEM.1028,    CFC_ASSEM.1065,    2.861497
+            277,    CFC_ASSEM.1025,    CFC_ASSEM.1071,    0.09595829
+            278,    CFC_ASSEM.1025,    CFC_ASSEM.1081,    0.1350494
+            279,    CFC_ASSEM.1026,    CFC_ASSEM.1054,    0.0008
+            280,    CFC_ASSEM.1026,    CFC_ASSEM.1082,    0.0008
+            281,    CFC_ASSEM.1027,    CFC_ASSEM.1055,    0.0008
+            282,    CFC_ASSEM.1027,    CFC_ASSEM.1083,    0.0008
+            283,    CFC_ASSEM.1028,    CFC_ASSEM.1039,    2.861497
+            284,    CFC_ASSEM.1028,    CFC_ASSEM.1065,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            288,    CFC_ASSEM.1028,    CFC_ASSEM.1074,    1.428866
-            289,    CFC_ASSEM.1028,    CFC_ASSEM.1075,    2.861497
-            290,    CFC_ASSEM.1029,    CFC_ASSEM.1031,    1.25125
-            291,    CFC_ASSEM.1029,    CFC_ASSEM.1038,    1.25125
+            285,    CFC_ASSEM.1028,    CFC_ASSEM.1074,    1.428866
+            286,    CFC_ASSEM.1028,    CFC_ASSEM.1075,    2.861497
+            287,    CFC_ASSEM.1029,    CFC_ASSEM.1031,    1.25125
+            288,    CFC_ASSEM.1029,    CFC_ASSEM.1038,    1.25125
 C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
-            292,    CFC_ASSEM.1029,    CFC_ASSEM.1061,    0.04797914
-            293,    CFC_ASSEM.1029,    CFC_ASSEM.1068,    1.25125
-            294,    CFC_ASSEM.1029,    CFC_ASSEM.1076,    1.25125
-            295,    CFC_ASSEM.1030,    CFC_ASSEM.1032,    2.861497
-            296,    CFC_ASSEM.1030,    CFC_ASSEM.1042,    2.861497
+            289,    CFC_ASSEM.1029,    CFC_ASSEM.1061,    0.04797914
+            290,    CFC_ASSEM.1029,    CFC_ASSEM.1068,    1.25125
+            291,    CFC_ASSEM.1029,    CFC_ASSEM.1076,    1.25125
+            292,    CFC_ASSEM.1030,    CFC_ASSEM.1032,    2.861497
+            293,    CFC_ASSEM.1030,    CFC_ASSEM.1042,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            297,    CFC_ASSEM.1030,    CFC_ASSEM.1066,    0.714433
-            298,    CFC_ASSEM.1030,    CFC_ASSEM.1067,    2.861497
+            294,    CFC_ASSEM.1030,    CFC_ASSEM.1066,    0.714433
+            295,    CFC_ASSEM.1030,    CFC_ASSEM.1067,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            299,    CFC_ASSEM.1030,    CFC_ASSEM.1076,    0.714433
-            300,    CFC_ASSEM.1031,    CFC_ASSEM.1033,    1.25125
-            301,    CFC_ASSEM.1031,    CFC_ASSEM.1040,    1.25125
-            302,    CFC_ASSEM.1031,    CFC_ASSEM.1071,    1.25125
-            303,    CFC_ASSEM.1032,    CFC_ASSEM.1035,    2.861497
-            304,    CFC_ASSEM.1032,    CFC_ASSEM.1043,    2.861497
-            305,    CFC_ASSEM.1032,    CFC_ASSEM.1070,    2.861497
+            296,    CFC_ASSEM.1030,    CFC_ASSEM.1076,    0.714433
+            297,    CFC_ASSEM.1031,    CFC_ASSEM.1033,    1.25125
+            298,    CFC_ASSEM.1031,    CFC_ASSEM.1040,    1.25125
+            299,    CFC_ASSEM.1031,    CFC_ASSEM.1071,    1.25125
+            300,    CFC_ASSEM.1032,    CFC_ASSEM.1035,    2.861497
+            301,    CFC_ASSEM.1032,    CFC_ASSEM.1043,    2.861497
+            302,    CFC_ASSEM.1032,    CFC_ASSEM.1070,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            306,    CFC_ASSEM.1033,    CFC_ASSEM.1039,    0.714433
-            307,    CFC_ASSEM.1033,    CFC_ASSEM.1043,    0.625625
-C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            308,    CFC_ASSEM.1033,    CFC_ASSEM.1046,    1.428866
-            309,    CFC_ASSEM.1033,    CFC_ASSEM.1074,    0.625625
-            310,    CFC_ASSEM.1035,    CFC_ASSEM.1037,    2.861497
-            311,    CFC_ASSEM.1035,    CFC_ASSEM.1044,    2.861497
-            312,    CFC_ASSEM.1035,    CFC_ASSEM.1073,    2.861497
-            313,    CFC_ASSEM.1036,    CFC_ASSEM.1038,    0.625625
+            303,    CFC_ASSEM.1033,    CFC_ASSEM.1039,    0.714433
+            304,    CFC_ASSEM.1033,    CFC_ASSEM.1046,    1.428866
+            305,    CFC_ASSEM.1033,    CFC_ASSEM.1074,    0.625625
+            306,    CFC_ASSEM.1033,    CFC_ASSEM.1077,    0.625625
+            307,    CFC_ASSEM.1035,    CFC_ASSEM.1037,    2.861497
+            308,    CFC_ASSEM.1035,    CFC_ASSEM.1044,    2.861497
+            309,    CFC_ASSEM.1035,    CFC_ASSEM.1073,    2.861497
+            310,    CFC_ASSEM.1036,    CFC_ASSEM.1038,    0.625625
 C Lens Mount/CFC card/thermal mass Fastener
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            314,    CFC_ASSEM.1036,    CFC_ASSEM.1047,    1.472563
-            315,    CFC_ASSEM.1036,    CFC_ASSEM.1076,    0.625625
+            311,    CFC_ASSEM.1036,    CFC_ASSEM.1047,    1.472563
+            312,    CFC_ASSEM.1036,    CFC_ASSEM.1076,    0.625625
 C Contact - Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
-            316,    CFC_ASSEM.1036,    FRAMES.52,    0.0199218
-            317,    CFC_ASSEM.1036,    FRAMES.53,    0.0199218
-            318,    CFC_ASSEM.1037,    CFC_ASSEM.1039,    2.861497
-            319,    CFC_ASSEM.1037,    CFC_ASSEM.1045,    2.861497
-            320,    CFC_ASSEM.1037,    CFC_ASSEM.1075,    2.861497
-            321,    CFC_ASSEM.1038,    CFC_ASSEM.1040,    0.625625
+            313,    CFC_ASSEM.1036,    FRAMES.52,    0.0199218
+            314,    CFC_ASSEM.1036,    FRAMES.53,    0.0199218
+            315,    CFC_ASSEM.1037,    CFC_ASSEM.1039,    2.861497
+            316,    CFC_ASSEM.1037,    CFC_ASSEM.1045,    2.861497
+            317,    CFC_ASSEM.1037,    CFC_ASSEM.1075,    2.861497
+            318,    CFC_ASSEM.1038,    CFC_ASSEM.1040,    0.625625
 C Contact - Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
-            322,    CFC_ASSEM.1038,    FRAMES.49,    0.007968722
-            323,    CFC_ASSEM.1038,    FRAMES.50,    0.03187489
-            324,    CFC_ASSEM.1038,    FRAMES.51,    0.03187489
-            325,    CFC_ASSEM.1038,    FRAMES.52,    0.007968722
-            326,    CFC_ASSEM.1039,    CFC_ASSEM.1046,    2.861497
+            319,    CFC_ASSEM.1038,    FRAMES.49,    0.007968722
+            320,    CFC_ASSEM.1038,    FRAMES.50,    0.03187489
+            321,    CFC_ASSEM.1038,    FRAMES.51,    0.03187489
+            322,    CFC_ASSEM.1038,    FRAMES.52,    0.007968722
+            323,    CFC_ASSEM.1039,    CFC_ASSEM.1046,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            327,    CFC_ASSEM.1039,    CFC_ASSEM.1074,    0.714433
-            328,    CFC_ASSEM.1040,    CFC_ASSEM.1043,    0.625625
+            324,    CFC_ASSEM.1039,    CFC_ASSEM.1074,    0.714433
+            325,    CFC_ASSEM.1040,    CFC_ASSEM.1077,    0.625625
 C Contact - Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
-            329,    CFC_ASSEM.1040,    FRAMES.47,    0.01593744
-            330,    CFC_ASSEM.1040,    FRAMES.48,    0.03187489
-            331,    CFC_ASSEM.1040,    FRAMES.49,    0.03187489
-            332,    CFC_ASSEM.1042,    CFC_ASSEM.1043,    2.861497
-            333,    CFC_ASSEM.1042,    CFC_ASSEM.1047,    2.861497
+            326,    CFC_ASSEM.1040,    FRAMES.47,    0.01593744
+            327,    CFC_ASSEM.1040,    FRAMES.48,    0.03187489
+            328,    CFC_ASSEM.1040,    FRAMES.49,    0.03187489
+            329,    CFC_ASSEM.1042,    CFC_ASSEM.1043,    2.861497
+            330,    CFC_ASSEM.1042,    CFC_ASSEM.1047,    2.861497
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            334,    CFC_ASSEM.1042,    CFC_ASSEM.1076,    1.428866
-            335,    CFC_ASSEM.1043,    CFC_ASSEM.1044,    2.861497
-            336,    CFC_ASSEM.1043,    CFC_ASSEM.1048,    2.861497
+            331,    CFC_ASSEM.1042,    CFC_ASSEM.1076,    1.428866
+            332,    CFC_ASSEM.1043,    CFC_ASSEM.1044,    2.861497
+            333,    CFC_ASSEM.1043,    CFC_ASSEM.1048,    2.861497
+            334,    CFC_ASSEM.1044,    CFC_ASSEM.1045,    2.861497
+            335,    CFC_ASSEM.1044,    CFC_ASSEM.1049,    2.861497
+            336,    CFC_ASSEM.1045,    CFC_ASSEM.1046,    2.861497
+            337,    CFC_ASSEM.1045,    CFC_ASSEM.1050,    2.861497
+            338,    CFC_ASSEM.1046,    CFC_ASSEM.1051,    2.861497
+            339,    CFC_ASSEM.1047,    CFC_ASSEM.1048,    2.861497
+            340,    CFC_ASSEM.1048,    CFC_ASSEM.1049,    2.861497
+            341,    CFC_ASSEM.1049,    CFC_ASSEM.1050,    2.861497
+            342,    CFC_ASSEM.1050,    CFC_ASSEM.1051,    2.861497
 C Lens Mount/CFC card/thermal mass Fastener
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            337,    CFC_ASSEM.1043,    CFC_ASSEM.1051,    1.472563
-C Contact - Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
-            338,    CFC_ASSEM.1043,    FRAMES.46,    0.02789053
-            339,    CFC_ASSEM.1043,    FRAMES.47,    0.01195308
-            340,    CFC_ASSEM.1044,    CFC_ASSEM.1045,    2.861497
-C Contact - Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
-            341,    CFC_ASSEM.1044,    CFC_ASSEM.1049,    5.611497
-            342,    CFC_ASSEM.1044,    CFC_ASSEM.1057,    0.2505
-            343,    CFC_ASSEM.1045,    CFC_ASSEM.1046,    2.861497
-            344,    CFC_ASSEM.1045,    CFC_ASSEM.1050,    2.861497
-            345,    CFC_ASSEM.1045,    CFC_ASSEM.1051,    2.861497
-            346,    CFC_ASSEM.1045,    CFC_ASSEM.1070,    2.861497
-            347,    CFC_ASSEM.1046,    CFC_ASSEM.1051,    2.861497
-            348,    CFC_ASSEM.1046,    CFC_ASSEM.1052,    0.625625
-            349,    CFC_ASSEM.1046,    CFC_ASSEM.1068,    1.25125
-            350,    CFC_ASSEM.1047,    CFC_ASSEM.1048,    2.861497
-            351,    CFC_ASSEM.1047,    CFC_ASSEM.1053,    0.1350494
+            343,    CFC_ASSEM.1051,    CFC_ASSEM.1077,    1.472563
+            344,    CFC_ASSEM.1052,    CFC_ASSEM.1060,    0.625625
+            345,    CFC_ASSEM.1052,    CFC_ASSEM.1071,    1.25125
+            346,    CFC_ASSEM.1052,    CFC_ASSEM.1080,    0.625625
+            347,    CFC_ASSEM.1053,    CFC_ASSEM.1061,    0.1350494
 C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
-            352,    CFC_ASSEM.1047,    CFC_ASSEM.1068,    0.04797914
-            353,    CFC_ASSEM.1047,    CFC_ASSEM.1071,    0.04797914
-            354,    CFC_ASSEM.1048,    CFC_ASSEM.1049,    2.861497
-            355,    CFC_ASSEM.1048,    CFC_ASSEM.1062,    0.0008
-            356,    CFC_ASSEM.1049,    CFC_ASSEM.1050,    2.861497
-            357,    CFC_ASSEM.1049,    CFC_ASSEM.1063,    0.0008
-            358,    CFC_ASSEM.1050,    CFC_ASSEM.1051,    2.861497
+            348,    CFC_ASSEM.1053,    CFC_ASSEM.1068,    0.09595829
+            349,    CFC_ASSEM.1053,    CFC_ASSEM.1081,    0.1350494
+            350,    CFC_ASSEM.1054,    CFC_ASSEM.1062,    0.0008
+            351,    CFC_ASSEM.1055,    CFC_ASSEM.1063,    0.0008
 C Contact - Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
-            359,    CFC_ASSEM.1050,    CFC_ASSEM.1055,    2.75
-            360,    CFC_ASSEM.1050,    CFC_ASSEM.1057,    0.2505
-            361,    CFC_ASSEM.1051,    CFC_ASSEM.1059,    2.861497
-            362,    CFC_ASSEM.1051,    CFC_ASSEM.1073,    2.861497
-            363,    CFC_ASSEM.1052,    CFC_ASSEM.1060,    0.625625
-            364,    CFC_ASSEM.1052,    CFC_ASSEM.1071,    1.25125
-            365,    CFC_ASSEM.1053,    CFC_ASSEM.1061,    0.1350494
-C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
-            366,    CFC_ASSEM.1053,    CFC_ASSEM.1068,    0.09595829
-            367,    CFC_ASSEM.1054,    CFC_ASSEM.1062,    0.0008
-            368,    CFC_ASSEM.1055,    CFC_ASSEM.1063,    0.0008
-            369,    CFC_ASSEM.1056,    CFC_ASSEM.1064,    0.0005092958
-            370,    CFC_ASSEM.1056,    CFC_ASSEM.1069,    0.003625888
+            352,    CFC_ASSEM.1055,    CFC_ASSEM.1084,    2.75
+            353,    CFC_ASSEM.1056,    CFC_ASSEM.1064,    0.0005092958
+            354,    CFC_ASSEM.1056,    CFC_ASSEM.1069,    0.003625888
 C Contact - Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
-            371,    CFC_ASSEM.1057,    CFC_ASSEM.1063,    2.75
-            372,    CFC_ASSEM.1059,    CFC_ASSEM.1065,    2.861497
-            373,    CFC_ASSEM.1059,    CFC_ASSEM.1075,    2.861497
+            355,    CFC_ASSEM.1057,    CFC_ASSEM.1063,    2.75
+            356,    CFC_ASSEM.1057,    CFC_ASSEM.1078,    0.2505
+            357,    CFC_ASSEM.1057,    CFC_ASSEM.1084,    0.2505
+            358,    CFC_ASSEM.1059,    CFC_ASSEM.1065,    2.861497
+            359,    CFC_ASSEM.1059,    CFC_ASSEM.1075,    2.861497
+            360,    CFC_ASSEM.1059,    CFC_ASSEM.1085,    2.861497
 C Lens Mount/CFC card/thermal mass Fastener
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            374,    CFC_ASSEM.1060,    CFC_ASSEM.1065,    1.472563
-            375,    CFC_ASSEM.1060,    CFC_ASSEM.1074,    0.625625
+            361,    CFC_ASSEM.1060,    CFC_ASSEM.1065,    1.472563
+            362,    CFC_ASSEM.1060,    CFC_ASSEM.1074,    0.625625
 C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
-            376,    CFC_ASSEM.1061,    CFC_ASSEM.1068,    0.04797914
-            377,    CFC_ASSEM.1064,    CFC_ASSEM.1072,    0.003625888
+            363,    CFC_ASSEM.1061,    CFC_ASSEM.1068,    0.04797914
+            364,    CFC_ASSEM.1062,    CFC_ASSEM.1082,    0.0008
+            365,    CFC_ASSEM.1063,    CFC_ASSEM.1083,    0.0008
+            366,    CFC_ASSEM.1064,    CFC_ASSEM.1072,    0.003625888
 C Contact - Edge Contactor-Edge Contactor - Thermal Mass to Lens Mount[CFC_ASSEM][1]::2AE8
-            378,    CFC_ASSEM.1066,    CFC_ASSEM.1067,    1.428866
-            379,    CFC_ASSEM.1066,    CFC_ASSEM.1068,    1.25125
-            380,    CFC_ASSEM.1066,    CFC_ASSEM.1076,    0.625625
-            381,    CFC_ASSEM.1067,    CFC_ASSEM.1070,    2.861497
-            382,    CFC_ASSEM.1068,    CFC_ASSEM.1071,    1.25125
-            383,    CFC_ASSEM.1069,    CFC_ASSEM.1072,    0.0001455131
-            384,    CFC_ASSEM.1070,    CFC_ASSEM.1073,    2.861497
-            385,    CFC_ASSEM.1071,    CFC_ASSEM.1074,    1.25125
-            386,    CFC_ASSEM.1073,    CFC_ASSEM.1075,    2.861497
+            367,    CFC_ASSEM.1066,    CFC_ASSEM.1067,    1.428866
+            368,    CFC_ASSEM.1066,    CFC_ASSEM.1068,    1.25125
+            369,    CFC_ASSEM.1066,    CFC_ASSEM.1076,    0.625625
+            370,    CFC_ASSEM.1067,    CFC_ASSEM.1070,    2.861497
+            371,    CFC_ASSEM.1068,    CFC_ASSEM.1071,    1.25125
+            372,    CFC_ASSEM.1068,    CFC_ASSEM.1080,    1.25125
+C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+            373,    CFC_ASSEM.1068,    CFC_ASSEM.1081,    0.04797914
+            374,    CFC_ASSEM.1069,    CFC_ASSEM.1072,    0.0001455131
+            375,    CFC_ASSEM.1070,    CFC_ASSEM.1073,    2.861497
+            376,    CFC_ASSEM.1070,    CFC_ASSEM.1079,    2.861497
+            377,    CFC_ASSEM.1071,    CFC_ASSEM.1074,    1.25125
+C Contact - Edge Contactor-Lens to Lens Mount[CFC_ASSEM][15]::2A95
+            378,    CFC_ASSEM.1071,    CFC_ASSEM.1081,    0.04797914
+            379,    CFC_ASSEM.1073,    CFC_ASSEM.1075,    2.861497
+            380,    CFC_ASSEM.1073,    CFC_ASSEM.1085,    2.861497
+C Contact - Edge Contactor-Lens Mount to Frames[CFC_ASSEM][0]::2AEF
+            381,    CFC_ASSEM.1077,    FRAMES.46,    0.02789053
+            382,    CFC_ASSEM.1077,    FRAMES.47,    0.01195308
+C Contact - Face Contactor-Detector To TEC[CFC_ASSEM][5]::2247
+            383,    CFC_ASSEM.1078,    CFC_ASSEM.1083,    2.75
+            384,    CFC_ASSEM.1079,    CFC_ASSEM.1085,    2.861497
+            385,    CFC_ASSEM.1086,    CFC_ASSEM.1087,    0.009856262
+            386,    CFC_ASSEM.1087,    CFC_ASSEM.1088,    0.009856262
+            387,    CFC_ASSEM.1088,    CFC_ASSEM.1089,    0.009856262
 HEADER VARIABLES 0, CFC_ASSEM
 C Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
       CFC_ASSEM.Q851 = CFC_ASSEM.Q851 + 0.01388889
@@ -4085,16 +4098,16 @@ C Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
       CFC_ASSEM.Q902 = CFC_ASSEM.Q902 + 0.01388889
       CFC_ASSEM.Q903 = CFC_ASSEM.Q903 + 0.01388889
       CFC_ASSEM.Q904 = CFC_ASSEM.Q904 + 0.01388889
-      CFC_ASSEM.Q905 = CFC_ASSEM.Q905 + 0.01388889
+      CFC_ASSEM.Q905 = CFC_ASSEM.Q905 + 0.006944444
       CFC_ASSEM.Q906 = CFC_ASSEM.Q906 + 0.006944444
       CFC_ASSEM.Q907 = CFC_ASSEM.Q907 + 0.01388889
-      CFC_ASSEM.Q908 = CFC_ASSEM.Q908 + 0.02083333
+      CFC_ASSEM.Q908 = CFC_ASSEM.Q908 + 0.01388889
       CFC_ASSEM.Q909 = CFC_ASSEM.Q909 + 0.01388889
       CFC_ASSEM.Q910 = CFC_ASSEM.Q910 + 0.01388889
-      CFC_ASSEM.Q911 = CFC_ASSEM.Q911 + 0.02083333
+      CFC_ASSEM.Q911 = CFC_ASSEM.Q911 + 0.01388889
       CFC_ASSEM.Q912 = CFC_ASSEM.Q912 + 0.006944444
       CFC_ASSEM.Q913 = CFC_ASSEM.Q913 + 0.006944444
-      CFC_ASSEM.Q914 = CFC_ASSEM.Q914 + 0.02083333
+      CFC_ASSEM.Q914 = CFC_ASSEM.Q914 + 0.01388889
       CFC_ASSEM.Q915 = CFC_ASSEM.Q915 + 0.01388889
       CFC_ASSEM.Q916 = CFC_ASSEM.Q916 + 0.01388889
       CFC_ASSEM.Q917 = CFC_ASSEM.Q917 + 0.01388889
@@ -4112,18 +4125,23 @@ C Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
       CFC_ASSEM.Q1019 = CFC_ASSEM.Q1019 + 0.006944444
 C Heat Load-Heat Load from Light[CFC_ASSEM]::2A42
       CFC_ASSEM.Q1021 = CFC_ASSEM.Q1021 + 0.025
-      CFC_ASSEM.Q1044 = CFC_ASSEM.Q1044 + 0.025
-      CFC_ASSEM.Q1050 = CFC_ASSEM.Q1050 + 0.025
       CFC_ASSEM.Q1057 = CFC_ASSEM.Q1057 + 0.025
+      CFC_ASSEM.Q1078 = CFC_ASSEM.Q1078 + 0.025
+      CFC_ASSEM.Q1084 = CFC_ASSEM.Q1084 + 0.025
+C Heat Load-Loading on CFC card[CFC_ASSEM]::2A41
+      CFC_ASSEM.Q1086 = CFC_ASSEM.Q1086 + 0.006944444
+      CFC_ASSEM.Q1087 = CFC_ASSEM.Q1087 + 0.006944444
+      CFC_ASSEM.Q1088 = CFC_ASSEM.Q1088 + 0.006944444
+      CFC_ASSEM.Q1089 = CFC_ASSEM.Q1089 + 0.006944444
 HEADER VARIABLES 1, CFC_ASSEM
 C TEC Input for TEC-Thermoelectric Cooler[CFC_ASSEM]::2284
-      P__TD = 2.
+      P__TD = 15.
 C     Controlling Cold Side
       IF( NSOL .LE. 1 ) THEN
           P__TD = P__TD*0.5
       ELSE
           T__TD =   0.25 * CFC_ASSEM.T1027
-     +            + 0.25 * CFC_ASSEM.T1049
+     +            + 0.25 * CFC_ASSEM.T1083
      +            + 0.25 * CFC_ASSEM.T1055
      +            + 0.25 * CFC_ASSEM.T1063
           O__TD = -5.
@@ -4144,11 +4162,11 @@ C     Controlling Cold Side
      +    CU_2284, V_2284, P_2284,
      +    0.0015, 77, S_2284, R_2284, KK_2284)
       C__TD = T1027*0.25
-     +      + T1049*0.25
+     +      + T1083*0.25
      +      + T1055*0.25
      +      + T1063*0.25
       H__TD = T1026*0.25
-     +      + T1048*0.25
+     +      + T1082*0.25
      +      + T1054*0.25
      +      + T1062*0.25
       CALL TECINFO( C__TD, H__TD, 0.0015,
@@ -7090,50 +7108,47 @@ C Contact - Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
             444,    CFC_ASSEM.890,    FRAMES.1017,    0.0144
             445,    CFC_ASSEM.905,    FRAMES.489,    0.012
             446,    CFC_ASSEM.905,    FRAMES.491,    0.012
+            447,    CFC_ASSEM.912,    FRAMES.491,    0.0024
+            448,    CFC_ASSEM.912,    FRAMES.493,    0.0144
+            449,    CFC_ASSEM.912,    FRAMES.495,    0.0072
+            450,    CFC_ASSEM.919,    FRAMES.495,    0.0072
+            451,    CFC_ASSEM.919,    FRAMES.497,    0.0144
+            452,    CFC_ASSEM.919,    FRAMES.499,    0.0024
 C Contact - Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
-            447,    CFC_ASSEM.905,    FRAMES.1159,    0.016505
-            448,    CFC_ASSEM.905,    FRAMES.1160,    0.01100333
-            449,    CFC_ASSEM.908,    FRAMES.867,    0.016505
-            450,    CFC_ASSEM.908,    FRAMES.869,    0.005501667
-            451,    CFC_ASSEM.908,    FRAMES.1160,    0.005501667
-            452,    CFC_ASSEM.911,    FRAMES.869,    0.01100333
-            453,    CFC_ASSEM.911,    FRAMES.871,    0.016505
+            453,    CFC_ASSEM.920,    FRAMES.63,    0.001375417
+            454,    CFC_ASSEM.920,    FRAMES.64,    0.01237875
+            455,    CFC_ASSEM.921,    FRAMES.62,    0.01100333
+            456,    CFC_ASSEM.921,    FRAMES.63,    0.016505
+            457,    CFC_ASSEM.922,    FRAMES.60,    0.005501667
+            458,    CFC_ASSEM.922,    FRAMES.61,    0.016505
+            459,    CFC_ASSEM.922,    FRAMES.62,    0.005501667
+            460,    CFC_ASSEM.923,    FRAMES.59,    0.016505
+            461,    CFC_ASSEM.923,    FRAMES.60,    0.01100333
+            462,    CFC_ASSEM.924,    FRAMES.57,    0.0082525
+            463,    CFC_ASSEM.924,    FRAMES.58,    0.01925583
+            464,    CFC_ASSEM.925,    FRAMES.55,    0.002750833
+            465,    CFC_ASSEM.925,    FRAMES.56,    0.016505
+            466,    CFC_ASSEM.925,    FRAMES.57,    0.0082525
+            467,    CFC_ASSEM.926,    FRAMES.55,    0.01375417
 C Contact - Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
-            454,    CFC_ASSEM.912,    FRAMES.491,    0.0024
-            455,    CFC_ASSEM.912,    FRAMES.493,    0.0144
-            456,    CFC_ASSEM.912,    FRAMES.495,    0.0072
+            468,    CFC_ASSEM.926,    FRAMES.499,    0.012
 C Contact - Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
-            457,    CFC_ASSEM.914,    FRAMES.873,    0.01925583
-            458,    CFC_ASSEM.914,    FRAMES.874,    0.0082525
+            469,    CFC_ASSEM.933,    FRAMES.874,    0.0082525
+            470,    CFC_ASSEM.933,    FRAMES.876,    0.016505
+            471,    CFC_ASSEM.933,    FRAMES.878,    0.002750833
+            472,    CFC_ASSEM.976,    FRAMES.878,    0.01375417
 C Contact - Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
-            459,    CFC_ASSEM.919,    FRAMES.495,    0.0072
-            460,    CFC_ASSEM.919,    FRAMES.497,    0.0144
-            461,    CFC_ASSEM.919,    FRAMES.499,    0.0024
+            473,    CFC_ASSEM.976,    FRAMES.1010,    0.012
 C Contact - Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
-            462,    CFC_ASSEM.920,    FRAMES.63,    0.001375417
-            463,    CFC_ASSEM.920,    FRAMES.64,    0.01237875
-            464,    CFC_ASSEM.921,    FRAMES.62,    0.01100333
-            465,    CFC_ASSEM.921,    FRAMES.63,    0.016505
-            466,    CFC_ASSEM.922,    FRAMES.60,    0.005501667
-            467,    CFC_ASSEM.922,    FRAMES.61,    0.016505
-            468,    CFC_ASSEM.922,    FRAMES.62,    0.005501667
-            469,    CFC_ASSEM.923,    FRAMES.59,    0.016505
-            470,    CFC_ASSEM.923,    FRAMES.60,    0.01100333
-            471,    CFC_ASSEM.924,    FRAMES.57,    0.0082525
-            472,    CFC_ASSEM.924,    FRAMES.58,    0.01925583
-            473,    CFC_ASSEM.925,    FRAMES.55,    0.002750833
-            474,    CFC_ASSEM.925,    FRAMES.56,    0.016505
-            475,    CFC_ASSEM.925,    FRAMES.57,    0.0082525
-            476,    CFC_ASSEM.926,    FRAMES.55,    0.01375417
-C Contact - Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
-            477,    CFC_ASSEM.926,    FRAMES.499,    0.012
-C Contact - Edge Contactor-CDC card to (+/- y) frames[MECHANICAL_CONNECTIONS][0]::1FD1
-            478,    CFC_ASSEM.933,    FRAMES.874,    0.0082525
-            479,    CFC_ASSEM.933,    FRAMES.876,    0.016505
-            480,    CFC_ASSEM.933,    FRAMES.878,    0.002750833
-            481,    CFC_ASSEM.976,    FRAMES.878,    0.01375417
-C Contact - Edge Contactor-CFC card to +x frame[MECHANICAL_CONNECTIONS][0]::1FD0
-            482,    CFC_ASSEM.976,    FRAMES.1010,    0.012
+            474,    CFC_ASSEM.1086,    FRAMES.1159,    0.016505
+            475,    CFC_ASSEM.1086,    FRAMES.1160,    0.01100333
+            476,    CFC_ASSEM.1087,    FRAMES.867,    0.016505
+            477,    CFC_ASSEM.1087,    FRAMES.869,    0.005501667
+            478,    CFC_ASSEM.1087,    FRAMES.1160,    0.005501667
+            479,    CFC_ASSEM.1088,    FRAMES.869,    0.01100333
+            480,    CFC_ASSEM.1088,    FRAMES.871,    0.016505
+            481,    CFC_ASSEM.1089,    FRAMES.873,    0.01925583
+            482,    CFC_ASSEM.1089,    FRAMES.874,    0.0082525
 HEADER NODE DATA, SOLARCARDS_CONNECTOR
 HEADER CONDUCTOR DATA, SOLARCARDS_CONNECTOR
             1,    CARDS.856,    SOLAR_PANELS.813,    0.00558
