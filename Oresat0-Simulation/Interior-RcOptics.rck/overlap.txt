@@ -1,0 +1,7 @@
+Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+Node FRAMES.62::781 is overlapped by CARDS.4 covering   20%%
+Node FRAMES.60::77F is overlapped by CARDS.2 covering   16%%
+Node FRAMES.61::780 is overlapped by CARDS.3 covering   16%%
+Node FRAMES.63::782 is overlapped by CARDS.5 covering   16%%
+Node FRAMES.64::783 is overlapped by CARDS.6 covering   16%%
+Node FRAMES.65::784 is overlapped by CARDS.7 covering   12%%

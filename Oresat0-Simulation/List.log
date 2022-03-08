@@ -1,0 +1,450 @@
+[ AutoCAD - Mon Feb 07 14:14:31 2022  ]----------------------------------------
+                  RCRECTANGLE  Layer: "0"
+                            Space: Model space
+                   Color: 214    Linetype: "BYLAYER"
+                   Handle = 25c
+
+     RcEntity:
+
+     Total Area: 0.01
+
+     Attached Nodes(100):
+          CARDS.220::7CD on layer 0
+          CARDS.464::7CE on layer 0
+          CARDS.506::7CF on layer 0
+          CARDS.543::7D0 on layer 0
+          CARDS.585::7D1 on layer 0
+          CARDS.622::7D2 on layer 0
+          CARDS.664::7D3 on layer 0
+          CARDS.701::7D4 on layer 0
+          CARDS.743::7D5 on layer 0
+          CARDS.252::7D6 on layer 0
+          CARDS.279::7D7 on layer 0
+          CARDS.311::7D8 on layer 0
+          CARDS.338::7D9 on layer 0
+          CARDS.370::7DA on layer 0
+          CARDS.397::7DB on layer 0
+          CARDS.429::7DC on layer 0
+          CARDS.436::7DD on layer 0
+          CARDS.443::7DE on layer 0
+          CARDS.450::7DF on layer 0
+          CARDS.457::7E0 on layer 0
+          CARDS.465::7E1 on layer 0
+          CARDS.473::7E2 on layer 0
+          CARDS.480::7E3 on layer 0
+          CARDS.492::7E4 on layer 0
+          CARDS.499::7E5 on layer 0
+          CARDS.507::7E6 on layer 0
+          CARDS.515::7E7 on layer 0
+          CARDS.522::7E8 on layer 0
+          CARDS.529::7E9 on layer 0
+          CARDS.536::7EA on layer 0
+          CARDS.544::7EB on layer 0
+          CARDS.552::7EC on layer 0
+          CARDS.559::7ED on layer 0
+          CARDS.571::7EE on layer 0
+          CARDS.578::7EF on layer 0
+          CARDS.586::7F0 on layer 0
+          CARDS.594::7F1 on layer 0
+          CARDS.601::7F2 on layer 0
+          CARDS.608::7F3 on layer 0
+          CARDS.615::7F4 on layer 0
+          CARDS.623::7F5 on layer 0
+          CARDS.631::7F6 on layer 0
+          CARDS.638::7F7 on layer 0
+          CARDS.650::7F8 on layer 0
+          CARDS.657::7F9 on layer 0
+          CARDS.665::7FA on layer 0
+          CARDS.673::7FB on layer 0
+          CARDS.680::7FC on layer 0
+          CARDS.687::7FD on layer 0
+          CARDS.694::7FE on layer 0
+          CARDS.702::7FF on layer 0
+          CARDS.710::800 on layer 0
+          CARDS.717::801 on layer 0
+          CARDS.729::802 on layer 0
+          CARDS.736::803 on layer 0
+          CARDS.744::804 on layer 0
+          CARDS.752::805 on layer 0
+          CARDS.759::806 on layer 0
+          CARDS.766::807 on layer 0
+          CARDS.773::808 on layer 0
+          CARDS.780::809 on layer 0
+          CARDS.787::80A on layer 0
+          CARDS.794::80B on layer 0
+          CARDS.147::80C on layer 0
+          CARDS.154::80D on layer 0
+          CARDS.155::80E on layer 0
+          CARDS.156::80F on layer 0
+          CARDS.157::810 on layer 0
+          CARDS.158::811 on layer 0
+          CARDS.159::812 on layer 0
+          CARDS.160::813 on layer 0
+          CARDS.161::814 on layer 0
+          CARDS.162::815 on layer 0
+          CARDS.168::816 on layer 0
+          CARDS.169::817 on layer 0
+          CARDS.170::818 on layer 0
+          CARDS.171::819 on layer 0
+          CARDS.172::81A on layer 0
+          CARDS.173::81B on layer 0
+          CARDS.174::81C on layer 0
+          CARDS.175::81D on layer 0
+          CARDS.176::81E on layer 0
+          CARDS.177::81F on layer 0
+          CARDS.183::820 on layer 0
+          CARDS.184::821 on layer 0
+          CARDS.185::822 on layer 0
+          CARDS.186::823 on layer 0
+          CARDS.187::824 on layer 0
+          CARDS.188::825 on layer 0
+          CARDS.189::826 on layer 0
+          CARDS.190::827 on layer 0
+          CARDS.191::828 on layer 0
+          CARDS.192::829 on layer 0
+          CARDS.198::82A on layer 0
+          CARDS.199::82B on layer 0
+          CARDS.200::82C on layer 0
+          CARDS.201::82D on layer 0
+          CARDS.202::82E on layer 0
+          CARDS.203::82F on layer 0
+          CARDS.204::830 on layer 0
+
+     Attached Conductors(0):
+
+     Attached Heatloads/heaters(1):
+          Heat Load-Bottom Card Heat Load[MAIN]::1268 on layer 0
+
+     Attached Ties(0):
+
+     Attached Pipes(0):
+
+     Attached Compartments(0):
+
+     RcConic:
+
+     Surface to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000 1.000000
+     Y Axis =         0.00000,         1.00000,         0.00000 1.000000
+     Z Axis =         0.00000,         0.00000,         1.00000 1.000000
+ 
+     Base to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Surface to Base transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Grip mode = 0
+ 
+     Parameters for RadCAD Rectangle:
+         X-size       =         0.10000
+         Y-size       =         0.10000
+                   RCRECTANGLE  Layer: "0"
+                            Space: Model space
+                   Color: 214    Linetype: "BYLAYER"
+                   Handle = 283
+
+     RcEntity:
+
+     Total Area: 0.01
+
+     Attached Nodes(100):
+          CARDS.815::6A1 on layer 0
+          CARDS.848::6A2 on layer 0
+          CARDS.855::6A3 on layer 0
+          CARDS.861::6A4 on layer 0
+          CARDS.868::6A5 on layer 0
+          CARDS.874::6A6 on layer 0
+          CARDS.881::6A7 on layer 0
+          CARDS.887::6A8 on layer 0
+          CARDS.894::6A9 on layer 0
+          CARDS.829::6AA on layer 0
+          CARDS.842::6AB on layer 0
+          CARDS.849::6AC on layer 0
+          CARDS.862::6AD on layer 0
+          CARDS.875::6AE on layer 0
+          CARDS.888::6AF on layer 0
+          CARDS.843::6B0 on layer 0
+          CARDS.844::6B1 on layer 0
+          CARDS.845::6B2 on layer 0
+          CARDS.846::6B3 on layer 0
+          CARDS.847::6B4 on layer 0
+          CARDS.850::6B5 on layer 0
+          CARDS.851::6B6 on layer 0
+          CARDS.852::6B7 on layer 0
+          CARDS.853::6B8 on layer 0
+          CARDS.854::6B9 on layer 0
+          CARDS.856::6BA on layer 0
+          CARDS.857::6BB on layer 0
+          CARDS.858::6BC on layer 0
+          CARDS.859::6BD on layer 0
+          CARDS.860::6BE on layer 0
+          CARDS.863::6BF on layer 0
+          CARDS.864::6C0 on layer 0
+          CARDS.865::6C1 on layer 0
+          CARDS.866::6C2 on layer 0
+          CARDS.867::6C3 on layer 0
+          CARDS.869::6C4 on layer 0
+          CARDS.870::6C5 on layer 0
+          CARDS.871::6C6 on layer 0
+          CARDS.872::6C7 on layer 0
+          CARDS.873::6C8 on layer 0
+          CARDS.876::6C9 on layer 0
+          CARDS.877::6CA on layer 0
+          CARDS.878::6CB on layer 0
+          CARDS.879::6CC on layer 0
+          CARDS.880::6CD on layer 0
+          CARDS.882::6CE on layer 0
+          CARDS.883::6CF on layer 0
+          CARDS.884::6D0 on layer 0
+          CARDS.885::6D1 on layer 0
+          CARDS.886::6D2 on layer 0
+          CARDS.889::6D3 on layer 0
+          CARDS.890::6D4 on layer 0
+          CARDS.891::6D5 on layer 0
+          CARDS.892::6D6 on layer 0
+          CARDS.893::6D7 on layer 0
+          CARDS.895::6D8 on layer 0
+          CARDS.896::6D9 on layer 0
+          CARDS.897::6DA on layer 0
+          CARDS.898::6DB on layer 0
+          CARDS.899::6DC on layer 0
+          CARDS.900::6DD on layer 0
+          CARDS.802::6DE on layer 0
+          CARDS.803::6DF on layer 0
+          CARDS.804::6E0 on layer 0
+          CARDS.805::6E1 on layer 0
+          CARDS.806::6E2 on layer 0
+          CARDS.807::6E3 on layer 0
+          CARDS.808::6E4 on layer 0
+          CARDS.809::6E5 on layer 0
+          CARDS.810::6E6 on layer 0
+          CARDS.811::6E7 on layer 0
+          CARDS.812::6E8 on layer 0
+          CARDS.813::6E9 on layer 0
+          CARDS.814::6EA on layer 0
+          CARDS.816::6EB on layer 0
+          CARDS.817::6EC on layer 0
+          CARDS.818::6ED on layer 0
+          CARDS.819::6EE on layer 0
+          CARDS.820::6EF on layer 0
+          CARDS.821::6F0 on layer 0
+          CARDS.822::6F1 on layer 0
+          CARDS.823::6F2 on layer 0
+          CARDS.824::6F3 on layer 0
+          CARDS.825::6F4 on layer 0
+          CARDS.826::6F5 on layer 0
+          CARDS.827::6F6 on layer 0
+          CARDS.828::6F7 on layer 0
+          CARDS.830::6F8 on layer 0
+          CARDS.831::6F9 on layer 0
+          CARDS.832::6FA on layer 0
+          CARDS.833::6FB on layer 0
+          CARDS.834::6FC on layer 0
+          CARDS.835::6FD on layer 0
+          CARDS.836::6FE on layer 0
+          CARDS.837::6FF on layer 0
+          CARDS.838::700 on layer 0
+          CARDS.839::701 on layer 0
+          CARDS.840::702 on layer 0
+          CARDS.841::703 on layer 0
+          CARDS.801::704 on layer 0
+
+     Attached Conductors(0):
+
+     Attached Heatloads/heaters(1):
+          Heat Load-Top Card Heat Load[MAIN]::1267 on layer 0
+
+     Attached Ties(0):
+
+     Attached Pipes(0):
+
+     Attached Compartments(0):
+
+     RcConic:
+
+     Surface to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.10000
+     X Axis =         1.00000,         0.00000,         0.00000 1.000000
+     Y Axis =         0.00000,         1.00000,         0.00000 1.000000
+     Z Axis =         0.00000,         0.00000,         1.00000 1.000000
+ 
+     Base to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.10000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Surface to Base transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Grip mode = 0
+ 
+     Parameters for RadCAD Rectangle:
+         X-size       =         0.10000
+         Y-size       =         0.10000
+                   RCRECTANGLE  Layer: "0"
+                            Space: Model space
+                   Handle = 128a
+
+     RcEntity:
+
+     Total Area: 0.009
+
+     Attached Nodes(100):
+          CARDS.1::128D on layer 0
+          CARDS.2::128E on layer 0
+          CARDS.3::128F on layer 0
+          CARDS.4::1290 on layer 0
+          CARDS.5::1291 on layer 0
+          CARDS.6::1292 on layer 0
+          CARDS.7::1293 on layer 0
+          CARDS.8::1294 on layer 0
+          CARDS.9::1295 on layer 0
+          CARDS.10::1296 on layer 0
+          CARDS.11::1297 on layer 0
+          CARDS.12::1298 on layer 0
+          CARDS.13::1299 on layer 0
+          CARDS.14::129A on layer 0
+          CARDS.15::129B on layer 0
+          CARDS.16::129C on layer 0
+          CARDS.17::129D on layer 0
+          CARDS.18::129E on layer 0
+          CARDS.19::129F on layer 0
+          CARDS.20::12A0 on layer 0
+          CARDS.21::12A1 on layer 0
+          CARDS.22::12A2 on layer 0
+          CARDS.23::12A3 on layer 0
+          CARDS.24::12A4 on layer 0
+          CARDS.25::12A5 on layer 0
+          CARDS.26::12A6 on layer 0
+          CARDS.27::12A7 on layer 0
+          CARDS.28::12A8 on layer 0
+          CARDS.29::12A9 on layer 0
+          CARDS.30::12AA on layer 0
+          CARDS.31::12AB on layer 0
+          CARDS.32::12AC on layer 0
+          CARDS.33::12AD on layer 0
+          CARDS.34::12AE on layer 0
+          CARDS.35::12AF on layer 0
+          CARDS.36::12B0 on layer 0
+          CARDS.37::12B1 on layer 0
+          CARDS.38::12B2 on layer 0
+          CARDS.39::12B3 on layer 0
+          CARDS.40::12B4 on layer 0
+          CARDS.41::12B5 on layer 0
+          CARDS.42::12B6 on layer 0
+          CARDS.43::12B7 on layer 0
+          CARDS.44::12B8 on layer 0
+          CARDS.45::12B9 on layer 0
+          CARDS.46::12BA on layer 0
+          CARDS.47::12BB on layer 0
+          CARDS.48::12BC on layer 0
+          CARDS.49::12BD on layer 0
+          CARDS.50::12BE on layer 0
+          CARDS.51::12BF on layer 0
+          CARDS.52::12C0 on layer 0
+          CARDS.53::12C1 on layer 0
+          CARDS.54::12C2 on layer 0
+          CARDS.55::12C3 on layer 0
+          CARDS.56::12C4 on layer 0
+          CARDS.57::12C5 on layer 0
+          CARDS.58::12C6 on layer 0
+          CARDS.59::12C7 on layer 0
+          CARDS.60::12C8 on layer 0
+          CARDS.61::12C9 on layer 0
+          CARDS.62::12CA on layer 0
+          CARDS.63::12CB on layer 0
+          CARDS.64::12CC on layer 0
+          CARDS.65::12CD on layer 0
+          CARDS.66::12CE on layer 0
+          CARDS.67::12CF on layer 0
+          CARDS.68::12D0 on layer 0
+          CARDS.69::12D1 on layer 0
+          CARDS.70::12D2 on layer 0
+          CARDS.71::12D3 on layer 0
+          CARDS.72::12D4 on layer 0
+          CARDS.73::12D5 on layer 0
+          CARDS.74::12D6 on layer 0
+          CARDS.75::12D7 on layer 0
+          CARDS.76::12D8 on layer 0
+          CARDS.77::12D9 on layer 0
+          CARDS.78::12DA on layer 0
+          CARDS.79::12DB on layer 0
+          CARDS.80::12DC on layer 0
+          CARDS.81::12DD on layer 0
+          CARDS.82::12DE on layer 0
+          CARDS.83::12DF on layer 0
+          CARDS.84::12E0 on layer 0
+          CARDS.85::12E1 on layer 0
+          CARDS.86::12E2 on layer 0
+          CARDS.87::12E3 on layer 0
+          CARDS.88::12E4 on layer 0
+          CARDS.89::12E5 on layer 0
+          CARDS.90::12E6 on layer 0
+          CARDS.91::12E7 on layer 0
+          CARDS.92::12E8 on layer 0
+          CARDS.93::12E9 on layer 0
+          CARDS.94::12EA on layer 0
+          CARDS.95::12EB on layer 0
+          CARDS.96::12EC on layer 0
+          CARDS.97::12ED on layer 0
+          CARDS.98::12EE on layer 0
+          CARDS.99::12EF on layer 0
+          CARDS.100::12F0 on layer 0
+
+     Attached Conductors(0):
+
+     Attached Heatloads/heaters(0):
+
+     Attached Ties(0):
+
+     Attached Pipes(0):
+
+     Attached Compartments(0):
+
+     RcConic:
+
+     Surface to World transformation:
+
+     Origin =         0.00500,         0.00100,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000 1.000000
+     Y Axis =         0.00000,        -0.00000,         1.00000 1.000000
+     Z Axis =         0.00000,        -1.00000,        -0.00000 1.000000
+ 
+     Base to World transformation:
+
+     Origin =         0.00500,         0.00100,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,        -0.00000,         1.00000
+     Z Axis =         0.00000,        -1.00000,        -0.00000
+ 
+     Surface to Base transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Grip mode = 0
+ 
+     Parameters for RadCAD Rectangle:
+         X-size       =         0.09000
+         Y-size       =         0.10000
+ 

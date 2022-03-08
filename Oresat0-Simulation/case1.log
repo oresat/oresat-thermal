@@ -1,0 +1,277 @@
+[ AutoCAD - Fri Feb 04 10:18:42 2022  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Overriding 1 symbol values for this case set
+
+Undefined symbol: 'Alpha_BlackAnno' in expression:
+Alpha_BlackAnno
+The error occurred while updating: Optical prop: Annodized Black Aluminum
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_BlackAnno' in expression:
+Epsilon_BlackAnno
+The error occurred while updating: Optical prop: Annodized Black Aluminum
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_PurpleCoating' in expression:
+Alpha_PurpleCoating
+The error occurred while updating: Optical prop: Circuit Boards
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_PurpleCoating' in expression:
+Epsilon_PurpleCoating
+The error occurred while updating: Optical prop: Circuit Boards
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_Cu' in expression:
+Alpha_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_Cu' in expression:
+Epsilon_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_SolarPanel' in expression:
+Alpha_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_SolarPanel' in expression:
+Epsilon_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Al' in expression:
+k_Al
+The error occurred while updating: Thermo prop: 6061-2 Aluminum
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Al' in expression:
+rho_Al
+The error occurred while updating: Thermo prop: 6061-2 Aluminum
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Al' in expression:
+cp_Al
+The error occurred while updating: Thermo prop: 6061-2 Aluminum
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Battery' in expression:
+k_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Battery' in expression:
+rho_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Battery' in expression:
+cp_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Cu' in expression:
+k_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Cu' in expression:
+rho_Cu
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Cu' in expression:
+cp_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_PCB' in expression:
+k_PCB
+The error occurred while updating: Thermo prop: PCB
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_PCB' in expression:
+rho_PCB
+The error occurred while updating: Thermo prop: PCB
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_PCB' in expression:
+cp_PCB
+The error occurred while updating: Thermo prop: PCB
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_SS' in expression:
+k_SS
+The error occurred while updating: Thermo prop: Stainless Steel
+There were expression errors, default value of 1.0 will be returned.
+
+Calculating SINDA/FLUINT data
+ContactorData\Warnings_MAIN_BE2.txt contains warnings
+ContactorData\Warnings_MAIN_BE2.txt has 4 potential overlapping volume To objects.
+                  RCRECTANGLE  Layer: "0"
+                            Space: Model space
+                   Color: 214    Linetype: "BYLAYER"
+                   Handle = 25c
+
+     RcEntity:
+
+     Total Area: 0.01
+
+     Attached Nodes(100):
+          CARDS.211::7CD on layer 0
+          CARDS.411::7CE on layer 0
+          CARDS.447::7CF on layer 0
+          CARDS.479::7D0 on layer 0
+          CARDS.515::7D1 on layer 0
+          CARDS.547::7D2 on layer 0
+          CARDS.583::7D3 on layer 0
+          CARDS.615::7D4 on layer 0
+          CARDS.651::7D5 on layer 0
+          CARDS.237::7D6 on layer 0
+          CARDS.259::7D7 on layer 0
+          CARDS.285::7D8 on layer 0
+          CARDS.307::7D9 on layer 0
+          CARDS.333::7DA on layer 0
+          CARDS.355::7DB on layer 0
+          CARDS.381::7DC on layer 0
+          CARDS.387::7DD on layer 0
+          CARDS.393::7DE on layer 0
+          CARDS.399::7DF on layer 0
+          CARDS.405::7E0 on layer 0
+          CARDS.412::7E1 on layer 0
+          CARDS.419::7E2 on layer 0
+          CARDS.425::7E3 on layer 0
+          CARDS.435::7E4 on layer 0
+          CARDS.441::7E5 on layer 0
+          CARDS.448::7E6 on layer 0
+          CARDS.455::7E7 on layer 0
+          CARDS.461::7E8 on layer 0
+          CARDS.467::7E9 on layer 0
+          CARDS.473::7EA on layer 0
+          CARDS.480::7EB on layer 0
+          CARDS.487::7EC on layer 0
+          CARDS.493::7ED on layer 0
+          CARDS.503::7EE on layer 0
+          CARDS.509::7EF on layer 0
+          CARDS.516::7F0 on layer 0
+          CARDS.523::7F1 on layer 0
+          CARDS.529::7F2 on layer 0
+          CARDS.535::7F3 on layer 0
+          CARDS.541::7F4 on layer 0
+          CARDS.548::7F5 on layer 0
+          CARDS.555::7F6 on layer 0
+          CARDS.561::7F7 on layer 0
+          CARDS.571::7F8 on layer 0
+          CARDS.577::7F9 on layer 0
+          CARDS.584::7FA on layer 0
+          CARDS.591::7FB on layer 0
+          CARDS.597::7FC on layer 0
+          CARDS.603::7FD on layer 0
+          CARDS.609::7FE on layer 0
+          CARDS.616::7FF on layer 0
+          CARDS.623::800 on layer 0
+          CARDS.629::801 on layer 0
+          CARDS.639::802 on layer 0
+          CARDS.645::803 on layer 0
+          CARDS.652::804 on layer 0
+          CARDS.659::805 on layer 0
+          CARDS.665::806 on layer 0
+          CARDS.671::807 on layer 0
+          CARDS.677::808 on layer 0
+          CARDS.683::809 on layer 0
+          CARDS.689::80A on layer 0
+          CARDS.695::80B on layer 0
+          CARDS.145::80C on layer 0
+          CARDS.151::80D on layer 0
+          CARDS.152::80E on layer 0
+          CARDS.153::80F on layer 0
+          CARDS.154::810 on layer 0
+          CARDS.155::811 on layer 0
+          CARDS.156::812 on layer 0
+          CARDS.157::813 on layer 0
+          CARDS.158::814 on layer 0
+          CARDS.159::815 on layer 0
+          CARDS.164::816 on layer 0
+          CARDS.165::817 on layer 0
+          CARDS.166::818 on layer 0
+          CARDS.167::819 on layer 0
+          CARDS.168::81A on layer 0
+          CARDS.169::81B on layer 0
+          CARDS.170::81C on layer 0
+          CARDS.171::81D on layer 0
+          CARDS.172::81E on layer 0
+          CARDS.173::81F on layer 0
+          CARDS.178::820 on layer 0
+          CARDS.179::821 on layer 0
+          CARDS.180::822 on layer 0
+          CARDS.181::823 on layer 0
+          CARDS.182::824 on layer 0
+          CARDS.183::825 on layer 0
+          CARDS.184::826 on layer 0
+          CARDS.185::827 on layer 0
+          CARDS.186::828 on layer 0
+          CARDS.187::829 on layer 0
+          CARDS.192::82A on layer 0
+          CARDS.193::82B on layer 0
+          CARDS.194::82C on layer 0
+          CARDS.195::82D on layer 0
+          CARDS.196::82E on layer 0
+          CARDS.197::82F on layer 0
+          CARDS.198::830 on layer 0
+
+     Attached Conductors(0):
+
+     Attached Heatloads/heaters(1):
+          Heat Load-Bottom Card Heat Load[MAIN]::1268 on layer 0
+
+     Attached Ties(0):
+
+     Attached Pipes(0):
+
+     Attached Compartments(0):
+
+     RcConic:
+
+     Surface to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000 1.000000
+     Y Axis =         0.00000,         1.00000,         0.00000 1.000000
+     Z Axis =         0.00000,         0.00000,         1.00000 1.000000
+ 
+     Base to World transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Surface to Base transformation:
+
+     Origin =         0.00000,         0.00000,         0.00000
+     X Axis =         1.00000,         0.00000,         0.00000
+     Y Axis =         0.00000,         1.00000,         0.00000
+     Z Axis =         0.00000,         0.00000,         1.00000
+ 
+     Grip mode = 0
+ 
+     Parameters for RadCAD Rectangle:
+         X-size       =         0.10000
+         Y-size       =         0.10000
+ Thermophysical Property: Aluminum is not defined.
+
+This property is first referenced from: Rect-(-Z Endcap)[CARDS]::25C
+
+Current thermophysical property database is: TdThermo.tdp
+
+Possible solutions are:
+    1. Edit/create/rename the property on the property database.
+    2. Edit references to the property.
+    3. Use Model Browser, List by Thermo Props, to find usage.
+
+Error loading Cond/Cap objects
+Error encountered, cleaning up and exiting this Case Set.
+

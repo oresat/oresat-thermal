@@ -1,0 +1,249 @@
+[ AutoCAD - Sun Feb 27 07:55:01 2022  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Overriding 1 symbol values for this case set
+
+Undefined symbol: 'PCB_PCB' in expression:
+PCB_PCB
+The error occurred while updating: Edge Contactor-Interrior Cards to Backplane[CARDS][2]::12F5
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_Cu' in expression:
+Alpha_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_Cu' in expression:
+Epsilon_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_SolarPanel' in expression:
+Alpha_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_SolarPanel' in expression:
+Epsilon_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Battery' in expression:
+k_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Battery' in expression:
+rho_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Battery' in expression:
+cp_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Cu' in expression:
+k_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Cu' in expression:
+rho_Cu
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Cu' in expression:
+cp_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_SS' in expression:
+k_SS
+The error occurred while updating: Thermo prop: Stainless Steel
+There were expression errors, default value of 1.0 will be returned.
+
+Calculating SINDA/FLUINT data
+Calculating Thermal Analyzer Input took 0.57 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel CARDS...
+Outputting data for submodel FRAMES...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel SOLAR_CARDS...
+Outputting data for submodel SOLAR_PANELS...
+Outputting data for submodel SPACE...
+    Number of nodes:      2121
+    Number of conductors: 5412
+    
+Total Nodal Mass = 0.933080 kg
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Exterior-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+    920 calculation nodes
+    920 radks were output, 0 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    2500 average number of rays per node shot
+    384 nodes(41%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlapping surfaces greater than 10.0% found in Exterior
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database Exterior-Y-spin-RcOptics.rch
+Fast Spin about Vector 0.000000 1.000000 0.000000 is enabled
+
+Undefined symbol: 'PCB_PCB' in expression:
+PCB_PCB
+The error occurred while updating: Edge Contactor-Interrior Cards to Backplane[CARDS][2]::12F5
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_Cu' in expression:
+Alpha_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_Cu' in expression:
+Epsilon_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_SolarPanel' in expression:
+Alpha_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_SolarPanel' in expression:
+Epsilon_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Battery' in expression:
+k_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Battery' in expression:
+rho_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Battery' in expression:
+cp_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Cu' in expression:
+k_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Cu' in expression:
+rho_Cu
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Cu' in expression:
+cp_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_SS' in expression:
+k_SS
+The error occurred while updating: Thermo prop: Stainless Steel
+There were expression errors, default value of 1.0 will be returned.
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Interior-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+    1300 calculation nodes
+    87155 radks were output, 152868 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    2500 average number of rays per node shot
+    1283 nodes(98%)  have weighted error > 25
+        This can be lowered by shooting more rays
+     
+    No overlapping surfaces greater than 10.0% found in Interior
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database Interior-Y-spin-RcOptics.rch
+Fast Spin about Vector 0.000000 1.000000 0.000000 is enabled
+
+Undefined symbol: 'PCB_PCB' in expression:
+PCB_PCB
+The error occurred while updating: Edge Contactor-Interrior Cards to Backplane[CARDS][2]::12F5
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_Cu' in expression:
+Alpha_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_Cu' in expression:
+Epsilon_Cu 
+The error occurred while updating: Optical prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Alpha_SolarPanel' in expression:
+Alpha_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'Epsilon_SolarPanel' in expression:
+Epsilon_SolarPanel
+The error occurred while updating: Optical prop: Solar Panel
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Battery' in expression:
+k_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Battery' in expression:
+rho_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Battery' in expression:
+cp_Battery
+The error occurred while updating: Thermo prop: Battery
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_Cu' in expression:
+k_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'rho_Cu' in expression:
+rho_Cu
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'cp_Cu' in expression:
+cp_Cu 
+The error occurred while updating: Thermo prop: Copper
+There were expression errors, default value of 1.0 will be returned.
+
+Undefined symbol: 'k_SS' in expression:
+k_SS
+The error occurred while updating: Thermo prop: Stainless Steel
+There were expression errors, default value of 1.0 will be returned.
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+
+*** Running SINDA model named C:\Users\zachg\OneDrive\Documents\School\.Oresat0 Thermal Sim\case4.inp
+Successful completion of processor
+From C:\Users\zachg\OneDrive\Documents\School\.Oresat0 Thermal Sim\messages_case4.log
+     TIMEN  =    39738.86      The ASTAP execution time is:    15.8120083000103       seconds
+Time to run SINDA = 22.92 sec
+
+Case Set Solved::Elapsed time = 24.88 sec
