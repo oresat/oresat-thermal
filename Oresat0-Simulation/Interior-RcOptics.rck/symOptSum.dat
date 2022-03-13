@@ -1,0 +1,69 @@
+C    DWG name:      Oresat0.dwg
+C    Thermophysical Property Database: TdThermo.tdp
+C    Optical Property Database:        RcOptics.rco
+C    Computer name: MRHENRY-LAPTOPE
+C    User name:     zachg
+C    Symbol Names, Evaluated values, Input Strings, Comments
+C    ACS_load               0.            0
+C    Al_Al                  0.0103        0.0103               conduction coefficient for aluminum to aluminum contact
+C    Al_cp                  900.          900                  Specific heat of 6061-type2 aluminum
+C    Al_k                   187.          187                  Conductivbity of 6061-type 2 aluminum
+C    Al_rho                 2700.         2700                 Density of 6061-type2 aluminum
+C    backplane_Frame        0.144         0.144
+C    BatteryCard_load       0.003         0.003
+C    Battery_cp             837.4         837.4
+C    Battery_Heater         1.            1
+C    Battery_k              300.          300
+C    Battery_rho            2007.7        2007.7
+C    BlackAnno_alpha        0.54          0.54                 Absportivity of black annodized aluminum
+C    BlackAnno_epsilon      0.75          0.75                 Emissivity of black annodization aluminum
+C    C3_card_load           0.481         0.481                Heat load for the C3 card in W
+C    CardHeatLoad           0.5           0.5                  Heat load in Watts for Cards
+C    DxWifi_load            0.            0
+C    hrBetaAngle            90.           90
+C    hrEccen                0.            0
+C    hrIllum                0.            0
+C    hrMeanAnom             0.            0
+C    hrPeriod               5676.98       5676.98              Always in current user units. If programming, use hrPe...
+C    hrPeriodSec            5676.98       5676.98
+C    hrPlanetX              0.            0
+C    hrPlanetY              3.155440e-30  3.15544e-30
+C    hrPlanetZ              -1.           -1
+C    hrPos                  0.            0
+C    hrShadowEntry          -1.           -1
+C    hrShadowExit           -1.           -1
+C    hrSpeed                7.61261       7.61261
+C    hrSubSolarMeanAnom     45.           45                   -180 to 180
+C    hrSubSolarTrueAnom     45.           45                   -180 to 180
+C    hrSunX                 2.653433e-14  2.653433028854e-14  
+C    hrSunY                 1.            1
+C    hrSunZ                 2.653433e-14  2.653433028854e-14  
+C    hrTime                 0.            0                    Always in current user units. If programming, use hrTi...
+C    hrTimeSec              0.            0
+C    hrTimeShadowEntry      -1.           -1
+C    hrTimeShadowEntrySec   -1.           -1
+C    hrTimeShadowExit       -1.           -1
+C    hrTimeShadowExitSec    -1.           -1
+C    hrTrueAnom             0.            0
+C    hrVelocityX            1.            1
+C    hrVelocityY            -6.483450e-30 -6.48345e-30
+C    hrVelocityZ            -1.262180e-29 -1.26218e-29
+C    InteriorCards_toFrames 0.3301        0.3301
+C    negZendcap_load        0.            0
+C    PCB_cp                 1144.         1144                 Specific heat of PCB assuming 97.5% FR4, 2.5% Cy
+C    PCB_k                  9.9           9.9                  Conductivity of 2-layer FR4 PCB. Calculated assuming 9...
+C    PCB_rho                2077.         2077                 Density of PCB assuming 97.5% FR4, 2.5% Cu
+C    Purple_alpha           0.8           0.8                  absorptivity of purple coating on PCB
+C    Purple_epsilon         0.8           0.8                  emissivity of purple coating on PCB
+C    SDR_GPS_load           0.001         0.001
+C    SolarCard_frames       0.55          0.55                 for solar cards to the frames
+C    solarCard_load         0.092         0.092                Assuming on
+C    SolarPanel_solarCard   1.21          1.21
+C    StarTracker_load       0.041         0.041
+C    zendcard_load          0.            0
+C
+C Optical Properties Used:
+C PROPERTY NAME            EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
+C Annodized Black Aluminum 0.75  0.54                                                     
+C Circuit Boards           0.8   0.8                                                      
+C
