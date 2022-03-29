@@ -1,0 +1,134 @@
+[ AutoCAD - Mon Mar 28 18:08:22 2022  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Calculating SINDA/FLUINT data
+Calculating Thermal Analyzer Input took 4.31 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel BACKPLANE_TO_FRAME...
+Outputting data for submodel BATTERY...
+Outputting data for submodel CARDS...
+Outputting data for submodel CFC_ASSEM...
+Outputting data for submodel FORTY_PIN_CONNECTOR...
+Outputting data for submodel FRAMES...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel MAIN...
+Outputting data for submodel MECHANICAL_CONNECTIONS...
+Outputting data for submodel SOLARCARDS_CONNECTOR...
+Outputting data for submodel SOLAR_CARDS...
+Outputting data for submodel SOLAR_PANELS...
+Outputting data for submodel SPACE...
+    Number of nodes:      1703
+    Number of conductors: 4116
+    Number of thermoelectric coolers:    1
+
+
+*** RADCAD RAYTRACE RADK RUN START for database BASE-rcoptics.rck
+Creating new database named BASE-rcoptics.rck
+Using regular optical properties
+Time to calculate radk = 8.13 sec
+Outputting SINDA/FLUINT radks to file C12A0.k...
+Total elapsed time for calculations and output = 11.90 sec
+    1690 calculation nodes
+    54481 radks were output, 161366 radks were filtered out
+    4 nodes(0%) have bij sum + bij inactive < .9
+        This may be ok, but could be reduced by lowering the BIJ Cutoff on the RADK Output Page
+    15000 average number of rays per node shot
+    7 nodes(0%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlapping surfaces greater than 10.0% found in BASE
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database BASE-OreSatLiveCardColdCase-rcoptics.rch
+Creating new database named BASE-OreSatLiveCardColdCase-rcoptics.rch
+Using regular optical properties
+Start and End position calc already done
+Total Elapsed time for heating rate calculations = 80.59 sec
+Outputting SINDA/FLUINT heating rate data to files:
+    C12A1.hra for arrays and C12A1.hrl for logic...
+Total Elapsed time for heating rate calculations and output = 82.74 sec
+
+*** Running SINDA model named C:\Users\elevy\oresat-thermal\Simulation\OreSat Live\OreSatLiveCard_ColdCase.inp
+Processor failed - see processor output file and messages_OreSatLiveCard_ColdCase.txt in your input file subdirectory
+From C:\Users\elevy\oresat-thermal\Simulation\OreSat Live\messages_OreSatLiveCard_ColdCase.txt
+    Current Patch Level = 12
+    Version = 6.2 Intel Fortran
+    
+    Microsoft (R) Incremental Linker Version 14.29.30037.0
+    Copyright (C) Microsoft Corporation.  All rights reserved.
+    
+    -out:astap.exe 
+    -subsystem:console 
+    -incremental:no 
+    -defaultlib:libiomp5md.lib 
+    -nodefaultlib:vcomp.lib 
+    -nodefaultlib:vcompd.lib 
+    "/LIBPATH:C:\Program Files\Cullimore and Ring\SindaFluint\lib" 
+    FMI_Client.lib 
+    SFUtils.lib 
+    procesCur16.lib 
+    ProcessModulesDll_16.lib 
+    ProcessorCGlobals_16.lib 
+    utilityCur_16.lib 
+    amg_16.lib 
+    "amg_16_interface.lib " 
+    tdsubproc.lib 
+    statwin.lib 
+    sfmatlab.lib 
+    LVCompartment.lib 
+    SaveSetWriter.lib 
+    multicalc16.lib 
+    sindaprepro.lib 
+    /STACK:100000000 
+    /MAP 
+    /MANIFEST 
+    "/LIBPATH:C:\Program Files\Cullimore and Ring\SindaFluint\lib" 
+    FMI_Client.lib 
+    SFUtils.lib 
+    procesCur16.lib 
+    ProcessModulesDll_16.lib 
+    ProcessorCGlobals_16.lib 
+    utilityCur_16.lib 
+    amg_16.lib 
+    "amg_16_interface.lib " 
+    tdsubproc.lib 
+    statwin.lib 
+    sfmatlab.lib 
+    LVCompartment.lib 
+    SaveSetWriter.lib 
+    multicalc16.lib 
+    sindaprepro.lib 
+    /STACK:100000000 
+    /MAP 
+    /MANIFEST 
+    "/LIBPATH:C:\Program Files\Cullimore and Ring\SindaFluint\lib" 
+    FMI_Client.lib 
+    SFUtils.lib 
+    procesCur16.lib 
+    ProcessModulesDll_16.lib 
+    ProcessorCGlobals_16.lib 
+    utilityCur_16.lib 
+    amg_16.lib 
+    "amg_16_interface.lib " 
+    tdsubproc.lib 
+    statwin.lib 
+    sfmatlab.lib 
+    LVCompartment.lib 
+    SaveSetWriter.lib 
+    multicalc16.lib 
+    sindaprepro.lib 
+    /STACK:100000000 
+    /MAP 
+    /MANIFEST 
+    astap.obj 
+    userLogic.obj 
+       Creating library astap.lib and object astap.exp
+    ifort userLogic.for /warn:declarations /warn:truncated_source /Qopenmp /fpe:0 /real-size:64 /integer-size:64 /names:lowercase /iface:cref "/I:C:\Program Files\Cullimore and Ring\SindaFluint\mod\Current" /MD /iface:mixed_str_len_arg "/include:C:\Program Files\Cullimore and Ring\SindaFluint\lib" /assume:byterecl /extend-source:132 /O3 /traceback /INCREMENTAL:NO
+    
+    Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.2.0 Build 20210228_000000
+    Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+    
+    No messages in file C:\Users\elevy\oresat-thermal\Simulation\OreSat Live\messages_OreSatLiveCard_ColdCase.log to report
+SINDA failed
+Case Set Solved::Elapsed time 24.53 min
