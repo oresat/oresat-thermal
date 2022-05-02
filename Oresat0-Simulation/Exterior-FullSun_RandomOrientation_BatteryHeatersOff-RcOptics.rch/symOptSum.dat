@@ -1,0 +1,71 @@
+C    DWG name:      Oresat0.dwg
+C    Thermophysical Property Database: TdThermo.tdp
+C    Optical Property Database:        RcOptics.rco
+C    Computer name: MRHENRY-LAPTOPE
+C    User name:     zachg
+C    Symbol Names, Evaluated values, Input Strings, Comments
+C    ACS_load               0.          0
+C    Alpha_SolarPanel       0.92        0.92
+C    Al_Al                  0.0103      0.0103               conduction coefficient for aluminum to aluminum contact ...
+C    Al_cp                  900.        900                  Specific heat of 6061-type2 aluminum
+C    Al_k                   187.        187                  Conductivbity of 6061-type 2 aluminum
+C    Al_rho                 2700.       2700                 Density of 6061-type2 aluminum
+C    backplane_Frame        0.144       0.144                reasonable stand in, insufficient data, Taken from 2019-...
+C    BatteryCard_load       0.003       0.003
+C    Battery_BatteryCard    0.0005576   0.0005576            Conductance of battery multiplied by the area of the bat...
+C    Battery_cp             837.4       837.4
+C    Battery_Heater         0.          0
+C    Battery_k              300.        300
+C    Battery_rho            2007.7      2007.7
+C    BlackAnno_alpha        0.54        0.54                 Absportivity of black annodized aluminum
+C    BlackAnno_epsilon      0.75        0.75                 Emissivity of black annodization aluminum
+C    C3_card_load           0.481       0.481                Heat load for the C3 card in W
+C    CardHeatLoad           0.5         0.5                  Heat load in Watts for Cards
+C    DxWifi_load            0.          0
+C    Epsilon_SolarPanel     0.85        0.85
+C    hrBetaAngle            90.         90
+C    hrEccen                0.          0
+C    hrIllum                0.          0
+C    hrMeanAnom             20.         20
+C    hrPeriod               5676.98     5676.98              Always in current user units. If programming, use hrPeri...
+C    hrPeriodSec            5676.98     5676.98
+C    hrPlanetX              -0.478138   -0.478138
+C    hrPlanetY              -0.742043   -0.742043
+C    hrPlanetZ              -0.469847   -0.469847
+C    hrPos                  2.          2
+C    hrShadowEntry          -1.         -1
+C    hrShadowExit           -1.         -1
+C    hrSpeed                7.61261     7.61261
+C    hrSubSolarMeanAnom     45.         45                   -180 to 180
+C    hrSubSolarTrueAnom     45.         45                   -180 to 180
+C    hrSunX                 0.873983    0.873983
+C    hrSunY                 -0.454873   -0.454873
+C    hrSunZ                 -0.17101    -0.17101
+C    hrTime                 315.3877    3.153876631621e+02   Always in current user units. If programming, use hrTime...
+C    hrTimeSec              315.3877    3.153876631621e+02  
+C    hrTimeShadowEntry      -1.         -1
+C    hrTimeShadowEntrySec   -1.         -1
+C    hrTimeShadowExit       -1.         -1
+C    hrTimeShadowExitSec    -1.         -1
+C    hrTrueAnom             20.         20
+C    hrVelocityX            -0.0868238  -0.0868238
+C    hrVelocityY            -0.492404   -0.492404
+C    hrVelocityZ            0.866025    0.866025
+C    InteriorCards_toFrames 0.001       0.001                Found by multiplying the 0.885 by all the area in contac...
+C    Lattice_Indent_Area    0.000714536 0.000714536          The area of the lattice indents including the sidewalls ...
+C    negZendcap_load        0.          0
+C    PCB_cp                 1144.       1144                 Specific heat of PCB assuming 97.5% FR4, 2.5% Cy
+C    PCB_k                  9.9         9.9                  Conductivity of 2-layer FR4 PCB. Calculated assuming 90....
+C    PCB_rho                2077.       2077                 Density of PCB assuming 97.5% FR4, 2.5% Cu
+C    Purple_alpha           0.8         0.8                  absorptivity of purple coating on PCB
+C    Purple_epsilon         0.8         0.8                  emissivity of purple coating on PCB
+C    SDR_GPS_load           0.001       0.001
+C    SolarCard_frames       0.002       0.002                Found by taking 0.885 W/K and multiplying it by the cont...
+C    solarCard_load         0.092       0.092                Assuming on
+C    SolarPanel_cp          700.        700
+C    SolarPanel_k           150.        150                  W*m^-1*K^-1
+C    SolarPanel_rho         2328.       2328                 kg*m^-3
+C    SolarPanel_solarCard   0.017       0.017                Multipled the conductance of the solar panel to solar ca...
+C    StarTracker_load       0.041       0.041
+C    zendcard_load          0.          0
+C

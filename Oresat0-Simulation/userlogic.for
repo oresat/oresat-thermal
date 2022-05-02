@@ -243,21 +243,21 @@
        RETURN
        END
        SUBROUTINE VA10006
-       CALL QVTEMP('C2A1')
-       CALL GVTEMP('C2A1')
-       CALL CVTEMP('C2A1')
+       CALL QVTEMP('C6A1')
+       CALL GVTEMP('C6A1')
+       CALL CVTEMP('C6A1')
        RETURN
        END
        SUBROUTINE VA10007
-       CALL QVTEMP('C2A0')
-       CALL GVTEMP('C2A0')
-       CALL CVTEMP('C2A0')
+       CALL QVTEMP('C6A0')
+       CALL GVTEMP('C6A0')
+       CALL CVTEMP('C6A0')
        RETURN
        END
        SUBROUTINE VA10008
-       CALL QVTEMP('C2A3')
-       CALL GVTEMP('C2A3')
-       CALL CVTEMP('C2A3')
+       CALL QVTEMP('C6A4')
+       CALL GVTEMP('C6A4')
+       CALL CVTEMP('C6A4')
        RETURN
        END
        SUBROUTINE VA2_GLOBAL
@@ -296,70 +296,6 @@
        use sf_interfaces
        USE USERREGISTER_MOD
        USE USERCOMMONDATA
-       Q(           1) = Q(           1) + 5.10204100E-03
-       Q(           2) = Q(           2) + 1.02040800E-02
-       Q(           3) = Q(           3) + 1.02040800E-02
-       Q(           4) = Q(           4) + 1.02040800E-02
-       Q(           5) = Q(           5) + 1.02040800E-02
-       Q(           6) = Q(           6) + 1.02040800E-02
-       Q(           7) = Q(           7) + 1.02040800E-02
-       Q(           8) = Q(           8) + 5.10204100E-03
-       Q(           9) = Q(           9) + 1.02040800E-02
-       Q(          10) = Q(          10) + 2.04081600E-02
-       Q(          11) = Q(          11) + 2.04081600E-02
-       Q(          12) = Q(          12) + 2.04081600E-02
-       Q(          13) = Q(          13) + 2.04081600E-02
-       Q(          14) = Q(          14) + 2.04081600E-02
-       Q(          15) = Q(          15) + 2.04081600E-02
-       Q(          16) = Q(          16) + 1.02040800E-02
-       Q(          17) = Q(          17) + 1.02040800E-02
-       Q(          18) = Q(          18) + 2.04081600E-02
-       Q(          19) = Q(          19) + 2.04081600E-02
-       Q(          20) = Q(          20) + 2.04081600E-02
-       Q(          21) = Q(          21) + 2.04081600E-02
-       Q(          22) = Q(          22) + 2.04081600E-02
-       Q(          23) = Q(          23) + 2.04081600E-02
-       Q(          24) = Q(          24) + 1.02040800E-02
-       Q(          25) = Q(          25) + 1.02040800E-02
-       Q(          26) = Q(          26) + 2.04081600E-02
-       Q(          27) = Q(          27) + 2.04081600E-02
-       Q(          28) = Q(          28) + 2.04081600E-02
-       Q(          29) = Q(          29) + 2.04081600E-02
-       Q(          30) = Q(          30) + 2.04081600E-02
-       Q(          31) = Q(          31) + 2.04081600E-02
-       Q(          32) = Q(          32) + 1.02040800E-02
-       Q(          33) = Q(          33) + 1.02040800E-02
-       Q(          34) = Q(          34) + 2.04081600E-02
-       Q(          35) = Q(          35) + 2.04081600E-02
-       Q(          36) = Q(          36) + 2.04081600E-02
-       Q(          37) = Q(          37) + 2.04081600E-02
-       Q(          38) = Q(          38) + 2.04081600E-02
-       Q(          39) = Q(          39) + 2.04081600E-02
-       Q(          40) = Q(          40) + 1.02040800E-02
-       Q(          41) = Q(          41) + 1.02040800E-02
-       Q(          42) = Q(          42) + 2.04081600E-02
-       Q(          43) = Q(          43) + 2.04081600E-02
-       Q(          44) = Q(          44) + 2.04081600E-02
-       Q(          45) = Q(          45) + 2.04081600E-02
-       Q(          46) = Q(          46) + 2.04081600E-02
-       Q(          47) = Q(          47) + 2.04081600E-02
-       Q(          48) = Q(          48) + 1.02040800E-02
-       Q(          49) = Q(          49) + 1.02040800E-02
-       Q(          50) = Q(          50) + 2.04081600E-02
-       Q(          51) = Q(          51) + 2.04081600E-02
-       Q(          52) = Q(          52) + 2.04081600E-02
-       Q(          53) = Q(          53) + 2.04081600E-02
-       Q(          54) = Q(          54) + 2.04081600E-02
-       Q(          55) = Q(          55) + 2.04081600E-02
-       Q(          56) = Q(          56) + 1.02040800E-02
-       Q(          57) = Q(          57) + 5.10204100E-03
-       Q(          58) = Q(          58) + 1.02040800E-02
-       Q(          59) = Q(          59) + 1.02040800E-02
-       Q(          60) = Q(          60) + 1.02040800E-02
-       Q(          61) = Q(          61) + 1.02040800E-02
-       Q(          62) = Q(          62) + 1.02040800E-02
-       Q(          63) = Q(          63) + 1.02040800E-02
-       Q(          64) = Q(          64) + 5.10204100E-03
        Q(         101) = Q(         101) + 3.70370400E-05
        Q(         102) = Q(         102) + 3.70370400E-05
        Q(         103) = Q(         103) + 3.70370400E-05
@@ -1078,10 +1014,10 @@
        use sf_interfaces
        USE USERREGISTER_MOD
        USE USERCOMMONDATA
-      CALL LOADQ_C2A1_1644385744
-       CALL QVTIME('C2A1')
-       CALL GVTIME('C2A1')
-       CALL CVTIME('C2A1')
+      CALL LOADQ_C6A1_1650666580
+       CALL QVTIME('C6A1')
+       CALL GVTIME('C6A1')
+       CALL CVTIME('C6A1')
        RETURN
        END
        SUBROUTINE VA0_GLOBAL
@@ -1111,15 +1047,15 @@
        RETURN
        END
        SUBROUTINE VA00007
-       CALL QVTIME('C2A0')
-       CALL GVTIME('C2A0')
-       CALL CVTIME('C2A0')
+       CALL QVTIME('C6A0')
+       CALL GVTIME('C6A0')
+       CALL CVTIME('C6A0')
        RETURN
        END
        SUBROUTINE VA00008
-       CALL QVTIME('C2A3')
-       CALL GVTIME('C2A3')
-       CALL CVTIME('C2A3')
+       CALL QVTIME('C6A4')
+       CALL GVTIME('C6A4')
+       CALL CVTIME('C6A4')
        RETURN
        END
        SUBROUTINE SLLOG1
@@ -1173,19 +1109,26 @@
        USE USERCOMMONDATA
        CHARACTER*32 NBNAM( 999)
        CHARACTER*32 NFNAM( 999)
+      CALL LOADT('OreSat0.loadt')
        CALL TDPREBL
        NBNAM(   1) = 'CARDS                           '
        NBNAM(   2) = 'FRAMES                          '
        NBNAM(   3) = 'SOLAR_CARDS                     '
        NBNAM(   4) = 'SOLAR_PANELS                    '
        NBNAM(   5) = 'SPACE                           '
-       NBNAM(   6) = 'C2A1                            '
-       NBNAM(   7) = 'C2A0                            '
-       NBNAM(   8) = 'C2A3                            '
+       NBNAM(   6) = 'C6A1                            '
+       NBNAM(   7) = 'C6A0                            '
+       NBNAM(   8) = 'C6A4                            '
        CALL BUILD ('DEFAULT                         ',   8, NBNAM)
        CALL TDPOSTBL
+       CALL TDHTR
+       CALL STEADY
+       CALL TDREL
        CALL TRANSIENT
        CALL TDHTOT
+       CALL TDHTR
+       CALL STEADY
+       CALL TDREL
        CALL TDPOSTSL
        RETURN
        END
@@ -1242,6 +1185,54 @@
        !DEC$ ATTRIBUTES DLLEXPORT::OUT0008
        RETURN
        END
+      SUBROUTINE LOADT(file)
+       use sf_interfaces
+       USE USERREGISTER_MOD
+       USE USERCOMMONDATA
+      CHARACTER*(*) FILE
+      CHARACTER*32 SUB,REGNAME,VALREG
+      INTEGER NLOADT,NVER,NID,NUM_NODES, NUM_REG, LOCAL_NODE, LOCAL_COUNTER
+      CALL USRFIL(NLOADT,FILE,'OLD')
+      WRITE(NOUT,*) 'Loading temperatures from ', file
+      READ(NLOADT,101,ERR=996)NVER
+      READ(NLOADT,102,ERR=997)NUM_NODES
+      DO LOCAL_COUNTER=1,NUM_NODES
+      READ(NLOADT,103,ERR=998)SUB,NID,A__TD
+      LOCAL_NODE = INTNOD(SUB,-NID)
+      IF( LOCAL_NODE  .GT.  0 ) THEN
+              T( LOCAL_NODE ) = A__TD
+      ENDIF
+      ENDDO
+      READ(NLOADT,102,ERR=999)NUM_REG
+      DO LOCAL_COUNTER=1,NUM_REG
+      READ(NLOADT,104,ERR=1000)REGNAME,VALREG
+      CALL CHGREG(REGNAME,VALREG,0)
+      ENDDO
+      CLOSE(NLOADT)
+      RETURN
+ 101  FORMAT(I8)
+ 102  FORMAT(I10)
+ 103  FORMAT(A32,I12,G24.15)
+ 104  FORMAT(A32,2X,G24.15)
+ 106  FORMAT('**** WARNING ****'//' ERROR READING VERSION '//)
+ 107  FORMAT('**** WARNING ****'//' ERROR READING NUMBER OF NODES '//)
+ 108  FORMAT('**** WARNING ****'//' ERROR READING NODE DATA '//)
+ 109  FORMAT('**** WARNING ****'//' ERROR READING NUMBER OF REGISTERS '//)
+ 110  FORMAT('**** WARNING ****'//' ERROR READING REGISTERS '//)
+ 111  FORMAT('FROM LOADT FILE = ',A//)
+ 996    WRITE ( NOUT , 106 )
+      GOTO 9999
+ 997    WRITE ( NOUT , 107 )
+      GOTO 9999
+ 998    WRITE ( NOUT , 108 )
+      GOTO 9999
+ 999    WRITE ( NOUT , 109 )
+      GOTO 9999
+ 1000   WRITE ( NOUT , 110 )
+ 9999 CONTINUE
+      WRITE(NOUT,111)FILE
+      RETURN
+      END
        SUBROUTINE TDHTR
        RETURN
        END
@@ -1278,7 +1269,7 @@
        USE USERCOMMONDATA
       RETURN
       END
-      RECURSIVE SUBROUTINE LOADQ_C2A1_1644385744
+      RECURSIVE SUBROUTINE LOADQ_C6A1_1650666580
       USE BINARY_READER_MOD
        use sf_interfaces
        USE USERREGISTER_MOD
@@ -1288,19 +1279,19 @@
       DATA NVAR__TD /-1/
       SAVE NVAR__TD, DATA__TD
       IF( NVAR__TD  .LT.  0 ) THEN
-          ALLOCATE (DATA__TD(14257))
+          ALLOCATE (DATA__TD(41861))
           CALL LOAD_BINARY_SINGLET_ARRAYS(
-     +        'C2A1.hra_bin'
+     +        'C6A1.hra_bin'
      +    , DATA__TD)
           NVAR__TD = 1
       ENDIF
-      DATA__TD(1 + 2763 + 1) =
+      DATA__TD(1 + 3063 + 1) =
      + A(3+1)
-      CALL LOADQ('C2A1',1,60,
-     +    DATA__TD(1+921),
-     +    DATA__TD(1+1842),
+      CALL LOADQ('C6A1',1,67,
+     +    DATA__TD(1+1021),
+     +    DATA__TD(1+2042),
      +    DATA__TD(1),
-     +    DATA__TD(1+2763),
+     +    DATA__TD(1+3063),
      + A(1) )
       RETURN
       END

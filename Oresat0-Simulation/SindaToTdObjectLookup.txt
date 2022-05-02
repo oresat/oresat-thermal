@@ -13475,2023 +13475,2023 @@ Conductor: FRAMES.760
 Conductor: SOLAR_CARDS.1
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.2
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.3
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.4
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.5
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.6
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.7
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.8
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.9
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.10
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.11
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.12
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.13
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.14
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.15
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.16
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.17
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.18
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.19
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.20
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.21
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.22
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.23
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.24
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.25
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.26
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+Conductor: SOLAR_CARDS.26
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.27
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.28
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.29
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.30
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.31
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.32
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.33
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.34
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.35
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.36
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.37
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.38
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.39
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.40
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.40
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.41
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.42
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.43
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.44
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.45
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.46
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.47
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.48
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.49
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.50
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.50
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.51
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.52
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.53
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.54
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.55
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.56
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.57
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.58
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.59
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.60
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.61
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.62
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.63
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.64
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.65
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.66
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.67
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.68
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.69
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.70
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.71
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.72
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.73
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.74
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.75
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.76
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.77
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.78
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.79
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.80
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.81
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.82
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.83
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.84
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.85
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.86
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.87
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.88
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.89
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.90
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.91
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.92
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.93
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.94
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.95
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.96
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.97
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.98
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.99
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.100
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.101
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.102
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.103
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.104
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.105
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.106
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.107
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.108
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.109
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.110
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.111
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.112
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.113
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.114
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.115
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.116
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.117
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.118
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.119
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.120
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.121
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.122
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.123
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.124
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.125
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.126
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.127
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.128
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.129
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.130
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.131
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.132
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.133
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.134
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.135
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.136
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.137
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.138
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.139
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.140
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.141
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.142
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.143
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.144
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.145
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.146
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.147
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.148
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.149
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.150
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.151
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.152
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.153
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.154
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.155
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.156
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.157
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.158
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.159
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.160
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.161
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.162
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.163
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.164
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.165
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.166
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.167
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.168
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.169
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.170
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.171
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.172
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.173
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.174
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.175
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.176
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.177
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.178
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.179
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.180
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.181
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.182
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.183
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.184
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.185
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.186
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.187
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.188
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.189
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.190
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.191
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.192
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.193
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.194
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.195
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.196
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.197
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.198
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.199
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.200
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.201
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.202
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.203
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.204
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.205
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.206
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.207
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.208
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.209
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.210
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.211
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.212
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.213
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.214
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.215
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.216
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.217
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.218
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.219
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.220
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.221
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.222
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.223
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.224
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.225
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.226
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.227
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.228
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.229
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.230
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.231
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.232
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.233
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.234
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.235
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.236
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.237
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.238
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.239
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.240
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.241
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.242
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.243
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.244
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.245
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.246
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.247
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.248
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.249
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.250
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.251
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.252
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.253
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.254
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.255
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.256
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.257
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.258
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.259
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.260
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.261
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.262
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.263
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.264
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.265
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.266
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.267
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.268
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.269
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.270
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.271
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.272
       Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.256
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.257
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.258
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.259
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.260
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.261
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.262
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.263
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.264
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.265
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.266
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.267
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.268
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.269
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.270
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
+Conductor: SOLAR_CARDS.271
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+Conductor: SOLAR_CARDS.272
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.273
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.274
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.275
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.276
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.277
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.278
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.279
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.280
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+Conductor: SOLAR_CARDS.280
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.281
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.282
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.283
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.284
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
-Conductor: SOLAR_CARDS.285
       Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.286
+Conductor: SOLAR_CARDS.284
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
+Conductor: SOLAR_CARDS.285
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.286
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.287
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.288
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.289
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.290
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.291
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.292
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.293
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.294
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.295
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.296
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.297
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.298
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.299
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.300
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.301
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.302
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.303
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.304
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.305
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.306
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.307
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.308
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.309
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.310
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.311
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.312
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.313
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.314
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.315
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.316
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.317
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.318
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.319
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.320
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+Conductor: SOLAR_CARDS.320
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.321
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.322
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.322
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.323
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.324
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.325
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.326
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.327
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.328
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.329
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.330
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.331
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.332
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.333
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.334
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.335
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.336
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.337
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.338
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.339
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.340
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.341
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.342
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.343
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.344
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.345
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.346
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.347
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.348
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.349
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.350
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.351
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.352
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.353
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.354
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.355
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.356
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+Conductor: SOLAR_CARDS.356
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.357
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.358
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.358
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.359
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.360
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.361
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.362
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.363
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.364
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.365
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.366
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.367
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.368
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.369
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.370
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.371
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.372
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.373
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.374
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.375
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.376
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.377
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.378
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.379
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.380
-      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.381
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.382
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.383
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.384
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.385
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.386
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.387
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.388
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.389
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.390
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.391
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
-Conductor: SOLAR_CARDS.392
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+Conductor: SOLAR_CARDS.392
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.393
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
-Conductor: SOLAR_CARDS.394
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+Conductor: SOLAR_CARDS.394
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.395
       Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.396
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.397
       Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.398
-      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.399
-      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.400
-      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.401
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.402
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.403
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.404
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.405
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.406
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.407
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.408
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.409
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.410
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.411
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.412
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.413
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.414
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.415
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.416
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.417
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.418
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.419
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.420
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.421
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.422
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.423
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.424
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.425
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.426
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.427
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.428
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.429
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.430
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.431
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.432
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.433
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.434
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.435
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.436
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.437
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.438
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.439
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.440
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.441
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.442
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.443
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.444
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.445
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.446
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.447
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.448
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.449
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.450
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.451
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.452
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.453
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.454
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.455
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.456
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.457
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.458
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.459
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.460
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.461
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.462
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.463
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.464
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.465
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.466
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.467
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.468
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.469
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.470
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.471
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.472
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.473
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.474
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.475
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.476
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.477
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.478
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.479
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.480
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.481
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.482
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.483
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.484
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.485
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.486
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.487
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.488
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.489
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.490
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.491
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.492
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.493
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.494
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.495
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.496
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.497
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.498
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.499
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.500
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.501
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.502
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.503
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.504
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.505
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.506
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.507
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.508
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.509
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.510
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.511
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.512
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.513
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.514
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.515
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.516
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.517
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.518
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.519
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.520
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.521
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.522
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.523
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.524
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.525
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.526
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.527
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.528
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.529
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.530
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.531
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.532
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.533
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.534
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.535
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.536
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.537
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.538
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.539
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.540
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.541
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.542
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.543
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.544
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.545
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.546
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.547
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.548
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.549
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.550
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.551
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.552
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.553
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.554
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.555
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.556
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.557
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.558
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.559
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.560
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.561
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.562
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.563
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.564
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.565
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.566
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.567
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.568
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.569
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.570
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.571
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.572
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.573
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.574
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.575
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.576
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.577
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.578
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.579
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.580
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.581
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.582
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.583
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.584
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.585
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.586
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.587
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.588
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.589
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.590
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.591
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.592
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.593
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.594
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.595
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.596
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.597
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.598
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.599
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.600
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.601
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.602
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.603
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.604
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.605
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.606
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.607
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.608
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.609
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.610
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.611
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.612
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.613
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.614
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.615
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.616
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.617
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.618
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.619
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.620
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.621
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.622
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.623
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.624
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.625
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.626
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.627
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.628
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.629
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.630
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.631
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.632
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.633
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.634
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.635
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.636
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.637
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.638
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.639
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.640
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.641
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.642
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.643
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.644
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.645
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.646
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.647
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.648
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.649
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.650
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.651
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.652
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.653
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.654
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.655
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.656
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.657
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.658
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.659
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.660
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.661
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.662
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.663
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.664
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.665
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.666
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.667
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.668
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.669
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.670
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.671
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.672
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.673
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.674
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.675
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.676
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.677
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.678
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.679
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.680
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.681
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.682
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.683
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.684
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.685
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.686
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.687
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.688
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.689
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.690
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.691
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.692
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.693
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.694
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.695
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.696
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.697
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.698
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.699
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.700
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.701
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.702
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.703
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.704
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.705
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.706
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.707
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.708
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.709
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.710
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.711
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.712
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.713
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.714
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.715
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.716
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.717
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.718
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.719
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.720
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.721
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.722
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.723
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.724
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.725
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.726
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.727
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.728
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.729
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.730
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.731
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.732
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.733
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.734
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.735
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.736
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.737
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.738
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.739
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.740
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.741
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.742
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.743
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.744
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.745
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.746
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.747
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.748
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.749
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.750
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.751
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.752
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.753
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.754
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.755
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.756
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.757
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.758
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.759
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-X)Solar Card to (-X) Frame[SOLAR_CARDS][1]::10B0
 Conductor: SOLAR_CARDS.760
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-X) Solar Card to (-X) Frame[SOLAR_CARDS][0]::159D
 Conductor: SOLAR_CARDS.761
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.762
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.763
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.764
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.765
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.766
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.767
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.768
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.769
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.770
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.771
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.772
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.773
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.774
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.775
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.776
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.777
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.778
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.779
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.780
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.781
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.782
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.783
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.784
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.785
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.786
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.787
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.788
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.789
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.790
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.791
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.792
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.793
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.794
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.795
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-(-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][1]::10B1
 Conductor: SOLAR_CARDS.796
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Face Contactor-Radiation (-Y) Solar Card to (-Y) Frame[SOLAR_CARDS][0]::159E
 Conductor: SOLAR_CARDS.797
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-(+X) Solar Card to (+X) Frame[SOLAR_CARDS][1]::10B6
 Conductor: SOLAR_CARDS.798
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B
 Conductor: SOLAR_CARDS.799
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-(+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][1]::10B8
 Conductor: SOLAR_CARDS.800
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C
 Conductor: SOLAR_CARDS.801
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.802
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.803
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.804
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.805
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.806
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.807
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.808
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.809
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.810
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.811
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.812
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.813
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.814
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.815
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.816
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.817
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.818
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.819
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.820
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.821
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.822
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.823
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.824
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.825
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.826
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.827
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.828
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.829
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.830
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.831
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.832
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.833
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.834
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.835
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.836
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.837
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.838
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.839
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.840
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.841
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.842
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.843
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.844
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.845
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.846
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.847
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.848
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.849
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.850
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.851
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.852
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.853
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.854
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.855
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.856
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.857
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.858
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.859
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.860
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.861
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.862
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.863
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.864
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.865
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.866
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.867
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.868
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.869
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.870
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.871
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.872
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.873
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.874
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.875
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.876
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.877
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.878
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.879
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.880
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.881
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.882
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.883
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.884
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.885
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.886
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.887
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.888
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.889
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.890
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.891
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.892
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.893
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.894
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.895
       Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.896
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.897
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.898
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.899
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.900
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.901
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.902
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.903
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.904
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.905
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.906
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.907
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.908
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.909
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.910
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.911
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.912
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.913
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.914
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.915
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.916
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.917
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.918
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.919
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.920
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.921
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.922
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.923
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.924
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.925
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.926
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.927
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.928
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.929
       Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.930
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.931
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.932
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.933
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.934
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.935
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.936
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.937
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.938
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.939
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.940
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.941
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.942
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.943
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.944
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.945
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.946
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.947
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.948
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.949
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.950
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.951
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.952
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.953
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.954
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.955
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.956
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.957
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.958
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.959
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.960
       Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.961
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.962
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.963
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.964
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.965
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.966
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.967
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.968
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.969
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.970
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.971
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.972
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.973
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
 Conductor: SOLAR_CARDS.974
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.975
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.976
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.977
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.978
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.979
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.980
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.981
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.982
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.983
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.984
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.985
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.986
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.987
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.988
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.989
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.990
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.991
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.992
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.993
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.994
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.995
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.996
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.997
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.998
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.999
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1000
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1001
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1002
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1003
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1004
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1005
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1006
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1007
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1008
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1009
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1010
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1011
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1012
@@ -15499,41 +15499,41 @@ Conductor: SOLAR_CARDS.1012
 Conductor: SOLAR_CARDS.1013
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1014
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1015
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1016
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1017
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1018
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1019
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1020
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1021
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1022
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1023
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1024
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1025
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1026
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1027
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1028
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1029
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1030
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1031
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1032
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1033
@@ -15543,97 +15543,97 @@ Conductor: SOLAR_CARDS.1034
 Conductor: SOLAR_CARDS.1035
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1036
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1037
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1038
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1039
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1040
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1041
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1042
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1043
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1044
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1045
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1046
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1047
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1048
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1049
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1050
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1051
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1052
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1053
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1054
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1055
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1056
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1057
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1058
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1059
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1060
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1061
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1062
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1063
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1064
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1065
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1066
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1067
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1068
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1069
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1070
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1071
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1072
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1073
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1074
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1075
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1076
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1077
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1078
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1077
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1078
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1079
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1080
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1081
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1082
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1083
@@ -15643,43 +15643,43 @@ Conductor: SOLAR_CARDS.1084
 Conductor: SOLAR_CARDS.1085
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1086
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1087
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1088
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1089
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1090
-      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1091
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
 Conductor: SOLAR_CARDS.1092
-      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1093
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1094
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
-Conductor: SOLAR_CARDS.1095
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1096
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1097
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
-Conductor: SOLAR_CARDS.1098
+Conductor: SOLAR_CARDS.1095
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1096
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1097
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1098
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1099
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1100
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1101
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
-Conductor: SOLAR_CARDS.1102
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1103
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
-Conductor: SOLAR_CARDS.1104
+Conductor: SOLAR_CARDS.1102
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1103
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1104
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1105
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1106
@@ -15691,26 +15691,826 @@ Conductor: SOLAR_CARDS.1108
 Conductor: SOLAR_CARDS.1109
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1110
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
-Conductor: SOLAR_CARDS.1111
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1112
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
-Conductor: SOLAR_CARDS.1113
+Conductor: SOLAR_CARDS.1111
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1112
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1113
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1114
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1115
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
 Conductor: SOLAR_CARDS.1116
-      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
-Conductor: SOLAR_CARDS.1117
-      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
-Conductor: SOLAR_CARDS.1118
       Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
-Conductor: SOLAR_CARDS.1119
+Conductor: SOLAR_CARDS.1117
       Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1118
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1119
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_CARDS.1120
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1121
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1122
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1123
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1124
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1125
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1126
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1127
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1128
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1129
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1130
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1131
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1132
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1133
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1134
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1135
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1136
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1137
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1138
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1139
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1140
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1141
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1142
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1143
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1144
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1145
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1146
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1147
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1148
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1149
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1150
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1151
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1152
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1153
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1154
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1155
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1156
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1157
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1158
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1159
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1160
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1161
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1162
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1163
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1164
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1165
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1166
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1167
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1168
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1169
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1170
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1171
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1172
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1173
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1174
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1175
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1176
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1177
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1178
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1179
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1180
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1181
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1182
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1183
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1184
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1185
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1186
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1187
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1188
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1189
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1190
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1191
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1192
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1193
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1194
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1195
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1196
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1197
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1198
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1199
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1200
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1201
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1202
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1203
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1204
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1205
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1206
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1207
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1208
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1209
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1210
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1211
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1212
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1213
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1214
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1215
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1216
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1217
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1218
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1219
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1220
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1221
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1222
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1223
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1224
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1225
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1226
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1227
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1228
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1229
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1230
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1231
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1232
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1233
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1234
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1235
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1236
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1237
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1238
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1239
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1240
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1241
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1242
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1243
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1244
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1245
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1246
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1247
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1248
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1249
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1250
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1251
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1252
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1253
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1254
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1255
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1256
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1257
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1258
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1259
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1260
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1261
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1262
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1263
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1264
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1265
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1266
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1267
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1268
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1269
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1270
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1271
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1272
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1273
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1274
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1275
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1276
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1277
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1278
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1279
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1280
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1281
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1282
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1283
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1284
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1285
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1286
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1287
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1288
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1289
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1290
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1291
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1292
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1293
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1294
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1295
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1296
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1297
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1298
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1299
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1300
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1301
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1302
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1303
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1304
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1305
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1306
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1307
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1308
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1309
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1310
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1311
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1312
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1313
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1314
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1315
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1316
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1317
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1318
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1319
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1320
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1321
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1322
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1323
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1324
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1325
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1326
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1327
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1328
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1329
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1330
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1331
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1332
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1333
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1334
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1335
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1336
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1337
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1338
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1339
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1340
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1341
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1342
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1343
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1344
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1345
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1346
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1347
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1348
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1349
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1350
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1351
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1352
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1353
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1354
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1355
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1356
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1357
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1358
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1359
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1360
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1361
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1362
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1363
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1364
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1365
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1366
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1367
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1368
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1369
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1370
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1371
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1372
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1373
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1374
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1375
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1376
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1377
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1378
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1379
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1380
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1381
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1382
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1383
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1384
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1385
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1386
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1387
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1388
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1389
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1390
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1391
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1392
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1393
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1394
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1395
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1396
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1397
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1398
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1399
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1400
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1401
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1402
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1403
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1404
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1405
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1406
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1407
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1408
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1409
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1410
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1411
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1412
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1413
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1414
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1415
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1416
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1417
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1418
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1419
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1420
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1421
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1422
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1423
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1424
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1425
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1426
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1427
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1428
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1429
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1430
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1431
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1432
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1433
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1434
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1435
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1436
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1437
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1438
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1439
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1440
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1441
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1442
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1443
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1444
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1445
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1446
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1447
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1448
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1449
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1450
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1451
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1452
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1453
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1454
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1455
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1456
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1457
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1458
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1459
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1460
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1461
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1462
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1463
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1464
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1465
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1466
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1467
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1468
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1469
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1470
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1471
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1472
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1473
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1474
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1475
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1476
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1477
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1478
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1479
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1480
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1481
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1482
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1483
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1484
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1485
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1486
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1487
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1488
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1489
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1490
+      Rect-(-Y Solar Card)[SOLAR_CARDS]::104B
+Conductor: SOLAR_CARDS.1491
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1492
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1493
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1494
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1495
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1496
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1497
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1498
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1499
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1500
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1501
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1502
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1503
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1504
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1505
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1506
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1507
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1508
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1509
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1510
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1511
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1512
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1513
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1514
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1515
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1516
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1517
+      Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
+Conductor: SOLAR_CARDS.1518
+      Rect-(-X Solar Card)[SOLAR_CARDS]::F1C
+Conductor: SOLAR_CARDS.1519
+      Rect-(+X Solar Card)[SOLAR_CARDS]::F81
+Conductor: SOLAR_CARDS.1520
       Rect-(+Y Solar Card)[SOLAR_CARDS]::FE6
 Conductor: SOLAR_PANELS.1
       Face Contactor-(-Y) Solar Panels to (-Y) Solar Card[SOLAR_PANELS][1]::1234
@@ -18048,134 +18848,6 @@ Conductor: SOLAR_PANELS.1167
       Rect-(+Y Top)[SOLAR_PANELS]::11B9
 Conductor: SOLAR_PANELS.1168
       Rect-(-Y Bottom)[SOLAR_PANELS]::11E2
-Heat Load: CARDS.1
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.2
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.3
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.4
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.5
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.6
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.7
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.8
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.9
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.10
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.11
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.12
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.13
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.14
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.15
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.16
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.17
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.18
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.19
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.20
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.21
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.22
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.23
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.24
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.25
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.26
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.27
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.28
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.29
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.30
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.31
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.32
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.33
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.34
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.35
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.36
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.37
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.38
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.39
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.40
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.41
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.42
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.43
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.44
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.45
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.46
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.47
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.48
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.49
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.50
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.51
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.52
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.53
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.54
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.55
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.56
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.57
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.58
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.59
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.60
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.61
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.62
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.63
-      Heat Load-Battery Heater[CARDS]::1435
-Heat Load: CARDS.64
-      Heat Load-Battery Heater[CARDS]::1435
 Heat Load: CARDS.101
       Heat Load-(Card 7) Battery Card[CARDS]::1266
 Heat Load: CARDS.102
