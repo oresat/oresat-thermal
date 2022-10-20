@@ -1,0 +1,8 @@
+Submodel, Substrate, Insulation Mass, kg
+       CARDS 0.63820 0.
+      FRAMES 0.43200 0.
+ SOLAR_CARDS 0.13293 0.
+SOLAR_PANELS 0.01713 0.
+      Total: 1.22026 0.
+
+Total Mass = 1.220264 kg

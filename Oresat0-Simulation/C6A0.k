@@ -1,6 +1,6 @@
 HEADER CONDUCTOR DATA, C6A0
 C     SINDA/FLUINT data created with Thermal Desktop 6.2 Patch 13
-C     Generated on Mon Mar  7 18:36:12 2022
+C     Generated on Fri Apr 15 17:17:57 2022
 C
 C        Generated from database Exterior-RcOptics.rck
 C        Bij Cutoff factor:      0.001000
@@ -16,46 +16,54 @@ C    Computer name: MRHENRY-LAPTOPE
 C    User name:     zachg
 C    Symbol Names, Evaluated values, Input Strings, Comments
 C    ACS_load               0.            0
-C    Al_Al                  0.0103        0.0103               conduction coefficient for aluminum to aluminum contact
+C    Alpha_SolarPanel       0.92          0.92
+C    Al_Al                  0.0103        0.0103               conduction coefficient for aluminum to aluminum contac...
 C    Al_cp                  900.          900                  Specific heat of 6061-type2 aluminum
 C    Al_k                   187.          187                  Conductivbity of 6061-type 2 aluminum
 C    Al_rho                 2700.         2700                 Density of 6061-type2 aluminum
-C    backplane_Frame        0.0013        0.0013
+C    backplane_Frame        0.144         0.144                reasonable stand in, insufficient data, Taken from 201...
 C    BatteryCard_load       0.003         0.003
+C    Battery_BatteryCard    0.0005576     0.0005576            Conductance of battery multiplied by the area of the b...
+C    Battery_cp             837.4         837.4
+C    Battery_Heater         0.            0
+C    Battery_k              300.          300
+C    Battery_rho            2007.7        2007.7
 C    BlackAnno_alpha        0.54          0.54                 Absportivity of black annodized aluminum
 C    BlackAnno_epsilon      0.75          0.75                 Emissivity of black annodization aluminum
 C    C3_card_load           0.481         0.481                Heat load for the C3 card in W
-C    CardHeatLoad           0.7           0.7                  Heat load in Watts for Cards
+C    CardHeatLoad           0.5           0.5                  Heat load in Watts for Cards
 C    DxWifi_load            0.            0
+C    Epsilon_SolarPanel     0.85          0.85
 C    hrBetaAngle            90.           90
 C    hrEccen                0.            0
 C    hrIllum                0.            0
-C    hrMeanAnom             0.            0
+C    hrMeanAnom             180.          180
 C    hrPeriod               5676.98       5676.98              Always in current user units. If programming, use hrPe...
 C    hrPeriodSec            5676.98       5676.98
-C    hrPlanetX              0.            0
-C    hrPlanetY              3.155440e-30  3.15544e-30
-C    hrPlanetZ              -1.           -1
-C    hrPos                  0.            0
+C    hrPlanetX              -2.652895e-13 -2.652894924701e-13 
+C    hrPlanetY              -4.237530e-13 -4.23753e-13
+C    hrPlanetZ              1.            1
+C    hrPos                  12.           12
 C    hrShadowEntry          -1.           -1
 C    hrShadowExit           -1.           -1
 C    hrSpeed                7.61261       7.61261
 C    hrSubSolarMeanAnom     45.           45                   -180 to 180
 C    hrSubSolarTrueAnom     45.           45                   -180 to 180
-C    hrSunX                 2.653433e-14  2.653433028854e-14  
-C    hrSunY                 1.            1
-C    hrSunZ                 2.653433e-14  2.653433028854e-14  
-C    hrTime                 0.            0                    Always in current user units. If programming, use hrTi...
-C    hrTimeSec              0.            0
+C    hrSunX                 1.337052e-13  1.337051792973e-13  
+C    hrSunY                 -1.           -1
+C    hrSunZ                 -3.972180e-13 -3.97218e-13
+C    hrTime                 2838.49       2838.49              Always in current user units. If programming, use hrTi...
+C    hrTimeSec              2838.49       2838.49
 C    hrTimeShadowEntry      -1.           -1
 C    hrTimeShadowEntrySec   -1.           -1
 C    hrTimeShadowExit       -1.           -1
 C    hrTimeShadowExitSec    -1.           -1
-C    hrTrueAnom             0.            0
+C    hrTrueAnom             180.          180
 C    hrVelocityX            1.            1
-C    hrVelocityY            -6.483450e-30 -6.48345e-30
-C    hrVelocityZ            -1.262180e-29 -1.26218e-29
-C    InteriorCards_toFrames 0.003         0.0030               Use absolute option. Calculated by multiplying 0.885 b...
+C    hrVelocityY            1.602395e-13  1.602395095858e-13  
+C    hrVelocityZ            2.652895e-13  2.652894924702e-13  
+C    InteriorCards_toFrames 0.001         0.001                Found by multiplying the 0.885 by all the area in cont...
+C    Lattice_Indent_Area    0.000714536   0.000714536          The area of the lattice indents including the sidewall...
 C    negZendcap_load        0.            0
 C    PCB_cp                 1144.         1144                 Specific heat of PCB assuming 97.5% FR4, 2.5% Cy
 C    PCB_k                  9.9           9.9                  Conductivity of 2-layer FR4 PCB. Calculated assuming 9...
@@ -63,16 +71,20 @@ C    PCB_rho                2077.         2077                 Density of PCB as
 C    Purple_alpha           0.8           0.8                  absorptivity of purple coating on PCB
 C    Purple_epsilon         0.8           0.8                  emissivity of purple coating on PCB
 C    SDR_GPS_load           0.001         0.001
-C    SolarCard_frames       0.0021        0.0021               for solar cards to the frames
+C    SolarCard_frames       0.002         0.002                Found by taking 0.885 W/K and multiplying it by the co...
 C    solarCard_load         0.092         0.092                Assuming on
-C    SolarPanel_solarCard   0.0172        0.0172
+C    SolarPanel_cp          700.          700
+C    SolarPanel_k           150.          150                  W*m^-1*K^-1
+C    SolarPanel_rho         2328.         2328                 kg*m^-3
+C    SolarPanel_solarCard   0.017         0.017                Multipled the conductance of the solar panel to solar ...
 C    StarTracker_load       0.041         0.041
 C    zendcard_load          0.            0
 C
 C Optical Properties Used:
-C PROPERTY NAME  EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
-C Circuit Boards 0.8   0.8                                                      
-C Solar Panel    1     1                                                        
+C PROPERTY NAME            EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
+C Annodized Black Aluminum 0.75  0.54                                                     
+C Circuit Boards           0.8   0.8                                                      
+C Solar Panel              0.85  0.92                                                     
 C
 C
 C    radk format: 
@@ -278,726 +290,5944 @@ C
          -198,      CARDS.898,        SPACE.1,  9.876543e-05   $    1.000000
          -199,      CARDS.899,        SPACE.1,  4.938272e-05   $    1.000000
          -200,      CARDS.900,        SPACE.1,  4.938272e-05   $    1.000000
-         -201, SOLAR_CARDS.18,        SPACE.1,  1.143704e-05   $    0.463200
-         -202, SOLAR_CARDS.23,        SPACE.1,  1.159506e-05   $    0.469600
-         -203, SOLAR_CARDS.28,        SPACE.1,  1.440000e-05   $    0.291600
-         -204, SOLAR_CARDS.33,        SPACE.1,  8.849383e-06   $    0.089600
-         -205, SOLAR_CARDS.38,        SPACE.1,  6.558025e-06   $    0.066400
-         -206, SOLAR_CARDS.43,        SPACE.1,  6.004938e-06   $    0.060800
-         -207, SOLAR_CARDS.48,        SPACE.1,  6.162963e-06   $    0.062400
-         -208, SOLAR_CARDS.53,        SPACE.1,  5.886420e-06   $    0.059600
-         -209, SOLAR_CARDS.54,        SPACE.1,  7.190124e-06   $    0.072800
-         -210, SOLAR_CARDS.55,        SPACE.1,  5.965432e-06   $    0.060400
-         -211, SOLAR_CARDS.56,        SPACE.1,  1.019259e-05   $    0.103200
-         -212, SOLAR_CARDS.57,        SPACE.1,  1.507161e-05   $    0.305200
-         -213, SOLAR_CARDS.58,        SPACE.1,  1.394568e-05   $    0.282400
-         -214, SOLAR_CARDS.59,        SPACE.1,  7.703704e-06   $    0.078000
-         -215, SOLAR_CARDS.60,        SPACE.1,  3.713580e-06   $    0.037600
-         -216, SOLAR_CARDS.61,        SPACE.1,  3.120988e-06   $    0.031600
-         -217, SOLAR_CARDS.62,        SPACE.1,  3.120988e-06   $    0.031600
-         -218, SOLAR_CARDS.63,        SPACE.1,  3.120988e-06   $    0.031600
-         -219, SOLAR_CARDS.64,        SPACE.1,  3.516049e-06   $    0.035600
-         -220, SOLAR_CARDS.65,        SPACE.1,  3.634568e-06   $    0.036800
-         -221, SOLAR_CARDS.66,        SPACE.1,  7.545679e-06   $    0.076400
-         -222, SOLAR_CARDS.67,        SPACE.1,  1.430123e-05   $    0.289600
-         -223, SOLAR_CARDS.68,        SPACE.1,  1.803457e-05   $    0.365200
-         -224, SOLAR_CARDS.69,        SPACE.1,  1.706667e-05   $    0.172800
-         -225, SOLAR_CARDS.70,        SPACE.1,  1.493333e-05   $    0.151200
-         -226, SOLAR_CARDS.71,        SPACE.1,  1.299753e-05   $    0.131600
-         -227, SOLAR_CARDS.72,        SPACE.1,  1.291852e-05   $    0.130800
-         -228, SOLAR_CARDS.73,        SPACE.1,  1.390617e-05   $    0.140800
-         -229, SOLAR_CARDS.74,        SPACE.1,  1.366914e-05   $    0.138400
-         -230, SOLAR_CARDS.75,        SPACE.1,  1.469630e-05   $    0.148800
-         -231, SOLAR_CARDS.76,        SPACE.1,  1.651358e-05   $    0.167200
-         -232, SOLAR_CARDS.77,        SPACE.1,  1.752099e-05   $    0.354800
-         -233, SOLAR_CARDS.78,        SPACE.1,  4.114568e-05   $    0.833200
-         -234, SOLAR_CARDS.79,        SPACE.1,  7.529877e-05   $    0.762400
-         -235, SOLAR_CARDS.80,        SPACE.1,  7.411358e-05   $    0.750400
-         -236, SOLAR_CARDS.81,        SPACE.1,  7.462716e-05   $    0.755600
-         -237, SOLAR_CARDS.82,        SPACE.1,  7.502222e-05   $    0.759600
-         -238, SOLAR_CARDS.83,        SPACE.1,  7.419259e-05   $    0.751200
-         -239, SOLAR_CARDS.84,        SPACE.1,  7.407407e-05   $    0.750000
-         -240, SOLAR_CARDS.85,        SPACE.1,  7.565432e-05   $    0.766000
-         -241, SOLAR_CARDS.86,        SPACE.1,  7.715556e-05   $    0.781200
-         -242, SOLAR_CARDS.87,        SPACE.1,  4.163951e-05   $    0.843200
-         -243, SOLAR_CARDS.88,        SPACE.1,  4.077037e-05   $    0.825600
-         -244, SOLAR_CARDS.89,        SPACE.1,  7.533827e-05   $    0.762800
-         -245, SOLAR_CARDS.90,        SPACE.1,  7.462716e-05   $    0.755600
-         -246, SOLAR_CARDS.91,        SPACE.1,  7.439013e-05   $    0.753200
-         -247, SOLAR_CARDS.92,        SPACE.1,  7.474568e-05   $    0.756800
-         -248, SOLAR_CARDS.93,        SPACE.1,  7.525926e-05   $    0.762000
-         -249, SOLAR_CARDS.94,        SPACE.1,  7.589136e-05   $    0.768400
-         -250, SOLAR_CARDS.95,        SPACE.1,  7.510123e-05   $    0.760400
-         -251, SOLAR_CARDS.96,        SPACE.1,  7.770864e-05   $    0.786800
-         -252, SOLAR_CARDS.97,        SPACE.1,  4.150124e-05   $    0.840400
-         -253, SOLAR_CARDS.98,        SPACE.1,  1.783704e-05   $    0.361200
-         -254, SOLAR_CARDS.99,        SPACE.1,  1.880494e-05   $    0.190400
-         -255,SOLAR_CARDS.100,        SPACE.1,  1.402469e-05   $    0.142000
-         -256,SOLAR_CARDS.101,        SPACE.1,  1.386667e-05   $    0.140400
-         -257,SOLAR_CARDS.102,        SPACE.1,  1.335309e-05   $    0.135200
-         -258,SOLAR_CARDS.103,        SPACE.1,  1.323457e-05   $    0.134000
-         -259,SOLAR_CARDS.104,        SPACE.1,  1.469630e-05   $    0.148800
-         -260,SOLAR_CARDS.105,        SPACE.1,  1.394568e-05   $    0.141200
-         -261,SOLAR_CARDS.106,        SPACE.1,  1.710617e-05   $    0.173200
-         -262,SOLAR_CARDS.107,        SPACE.1,  1.686914e-05   $    0.341600
-         -263,SOLAR_CARDS.108,        SPACE.1,  1.396543e-05   $    0.282800
-         -264,SOLAR_CARDS.109,        SPACE.1,  7.585185e-06   $    0.076800
-         -265,SOLAR_CARDS.110,        SPACE.1,  4.148148e-06   $    0.042000
-         -266,SOLAR_CARDS.111,        SPACE.1,  3.634568e-06   $    0.036800
-         -267,SOLAR_CARDS.112,        SPACE.1,  3.200000e-06   $    0.032400
-         -268,SOLAR_CARDS.113,        SPACE.1,  3.239506e-06   $    0.032800
-         -269,SOLAR_CARDS.114,        SPACE.1,  3.397531e-06   $    0.034400
-         -270,SOLAR_CARDS.115,        SPACE.1,  3.595062e-06   $    0.036400
-         -271,SOLAR_CARDS.116,        SPACE.1,  7.545679e-06   $    0.076400
-         -272,SOLAR_CARDS.117,        SPACE.1,  1.386667e-05   $    0.280800
-         -273,SOLAR_CARDS.118,        SPACE.1,  1.607901e-05   $    0.325600
-         -274,SOLAR_CARDS.119,        SPACE.1,  1.062716e-05   $    0.107600
-         -275,SOLAR_CARDS.120,        SPACE.1,  7.190124e-06   $    0.072800
-         -276,SOLAR_CARDS.121,        SPACE.1,  6.360494e-06   $    0.064400
-         -277,SOLAR_CARDS.122,        SPACE.1,  6.558025e-06   $    0.066400
-         -278,SOLAR_CARDS.123,        SPACE.1,  6.676543e-06   $    0.067600
-         -279,SOLAR_CARDS.124,        SPACE.1,  5.254321e-06   $    0.053200
-         -280,SOLAR_CARDS.125,        SPACE.1,  7.585185e-06   $    0.076800
-         -281,SOLAR_CARDS.126,        SPACE.1,  9.481481e-06   $    0.096000
-         -282,SOLAR_CARDS.127,        SPACE.1,  1.511111e-05   $    0.306000
-         -283,SOLAR_CARDS.128,        SPACE.1,  1.180247e-05   $    0.478000
-         -284,SOLAR_CARDS.129,        SPACE.1,  1.544691e-05   $    0.312800
-         -285,SOLAR_CARDS.130,        SPACE.1,  1.420247e-05   $    0.287600
-         -286,SOLAR_CARDS.131,        SPACE.1,  1.321482e-05   $    0.267600
-         -287,SOLAR_CARDS.132,        SPACE.1,  1.402469e-05   $    0.284000
-         -288,SOLAR_CARDS.133,        SPACE.1,  1.398519e-05   $    0.283200
-         -289,SOLAR_CARDS.134,        SPACE.1,  1.440000e-05   $    0.291600
-         -290,SOLAR_CARDS.135,        SPACE.1,  1.424197e-05   $    0.288400
-         -291,SOLAR_CARDS.136,        SPACE.1,  1.517037e-05   $    0.307200
-         -292,SOLAR_CARDS.137,        SPACE.1,  1.119012e-05   $    0.453200
-         -293,SOLAR_CARDS.140,        SPACE.1,  1.343210e-05   $    0.136000
-         -294,SOLAR_CARDS.141,        SPACE.1,  1.465679e-05   $    0.148400
-         -295,SOLAR_CARDS.142,        SPACE.1,  1.465679e-05   $    0.148400
-         -296,SOLAR_CARDS.144,        SPACE.1,  1.422222e-05   $    0.144000
-         -297,SOLAR_CARDS.145,        SPACE.1,  1.351111e-05   $    0.136800
-         -298,SOLAR_CARDS.146,        SPACE.1,  1.402469e-05   $    0.142000
-         -299,SOLAR_CARDS.148,        SPACE.1,  1.426173e-05   $    0.144400
-         -300,SOLAR_CARDS.149,        SPACE.1,  1.359012e-05   $    0.137600
-         -301,SOLAR_CARDS.150,        SPACE.1,  1.347160e-05   $    0.136400
-         -302,SOLAR_CARDS.152,        SPACE.1,  1.465679e-05   $    0.148400
-         -303,SOLAR_CARDS.153,        SPACE.1,  1.362963e-05   $    0.138000
-         -304,SOLAR_CARDS.154,        SPACE.1,  1.378766e-05   $    0.139600
-         -305,SOLAR_CARDS.156,        SPACE.1,  1.335309e-05   $    0.135200
-         -306,SOLAR_CARDS.157,        SPACE.1,  1.303704e-05   $    0.132000
-         -307,SOLAR_CARDS.158,        SPACE.1,  1.426173e-05   $    0.144400
-         -308,SOLAR_CARDS.160,        SPACE.1,  1.426173e-05   $    0.144400
-         -309,SOLAR_CARDS.161,        SPACE.1,  1.335309e-05   $    0.135200
-         -310,SOLAR_CARDS.162,        SPACE.1,  1.461728e-05   $    0.148000
-         -311,SOLAR_CARDS.164,        SPACE.1,  1.663210e-05   $    0.168400
-         -312,SOLAR_CARDS.165,        SPACE.1,  1.596050e-05   $    0.161600
-         -313,SOLAR_CARDS.166,        SPACE.1,  1.726420e-05   $    0.174800
-         -314,SOLAR_CARDS.168,        SPACE.1,  1.813333e-05   $    0.367200
-         -315,SOLAR_CARDS.169,        SPACE.1,  1.846914e-05   $    0.374000
-         -316,SOLAR_CARDS.170,        SPACE.1,  1.833087e-05   $    0.371200
-         -317,SOLAR_CARDS.172,        SPACE.1,  1.505185e-05   $    0.304800
-         -318,SOLAR_CARDS.173,        SPACE.1,  1.420247e-05   $    0.287600
-         -319,SOLAR_CARDS.174,        SPACE.1,  1.558518e-05   $    0.315600
-         -320,SOLAR_CARDS.176,        SPACE.1,  7.387654e-06   $    0.074800
-         -321,SOLAR_CARDS.177,        SPACE.1,  7.466666e-06   $    0.075600
-         -322,SOLAR_CARDS.178,        SPACE.1,  7.190124e-06   $    0.072800
-         -323,SOLAR_CARDS.180,        SPACE.1,  3.832099e-06   $    0.038800
-         -324,SOLAR_CARDS.181,        SPACE.1,  4.108642e-06   $    0.041600
-         -325,SOLAR_CARDS.182,        SPACE.1,  4.503704e-06   $    0.045600
-         -326,SOLAR_CARDS.184,        SPACE.1,  3.397531e-06   $    0.034400
-         -327,SOLAR_CARDS.185,        SPACE.1,  3.279012e-06   $    0.033200
-         -328,SOLAR_CARDS.186,        SPACE.1,  3.674074e-06   $    0.037200
-         -329,SOLAR_CARDS.188,        SPACE.1,  3.634568e-06   $    0.036800
-         -330,SOLAR_CARDS.189,        SPACE.1,  3.358025e-06   $    0.034000
-         -331,SOLAR_CARDS.190,        SPACE.1,  3.200000e-06   $    0.032400
-         -332,SOLAR_CARDS.192,        SPACE.1,  3.279012e-06   $    0.033200
-         -333,SOLAR_CARDS.193,        SPACE.1,  3.239506e-06   $    0.032800
-         -334,SOLAR_CARDS.194,        SPACE.1,  3.318518e-06   $    0.033600
-         -335,SOLAR_CARDS.196,        SPACE.1,  3.437037e-06   $    0.034800
-         -336,SOLAR_CARDS.197,        SPACE.1,  3.753087e-06   $    0.038000
-         -337,SOLAR_CARDS.198,        SPACE.1,  3.832099e-06   $    0.038800
-         -338,SOLAR_CARDS.200,        SPACE.1,  3.674074e-06   $    0.037200
-         -339,SOLAR_CARDS.201,        SPACE.1,  3.713580e-06   $    0.037600
-         -340,SOLAR_CARDS.202,        SPACE.1,  4.029630e-06   $    0.040800
-         -341,SOLAR_CARDS.204,        SPACE.1,  6.913580e-06   $    0.070000
-         -342,SOLAR_CARDS.205,        SPACE.1,  6.992593e-06   $    0.070800
-         -343,SOLAR_CARDS.206,        SPACE.1,  8.217284e-06   $    0.083200
-         -344,SOLAR_CARDS.208,        SPACE.1,  1.418272e-05   $    0.287200
-         -345,SOLAR_CARDS.209,        SPACE.1,  1.471605e-05   $    0.298000
-         -346,SOLAR_CARDS.210,        SPACE.1,  1.438025e-05   $    0.291200
-         -347,SOLAR_CARDS.212,        SPACE.1,  1.503210e-05   $    0.304400
-         -348,SOLAR_CARDS.213,        SPACE.1,  1.574321e-05   $    0.318800
-         -349,SOLAR_CARDS.214,        SPACE.1,  1.520988e-05   $    0.308000
-         -350,SOLAR_CARDS.216,        SPACE.1,  1.035062e-05   $    0.104800
-         -351,SOLAR_CARDS.217,        SPACE.1,  9.916050e-06   $    0.100400
-         -352,SOLAR_CARDS.218,        SPACE.1,  9.876543e-06   $    0.100000
-         -353,SOLAR_CARDS.220,        SPACE.1,  5.846914e-06   $    0.059200
-         -354,SOLAR_CARDS.221,        SPACE.1,  7.229629e-06   $    0.073200
-         -355,SOLAR_CARDS.222,        SPACE.1,  7.624691e-06   $    0.077200
-         -356,SOLAR_CARDS.224,        SPACE.1,  5.017284e-06   $    0.050800
-         -357,SOLAR_CARDS.225,        SPACE.1,  6.004938e-06   $    0.060800
-         -358,SOLAR_CARDS.226,        SPACE.1,  5.333333e-06   $    0.054000
-         -359,SOLAR_CARDS.228,        SPACE.1,  4.977778e-06   $    0.050400
-         -360,SOLAR_CARDS.229,        SPACE.1,  5.649383e-06   $    0.057200
-         -361,SOLAR_CARDS.230,        SPACE.1,  6.676543e-06   $    0.067600
-         -362,SOLAR_CARDS.232,        SPACE.1,  6.202469e-06   $    0.062800
-         -363,SOLAR_CARDS.233,        SPACE.1,  5.767901e-06   $    0.058400
-         -364,SOLAR_CARDS.234,        SPACE.1,  6.123457e-06   $    0.062000
-         -365,SOLAR_CARDS.236,        SPACE.1,  6.281482e-06   $    0.063600
-         -366,SOLAR_CARDS.237,        SPACE.1,  5.372839e-06   $    0.054400
-         -367,SOLAR_CARDS.238,        SPACE.1,  7.229629e-06   $    0.073200
-         -368,SOLAR_CARDS.240,        SPACE.1,  6.241975e-06   $    0.063200
-         -369,SOLAR_CARDS.241,        SPACE.1,  6.400001e-06   $    0.064800
-         -370,SOLAR_CARDS.242,        SPACE.1,  7.387654e-06   $    0.074800
-         -371,SOLAR_CARDS.244,        SPACE.1,  1.070617e-05   $    0.108400
-         -372,SOLAR_CARDS.245,        SPACE.1,  1.046914e-05   $    0.106000
-         -373,SOLAR_CARDS.246,        SPACE.1,  1.023210e-05   $    0.103600
-         -374,SOLAR_CARDS.248,        SPACE.1,  1.550617e-05   $    0.314000
-         -375,SOLAR_CARDS.249,        SPACE.1,  1.566420e-05   $    0.317200
-         -376,SOLAR_CARDS.250,        SPACE.1,  1.556543e-05   $    0.315200
-         -377,SOLAR_CARDS.252,        SPACE.1,  1.149630e-05   $    0.465600
-         -378,SOLAR_CARDS.253,        SPACE.1,  1.138765e-05   $    0.461200
-         -379,SOLAR_CARDS.254,        SPACE.1,  1.129877e-05   $    0.457600
-         -380,SOLAR_CARDS.256,        SPACE.1,  1.540741e-05   $    0.312000
-         -381,SOLAR_CARDS.257,        SPACE.1,  1.511111e-05   $    0.306000
-         -382,SOLAR_CARDS.258,        SPACE.1,  1.576296e-05   $    0.319200
-         -383,SOLAR_CARDS.260,        SPACE.1,  1.406420e-05   $    0.284800
-         -384,SOLAR_CARDS.261,        SPACE.1,  1.426173e-05   $    0.288800
-         -385,SOLAR_CARDS.262,        SPACE.1,  1.345185e-05   $    0.272400
-         -386,SOLAR_CARDS.264,        SPACE.1,  1.443951e-05   $    0.292400
-         -387,SOLAR_CARDS.265,        SPACE.1,  1.477531e-05   $    0.299200
-         -388,SOLAR_CARDS.266,        SPACE.1,  1.465679e-05   $    0.296800
-         -389,SOLAR_CARDS.268,        SPACE.1,  1.364938e-05   $    0.276400
-         -390,SOLAR_CARDS.269,        SPACE.1,  1.443951e-05   $    0.292400
-         -391,SOLAR_CARDS.270,        SPACE.1,  1.420247e-05   $    0.287600
-         -392,SOLAR_CARDS.272,        SPACE.1,  1.432099e-05   $    0.290000
-         -393,SOLAR_CARDS.273,        SPACE.1,  1.414321e-05   $    0.286400
-         -394,SOLAR_CARDS.274,        SPACE.1,  1.461728e-05   $    0.296000
-         -395,SOLAR_CARDS.276,        SPACE.1,  1.436049e-05   $    0.290800
-         -396,SOLAR_CARDS.277,        SPACE.1,  1.357037e-05   $    0.274800
-         -397,SOLAR_CARDS.278,        SPACE.1,  1.382716e-05   $    0.280000
-         -398,SOLAR_CARDS.280,        SPACE.1,  1.406420e-05   $    0.284800
-         -399,SOLAR_CARDS.281,        SPACE.1,  1.414321e-05   $    0.286400
-         -400,SOLAR_CARDS.282,        SPACE.1,  1.471605e-05   $    0.298000
-         -401,SOLAR_CARDS.284,        SPACE.1,  1.503210e-05   $    0.304400
-         -402,SOLAR_CARDS.285,        SPACE.1,  1.544691e-05   $    0.312800
-         -403,SOLAR_CARDS.286,        SPACE.1,  1.558518e-05   $    0.315600
-         -404,SOLAR_CARDS.288,        SPACE.1,  1.144691e-05   $    0.463600
-         -405,SOLAR_CARDS.289,        SPACE.1,  1.159506e-05   $    0.469600
-         -406,SOLAR_CARDS.290,        SPACE.1,  1.193086e-05   $    0.483200
-         -407,SOLAR_CARDS.291,        SPACE.1,  1.184198e-05   $    0.479600
-         -408,SOLAR_CARDS.292,        SPACE.1,  1.181235e-05   $    0.478400
-         -409,SOLAR_CARDS.293,        SPACE.1,  1.200988e-05   $    0.486400
-         -410,SOLAR_CARDS.294,        SPACE.1,  1.158519e-05   $    0.469200
-         -411,SOLAR_CARDS.295,        SPACE.1,  1.141728e-05   $    0.462400
-         -412,SOLAR_CARDS.296,        SPACE.1,  1.140741e-05   $    0.462000
-         -413,SOLAR_CARDS.297,        SPACE.1,  1.586173e-05   $    0.321200
-         -414,SOLAR_CARDS.298,        SPACE.1,  1.584198e-05   $    0.320800
-         -415,SOLAR_CARDS.299,        SPACE.1,  1.507161e-05   $    0.305200
-         -416,SOLAR_CARDS.300,        SPACE.1,  9.441975e-06   $    0.095600
-         -417,SOLAR_CARDS.301,        SPACE.1,  9.560494e-06   $    0.096800
-         -418,SOLAR_CARDS.302,        SPACE.1,  8.967902e-06   $    0.090800
-         -419,SOLAR_CARDS.303,        SPACE.1,  6.162963e-06   $    0.062400
-         -420,SOLAR_CARDS.304,        SPACE.1,  7.506173e-06   $    0.076000
-         -421,SOLAR_CARDS.305,        SPACE.1,  5.965432e-06   $    0.060400
-         -422,SOLAR_CARDS.306,        SPACE.1,  6.123457e-06   $    0.062000
-         -423,SOLAR_CARDS.307,        SPACE.1,  6.123457e-06   $    0.062000
-         -424,SOLAR_CARDS.308,        SPACE.1,  6.716049e-06   $    0.068000
-         -425,SOLAR_CARDS.309,        SPACE.1,  6.241975e-06   $    0.063200
-         -426,SOLAR_CARDS.310,        SPACE.1,  6.123457e-06   $    0.062000
-         -427,SOLAR_CARDS.311,        SPACE.1,  5.688889e-06   $    0.057600
-         -428,SOLAR_CARDS.312,        SPACE.1,  5.609877e-06   $    0.056800
-         -429,SOLAR_CARDS.313,        SPACE.1,  6.281482e-06   $    0.063600
-         -430,SOLAR_CARDS.314,        SPACE.1,  5.925926e-06   $    0.060000
-         -431,SOLAR_CARDS.316,        SPACE.1,  5.965432e-06   $    0.060400
-         -432,SOLAR_CARDS.317,        SPACE.1,  5.965432e-06   $    0.060400
-         -433,SOLAR_CARDS.318,        SPACE.1,  5.767901e-06   $    0.058400
-         -434,SOLAR_CARDS.320,        SPACE.1,  6.834568e-06   $    0.069200
-         -435,SOLAR_CARDS.321,        SPACE.1,  7.269135e-06   $    0.073600
-         -436,SOLAR_CARDS.322,        SPACE.1,  6.360494e-06   $    0.064400
-         -437,SOLAR_CARDS.324,        SPACE.1,  1.086420e-05   $    0.110000
-         -438,SOLAR_CARDS.325,        SPACE.1,  9.481481e-06   $    0.096000
-         -439,SOLAR_CARDS.326,        SPACE.1,  1.054815e-05   $    0.106800
-         -440,SOLAR_CARDS.328,        SPACE.1,  1.580247e-05   $    0.320000
-         -441,SOLAR_CARDS.329,        SPACE.1,  1.532839e-05   $    0.310400
-         -442,SOLAR_CARDS.330,        SPACE.1,  1.499259e-05   $    0.303600
-         -443,SOLAR_CARDS.332,        SPACE.1,  1.584198e-05   $    0.320800
-         -444,SOLAR_CARDS.333,        SPACE.1,  1.463704e-05   $    0.296400
-         -445,SOLAR_CARDS.334,        SPACE.1,  1.528889e-05   $    0.309600
-         -446,SOLAR_CARDS.335,        SPACE.1,  1.418272e-05   $    0.287200
-         -447,SOLAR_CARDS.336,        SPACE.1,  1.491358e-05   $    0.302000
-         -448,SOLAR_CARDS.337,        SPACE.1,  1.507161e-05   $    0.305200
-         -449,SOLAR_CARDS.338,        SPACE.1,  1.568395e-05   $    0.317600
-         -450,SOLAR_CARDS.341,        SPACE.1,  8.059259e-06   $    0.081600
-         -451,SOLAR_CARDS.342,        SPACE.1,  8.177778e-06   $    0.082800
-         -452,SOLAR_CARDS.343,        SPACE.1,  6.834568e-06   $    0.069200
-         -453,SOLAR_CARDS.345,        SPACE.1,  3.792593e-06   $    0.038400
-         -454,SOLAR_CARDS.346,        SPACE.1,  4.187655e-06   $    0.042400
-         -455,SOLAR_CARDS.347,        SPACE.1,  3.674074e-06   $    0.037200
-         -456,SOLAR_CARDS.349,        SPACE.1,  3.041975e-06   $    0.030800
-         -457,SOLAR_CARDS.350,        SPACE.1,  3.041975e-06   $    0.030800
-         -458,SOLAR_CARDS.351,        SPACE.1,  3.555556e-06   $    0.036000
-         -459,SOLAR_CARDS.353,        SPACE.1,  3.595062e-06   $    0.036400
-         -460,SOLAR_CARDS.354,        SPACE.1,  3.160494e-06   $    0.032000
-         -461,SOLAR_CARDS.355,        SPACE.1,  3.200000e-06   $    0.032400
-         -462,SOLAR_CARDS.357,        SPACE.1,  1.400494e-05   $    0.283600
-         -463,SOLAR_CARDS.358,        SPACE.1,  3.634568e-06   $    0.036800
-         -464,SOLAR_CARDS.359,        SPACE.1,  1.428148e-05   $    0.289200
-         -465,SOLAR_CARDS.360,        SPACE.1,  3.358025e-06   $    0.034000
-         -466,SOLAR_CARDS.361,        SPACE.1,  1.412346e-05   $    0.286000
-         -467,SOLAR_CARDS.362,        SPACE.1,  3.239506e-06   $    0.032800
-         -468,SOLAR_CARDS.363,        SPACE.1,  1.434074e-05   $    0.290400
-         -469,SOLAR_CARDS.366,        SPACE.1,  2.607407e-06   $    0.026400
-         -470,SOLAR_CARDS.367,        SPACE.1,  3.358025e-06   $    0.034000
-         -471,SOLAR_CARDS.368,        SPACE.1,  3.437037e-06   $    0.034800
-         -472,SOLAR_CARDS.370,        SPACE.1,  3.516049e-06   $    0.035600
-         -473,SOLAR_CARDS.371,        SPACE.1,  3.476543e-06   $    0.035200
-         -474,SOLAR_CARDS.372,        SPACE.1,  3.358025e-06   $    0.034000
-         -475,SOLAR_CARDS.374,        SPACE.1,  7.782716e-06   $    0.078800
-         -476,SOLAR_CARDS.375,        SPACE.1,  8.454321e-06   $    0.085600
-         -477,SOLAR_CARDS.376,        SPACE.1,  6.320988e-06   $    0.064000
-         -478,SOLAR_CARDS.378,        SPACE.1,  1.451852e-05   $    0.294000
-         -479,SOLAR_CARDS.379,        SPACE.1,  1.513086e-05   $    0.306400
-         -480,SOLAR_CARDS.380,        SPACE.1,  1.418272e-05   $    0.287200
-         -481,SOLAR_CARDS.382,        SPACE.1,  1.416296e-05   $    0.286800
-         -482,SOLAR_CARDS.383,        SPACE.1,  1.787654e-05   $    0.362000
-         -483,SOLAR_CARDS.384,        SPACE.1,  1.390617e-05   $    0.281600
-         -484,SOLAR_CARDS.385,        SPACE.1,  1.726420e-05   $    0.349600
-         -485,SOLAR_CARDS.386,        SPACE.1,  1.386667e-05   $    0.280800
-         -486,SOLAR_CARDS.387,        SPACE.1,  1.854815e-05   $    0.375600
-         -487,SOLAR_CARDS.388,        SPACE.1,  1.339259e-05   $    0.271200
-         -488,SOLAR_CARDS.391,        SPACE.1,  1.769877e-05   $    0.179200
-         -489,SOLAR_CARDS.392,        SPACE.1,  1.694815e-05   $    0.171600
-         -490,SOLAR_CARDS.393,        SPACE.1,  1.671111e-05   $    0.169200
-         -491,SOLAR_CARDS.395,        SPACE.1,  1.655309e-05   $    0.167600
-         -492,SOLAR_CARDS.396,        SPACE.1,  1.513086e-05   $    0.153200
-         -493,SOLAR_CARDS.397,        SPACE.1,  1.505185e-05   $    0.152400
-         -494,SOLAR_CARDS.399,        SPACE.1,  1.394568e-05   $    0.141200
-         -495,SOLAR_CARDS.400,        SPACE.1,  1.366914e-05   $    0.138400
-         -496,SOLAR_CARDS.401,        SPACE.1,  1.390617e-05   $    0.140800
-         -497,SOLAR_CARDS.403,        SPACE.1,  1.386667e-05   $    0.140400
-         -498,SOLAR_CARDS.404,        SPACE.1,  1.406420e-05   $    0.142400
-         -499,SOLAR_CARDS.405,        SPACE.1,  1.323457e-05   $    0.134000
-         -500,SOLAR_CARDS.407,        SPACE.1,  1.368889e-05   $    0.277200
-         -501,SOLAR_CARDS.408,        SPACE.1,  1.398519e-05   $    0.141600
-         -502,SOLAR_CARDS.409,        SPACE.1,  1.418272e-05   $    0.287200
-         -503,SOLAR_CARDS.410,        SPACE.1,  1.406420e-05   $    0.142400
-         -504,SOLAR_CARDS.411,        SPACE.1,  1.469630e-05   $    0.297600
-         -505,SOLAR_CARDS.412,        SPACE.1,  1.481481e-05   $    0.150000
-         -506,SOLAR_CARDS.413,        SPACE.1,  1.398519e-05   $    0.283200
-         -507,SOLAR_CARDS.416,        SPACE.1,  1.414321e-05   $    0.143200
-         -508,SOLAR_CARDS.417,        SPACE.1,  1.355062e-05   $    0.137200
-         -509,SOLAR_CARDS.418,        SPACE.1,  1.283951e-05   $    0.130000
-         -510,SOLAR_CARDS.420,        SPACE.1,  1.339259e-05   $    0.135600
-         -511,SOLAR_CARDS.421,        SPACE.1,  1.335309e-05   $    0.135200
-         -512,SOLAR_CARDS.422,        SPACE.1,  1.295802e-05   $    0.131200
-         -513,SOLAR_CARDS.424,        SPACE.1,  1.789630e-05   $    0.181200
-         -514,SOLAR_CARDS.425,        SPACE.1,  1.702716e-05   $    0.172400
-         -515,SOLAR_CARDS.426,        SPACE.1,  1.726420e-05   $    0.174800
-         -516,SOLAR_CARDS.428,        SPACE.1,  1.779753e-05   $    0.360400
-         -517,SOLAR_CARDS.429,        SPACE.1,  1.752099e-05   $    0.354800
-         -518,SOLAR_CARDS.430,        SPACE.1,  1.746173e-05   $    0.353600
-         -519,SOLAR_CARDS.432,        SPACE.1,  1.374815e-05   $    0.278400
-         -520,SOLAR_CARDS.433,        SPACE.1,  4.059259e-05   $    0.822000
-         -521,SOLAR_CARDS.434,        SPACE.1,  1.402469e-05   $    0.284000
-         -522,SOLAR_CARDS.435,        SPACE.1,  4.130371e-05   $    0.836400
-         -523,SOLAR_CARDS.436,        SPACE.1,  1.467654e-05   $    0.297200
-         -524,SOLAR_CARDS.437,        SPACE.1,  4.063210e-05   $    0.822800
-         -525,SOLAR_CARDS.438,        SPACE.1,  1.410370e-05   $    0.285600
-         -526,SOLAR_CARDS.441,        SPACE.1,  7.628642e-05   $    0.772400
-         -527,SOLAR_CARDS.442,        SPACE.1,  7.600988e-05   $    0.769600
-         -528,SOLAR_CARDS.443,        SPACE.1,  7.759012e-05   $    0.785600
-         -529,SOLAR_CARDS.445,        SPACE.1,  7.632592e-05   $    0.772800
-         -530,SOLAR_CARDS.446,        SPACE.1,  7.537778e-05   $    0.763200
-         -531,SOLAR_CARDS.447,        SPACE.1,  7.431112e-05   $    0.752400
-         -532,SOLAR_CARDS.449,        SPACE.1,  7.553580e-05   $    0.764800
-         -533,SOLAR_CARDS.450,        SPACE.1,  7.407407e-05   $    0.750000
-         -534,SOLAR_CARDS.451,        SPACE.1,  7.296790e-05   $    0.738800
-         -535,SOLAR_CARDS.453,        SPACE.1,  7.581234e-05   $    0.767600
-         -536,SOLAR_CARDS.454,        SPACE.1,  7.391605e-05   $    0.748400
-         -537,SOLAR_CARDS.455,        SPACE.1,  7.466667e-05   $    0.756000
-         -538,SOLAR_CARDS.457,        SPACE.1,  1.386667e-05   $    0.280800
-         -539,SOLAR_CARDS.458,        SPACE.1,  7.399506e-05   $    0.749200
-         -540,SOLAR_CARDS.459,        SPACE.1,  1.347160e-05   $    0.272800
-         -541,SOLAR_CARDS.460,        SPACE.1,  7.356049e-05   $    0.744800
-         -542,SOLAR_CARDS.461,        SPACE.1,  1.364938e-05   $    0.276400
-         -543,SOLAR_CARDS.462,        SPACE.1,  7.419259e-05   $    0.751200
-         -544,SOLAR_CARDS.463,        SPACE.1,  1.449877e-05   $    0.293600
-         -545,SOLAR_CARDS.466,        SPACE.1,  7.423210e-05   $    0.751600
-         -546,SOLAR_CARDS.467,        SPACE.1,  7.411358e-05   $    0.750400
-         -547,SOLAR_CARDS.468,        SPACE.1,  7.387654e-05   $    0.748000
-         -548,SOLAR_CARDS.470,        SPACE.1,  7.450864e-05   $    0.754400
-         -549,SOLAR_CARDS.471,        SPACE.1,  7.265185e-05   $    0.735600
-         -550,SOLAR_CARDS.472,        SPACE.1,  7.458765e-05   $    0.755200
-         -551,SOLAR_CARDS.474,        SPACE.1,  7.620741e-05   $    0.771600
-         -552,SOLAR_CARDS.475,        SPACE.1,  7.600988e-05   $    0.769600
-         -553,SOLAR_CARDS.476,        SPACE.1,  7.664198e-05   $    0.776000
-         -554,SOLAR_CARDS.478,        SPACE.1,  4.098766e-05   $    0.830000
-         -555,SOLAR_CARDS.479,        SPACE.1,  4.138271e-05   $    0.838000
-         -556,SOLAR_CARDS.480,        SPACE.1,  4.108642e-05   $    0.832000
-         -557,SOLAR_CARDS.482,        SPACE.1,  1.402469e-05   $    0.284000
-         -558,SOLAR_CARDS.483,        SPACE.1,  4.114568e-05   $    0.833200
-         -559,SOLAR_CARDS.484,        SPACE.1,  1.515062e-05   $    0.306800
-         -560,SOLAR_CARDS.485,        SPACE.1,  4.118519e-05   $    0.834000
-         -561,SOLAR_CARDS.486,        SPACE.1,  1.378766e-05   $    0.279200
-         -562,SOLAR_CARDS.487,        SPACE.1,  4.116543e-05   $    0.833600
-         -563,SOLAR_CARDS.488,        SPACE.1,  1.432099e-05   $    0.290000
-         -564,SOLAR_CARDS.491,        SPACE.1,  7.632592e-05   $    0.772800
-         -565,SOLAR_CARDS.492,        SPACE.1,  7.664198e-05   $    0.776000
-         -566,SOLAR_CARDS.493,        SPACE.1,  7.612840e-05   $    0.770800
-         -567,SOLAR_CARDS.495,        SPACE.1,  7.411358e-05   $    0.750400
-         -568,SOLAR_CARDS.496,        SPACE.1,  7.466667e-05   $    0.756000
-         -569,SOLAR_CARDS.497,        SPACE.1,  7.419259e-05   $    0.751200
-         -570,SOLAR_CARDS.499,        SPACE.1,  7.506173e-05   $    0.760000
-         -571,SOLAR_CARDS.500,        SPACE.1,  7.537778e-05   $    0.763200
-         -572,SOLAR_CARDS.501,        SPACE.1,  7.545679e-05   $    0.764000
-         -573,SOLAR_CARDS.503,        SPACE.1,  7.561481e-05   $    0.765600
-         -574,SOLAR_CARDS.504,        SPACE.1,  7.367901e-05   $    0.746000
-         -575,SOLAR_CARDS.505,        SPACE.1,  7.470618e-05   $    0.756400
-         -576,SOLAR_CARDS.507,        SPACE.1,  1.556543e-05   $    0.315200
-         -577,SOLAR_CARDS.508,        SPACE.1,  7.348148e-05   $    0.744000
-         -578,SOLAR_CARDS.509,        SPACE.1,  1.588148e-05   $    0.321600
-         -579,SOLAR_CARDS.510,        SPACE.1,  7.253334e-05   $    0.734400
-         -580,SOLAR_CARDS.511,        SPACE.1,  1.451852e-05   $    0.294000
-         -581,SOLAR_CARDS.512,        SPACE.1,  7.494321e-05   $    0.758800
-         -582,SOLAR_CARDS.513,        SPACE.1,  1.554568e-05   $    0.314800
-         -583,SOLAR_CARDS.516,        SPACE.1,  7.435062e-05   $    0.752800
-         -584,SOLAR_CARDS.517,        SPACE.1,  7.462716e-05   $    0.755600
-         -585,SOLAR_CARDS.518,        SPACE.1,  7.502222e-05   $    0.759600
-         -586,SOLAR_CARDS.520,        SPACE.1,  7.541728e-05   $    0.763600
-         -587,SOLAR_CARDS.521,        SPACE.1,  7.439013e-05   $    0.753200
-         -588,SOLAR_CARDS.522,        SPACE.1,  7.284938e-05   $    0.737600
-         -589,SOLAR_CARDS.524,        SPACE.1,  7.731358e-05   $    0.782800
-         -590,SOLAR_CARDS.525,        SPACE.1,  7.498272e-05   $    0.759200
-         -591,SOLAR_CARDS.526,        SPACE.1,  7.581234e-05   $    0.767600
-         -592,SOLAR_CARDS.528,        SPACE.1,  4.134321e-05   $    0.837200
-         -593,SOLAR_CARDS.529,        SPACE.1,  4.106667e-05   $    0.831600
-         -594,SOLAR_CARDS.530,        SPACE.1,  4.106667e-05   $    0.831600
-         -595,SOLAR_CARDS.532,        SPACE.1,  1.833087e-05   $    0.371200
-         -596,SOLAR_CARDS.533,        SPACE.1,  1.779753e-05   $    0.360400
-         -597,SOLAR_CARDS.534,        SPACE.1,  1.777778e-05   $    0.360000
-         -598,SOLAR_CARDS.536,        SPACE.1,  1.611852e-05   $    0.163200
-         -599,SOLAR_CARDS.537,        SPACE.1,  1.746173e-05   $    0.176800
-         -600,SOLAR_CARDS.538,        SPACE.1,  1.773827e-05   $    0.179600
-         -601, SOLAR_PANELS.1,        SPACE.1,  3.703704e-05   $    1.000000
-         -602, SOLAR_PANELS.2,        SPACE.1,  7.407407e-05   $    1.000000
-         -603, SOLAR_PANELS.3,        SPACE.1,  7.407407e-05   $    1.000000
-         -604, SOLAR_PANELS.4,        SPACE.1,  7.407407e-05   $    1.000000
-         -605, SOLAR_PANELS.5,        SPACE.1,  7.407407e-05   $    1.000000
-         -606, SOLAR_PANELS.6,        SPACE.1,  7.407407e-05   $    1.000000
-         -607, SOLAR_PANELS.7,        SPACE.1,  7.407407e-05   $    1.000000
-         -608, SOLAR_PANELS.8,        SPACE.1,  7.407407e-05   $    1.000000
-         -609, SOLAR_PANELS.9,        SPACE.1,  7.407407e-05   $    1.000000
-         -610,SOLAR_PANELS.10,        SPACE.1,  3.703704e-05   $    1.000000
-         -611,SOLAR_PANELS.11,        SPACE.1,  7.407407e-05   $    1.000000
-         -612,SOLAR_PANELS.12,        SPACE.1,   0.0001481481  $    1.000000
-         -613,SOLAR_PANELS.13,        SPACE.1,   0.0001481481  $    1.000000
-         -614,SOLAR_PANELS.14,        SPACE.1,   0.0001481481  $    1.000000
-         -615,SOLAR_PANELS.15,        SPACE.1,   0.0001481481  $    1.000000
-         -616,SOLAR_PANELS.16,        SPACE.1,   0.0001481481  $    1.000000
-         -617,SOLAR_PANELS.17,        SPACE.1,   0.0001481481  $    1.000000
-         -618,SOLAR_PANELS.18,        SPACE.1,   0.0001481481  $    1.000000
-         -619,SOLAR_PANELS.19,        SPACE.1,   0.0001481481  $    1.000000
-         -620,SOLAR_PANELS.20,        SPACE.1,  7.407407e-05   $    1.000000
-         -621,SOLAR_PANELS.21,        SPACE.1,  7.407407e-05   $    1.000000
-         -622,SOLAR_PANELS.22,        SPACE.1,   0.0001481481  $    1.000000
-         -623,SOLAR_PANELS.23,        SPACE.1,   0.0001481481  $    1.000000
-         -624,SOLAR_PANELS.24,        SPACE.1,   0.0001481481  $    1.000000
-         -625,SOLAR_PANELS.25,        SPACE.1,   0.0001481481  $    1.000000
-         -626,SOLAR_PANELS.26,        SPACE.1,   0.0001481481  $    1.000000
-         -627,SOLAR_PANELS.27,        SPACE.1,   0.0001481481  $    1.000000
-         -628,SOLAR_PANELS.28,        SPACE.1,   0.0001481481  $    1.000000
-         -629,SOLAR_PANELS.29,        SPACE.1,   0.0001481481  $    1.000000
-         -630,SOLAR_PANELS.30,        SPACE.1,  7.407407e-05   $    1.000000
-         -631,SOLAR_PANELS.31,        SPACE.1,  3.703704e-05   $    1.000000
-         -632,SOLAR_PANELS.32,        SPACE.1,  7.407407e-05   $    1.000000
-         -633,SOLAR_PANELS.33,        SPACE.1,  7.407407e-05   $    1.000000
-         -634,SOLAR_PANELS.34,        SPACE.1,  7.407407e-05   $    1.000000
-         -635,SOLAR_PANELS.35,        SPACE.1,  7.407407e-05   $    1.000000
-         -636,SOLAR_PANELS.36,        SPACE.1,  7.407407e-05   $    1.000000
-         -637,SOLAR_PANELS.37,        SPACE.1,  7.407407e-05   $    1.000000
-         -638,SOLAR_PANELS.38,        SPACE.1,  7.407407e-05   $    1.000000
-         -639,SOLAR_PANELS.39,        SPACE.1,  7.407407e-05   $    1.000000
-         -640,SOLAR_PANELS.40,        SPACE.1,  3.703704e-05   $    1.000000
-         -641,SOLAR_PANELS.41,        SPACE.1,  3.703704e-05   $    1.000000
-         -642,SOLAR_PANELS.42,        SPACE.1,  3.703704e-05   $    1.000000
-         -643,SOLAR_PANELS.43,        SPACE.1,  3.703704e-05   $    1.000000
-         -644,SOLAR_PANELS.44,        SPACE.1,  3.703704e-05   $    1.000000
-         -645,SOLAR_PANELS.45,        SPACE.1,  3.703704e-05   $    1.000000
-         -646,SOLAR_PANELS.46,        SPACE.1,  3.703704e-05   $    1.000000
-         -647,SOLAR_PANELS.47,        SPACE.1,  3.703704e-05   $    1.000000
-         -648,SOLAR_PANELS.48,        SPACE.1,  3.703704e-05   $    1.000000
-         -649,SOLAR_PANELS.49,        SPACE.1,  3.703704e-05   $    1.000000
-         -650,SOLAR_PANELS.50,        SPACE.1,  3.703704e-05   $    1.000000
-         -651,SOLAR_PANELS.51,        SPACE.1,  3.703704e-05   $    1.000000
-         -652,SOLAR_PANELS.52,        SPACE.1,  3.703704e-05   $    1.000000
-         -653,SOLAR_PANELS.53,        SPACE.1,  3.703704e-05   $    1.000000
-         -654,SOLAR_PANELS.54,        SPACE.1,  3.703704e-05   $    1.000000
-         -655,SOLAR_PANELS.55,        SPACE.1,  7.407407e-05   $    1.000000
-         -656,SOLAR_PANELS.56,        SPACE.1,  7.407407e-05   $    1.000000
-         -657,SOLAR_PANELS.57,        SPACE.1,  7.407407e-05   $    1.000000
-         -658,SOLAR_PANELS.58,        SPACE.1,  7.407407e-05   $    1.000000
-         -659,SOLAR_PANELS.59,        SPACE.1,  7.407407e-05   $    1.000000
-         -660,SOLAR_PANELS.60,        SPACE.1,  7.407407e-05   $    1.000000
-         -661,SOLAR_PANELS.61,        SPACE.1,  7.407407e-05   $    1.000000
-         -662,SOLAR_PANELS.62,        SPACE.1,   0.0001481481  $    1.000000
-         -663,SOLAR_PANELS.63,        SPACE.1,   0.0001481481  $    1.000000
-         -664,SOLAR_PANELS.64,        SPACE.1,   0.0001481481  $    1.000000
-         -665,SOLAR_PANELS.65,        SPACE.1,   0.0001481481  $    1.000000
-         -666,SOLAR_PANELS.66,        SPACE.1,   0.0001481481  $    1.000000
-         -667,SOLAR_PANELS.67,        SPACE.1,   0.0001481481  $    1.000000
-         -668,SOLAR_PANELS.68,        SPACE.1,   0.0001481481  $    1.000000
-         -669,SOLAR_PANELS.69,        SPACE.1,   0.0001481481  $    1.000000
-         -670,SOLAR_PANELS.70,        SPACE.1,   0.0001481481  $    1.000000
-         -671,SOLAR_PANELS.71,        SPACE.1,   0.0001481481  $    1.000000
-         -672,SOLAR_PANELS.72,        SPACE.1,   0.0001481481  $    1.000000
-         -673,SOLAR_PANELS.73,        SPACE.1,   0.0001481481  $    1.000000
-         -674,SOLAR_PANELS.74,        SPACE.1,   0.0001481481  $    1.000000
-         -675,SOLAR_PANELS.75,        SPACE.1,   0.0001481481  $    1.000000
-         -676,SOLAR_PANELS.76,        SPACE.1,   0.0001481481  $    1.000000
-         -677,SOLAR_PANELS.77,        SPACE.1,   0.0001481481  $    1.000000
-         -678,SOLAR_PANELS.78,        SPACE.1,   0.0001481481  $    1.000000
-         -679,SOLAR_PANELS.79,        SPACE.1,   0.0001481481  $    1.000000
-         -680,SOLAR_PANELS.80,        SPACE.1,   0.0001481481  $    1.000000
-         -681,SOLAR_PANELS.81,        SPACE.1,   0.0001481481  $    1.000000
-         -682,SOLAR_PANELS.82,        SPACE.1,   0.0001481481  $    1.000000
-         -683,SOLAR_PANELS.83,        SPACE.1,   0.0001481481  $    1.000000
-         -684,SOLAR_PANELS.84,        SPACE.1,   0.0001481481  $    1.000000
-         -685,SOLAR_PANELS.85,        SPACE.1,   0.0001481481  $    1.000000
-         -686,SOLAR_PANELS.86,        SPACE.1,   0.0001481481  $    1.000000
-         -687,SOLAR_PANELS.87,        SPACE.1,   0.0001481481  $    1.000000
-         -688,SOLAR_PANELS.88,        SPACE.1,   0.0001481481  $    1.000000
-         -689,SOLAR_PANELS.89,        SPACE.1,   0.0001481481  $    1.000000
-         -690,SOLAR_PANELS.90,        SPACE.1,   0.0001481481  $    1.000000
-         -691,SOLAR_PANELS.91,        SPACE.1,   0.0001481481  $    1.000000
-         -692,SOLAR_PANELS.92,        SPACE.1,   0.0001481481  $    1.000000
-         -693,SOLAR_PANELS.93,        SPACE.1,   0.0001481481  $    1.000000
-         -694,SOLAR_PANELS.94,        SPACE.1,   0.0001481481  $    1.000000
-         -695,SOLAR_PANELS.95,        SPACE.1,   0.0001481481  $    1.000000
-         -696,SOLAR_PANELS.96,        SPACE.1,   0.0001481481  $    1.000000
-         -697,SOLAR_PANELS.97,        SPACE.1,   0.0001481481  $    1.000000
-         -698,SOLAR_PANELS.98,        SPACE.1,   0.0001481481  $    1.000000
-         -699,SOLAR_PANELS.99,        SPACE.1,   0.0001481481  $    1.000000
-         -700,SOLAR_PANELS.100,        SPACE.1,   0.0001481481  $    1.000000
-         -701,SOLAR_PANELS.101,        SPACE.1,   0.0001481481  $    1.000000
-         -702,SOLAR_PANELS.102,        SPACE.1,   0.0001481481  $    1.000000
-         -703,SOLAR_PANELS.103,        SPACE.1,   0.0001481481  $    1.000000
-         -704,SOLAR_PANELS.104,        SPACE.1,   0.0001481481  $    1.000000
-         -705,SOLAR_PANELS.105,        SPACE.1,   0.0001481481  $    1.000000
-         -706,SOLAR_PANELS.106,        SPACE.1,   0.0001481481  $    1.000000
-         -707,SOLAR_PANELS.107,        SPACE.1,   0.0001481481  $    1.000000
-         -708,SOLAR_PANELS.108,        SPACE.1,   0.0001481481  $    1.000000
-         -709,SOLAR_PANELS.109,        SPACE.1,   0.0001481481  $    1.000000
-         -710,SOLAR_PANELS.110,        SPACE.1,   0.0001481481  $    1.000000
-         -711,SOLAR_PANELS.111,        SPACE.1,   0.0001481481  $    1.000000
-         -712,SOLAR_PANELS.112,        SPACE.1,   0.0001481481  $    1.000000
-         -713,SOLAR_PANELS.113,        SPACE.1,   0.0001481481  $    1.000000
-         -714,SOLAR_PANELS.114,        SPACE.1,   0.0001481481  $    1.000000
-         -715,SOLAR_PANELS.115,        SPACE.1,   0.0001481481  $    1.000000
-         -716,SOLAR_PANELS.116,        SPACE.1,   0.0001481481  $    1.000000
-         -717,SOLAR_PANELS.117,        SPACE.1,   0.0001481481  $    1.000000
-         -718,SOLAR_PANELS.118,        SPACE.1,  7.407407e-05   $    1.000000
-         -719,SOLAR_PANELS.119,        SPACE.1,  7.407407e-05   $    1.000000
-         -720,SOLAR_PANELS.120,        SPACE.1,  7.407407e-05   $    1.000000
-         -721,SOLAR_PANELS.121,        SPACE.1,  7.407407e-05   $    1.000000
-         -722,SOLAR_PANELS.122,        SPACE.1,  7.407407e-05   $    1.000000
-         -723,SOLAR_PANELS.123,        SPACE.1,  7.407407e-05   $    1.000000
-         -724,SOLAR_PANELS.124,        SPACE.1,  7.407407e-05   $    1.000000
-         -725,SOLAR_PANELS.125,        SPACE.1,  7.407407e-05   $    1.000000
-         -726,SOLAR_PANELS.126,        SPACE.1,  7.407407e-05   $    1.000000
-         -727,SOLAR_PANELS.127,        SPACE.1,  7.407407e-05   $    1.000000
-         -728,SOLAR_PANELS.128,        SPACE.1,  7.407407e-05   $    1.000000
-         -729,SOLAR_PANELS.129,        SPACE.1,  7.407407e-05   $    1.000000
-         -730,SOLAR_PANELS.130,        SPACE.1,  7.407407e-05   $    1.000000
-         -731,SOLAR_PANELS.131,        SPACE.1,  7.407407e-05   $    1.000000
-         -732,SOLAR_PANELS.132,        SPACE.1,  7.407407e-05   $    1.000000
-         -733,SOLAR_PANELS.133,        SPACE.1,  7.407407e-05   $    1.000000
-         -734,SOLAR_PANELS.134,        SPACE.1,  7.407407e-05   $    1.000000
-         -735,SOLAR_PANELS.135,        SPACE.1,  7.407407e-05   $    1.000000
-         -736,SOLAR_PANELS.136,        SPACE.1,  7.407407e-05   $    1.000000
-         -737,SOLAR_PANELS.137,        SPACE.1,  7.407407e-05   $    1.000000
-         -738,SOLAR_PANELS.138,        SPACE.1,  7.407407e-05   $    1.000000
-         -739,SOLAR_PANELS.139,        SPACE.1,   0.0001481481  $    1.000000
-         -740,SOLAR_PANELS.140,        SPACE.1,   0.0001481481  $    1.000000
-         -741,SOLAR_PANELS.141,        SPACE.1,   0.0001481481  $    1.000000
-         -742,SOLAR_PANELS.142,        SPACE.1,   0.0001481481  $    1.000000
-         -743,SOLAR_PANELS.143,        SPACE.1,   0.0001481481  $    1.000000
-         -744,SOLAR_PANELS.144,        SPACE.1,   0.0001481481  $    1.000000
-         -745,SOLAR_PANELS.145,        SPACE.1,   0.0001481481  $    1.000000
-         -746,SOLAR_PANELS.146,        SPACE.1,   0.0001481481  $    1.000000
-         -747,SOLAR_PANELS.147,        SPACE.1,   0.0001481481  $    1.000000
-         -748,SOLAR_PANELS.148,        SPACE.1,   0.0001481481  $    1.000000
-         -749,SOLAR_PANELS.149,        SPACE.1,   0.0001481481  $    1.000000
-         -750,SOLAR_PANELS.150,        SPACE.1,   0.0001481481  $    1.000000
-         -751,SOLAR_PANELS.151,        SPACE.1,   0.0001481481  $    1.000000
-         -752,SOLAR_PANELS.152,        SPACE.1,   0.0001481481  $    1.000000
-         -753,SOLAR_PANELS.153,        SPACE.1,   0.0001481481  $    1.000000
-         -754,SOLAR_PANELS.154,        SPACE.1,   0.0001481481  $    1.000000
-         -755,SOLAR_PANELS.155,        SPACE.1,   0.0001481481  $    1.000000
-         -756,SOLAR_PANELS.156,        SPACE.1,   0.0001481481  $    1.000000
-         -757,SOLAR_PANELS.157,        SPACE.1,   0.0001481481  $    1.000000
-         -758,SOLAR_PANELS.158,        SPACE.1,   0.0001481481  $    1.000000
-         -759,SOLAR_PANELS.159,        SPACE.1,   0.0001481481  $    1.000000
-         -760,SOLAR_PANELS.160,        SPACE.1,   0.0001481481  $    1.000000
-         -761,SOLAR_PANELS.161,        SPACE.1,   0.0001481481  $    1.000000
-         -762,SOLAR_PANELS.162,        SPACE.1,   0.0001481481  $    1.000000
-         -763,SOLAR_PANELS.163,        SPACE.1,   0.0001481481  $    1.000000
-         -764,SOLAR_PANELS.164,        SPACE.1,   0.0001481481  $    1.000000
-         -765,SOLAR_PANELS.165,        SPACE.1,   0.0001481481  $    1.000000
-         -766,SOLAR_PANELS.166,        SPACE.1,   0.0001481481  $    1.000000
-         -767,SOLAR_PANELS.167,        SPACE.1,   0.0001481481  $    1.000000
-         -768,SOLAR_PANELS.168,        SPACE.1,   0.0001481481  $    1.000000
-         -769,SOLAR_PANELS.169,        SPACE.1,   0.0001481481  $    1.000000
-         -770,SOLAR_PANELS.170,        SPACE.1,   0.0001481481  $    1.000000
-         -771,SOLAR_PANELS.171,        SPACE.1,   0.0001481481  $    1.000000
-         -772,SOLAR_PANELS.172,        SPACE.1,   0.0001481481  $    1.000000
-         -773,SOLAR_PANELS.173,        SPACE.1,   0.0001481481  $    1.000000
-         -774,SOLAR_PANELS.174,        SPACE.1,   0.0001481481  $    1.000000
-         -775,SOLAR_PANELS.175,        SPACE.1,   0.0001481481  $    1.000000
-         -776,SOLAR_PANELS.176,        SPACE.1,   0.0001481481  $    1.000000
-         -777,SOLAR_PANELS.177,        SPACE.1,   0.0001481481  $    1.000000
-         -778,SOLAR_PANELS.178,        SPACE.1,   0.0001481481  $    1.000000
-         -779,SOLAR_PANELS.179,        SPACE.1,   0.0001481481  $    1.000000
-         -780,SOLAR_PANELS.180,        SPACE.1,   0.0001481481  $    1.000000
-         -781,SOLAR_PANELS.181,        SPACE.1,   0.0001481481  $    1.000000
-         -782,SOLAR_PANELS.182,        SPACE.1,   0.0001481481  $    1.000000
-         -783,SOLAR_PANELS.183,        SPACE.1,   0.0001481481  $    1.000000
-         -784,SOLAR_PANELS.184,        SPACE.1,   0.0001481481  $    1.000000
-         -785,SOLAR_PANELS.185,        SPACE.1,   0.0001481481  $    1.000000
-         -786,SOLAR_PANELS.186,        SPACE.1,   0.0001481481  $    1.000000
-         -787,SOLAR_PANELS.187,        SPACE.1,   0.0001481481  $    1.000000
-         -788,SOLAR_PANELS.188,        SPACE.1,   0.0001481481  $    1.000000
-         -789,SOLAR_PANELS.189,        SPACE.1,   0.0001481481  $    1.000000
-         -790,SOLAR_PANELS.190,        SPACE.1,   0.0001481481  $    1.000000
-         -791,SOLAR_PANELS.191,        SPACE.1,   0.0001481481  $    1.000000
-         -792,SOLAR_PANELS.192,        SPACE.1,   0.0001481481  $    1.000000
-         -793,SOLAR_PANELS.193,        SPACE.1,   0.0001481481  $    1.000000
-         -794,SOLAR_PANELS.194,        SPACE.1,   0.0001481481  $    1.000000
-         -795,SOLAR_PANELS.195,        SPACE.1,  7.407407e-05   $    1.000000
-         -796,SOLAR_PANELS.196,        SPACE.1,  7.407407e-05   $    1.000000
-         -797,SOLAR_PANELS.197,        SPACE.1,  7.407407e-05   $    1.000000
-         -798,SOLAR_PANELS.198,        SPACE.1,  7.407407e-05   $    1.000000
-         -799,SOLAR_PANELS.199,        SPACE.1,  7.407407e-05   $    1.000000
-         -800,SOLAR_PANELS.200,        SPACE.1,  7.407407e-05   $    1.000000
-         -801,SOLAR_PANELS.201,        SPACE.1,  7.407407e-05   $    1.000000
-         -802,SOLAR_PANELS.202,        SPACE.1,  7.407407e-05   $    1.000000
-         -803,SOLAR_PANELS.203,        SPACE.1,  7.407407e-05   $    1.000000
-         -804,SOLAR_PANELS.204,        SPACE.1,  7.407407e-05   $    1.000000
-         -805,SOLAR_PANELS.205,        SPACE.1,  7.407407e-05   $    1.000000
-         -806,SOLAR_PANELS.206,        SPACE.1,  7.407407e-05   $    1.000000
-         -807,SOLAR_PANELS.207,        SPACE.1,  7.407407e-05   $    1.000000
-         -808,SOLAR_PANELS.208,        SPACE.1,  7.407407e-05   $    1.000000
-         -809,SOLAR_PANELS.209,        SPACE.1,  3.703704e-05   $    1.000000
-         -810,SOLAR_PANELS.210,        SPACE.1,  3.703704e-05   $    1.000000
-         -811,SOLAR_PANELS.211,        SPACE.1,  3.703704e-05   $    1.000000
-         -812,SOLAR_PANELS.212,        SPACE.1,  3.703704e-05   $    1.000000
-         -813,SOLAR_PANELS.213,        SPACE.1,  3.703704e-05   $    1.000000
-         -814,SOLAR_PANELS.214,        SPACE.1,  3.703704e-05   $    1.000000
-         -815,SOLAR_PANELS.215,        SPACE.1,  3.703704e-05   $    1.000000
-         -816,SOLAR_PANELS.216,        SPACE.1,  7.407407e-05   $    1.000000
-         -817,SOLAR_PANELS.217,        SPACE.1,  7.407407e-05   $    1.000000
-         -818,SOLAR_PANELS.218,        SPACE.1,  7.407407e-05   $    1.000000
-         -819,SOLAR_PANELS.219,        SPACE.1,  7.407407e-05   $    1.000000
-         -820,SOLAR_PANELS.220,        SPACE.1,  7.407407e-05   $    1.000000
-         -821,SOLAR_PANELS.221,        SPACE.1,  7.407407e-05   $    1.000000
-         -822,SOLAR_PANELS.222,        SPACE.1,  7.407407e-05   $    1.000000
-         -823,SOLAR_PANELS.223,        SPACE.1,  7.407407e-05   $    1.000000
-         -824,SOLAR_PANELS.224,        SPACE.1,  7.407407e-05   $    1.000000
-         -825,SOLAR_PANELS.225,        SPACE.1,  7.407407e-05   $    1.000000
-         -826,SOLAR_PANELS.226,        SPACE.1,  7.407407e-05   $    1.000000
-         -827,SOLAR_PANELS.227,        SPACE.1,  7.407407e-05   $    1.000000
-         -828,SOLAR_PANELS.228,        SPACE.1,  7.407407e-05   $    1.000000
-         -829,SOLAR_PANELS.229,        SPACE.1,  7.407407e-05   $    1.000000
-         -830,SOLAR_PANELS.230,        SPACE.1,  7.407407e-05   $    1.000000
-         -831,SOLAR_PANELS.231,        SPACE.1,  7.407407e-05   $    1.000000
-         -832,SOLAR_PANELS.232,        SPACE.1,  7.407407e-05   $    1.000000
-         -833,SOLAR_PANELS.233,        SPACE.1,  7.407407e-05   $    1.000000
-         -834,SOLAR_PANELS.234,        SPACE.1,  7.407407e-05   $    1.000000
-         -835,SOLAR_PANELS.235,        SPACE.1,  7.407407e-05   $    1.000000
-         -836,SOLAR_PANELS.236,        SPACE.1,  7.407407e-05   $    1.000000
-         -837,SOLAR_PANELS.237,        SPACE.1,  7.407407e-05   $    1.000000
-         -838,SOLAR_PANELS.238,        SPACE.1,  7.407407e-05   $    1.000000
-         -839,SOLAR_PANELS.239,        SPACE.1,  7.407407e-05   $    1.000000
-         -840,SOLAR_PANELS.240,        SPACE.1,  7.407407e-05   $    1.000000
-         -841,SOLAR_PANELS.241,        SPACE.1,  7.407407e-05   $    1.000000
-         -842,SOLAR_PANELS.242,        SPACE.1,  7.407407e-05   $    1.000000
-         -843,SOLAR_PANELS.243,        SPACE.1,  7.407407e-05   $    1.000000
-         -844,SOLAR_PANELS.244,        SPACE.1,  7.407407e-05   $    1.000000
-         -845,SOLAR_PANELS.245,        SPACE.1,  7.407407e-05   $    1.000000
-         -846,SOLAR_PANELS.246,        SPACE.1,  7.407407e-05   $    1.000000
-         -847,SOLAR_PANELS.247,        SPACE.1,  7.407407e-05   $    1.000000
-         -848,SOLAR_PANELS.248,        SPACE.1,  7.407407e-05   $    1.000000
-         -849,SOLAR_PANELS.249,        SPACE.1,  7.407407e-05   $    1.000000
-         -850,SOLAR_PANELS.250,        SPACE.1,  7.407407e-05   $    1.000000
-         -851,SOLAR_PANELS.251,        SPACE.1,  7.407407e-05   $    1.000000
-         -852,SOLAR_PANELS.252,        SPACE.1,  7.407407e-05   $    1.000000
-         -853,SOLAR_PANELS.253,        SPACE.1,  7.407407e-05   $    1.000000
-         -854,SOLAR_PANELS.254,        SPACE.1,  7.407407e-05   $    1.000000
-         -855,SOLAR_PANELS.255,        SPACE.1,  7.407407e-05   $    1.000000
-         -856,SOLAR_PANELS.256,        SPACE.1,  7.407407e-05   $    1.000000
-         -857,SOLAR_PANELS.257,        SPACE.1,  7.407407e-05   $    1.000000
-         -858,SOLAR_PANELS.258,        SPACE.1,  7.407407e-05   $    1.000000
-         -859,SOLAR_PANELS.259,        SPACE.1,  7.407407e-05   $    1.000000
-         -860,SOLAR_PANELS.260,        SPACE.1,  7.407407e-05   $    1.000000
-         -861,SOLAR_PANELS.261,        SPACE.1,  7.407407e-05   $    1.000000
-         -862,SOLAR_PANELS.262,        SPACE.1,  7.407407e-05   $    1.000000
-         -863,SOLAR_PANELS.263,        SPACE.1,  7.407407e-05   $    1.000000
-         -864,SOLAR_PANELS.264,        SPACE.1,  7.407407e-05   $    1.000000
-         -865,SOLAR_PANELS.265,        SPACE.1,  7.407407e-05   $    1.000000
-         -866,SOLAR_PANELS.266,        SPACE.1,  7.407407e-05   $    1.000000
-         -867,SOLAR_PANELS.267,        SPACE.1,  7.407407e-05   $    1.000000
-         -868,SOLAR_PANELS.268,        SPACE.1,  7.407407e-05   $    1.000000
-         -869,SOLAR_PANELS.269,        SPACE.1,  7.407407e-05   $    1.000000
-         -870,SOLAR_PANELS.270,        SPACE.1,  7.407407e-05   $    1.000000
-         -871,SOLAR_PANELS.271,        SPACE.1,  7.407407e-05   $    1.000000
-         -872,SOLAR_PANELS.272,        SPACE.1,  7.407407e-05   $    1.000000
-         -873,SOLAR_PANELS.273,        SPACE.1,  7.407407e-05   $    1.000000
-         -874,SOLAR_PANELS.274,        SPACE.1,  7.407407e-05   $    1.000000
-         -875,SOLAR_PANELS.275,        SPACE.1,  7.407407e-05   $    1.000000
-         -876,SOLAR_PANELS.276,        SPACE.1,  7.407407e-05   $    1.000000
-         -877,SOLAR_PANELS.277,        SPACE.1,  7.407407e-05   $    1.000000
-         -878,SOLAR_PANELS.278,        SPACE.1,  7.407407e-05   $    1.000000
-         -879,SOLAR_PANELS.279,        SPACE.1,  3.703704e-05   $    1.000000
-         -880,SOLAR_PANELS.280,        SPACE.1,  3.703704e-05   $    1.000000
-         -881,SOLAR_PANELS.281,        SPACE.1,  3.703704e-05   $    1.000000
-         -882,SOLAR_PANELS.282,        SPACE.1,  3.703704e-05   $    1.000000
-         -883,SOLAR_PANELS.283,        SPACE.1,  3.703704e-05   $    1.000000
-         -884,SOLAR_PANELS.284,        SPACE.1,  3.703704e-05   $    1.000000
-         -885,SOLAR_PANELS.285,        SPACE.1,  3.703704e-05   $    1.000000
-         -886,SOLAR_PANELS.286,        SPACE.1,  7.407407e-05   $    1.000000
-         -887,SOLAR_PANELS.287,        SPACE.1,  7.407407e-05   $    1.000000
-         -888,SOLAR_PANELS.288,        SPACE.1,  7.407407e-05   $    1.000000
-         -889,SOLAR_PANELS.289,        SPACE.1,  7.407407e-05   $    1.000000
-         -890,SOLAR_PANELS.290,        SPACE.1,  7.407407e-05   $    1.000000
-         -891,SOLAR_PANELS.291,        SPACE.1,  7.407407e-05   $    1.000000
-         -892,SOLAR_PANELS.292,        SPACE.1,  7.407407e-05   $    1.000000
-         -893,SOLAR_PANELS.293,        SPACE.1,  7.407407e-05   $    1.000000
-         -894,SOLAR_PANELS.294,        SPACE.1,  7.407407e-05   $    1.000000
-         -895,SOLAR_PANELS.295,        SPACE.1,  7.407407e-05   $    1.000000
-         -896,SOLAR_PANELS.296,        SPACE.1,  7.407407e-05   $    1.000000
-         -897,SOLAR_PANELS.297,        SPACE.1,  7.407407e-05   $    1.000000
-         -898,SOLAR_PANELS.298,        SPACE.1,  7.407407e-05   $    1.000000
-         -899,SOLAR_PANELS.299,        SPACE.1,  7.407407e-05   $    1.000000
-         -900,SOLAR_PANELS.300,        SPACE.1,  7.407407e-05   $    1.000000
-         -901,SOLAR_PANELS.301,        SPACE.1,  7.407407e-05   $    1.000000
-         -902,SOLAR_PANELS.302,        SPACE.1,  7.407407e-05   $    1.000000
-         -903,SOLAR_PANELS.303,        SPACE.1,  7.407407e-05   $    1.000000
-         -904,SOLAR_PANELS.304,        SPACE.1,  7.407407e-05   $    1.000000
-         -905,SOLAR_PANELS.305,        SPACE.1,  7.407407e-05   $    1.000000
-         -906,SOLAR_PANELS.306,        SPACE.1,  7.407407e-05   $    1.000000
-         -907,SOLAR_PANELS.307,        SPACE.1,  7.407407e-05   $    1.000000
-         -908,SOLAR_PANELS.308,        SPACE.1,  7.407407e-05   $    1.000000
-         -909,SOLAR_PANELS.309,        SPACE.1,  7.407407e-05   $    1.000000
-         -910,SOLAR_PANELS.310,        SPACE.1,  7.407407e-05   $    1.000000
-         -911,SOLAR_PANELS.311,        SPACE.1,  7.407407e-05   $    1.000000
-         -912,SOLAR_PANELS.312,        SPACE.1,  7.407407e-05   $    1.000000
-         -913,SOLAR_PANELS.313,        SPACE.1,  7.407407e-05   $    1.000000
-         -914,SOLAR_PANELS.314,        SPACE.1,  7.407407e-05   $    1.000000
-         -915,SOLAR_PANELS.315,        SPACE.1,  7.407407e-05   $    1.000000
-         -916,SOLAR_PANELS.316,        SPACE.1,  7.407407e-05   $    1.000000
-         -917,SOLAR_PANELS.317,        SPACE.1,  7.407407e-05   $    1.000000
-         -918,SOLAR_PANELS.318,        SPACE.1,  7.407407e-05   $    1.000000
-         -919,SOLAR_PANELS.319,        SPACE.1,  7.407407e-05   $    1.000000
-         -920,SOLAR_PANELS.320,        SPACE.1,  7.407407e-05   $    1.000000
+         -201,       FRAMES.1,        SPACE.1,  1.199991e-05   $    0.518396
+         -202,       FRAMES.2,        SPACE.1,  1.560482e-05   $    0.337064
+         -203,       FRAMES.3,        SPACE.1,  1.440796e-05   $    0.311212
+         -204,       FRAMES.4,        SPACE.1,  1.480093e-05   $    0.319700
+         -205,       FRAMES.5,        SPACE.1,  1.466111e-05   $    0.316680
+         -206,       FRAMES.6,        SPACE.1,  1.471130e-05   $    0.317764
+         -207,       FRAMES.7,        SPACE.1,  1.467556e-05   $    0.316992
+         -208,       FRAMES.8,        SPACE.1,  1.515833e-05   $    0.327420
+         -209,       FRAMES.9,        SPACE.1,  1.601241e-05   $    0.345868
+         -210,      FRAMES.10,        SPACE.1,  1.198426e-05   $    0.517720
+         -211,      FRAMES.11,        SPACE.1,  1.559796e-05   $    0.336916
+         -212,      FRAMES.12,        SPACE.1,  1.030556e-05   $    0.111300
+         -213,      FRAMES.13,        SPACE.1,  8.331481e-06   $    0.089980
+         -214,      FRAMES.14,        SPACE.1,  7.942593e-06   $    0.085780
+         -215,      FRAMES.15,        SPACE.1,  6.438889e-06   $    0.069540
+         -216,      FRAMES.16,        SPACE.1,  7.466666e-06   $    0.080640
+         -217,      FRAMES.17,        SPACE.1,  6.848518e-06   $    0.073964
+         -218,      FRAMES.19,        SPACE.1,  1.062593e-05   $    0.114760
+         -219,      FRAMES.21,        SPACE.1,  1.348185e-05   $    0.291208
+         -220,      FRAMES.22,        SPACE.1,  5.964074e-06   $    0.064412
+         -221,      FRAMES.24,        SPACE.1,  2.445556e-06   $    0.026412
+         -222,      FRAMES.26,        SPACE.1,  2.579630e-06   $    0.027860
+         -223,      FRAMES.27,        SPACE.1,  2.344444e-06   $    0.025320
+         -224,      FRAMES.29,        SPACE.1,  6.078148e-06   $    0.065644
+         -225,      FRAMES.31,        SPACE.1,  1.367870e-05   $    0.295460
+         -226,      FRAMES.32,        SPACE.1,  6.594445e-06   $    0.071220
+         -227,      FRAMES.34,        SPACE.1,  1.436296e-06   $    0.015512
+         -228,      FRAMES.36,        SPACE.1,  1.212963e-06   $    0.013100
+         -229,      FRAMES.37,        SPACE.1,  1.583704e-06   $    0.017104
+         -230,      FRAMES.39,        SPACE.1,  6.685556e-06   $    0.072204
+         -231,      FRAMES.41,        SPACE.1,  1.381926e-05   $    0.298496
+         -232,      FRAMES.42,        SPACE.1,  5.631482e-06   $    0.060820
+         -233,      FRAMES.44,        SPACE.1,  1.053333e-06   $    0.011376
+         -234,      FRAMES.46,        SPACE.1,  7.585185e-07   $    0.008192
+         -235,      FRAMES.47,        SPACE.1,  1.277778e-06   $    0.013800
+         -236,      FRAMES.49,        SPACE.1,  6.747778e-06   $    0.072876
+         -237,      FRAMES.51,        SPACE.1,  1.363167e-05   $    0.294444
+         -238,      FRAMES.52,        SPACE.1,  6.236296e-06   $    0.067352
+         -239,     FRAMES.142,        SPACE.1,  1.153398e-05   $    0.498268
+         -240,     FRAMES.220,        SPACE.1,  8.231852e-06   $    0.088904
+         -241,     FRAMES.221,        SPACE.1,  1.485500e-05   $    0.320868
+         -242,     FRAMES.223,        SPACE.1,  3.055555e-06   $    0.033000
+         -243,     FRAMES.224,        SPACE.1,  2.267778e-06   $    0.024492
+         -244,     FRAMES.226,        SPACE.1,  2.797407e-06   $    0.030212
+         -245,     FRAMES.227,        SPACE.1,  1.349704e-05   $    0.291536
+         -246,     FRAMES.229,        SPACE.1,  1.847778e-06   $    0.019956
+         -247,     FRAMES.230,        SPACE.1,  1.421852e-06   $    0.015356
+         -248,     FRAMES.232,        SPACE.1,  1.881111e-06   $    0.020316
+         -249,     FRAMES.233,        SPACE.1,  1.360130e-05   $    0.293788
+         -250,     FRAMES.235,        SPACE.1,  1.847407e-06   $    0.019952
+         -251,     FRAMES.236,        SPACE.1,  6.537037e-07   $    0.007060
+         -252,     FRAMES.238,        SPACE.1,  2.014815e-06   $    0.021760
+         -253,     FRAMES.239,        SPACE.1,  1.380907e-05   $    0.298276
+         -254,     FRAMES.241,        SPACE.1,  1.834444e-06   $    0.019812
+         -255,     FRAMES.242,        SPACE.1,  1.338148e-06   $    0.014452
+         -256,     FRAMES.243,        SPACE.1,  9.981482e-07   $    0.010780
+         -257,     FRAMES.246,        SPACE.1,  9.481482e-07   $    0.010240
+         -258,     FRAMES.249,        SPACE.1,  1.248148e-06   $    0.013480
+         -259,     FRAMES.252,        SPACE.1,  1.446296e-06   $    0.015620
+         -260,     FRAMES.256,        SPACE.1,  7.278149e-06   $    0.078604
+         -261,     FRAMES.259,        SPACE.1,  1.368815e-05   $    0.295664
+         -262,     FRAMES.264,        SPACE.1,  1.350444e-05   $    0.291696
+         -263,     FRAMES.267,        SPACE.1,  6.084074e-06   $    0.065708
+         -264,     FRAMES.270,        SPACE.1,  1.760370e-06   $    0.019012
+         -265,     FRAMES.274,        SPACE.1,  1.650000e-06   $    0.017820
+         -266,     FRAMES.277,        SPACE.1,  1.125556e-06   $    0.012156
+         -267,     FRAMES.282,        SPACE.1,  1.096296e-06   $    0.011840
+         -268,     FRAMES.285,        SPACE.1,  1.693704e-06   $    0.018292
+         -269,     FRAMES.288,        SPACE.1,  2.208889e-06   $    0.023856
+         -270,     FRAMES.292,        SPACE.1,  6.452963e-06   $    0.069692
+         -271,     FRAMES.295,        SPACE.1,  1.430759e-05   $    0.309044
+         -272,     FRAMES.300,        SPACE.1,  1.358648e-05   $    0.293468
+         -273,     FRAMES.303,        SPACE.1,  6.342963e-06   $    0.068504
+         -274,     FRAMES.306,        SPACE.1,  2.622222e-06   $    0.028320
+         -275,     FRAMES.310,        SPACE.1,  1.674815e-06   $    0.018088
+         -276,     FRAMES.313,        SPACE.1,  1.964815e-06   $    0.021220
+         -277,     FRAMES.318,        SPACE.1,  2.409259e-06   $    0.026020
+         -278,     FRAMES.321,        SPACE.1,  2.464815e-06   $    0.026620
+         -279,     FRAMES.324,        SPACE.1,  2.922593e-06   $    0.031564
+         -280,     FRAMES.328,        SPACE.1,  6.768889e-06   $    0.073104
+         -281,     FRAMES.331,        SPACE.1,  1.341037e-05   $    0.289664
+         -282,     FRAMES.336,        SPACE.1,  1.574333e-05   $    0.340056
+         -283,     FRAMES.339,        SPACE.1,  1.139778e-05   $    0.123096
+         -284,     FRAMES.342,        SPACE.1,  7.242593e-06   $    0.078220
+         -285,     FRAMES.346,        SPACE.1,  6.969629e-06   $    0.075272
+         -286,     FRAMES.349,        SPACE.1,  6.824074e-06   $    0.073700
+         -287,     FRAMES.354,        SPACE.1,  7.056667e-06   $    0.076212
+         -288,     FRAMES.357,        SPACE.1,  7.161111e-06   $    0.077340
+         -289,     FRAMES.360,        SPACE.1,  7.559259e-06   $    0.081640
+         -290,     FRAMES.364,        SPACE.1,  1.027370e-05   $    0.110956
+         -291,     FRAMES.367,        SPACE.1,  1.497537e-05   $    0.323468
+         -292,     FRAMES.372,        SPACE.1,  1.198167e-05   $    0.517608
+         -293,     FRAMES.375,        SPACE.1,  1.678611e-05   $    0.362580
+         -294,     FRAMES.378,        SPACE.1,  1.414667e-05   $    0.305568
+         -295,     FRAMES.382,        SPACE.1,  1.475741e-05   $    0.318760
+         -296,     FRAMES.385,        SPACE.1,  1.349259e-05   $    0.291440
+         -297,     FRAMES.390,        SPACE.1,  1.429815e-05   $    0.308840
+         -298,     FRAMES.393,        SPACE.1,  1.423611e-05   $    0.307500
+         -299,     FRAMES.396,        SPACE.1,  1.426407e-05   $    0.308104
+         -300,     FRAMES.399,        SPACE.1,  1.627130e-05   $    0.351460
+         -301, SOLAR_CARDS.18,        SPACE.1,  1.229926e-05   $    0.498120
+         -302, SOLAR_CARDS.23,        SPACE.1,  1.247195e-05   $    0.505114
+         -303, SOLAR_CARDS.28,        SPACE.1,  1.665694e-05   $    0.337303
+         -304, SOLAR_CARDS.33,        SPACE.1,  1.222983e-05   $    0.123827
+         -305, SOLAR_CARDS.38,        SPACE.1,  8.299950e-06   $    0.084037
+         -306, SOLAR_CARDS.43,        SPACE.1,  7.584888e-06   $    0.076797
+         -307, SOLAR_CARDS.48,        SPACE.1,  7.418864e-06   $    0.075116
+         -308, SOLAR_CARDS.53,        SPACE.1,  6.826667e-06   $    0.069120
+         -309, SOLAR_CARDS.54,        SPACE.1,  7.774024e-06   $    0.078712
+         -310, SOLAR_CARDS.55,        SPACE.1,  8.180148e-06   $    0.082824
+         -311, SOLAR_CARDS.56,        SPACE.1,  1.152839e-05   $    0.116725
+         -312, SOLAR_CARDS.57,        SPACE.1,  1.652420e-05   $    0.334615
+         -313, SOLAR_CARDS.58,        SPACE.1,  1.520553e-05   $    0.307912
+         -314, SOLAR_CARDS.59,        SPACE.1,  8.748346e-06   $    0.088577
+         -315, SOLAR_CARDS.60,        SPACE.1,  4.585482e-06   $    0.046428
+         -316, SOLAR_CARDS.61,        SPACE.1,  3.819061e-06   $    0.038668
+         -317, SOLAR_CARDS.62,        SPACE.1,  3.510518e-06   $    0.035544
+         -318, SOLAR_CARDS.63,        SPACE.1,  4.066370e-06   $    0.041172
+         -319, SOLAR_CARDS.64,        SPACE.1,  3.299160e-06   $    0.033404
+         -320, SOLAR_CARDS.65,        SPACE.1,  4.748247e-06   $    0.048076
+         -321, SOLAR_CARDS.66,        SPACE.1,  8.200691e-06   $    0.083032
+         -322, SOLAR_CARDS.67,        SPACE.1,  1.451032e-05   $    0.293834
+         -323, SOLAR_CARDS.68,        SPACE.1,  1.854104e-05   $    0.375456
+         -324, SOLAR_CARDS.69,        SPACE.1,  1.876899e-05   $    0.190036
+         -325, SOLAR_CARDS.70,        SPACE.1,  1.508859e-05   $    0.152772
+         -326, SOLAR_CARDS.71,        SPACE.1,  1.511941e-05   $    0.153084
+         -327, SOLAR_CARDS.72,        SPACE.1,  1.406775e-05   $    0.142436
+         -328, SOLAR_CARDS.73,        SPACE.1,  1.340247e-05   $    0.135700
+         -329, SOLAR_CARDS.74,        SPACE.1,  1.401758e-05   $    0.141928
+         -330, SOLAR_CARDS.75,        SPACE.1,  1.385047e-05   $    0.140236
+         -331, SOLAR_CARDS.76,        SPACE.1,  1.868227e-05   $    0.189158
+         -332, SOLAR_CARDS.77,        SPACE.1,  1.825714e-05   $    0.369707
+         -333, SOLAR_CARDS.78,        SPACE.1,  4.103032e-05   $    0.830864
+         -334, SOLAR_CARDS.79,        SPACE.1,  7.688869e-05   $    0.778498
+         -335, SOLAR_CARDS.80,        SPACE.1,  7.523003e-05   $    0.761704
+         -336, SOLAR_CARDS.81,        SPACE.1,  7.448059e-05   $    0.754116
+         -337, SOLAR_CARDS.82,        SPACE.1,  7.573215e-05   $    0.766788
+         -338, SOLAR_CARDS.83,        SPACE.1,  7.392908e-05   $    0.748532
+         -339, SOLAR_CARDS.84,        SPACE.1,  7.512731e-05   $    0.760664
+         -340, SOLAR_CARDS.85,        SPACE.1,  7.495160e-05   $    0.758885
+         -341, SOLAR_CARDS.86,        SPACE.1,  7.727427e-05   $    0.782402
+         -342, SOLAR_CARDS.87,        SPACE.1,  4.120015e-05   $    0.834303
+         -343, SOLAR_CARDS.88,        SPACE.1,  4.091482e-05   $    0.828525
+         -344, SOLAR_CARDS.89,        SPACE.1,  7.770291e-05   $    0.786742
+         -345, SOLAR_CARDS.90,        SPACE.1,  7.603990e-05   $    0.769904
+         -346, SOLAR_CARDS.91,        SPACE.1,  7.462084e-05   $    0.755536
+         -347, SOLAR_CARDS.92,        SPACE.1,  7.365018e-05   $    0.745708
+         -348, SOLAR_CARDS.93,        SPACE.1,  7.498707e-05   $    0.759244
+         -349, SOLAR_CARDS.94,        SPACE.1,  7.472355e-05   $    0.756576
+         -350, SOLAR_CARDS.95,        SPACE.1,  7.531457e-05   $    0.762560
+         -351, SOLAR_CARDS.96,        SPACE.1,  7.651072e-05   $    0.774671
+         -352, SOLAR_CARDS.97,        SPACE.1,  4.101857e-05   $    0.830626
+         -353, SOLAR_CARDS.98,        SPACE.1,  1.801240e-05   $    0.364751
+         -354, SOLAR_CARDS.99,        SPACE.1,  1.784257e-05   $    0.180656
+         -355,SOLAR_CARDS.100,        SPACE.1,  1.505738e-05   $    0.152456
+         -356,SOLAR_CARDS.101,        SPACE.1,  1.359289e-05   $    0.137628
+         -357,SOLAR_CARDS.102,        SPACE.1,  1.450469e-05   $    0.146860
+         -358,SOLAR_CARDS.103,        SPACE.1,  1.438736e-05   $    0.145672
+         -359,SOLAR_CARDS.104,        SPACE.1,  1.362736e-05   $    0.137977
+         -360,SOLAR_CARDS.105,        SPACE.1,  1.468247e-05   $    0.148660
+         -361,SOLAR_CARDS.106,        SPACE.1,  1.905600e-05   $    0.192942
+         -362,SOLAR_CARDS.107,        SPACE.1,  1.889319e-05   $    0.382587
+         -363,SOLAR_CARDS.108,        SPACE.1,  1.526124e-05   $    0.309040
+         -364,SOLAR_CARDS.109,        SPACE.1,  8.866371e-06   $    0.089772
+         -365,SOLAR_CARDS.110,        SPACE.1,  5.555753e-06   $    0.056252
+         -366,SOLAR_CARDS.111,        SPACE.1,  3.615605e-06   $    0.036608
+         -367,SOLAR_CARDS.112,        SPACE.1,  3.610469e-06   $    0.036556
+         -368,SOLAR_CARDS.113,        SPACE.1,  3.224889e-06   $    0.032652
+         -369,SOLAR_CARDS.114,        SPACE.1,  3.385284e-06   $    0.034276
+         -370,SOLAR_CARDS.115,        SPACE.1,  4.858568e-06   $    0.049193
+         -371,SOLAR_CARDS.116,        SPACE.1,  8.933135e-06   $    0.090448
+         -372,SOLAR_CARDS.117,        SPACE.1,  1.507669e-05   $    0.305303
+         -373,SOLAR_CARDS.118,        SPACE.1,  1.617111e-05   $    0.327465
+         -374,SOLAR_CARDS.119,        SPACE.1,  1.127269e-05   $    0.114136
+         -375,SOLAR_CARDS.120,        SPACE.1,  8.186074e-06   $    0.082884
+         -376,SOLAR_CARDS.121,        SPACE.1,  7.473778e-06   $    0.075672
+         -377,SOLAR_CARDS.122,        SPACE.1,  6.936099e-06   $    0.070228
+         -378,SOLAR_CARDS.123,        SPACE.1,  7.504987e-06   $    0.075988
+         -379,SOLAR_CARDS.124,        SPACE.1,  6.859457e-06   $    0.069452
+         -380,SOLAR_CARDS.125,        SPACE.1,  7.975506e-06   $    0.080752
+         -381,SOLAR_CARDS.126,        SPACE.1,  1.184830e-05   $    0.119964
+         -382,SOLAR_CARDS.127,        SPACE.1,  1.738672e-05   $    0.352081
+         -383,SOLAR_CARDS.128,        SPACE.1,  1.261484e-05   $    0.510901
+         -384,SOLAR_CARDS.129,        SPACE.1,  1.717565e-05   $    0.347807
+         -385,SOLAR_CARDS.130,        SPACE.1,  1.551783e-05   $    0.314236
+         -386,SOLAR_CARDS.131,        SPACE.1,  1.523556e-05   $    0.308520
+         -387,SOLAR_CARDS.132,        SPACE.1,  1.472514e-05   $    0.298184
+         -388,SOLAR_CARDS.133,        SPACE.1,  1.538212e-05   $    0.311488
+         -389,SOLAR_CARDS.134,        SPACE.1,  1.499358e-05   $    0.303620
+         -390,SOLAR_CARDS.135,        SPACE.1,  1.478267e-05   $    0.299349
+         -391,SOLAR_CARDS.136,        SPACE.1,  1.809699e-05   $    0.366464
+         -392,SOLAR_CARDS.137,        SPACE.1,  1.193215e-05   $    0.483252
+         -393,SOLAR_CARDS.140,        SPACE.1,  1.561600e-05   $    0.158112
+         -394,SOLAR_CARDS.141,        SPACE.1,  1.574242e-05   $    0.079696
+         -395,SOLAR_CARDS.142,        SPACE.1,  1.397531e-05   $    0.141500
+         -396,SOLAR_CARDS.144,        SPACE.1,  1.434232e-05   $    0.145216
+         -397,SOLAR_CARDS.145,        SPACE.1,  1.614775e-05   $    0.081748
+         -398,SOLAR_CARDS.146,        SPACE.1,  1.316701e-05   $    0.133316
+         -399,SOLAR_CARDS.148,        SPACE.1,  1.441817e-05   $    0.145984
+         -400,SOLAR_CARDS.149,        SPACE.1,  1.390933e-05   $    0.070416
+         -401,SOLAR_CARDS.150,        SPACE.1,  1.359605e-05   $    0.137660
+         -402,SOLAR_CARDS.152,        SPACE.1,  1.307062e-05   $    0.132340
+         -403,SOLAR_CARDS.153,        SPACE.1,  1.510005e-05   $    0.076444
+         -404,SOLAR_CARDS.154,        SPACE.1,  1.512701e-05   $    0.153161
+         -405,SOLAR_CARDS.156,        SPACE.1,  1.375496e-05   $    0.139269
+         -406,SOLAR_CARDS.157,        SPACE.1,  1.512296e-05   $    0.076560
+         -407,SOLAR_CARDS.158,        SPACE.1,  1.407447e-05   $    0.142504
+         -408,SOLAR_CARDS.160,        SPACE.1,  1.622558e-05   $    0.164284
+         -409,SOLAR_CARDS.161,        SPACE.1,  1.619299e-05   $    0.081977
+         -410,SOLAR_CARDS.162,        SPACE.1,  1.429768e-05   $    0.144764
+         -411,SOLAR_CARDS.164,        SPACE.1,  1.896286e-05   $    0.191999
+         -412,SOLAR_CARDS.165,        SPACE.1,  2.359763e-05   $    0.119463
+         -413,SOLAR_CARDS.166,        SPACE.1,  1.675052e-05   $    0.169599
+         -414,SOLAR_CARDS.168,        SPACE.1,  1.787259e-05   $    0.361920
+         -415,SOLAR_CARDS.169,        SPACE.1,  2.438657e-05   $    0.246914
+         -416,SOLAR_CARDS.170,        SPACE.1,  1.873289e-05   $    0.379341
+         -417,SOLAR_CARDS.172,        SPACE.1,  1.615244e-05   $    0.327087
+         -418,SOLAR_CARDS.173,        SPACE.1,  2.077975e-05   $    0.210395
+         -419,SOLAR_CARDS.174,        SPACE.1,  1.486682e-05   $    0.301053
+         -420,SOLAR_CARDS.176,        SPACE.1,  8.623802e-06   $    0.087316
+         -421,SOLAR_CARDS.177,        SPACE.1,  1.581531e-05   $    0.080065
+         -422,SOLAR_CARDS.178,        SPACE.1,  8.479901e-06   $    0.085859
+         -423,SOLAR_CARDS.180,        SPACE.1,  4.475259e-06   $    0.045312
+         -424,SOLAR_CARDS.181,        SPACE.1,  7.924148e-06   $    0.040116
+         -425,SOLAR_CARDS.182,        SPACE.1,  4.807506e-06   $    0.048676
+         -426,SOLAR_CARDS.184,        SPACE.1,  3.573728e-06   $    0.036184
+         -427,SOLAR_CARDS.185,        SPACE.1,  7.374420e-06   $    0.037333
+         -428,SOLAR_CARDS.186,        SPACE.1,  3.981827e-06   $    0.040316
+         -429,SOLAR_CARDS.188,        SPACE.1,  3.696593e-06   $    0.037428
+         -430,SOLAR_CARDS.189,        SPACE.1,  5.509531e-06   $    0.027892
+         -431,SOLAR_CARDS.190,        SPACE.1,  3.949531e-06   $    0.039989
+         -432,SOLAR_CARDS.192,        SPACE.1,  3.614025e-06   $    0.036592
+         -433,SOLAR_CARDS.193,        SPACE.1,  6.098173e-06   $    0.030872
+         -434,SOLAR_CARDS.194,        SPACE.1,  4.095210e-06   $    0.041464
+         -435,SOLAR_CARDS.196,        SPACE.1,  4.141827e-06   $    0.041936
+         -436,SOLAR_CARDS.197,        SPACE.1,  5.904593e-06   $    0.029892
+         -437,SOLAR_CARDS.198,        SPACE.1,  4.221235e-06   $    0.042740
+         -438,SOLAR_CARDS.200,        SPACE.1,  3.990222e-06   $    0.040401
+         -439,SOLAR_CARDS.201,        SPACE.1,  7.691851e-06   $    0.038940
+         -440,SOLAR_CARDS.202,        SPACE.1,  4.579555e-06   $    0.046368
+         -441,SOLAR_CARDS.204,        SPACE.1,  8.289580e-06   $    0.083932
+         -442,SOLAR_CARDS.205,        SPACE.1,  1.359427e-05   $    0.068821
+         -443,SOLAR_CARDS.206,        SPACE.1,  7.638419e-06   $    0.077339
+         -444,SOLAR_CARDS.208,        SPACE.1,  1.495437e-05   $    0.302826
+         -445,SOLAR_CARDS.209,        SPACE.1,  1.972859e-05   $    0.199752
+         -446,SOLAR_CARDS.210,        SPACE.1,  1.554622e-05   $    0.314811
+         -447,SOLAR_CARDS.212,        SPACE.1,  1.606904e-05   $    0.325398
+         -448,SOLAR_CARDS.213,        SPACE.1,  2.462993e-05   $    0.249378
+         -449,SOLAR_CARDS.214,        SPACE.1,  1.599501e-05   $    0.323899
+         -450,SOLAR_CARDS.216,        SPACE.1,  1.268010e-05   $    0.128386
+         -451,SOLAR_CARDS.217,        SPACE.1,  2.030716e-05   $    0.102805
+         -452,SOLAR_CARDS.218,        SPACE.1,  1.202726e-05   $    0.121776
+         -453,SOLAR_CARDS.220,        SPACE.1,  7.730667e-06   $    0.078273
+         -454,SOLAR_CARDS.221,        SPACE.1,  1.652859e-05   $    0.083676
+         -455,SOLAR_CARDS.222,        SPACE.1,  8.410568e-06   $    0.085157
+         -456,SOLAR_CARDS.224,        SPACE.1,  7.422420e-06   $    0.075152
+         -457,SOLAR_CARDS.225,        SPACE.1,  1.692919e-05   $    0.085704
+         -458,SOLAR_CARDS.226,        SPACE.1,  7.590420e-06   $    0.076853
+         -459,SOLAR_CARDS.228,        SPACE.1,  7.729778e-06   $    0.078264
+         -460,SOLAR_CARDS.229,        SPACE.1,  1.444741e-05   $    0.073140
+         -461,SOLAR_CARDS.230,        SPACE.1,  7.620346e-06   $    0.077156
+         -462,SOLAR_CARDS.232,        SPACE.1,  7.354074e-06   $    0.074460
+         -463,SOLAR_CARDS.233,        SPACE.1,  1.460701e-05   $    0.073948
+         -464,SOLAR_CARDS.234,        SPACE.1,  6.874469e-06   $    0.069604
+         -465,SOLAR_CARDS.236,        SPACE.1,  7.142321e-06   $    0.072316
+         -466,SOLAR_CARDS.237,        SPACE.1,  1.630262e-05   $    0.082532
+         -467,SOLAR_CARDS.238,        SPACE.1,  8.007506e-06   $    0.081076
+         -468,SOLAR_CARDS.240,        SPACE.1,  8.489877e-06   $    0.085960
+         -469,SOLAR_CARDS.241,        SPACE.1,  1.551802e-05   $    0.078560
+         -470,SOLAR_CARDS.242,        SPACE.1,  8.093235e-06   $    0.081944
+         -471,SOLAR_CARDS.244,        SPACE.1,  1.189304e-05   $    0.120417
+         -472,SOLAR_CARDS.245,        SPACE.1,  2.158222e-05   $    0.109260
+         -473,SOLAR_CARDS.246,        SPACE.1,  1.185561e-05   $    0.120038
+         -474,SOLAR_CARDS.248,        SPACE.1,  1.706983e-05   $    0.345664
+         -475,SOLAR_CARDS.249,        SPACE.1,  2.366815e-05   $    0.239640
+         -476,SOLAR_CARDS.250,        SPACE.1,  1.622306e-05   $    0.328517
+         -477,SOLAR_CARDS.252,        SPACE.1,  1.239474e-05   $    0.501987
+         -478,SOLAR_CARDS.253,        SPACE.1,  2.166849e-05   $    0.438787
+         -479,SOLAR_CARDS.254,        SPACE.1,  1.233227e-05   $    0.499457
+         -480,SOLAR_CARDS.256,        SPACE.1,  1.677378e-05   $    0.339669
+         -481,SOLAR_CARDS.257,        SPACE.1,  3.440405e-05   $    0.348341
+         -482,SOLAR_CARDS.258,        SPACE.1,  1.705136e-05   $    0.345290
+         -483,SOLAR_CARDS.260,        SPACE.1,  1.494914e-05   $    0.302720
+         -484,SOLAR_CARDS.261,        SPACE.1,  3.232869e-05   $    0.327328
+         -485,SOLAR_CARDS.262,        SPACE.1,  1.562183e-05   $    0.316342
+         -486,SOLAR_CARDS.264,        SPACE.1,  1.501728e-05   $    0.304100
+         -487,SOLAR_CARDS.265,        SPACE.1,  3.092504e-05   $    0.313116
+         -488,SOLAR_CARDS.266,        SPACE.1,  1.460425e-05   $    0.295736
+         -489,SOLAR_CARDS.268,        SPACE.1,  1.528020e-05   $    0.309424
+         -490,SOLAR_CARDS.269,        SPACE.1,  3.161481e-05   $    0.320100
+         -491,SOLAR_CARDS.270,        SPACE.1,  1.531852e-05   $    0.310200
+         -492,SOLAR_CARDS.272,        SPACE.1,  1.538153e-05   $    0.311476
+         -493,SOLAR_CARDS.273,        SPACE.1,  3.026924e-05   $    0.306476
+         -494,SOLAR_CARDS.274,        SPACE.1,  1.462676e-05   $    0.296192
+         -495,SOLAR_CARDS.276,        SPACE.1,  1.521916e-05   $    0.308188
+         -496,SOLAR_CARDS.277,        SPACE.1,  3.014123e-05   $    0.305180
+         -497,SOLAR_CARDS.278,        SPACE.1,  1.442415e-05   $    0.292089
+         -498,SOLAR_CARDS.280,        SPACE.1,  1.491733e-05   $    0.302076
+         -499,SOLAR_CARDS.281,        SPACE.1,  3.192731e-05   $    0.323264
+         -500,SOLAR_CARDS.282,        SPACE.1,  1.549472e-05   $    0.313768
+         -501,SOLAR_CARDS.284,        SPACE.1,  1.687684e-05   $    0.341756
+         -502,SOLAR_CARDS.285,        SPACE.1,  3.318301e-05   $    0.335978
+         -503,SOLAR_CARDS.286,        SPACE.1,  1.702380e-05   $    0.344732
+         -504,SOLAR_CARDS.288,        SPACE.1,  1.260906e-05   $    0.510667
+         -505,SOLAR_CARDS.289,        SPACE.1,  2.123091e-05   $    0.429926
+         -506,SOLAR_CARDS.290,        SPACE.1,  1.232375e-05   $    0.499112
+         -507,SOLAR_CARDS.291,        SPACE.1,  1.241536e-05   $    0.502822
+         -508,SOLAR_CARDS.292,        SPACE.1,  2.140459e-05   $    0.433443
+         -509,SOLAR_CARDS.293,        SPACE.1,  1.255057e-05   $    0.508298
+         -510,SOLAR_CARDS.294,        SPACE.1,  1.236042e-05   $    0.500597
+         -511,SOLAR_CARDS.295,        SPACE.1,  2.218746e-05   $    0.449296
+         -512,SOLAR_CARDS.296,        SPACE.1,  1.207118e-05   $    0.488883
+         -513,SOLAR_CARDS.297,        SPACE.1,  1.682914e-05   $    0.340790
+         -514,SOLAR_CARDS.298,        SPACE.1,  2.417166e-05   $    0.244738
+         -515,SOLAR_CARDS.299,        SPACE.1,  1.591481e-05   $    0.322275
+         -516,SOLAR_CARDS.300,        SPACE.1,  1.160316e-05   $    0.117482
+         -517,SOLAR_CARDS.301,        SPACE.1,  2.301274e-05   $    0.116502
+         -518,SOLAR_CARDS.302,        SPACE.1,  1.196642e-05   $    0.121160
+         -519,SOLAR_CARDS.303,        SPACE.1,  7.486519e-06   $    0.075801
+         -520,SOLAR_CARDS.304,        SPACE.1,  1.661946e-05   $    0.084136
+         -521,SOLAR_CARDS.305,        SPACE.1,  7.535407e-06   $    0.076296
+         -522,SOLAR_CARDS.306,        SPACE.1,  7.295605e-06   $    0.073868
+         -523,SOLAR_CARDS.307,        SPACE.1,  1.398755e-05   $    0.070812
+         -524,SOLAR_CARDS.308,        SPACE.1,  7.569086e-06   $    0.076637
+         -525,SOLAR_CARDS.309,        SPACE.1,  7.244642e-06   $    0.073352
+         -526,SOLAR_CARDS.310,        SPACE.1,  1.525965e-05   $    0.077252
+         -527,SOLAR_CARDS.311,        SPACE.1,  7.137580e-06   $    0.072268
+         -528,SOLAR_CARDS.312,        SPACE.1,  7.668543e-06   $    0.077644
+         -529,SOLAR_CARDS.313,        SPACE.1,  1.548800e-05   $    0.078408
+         -530,SOLAR_CARDS.314,        SPACE.1,  7.098469e-06   $    0.071872
+         -531,SOLAR_CARDS.316,        SPACE.1,  7.881482e-06   $    0.079800
+         -532,SOLAR_CARDS.317,        SPACE.1,  1.449008e-05   $    0.073356
+         -533,SOLAR_CARDS.318,        SPACE.1,  8.172247e-06   $    0.082744
+         -534,SOLAR_CARDS.320,        SPACE.1,  7.594370e-06   $    0.076893
+         -535,SOLAR_CARDS.321,        SPACE.1,  1.698370e-05   $    0.085980
+         -536,SOLAR_CARDS.322,        SPACE.1,  7.978666e-06   $    0.080784
+         -537,SOLAR_CARDS.324,        SPACE.1,  1.145274e-05   $    0.115959
+         -538,SOLAR_CARDS.325,        SPACE.1,  2.264494e-05   $    0.114640
+         -539,SOLAR_CARDS.326,        SPACE.1,  1.170123e-05   $    0.118475
+         -540,SOLAR_CARDS.328,        SPACE.1,  1.676025e-05   $    0.339395
+         -541,SOLAR_CARDS.329,        SPACE.1,  2.364227e-05   $    0.239378
+         -542,SOLAR_CARDS.330,        SPACE.1,  1.714099e-05   $    0.347105
+         -543,SOLAR_CARDS.332,        SPACE.1,  1.655017e-05   $    0.335141
+         -544,SOLAR_CARDS.333,        SPACE.1,  1.478193e-05   $    0.299334
+         -545,SOLAR_CARDS.334,        SPACE.1,  3.138588e-05   $    0.317782
+         -546,SOLAR_CARDS.335,        SPACE.1,  1.980227e-05   $    0.200498
+         -547,SOLAR_CARDS.336,        SPACE.1,  1.686252e-05   $    0.341466
+         -548,SOLAR_CARDS.337,        SPACE.1,  1.473111e-05   $    0.298305
+         -549,SOLAR_CARDS.338,        SPACE.1,  1.645205e-05   $    0.333154
+         -550,SOLAR_CARDS.341,        SPACE.1,  9.706173e-06   $    0.098275
+         -551,SOLAR_CARDS.342,        SPACE.1,  1.327960e-05   $    0.067228
+         -552,SOLAR_CARDS.343,        SPACE.1,  8.726814e-06   $    0.088359
+         -553,SOLAR_CARDS.345,        SPACE.1,  4.619852e-06   $    0.046776
+         -554,SOLAR_CARDS.346,        SPACE.1,  7.940346e-06   $    0.040198
+         -555,SOLAR_CARDS.347,        SPACE.1,  5.758420e-06   $    0.058304
+         -556,SOLAR_CARDS.349,        SPACE.1,  3.659062e-06   $    0.037048
+         -557,SOLAR_CARDS.350,        SPACE.1,  6.220642e-06   $    0.031492
+         -558,SOLAR_CARDS.351,        SPACE.1,  3.992889e-06   $    0.040428
+         -559,SOLAR_CARDS.353,        SPACE.1,  3.510124e-06   $    0.035540
+         -560,SOLAR_CARDS.354,        SPACE.1,  6.901728e-06   $    0.034940
+         -561,SOLAR_CARDS.355,        SPACE.1,  3.757827e-06   $    0.038048
+         -562,SOLAR_CARDS.357,        SPACE.1,  1.554331e-05   $    0.314752
+         -563,SOLAR_CARDS.358,        SPACE.1,  3.478124e-06   $    0.035216
+         -564,SOLAR_CARDS.359,        SPACE.1,  3.136474e-05   $    0.317568
+         -565,SOLAR_CARDS.360,        SPACE.1,  6.311506e-06   $    0.031952
+         -566,SOLAR_CARDS.361,        SPACE.1,  1.526721e-05   $    0.309161
+         -567,SOLAR_CARDS.362,        SPACE.1,  4.284049e-06   $    0.043376
+         -568,SOLAR_CARDS.363,        SPACE.1,  1.555477e-05   $    0.314984
+         -569,SOLAR_CARDS.366,        SPACE.1,  4.055309e-06   $    0.041060
+         -570,SOLAR_CARDS.367,        SPACE.1,  5.707062e-06   $    0.028892
+         -571,SOLAR_CARDS.368,        SPACE.1,  4.497087e-06   $    0.045533
+         -572,SOLAR_CARDS.370,        SPACE.1,  3.937580e-06   $    0.039868
+         -573,SOLAR_CARDS.371,        SPACE.1,  6.808494e-06   $    0.034468
+         -574,SOLAR_CARDS.372,        SPACE.1,  4.960395e-06   $    0.050224
+         -575,SOLAR_CARDS.374,        SPACE.1,  9.106173e-06   $    0.092200
+         -576,SOLAR_CARDS.375,        SPACE.1,  1.409304e-05   $    0.071346
+         -577,SOLAR_CARDS.376,        SPACE.1,  8.830222e-06   $    0.089406
+         -578,SOLAR_CARDS.378,        SPACE.1,  1.450958e-05   $    0.293819
+         -579,SOLAR_CARDS.379,        SPACE.1,  2.048938e-05   $    0.207455
+         -580,SOLAR_CARDS.380,        SPACE.1,  1.614563e-05   $    0.326949
+         -581,SOLAR_CARDS.382,        SPACE.1,  1.471526e-05   $    0.297984
+         -582,SOLAR_CARDS.383,        SPACE.1,  1.924553e-05   $    0.389722
+         -583,SOLAR_CARDS.384,        SPACE.1,  3.151328e-05   $    0.319072
+         -584,SOLAR_CARDS.385,        SPACE.1,  2.386933e-05   $    0.241677
+         -585,SOLAR_CARDS.386,        SPACE.1,  1.479235e-05   $    0.299545
+         -586,SOLAR_CARDS.387,        SPACE.1,  1.844514e-05   $    0.373514
+         -587,SOLAR_CARDS.388,        SPACE.1,  1.492069e-05   $    0.302144
+         -588,SOLAR_CARDS.391,        SPACE.1,  1.891901e-05   $    0.191555
+         -589,SOLAR_CARDS.392,        SPACE.1,  2.209600e-05   $    0.111861
+         -590,SOLAR_CARDS.393,        SPACE.1,  1.788928e-05   $    0.181129
+         -591,SOLAR_CARDS.395,        SPACE.1,  1.513294e-05   $    0.153221
+         -592,SOLAR_CARDS.396,        SPACE.1,  1.828346e-05   $    0.092560
+         -593,SOLAR_CARDS.397,        SPACE.1,  1.563970e-05   $    0.158352
+         -594,SOLAR_CARDS.399,        SPACE.1,  1.434943e-05   $    0.145288
+         -595,SOLAR_CARDS.400,        SPACE.1,  1.504158e-05   $    0.076148
+         -596,SOLAR_CARDS.401,        SPACE.1,  1.485669e-05   $    0.150424
+         -597,SOLAR_CARDS.403,        SPACE.1,  1.474765e-05   $    0.149320
+         -598,SOLAR_CARDS.404,        SPACE.1,  1.571714e-05   $    0.079568
+         -599,SOLAR_CARDS.405,        SPACE.1,  1.343210e-05   $    0.136000
+         -600,SOLAR_CARDS.407,        SPACE.1,  1.488163e-05   $    0.301353
+         -601,SOLAR_CARDS.408,        SPACE.1,  1.450627e-05   $    0.146876
+         -602,SOLAR_CARDS.409,        SPACE.1,  3.003852e-05   $    0.304140
+         -603,SOLAR_CARDS.410,        SPACE.1,  1.548958e-05   $    0.078416
+         -604,SOLAR_CARDS.411,        SPACE.1,  1.597057e-05   $    0.323404
+         -605,SOLAR_CARDS.412,        SPACE.1,  1.383032e-05   $    0.140032
+         -606,SOLAR_CARDS.413,        SPACE.1,  1.558084e-05   $    0.315512
+         -607,SOLAR_CARDS.416,        SPACE.1,  1.410301e-05   $    0.142793
+         -608,SOLAR_CARDS.417,        SPACE.1,  1.731081e-05   $    0.087636
+         -609,SOLAR_CARDS.418,        SPACE.1,  1.473620e-05   $    0.149204
+         -610,SOLAR_CARDS.420,        SPACE.1,  1.537146e-05   $    0.155636
+         -611,SOLAR_CARDS.421,        SPACE.1,  1.735427e-05   $    0.087856
+         -612,SOLAR_CARDS.422,        SPACE.1,  1.496928e-05   $    0.151564
+         -613,SOLAR_CARDS.424,        SPACE.1,  1.845906e-05   $    0.186898
+         -614,SOLAR_CARDS.425,        SPACE.1,  2.303427e-05   $    0.116611
+         -615,SOLAR_CARDS.426,        SPACE.1,  1.856207e-05   $    0.187941
+         -616,SOLAR_CARDS.428,        SPACE.1,  1.866183e-05   $    0.377902
+         -617,SOLAR_CARDS.429,        SPACE.1,  2.439348e-05   $    0.246984
+         -618,SOLAR_CARDS.430,        SPACE.1,  1.926775e-05   $    0.390172
+         -619,SOLAR_CARDS.432,        SPACE.1,  1.509649e-05   $    0.305704
+         -620,SOLAR_CARDS.433,        SPACE.1,  4.058795e-05   $    0.821906
+         -621,SOLAR_CARDS.434,        SPACE.1,  3.195971e-05   $    0.323592
+         -622,SOLAR_CARDS.435,        SPACE.1,  4.637353e-05   $    0.469532
+         -623,SOLAR_CARDS.436,        SPACE.1,  1.560869e-05   $    0.316076
+         -624,SOLAR_CARDS.437,        SPACE.1,  4.074899e-05   $    0.825167
+         -625,SOLAR_CARDS.438,        SPACE.1,  1.483970e-05   $    0.300504
+         -626,SOLAR_CARDS.441,        SPACE.1,  7.572474e-05   $    0.766713
+         -627,SOLAR_CARDS.442,        SPACE.1,  8.103585e-05   $    0.410244
+         -628,SOLAR_CARDS.443,        SPACE.1,  7.663654e-05   $    0.775945
+         -629,SOLAR_CARDS.445,        SPACE.1,  7.549235e-05   $    0.764360
+         -630,SOLAR_CARDS.446,        SPACE.1,  7.828148e-05   $    0.396300
+         -631,SOLAR_CARDS.447,        SPACE.1,  7.634924e-05   $    0.773036
+         -632,SOLAR_CARDS.449,        SPACE.1,  7.564800e-05   $    0.765936
+         -633,SOLAR_CARDS.450,        SPACE.1,  7.677630e-05   $    0.388680
+         -634,SOLAR_CARDS.451,        SPACE.1,  7.676760e-05   $    0.777272
+         -635,SOLAR_CARDS.453,        SPACE.1,  7.423526e-05   $    0.751632
+         -636,SOLAR_CARDS.454,        SPACE.1,  7.622558e-05   $    0.385892
+         -637,SOLAR_CARDS.455,        SPACE.1,  7.393027e-05   $    0.748544
+         -638,SOLAR_CARDS.457,        SPACE.1,  1.541728e-05   $    0.312200
+         -639,SOLAR_CARDS.458,        SPACE.1,  7.491556e-05   $    0.758520
+         -640,SOLAR_CARDS.459,        SPACE.1,  3.132642e-05   $    0.317180
+         -641,SOLAR_CARDS.460,        SPACE.1,  7.298133e-05   $    0.369468
+         -642,SOLAR_CARDS.461,        SPACE.1,  1.599328e-05   $    0.323864
+         -643,SOLAR_CARDS.462,        SPACE.1,  7.585778e-05   $    0.768060
+         -644,SOLAR_CARDS.463,        SPACE.1,  1.492128e-05   $    0.302156
+         -645,SOLAR_CARDS.466,        SPACE.1,  7.488672e-05   $    0.758228
+         -646,SOLAR_CARDS.467,        SPACE.1,  7.732069e-05   $    0.391436
+         -647,SOLAR_CARDS.468,        SPACE.1,  7.395753e-05   $    0.748820
+         -648,SOLAR_CARDS.470,        SPACE.1,  7.594351e-05   $    0.768928
+         -649,SOLAR_CARDS.471,        SPACE.1,  7.528533e-05   $    0.381132
+         -650,SOLAR_CARDS.472,        SPACE.1,  7.678380e-05   $    0.777436
+         -651,SOLAR_CARDS.474,        SPACE.1,  7.649274e-05   $    0.774489
+         -652,SOLAR_CARDS.475,        SPACE.1,  8.081640e-05   $    0.409133
+         -653,SOLAR_CARDS.476,        SPACE.1,  7.617333e-05   $    0.771255
+         -654,SOLAR_CARDS.478,        SPACE.1,  4.156232e-05   $    0.841637
+         -655,SOLAR_CARDS.479,        SPACE.1,  4.706212e-05   $    0.476504
+         -656,SOLAR_CARDS.480,        SPACE.1,  4.105718e-05   $    0.831408
+         -657,SOLAR_CARDS.482,        SPACE.1,  1.579659e-05   $    0.319881
+         -658,SOLAR_CARDS.483,        SPACE.1,  4.132494e-05   $    0.836830
+         -659,SOLAR_CARDS.484,        SPACE.1,  3.188869e-05   $    0.322873
+         -660,SOLAR_CARDS.485,        SPACE.1,  4.639931e-05   $    0.469793
+         -661,SOLAR_CARDS.486,        SPACE.1,  1.621037e-05   $    0.328260
+         -662,SOLAR_CARDS.487,        SPACE.1,  4.118840e-05   $    0.834065
+         -663,SOLAR_CARDS.488,        SPACE.1,  1.613037e-05   $    0.326640
+         -664,SOLAR_CARDS.491,        SPACE.1,  7.758914e-05   $    0.785590
+         -665,SOLAR_CARDS.492,        SPACE.1,  8.203615e-05   $    0.415308
+         -666,SOLAR_CARDS.493,        SPACE.1,  7.652681e-05   $    0.774834
+         -667,SOLAR_CARDS.495,        SPACE.1,  7.461452e-05   $    0.755472
+         -668,SOLAR_CARDS.496,        SPACE.1,  7.516050e-05   $    0.380500
+         -669,SOLAR_CARDS.497,        SPACE.1,  7.411042e-05   $    0.750368
+         -670,SOLAR_CARDS.499,        SPACE.1,  7.624810e-05   $    0.772012
+         -671,SOLAR_CARDS.500,        SPACE.1,  7.430637e-05   $    0.376176
+         -672,SOLAR_CARDS.501,        SPACE.1,  7.513718e-05   $    0.760764
+         -673,SOLAR_CARDS.503,        SPACE.1,  7.454183e-05   $    0.754736
+         -674,SOLAR_CARDS.504,        SPACE.1,  7.513205e-05   $    0.380356
+         -675,SOLAR_CARDS.505,        SPACE.1,  7.435220e-05   $    0.752816
+         -676,SOLAR_CARDS.507,        SPACE.1,  1.618509e-05   $    0.327748
+         -677,SOLAR_CARDS.508,        SPACE.1,  7.403062e-05   $    0.749560
+         -678,SOLAR_CARDS.509,        SPACE.1,  3.393353e-05   $    0.343577
+         -679,SOLAR_CARDS.510,        SPACE.1,  7.591921e-05   $    0.384341
+         -680,SOLAR_CARDS.511,        SPACE.1,  1.690854e-05   $    0.342398
+         -681,SOLAR_CARDS.512,        SPACE.1,  7.576652e-05   $    0.767136
+         -682,SOLAR_CARDS.513,        SPACE.1,  1.555738e-05   $    0.315037
+         -683,SOLAR_CARDS.516,        SPACE.1,  7.553778e-05   $    0.764820
+         -684,SOLAR_CARDS.517,        SPACE.1,  7.650687e-05   $    0.387316
+         -685,SOLAR_CARDS.518,        SPACE.1,  7.483536e-05   $    0.757708
+         -686,SOLAR_CARDS.520,        SPACE.1,  7.558044e-05   $    0.765252
+         -687,SOLAR_CARDS.521,        SPACE.1,  7.811635e-05   $    0.395464
+         -688,SOLAR_CARDS.522,        SPACE.1,  7.491832e-05   $    0.758548
+         -689,SOLAR_CARDS.524,        SPACE.1,  7.663763e-05   $    0.775956
+         -690,SOLAR_CARDS.525,        SPACE.1,  8.017541e-05   $    0.405888
+         -691,SOLAR_CARDS.526,        SPACE.1,  7.688277e-05   $    0.778438
+         -692,SOLAR_CARDS.528,        SPACE.1,  4.052785e-05   $    0.820689
+         -693,SOLAR_CARDS.529,        SPACE.1,  4.563121e-05   $    0.462016
+         -694,SOLAR_CARDS.530,        SPACE.1,  4.111511e-05   $    0.832581
+         -695,SOLAR_CARDS.532,        SPACE.1,  1.851941e-05   $    0.375018
+         -696,SOLAR_CARDS.533,        SPACE.1,  2.463733e-05   $    0.249453
+         -697,SOLAR_CARDS.534,        SPACE.1,  1.877931e-05   $    0.380281
+         -698,SOLAR_CARDS.536,        SPACE.1,  1.740207e-05   $    0.176196
+         -699,SOLAR_CARDS.537,        SPACE.1,  2.425699e-05   $    0.122801
+         -700,SOLAR_CARDS.538,        SPACE.1,  1.915634e-05   $    0.193958
+         -701, SOLAR_PANELS.1,        SPACE.1,  3.148148e-05   $    1.000000
+         -702, SOLAR_PANELS.2,        SPACE.1,  6.296296e-05   $    1.000000
+         -703, SOLAR_PANELS.3,        SPACE.1,  6.296296e-05   $    1.000000
+         -704, SOLAR_PANELS.4,        SPACE.1,  6.296296e-05   $    1.000000
+         -705, SOLAR_PANELS.5,        SPACE.1,  6.296296e-05   $    1.000000
+         -706, SOLAR_PANELS.6,        SPACE.1,  6.296296e-05   $    1.000000
+         -707, SOLAR_PANELS.7,        SPACE.1,  6.296296e-05   $    1.000000
+         -708, SOLAR_PANELS.8,        SPACE.1,  6.296296e-05   $    1.000000
+         -709, SOLAR_PANELS.9,        SPACE.1,  6.296296e-05   $    1.000000
+         -710,SOLAR_PANELS.10,        SPACE.1,  3.148148e-05   $    1.000000
+         -711,SOLAR_PANELS.11,        SPACE.1,  6.296296e-05   $    1.000000
+         -712,SOLAR_PANELS.12,        SPACE.1,   0.0001259259  $    1.000000
+         -713,SOLAR_PANELS.13,        SPACE.1,   0.0001259259  $    1.000000
+         -714,SOLAR_PANELS.14,        SPACE.1,   0.0001259259  $    1.000000
+         -715,SOLAR_PANELS.15,        SPACE.1,   0.0001259259  $    1.000000
+         -716,SOLAR_PANELS.16,        SPACE.1,   0.0001259259  $    1.000000
+         -717,SOLAR_PANELS.17,        SPACE.1,   0.0001259259  $    1.000000
+         -718,SOLAR_PANELS.18,        SPACE.1,   0.0001259259  $    1.000000
+         -719,SOLAR_PANELS.19,        SPACE.1,   0.0001259259  $    1.000000
+         -720,SOLAR_PANELS.20,        SPACE.1,  6.296296e-05   $    1.000000
+         -721,SOLAR_PANELS.21,        SPACE.1,  6.296296e-05   $    1.000000
+         -722,SOLAR_PANELS.22,        SPACE.1,   0.0001259259  $    1.000000
+         -723,SOLAR_PANELS.23,        SPACE.1,   0.0001259259  $    1.000000
+         -724,SOLAR_PANELS.24,        SPACE.1,   0.0001259259  $    1.000000
+         -725,SOLAR_PANELS.25,        SPACE.1,   0.0001259259  $    1.000000
+         -726,SOLAR_PANELS.26,        SPACE.1,   0.0001259259  $    1.000000
+         -727,SOLAR_PANELS.27,        SPACE.1,   0.0001259259  $    1.000000
+         -728,SOLAR_PANELS.28,        SPACE.1,   0.0001259259  $    1.000000
+         -729,SOLAR_PANELS.29,        SPACE.1,   0.0001259259  $    1.000000
+         -730,SOLAR_PANELS.30,        SPACE.1,  6.296296e-05   $    1.000000
+         -731,SOLAR_PANELS.31,        SPACE.1,  3.148148e-05   $    1.000000
+         -732,SOLAR_PANELS.32,        SPACE.1,  6.296296e-05   $    1.000000
+         -733,SOLAR_PANELS.33,        SPACE.1,  6.296296e-05   $    1.000000
+         -734,SOLAR_PANELS.34,        SPACE.1,  6.296296e-05   $    1.000000
+         -735,SOLAR_PANELS.35,        SPACE.1,  6.296296e-05   $    1.000000
+         -736,SOLAR_PANELS.36,        SPACE.1,  6.296296e-05   $    1.000000
+         -737,SOLAR_PANELS.37,        SPACE.1,  6.296296e-05   $    1.000000
+         -738,SOLAR_PANELS.38,        SPACE.1,  6.296296e-05   $    1.000000
+         -739,SOLAR_PANELS.39,        SPACE.1,  6.296296e-05   $    1.000000
+         -740,SOLAR_PANELS.40,        SPACE.1,  3.148148e-05   $    1.000000
+         -741,SOLAR_PANELS.41,        SPACE.1,  3.148148e-05   $    1.000000
+         -742,SOLAR_PANELS.42,        SPACE.1,  3.148148e-05   $    1.000000
+         -743,SOLAR_PANELS.43,        SPACE.1,  3.148148e-05   $    1.000000
+         -744,SOLAR_PANELS.44,        SPACE.1,  3.148148e-05   $    1.000000
+         -745,SOLAR_PANELS.45,        SPACE.1,  3.148148e-05   $    1.000000
+         -746,SOLAR_PANELS.46,        SPACE.1,  3.148148e-05   $    1.000000
+         -747,SOLAR_PANELS.47,        SPACE.1,  3.148148e-05   $    1.000000
+         -748,SOLAR_PANELS.48,        SPACE.1,  3.148148e-05   $    1.000000
+         -749,SOLAR_PANELS.49,        SPACE.1,  3.148148e-05   $    1.000000
+         -750,SOLAR_PANELS.50,        SPACE.1,  3.148148e-05   $    1.000000
+         -751,SOLAR_PANELS.51,        SPACE.1,  3.148148e-05   $    1.000000
+         -752,SOLAR_PANELS.52,        SPACE.1,  3.148148e-05   $    1.000000
+         -753,SOLAR_PANELS.53,        SPACE.1,  3.148148e-05   $    1.000000
+         -754,SOLAR_PANELS.54,        SPACE.1,  3.148148e-05   $    1.000000
+         -755,SOLAR_PANELS.55,        SPACE.1,  6.296296e-05   $    1.000000
+         -756,SOLAR_PANELS.56,        SPACE.1,  6.296296e-05   $    1.000000
+         -757,SOLAR_PANELS.57,        SPACE.1,  6.296296e-05   $    1.000000
+         -758,SOLAR_PANELS.58,        SPACE.1,  6.296296e-05   $    1.000000
+         -759,SOLAR_PANELS.59,        SPACE.1,  6.296296e-05   $    1.000000
+         -760,SOLAR_PANELS.60,        SPACE.1,  6.296296e-05   $    1.000000
+         -761,SOLAR_PANELS.61,        SPACE.1,  6.296296e-05   $    1.000000
+         -762,SOLAR_PANELS.62,        SPACE.1,   0.0001259259  $    1.000000
+         -763,SOLAR_PANELS.63,        SPACE.1,   0.0001259259  $    1.000000
+         -764,SOLAR_PANELS.64,        SPACE.1,   0.0001259259  $    1.000000
+         -765,SOLAR_PANELS.65,        SPACE.1,   0.0001259259  $    1.000000
+         -766,SOLAR_PANELS.66,        SPACE.1,   0.0001259259  $    1.000000
+         -767,SOLAR_PANELS.67,        SPACE.1,   0.0001259259  $    1.000000
+         -768,SOLAR_PANELS.68,        SPACE.1,   0.0001259259  $    1.000000
+         -769,SOLAR_PANELS.69,        SPACE.1,   0.0001259259  $    1.000000
+         -770,SOLAR_PANELS.70,        SPACE.1,   0.0001259259  $    1.000000
+         -771,SOLAR_PANELS.71,        SPACE.1,   0.0001259259  $    1.000000
+         -772,SOLAR_PANELS.72,        SPACE.1,   0.0001259259  $    1.000000
+         -773,SOLAR_PANELS.73,        SPACE.1,   0.0001259259  $    1.000000
+         -774,SOLAR_PANELS.74,        SPACE.1,   0.0001259259  $    1.000000
+         -775,SOLAR_PANELS.75,        SPACE.1,   0.0001259259  $    1.000000
+         -776,SOLAR_PANELS.76,        SPACE.1,   0.0001259259  $    1.000000
+         -777,SOLAR_PANELS.77,        SPACE.1,   0.0001259259  $    1.000000
+         -778,SOLAR_PANELS.78,        SPACE.1,   0.0001259259  $    1.000000
+         -779,SOLAR_PANELS.79,        SPACE.1,   0.0001259259  $    1.000000
+         -780,SOLAR_PANELS.80,        SPACE.1,   0.0001259259  $    1.000000
+         -781,SOLAR_PANELS.81,        SPACE.1,   0.0001259259  $    1.000000
+         -782,SOLAR_PANELS.82,        SPACE.1,   0.0001259259  $    1.000000
+         -783,SOLAR_PANELS.83,        SPACE.1,   0.0001259259  $    1.000000
+         -784,SOLAR_PANELS.84,        SPACE.1,   0.0001259259  $    1.000000
+         -785,SOLAR_PANELS.85,        SPACE.1,   0.0001259259  $    1.000000
+         -786,SOLAR_PANELS.86,        SPACE.1,   0.0001259259  $    1.000000
+         -787,SOLAR_PANELS.87,        SPACE.1,   0.0001259259  $    1.000000
+         -788,SOLAR_PANELS.88,        SPACE.1,   0.0001259259  $    1.000000
+         -789,SOLAR_PANELS.89,        SPACE.1,   0.0001259259  $    1.000000
+         -790,SOLAR_PANELS.90,        SPACE.1,   0.0001259259  $    1.000000
+         -791,SOLAR_PANELS.91,        SPACE.1,   0.0001259259  $    1.000000
+         -792,SOLAR_PANELS.92,        SPACE.1,   0.0001259259  $    1.000000
+         -793,SOLAR_PANELS.93,        SPACE.1,   0.0001259259  $    1.000000
+         -794,SOLAR_PANELS.94,        SPACE.1,   0.0001259259  $    1.000000
+         -795,SOLAR_PANELS.95,        SPACE.1,   0.0001259259  $    1.000000
+         -796,SOLAR_PANELS.96,        SPACE.1,   0.0001259259  $    1.000000
+         -797,SOLAR_PANELS.97,        SPACE.1,   0.0001259259  $    1.000000
+         -798,SOLAR_PANELS.98,        SPACE.1,   0.0001259259  $    1.000000
+         -799,SOLAR_PANELS.99,        SPACE.1,   0.0001259259  $    1.000000
+         -800,SOLAR_PANELS.100,        SPACE.1,   0.0001259259  $    1.000000
+         -801,SOLAR_PANELS.101,        SPACE.1,   0.0001259259  $    1.000000
+         -802,SOLAR_PANELS.102,        SPACE.1,   0.0001259259  $    1.000000
+         -803,SOLAR_PANELS.103,        SPACE.1,   0.0001259259  $    1.000000
+         -804,SOLAR_PANELS.104,        SPACE.1,   0.0001259259  $    1.000000
+         -805,SOLAR_PANELS.105,        SPACE.1,   0.0001259259  $    1.000000
+         -806,SOLAR_PANELS.106,        SPACE.1,   0.0001259259  $    1.000000
+         -807,SOLAR_PANELS.107,        SPACE.1,   0.0001259259  $    1.000000
+         -808,SOLAR_PANELS.108,        SPACE.1,   0.0001259259  $    1.000000
+         -809,SOLAR_PANELS.109,        SPACE.1,   0.0001259259  $    1.000000
+         -810,SOLAR_PANELS.110,        SPACE.1,   0.0001259259  $    1.000000
+         -811,SOLAR_PANELS.111,        SPACE.1,   0.0001259259  $    1.000000
+         -812,SOLAR_PANELS.112,        SPACE.1,   0.0001259259  $    1.000000
+         -813,SOLAR_PANELS.113,        SPACE.1,   0.0001259259  $    1.000000
+         -814,SOLAR_PANELS.114,        SPACE.1,   0.0001259259  $    1.000000
+         -815,SOLAR_PANELS.115,        SPACE.1,   0.0001259259  $    1.000000
+         -816,SOLAR_PANELS.116,        SPACE.1,   0.0001259259  $    1.000000
+         -817,SOLAR_PANELS.117,        SPACE.1,   0.0001259259  $    1.000000
+         -818,SOLAR_PANELS.118,        SPACE.1,  6.296296e-05   $    1.000000
+         -819,SOLAR_PANELS.119,        SPACE.1,  6.296296e-05   $    1.000000
+         -820,SOLAR_PANELS.120,        SPACE.1,  6.296296e-05   $    1.000000
+         -821,SOLAR_PANELS.121,        SPACE.1,  6.296296e-05   $    1.000000
+         -822,SOLAR_PANELS.122,        SPACE.1,  6.296296e-05   $    1.000000
+         -823,SOLAR_PANELS.123,        SPACE.1,  6.296296e-05   $    1.000000
+         -824,SOLAR_PANELS.124,        SPACE.1,  6.296296e-05   $    1.000000
+         -825,SOLAR_PANELS.125,        SPACE.1,  6.296296e-05   $    1.000000
+         -826,SOLAR_PANELS.126,        SPACE.1,  6.296296e-05   $    1.000000
+         -827,SOLAR_PANELS.127,        SPACE.1,  6.296296e-05   $    1.000000
+         -828,SOLAR_PANELS.128,        SPACE.1,  6.296296e-05   $    1.000000
+         -829,SOLAR_PANELS.129,        SPACE.1,  6.296296e-05   $    1.000000
+         -830,SOLAR_PANELS.130,        SPACE.1,  6.296296e-05   $    1.000000
+         -831,SOLAR_PANELS.131,        SPACE.1,  6.296296e-05   $    1.000000
+         -832,SOLAR_PANELS.132,        SPACE.1,  6.296296e-05   $    1.000000
+         -833,SOLAR_PANELS.133,        SPACE.1,  6.296296e-05   $    1.000000
+         -834,SOLAR_PANELS.134,        SPACE.1,  6.296296e-05   $    1.000000
+         -835,SOLAR_PANELS.135,        SPACE.1,  6.296296e-05   $    1.000000
+         -836,SOLAR_PANELS.136,        SPACE.1,  6.296296e-05   $    1.000000
+         -837,SOLAR_PANELS.137,        SPACE.1,  6.296296e-05   $    1.000000
+         -838,SOLAR_PANELS.138,        SPACE.1,  6.296296e-05   $    1.000000
+         -839,SOLAR_PANELS.139,        SPACE.1,   0.0001259259  $    1.000000
+         -840,SOLAR_PANELS.140,        SPACE.1,   0.0001259259  $    1.000000
+         -841,SOLAR_PANELS.141,        SPACE.1,   0.0001259259  $    1.000000
+         -842,SOLAR_PANELS.142,        SPACE.1,   0.0001259259  $    1.000000
+         -843,SOLAR_PANELS.143,        SPACE.1,   0.0001259259  $    1.000000
+         -844,SOLAR_PANELS.144,        SPACE.1,   0.0001259259  $    1.000000
+         -845,SOLAR_PANELS.145,        SPACE.1,   0.0001259259  $    1.000000
+         -846,SOLAR_PANELS.146,        SPACE.1,   0.0001259259  $    1.000000
+         -847,SOLAR_PANELS.147,        SPACE.1,   0.0001259259  $    1.000000
+         -848,SOLAR_PANELS.148,        SPACE.1,   0.0001259259  $    1.000000
+         -849,SOLAR_PANELS.149,        SPACE.1,   0.0001259259  $    1.000000
+         -850,SOLAR_PANELS.150,        SPACE.1,   0.0001259259  $    1.000000
+         -851,SOLAR_PANELS.151,        SPACE.1,   0.0001259259  $    1.000000
+         -852,SOLAR_PANELS.152,        SPACE.1,   0.0001259259  $    1.000000
+         -853,SOLAR_PANELS.153,        SPACE.1,   0.0001259259  $    1.000000
+         -854,SOLAR_PANELS.154,        SPACE.1,   0.0001259259  $    1.000000
+         -855,SOLAR_PANELS.155,        SPACE.1,   0.0001259259  $    1.000000
+         -856,SOLAR_PANELS.156,        SPACE.1,   0.0001259259  $    1.000000
+         -857,SOLAR_PANELS.157,        SPACE.1,   0.0001259259  $    1.000000
+         -858,SOLAR_PANELS.158,        SPACE.1,   0.0001259259  $    1.000000
+         -859,SOLAR_PANELS.159,        SPACE.1,   0.0001259259  $    1.000000
+         -860,SOLAR_PANELS.160,        SPACE.1,   0.0001259259  $    1.000000
+         -861,SOLAR_PANELS.161,        SPACE.1,   0.0001259259  $    1.000000
+         -862,SOLAR_PANELS.162,        SPACE.1,   0.0001259259  $    1.000000
+         -863,SOLAR_PANELS.163,        SPACE.1,   0.0001259259  $    1.000000
+         -864,SOLAR_PANELS.164,        SPACE.1,   0.0001259259  $    1.000000
+         -865,SOLAR_PANELS.165,        SPACE.1,   0.0001259259  $    1.000000
+         -866,SOLAR_PANELS.166,        SPACE.1,   0.0001259259  $    1.000000
+         -867,SOLAR_PANELS.167,        SPACE.1,   0.0001259259  $    1.000000
+         -868,SOLAR_PANELS.168,        SPACE.1,   0.0001259259  $    1.000000
+         -869,SOLAR_PANELS.169,        SPACE.1,   0.0001259259  $    1.000000
+         -870,SOLAR_PANELS.170,        SPACE.1,   0.0001259259  $    1.000000
+         -871,SOLAR_PANELS.171,        SPACE.1,   0.0001259259  $    1.000000
+         -872,SOLAR_PANELS.172,        SPACE.1,   0.0001259259  $    1.000000
+         -873,SOLAR_PANELS.173,        SPACE.1,   0.0001259259  $    1.000000
+         -874,SOLAR_PANELS.174,        SPACE.1,   0.0001259259  $    1.000000
+         -875,SOLAR_PANELS.175,        SPACE.1,   0.0001259259  $    1.000000
+         -876,SOLAR_PANELS.176,        SPACE.1,   0.0001259259  $    1.000000
+         -877,SOLAR_PANELS.177,        SPACE.1,   0.0001259259  $    1.000000
+         -878,SOLAR_PANELS.178,        SPACE.1,   0.0001259259  $    1.000000
+         -879,SOLAR_PANELS.179,        SPACE.1,   0.0001259259  $    1.000000
+         -880,SOLAR_PANELS.180,        SPACE.1,   0.0001259259  $    1.000000
+         -881,SOLAR_PANELS.181,        SPACE.1,   0.0001259259  $    1.000000
+         -882,SOLAR_PANELS.182,        SPACE.1,   0.0001259259  $    1.000000
+         -883,SOLAR_PANELS.183,        SPACE.1,   0.0001259259  $    1.000000
+         -884,SOLAR_PANELS.184,        SPACE.1,   0.0001259259  $    1.000000
+         -885,SOLAR_PANELS.185,        SPACE.1,   0.0001259259  $    1.000000
+         -886,SOLAR_PANELS.186,        SPACE.1,   0.0001259259  $    1.000000
+         -887,SOLAR_PANELS.187,        SPACE.1,   0.0001259259  $    1.000000
+         -888,SOLAR_PANELS.188,        SPACE.1,   0.0001259259  $    1.000000
+         -889,SOLAR_PANELS.189,        SPACE.1,   0.0001259259  $    1.000000
+         -890,SOLAR_PANELS.190,        SPACE.1,   0.0001259259  $    1.000000
+         -891,SOLAR_PANELS.191,        SPACE.1,   0.0001259259  $    1.000000
+         -892,SOLAR_PANELS.192,        SPACE.1,   0.0001259259  $    1.000000
+         -893,SOLAR_PANELS.193,        SPACE.1,   0.0001259259  $    1.000000
+         -894,SOLAR_PANELS.194,        SPACE.1,   0.0001259259  $    1.000000
+         -895,SOLAR_PANELS.195,        SPACE.1,  6.296296e-05   $    1.000000
+         -896,SOLAR_PANELS.196,        SPACE.1,  6.296296e-05   $    1.000000
+         -897,SOLAR_PANELS.197,        SPACE.1,  6.296296e-05   $    1.000000
+         -898,SOLAR_PANELS.198,        SPACE.1,  6.296296e-05   $    1.000000
+         -899,SOLAR_PANELS.199,        SPACE.1,  6.296296e-05   $    1.000000
+         -900,SOLAR_PANELS.200,        SPACE.1,  6.296296e-05   $    1.000000
+         -901,SOLAR_PANELS.201,        SPACE.1,  6.296296e-05   $    1.000000
+         -902,SOLAR_PANELS.202,        SPACE.1,  6.296296e-05   $    1.000000
+         -903,SOLAR_PANELS.203,        SPACE.1,  6.296296e-05   $    1.000000
+         -904,SOLAR_PANELS.204,        SPACE.1,  6.296296e-05   $    1.000000
+         -905,SOLAR_PANELS.205,        SPACE.1,  6.296296e-05   $    1.000000
+         -906,SOLAR_PANELS.206,        SPACE.1,  6.296296e-05   $    1.000000
+         -907,SOLAR_PANELS.207,        SPACE.1,  6.296296e-05   $    1.000000
+         -908,SOLAR_PANELS.208,        SPACE.1,  6.296296e-05   $    1.000000
+         -909,SOLAR_PANELS.209,        SPACE.1,  3.148148e-05   $    1.000000
+         -910,SOLAR_PANELS.210,        SPACE.1,  3.148148e-05   $    1.000000
+         -911,SOLAR_PANELS.211,        SPACE.1,  3.148148e-05   $    1.000000
+         -912,SOLAR_PANELS.212,        SPACE.1,  3.148148e-05   $    1.000000
+         -913,SOLAR_PANELS.213,        SPACE.1,  3.148148e-05   $    1.000000
+         -914,SOLAR_PANELS.214,        SPACE.1,  3.148148e-05   $    1.000000
+         -915,SOLAR_PANELS.215,        SPACE.1,  3.148148e-05   $    1.000000
+         -916,SOLAR_PANELS.216,        SPACE.1,  6.296296e-05   $    1.000000
+         -917,SOLAR_PANELS.217,        SPACE.1,  6.296296e-05   $    1.000000
+         -918,SOLAR_PANELS.218,        SPACE.1,  6.296296e-05   $    1.000000
+         -919,SOLAR_PANELS.219,        SPACE.1,  6.296296e-05   $    1.000000
+         -920,SOLAR_PANELS.220,        SPACE.1,  6.296296e-05   $    1.000000
+         -921,SOLAR_PANELS.221,        SPACE.1,  6.296296e-05   $    1.000000
+         -922,SOLAR_PANELS.222,        SPACE.1,  6.296296e-05   $    1.000000
+         -923,SOLAR_PANELS.223,        SPACE.1,  6.296296e-05   $    1.000000
+         -924,SOLAR_PANELS.224,        SPACE.1,  6.296296e-05   $    1.000000
+         -925,SOLAR_PANELS.225,        SPACE.1,  6.296296e-05   $    1.000000
+         -926,SOLAR_PANELS.226,        SPACE.1,  6.296296e-05   $    1.000000
+         -927,SOLAR_PANELS.227,        SPACE.1,  6.296296e-05   $    1.000000
+         -928,SOLAR_PANELS.228,        SPACE.1,  6.296296e-05   $    1.000000
+         -929,SOLAR_PANELS.229,        SPACE.1,  6.296296e-05   $    1.000000
+         -930,SOLAR_PANELS.230,        SPACE.1,  6.296296e-05   $    1.000000
+         -931,SOLAR_PANELS.231,        SPACE.1,  6.296296e-05   $    1.000000
+         -932,SOLAR_PANELS.232,        SPACE.1,  6.296296e-05   $    1.000000
+         -933,SOLAR_PANELS.233,        SPACE.1,  6.296296e-05   $    1.000000
+         -934,SOLAR_PANELS.234,        SPACE.1,  6.296296e-05   $    1.000000
+         -935,SOLAR_PANELS.235,        SPACE.1,  6.296296e-05   $    1.000000
+         -936,SOLAR_PANELS.236,        SPACE.1,  6.296296e-05   $    1.000000
+         -937,SOLAR_PANELS.237,        SPACE.1,  6.296296e-05   $    1.000000
+         -938,SOLAR_PANELS.238,        SPACE.1,  6.296296e-05   $    1.000000
+         -939,SOLAR_PANELS.239,        SPACE.1,  6.296296e-05   $    1.000000
+         -940,SOLAR_PANELS.240,        SPACE.1,  6.296296e-05   $    1.000000
+         -941,SOLAR_PANELS.241,        SPACE.1,  6.296296e-05   $    1.000000
+         -942,SOLAR_PANELS.242,        SPACE.1,  6.296296e-05   $    1.000000
+         -943,SOLAR_PANELS.243,        SPACE.1,  6.296296e-05   $    1.000000
+         -944,SOLAR_PANELS.244,        SPACE.1,  6.296296e-05   $    1.000000
+         -945,SOLAR_PANELS.245,        SPACE.1,  6.296296e-05   $    1.000000
+         -946,SOLAR_PANELS.246,        SPACE.1,  6.296296e-05   $    1.000000
+         -947,SOLAR_PANELS.247,        SPACE.1,  6.296296e-05   $    1.000000
+         -948,SOLAR_PANELS.248,        SPACE.1,  6.296296e-05   $    1.000000
+         -949,SOLAR_PANELS.249,        SPACE.1,  6.296296e-05   $    1.000000
+         -950,SOLAR_PANELS.250,        SPACE.1,  6.296296e-05   $    1.000000
+         -951,SOLAR_PANELS.251,        SPACE.1,  6.296296e-05   $    1.000000
+         -952,SOLAR_PANELS.252,        SPACE.1,  6.296296e-05   $    1.000000
+         -953,SOLAR_PANELS.253,        SPACE.1,  6.296296e-05   $    1.000000
+         -954,SOLAR_PANELS.254,        SPACE.1,  6.296296e-05   $    1.000000
+         -955,SOLAR_PANELS.255,        SPACE.1,  6.296296e-05   $    1.000000
+         -956,SOLAR_PANELS.256,        SPACE.1,  6.296296e-05   $    1.000000
+         -957,SOLAR_PANELS.257,        SPACE.1,  6.296296e-05   $    1.000000
+         -958,SOLAR_PANELS.258,        SPACE.1,  6.296296e-05   $    1.000000
+         -959,SOLAR_PANELS.259,        SPACE.1,  6.296296e-05   $    1.000000
+         -960,SOLAR_PANELS.260,        SPACE.1,  6.296296e-05   $    1.000000
+         -961,SOLAR_PANELS.261,        SPACE.1,  6.296296e-05   $    1.000000
+         -962,SOLAR_PANELS.262,        SPACE.1,  6.296296e-05   $    1.000000
+         -963,SOLAR_PANELS.263,        SPACE.1,  6.296296e-05   $    1.000000
+         -964,SOLAR_PANELS.264,        SPACE.1,  6.296296e-05   $    1.000000
+         -965,SOLAR_PANELS.265,        SPACE.1,  6.296296e-05   $    1.000000
+         -966,SOLAR_PANELS.266,        SPACE.1,  6.296296e-05   $    1.000000
+         -967,SOLAR_PANELS.267,        SPACE.1,  6.296296e-05   $    1.000000
+         -968,SOLAR_PANELS.268,        SPACE.1,  6.296296e-05   $    1.000000
+         -969,SOLAR_PANELS.269,        SPACE.1,  6.296296e-05   $    1.000000
+         -970,SOLAR_PANELS.270,        SPACE.1,  6.296296e-05   $    1.000000
+         -971,SOLAR_PANELS.271,        SPACE.1,  6.296296e-05   $    1.000000
+         -972,SOLAR_PANELS.272,        SPACE.1,  6.296296e-05   $    1.000000
+         -973,SOLAR_PANELS.273,        SPACE.1,  6.296296e-05   $    1.000000
+         -974,SOLAR_PANELS.274,        SPACE.1,  6.296296e-05   $    1.000000
+         -975,SOLAR_PANELS.275,        SPACE.1,  6.296296e-05   $    1.000000
+         -976,SOLAR_PANELS.276,        SPACE.1,  6.296296e-05   $    1.000000
+         -977,SOLAR_PANELS.277,        SPACE.1,  6.296296e-05   $    1.000000
+         -978,SOLAR_PANELS.278,        SPACE.1,  6.296296e-05   $    1.000000
+         -979,SOLAR_PANELS.279,        SPACE.1,  3.148148e-05   $    1.000000
+         -980,SOLAR_PANELS.280,        SPACE.1,  3.148148e-05   $    1.000000
+         -981,SOLAR_PANELS.281,        SPACE.1,  3.148148e-05   $    1.000000
+         -982,SOLAR_PANELS.282,        SPACE.1,  3.148148e-05   $    1.000000
+         -983,SOLAR_PANELS.283,        SPACE.1,  3.148148e-05   $    1.000000
+         -984,SOLAR_PANELS.284,        SPACE.1,  3.148148e-05   $    1.000000
+         -985,SOLAR_PANELS.285,        SPACE.1,  3.148148e-05   $    1.000000
+         -986,SOLAR_PANELS.286,        SPACE.1,  6.296296e-05   $    1.000000
+         -987,SOLAR_PANELS.287,        SPACE.1,  6.296296e-05   $    1.000000
+         -988,SOLAR_PANELS.288,        SPACE.1,  6.296296e-05   $    1.000000
+         -989,SOLAR_PANELS.289,        SPACE.1,  6.296296e-05   $    1.000000
+         -990,SOLAR_PANELS.290,        SPACE.1,  6.296296e-05   $    1.000000
+         -991,SOLAR_PANELS.291,        SPACE.1,  6.296296e-05   $    1.000000
+         -992,SOLAR_PANELS.292,        SPACE.1,  6.296296e-05   $    1.000000
+         -993,SOLAR_PANELS.293,        SPACE.1,  6.296296e-05   $    1.000000
+         -994,SOLAR_PANELS.294,        SPACE.1,  6.296296e-05   $    1.000000
+         -995,SOLAR_PANELS.295,        SPACE.1,  6.296296e-05   $    1.000000
+         -996,SOLAR_PANELS.296,        SPACE.1,  6.296296e-05   $    1.000000
+         -997,SOLAR_PANELS.297,        SPACE.1,  6.296296e-05   $    1.000000
+         -998,SOLAR_PANELS.298,        SPACE.1,  6.296296e-05   $    1.000000
+         -999,SOLAR_PANELS.299,        SPACE.1,  6.296296e-05   $    1.000000
+        -1000,SOLAR_PANELS.300,        SPACE.1,  6.296296e-05   $    1.000000
+        -1001,SOLAR_PANELS.301,        SPACE.1,  6.296296e-05   $    1.000000
+        -1002,SOLAR_PANELS.302,        SPACE.1,  6.296296e-05   $    1.000000
+        -1003,SOLAR_PANELS.303,        SPACE.1,  6.296296e-05   $    1.000000
+        -1004,SOLAR_PANELS.304,        SPACE.1,  6.296296e-05   $    1.000000
+        -1005,SOLAR_PANELS.305,        SPACE.1,  6.296296e-05   $    1.000000
+        -1006,SOLAR_PANELS.306,        SPACE.1,  6.296296e-05   $    1.000000
+        -1007,SOLAR_PANELS.307,        SPACE.1,  6.296296e-05   $    1.000000
+        -1008,SOLAR_PANELS.308,        SPACE.1,  6.296296e-05   $    1.000000
+        -1009,SOLAR_PANELS.309,        SPACE.1,  6.296296e-05   $    1.000000
+        -1010,SOLAR_PANELS.310,        SPACE.1,  6.296296e-05   $    1.000000
+        -1011,SOLAR_PANELS.311,        SPACE.1,  6.296296e-05   $    1.000000
+        -1012,SOLAR_PANELS.312,        SPACE.1,  6.296296e-05   $    1.000000
+        -1013,SOLAR_PANELS.313,        SPACE.1,  6.296296e-05   $    1.000000
+        -1014,SOLAR_PANELS.314,        SPACE.1,  6.296296e-05   $    1.000000
+        -1015,SOLAR_PANELS.315,        SPACE.1,  6.296296e-05   $    1.000000
+        -1016,SOLAR_PANELS.316,        SPACE.1,  6.296296e-05   $    1.000000
+        -1017,SOLAR_PANELS.317,        SPACE.1,  6.296296e-05   $    1.000000
+        -1018,SOLAR_PANELS.318,        SPACE.1,  6.296296e-05   $    1.000000
+        -1019,SOLAR_PANELS.319,        SPACE.1,  6.296296e-05   $    1.000000
+        -1020,SOLAR_PANELS.320,        SPACE.1,  6.296296e-05   $    1.000000
+        -1021,       FRAMES.1,       FRAMES.2,  2.367587e-07   $    0.010228,  0.005114
+        -1022,       FRAMES.1,       FRAMES.3,  2.594230e-08   $    0.001121,  0.000560
+        -1023,       FRAMES.1,      FRAMES.11,  2.242587e-07   $    0.009688,  0.004844
+        -1024,       FRAMES.1,      FRAMES.12,  2.916330e-07   $    0.012599,  0.003150
+        -1025,       FRAMES.1,      FRAMES.13,  3.035460e-08   $    0.001311,  0.000328
+        -1026,       FRAMES.1,      FRAMES.22,  3.779206e-08   $    0.001633,  0.000408
+        -1027,       FRAMES.1,SOLAR_CARDS.295,  4.191611e-06   $    0.181078,  0.084880
+        -1028,       FRAMES.1,SOLAR_CARDS.321,  7.874018e-08   $    0.003402,  0.000399
+        -1029,       FRAMES.1,SOLAR_CARDS.325,  1.157253e-06   $    0.049993,  0.005859
+        -1030,       FRAMES.1,SOLAR_CARDS.329,  1.832337e-06   $    0.079157,  0.018552
+        -1031,       FRAMES.1,SOLAR_CARDS.371,  4.646753e-08   $    0.002007,  0.000235
+        -1032,       FRAMES.1,SOLAR_CARDS.375,  1.865503e-07   $    0.008059,  0.000944
+        -1033,       FRAMES.1,SOLAR_CARDS.379,  8.365454e-08   $    0.003614,  0.000847
+        -1034,       FRAMES.1,SOLAR_CARDS.425,  2.505115e-08   $    0.001082,  0.000127
+        -1035,       FRAMES.1,SOLAR_CARDS.459,  3.728653e-08   $    0.001611,  0.000378
+        -1036,       FRAMES.1,SOLAR_CARDS.479,  2.814855e-08   $    0.001216,  0.000285
+        -1037,       FRAMES.1,SOLAR_CARDS.484,  8.353010e-08   $    0.003609,  0.000846
+        -1038,       FRAMES.1,SOLAR_CARDS.509,  1.926988e-06   $    0.083246,  0.019511
+        -1039,       FRAMES.2,       FRAMES.3,  3.401223e-07   $    0.007347,  0.007347
+        -1040,       FRAMES.2,      FRAMES.11,  2.707772e-07   $    0.005849,  0.005849
+        -1041,       FRAMES.2,      FRAMES.12,  1.008533e-06   $    0.021784,  0.010892
+        -1042,       FRAMES.2,      FRAMES.13,  3.818375e-07   $    0.008248,  0.004124
+        -1043,       FRAMES.2,      FRAMES.14,  7.409196e-08   $    0.001600,  0.000800
+        -1044,       FRAMES.2,      FRAMES.22,  1.241412e-07   $    0.002681,  0.001341
+        -1045,       FRAMES.2,     FRAMES.223,  9.124727e-08   $    0.001971,  0.000985
+        -1046,       FRAMES.2,SOLAR_CARDS.295,  1.966964e-06   $    0.042486,  0.039831
+        -1047,       FRAMES.2,SOLAR_CARDS.317,  2.451556e-07   $    0.005295,  0.001241
+        -1048,       FRAMES.2,SOLAR_CARDS.321,  1.598681e-06   $    0.034532,  0.008093
+        -1049,       FRAMES.2,SOLAR_CARDS.325,  5.801272e-06   $    0.125307,  0.029369
+        -1050,       FRAMES.2,SOLAR_CARDS.329,  1.127383e-06   $    0.024351,  0.011415
+        -1051,       FRAMES.2,SOLAR_CARDS.360,  5.250700e-08   $    0.001134,  0.000266
+        -1052,       FRAMES.2,SOLAR_CARDS.367,  6.764571e-08   $    0.001461,  0.000342
+        -1053,       FRAMES.2,SOLAR_CARDS.371,  1.352989e-07   $    0.002922,  0.000685
+        -1054,       FRAMES.2,SOLAR_CARDS.375,  2.993859e-07   $    0.006467,  0.001516
+        -1055,       FRAMES.2,SOLAR_CARDS.379,  1.780522e-07   $    0.003846,  0.001803
+        -1056,       FRAMES.2,SOLAR_CARDS.459,  9.915627e-08   $    0.002142,  0.001004
+        -1057,       FRAMES.2,SOLAR_CARDS.484,  2.596703e-06   $    0.056089,  0.026292
+        -1058,       FRAMES.2,SOLAR_CARDS.509,  1.232043e-05   $    0.266121,  0.124744
+        -1059,       FRAMES.2,SOLAR_CARDS.517,  5.561439e-08   $    0.001201,  0.000282
+        -1060,       FRAMES.3,       FRAMES.4,  3.151252e-07   $    0.006807,  0.006807
+        -1061,       FRAMES.3,      FRAMES.12,  3.723738e-07   $    0.008043,  0.004022
+        -1062,       FRAMES.3,      FRAMES.13,  1.018618e-06   $    0.022002,  0.011001
+        -1063,       FRAMES.3,      FRAMES.14,  4.260887e-07   $    0.009204,  0.004602
+        -1064,       FRAMES.3,      FRAMES.15,  7.182225e-08   $    0.001551,  0.000776
+        -1065,       FRAMES.3,      FRAMES.22,  5.297337e-08   $    0.001144,  0.000572
+        -1066,       FRAMES.3,      FRAMES.24,  7.594661e-08   $    0.001640,  0.000820
+        -1067,       FRAMES.3,     FRAMES.223,  1.057040e-07   $    0.002283,  0.001142
+        -1068,       FRAMES.3,SOLAR_CARDS.295,  6.339601e-08   $    0.001369,  0.001284
+        -1069,       FRAMES.3,SOLAR_CARDS.310,  4.907407e-08   $    0.001060,  0.000248
+        -1070,       FRAMES.3,SOLAR_CARDS.313,  2.366776e-07   $    0.005112,  0.001198
+        -1071,       FRAMES.3,SOLAR_CARDS.317,  1.790729e-06   $    0.038680,  0.009066
+        -1072,       FRAMES.3,SOLAR_CARDS.321,  5.893576e-06   $    0.127301,  0.029836
+        -1073,       FRAMES.3,SOLAR_CARDS.325,  1.872186e-06   $    0.040439,  0.009478
+        -1074,       FRAMES.3,SOLAR_CARDS.329,  1.404731e-07   $    0.003034,  0.001422
+        -1075,       FRAMES.3,SOLAR_CARDS.354,  1.274155e-07   $    0.002752,  0.000645
+        -1076,       FRAMES.3,SOLAR_CARDS.360,  8.287339e-08   $    0.001790,  0.000420
+        -1077,       FRAMES.3,SOLAR_CARDS.367,  1.705156e-07   $    0.003683,  0.000863
+        -1078,       FRAMES.3,SOLAR_CARDS.371,  3.055331e-07   $    0.006600,  0.001547
+        -1079,       FRAMES.3,SOLAR_CARDS.375,  2.175358e-07   $    0.004699,  0.001101
+        -1080,       FRAMES.3,SOLAR_CARDS.379,  5.771102e-08   $    0.001247,  0.000584
+        -1081,       FRAMES.3,SOLAR_CARDS.425,  5.651954e-08   $    0.001221,  0.000286
+        -1082,       FRAMES.3,SOLAR_CARDS.434,  5.045652e-08   $    0.001090,  0.000511
+        -1083,       FRAMES.3,SOLAR_CARDS.459,  2.578979e-06   $    0.055706,  0.026112
+        -1084,       FRAMES.3,SOLAR_CARDS.484,  1.172280e-05   $    0.253212,  0.118693
+        -1085,       FRAMES.3,SOLAR_CARDS.509,  2.207237e-06   $    0.047676,  0.022348
+        -1086,       FRAMES.4,       FRAMES.5,  3.103081e-07   $    0.006703,  0.006703
+        -1087,       FRAMES.4,      FRAMES.12,  5.085742e-08   $    0.001099,  0.000549
+        -1088,       FRAMES.4,      FRAMES.13,  3.770574e-07   $    0.008144,  0.004072
+        -1089,       FRAMES.4,      FRAMES.14,  1.067936e-06   $    0.023067,  0.011534
+        -1090,       FRAMES.4,      FRAMES.15,  3.891373e-07   $    0.008405,  0.004203
+        -1091,       FRAMES.4,      FRAMES.16,  5.502563e-08   $    0.001189,  0.000594
+        -1092,       FRAMES.4,      FRAMES.24,  1.167240e-07   $    0.002521,  0.001261
+        -1093,       FRAMES.4,     FRAMES.223,  9.631348e-08   $    0.002080,  0.001040
+        -1094,       FRAMES.4,     FRAMES.224,  6.684533e-08   $    0.001444,  0.000722
+        -1095,       FRAMES.4,SOLAR_CARDS.310,  1.132312e-07   $    0.002446,  0.000573
+        -1096,       FRAMES.4,SOLAR_CARDS.313,  1.503942e-06   $    0.032485,  0.007614
+        -1097,       FRAMES.4,SOLAR_CARDS.317,  5.950591e-06   $    0.128533,  0.030125
+        -1098,       FRAMES.4,SOLAR_CARDS.321,  1.586944e-06   $    0.034278,  0.008034
+        -1099,       FRAMES.4,SOLAR_CARDS.325,  1.478331e-07   $    0.003193,  0.000748
+        -1100,       FRAMES.4,SOLAR_CARDS.354,  5.950469e-08   $    0.001285,  0.000301
+        -1101,       FRAMES.4,SOLAR_CARDS.360,  1.807749e-07   $    0.003905,  0.000915
+        -1102,       FRAMES.4,SOLAR_CARDS.367,  3.053117e-07   $    0.006595,  0.001546
+        -1103,       FRAMES.4,SOLAR_CARDS.371,  2.298103e-07   $    0.004964,  0.001163
+        -1104,       FRAMES.4,SOLAR_CARDS.375,  6.757566e-08   $    0.001460,  0.000342
+        -1105,       FRAMES.4,SOLAR_CARDS.409,  6.620024e-08   $    0.001430,  0.000670
+        -1106,       FRAMES.4,SOLAR_CARDS.410,  1.338450e-07   $    0.002891,  0.000678
+        -1107,       FRAMES.4,SOLAR_CARDS.417,  9.264214e-08   $    0.002001,  0.000469
+        -1108,       FRAMES.4,SOLAR_CARDS.425,  8.055556e-08   $    0.001740,  0.000408
+        -1109,       FRAMES.4,SOLAR_CARDS.434,  2.335086e-06   $    0.050438,  0.023643
+        -1110,       FRAMES.4,SOLAR_CARDS.459,  1.199662e-05   $    0.259127,  0.121466
+        -1111,       FRAMES.4,SOLAR_CARDS.471,  7.205134e-08   $    0.001556,  0.000365
+        -1112,       FRAMES.4,SOLAR_CARDS.484,  2.256641e-06   $    0.048743,  0.022848
+        -1113,       FRAMES.4,SOLAR_CARDS.509,  1.463541e-07   $    0.003161,  0.001482
+        -1114,       FRAMES.5,       FRAMES.6,  3.466261e-07   $    0.007487,  0.007487
+        -1115,       FRAMES.5,      FRAMES.13,  6.688288e-08   $    0.001445,  0.000722
+        -1116,       FRAMES.5,      FRAMES.14,  4.129463e-07   $    0.008920,  0.004460
+        -1117,       FRAMES.5,      FRAMES.15,  9.539170e-07   $    0.020605,  0.010302
+        -1118,       FRAMES.5,      FRAMES.16,  3.611905e-07   $    0.007802,  0.003901
+        -1119,       FRAMES.5,      FRAMES.17,  5.083101e-08   $    0.001098,  0.000549
+        -1120,       FRAMES.5,      FRAMES.24,  7.151193e-08   $    0.001545,  0.000772
+        -1121,       FRAMES.5,      FRAMES.26,  5.743768e-08   $    0.001241,  0.000620
+        -1122,       FRAMES.5,     FRAMES.224,  9.857014e-08   $    0.002129,  0.001065
+        -1123,       FRAMES.5,SOLAR_CARDS.304,  1.486785e-07   $    0.003211,  0.000753
+        -1124,       FRAMES.5,SOLAR_CARDS.307,  1.604390e-07   $    0.003465,  0.000812
+        -1125,       FRAMES.5,SOLAR_CARDS.310,  1.613775e-06   $    0.034858,  0.008170
+        -1126,       FRAMES.5,SOLAR_CARDS.313,  6.166273e-06   $    0.133191,  0.031217
+        -1127,       FRAMES.5,SOLAR_CARDS.317,  1.726073e-06   $    0.037283,  0.008738
+        -1128,       FRAMES.5,SOLAR_CARDS.321,  2.200281e-07   $    0.004753,  0.001114
+        -1129,       FRAMES.5,SOLAR_CARDS.350,  9.155765e-08   $    0.001978,  0.000464
+        -1130,       FRAMES.5,SOLAR_CARDS.354,  1.976092e-07   $    0.004268,  0.001000
+        -1131,       FRAMES.5,SOLAR_CARDS.360,  3.005400e-07   $    0.006492,  0.001521
+        -1132,       FRAMES.5,SOLAR_CARDS.367,  2.630602e-07   $    0.005682,  0.001332
+        -1133,       FRAMES.5,SOLAR_CARDS.371,  7.126124e-08   $    0.001539,  0.000361
+        -1134,       FRAMES.5,SOLAR_CARDS.384,  1.193517e-07   $    0.002578,  0.001208
+        -1135,       FRAMES.5,SOLAR_CARDS.400,  6.388889e-08   $    0.001380,  0.000323
+        -1136,       FRAMES.5,SOLAR_CARDS.404,  1.468416e-07   $    0.003172,  0.000743
+        -1137,       FRAMES.5,SOLAR_CARDS.409,  2.381356e-06   $    0.051437,  0.024111
+        -1138,       FRAMES.5,SOLAR_CARDS.417,  4.810075e-08   $    0.001039,  0.000244
+        -1139,       FRAMES.5,SOLAR_CARDS.434,  1.161744e-05   $    0.250937,  0.117627
+        -1140,       FRAMES.5,SOLAR_CARDS.459,  2.192768e-06   $    0.047364,  0.022202
+        -1141,       FRAMES.5,SOLAR_CARDS.484,  1.015037e-07   $    0.002192,  0.001028
+        -1142,       FRAMES.6,       FRAMES.7,  3.498662e-07   $    0.007557,  0.007557
+        -1143,       FRAMES.6,      FRAMES.14,  7.335034e-08   $    0.001584,  0.000792
+        -1144,       FRAMES.6,      FRAMES.15,  4.134139e-07   $    0.008930,  0.004465
+        -1145,       FRAMES.6,      FRAMES.16,  9.919665e-07   $    0.021426,  0.010713
+        -1146,       FRAMES.6,      FRAMES.17,  3.929682e-07   $    0.008488,  0.004244
+        -1147,       FRAMES.6,      FRAMES.26,  1.037685e-07   $    0.002241,  0.001121
+        -1148,       FRAMES.6,      FRAMES.27,  6.993027e-08   $    0.001510,  0.000755
+        -1149,       FRAMES.6,     FRAMES.220,  6.299064e-08   $    0.001361,  0.000680
+        -1150,       FRAMES.6,     FRAMES.224,  6.757949e-08   $    0.001460,  0.000730
+        -1151,       FRAMES.6,SOLAR_CARDS.301,  5.169013e-08   $    0.001117,  0.000262
+        -1152,       FRAMES.6,SOLAR_CARDS.304,  2.739823e-07   $    0.005918,  0.001387
+        -1153,       FRAMES.6,SOLAR_CARDS.307,  1.379650e-06   $    0.029800,  0.006984
+        -1154,       FRAMES.6,SOLAR_CARDS.310,  5.961129e-06   $    0.128760,  0.030178
+        -1155,       FRAMES.6,SOLAR_CARDS.313,  1.700669e-06   $    0.036734,  0.008610
+        -1156,       FRAMES.6,SOLAR_CARDS.317,  1.781149e-07   $    0.003847,  0.000902
+        -1157,       FRAMES.6,SOLAR_CARDS.342,  4.814815e-08   $    0.001040,  0.000244
+        -1158,       FRAMES.6,SOLAR_CARDS.346,  1.159894e-07   $    0.002505,  0.000587
+        -1159,       FRAMES.6,SOLAR_CARDS.350,  1.279113e-07   $    0.002763,  0.000648
+        -1160,       FRAMES.6,SOLAR_CARDS.354,  2.518623e-07   $    0.005440,  0.001275
+        -1161,       FRAMES.6,SOLAR_CARDS.359,  1.065574e-07   $    0.002302,  0.001079
+        -1162,       FRAMES.6,SOLAR_CARDS.360,  3.023438e-07   $    0.006531,  0.001531
+        -1163,       FRAMES.6,SOLAR_CARDS.367,  5.008797e-08   $    0.001082,  0.000254
+        -1164,       FRAMES.6,SOLAR_CARDS.384,  2.130189e-06   $    0.046012,  0.021568
+        -1165,       FRAMES.6,SOLAR_CARDS.396,  4.814815e-08   $    0.001040,  0.000244
+        -1166,       FRAMES.6,SOLAR_CARDS.404,  8.932355e-08   $    0.001929,  0.000452
+        -1167,       FRAMES.6,SOLAR_CARDS.409,  1.210002e-05   $    0.261360,  0.122513
+        -1168,       FRAMES.6,SOLAR_CARDS.410,  6.751105e-08   $    0.001458,  0.000342
+        -1169,       FRAMES.6,SOLAR_CARDS.434,  2.133891e-06   $    0.046092,  0.021606
+        -1170,       FRAMES.6,SOLAR_CARDS.459,  1.382030e-07   $    0.002985,  0.001399
+        -1171,       FRAMES.7,       FRAMES.8,  3.172825e-07   $    0.006853,  0.006853
+        -1172,       FRAMES.7,      FRAMES.15,  4.667015e-08   $    0.001008,  0.000504
+        -1173,       FRAMES.7,      FRAMES.16,  3.853616e-07   $    0.008324,  0.004162
+        -1174,       FRAMES.7,      FRAMES.17,  9.477118e-07   $    0.020471,  0.010235
+        -1175,       FRAMES.7,      FRAMES.26,  6.505179e-08   $    0.001405,  0.000703
+        -1176,       FRAMES.7,      FRAMES.27,  1.012362e-07   $    0.002187,  0.001093
+        -1177,       FRAMES.7,     FRAMES.220,  3.766673e-07   $    0.008136,  0.004068
+        -1178,       FRAMES.7,     FRAMES.226,  7.205585e-08   $    0.001556,  0.000778
+        -1179,       FRAMES.7,SOLAR_CARDS.298,  6.680016e-08   $    0.001443,  0.000676
+        -1180,       FRAMES.7,SOLAR_CARDS.301,  2.343540e-07   $    0.005062,  0.001186
+        -1181,       FRAMES.7,SOLAR_CARDS.304,  1.481801e-06   $    0.032007,  0.007502
+        -1182,       FRAMES.7,SOLAR_CARDS.307,  5.822328e-06   $    0.125762,  0.029476
+        -1183,       FRAMES.7,SOLAR_CARDS.310,  1.553915e-06   $    0.033565,  0.007867
+        -1184,       FRAMES.7,SOLAR_CARDS.313,  1.306251e-07   $    0.002822,  0.000661
+        -1185,       FRAMES.7,SOLAR_CARDS.317,  5.169013e-08   $    0.001117,  0.000262
+        -1186,       FRAMES.7,SOLAR_CARDS.334,  1.219360e-07   $    0.002634,  0.001235
+        -1187,       FRAMES.7,SOLAR_CARDS.335,  4.722222e-08   $    0.001020,  0.000478
+        -1188,       FRAMES.7,SOLAR_CARDS.342,  8.176775e-08   $    0.001766,  0.000414
+        -1189,       FRAMES.7,SOLAR_CARDS.346,  2.068855e-07   $    0.004469,  0.001047
+        -1190,       FRAMES.7,SOLAR_CARDS.350,  3.883658e-07   $    0.008389,  0.001966
+        -1191,       FRAMES.7,SOLAR_CARDS.354,  1.939174e-07   $    0.004189,  0.000982
+        -1192,       FRAMES.7,SOLAR_CARDS.359,  2.265137e-06   $    0.048927,  0.022935
+        -1193,       FRAMES.7,SOLAR_CARDS.384,  1.186639e-05   $    0.256314,  0.120147
+        -1194,       FRAMES.7,SOLAR_CARDS.392,  7.870371e-08   $    0.001700,  0.000398
+        -1195,       FRAMES.7,SOLAR_CARDS.400,  7.731987e-08   $    0.001670,  0.000391
+        -1196,       FRAMES.7,SOLAR_CARDS.404,  6.461129e-08   $    0.001396,  0.000327
+        -1197,       FRAMES.7,SOLAR_CARDS.409,  2.370409e-06   $    0.051201,  0.024000
+        -1198,       FRAMES.7,SOLAR_CARDS.434,  1.426097e-07   $    0.003080,  0.001444
+        -1199,       FRAMES.7,SOLAR_CARDS.450,  4.629630e-08   $    0.001000,  0.000234
+        -1200,       FRAMES.7,SOLAR_CARDS.500,  5.561439e-08   $    0.001201,  0.000282
+        -1201,       FRAMES.8,       FRAMES.9,  3.624600e-07   $    0.007829,  0.007829
+        -1202,       FRAMES.8,      FRAMES.16,  5.352218e-08   $    0.001156,  0.000578
+        -1203,       FRAMES.8,      FRAMES.17,  3.914971e-07   $    0.008456,  0.004228
+        -1204,       FRAMES.8,      FRAMES.19,  4.094846e-07   $    0.008845,  0.004422
+        -1205,       FRAMES.8,      FRAMES.27,  7.328396e-08   $    0.001583,  0.000791
+        -1206,       FRAMES.8,      FRAMES.29,  5.351723e-08   $    0.001156,  0.000578
+        -1207,       FRAMES.8,     FRAMES.220,  1.016245e-06   $    0.021951,  0.010975
+        -1208,       FRAMES.8,     FRAMES.226,  1.136207e-07   $    0.002454,  0.001227
+        -1209,       FRAMES.8,SOLAR_CARDS.292,  6.327265e-08   $    0.001367,  0.001281
+        -1210,       FRAMES.8,SOLAR_CARDS.298,  7.928821e-08   $    0.001713,  0.000803
+        -1211,       FRAMES.8,SOLAR_CARDS.301,  1.597593e-06   $    0.034508,  0.008088
+        -1212,       FRAMES.8,SOLAR_CARDS.304,  6.251445e-06   $    0.135031,  0.031648
+        -1213,       FRAMES.8,SOLAR_CARDS.307,  1.706086e-06   $    0.036851,  0.008637
+        -1214,       FRAMES.8,SOLAR_CARDS.310,  1.581661e-07   $    0.003416,  0.000801
+        -1215,       FRAMES.8,SOLAR_CARDS.317,  5.954715e-08   $    0.001286,  0.000301
+        -1216,       FRAMES.8,SOLAR_CARDS.334,  2.096446e-06   $    0.045283,  0.021227
+        -1217,       FRAMES.8,SOLAR_CARDS.335,  9.574478e-08   $    0.002068,  0.000969
+        -1218,       FRAMES.8,SOLAR_CARDS.342,  1.832074e-07   $    0.003957,  0.000927
+        -1219,       FRAMES.8,SOLAR_CARDS.346,  3.456860e-07   $    0.007467,  0.001750
+        -1220,       FRAMES.8,SOLAR_CARDS.350,  1.911350e-07   $    0.004129,  0.000968
+        -1221,       FRAMES.8,SOLAR_CARDS.359,  1.169708e-05   $    0.252657,  0.118433
+        -1222,       FRAMES.8,SOLAR_CARDS.384,  2.449573e-06   $    0.052911,  0.024802
+        -1223,       FRAMES.8,SOLAR_CARDS.392,  4.849798e-08   $    0.001048,  0.000246
+        -1224,       FRAMES.8,SOLAR_CARDS.396,  5.286137e-08   $    0.001142,  0.000268
+        -1225,       FRAMES.8,SOLAR_CARDS.409,  7.622105e-08   $    0.001646,  0.000772
+        -1226,       FRAMES.8,SOLAR_CARDS.410,  5.561439e-08   $    0.001201,  0.000282
+        -1227,       FRAMES.9,      FRAMES.10,  2.255284e-07   $    0.004871,  0.009743
+        -1228,       FRAMES.9,      FRAMES.17,  7.224646e-08   $    0.001561,  0.000780
+        -1229,       FRAMES.9,      FRAMES.19,  1.004137e-06   $    0.021689,  0.010845
+        -1230,       FRAMES.9,      FRAMES.29,  1.136210e-07   $    0.002454,  0.001227
+        -1231,       FRAMES.9,     FRAMES.220,  4.032303e-07   $    0.008710,  0.004355
+        -1232,       FRAMES.9,     FRAMES.221,  2.422694e-07   $    0.005233,  0.005233
+        -1233,       FRAMES.9,     FRAMES.226,  8.132022e-08   $    0.001757,  0.000878
+        -1234,       FRAMES.9,SOLAR_CARDS.292,  1.922162e-06   $    0.041519,  0.038924
+        -1235,       FRAMES.9,SOLAR_CARDS.298,  1.228030e-06   $    0.026525,  0.012434
+        -1236,       FRAMES.9,SOLAR_CARDS.301,  6.032958e-06   $    0.130312,  0.030542
+        -1237,       FRAMES.9,SOLAR_CARDS.304,  1.673285e-06   $    0.036143,  0.008471
+        -1238,       FRAMES.9,SOLAR_CARDS.307,  2.327938e-07   $    0.005028,  0.001179
+        -1239,       FRAMES.9,SOLAR_CARDS.334,  1.207937e-05   $    0.260914,  0.122304
+        -1240,       FRAMES.9,SOLAR_CARDS.335,  8.256269e-08   $    0.001783,  0.000836
+        -1241,       FRAMES.9,SOLAR_CARDS.342,  3.077918e-07   $    0.006648,  0.001558
+        -1242,       FRAMES.9,SOLAR_CARDS.346,  2.213247e-07   $    0.004781,  0.001120
+        -1243,       FRAMES.9,SOLAR_CARDS.350,  6.826506e-08   $    0.001475,  0.000346
+        -1244,       FRAMES.9,SOLAR_CARDS.359,  2.339822e-06   $    0.050540,  0.023691
+        -1245,       FRAMES.9,SOLAR_CARDS.384,  1.602142e-07   $    0.003461,  0.001622
+        -1246,       FRAMES.9,SOLAR_CARDS.385,  5.781714e-08   $    0.001249,  0.000585
+        -1247,       FRAMES.9,SOLAR_CARDS.392,  4.991143e-08   $    0.001078,  0.000253
+        -1248,       FRAMES.9,SOLAR_CARDS.450,  5.561439e-08   $    0.001201,  0.000282
+        -1249,      FRAMES.10,      FRAMES.19,  2.646096e-07   $    0.011431,  0.002858
+        -1250,      FRAMES.10,      FRAMES.29,  4.358213e-08   $    0.001883,  0.000471
+        -1251,      FRAMES.10,     FRAMES.220,  3.396044e-08   $    0.001467,  0.000367
+        -1252,      FRAMES.10,     FRAMES.221,  2.397576e-07   $    0.010358,  0.005179
+        -1253,      FRAMES.10,     FRAMES.227,  2.819774e-08   $    0.001218,  0.000609
+        -1254,      FRAMES.10,SOLAR_CARDS.292,  4.320769e-06   $    0.186657,  0.087496
+        -1255,      FRAMES.10,SOLAR_CARDS.298,  1.827735e-06   $    0.078958,  0.018506
+        -1256,      FRAMES.10,SOLAR_CARDS.301,  1.377749e-06   $    0.059519,  0.006975
+        -1257,      FRAMES.10,SOLAR_CARDS.304,  8.073028e-08   $    0.003488,  0.000409
+        -1258,      FRAMES.10,SOLAR_CARDS.307,  3.586167e-08   $    0.001549,  0.000182
+        -1259,      FRAMES.10,SOLAR_CARDS.334,  1.724443e-06   $    0.074496,  0.017460
+        -1260,      FRAMES.10,SOLAR_CARDS.335,  1.046398e-07   $    0.004520,  0.001059
+        -1261,      FRAMES.10,SOLAR_CARDS.342,  6.140180e-08   $    0.002653,  0.000311
+        -1262,      FRAMES.10,SOLAR_CARDS.346,  8.040443e-08   $    0.003473,  0.000407
+        -1263,      FRAMES.10,SOLAR_CARDS.350,  5.239809e-08   $    0.002264,  0.000265
+        -1264,      FRAMES.10,SOLAR_CARDS.359,  8.874638e-08   $    0.003834,  0.000899
+        -1265,      FRAMES.10,SOLAR_CARDS.385,  3.049948e-08   $    0.001318,  0.000309
+        -1266,      FRAMES.10,SOLAR_CARDS.392,  2.947285e-08   $    0.001273,  0.000149
+        -1267,      FRAMES.11,      FRAMES.12,  9.976213e-07   $    0.021549,  0.010774
+        -1268,      FRAMES.11,      FRAMES.13,  9.632373e-08   $    0.002081,  0.001040
+        -1269,      FRAMES.11,      FRAMES.21,  3.640500e-07   $    0.007863,  0.007863
+        -1270,      FRAMES.11,      FRAMES.22,  3.483121e-07   $    0.007524,  0.003762
+        -1271,      FRAMES.11,      FRAMES.32,  7.167230e-08   $    0.001548,  0.000774
+        -1272,      FRAMES.11,     FRAMES.223,  7.099808e-08   $    0.001534,  0.000767
+        -1273,      FRAMES.11,SOLAR_CARDS.295,  1.837369e-06   $    0.039687,  0.037207
+        -1274,      FRAMES.11,SOLAR_CARDS.317,  1.156135e-07   $    0.002497,  0.000585
+        -1275,      FRAMES.11,SOLAR_CARDS.321,  2.663157e-07   $    0.005752,  0.001348
+        -1276,      FRAMES.11,SOLAR_CARDS.325,  5.957496e-06   $    0.128682,  0.030160
+        -1277,      FRAMES.11,SOLAR_CARDS.329,  1.208270e-05   $    0.260986,  0.122337
+        -1278,      FRAMES.11,SOLAR_CARDS.371,  1.832305e-07   $    0.003958,  0.000928
+        -1279,      FRAMES.11,SOLAR_CARDS.375,  1.584659e-06   $    0.034229,  0.008022
+        -1280,      FRAMES.11,SOLAR_CARDS.379,  2.430599e-06   $    0.052501,  0.024610
+        -1281,      FRAMES.11,SOLAR_CARDS.421,  6.606057e-08   $    0.001427,  0.000334
+        -1282,      FRAMES.11,SOLAR_CARDS.425,  1.722515e-07   $    0.003721,  0.000872
+        -1283,      FRAMES.11,SOLAR_CARDS.429,  1.001324e-07   $    0.002163,  0.001014
+        -1284,      FRAMES.11,SOLAR_CARDS.459,  6.115493e-08   $    0.001321,  0.000619
+        -1285,      FRAMES.11,SOLAR_CARDS.484,  1.181890e-07   $    0.002553,  0.001197
+        -1286,      FRAMES.11,SOLAR_CARDS.509,  1.285481e-06   $    0.027766,  0.013015
+        -1287,      FRAMES.12,      FRAMES.13,  1.415845e-06   $    0.015291,  0.015291
+        -1288,      FRAMES.12,      FRAMES.14,  1.657061e-07   $    0.001790,  0.001790
+        -1289,      FRAMES.12,      FRAMES.21,  3.776983e-07   $    0.004079,  0.008158
+        -1290,      FRAMES.12,      FRAMES.22,  1.465913e-06   $    0.015832,  0.015832
+        -1291,      FRAMES.12,      FRAMES.24,  9.502601e-08   $    0.001026,  0.001026
+        -1292,      FRAMES.12,      FRAMES.31,  6.669285e-08   $    0.000720,  0.001441
+        -1293,      FRAMES.12,      FRAMES.32,  1.583888e-07   $    0.001711,  0.001711
+        -1294,      FRAMES.12,     FRAMES.223,  5.772741e-07   $    0.006235,  0.006235
+        -1295,      FRAMES.12,     FRAMES.229,  1.185475e-07   $    0.001280,  0.001280
+        -1296,      FRAMES.12,SOLAR_CARDS.295,  1.205222e-06   $    0.013016,  0.024406
+        -1297,      FRAMES.12,SOLAR_CARDS.313,  1.039672e-07   $    0.001123,  0.000526
+        -1298,      FRAMES.12,SOLAR_CARDS.317,  5.258872e-07   $    0.005680,  0.002662
+        -1299,      FRAMES.12,SOLAR_CARDS.321,  7.360740e-06   $    0.079496,  0.037264
+        -1300,      FRAMES.12,SOLAR_CARDS.325,  3.447922e-05   $    0.372376,  0.174551
+        -1301,      FRAMES.12,SOLAR_CARDS.329,  5.764726e-06   $    0.062259,  0.058368
+        -1302,      FRAMES.12,SOLAR_CARDS.367,  2.236635e-07   $    0.002416,  0.001132
+        -1303,      FRAMES.12,SOLAR_CARDS.371,  2.176121e-06   $    0.023502,  0.011017
+        -1304,      FRAMES.12,SOLAR_CARDS.375,  6.759774e-06   $    0.073006,  0.034221
+        -1305,      FRAMES.12,SOLAR_CARDS.379,  1.712783e-06   $    0.018498,  0.017342
+        -1306,      FRAMES.12,SOLAR_CARDS.404,  1.187020e-07   $    0.001282,  0.000601
+        -1307,      FRAMES.12,SOLAR_CARDS.421,  1.769414e-07   $    0.001911,  0.000896
+        -1308,      FRAMES.12,SOLAR_CARDS.425,  4.346524e-07   $    0.004694,  0.002200
+        -1309,      FRAMES.12,SOLAR_CARDS.429,  2.443198e-07   $    0.002639,  0.002474
+        -1310,      FRAMES.12,SOLAR_CARDS.459,  1.022718e-07   $    0.001105,  0.001036
+        -1311,      FRAMES.12,SOLAR_CARDS.471,  9.486966e-08   $    0.001025,  0.000480
+        -1312,      FRAMES.12,SOLAR_CARDS.475,  1.088124e-07   $    0.001175,  0.000551
+        -1313,      FRAMES.12,SOLAR_CARDS.484,  1.477363e-06   $    0.015956,  0.014958
+        -1314,      FRAMES.12,SOLAR_CARDS.509,  6.305994e-06   $    0.068105,  0.063848
+        -1315,      FRAMES.12,SOLAR_CARDS.525,  9.629630e-08   $    0.001040,  0.000487
+        -1316,      FRAMES.13,      FRAMES.14,  1.365070e-06   $    0.014743,  0.014743
+        -1317,      FRAMES.13,      FRAMES.15,  1.929620e-07   $    0.002084,  0.002084
+        -1318,      FRAMES.13,      FRAMES.21,  8.104154e-08   $    0.000875,  0.001750
+        -1319,      FRAMES.13,      FRAMES.22,  6.632136e-07   $    0.007163,  0.007163
+        -1320,      FRAMES.13,      FRAMES.24,  5.981713e-07   $    0.006460,  0.006460
+        -1321,      FRAMES.13,      FRAMES.34,  1.046567e-07   $    0.001130,  0.001130
+        -1322,      FRAMES.13,     FRAMES.223,  1.457109e-06   $    0.015737,  0.015737
+        -1323,      FRAMES.13,     FRAMES.224,  1.206271e-07   $    0.001303,  0.001303
+        -1324,      FRAMES.13,     FRAMES.229,  1.773290e-07   $    0.001915,  0.001915
+        -1325,      FRAMES.13,SOLAR_CARDS.295,  1.087445e-07   $    0.001174,  0.002202
+        -1326,      FRAMES.13,SOLAR_CARDS.313,  4.474213e-07   $    0.004832,  0.002265
+        -1327,      FRAMES.13,SOLAR_CARDS.317,  6.952111e-06   $    0.075083,  0.035195
+        -1328,      FRAMES.13,SOLAR_CARDS.321,  3.305318e-05   $    0.356974,  0.167332
+        -1329,      FRAMES.13,SOLAR_CARDS.325,  7.203974e-06   $    0.077803,  0.036470
+        -1330,      FRAMES.13,SOLAR_CARDS.329,  2.944939e-07   $    0.003181,  0.002982
+        -1331,      FRAMES.13,SOLAR_CARDS.354,  1.125434e-07   $    0.001215,  0.000570
+        -1332,      FRAMES.13,SOLAR_CARDS.360,  3.713473e-07   $    0.004011,  0.001880
+        -1333,      FRAMES.13,SOLAR_CARDS.367,  2.418295e-06   $    0.026118,  0.012243
+        -1334,      FRAMES.13,SOLAR_CARDS.371,  7.678271e-06   $    0.082925,  0.038871
+        -1335,      FRAMES.13,SOLAR_CARDS.375,  1.978406e-06   $    0.021367,  0.010016
+        -1336,      FRAMES.13,SOLAR_CARDS.379,  1.410853e-07   $    0.001524,  0.001428
+        -1337,      FRAMES.13,SOLAR_CARDS.410,  1.938810e-07   $    0.002094,  0.000982
+        -1338,      FRAMES.13,SOLAR_CARDS.417,  3.643855e-07   $    0.003935,  0.001845
+        -1339,      FRAMES.13,SOLAR_CARDS.421,  4.158194e-07   $    0.004491,  0.002105
+        -1340,      FRAMES.13,SOLAR_CARDS.425,  3.370567e-07   $    0.003640,  0.001706
+        -1341,      FRAMES.13,SOLAR_CARDS.434,  1.305550e-07   $    0.001410,  0.001322
+        -1342,      FRAMES.13,SOLAR_CARDS.459,  1.772695e-06   $    0.019145,  0.017949
+        -1343,      FRAMES.13,SOLAR_CARDS.460,  9.478457e-08   $    0.001024,  0.000480
+        -1344,      FRAMES.13,SOLAR_CARDS.484,  5.806510e-06   $    0.062710,  0.058791
+        -1345,      FRAMES.13,SOLAR_CARDS.509,  1.416729e-06   $    0.015301,  0.014344
+        -1346,      FRAMES.14,      FRAMES.15,  1.573365e-06   $    0.016992,  0.016992
+        -1347,      FRAMES.14,      FRAMES.16,  1.824092e-07   $    0.001970,  0.001970
+        -1348,      FRAMES.14,      FRAMES.22,  1.347606e-07   $    0.001455,  0.001455
+        -1349,      FRAMES.14,      FRAMES.24,  1.381052e-06   $    0.014915,  0.014915
+        -1350,      FRAMES.14,      FRAMES.26,  1.259259e-07   $    0.001360,  0.001360
+        -1351,      FRAMES.14,      FRAMES.34,  1.797245e-07   $    0.001941,  0.001941
+        -1352,      FRAMES.14,     FRAMES.223,  5.585944e-07   $    0.006033,  0.006033
+        -1353,      FRAMES.14,     FRAMES.224,  5.967652e-07   $    0.006445,  0.006445
+        -1354,      FRAMES.14,     FRAMES.229,  1.012359e-07   $    0.001093,  0.001093
+        -1355,      FRAMES.14,     FRAMES.230,  9.977333e-08   $    0.001078,  0.001078
+        -1356,      FRAMES.14,SOLAR_CARDS.307,  1.022488e-07   $    0.001104,  0.000518
+        -1357,      FRAMES.14,SOLAR_CARDS.310,  3.350465e-07   $    0.003619,  0.001696
+        -1358,      FRAMES.14,SOLAR_CARDS.313,  6.608310e-06   $    0.071370,  0.033455
+        -1359,      FRAMES.14,SOLAR_CARDS.317,  3.501477e-05   $    0.378160,  0.177262
+        -1360,      FRAMES.14,SOLAR_CARDS.321,  6.656924e-06   $    0.071895,  0.033701
+        -1361,      FRAMES.14,SOLAR_CARDS.325,  4.269428e-07   $    0.004611,  0.002161
+        -1362,      FRAMES.14,SOLAR_CARDS.354,  3.429544e-07   $    0.003704,  0.001736
+        -1363,      FRAMES.14,SOLAR_CARDS.360,  2.280227e-06   $    0.024626,  0.011544
+        -1364,      FRAMES.14,SOLAR_CARDS.367,  7.534512e-06   $    0.081373,  0.038143
+        -1365,      FRAMES.14,SOLAR_CARDS.371,  2.008075e-06   $    0.021687,  0.010166
+        -1366,      FRAMES.14,SOLAR_CARDS.375,  3.065445e-07   $    0.003311,  0.001552
+        -1367,      FRAMES.14,SOLAR_CARDS.379,  1.059688e-07   $    0.001144,  0.001073
+        -1368,      FRAMES.14,SOLAR_CARDS.409,  2.195021e-07   $    0.002371,  0.002222
+        -1369,      FRAMES.14,SOLAR_CARDS.410,  2.144433e-07   $    0.002316,  0.001086
+        -1370,      FRAMES.14,SOLAR_CARDS.417,  4.993158e-07   $    0.005393,  0.002528
+        -1371,      FRAMES.14,SOLAR_CARDS.421,  2.800860e-07   $    0.003025,  0.001418
+        -1372,      FRAMES.14,SOLAR_CARDS.434,  1.728536e-06   $    0.018668,  0.017501
+        -1373,      FRAMES.14,SOLAR_CARDS.459,  6.268964e-06   $    0.067705,  0.063473
+        -1374,      FRAMES.14,SOLAR_CARDS.484,  1.611033e-06   $    0.017399,  0.016312
+        -1375,      FRAMES.14,SOLAR_CARDS.509,  1.275032e-07   $    0.001377,  0.001291
+        -1376,      FRAMES.15,      FRAMES.16,  1.419524e-06   $    0.015331,  0.015331
+        -1377,      FRAMES.15,      FRAMES.17,  1.589017e-07   $    0.001716,  0.001716
+        -1378,      FRAMES.15,      FRAMES.24,  5.557224e-07   $    0.006002,  0.006002
+        -1379,      FRAMES.15,      FRAMES.26,  5.962762e-07   $    0.006440,  0.006440
+        -1380,      FRAMES.15,      FRAMES.27,  1.046378e-07   $    0.001130,  0.001130
+        -1381,      FRAMES.15,      FRAMES.34,  1.361679e-07   $    0.001471,  0.001471
+        -1382,      FRAMES.15,      FRAMES.36,  1.118836e-07   $    0.001208,  0.001208
+        -1383,      FRAMES.15,     FRAMES.224,  1.328539e-06   $    0.014348,  0.014348
+        -1384,      FRAMES.15,     FRAMES.230,  1.342215e-07   $    0.001450,  0.001450
+        -1385,      FRAMES.15,SOLAR_CARDS.304,  1.450673e-07   $    0.001567,  0.000734
+        -1386,      FRAMES.15,SOLAR_CARDS.307,  4.381458e-07   $    0.004732,  0.002218
+        -1387,      FRAMES.15,SOLAR_CARDS.310,  7.081461e-06   $    0.076480,  0.035850
+        -1388,      FRAMES.15,SOLAR_CARDS.313,  3.445592e-05   $    0.372124,  0.174433
+        -1389,      FRAMES.15,SOLAR_CARDS.317,  7.663201e-06   $    0.082763,  0.038795
+        -1390,      FRAMES.15,SOLAR_CARDS.321,  5.892269e-07   $    0.006364,  0.002983
+        -1391,      FRAMES.15,SOLAR_CARDS.350,  2.955905e-07   $    0.003192,  0.001496
+        -1392,      FRAMES.15,SOLAR_CARDS.354,  2.122239e-06   $    0.022920,  0.010744
+        -1393,      FRAMES.15,SOLAR_CARDS.360,  7.574720e-06   $    0.081807,  0.038347
+        -1394,      FRAMES.15,SOLAR_CARDS.367,  2.332376e-06   $    0.025190,  0.011808
+        -1395,      FRAMES.15,SOLAR_CARDS.384,  1.406172e-07   $    0.001519,  0.001424
+        -1396,      FRAMES.15,SOLAR_CARDS.404,  2.329885e-07   $    0.002516,  0.001180
+        -1397,      FRAMES.15,SOLAR_CARDS.409,  1.626981e-06   $    0.017571,  0.016473
+        -1398,      FRAMES.15,SOLAR_CARDS.410,  2.763639e-07   $    0.002985,  0.001399
+        -1399,      FRAMES.15,SOLAR_CARDS.417,  2.165027e-07   $    0.002338,  0.001096
+        -1400,      FRAMES.15,SOLAR_CARDS.434,  5.193485e-06   $    0.056090,  0.052584
+        -1401,      FRAMES.15,SOLAR_CARDS.459,  1.795660e-06   $    0.019393,  0.018181
+        -1402,      FRAMES.15,SOLAR_CARDS.484,  1.128229e-07   $    0.001218,  0.001142
+        -1403,      FRAMES.16,      FRAMES.17,  1.247068e-06   $    0.013468,  0.013468
+        -1404,      FRAMES.16,      FRAMES.24,  1.390670e-07   $    0.001502,  0.001502
+        -1405,      FRAMES.16,      FRAMES.26,  1.458270e-06   $    0.015749,  0.015749
+        -1406,      FRAMES.16,      FRAMES.27,  6.260778e-07   $    0.006762,  0.006762
+        -1407,      FRAMES.16,      FRAMES.36,  2.185863e-07   $    0.002361,  0.002361
+        -1408,      FRAMES.16,      FRAMES.37,  1.058224e-07   $    0.001143,  0.001143
+        -1409,      FRAMES.16,     FRAMES.220,  1.179503e-07   $    0.001274,  0.001274
+        -1410,      FRAMES.16,     FRAMES.224,  6.068016e-07   $    0.006553,  0.006553
+        -1411,      FRAMES.16,     FRAMES.226,  1.232883e-07   $    0.001332,  0.001332
+        -1412,      FRAMES.16,     FRAMES.230,  1.208652e-07   $    0.001305,  0.001305
+        -1413,      FRAMES.16,SOLAR_CARDS.304,  3.871140e-07   $    0.004181,  0.001960
+        -1414,      FRAMES.16,SOLAR_CARDS.307,  7.112274e-06   $    0.076813,  0.036006
+        -1415,      FRAMES.16,SOLAR_CARDS.310,  3.355018e-05   $    0.362342,  0.169848
+        -1416,      FRAMES.16,SOLAR_CARDS.313,  7.104829e-06   $    0.076732,  0.035968
+        -1417,      FRAMES.16,SOLAR_CARDS.317,  3.376485e-07   $    0.003647,  0.001709
+        -1418,      FRAMES.16,SOLAR_CARDS.342,  1.092814e-07   $    0.001180,  0.000553
+        -1419,      FRAMES.16,SOLAR_CARDS.346,  3.216759e-07   $    0.003474,  0.001628
+        -1420,      FRAMES.16,SOLAR_CARDS.350,  2.162969e-06   $    0.023360,  0.010950
+        -1421,      FRAMES.16,SOLAR_CARDS.354,  7.312796e-06   $    0.078978,  0.037021
+        -1422,      FRAMES.16,SOLAR_CARDS.359,  1.703155e-07   $    0.001839,  0.001724
+        -1423,      FRAMES.16,SOLAR_CARDS.360,  2.065635e-06   $    0.022309,  0.010457
+        -1424,      FRAMES.16,SOLAR_CARDS.367,  3.743776e-07   $    0.004043,  0.001895
+        -1425,      FRAMES.16,SOLAR_CARDS.371,  2.259771e-07   $    0.002441,  0.001144
+        -1426,      FRAMES.16,SOLAR_CARDS.384,  1.290403e-06   $    0.013936,  0.013065
+        -1427,      FRAMES.16,SOLAR_CARDS.396,  1.122814e-07   $    0.001213,  0.000568
+        -1428,      FRAMES.16,SOLAR_CARDS.400,  2.894157e-07   $    0.003126,  0.001465
+        -1429,      FRAMES.16,SOLAR_CARDS.404,  4.809413e-07   $    0.005194,  0.002435
+        -1430,      FRAMES.16,SOLAR_CARDS.409,  6.140502e-06   $    0.066317,  0.062173
+        -1431,      FRAMES.16,SOLAR_CARDS.410,  2.136967e-07   $    0.002308,  0.001082
+        -1432,      FRAMES.16,SOLAR_CARDS.421,  9.270589e-08   $    0.001001,  0.000469
+        -1433,      FRAMES.16,SOLAR_CARDS.434,  1.530582e-06   $    0.016530,  0.015497
+        -1434,      FRAMES.16,SOLAR_CARDS.450,  1.105094e-07   $    0.001194,  0.000559
+        -1435,      FRAMES.16,SOLAR_CARDS.454,  9.887172e-08   $    0.001068,  0.000501
+        -1436,      FRAMES.16,SOLAR_CARDS.459,  1.242222e-07   $    0.001342,  0.001258
+        -1437,      FRAMES.16,SOLAR_CARDS.467,  1.000000e-07   $    0.001080,  0.000506
+        -1438,      FRAMES.17,      FRAMES.19,  1.624664e-07   $    0.001755,  0.001755
+        -1439,      FRAMES.17,      FRAMES.26,  6.241323e-07   $    0.006741,  0.006741
+        -1440,      FRAMES.17,      FRAMES.27,  1.380755e-06   $    0.014912,  0.014912
+        -1441,      FRAMES.17,      FRAMES.29,  1.026220e-07   $    0.001108,  0.001108
+        -1442,      FRAMES.17,      FRAMES.36,  1.052941e-07   $    0.001137,  0.001137
+        -1443,      FRAMES.17,      FRAMES.37,  1.698233e-07   $    0.001834,  0.001834
+        -1444,      FRAMES.17,     FRAMES.220,  1.440654e-06   $    0.015559,  0.015559
+        -1445,      FRAMES.17,     FRAMES.224,  1.184181e-07   $    0.001279,  0.001279
+        -1446,      FRAMES.17,     FRAMES.226,  5.944312e-07   $    0.006420,  0.006420
+        -1447,      FRAMES.17,     FRAMES.232,  1.171052e-07   $    0.001265,  0.001265
+        -1448,      FRAMES.17,SOLAR_CARDS.301,  3.832971e-07   $    0.004140,  0.001940
+        -1449,      FRAMES.17,SOLAR_CARDS.304,  6.989114e-06   $    0.075482,  0.035382
+        -1450,      FRAMES.17,SOLAR_CARDS.307,  3.416080e-05   $    0.368937,  0.172939
+        -1451,      FRAMES.17,SOLAR_CARDS.310,  7.175076e-06   $    0.077491,  0.036324
+        -1452,      FRAMES.17,SOLAR_CARDS.313,  5.866931e-07   $    0.006336,  0.002970
+        -1453,      FRAMES.17,SOLAR_CARDS.317,  1.296296e-07   $    0.001400,  0.000656
+        -1454,      FRAMES.17,SOLAR_CARDS.334,  1.774532e-07   $    0.001916,  0.001797
+        -1455,      FRAMES.17,SOLAR_CARDS.342,  2.254207e-07   $    0.002435,  0.001141
+        -1456,      FRAMES.17,SOLAR_CARDS.346,  1.926915e-06   $    0.020811,  0.009755
+        -1457,      FRAMES.17,SOLAR_CARDS.350,  7.098275e-06   $    0.076661,  0.035935
+        -1458,      FRAMES.17,SOLAR_CARDS.354,  2.358313e-06   $    0.025470,  0.011939
+        -1459,      FRAMES.17,SOLAR_CARDS.359,  1.812493e-06   $    0.019575,  0.018351
+        -1460,      FRAMES.17,SOLAR_CARDS.360,  2.881544e-07   $    0.003112,  0.001459
+        -1461,      FRAMES.17,SOLAR_CARDS.384,  5.773203e-06   $    0.062351,  0.058454
+        -1462,      FRAMES.17,SOLAR_CARDS.392,  1.009130e-07   $    0.001090,  0.000511
+        -1463,      FRAMES.17,SOLAR_CARDS.396,  4.776356e-07   $    0.005158,  0.002418
+        -1464,      FRAMES.17,SOLAR_CARDS.400,  4.435350e-07   $    0.004790,  0.002245
+        -1465,      FRAMES.17,SOLAR_CARDS.404,  2.713516e-07   $    0.002931,  0.001374
+        -1466,      FRAMES.17,SOLAR_CARDS.409,  1.786385e-06   $    0.019293,  0.018087
+        -1467,      FRAMES.17,SOLAR_CARDS.410,  1.022488e-07   $    0.001104,  0.000518
+        -1468,      FRAMES.17,SOLAR_CARDS.417,  9.713271e-08   $    0.001049,  0.000492
+        -1469,      FRAMES.17,SOLAR_CARDS.421,  1.779046e-07   $    0.001921,  0.000901
+        -1470,      FRAMES.17,SOLAR_CARDS.434,  1.988808e-07   $    0.002148,  0.002014
+        -1471,      FRAMES.17,SOLAR_CARDS.450,  1.248571e-07   $    0.001348,  0.000632
+        -1472,      FRAMES.19,      FRAMES.29,  1.464509e-06   $    0.015817,  0.015817
+        -1473,      FRAMES.19,      FRAMES.39,  2.090645e-07   $    0.002258,  0.002258
+        -1474,      FRAMES.19,     FRAMES.220,  1.412792e-06   $    0.015258,  0.015258
+        -1475,      FRAMES.19,     FRAMES.221,  9.795372e-07   $    0.010579,  0.021158
+        -1476,      FRAMES.19,     FRAMES.226,  5.898865e-07   $    0.006371,  0.006371
+        -1477,      FRAMES.19,     FRAMES.227,  4.379796e-07   $    0.004730,  0.009460
+        -1478,      FRAMES.19,     FRAMES.232,  1.040590e-07   $    0.001124,  0.001124
+        -1479,      FRAMES.19,     FRAMES.233,  8.141892e-08   $    0.000879,  0.001759
+        -1480,      FRAMES.19,SOLAR_CARDS.292,  1.246427e-06   $    0.013461,  0.025240
+        -1481,      FRAMES.19,SOLAR_CARDS.298,  5.896644e-06   $    0.063684,  0.059704
+        -1482,      FRAMES.19,SOLAR_CARDS.301,  3.421220e-05   $    0.369492,  0.173199
+        -1483,      FRAMES.19,SOLAR_CARDS.304,  6.960214e-06   $    0.075170,  0.035236
+        -1484,      FRAMES.19,SOLAR_CARDS.307,  3.612164e-07   $    0.003901,  0.001829
+        -1485,      FRAMES.19,SOLAR_CARDS.310,  1.532261e-07   $    0.001655,  0.000776
+        -1486,      FRAMES.19,SOLAR_CARDS.334,  5.901019e-06   $    0.063731,  0.059748
+        -1487,      FRAMES.19,SOLAR_CARDS.335,  1.632025e-06   $    0.017626,  0.016524
+        -1488,      FRAMES.19,SOLAR_CARDS.342,  7.499816e-06   $    0.080998,  0.037968
+        -1489,      FRAMES.19,SOLAR_CARDS.346,  2.064141e-06   $    0.022293,  0.010450
+        -1490,      FRAMES.19,SOLAR_CARDS.350,  2.058754e-07   $    0.002223,  0.001042
+        -1491,      FRAMES.19,SOLAR_CARDS.359,  1.712695e-06   $    0.018497,  0.017341
+        -1492,      FRAMES.19,SOLAR_CARDS.384,  2.096450e-07   $    0.002264,  0.002123
+        -1493,      FRAMES.19,SOLAR_CARDS.385,  1.767852e-07   $    0.001909,  0.001790
+        -1494,      FRAMES.19,SOLAR_CARDS.392,  4.014359e-07   $    0.004336,  0.002032
+        -1495,      FRAMES.19,SOLAR_CARDS.396,  3.068460e-07   $    0.003314,  0.001553
+        -1496,      FRAMES.19,SOLAR_CARDS.400,  1.190196e-07   $    0.001285,  0.000603
+        -1497,      FRAMES.21,      FRAMES.22,  9.889973e-07   $    0.021362,  0.010681
+        -1498,      FRAMES.21,      FRAMES.31,  3.221651e-07   $    0.006959,  0.006959
+        -1499,      FRAMES.21,      FRAMES.32,  4.242134e-07   $    0.009163,  0.004582
+        -1500,      FRAMES.21,      FRAMES.42,  7.237552e-08   $    0.001563,  0.000782
+        -1501,      FRAMES.21,     FRAMES.223,  1.220022e-07   $    0.002635,  0.001318
+        -1502,      FRAMES.21,     FRAMES.229,  5.308989e-08   $    0.001147,  0.000573
+        -1503,      FRAMES.21,SOLAR_CARDS.295,  9.723164e-08   $    0.002100,  0.001969
+        -1504,      FRAMES.21,SOLAR_CARDS.321,  1.241982e-07   $    0.002683,  0.000629
+        -1505,      FRAMES.21,SOLAR_CARDS.325,  1.585256e-06   $    0.034242,  0.008025
+        -1506,      FRAMES.21,SOLAR_CARDS.329,  2.332411e-06   $    0.050380,  0.023616
+        -1507,      FRAMES.21,SOLAR_CARDS.367,  5.277778e-08   $    0.001140,  0.000267
+        -1508,      FRAMES.21,SOLAR_CARDS.371,  3.143018e-07   $    0.006789,  0.001591
+        -1509,      FRAMES.21,SOLAR_CARDS.375,  5.511922e-06   $    0.119058,  0.027904
+        -1510,      FRAMES.21,SOLAR_CARDS.379,  1.242952e-05   $    0.268478,  0.125849
+        -1511,      FRAMES.21,SOLAR_CARDS.421,  1.564843e-07   $    0.003380,  0.000792
+        -1512,      FRAMES.21,SOLAR_CARDS.425,  1.667844e-06   $    0.036025,  0.008443
+        -1513,      FRAMES.21,SOLAR_CARDS.429,  2.661238e-06   $    0.057483,  0.026945
+        -1514,      FRAMES.21,SOLAR_CARDS.459,  6.156826e-08   $    0.001330,  0.000623
+        -1515,      FRAMES.21,SOLAR_CARDS.471,  4.651795e-08   $    0.001005,  0.000235
+        -1516,      FRAMES.21,SOLAR_CARDS.475,  1.137115e-07   $    0.002456,  0.000576
+        -1517,      FRAMES.21,SOLAR_CARDS.479,  9.698587e-08   $    0.002095,  0.000982
+        -1518,      FRAMES.21,SOLAR_CARDS.509,  1.289102e-07   $    0.002784,  0.001305
+        -1519,      FRAMES.21,SOLAR_CARDS.521,  5.639401e-08   $    0.001218,  0.000285
+        -1520,      FRAMES.21,SOLAR_CARDS.525,  4.888889e-08   $    0.001056,  0.000247
+        -1521,      FRAMES.22,      FRAMES.24,  1.653496e-07   $    0.001786,  0.001786
+        -1522,      FRAMES.22,      FRAMES.31,  3.554161e-07   $    0.003838,  0.007677
+        -1523,      FRAMES.22,      FRAMES.32,  1.356259e-06   $    0.014648,  0.014648
+        -1524,      FRAMES.22,      FRAMES.34,  1.185502e-07   $    0.001280,  0.001280
+        -1525,      FRAMES.22,      FRAMES.41,  5.687231e-08   $    0.000614,  0.001228
+        -1526,      FRAMES.22,      FRAMES.42,  1.769037e-07   $    0.001911,  0.001911
+        -1527,      FRAMES.22,     FRAMES.223,  1.439076e-06   $    0.015542,  0.015542
+        -1528,      FRAMES.22,     FRAMES.229,  6.550012e-07   $    0.007074,  0.007074
+        -1529,      FRAMES.22,     FRAMES.235,  1.106231e-07   $    0.001195,  0.001195
+        -1530,      FRAMES.22,SOLAR_CARDS.295,  1.010260e-07   $    0.001091,  0.002046
+        -1531,      FRAMES.22,SOLAR_CARDS.313,  9.788914e-08   $    0.001057,  0.000496
+        -1532,      FRAMES.22,SOLAR_CARDS.317,  3.081511e-07   $    0.003328,  0.001560
+        -1533,      FRAMES.22,SOLAR_CARDS.321,  2.565618e-06   $    0.027709,  0.012988
+        -1534,      FRAMES.22,SOLAR_CARDS.325,  7.302789e-06   $    0.078870,  0.036970
+        -1535,      FRAMES.22,SOLAR_CARDS.329,  1.775989e-06   $    0.019181,  0.017982
+        -1536,      FRAMES.22,SOLAR_CARDS.360,  9.471067e-08   $    0.001023,  0.000479
+        -1537,      FRAMES.22,SOLAR_CARDS.367,  4.081741e-07   $    0.004408,  0.002066
+        -1538,      FRAMES.22,SOLAR_CARDS.371,  7.362290e-06   $    0.079513,  0.037272
+        -1539,      FRAMES.22,SOLAR_CARDS.375,  3.384454e-05   $    0.365521,  0.171338
+        -1540,      FRAMES.22,SOLAR_CARDS.379,  5.937555e-06   $    0.064126,  0.060118
+        -1541,      FRAMES.22,SOLAR_CARDS.417,  2.635983e-07   $    0.002847,  0.001334
+        -1542,      FRAMES.22,SOLAR_CARDS.421,  2.434982e-06   $    0.026298,  0.012327
+        -1543,      FRAMES.22,SOLAR_CARDS.425,  6.836972e-06   $    0.073839,  0.034612
+        -1544,      FRAMES.22,SOLAR_CARDS.429,  1.760499e-06   $    0.019013,  0.017825
+        -1545,      FRAMES.22,SOLAR_CARDS.471,  2.415756e-07   $    0.002609,  0.001223
+        -1546,      FRAMES.22,SOLAR_CARDS.475,  4.433006e-07   $    0.004788,  0.002244
+        -1547,      FRAMES.22,SOLAR_CARDS.479,  2.457080e-07   $    0.002654,  0.002488
+        -1548,      FRAMES.22,SOLAR_CARDS.484,  1.720397e-07   $    0.001858,  0.001742
+        -1549,      FRAMES.22,SOLAR_CARDS.509,  3.234233e-07   $    0.003493,  0.003275
+        -1550,      FRAMES.22,SOLAR_CARDS.517,  1.093255e-07   $    0.001181,  0.000553
+        -1551,      FRAMES.22,SOLAR_CARDS.525,  9.864198e-08   $    0.001065,  0.000499
+        -1552,      FRAMES.24,      FRAMES.26,  1.358955e-07   $    0.001468,  0.001468
+        -1553,      FRAMES.24,      FRAMES.32,  9.977575e-08   $    0.001078,  0.001078
+        -1554,      FRAMES.24,      FRAMES.34,  1.322297e-06   $    0.014281,  0.014281
+        -1555,      FRAMES.24,      FRAMES.44,  1.809409e-07   $    0.001954,  0.001954
+        -1556,      FRAMES.24,     FRAMES.223,  1.417967e-06   $    0.015314,  0.015314
+        -1557,      FRAMES.24,     FRAMES.224,  1.440474e-06   $    0.015557,  0.015557
+        -1558,      FRAMES.24,     FRAMES.229,  5.736995e-07   $    0.006196,  0.006196
+        -1559,      FRAMES.24,     FRAMES.230,  6.509591e-07   $    0.007030,  0.007030
+        -1560,      FRAMES.24,     FRAMES.235,  1.222503e-07   $    0.001320,  0.001320
+        -1561,      FRAMES.24,     FRAMES.236,  1.038361e-07   $    0.001121,  0.001121
+        -1562,      FRAMES.24,SOLAR_CARDS.304,  1.277778e-07   $    0.001380,  0.000647
+        -1563,      FRAMES.24,SOLAR_CARDS.307,  9.536511e-08   $    0.001030,  0.000483
+        -1564,      FRAMES.24,SOLAR_CARDS.310,  4.637356e-07   $    0.005008,  0.002348
+        -1565,      FRAMES.24,SOLAR_CARDS.313,  1.975731e-06   $    0.021338,  0.010002
+        -1566,      FRAMES.24,SOLAR_CARDS.317,  7.106655e-06   $    0.076752,  0.035977
+        -1567,      FRAMES.24,SOLAR_CARDS.321,  2.449679e-06   $    0.026457,  0.012401
+        -1568,      FRAMES.24,SOLAR_CARDS.325,  2.219825e-07   $    0.002397,  0.001124
+        -1569,      FRAMES.24,SOLAR_CARDS.350,  1.278921e-07   $    0.001381,  0.000647
+        -1570,      FRAMES.24,SOLAR_CARDS.354,  4.473001e-07   $    0.004831,  0.002264
+        -1571,      FRAMES.24,SOLAR_CARDS.360,  7.177378e-06   $    0.077516,  0.036335
+        -1572,      FRAMES.24,SOLAR_CARDS.367,  3.363726e-05   $    0.363282,  0.170289
+        -1573,      FRAMES.24,SOLAR_CARDS.371,  7.723072e-06   $    0.083409,  0.039098
+        -1574,      FRAMES.24,SOLAR_CARDS.375,  4.415981e-07   $    0.004769,  0.002236
+        -1575,      FRAMES.24,SOLAR_CARDS.396,  9.455567e-08   $    0.001021,  0.000479
+        -1576,      FRAMES.24,SOLAR_CARDS.404,  2.960713e-07   $    0.003198,  0.001499
+        -1577,      FRAMES.24,SOLAR_CARDS.410,  1.979778e-06   $    0.021382,  0.010023
+        -1578,      FRAMES.24,SOLAR_CARDS.417,  7.073105e-06   $    0.076390,  0.035808
+        -1579,      FRAMES.24,SOLAR_CARDS.421,  1.914109e-06   $    0.020672,  0.009690
+        -1580,      FRAMES.24,SOLAR_CARDS.425,  4.432642e-07   $    0.004787,  0.002244
+        -1581,      FRAMES.24,SOLAR_CARDS.434,  2.536818e-07   $    0.002740,  0.002569
+        -1582,      FRAMES.24,SOLAR_CARDS.450,  9.444445e-08   $    0.001020,  0.000478
+        -1583,      FRAMES.24,SOLAR_CARDS.454,  9.497699e-08   $    0.001026,  0.000481
+        -1584,      FRAMES.24,SOLAR_CARDS.459,  2.446280e-07   $    0.002642,  0.002477
+        -1585,      FRAMES.24,SOLAR_CARDS.460,  4.224489e-07   $    0.004562,  0.002139
+        -1586,      FRAMES.24,SOLAR_CARDS.467,  3.961669e-07   $    0.004279,  0.002006
+        -1587,      FRAMES.24,SOLAR_CARDS.471,  2.158320e-07   $    0.002331,  0.001093
+        -1588,      FRAMES.24,SOLAR_CARDS.484,  2.075661e-07   $    0.002242,  0.002102
+        -1589,      FRAMES.24,SOLAR_CARDS.509,  1.065534e-07   $    0.001151,  0.001079
+        -1590,      FRAMES.24,SOLAR_CARDS.510,  1.179815e-07   $    0.001274,  0.000597
+        -1591,      FRAMES.24,SOLAR_CARDS.521,  9.366560e-08   $    0.001012,  0.000474
+        -1592,      FRAMES.26,      FRAMES.27,  1.451763e-06   $    0.015679,  0.015679
+        -1593,      FRAMES.26,      FRAMES.34,  1.430304e-07   $    0.001545,  0.001545
+        -1594,      FRAMES.26,      FRAMES.36,  1.427003e-06   $    0.015412,  0.015412
+        -1595,      FRAMES.26,      FRAMES.37,  6.022189e-07   $    0.006504,  0.006504
+        -1596,      FRAMES.26,      FRAMES.46,  1.750949e-07   $    0.001891,  0.001891
+        -1597,      FRAMES.26,      FRAMES.47,  1.250618e-07   $    0.001351,  0.001351
+        -1598,      FRAMES.26,     FRAMES.220,  1.225245e-07   $    0.001323,  0.001323
+        -1599,      FRAMES.26,     FRAMES.224,  1.368204e-06   $    0.014777,  0.014777
+        -1600,      FRAMES.26,     FRAMES.226,  1.889617e-07   $    0.002041,  0.002041
+        -1601,      FRAMES.26,     FRAMES.230,  5.604684e-07   $    0.006053,  0.006053
+        -1602,      FRAMES.26,     FRAMES.232,  1.047035e-07   $    0.001131,  0.001131
+        -1603,      FRAMES.26,     FRAMES.236,  1.290306e-07   $    0.001394,  0.001394
+        -1604,      FRAMES.26,SOLAR_CARDS.304,  3.006659e-07   $    0.003247,  0.001522
+        -1605,      FRAMES.26,SOLAR_CARDS.307,  2.144062e-06   $    0.023156,  0.010854
+        -1606,      FRAMES.26,SOLAR_CARDS.310,  6.813226e-06   $    0.073583,  0.034492
+        -1607,      FRAMES.26,SOLAR_CARDS.313,  1.956997e-06   $    0.021136,  0.009907
+        -1608,      FRAMES.26,SOLAR_CARDS.317,  3.680122e-07   $    0.003975,  0.001863
+        -1609,      FRAMES.26,SOLAR_CARDS.346,  5.236578e-07   $    0.005656,  0.002651
+        -1610,      FRAMES.26,SOLAR_CARDS.350,  7.181764e-06   $    0.077563,  0.036358
+        -1611,      FRAMES.26,SOLAR_CARDS.354,  3.404902e-05   $    0.367729,  0.172373
+        -1612,      FRAMES.26,SOLAR_CARDS.360,  7.155803e-06   $    0.077283,  0.036226
+        -1613,      FRAMES.26,SOLAR_CARDS.367,  3.422878e-07   $    0.003697,  0.001733
+        -1614,      FRAMES.26,SOLAR_CARDS.371,  1.421760e-07   $    0.001536,  0.000720
+        -1615,      FRAMES.26,SOLAR_CARDS.384,  2.183936e-07   $    0.002359,  0.002211
+        -1616,      FRAMES.26,SOLAR_CARDS.396,  2.030073e-07   $    0.002192,  0.001028
+        -1617,      FRAMES.26,SOLAR_CARDS.400,  2.403006e-06   $    0.025952,  0.012165
+        -1618,      FRAMES.26,SOLAR_CARDS.404,  6.669274e-06   $    0.072028,  0.033763
+        -1619,      FRAMES.26,SOLAR_CARDS.409,  2.505655e-07   $    0.002706,  0.002537
+        -1620,      FRAMES.26,SOLAR_CARDS.410,  2.369092e-06   $    0.025586,  0.011994
+        -1621,      FRAMES.26,SOLAR_CARDS.417,  3.099643e-07   $    0.003348,  0.001569
+        -1622,      FRAMES.26,SOLAR_CARDS.434,  1.303113e-07   $    0.001407,  0.001319
+        -1623,      FRAMES.26,SOLAR_CARDS.446,  1.051606e-07   $    0.001136,  0.000532
+        -1624,      FRAMES.26,SOLAR_CARDS.450,  1.796383e-07   $    0.001940,  0.000909
+        -1625,      FRAMES.26,SOLAR_CARDS.454,  4.766196e-07   $    0.005147,  0.002413
+        -1626,      FRAMES.26,SOLAR_CARDS.460,  3.377504e-07   $    0.003648,  0.001710
+        -1627,      FRAMES.26,SOLAR_CARDS.504,  1.013694e-07   $    0.001095,  0.000513
+        -1628,      FRAMES.27,      FRAMES.29,  1.858404e-07   $    0.002007,  0.002007
+        -1629,      FRAMES.27,      FRAMES.36,  5.963021e-07   $    0.006440,  0.006440
+        -1630,      FRAMES.27,      FRAMES.37,  1.319036e-06   $    0.014246,  0.014246
+        -1631,      FRAMES.27,      FRAMES.39,  1.237315e-07   $    0.001336,  0.001336
+        -1632,      FRAMES.27,      FRAMES.46,  1.118273e-07   $    0.001208,  0.001208
+        -1633,      FRAMES.27,      FRAMES.47,  1.676114e-07   $    0.001810,  0.001810
+        -1634,      FRAMES.27,     FRAMES.220,  6.494645e-07   $    0.007014,  0.007014
+        -1635,      FRAMES.27,     FRAMES.224,  1.518519e-07   $    0.001640,  0.001640
+        -1636,      FRAMES.27,     FRAMES.226,  1.470904e-06   $    0.015886,  0.015886
+        -1637,      FRAMES.27,     FRAMES.230,  1.046567e-07   $    0.001130,  0.001130
+        -1638,      FRAMES.27,     FRAMES.232,  6.201815e-07   $    0.006698,  0.006698
+        -1639,      FRAMES.27,     FRAMES.238,  9.426184e-08   $    0.001018,  0.001018
+        -1640,      FRAMES.27,SOLAR_CARDS.301,  2.548022e-07   $    0.002752,  0.001290
+        -1641,      FRAMES.27,SOLAR_CARDS.304,  2.333625e-06   $    0.025203,  0.011814
+        -1642,      FRAMES.27,SOLAR_CARDS.307,  7.104627e-06   $    0.076730,  0.035967
+        -1643,      FRAMES.27,SOLAR_CARDS.310,  2.223010e-06   $    0.024009,  0.011254
+        -1644,      FRAMES.27,SOLAR_CARDS.313,  2.249005e-07   $    0.002429,  0.001139
+        -1645,      FRAMES.27,SOLAR_CARDS.317,  1.453652e-07   $    0.001570,  0.000736
+        -1646,      FRAMES.27,SOLAR_CARDS.342,  5.885132e-07   $    0.006356,  0.002979
+        -1647,      FRAMES.27,SOLAR_CARDS.346,  7.511486e-06   $    0.081124,  0.038027
+        -1648,      FRAMES.27,SOLAR_CARDS.350,  3.344445e-05   $    0.361200,  0.169313
+        -1649,      FRAMES.27,SOLAR_CARDS.354,  7.053989e-06   $    0.076183,  0.035711
+        -1650,      FRAMES.27,SOLAR_CARDS.359,  1.483932e-07   $    0.001603,  0.001502
+        -1651,      FRAMES.27,SOLAR_CARDS.360,  3.795703e-07   $    0.004099,  0.001922
+        -1652,      FRAMES.27,SOLAR_CARDS.367,  9.887172e-08   $    0.001068,  0.000501
+        -1653,      FRAMES.27,SOLAR_CARDS.384,  2.505655e-07   $    0.002706,  0.002537
+        -1654,      FRAMES.27,SOLAR_CARDS.392,  3.416808e-07   $    0.003690,  0.001730
+        -1655,      FRAMES.27,SOLAR_CARDS.396,  2.330546e-06   $    0.025170,  0.011798
+        -1656,      FRAMES.27,SOLAR_CARDS.400,  6.679822e-06   $    0.072142,  0.033817
+        -1657,      FRAMES.27,SOLAR_CARDS.404,  2.388527e-06   $    0.025796,  0.012092
+        -1658,      FRAMES.27,SOLAR_CARDS.409,  2.678564e-07   $    0.002893,  0.002712
+        -1659,      FRAMES.27,SOLAR_CARDS.410,  3.729645e-07   $    0.004028,  0.001888
+        -1660,      FRAMES.27,SOLAR_CARDS.417,  1.666667e-07   $    0.001800,  0.000844
+        -1661,      FRAMES.27,SOLAR_CARDS.434,  1.037764e-07   $    0.001121,  0.001051
+        -1662,      FRAMES.27,SOLAR_CARDS.446,  2.204404e-07   $    0.002381,  0.001116
+        -1663,      FRAMES.27,SOLAR_CARDS.450,  4.339487e-07   $    0.004687,  0.002197
+        -1664,      FRAMES.27,SOLAR_CARDS.454,  2.422440e-07   $    0.002616,  0.001226
+        -1665,      FRAMES.27,SOLAR_CARDS.496,  1.187020e-07   $    0.001282,  0.000601
+        -1666,      FRAMES.27,SOLAR_CARDS.500,  1.459201e-07   $    0.001576,  0.000739
+        -1667,      FRAMES.29,      FRAMES.37,  1.097564e-07   $    0.001185,  0.001185
+        -1668,      FRAMES.29,      FRAMES.39,  1.379569e-06   $    0.014899,  0.014899
+        -1669,      FRAMES.29,      FRAMES.49,  1.703905e-07   $    0.001840,  0.001840
+        -1670,      FRAMES.29,     FRAMES.220,  6.027843e-07   $    0.006510,  0.006510
+        -1671,      FRAMES.29,     FRAMES.221,  4.184129e-07   $    0.004519,  0.009038
+        -1672,      FRAMES.29,     FRAMES.226,  1.524024e-06   $    0.016459,  0.016459
+        -1673,      FRAMES.29,     FRAMES.227,  9.308596e-07   $    0.010053,  0.020107
+        -1674,      FRAMES.29,     FRAMES.232,  6.377992e-07   $    0.006888,  0.006888
+        -1675,      FRAMES.29,     FRAMES.233,  3.755461e-07   $    0.004056,  0.008112
+        -1676,      FRAMES.29,     FRAMES.238,  9.756533e-08   $    0.001054,  0.001054
+        -1677,      FRAMES.29,     FRAMES.239,  6.026036e-08   $    0.000651,  0.001302
+        -1678,      FRAMES.29,SOLAR_CARDS.292,  1.518091e-07   $    0.001640,  0.003074
+        -1679,      FRAMES.29,SOLAR_CARDS.298,  1.690557e-06   $    0.018258,  0.017117
+        -1680,      FRAMES.29,SOLAR_CARDS.301,  7.201285e-06   $    0.077774,  0.036457
+        -1681,      FRAMES.29,SOLAR_CARDS.304,  2.366139e-06   $    0.025554,  0.011979
+        -1682,      FRAMES.29,SOLAR_CARDS.307,  2.925139e-07   $    0.003159,  0.001481
+        -1683,      FRAMES.29,SOLAR_CARDS.334,  2.193958e-07   $    0.002369,  0.002221
+        -1684,      FRAMES.29,SOLAR_CARDS.335,  6.283632e-06   $    0.067863,  0.063622
+        -1685,      FRAMES.29,SOLAR_CARDS.342,  3.441800e-05   $    0.371714,  0.174241
+        -1686,      FRAMES.29,SOLAR_CARDS.346,  7.473110e-06   $    0.080710,  0.037833
+        -1687,      FRAMES.29,SOLAR_CARDS.350,  4.097968e-07   $    0.004426,  0.002075
+        -1688,      FRAMES.29,SOLAR_CARDS.359,  1.285903e-07   $    0.001389,  0.001302
+        -1689,      FRAMES.29,SOLAR_CARDS.384,  1.339147e-07   $    0.001446,  0.001356
+        -1690,      FRAMES.29,SOLAR_CARDS.385,  1.375464e-06   $    0.014855,  0.013927
+        -1691,      FRAMES.29,SOLAR_CARDS.392,  6.897821e-06   $    0.074496,  0.034920
+        -1692,      FRAMES.29,SOLAR_CARDS.396,  1.900616e-06   $    0.020527,  0.009622
+        -1693,      FRAMES.29,SOLAR_CARDS.400,  2.202732e-07   $    0.002379,  0.001115
+        -1694,      FRAMES.29,SOLAR_CARDS.435,  2.397583e-07   $    0.002589,  0.002428
+        -1695,      FRAMES.29,SOLAR_CARDS.442,  2.575293e-07   $    0.002781,  0.001304
+        -1696,      FRAMES.29,SOLAR_CARDS.446,  2.574092e-07   $    0.002780,  0.001303
+        -1697,      FRAMES.31,      FRAMES.32,  9.753030e-07   $    0.021067,  0.010533
+        -1698,      FRAMES.31,      FRAMES.41,  3.630796e-07   $    0.007843,  0.007843
+        -1699,      FRAMES.31,      FRAMES.42,  4.196930e-07   $    0.009065,  0.004533
+        -1700,      FRAMES.31,      FRAMES.52,  5.622764e-08   $    0.001215,  0.000607
+        -1701,      FRAMES.31,     FRAMES.223,  5.567982e-08   $    0.001203,  0.000601
+        -1702,      FRAMES.31,     FRAMES.229,  1.314954e-07   $    0.002840,  0.001420
+        -1703,      FRAMES.31,     FRAMES.235,  8.706066e-08   $    0.001881,  0.000940
+        -1704,      FRAMES.31,SOLAR_CARDS.161,  5.295157e-08   $    0.001144,  0.000268
+        -1705,      FRAMES.31,SOLAR_CARDS.321,  9.418671e-08   $    0.002034,  0.000477
+        -1706,      FRAMES.31,SOLAR_CARDS.325,  1.165602e-07   $    0.002518,  0.000590
+        -1707,      FRAMES.31,SOLAR_CARDS.329,  1.003327e-07   $    0.002167,  0.001016
+        -1708,      FRAMES.31,SOLAR_CARDS.360,  5.698799e-08   $    0.001231,  0.000289
+        -1709,      FRAMES.31,SOLAR_CARDS.367,  7.942382e-08   $    0.001716,  0.000402
+        -1710,      FRAMES.31,SOLAR_CARDS.371,  1.454355e-07   $    0.003141,  0.000736
+        -1711,      FRAMES.31,SOLAR_CARDS.375,  1.705463e-06   $    0.036838,  0.008634
+        -1712,      FRAMES.31,SOLAR_CARDS.379,  2.427034e-06   $    0.052424,  0.024574
+        -1713,      FRAMES.31,SOLAR_CARDS.417,  8.318614e-08   $    0.001797,  0.000421
+        -1714,      FRAMES.31,SOLAR_CARDS.421,  2.340471e-07   $    0.005055,  0.001185
+        -1715,      FRAMES.31,SOLAR_CARDS.425,  5.894622e-06   $    0.127324,  0.029842
+        -1716,      FRAMES.31,SOLAR_CARDS.429,  1.152440e-05   $    0.248927,  0.116685
+        -1717,      FRAMES.31,SOLAR_CARDS.460,  4.722222e-08   $    0.001020,  0.000239
+        -1718,      FRAMES.31,SOLAR_CARDS.471,  1.647523e-07   $    0.003559,  0.000834
+        -1719,      FRAMES.31,SOLAR_CARDS.475,  1.773982e-06   $    0.038318,  0.008981
+        -1720,      FRAMES.31,SOLAR_CARDS.479,  2.508500e-06   $    0.054184,  0.025399
+        -1721,      FRAMES.31,SOLAR_CARDS.521,  9.470562e-08   $    0.002046,  0.000479
+        -1722,      FRAMES.31,SOLAR_CARDS.525,  1.331905e-07   $    0.002877,  0.000674
+        -1723,      FRAMES.31,SOLAR_CARDS.529,  1.088848e-07   $    0.002352,  0.001102
+        -1724,      FRAMES.32,      FRAMES.34,  2.032310e-07   $    0.002195,  0.002195
+        -1725,      FRAMES.32,      FRAMES.41,  3.895796e-07   $    0.004207,  0.008415
+        -1726,      FRAMES.32,      FRAMES.42,  1.473397e-06   $    0.015913,  0.015913
+        -1727,      FRAMES.32,      FRAMES.51,  5.754760e-08   $    0.000622,  0.001243
+        -1728,      FRAMES.32,      FRAMES.52,  1.335032e-07   $    0.001442,  0.001442
+        -1729,      FRAMES.32,     FRAMES.223,  5.941596e-07   $    0.006417,  0.006417
+        -1730,      FRAMES.32,     FRAMES.229,  1.324726e-06   $    0.014307,  0.014307
+        -1731,      FRAMES.32,     FRAMES.235,  6.381741e-07   $    0.006892,  0.006892
+        -1732,      FRAMES.32,SOLAR_CARDS.317,  1.926918e-07   $    0.002081,  0.000976
+        -1733,      FRAMES.32,SOLAR_CARDS.321,  3.999452e-07   $    0.004319,  0.002025
+        -1734,      FRAMES.32,SOLAR_CARDS.325,  3.594192e-07   $    0.003882,  0.001820
+        -1735,      FRAMES.32,SOLAR_CARDS.329,  1.413161e-07   $    0.001526,  0.001431
+        -1736,      FRAMES.32,SOLAR_CARDS.360,  1.223099e-07   $    0.001321,  0.000619
+        -1737,      FRAMES.32,SOLAR_CARDS.367,  3.657007e-07   $    0.003950,  0.001851
+        -1738,      FRAMES.32,SOLAR_CARDS.371,  2.210201e-06   $    0.023870,  0.011189
+        -1739,      FRAMES.32,SOLAR_CARDS.375,  7.126605e-06   $    0.076967,  0.036078
+        -1740,      FRAMES.32,SOLAR_CARDS.379,  1.635704e-06   $    0.017666,  0.016562
+        -1741,      FRAMES.32,SOLAR_CARDS.417,  4.437663e-07   $    0.004793,  0.002247
+        -1742,      FRAMES.32,SOLAR_CARDS.421,  7.056413e-06   $    0.076209,  0.035723
+        -1743,      FRAMES.32,SOLAR_CARDS.425,  3.423683e-05   $    0.369758,  0.173324
+        -1744,      FRAMES.32,SOLAR_CARDS.429,  5.718291e-06   $    0.061758,  0.057898
+        -1745,      FRAMES.32,SOLAR_CARDS.454,  9.444445e-08   $    0.001020,  0.000478
+        -1746,      FRAMES.32,SOLAR_CARDS.460,  9.391937e-08   $    0.001014,  0.000475
+        -1747,      FRAMES.32,SOLAR_CARDS.467,  2.181264e-07   $    0.002356,  0.001104
+        -1748,      FRAMES.32,SOLAR_CARDS.471,  2.164134e-06   $    0.023373,  0.010956
+        -1749,      FRAMES.32,SOLAR_CARDS.475,  7.059351e-06   $    0.076241,  0.035738
+        -1750,      FRAMES.32,SOLAR_CARDS.479,  1.806719e-06   $    0.019513,  0.018293
+        -1751,      FRAMES.32,SOLAR_CARDS.517,  1.521987e-07   $    0.001644,  0.000771
+        -1752,      FRAMES.32,SOLAR_CARDS.521,  3.049768e-07   $    0.003294,  0.001544
+        -1753,      FRAMES.32,SOLAR_CARDS.525,  4.615146e-07   $    0.004984,  0.002336
+        -1754,      FRAMES.32,SOLAR_CARDS.529,  1.828184e-07   $    0.001974,  0.001851
+        -1755,      FRAMES.34,      FRAMES.36,  1.889913e-07   $    0.002041,  0.002041
+        -1756,      FRAMES.34,      FRAMES.42,  1.005381e-07   $    0.001086,  0.001086
+        -1757,      FRAMES.34,      FRAMES.44,  1.394694e-06   $    0.015063,  0.015063
+        -1758,      FRAMES.34,     FRAMES.223,  6.029759e-07   $    0.006512,  0.006512
+        -1759,      FRAMES.34,     FRAMES.224,  5.458700e-07   $    0.005895,  0.005895
+        -1760,      FRAMES.34,     FRAMES.229,  1.468405e-06   $    0.015859,  0.015859
+        -1761,      FRAMES.34,     FRAMES.230,  1.395975e-06   $    0.015077,  0.015077
+        -1762,      FRAMES.34,     FRAMES.235,  5.949223e-07   $    0.006425,  0.006425
+        -1763,      FRAMES.34,     FRAMES.236,  5.407662e-07   $    0.005840,  0.005840
+        -1764,      FRAMES.34,     FRAMES.241,  1.290306e-07   $    0.001394,  0.001394
+        -1765,      FRAMES.34,     FRAMES.242,  2.094537e-07   $    0.002262,  0.002262
+        -1766,      FRAMES.34,SOLAR_CARDS.157,  2.364208e-07   $    0.002553,  0.001197
+        -1767,      FRAMES.34,SOLAR_CARDS.161,  1.187725e-07   $    0.001283,  0.000601
+        -1768,      FRAMES.34,SOLAR_CARDS.181,  1.187020e-07   $    0.001282,  0.000601
+        -1769,      FRAMES.34,SOLAR_CARDS.310,  1.243865e-07   $    0.001343,  0.000630
+        -1770,      FRAMES.34,SOLAR_CARDS.313,  2.579624e-07   $    0.002786,  0.001306
+        -1771,      FRAMES.34,SOLAR_CARDS.317,  7.728635e-07   $    0.008347,  0.003913
+        -1772,      FRAMES.34,SOLAR_CARDS.321,  2.843734e-07   $    0.003071,  0.001440
+        -1773,      FRAMES.34,SOLAR_CARDS.325,  1.546134e-07   $    0.001670,  0.000783
+        -1774,      FRAMES.34,SOLAR_CARDS.354,  3.887480e-07   $    0.004198,  0.001968
+        -1775,      FRAMES.34,SOLAR_CARDS.360,  2.363421e-06   $    0.025525,  0.011965
+        -1776,      FRAMES.34,SOLAR_CARDS.367,  6.741110e-06   $    0.072804,  0.034127
+        -1777,      FRAMES.34,SOLAR_CARDS.371,  2.388195e-06   $    0.025793,  0.012090
+        -1778,      FRAMES.34,SOLAR_CARDS.375,  2.394680e-07   $    0.002586,  0.001212
+        -1779,      FRAMES.34,SOLAR_CARDS.404,  4.282904e-07   $    0.004626,  0.002168
+        -1780,      FRAMES.34,SOLAR_CARDS.410,  7.235837e-06   $    0.078147,  0.036631
+        -1781,      FRAMES.34,SOLAR_CARDS.417,  3.442328e-05   $    0.371771,  0.174268
+        -1782,      FRAMES.34,SOLAR_CARDS.421,  7.696534e-06   $    0.083123,  0.038964
+        -1783,      FRAMES.34,SOLAR_CARDS.425,  6.316921e-07   $    0.006822,  0.003198
+        -1784,      FRAMES.34,SOLAR_CARDS.450,  9.578034e-08   $    0.001034,  0.000485
+        -1785,      FRAMES.34,SOLAR_CARDS.454,  2.323736e-07   $    0.002510,  0.001176
+        -1786,      FRAMES.34,SOLAR_CARDS.460,  2.741184e-06   $    0.029605,  0.013877
+        -1787,      FRAMES.34,SOLAR_CARDS.467,  6.763934e-06   $    0.073050,  0.034242
+        -1788,      FRAMES.34,SOLAR_CARDS.471,  1.973050e-06   $    0.021309,  0.009989
+        -1789,      FRAMES.34,SOLAR_CARDS.475,  3.962838e-07   $    0.004280,  0.002006
+        -1790,      FRAMES.34,SOLAR_CARDS.500,  1.199749e-07   $    0.001296,  0.000607
+        -1791,      FRAMES.34,SOLAR_CARDS.510,  2.120611e-07   $    0.002290,  0.001074
+        -1792,      FRAMES.34,SOLAR_CARDS.517,  3.501281e-07   $    0.003781,  0.001773
+        -1793,      FRAMES.34,SOLAR_CARDS.521,  3.111651e-07   $    0.003361,  0.001575
+        -1794,      FRAMES.34,SOLAR_CARDS.525,  1.400605e-07   $    0.001513,  0.000709
+        -1795,      FRAMES.36,      FRAMES.37,  1.445437e-06   $    0.015611,  0.015611
+        -1796,      FRAMES.36,      FRAMES.44,  1.259532e-07   $    0.001360,  0.001360
+        -1797,      FRAMES.36,      FRAMES.46,  1.437924e-06   $    0.015530,  0.015530
+        -1798,      FRAMES.36,      FRAMES.47,  5.921257e-07   $    0.006395,  0.006395
+        -1799,      FRAMES.36,     FRAMES.224,  5.970090e-07   $    0.006448,  0.006448
+        -1800,      FRAMES.36,     FRAMES.226,  1.121780e-07   $    0.001212,  0.001212
+        -1801,      FRAMES.36,     FRAMES.230,  1.339812e-06   $    0.014470,  0.014470
+        -1802,      FRAMES.36,     FRAMES.232,  1.537931e-07   $    0.001661,  0.001661
+        -1803,      FRAMES.36,     FRAMES.236,  6.294869e-07   $    0.006798,  0.006798
+        -1804,      FRAMES.36,     FRAMES.238,  1.028393e-07   $    0.001111,  0.001111
+        -1805,      FRAMES.36,     FRAMES.243,  1.221549e-07   $    0.001319,  0.001319
+        -1806,      FRAMES.36,     FRAMES.246,  1.492842e-07   $    0.001612,  0.001612
+        -1807,      FRAMES.36,     FRAMES.249,  1.346418e-07   $    0.001454,  0.001454
+        -1808,      FRAMES.36,SOLAR_CARDS.141,  1.121585e-07   $    0.001211,  0.000568
+        -1809,      FRAMES.36,SOLAR_CARDS.149,  1.379088e-07   $    0.001489,  0.000698
+        -1810,      FRAMES.36,SOLAR_CARDS.307,  3.385390e-07   $    0.003656,  0.001714
+        -1811,      FRAMES.36,SOLAR_CARDS.310,  4.043334e-07   $    0.004367,  0.002047
+        -1812,      FRAMES.36,SOLAR_CARDS.313,  3.456746e-07   $    0.003733,  0.001750
+        -1813,      FRAMES.36,SOLAR_CARDS.342,  1.122814e-07   $    0.001213,  0.000568
+        -1814,      FRAMES.36,SOLAR_CARDS.346,  2.424109e-07   $    0.002618,  0.001227
+        -1815,      FRAMES.36,SOLAR_CARDS.350,  2.234712e-06   $    0.024135,  0.011313
+        -1816,      FRAMES.36,SOLAR_CARDS.354,  6.857301e-06   $    0.074059,  0.034715
+        -1817,      FRAMES.36,SOLAR_CARDS.360,  2.472827e-06   $    0.026707,  0.012519
+        -1818,      FRAMES.36,SOLAR_CARDS.367,  2.896182e-07   $    0.003128,  0.001466
+        -1819,      FRAMES.36,SOLAR_CARDS.371,  9.612866e-08   $    0.001038,  0.000487
+        -1820,      FRAMES.36,SOLAR_CARDS.384,  9.314297e-08   $    0.001006,  0.000943
+        -1821,      FRAMES.36,SOLAR_CARDS.396,  4.653096e-07   $    0.005025,  0.002356
+        -1822,      FRAMES.36,SOLAR_CARDS.400,  7.417976e-06   $    0.080114,  0.037554
+        -1823,      FRAMES.36,SOLAR_CARDS.404,  3.401441e-05   $    0.367356,  0.172198
+        -1824,      FRAMES.36,SOLAR_CARDS.409,  1.351454e-07   $    0.001460,  0.001368
+        -1825,      FRAMES.36,SOLAR_CARDS.410,  6.820525e-06   $    0.073662,  0.034529
+        -1826,      FRAMES.36,SOLAR_CARDS.417,  6.065178e-07   $    0.006550,  0.003070
+        -1827,      FRAMES.36,SOLAR_CARDS.421,  9.713506e-08   $    0.001049,  0.000492
+        -1828,      FRAMES.36,SOLAR_CARDS.425,  1.147572e-07   $    0.001239,  0.000581
+        -1829,      FRAMES.36,SOLAR_CARDS.446,  1.722259e-07   $    0.001860,  0.000872
+        -1830,      FRAMES.36,SOLAR_CARDS.450,  2.101776e-06   $    0.022699,  0.010640
+        -1831,      FRAMES.36,SOLAR_CARDS.454,  7.407928e-06   $    0.080006,  0.037503
+        -1832,      FRAMES.36,SOLAR_CARDS.460,  1.959451e-06   $    0.021162,  0.009920
+        -1833,      FRAMES.36,SOLAR_CARDS.467,  2.533396e-07   $    0.002736,  0.001283
+        -1834,      FRAMES.36,SOLAR_CARDS.496,  1.211770e-07   $    0.001309,  0.000613
+        -1835,      FRAMES.36,SOLAR_CARDS.500,  3.427634e-07   $    0.003702,  0.001735
+        -1836,      FRAMES.36,SOLAR_CARDS.504,  3.529431e-07   $    0.003812,  0.001787
+        -1837,      FRAMES.36,SOLAR_CARDS.510,  2.370370e-07   $    0.002560,  0.001200
+        -1838,      FRAMES.36,SOLAR_CARDS.517,  1.739082e-07   $    0.001878,  0.000880
+        -1839,      FRAMES.37,      FRAMES.39,  1.631527e-07   $    0.001762,  0.001762
+        -1840,      FRAMES.37,      FRAMES.46,  5.788245e-07   $    0.006251,  0.006251
+        -1841,      FRAMES.37,      FRAMES.47,  1.311195e-06   $    0.014161,  0.014161
+        -1842,      FRAMES.37,      FRAMES.49,  1.167844e-07   $    0.001261,  0.001261
+        -1843,      FRAMES.37,     FRAMES.224,  1.064895e-07   $    0.001150,  0.001150
+        -1844,      FRAMES.37,     FRAMES.226,  6.262671e-07   $    0.006764,  0.006764
+        -1845,      FRAMES.37,     FRAMES.230,  1.926640e-07   $    0.002081,  0.002081
+        -1846,      FRAMES.37,     FRAMES.232,  1.506020e-06   $    0.016265,  0.016265
+        -1847,      FRAMES.37,     FRAMES.236,  1.181839e-07   $    0.001276,  0.001276
+        -1848,      FRAMES.37,     FRAMES.238,  6.280099e-07   $    0.006783,  0.006783
+        -1849,      FRAMES.37,     FRAMES.246,  1.130888e-07   $    0.001221,  0.001221
+        -1850,      FRAMES.37,     FRAMES.249,  1.569260e-07   $    0.001695,  0.001695
+        -1851,      FRAMES.37,     FRAMES.252,  1.210615e-07   $    0.001307,  0.001307
+        -1852,      FRAMES.37,SOLAR_CARDS.141,  9.683400e-08   $    0.001046,  0.000490
+        -1853,      FRAMES.37,SOLAR_CARDS.145,  1.045510e-07   $    0.001129,  0.000529
+        -1854,      FRAMES.37,SOLAR_CARDS.301,  1.455857e-07   $    0.001572,  0.000737
+        -1855,      FRAMES.37,SOLAR_CARDS.304,  3.227506e-07   $    0.003486,  0.001634
+        -1856,      FRAMES.37,SOLAR_CARDS.307,  5.825135e-07   $    0.006291,  0.002949
+        -1857,      FRAMES.37,SOLAR_CARDS.310,  2.311168e-07   $    0.002496,  0.001170
+        -1858,      FRAMES.37,SOLAR_CARDS.321,  1.226472e-07   $    0.001325,  0.000621
+        -1859,      FRAMES.37,SOLAR_CARDS.342,  3.453388e-07   $    0.003730,  0.001748
+        -1860,      FRAMES.37,SOLAR_CARDS.346,  1.781263e-06   $    0.019238,  0.009018
+        -1861,      FRAMES.37,SOLAR_CARDS.350,  7.320700e-06   $    0.079064,  0.037061
+        -1862,      FRAMES.37,SOLAR_CARDS.354,  2.375552e-06   $    0.025656,  0.012026
+        -1863,      FRAMES.37,SOLAR_CARDS.360,  3.134469e-07   $    0.003385,  0.001587
+        -1864,      FRAMES.37,SOLAR_CARDS.392,  4.229451e-07   $    0.004568,  0.002141
+        -1865,      FRAMES.37,SOLAR_CARDS.396,  7.021933e-06   $    0.075837,  0.035549
+        -1866,      FRAMES.37,SOLAR_CARDS.400,  3.457977e-05   $    0.373462,  0.175060
+        -1867,      FRAMES.37,SOLAR_CARDS.404,  7.619786e-06   $    0.082294,  0.038575
+        -1868,      FRAMES.37,SOLAR_CARDS.410,  4.865673e-07   $    0.005255,  0.002463
+        -1869,      FRAMES.37,SOLAR_CARDS.417,  1.122777e-07   $    0.001213,  0.000568
+        -1870,      FRAMES.37,SOLAR_CARDS.442,  3.020280e-07   $    0.003262,  0.001529
+        -1871,      FRAMES.37,SOLAR_CARDS.446,  1.968497e-06   $    0.021260,  0.009966
+        -1872,      FRAMES.37,SOLAR_CARDS.450,  6.993248e-06   $    0.075527,  0.035403
+        -1873,      FRAMES.37,SOLAR_CARDS.454,  2.084551e-06   $    0.022513,  0.010553
+        -1874,      FRAMES.37,SOLAR_CARDS.460,  2.007055e-07   $    0.002168,  0.001016
+        -1875,      FRAMES.37,SOLAR_CARDS.492,  1.571110e-07   $    0.001697,  0.000795
+        -1876,      FRAMES.37,SOLAR_CARDS.496,  3.711138e-07   $    0.004008,  0.001879
+        -1877,      FRAMES.37,SOLAR_CARDS.500,  4.860251e-07   $    0.005249,  0.002461
+        -1878,      FRAMES.37,SOLAR_CARDS.504,  3.184022e-07   $    0.003439,  0.001612
+        -1879,      FRAMES.37,SOLAR_CARDS.510,  1.604945e-07   $    0.001733,  0.000813
+        -1880,      FRAMES.39,      FRAMES.47,  1.071344e-07   $    0.001157,  0.001157
+        -1881,      FRAMES.39,      FRAMES.49,  1.410102e-06   $    0.015229,  0.015229
+        -1882,      FRAMES.39,     FRAMES.221,  6.677051e-08   $    0.000721,  0.001442
+        -1883,      FRAMES.39,     FRAMES.226,  5.836532e-07   $    0.006303,  0.006303
+        -1884,      FRAMES.39,     FRAMES.227,  4.211008e-07   $    0.004548,  0.009096
+        -1885,      FRAMES.39,     FRAMES.232,  1.415812e-06   $    0.015291,  0.015291
+        -1886,      FRAMES.39,     FRAMES.233,  9.979849e-07   $    0.010778,  0.021556
+        -1887,      FRAMES.39,     FRAMES.238,  5.978066e-07   $    0.006456,  0.006456
+        -1888,      FRAMES.39,     FRAMES.239,  3.981515e-07   $    0.004300,  0.008600
+        -1889,      FRAMES.39,     FRAMES.252,  1.084580e-07   $    0.001171,  0.001171
+        -1890,      FRAMES.39,     FRAMES.256,  1.766290e-07   $    0.001908,  0.001908
+        -1891,      FRAMES.39,     FRAMES.259,  6.874781e-08   $    0.000742,  0.001485
+        -1892,      FRAMES.39,SOLAR_CARDS.141,  1.273477e-07   $    0.001375,  0.000645
+        -1893,      FRAMES.39,SOLAR_CARDS.229,  1.187020e-07   $    0.001282,  0.000601
+        -1894,      FRAMES.39,SOLAR_CARDS.298,  2.301278e-07   $    0.002485,  0.002330
+        -1895,      FRAMES.39,SOLAR_CARDS.301,  3.916616e-07   $    0.004230,  0.001983
+        -1896,      FRAMES.39,SOLAR_CARDS.304,  3.111544e-07   $    0.003360,  0.001575
+        -1897,      FRAMES.39,SOLAR_CARDS.307,  1.827421e-07   $    0.001974,  0.000925
+        -1898,      FRAMES.39,SOLAR_CARDS.335,  1.606683e-06   $    0.017352,  0.016268
+        -1899,      FRAMES.39,SOLAR_CARDS.342,  7.396773e-06   $    0.079885,  0.037446
+        -1900,      FRAMES.39,SOLAR_CARDS.346,  2.192745e-06   $    0.023682,  0.011101
+        -1901,      FRAMES.39,SOLAR_CARDS.350,  2.465818e-07   $    0.002663,  0.001248
+        -1902,      FRAMES.39,SOLAR_CARDS.354,  9.784931e-08   $    0.001057,  0.000495
+        -1903,      FRAMES.39,SOLAR_CARDS.385,  5.533686e-06   $    0.059764,  0.056029
+        -1904,      FRAMES.39,SOLAR_CARDS.392,  3.432640e-05   $    0.370725,  0.173777
+        -1905,      FRAMES.39,SOLAR_CARDS.396,  6.714666e-06   $    0.072518,  0.033993
+        -1906,      FRAMES.39,SOLAR_CARDS.400,  5.007881e-07   $    0.005409,  0.002535
+        -1907,      FRAMES.39,SOLAR_CARDS.404,  1.037766e-07   $    0.001121,  0.000525
+        -1908,      FRAMES.39,SOLAR_CARDS.435,  1.474220e-06   $    0.015922,  0.014926
+        -1909,      FRAMES.39,SOLAR_CARDS.442,  6.795710e-06   $    0.073394,  0.034403
+        -1910,      FRAMES.39,SOLAR_CARDS.446,  2.276412e-06   $    0.024585,  0.011524
+        -1911,      FRAMES.39,SOLAR_CARDS.450,  2.396496e-07   $    0.002588,  0.001213
+        -1912,      FRAMES.39,SOLAR_CARDS.454,  1.119616e-07   $    0.001209,  0.000567
+        -1913,      FRAMES.39,SOLAR_CARDS.485,  2.559077e-07   $    0.002764,  0.002591
+        -1914,      FRAMES.39,SOLAR_CARDS.492,  5.740908e-07   $    0.006200,  0.002906
+        -1915,      FRAMES.39,SOLAR_CARDS.496,  3.820669e-07   $    0.004126,  0.001934
+        -1916,      FRAMES.39,SOLAR_CARDS.500,  1.478987e-07   $    0.001597,  0.000749
+        -1917,      FRAMES.41,      FRAMES.42,  1.003778e-06   $    0.021682,  0.010841
+        -1918,      FRAMES.41,      FRAMES.51,  3.274554e-07   $    0.007073,  0.007073
+        -1919,      FRAMES.41,      FRAMES.52,  3.852250e-07   $    0.008321,  0.004160
+        -1920,      FRAMES.41,     FRAMES.229,  8.299917e-08   $    0.001793,  0.000896
+        -1921,      FRAMES.41,     FRAMES.235,  1.388114e-07   $    0.002998,  0.001499
+        -1922,      FRAMES.41,     FRAMES.241,  5.252343e-08   $    0.001135,  0.000567
+        -1923,      FRAMES.41,     FRAMES.267,  5.524599e-08   $    0.001193,  0.000597
+        -1924,      FRAMES.41,SOLAR_CARDS.165,  1.615179e-07   $    0.003489,  0.000818
+        -1925,      FRAMES.41,SOLAR_CARDS.169,  1.165694e-07   $    0.002518,  0.001180
+        -1926,      FRAMES.41,SOLAR_CARDS.205,  4.823931e-08   $    0.001042,  0.000244
+        -1927,      FRAMES.41,SOLAR_CARDS.321,  4.639089e-08   $    0.001002,  0.000235
+        -1928,      FRAMES.41,SOLAR_CARDS.325,  5.471257e-08   $    0.001182,  0.000277
+        -1929,      FRAMES.41,SOLAR_CARDS.371,  8.631521e-08   $    0.001864,  0.000437
+        -1930,      FRAMES.41,SOLAR_CARDS.375,  1.907754e-07   $    0.004121,  0.000966
+        -1931,      FRAMES.41,SOLAR_CARDS.379,  7.187994e-08   $    0.001553,  0.000728
+        -1932,      FRAMES.41,SOLAR_CARDS.410,  6.046987e-08   $    0.001306,  0.000306
+        -1933,      FRAMES.41,SOLAR_CARDS.421,  2.778287e-07   $    0.006001,  0.001407
+        -1934,      FRAMES.41,SOLAR_CARDS.425,  1.560585e-06   $    0.033709,  0.007900
+        -1935,      FRAMES.41,SOLAR_CARDS.429,  2.432471e-06   $    0.052541,  0.024629
+        -1936,      FRAMES.41,SOLAR_CARDS.467,  5.193686e-08   $    0.001122,  0.000263
+        -1937,      FRAMES.41,SOLAR_CARDS.471,  2.996655e-07   $    0.006473,  0.001517
+        -1938,      FRAMES.41,SOLAR_CARDS.475,  5.897947e-06   $    0.127396,  0.029858
+        -1939,      FRAMES.41,SOLAR_CARDS.479,  1.165751e-05   $    0.251802,  0.118032
+        -1940,      FRAMES.41,SOLAR_CARDS.517,  5.561439e-08   $    0.001201,  0.000282
+        -1941,      FRAMES.41,SOLAR_CARDS.521,  2.179100e-07   $    0.004707,  0.001103
+        -1942,      FRAMES.41,SOLAR_CARDS.525,  1.515923e-06   $    0.032744,  0.007674
+        -1943,      FRAMES.41,SOLAR_CARDS.529,  2.382458e-06   $    0.051461,  0.024122
+        -1944,      FRAMES.42,      FRAMES.44,  1.605240e-07   $    0.001734,  0.001734
+        -1945,      FRAMES.42,      FRAMES.51,  4.530611e-07   $    0.004893,  0.009786
+        -1946,      FRAMES.42,      FRAMES.52,  1.404349e-06   $    0.015167,  0.015167
+        -1947,      FRAMES.42,     FRAMES.223,  1.441341e-07   $    0.001557,  0.001557
+        -1948,      FRAMES.42,     FRAMES.229,  5.268044e-07   $    0.005689,  0.005689
+        -1949,      FRAMES.42,     FRAMES.235,  1.465252e-06   $    0.015825,  0.015825
+        -1950,      FRAMES.42,     FRAMES.241,  6.078953e-07   $    0.006565,  0.006565
+        -1951,      FRAMES.42,     FRAMES.264,  6.049684e-08   $    0.000653,  0.001307
+        -1952,      FRAMES.42,     FRAMES.267,  1.624577e-07   $    0.001755,  0.001755
+        -1953,      FRAMES.42,     FRAMES.270,  1.334364e-07   $    0.001441,  0.001441
+        -1954,      FRAMES.42,SOLAR_CARDS.157,  2.380660e-07   $    0.002571,  0.001205
+        -1955,      FRAMES.42,SOLAR_CARDS.161,  2.413028e-07   $    0.002606,  0.001222
+        -1956,      FRAMES.42,SOLAR_CARDS.165,  5.502947e-07   $    0.005943,  0.002786
+        -1957,      FRAMES.42,SOLAR_CARDS.197,  1.192052e-07   $    0.001287,  0.000603
+        -1958,      FRAMES.42,SOLAR_CARDS.321,  1.401200e-07   $    0.001513,  0.000709
+        -1959,      FRAMES.42,SOLAR_CARDS.325,  1.077323e-07   $    0.001164,  0.000545
+        -1960,      FRAMES.42,SOLAR_CARDS.354,  9.348844e-08   $    0.001010,  0.000473
+        -1961,      FRAMES.42,SOLAR_CARDS.371,  1.965927e-07   $    0.002123,  0.000995
+        -1962,      FRAMES.42,SOLAR_CARDS.375,  5.500079e-07   $    0.005940,  0.002784
+        -1963,      FRAMES.42,SOLAR_CARDS.379,  2.596879e-07   $    0.002805,  0.002629
+        -1964,      FRAMES.42,SOLAR_CARDS.410,  9.519873e-08   $    0.001028,  0.000482
+        -1965,      FRAMES.42,SOLAR_CARDS.417,  3.453102e-07   $    0.003729,  0.001748
+        -1966,      FRAMES.42,SOLAR_CARDS.421,  2.252148e-06   $    0.024323,  0.011401
+        -1967,      FRAMES.42,SOLAR_CARDS.425,  7.083938e-06   $    0.076507,  0.035862
+        -1968,      FRAMES.42,SOLAR_CARDS.429,  1.544221e-06   $    0.016678,  0.015635
+        -1969,      FRAMES.42,SOLAR_CARDS.460,  9.793645e-08   $    0.001058,  0.000496
+        -1970,      FRAMES.42,SOLAR_CARDS.467,  3.520026e-07   $    0.003802,  0.001782
+        -1971,      FRAMES.42,SOLAR_CARDS.471,  6.888251e-06   $    0.074393,  0.034872
+        -1972,      FRAMES.42,SOLAR_CARDS.475,  3.483098e-05   $    0.376175,  0.176332
+        -1973,      FRAMES.42,SOLAR_CARDS.479,  5.526300e-06   $    0.059684,  0.055954
+        -1974,      FRAMES.42,SOLAR_CARDS.517,  2.570428e-07   $    0.002776,  0.001301
+        -1975,      FRAMES.42,SOLAR_CARDS.521,  2.236033e-06   $    0.024149,  0.011320
+        -1976,      FRAMES.42,SOLAR_CARDS.525,  7.186659e-06   $    0.077616,  0.036382
+        -1977,      FRAMES.42,SOLAR_CARDS.529,  1.989781e-06   $    0.021490,  0.020147
+        -1978,      FRAMES.44,      FRAMES.46,  1.727454e-07   $    0.001866,  0.001866
+        -1979,      FRAMES.44,      FRAMES.52,  1.018519e-07   $    0.001100,  0.001100
+        -1980,      FRAMES.44,     FRAMES.223,  9.683124e-08   $    0.001046,  0.001046
+        -1981,      FRAMES.44,     FRAMES.224,  9.643890e-08   $    0.001042,  0.001042
+        -1982,      FRAMES.44,     FRAMES.229,  6.466728e-07   $    0.006984,  0.006984
+        -1983,      FRAMES.44,     FRAMES.230,  6.177058e-07   $    0.006671,  0.006671
+        -1984,      FRAMES.44,     FRAMES.235,  1.415900e-06   $    0.015292,  0.015292
+        -1985,      FRAMES.44,     FRAMES.236,  1.408061e-06   $    0.015207,  0.015207
+        -1986,      FRAMES.44,     FRAMES.241,  6.093675e-07   $    0.006581,  0.006581
+        -1987,      FRAMES.44,     FRAMES.242,  1.433627e-06   $    0.015483,  0.015483
+        -1988,      FRAMES.44,     FRAMES.243,  5.683038e-07   $    0.006138,  0.006138
+        -1989,      FRAMES.44,     FRAMES.246,  1.034542e-07   $    0.001117,  0.001117
+        -1990,      FRAMES.44,     FRAMES.270,  1.208487e-07   $    0.001305,  0.001305
+        -1991,      FRAMES.44,     FRAMES.274,  1.493563e-07   $    0.001613,  0.001613
+        -1992,      FRAMES.44,     FRAMES.277,  1.055556e-07   $    0.001140,  0.001140
+        -1993,      FRAMES.44,SOLAR_CARDS.145,  9.291465e-08   $    0.001003,  0.000470
+        -1994,      FRAMES.44,SOLAR_CARDS.149,  1.000286e-07   $    0.001080,  0.000506
+        -1995,      FRAMES.44,SOLAR_CARDS.153,  4.190034e-07   $    0.004525,  0.002121
+        -1996,      FRAMES.44,SOLAR_CARDS.157,  4.537402e-07   $    0.004900,  0.002297
+        -1997,      FRAMES.44,SOLAR_CARDS.161,  1.660747e-07   $    0.001794,  0.000841
+        -1998,      FRAMES.44,SOLAR_CARDS.165,  1.075194e-07   $    0.001161,  0.000544
+        -1999,      FRAMES.44,SOLAR_CARDS.197,  1.540014e-07   $    0.001663,  0.000780
+        -2000,      FRAMES.44,SOLAR_CARDS.237,  1.141029e-07   $    0.001232,  0.000578
+        -2001,      FRAMES.44,SOLAR_CARDS.321,  1.852456e-07   $    0.002001,  0.000938
+        -2002,      FRAMES.44,SOLAR_CARDS.354,  1.565750e-07   $    0.001691,  0.000793
+        -2003,      FRAMES.44,SOLAR_CARDS.360,  2.898691e-07   $    0.003131,  0.001467
+        -2004,      FRAMES.44,SOLAR_CARDS.367,  2.117124e-07   $    0.002286,  0.001072
+        -2005,      FRAMES.44,SOLAR_CARDS.371,  2.966688e-07   $    0.003204,  0.001502
+        -2006,      FRAMES.44,SOLAR_CARDS.375,  1.856877e-07   $    0.002005,  0.000940
+        -2007,      FRAMES.44,SOLAR_CARDS.404,  2.754139e-07   $    0.002974,  0.001394
+        -2008,      FRAMES.44,SOLAR_CARDS.410,  2.068587e-06   $    0.022341,  0.010472
+        -2009,      FRAMES.44,SOLAR_CARDS.417,  6.856314e-06   $    0.074048,  0.034710
+        -2010,      FRAMES.44,SOLAR_CARDS.421,  2.331957e-06   $    0.025185,  0.011806
+        -2011,      FRAMES.44,SOLAR_CARDS.425,  1.088379e-07   $    0.001175,  0.000551
+        -2012,      FRAMES.44,SOLAR_CARDS.450,  1.034605e-07   $    0.001117,  0.000524
+        -2013,      FRAMES.44,SOLAR_CARDS.454,  5.609307e-07   $    0.006058,  0.002840
+        -2014,      FRAMES.44,SOLAR_CARDS.460,  7.210522e-06   $    0.077874,  0.036503
+        -2015,      FRAMES.44,SOLAR_CARDS.467,  3.446215e-05   $    0.372191,  0.174465
+        -2016,      FRAMES.44,SOLAR_CARDS.471,  7.323527e-06   $    0.079094,  0.037075
+        -2017,      FRAMES.44,SOLAR_CARDS.475,  4.158719e-07   $    0.004491,  0.002105
+        -2018,      FRAMES.44,SOLAR_CARDS.504,  2.885007e-07   $    0.003116,  0.001461
+        -2019,      FRAMES.44,SOLAR_CARDS.510,  1.947533e-06   $    0.021033,  0.009859
+        -2020,      FRAMES.44,SOLAR_CARDS.517,  7.582765e-06   $    0.081894,  0.038388
+        -2021,      FRAMES.44,SOLAR_CARDS.521,  2.189754e-06   $    0.023649,  0.011086
+        -2022,      FRAMES.44,SOLAR_CARDS.525,  3.449164e-07   $    0.003725,  0.001746
+        -2023,      FRAMES.46,      FRAMES.47,  1.436061e-06   $    0.015509,  0.015509
+        -2024,      FRAMES.46,     FRAMES.224,  1.354138e-07   $    0.001462,  0.001462
+        -2025,      FRAMES.46,     FRAMES.230,  6.518731e-07   $    0.007040,  0.007040
+        -2026,      FRAMES.46,     FRAMES.236,  1.398075e-06   $    0.015099,  0.015099
+        -2027,      FRAMES.46,     FRAMES.238,  1.541139e-07   $    0.001664,  0.001664
+        -2028,      FRAMES.46,     FRAMES.242,  9.633195e-08   $    0.001040,  0.001040
+        -2029,      FRAMES.46,     FRAMES.243,  6.320283e-07   $    0.006826,  0.006826
+        -2030,      FRAMES.46,     FRAMES.246,  1.397447e-06   $    0.015092,  0.015092
+        -2031,      FRAMES.46,     FRAMES.249,  6.662746e-07   $    0.007196,  0.007196
+        -2032,      FRAMES.46,     FRAMES.252,  9.718753e-08   $    0.001050,  0.001050
+        -2033,      FRAMES.46,     FRAMES.277,  9.506938e-08   $    0.001027,  0.001027
+        -2034,      FRAMES.46,     FRAMES.282,  1.453005e-07   $    0.001569,  0.001569
+        -2035,      FRAMES.46,     FRAMES.285,  1.137841e-07   $    0.001229,  0.001229
+        -2036,      FRAMES.46,SOLAR_CARDS.141,  1.308281e-07   $    0.001413,  0.000662
+        -2037,      FRAMES.46,SOLAR_CARDS.145,  2.336402e-07   $    0.002523,  0.001183
+        -2038,      FRAMES.46,SOLAR_CARDS.149,  3.004691e-07   $    0.003245,  0.001521
+        -2039,      FRAMES.46,SOLAR_CARDS.153,  2.083760e-07   $    0.002250,  0.001055
+        -2040,      FRAMES.46,SOLAR_CARDS.177,  1.082542e-07   $    0.001169,  0.000548
+        -2041,      FRAMES.46,SOLAR_CARDS.189,  1.837784e-07   $    0.001985,  0.000930
+        -2042,      FRAMES.46,SOLAR_CARDS.193,  1.890487e-07   $    0.002042,  0.000957
+        -2043,      FRAMES.46,SOLAR_CARDS.197,  1.277778e-07   $    0.001380,  0.000647
+        -2044,      FRAMES.46,SOLAR_CARDS.346,  1.195804e-07   $    0.001291,  0.000605
+        -2045,      FRAMES.46,SOLAR_CARDS.350,  2.694898e-07   $    0.002910,  0.001364
+        -2046,      FRAMES.46,SOLAR_CARDS.354,  4.220612e-07   $    0.004558,  0.002137
+        -2047,      FRAMES.46,SOLAR_CARDS.360,  2.735972e-07   $    0.002955,  0.001385
+        -2048,      FRAMES.46,SOLAR_CARDS.367,  3.744427e-07   $    0.004044,  0.001896
+        -2049,      FRAMES.46,SOLAR_CARDS.375,  9.629630e-08   $    0.001040,  0.000487
+        -2050,      FRAMES.46,SOLAR_CARDS.396,  3.220607e-07   $    0.003478,  0.001630
+        -2051,      FRAMES.46,SOLAR_CARDS.400,  2.227884e-06   $    0.024061,  0.011279
+        -2052,      FRAMES.46,SOLAR_CARDS.404,  7.264890e-06   $    0.078461,  0.036779
+        -2053,      FRAMES.46,SOLAR_CARDS.410,  2.501688e-06   $    0.027018,  0.012665
+        -2054,      FRAMES.46,SOLAR_CARDS.417,  2.356330e-07   $    0.002545,  0.001193
+        -2055,      FRAMES.46,SOLAR_CARDS.446,  4.053001e-07   $    0.004377,  0.002052
+        -2056,      FRAMES.46,SOLAR_CARDS.450,  7.411560e-06   $    0.080045,  0.037521
+        -2057,      FRAMES.46,SOLAR_CARDS.454,  3.387933e-05   $    0.365897,  0.171514
+        -2058,      FRAMES.46,SOLAR_CARDS.460,  7.126869e-06   $    0.076970,  0.036080
+        -2059,      FRAMES.46,SOLAR_CARDS.467,  2.727173e-07   $    0.002945,  0.001381
+        -2060,      FRAMES.46,SOLAR_CARDS.496,  2.650152e-07   $    0.002862,  0.001342
+        -2061,      FRAMES.46,SOLAR_CARDS.500,  2.167198e-06   $    0.023406,  0.010971
+        -2062,      FRAMES.46,SOLAR_CARDS.504,  7.074822e-06   $    0.076408,  0.035816
+        -2063,      FRAMES.46,SOLAR_CARDS.510,  2.315020e-06   $    0.025002,  0.011720
+        -2064,      FRAMES.46,SOLAR_CARDS.517,  3.493232e-07   $    0.003773,  0.001768
+        -2065,      FRAMES.47,      FRAMES.49,  1.292255e-07   $    0.001396,  0.001396
+        -2066,      FRAMES.47,     FRAMES.226,  1.101160e-07   $    0.001189,  0.001189
+        -2067,      FRAMES.47,     FRAMES.230,  9.815482e-08   $    0.001060,  0.001060
+        -2068,      FRAMES.47,     FRAMES.232,  6.137417e-07   $    0.006628,  0.006628
+        -2069,      FRAMES.47,     FRAMES.236,  1.721259e-07   $    0.001859,  0.001859
+        -2070,      FRAMES.47,     FRAMES.238,  1.346462e-06   $    0.014542,  0.014542
+        -2071,      FRAMES.47,     FRAMES.243,  1.191789e-07   $    0.001287,  0.001287
+        -2072,      FRAMES.47,     FRAMES.246,  5.615046e-07   $    0.006064,  0.006064
+        -2073,      FRAMES.47,     FRAMES.249,  1.433332e-06   $    0.015480,  0.015480
+        -2074,      FRAMES.47,     FRAMES.252,  6.035954e-07   $    0.006519,  0.006519
+        -2075,      FRAMES.47,     FRAMES.256,  9.444445e-08   $    0.001020,  0.001020
+        -2076,      FRAMES.47,     FRAMES.282,  1.499635e-07   $    0.001620,  0.001620
+        -2077,      FRAMES.47,     FRAMES.285,  1.576038e-07   $    0.001702,  0.001702
+        -2078,      FRAMES.47,     FRAMES.288,  1.255563e-07   $    0.001356,  0.001356
+        -2079,      FRAMES.47,SOLAR_CARDS.141,  3.928702e-07   $    0.004243,  0.001989
+        -2080,      FRAMES.47,SOLAR_CARDS.145,  4.274324e-07   $    0.004616,  0.002164
+        -2081,      FRAMES.47,SOLAR_CARDS.149,  2.821488e-07   $    0.003047,  0.001428
+        -2082,      FRAMES.47,SOLAR_CARDS.153,  2.226324e-07   $    0.002404,  0.001127
+        -2083,      FRAMES.47,SOLAR_CARDS.185,  1.311626e-07   $    0.001417,  0.000664
+        -2084,      FRAMES.47,SOLAR_CARDS.189,  1.141824e-07   $    0.001233,  0.000578
+        -2085,      FRAMES.47,SOLAR_CARDS.342,  9.578034e-08   $    0.001034,  0.000485
+        -2086,      FRAMES.47,SOLAR_CARDS.346,  2.453031e-07   $    0.002649,  0.001242
+        -2087,      FRAMES.47,SOLAR_CARDS.350,  4.396032e-07   $    0.004748,  0.002225
+        -2088,      FRAMES.47,SOLAR_CARDS.354,  3.549208e-07   $    0.003833,  0.001797
+        -2089,      FRAMES.47,SOLAR_CARDS.360,  9.952113e-08   $    0.001075,  0.000504
+        -2090,      FRAMES.47,SOLAR_CARDS.392,  2.989117e-07   $    0.003228,  0.001513
+        -2091,      FRAMES.47,SOLAR_CARDS.396,  1.981283e-06   $    0.021398,  0.010030
+        -2092,      FRAMES.47,SOLAR_CARDS.400,  7.599604e-06   $    0.082076,  0.038473
+        -2093,      FRAMES.47,SOLAR_CARDS.404,  2.404021e-06   $    0.025963,  0.012170
+        -2094,      FRAMES.47,SOLAR_CARDS.410,  3.678630e-07   $    0.003973,  0.001862
+        -2095,      FRAMES.47,SOLAR_CARDS.417,  1.003943e-07   $    0.001084,  0.000508
+        -2096,      FRAMES.47,SOLAR_CARDS.442,  3.183491e-07   $    0.003438,  0.001612
+        -2097,      FRAMES.47,SOLAR_CARDS.446,  6.963020e-06   $    0.075201,  0.035250
+        -2098,      FRAMES.47,SOLAR_CARDS.450,  3.461618e-05   $    0.373855,  0.175244
+        -2099,      FRAMES.47,SOLAR_CARDS.454,  7.447270e-06   $    0.080431,  0.037702
+        -2100,      FRAMES.47,SOLAR_CARDS.460,  3.522025e-07   $    0.003804,  0.001783
+        -2101,      FRAMES.47,SOLAR_CARDS.467,  1.016593e-07   $    0.001098,  0.000515
+        -2102,      FRAMES.47,SOLAR_CARDS.485,  1.313956e-07   $    0.001419,  0.001330
+        -2103,      FRAMES.47,SOLAR_CARDS.492,  3.150049e-07   $    0.003402,  0.001595
+        -2104,      FRAMES.47,SOLAR_CARDS.496,  1.960824e-06   $    0.021177,  0.009927
+        -2105,      FRAMES.47,SOLAR_CARDS.500,  7.049244e-06   $    0.076132,  0.035687
+        -2106,      FRAMES.47,SOLAR_CARDS.504,  1.903497e-06   $    0.020558,  0.009636
+        -2107,      FRAMES.47,SOLAR_CARDS.510,  1.728625e-07   $    0.001867,  0.000875
+        -2108,      FRAMES.47,SOLAR_CARDS.517,  1.539127e-07   $    0.001662,  0.000779
+        -2109,      FRAMES.49,     FRAMES.226,  9.559534e-08   $    0.001032,  0.001032
+        -2110,      FRAMES.49,     FRAMES.227,  4.858835e-08   $    0.000525,  0.001050
+        -2111,      FRAMES.49,     FRAMES.232,  6.743811e-07   $    0.007283,  0.007283
+        -2112,      FRAMES.49,     FRAMES.233,  4.122035e-07   $    0.004452,  0.008904
+        -2113,      FRAMES.49,     FRAMES.238,  1.474095e-06   $    0.015920,  0.015920
+        -2114,      FRAMES.49,     FRAMES.239,  1.036189e-06   $    0.011191,  0.022382
+        -2115,      FRAMES.49,     FRAMES.252,  6.241579e-07   $    0.006741,  0.006741
+        -2116,      FRAMES.49,     FRAMES.256,  1.347330e-06   $    0.014551,  0.014551
+        -2117,      FRAMES.49,     FRAMES.259,  3.967983e-07   $    0.004285,  0.008571
+        -2118,      FRAMES.49,     FRAMES.288,  9.448080e-08   $    0.001020,  0.001020
+        -2119,      FRAMES.49,     FRAMES.292,  1.863679e-07   $    0.002013,  0.002013
+        -2120,      FRAMES.49,     FRAMES.295,  6.060355e-08   $    0.000655,  0.001309
+        -2121,      FRAMES.49,SOLAR_CARDS.141,  3.695749e-07   $    0.003991,  0.001871
+        -2122,      FRAMES.49,SOLAR_CARDS.177,  9.664740e-08   $    0.001044,  0.000489
+        -2123,      FRAMES.49,SOLAR_CARDS.335,  1.931670e-07   $    0.002086,  0.001956
+        -2124,      FRAMES.49,SOLAR_CARDS.342,  4.974237e-07   $    0.005372,  0.002518
+        -2125,      FRAMES.49,SOLAR_CARDS.346,  4.005895e-07   $    0.004326,  0.002028
+        -2126,      FRAMES.49,SOLAR_CARDS.350,  1.005680e-07   $    0.001086,  0.000509
+        -2127,      FRAMES.49,SOLAR_CARDS.354,  1.199749e-07   $    0.001296,  0.000607
+        -2128,      FRAMES.49,SOLAR_CARDS.385,  1.647208e-06   $    0.017790,  0.016678
+        -2129,      FRAMES.49,SOLAR_CARDS.392,  8.094401e-06   $    0.087420,  0.040978
+        -2130,      FRAMES.49,SOLAR_CARDS.396,  1.982487e-06   $    0.021411,  0.010036
+        -2131,      FRAMES.49,SOLAR_CARDS.400,  3.607974e-07   $    0.003897,  0.001827
+        -2132,      FRAMES.49,SOLAR_CARDS.404,  1.450673e-07   $    0.001567,  0.000734
+        -2133,      FRAMES.49,SOLAR_CARDS.435,  6.023823e-06   $    0.065057,  0.060991
+        -2134,      FRAMES.49,SOLAR_CARDS.442,  3.303404e-05   $    0.356768,  0.167235
+        -2135,      FRAMES.49,SOLAR_CARDS.446,  7.397960e-06   $    0.079898,  0.037452
+        -2136,      FRAMES.49,SOLAR_CARDS.450,  5.436721e-07   $    0.005872,  0.002752
+        -2137,      FRAMES.49,SOLAR_CARDS.454,  1.445658e-07   $    0.001561,  0.000732
+        -2138,      FRAMES.49,SOLAR_CARDS.485,  1.967247e-06   $    0.021246,  0.019918
+        -2139,      FRAMES.49,SOLAR_CARDS.492,  6.972864e-06   $    0.075307,  0.035300
+        -2140,      FRAMES.49,SOLAR_CARDS.496,  2.071296e-06   $    0.022370,  0.010486
+        -2141,      FRAMES.49,SOLAR_CARDS.500,  3.098951e-07   $    0.003347,  0.001569
+        -2142,      FRAMES.49,SOLAR_CARDS.533,  1.345401e-07   $    0.001453,  0.001362
+        -2143,      FRAMES.49,SOLAR_CARDS.537,  5.193615e-07   $    0.005609,  0.002629
+        -2144,      FRAMES.51,      FRAMES.52,  9.211353e-07   $    0.019897,  0.009948
+        -2145,      FRAMES.51,     FRAMES.235,  8.939261e-08   $    0.001931,  0.000965
+        -2146,      FRAMES.51,     FRAMES.241,  1.277890e-07   $    0.002760,  0.001380
+        -2147,      FRAMES.51,     FRAMES.264,  3.061562e-07   $    0.006613,  0.006613
+        -2148,      FRAMES.51,     FRAMES.267,  3.877764e-07   $    0.008376,  0.004188
+        -2149,      FRAMES.51,     FRAMES.270,  7.260049e-08   $    0.001568,  0.000784
+        -2150,      FRAMES.51,     FRAMES.303,  4.978032e-08   $    0.001075,  0.000538
+        -2151,      FRAMES.51,SOLAR_CARDS.161,  2.211184e-07   $    0.004776,  0.001119
+        -2152,      FRAMES.51,SOLAR_CARDS.165,  1.405046e-06   $    0.030349,  0.007113
+        -2153,      FRAMES.51,SOLAR_CARDS.169,  2.355695e-06   $    0.050883,  0.023851
+        -2154,      FRAMES.51,SOLAR_CARDS.189,  5.250700e-08   $    0.001134,  0.000266
+        -2155,      FRAMES.51,SOLAR_CARDS.205,  1.584029e-07   $    0.003422,  0.000802
+        -2156,      FRAMES.51,SOLAR_CARDS.209,  1.214794e-07   $    0.002624,  0.001230
+        -2157,      FRAMES.51,SOLAR_CARDS.237,  5.561439e-08   $    0.001201,  0.000282
+        -2158,      FRAMES.51,SOLAR_CARDS.241,  4.907407e-08   $    0.001060,  0.000248
+        -2159,      FRAMES.51,SOLAR_CARDS.249,  4.654407e-08   $    0.001005,  0.000471
+        -2160,      FRAMES.51,SOLAR_CARDS.421,  1.105419e-07   $    0.002388,  0.000560
+        -2161,      FRAMES.51,SOLAR_CARDS.425,  1.371232e-07   $    0.002962,  0.000694
+        -2162,      FRAMES.51,SOLAR_CARDS.429,  7.888264e-08   $    0.001704,  0.000799
+        -2163,      FRAMES.51,SOLAR_CARDS.471,  2.349333e-07   $    0.005075,  0.001189
+        -2164,      FRAMES.51,SOLAR_CARDS.475,  1.841830e-06   $    0.039784,  0.009324
+        -2165,      FRAMES.51,SOLAR_CARDS.479,  2.240555e-06   $    0.048396,  0.022686
+        -2166,      FRAMES.51,SOLAR_CARDS.517,  6.527571e-08   $    0.001410,  0.000330
+        -2167,      FRAMES.51,SOLAR_CARDS.521,  3.326736e-07   $    0.007186,  0.001684
+        -2168,      FRAMES.51,SOLAR_CARDS.525,  5.554524e-06   $    0.119978,  0.028120
+        -2169,      FRAMES.51,SOLAR_CARDS.529,  1.198953e-05   $    0.258974,  0.121394
+        -2170,      FRAMES.52,     FRAMES.229,  9.352770e-08   $    0.001010,  0.001010
+        -2171,      FRAMES.52,     FRAMES.235,  6.000178e-07   $    0.006480,  0.006480
+        -2172,      FRAMES.52,     FRAMES.241,  1.386569e-06   $    0.014975,  0.014975
+        -2173,      FRAMES.52,     FRAMES.242,  1.931313e-07   $    0.002086,  0.002086
+        -2174,      FRAMES.52,     FRAMES.264,  3.710060e-07   $    0.004007,  0.008014
+        -2175,      FRAMES.52,     FRAMES.267,  1.446416e-06   $    0.015621,  0.015621
+        -2176,      FRAMES.52,     FRAMES.270,  6.445115e-07   $    0.006961,  0.006961
+        -2177,      FRAMES.52,     FRAMES.274,  1.070003e-07   $    0.001156,  0.001156
+        -2178,      FRAMES.52,     FRAMES.300,  5.379182e-08   $    0.000581,  0.001162
+        -2179,      FRAMES.52,     FRAMES.303,  1.890368e-07   $    0.002042,  0.002042
+        -2180,      FRAMES.52,     FRAMES.306,  1.181088e-07   $    0.001276,  0.001276
+        -2181,      FRAMES.52,SOLAR_CARDS.157,  1.676264e-07   $    0.001810,  0.000849
+        -2182,      FRAMES.52,SOLAR_CARDS.161,  2.444289e-06   $    0.026398,  0.012374
+        -2183,      FRAMES.52,SOLAR_CARDS.165,  6.880175e-06   $    0.074306,  0.034831
+        -2184,      FRAMES.52,SOLAR_CARDS.169,  1.729205e-06   $    0.018675,  0.017508
+        -2185,      FRAMES.52,SOLAR_CARDS.197,  1.317987e-07   $    0.001423,  0.000667
+        -2186,      FRAMES.52,SOLAR_CARDS.201,  2.436949e-07   $    0.002632,  0.001234
+        -2187,      FRAMES.52,SOLAR_CARDS.205,  6.002633e-07   $    0.006483,  0.003039
+        -2188,      FRAMES.52,SOLAR_CARDS.245,  9.450083e-08   $    0.001021,  0.000478
+        -2189,      FRAMES.52,SOLAR_CARDS.360,  1.187020e-07   $    0.001282,  0.000601
+        -2190,      FRAMES.52,SOLAR_CARDS.367,  9.352951e-08   $    0.001010,  0.000473
+        -2191,      FRAMES.52,SOLAR_CARDS.371,  1.243865e-07   $    0.001343,  0.000630
+        -2192,      FRAMES.52,SOLAR_CARDS.417,  1.457718e-07   $    0.001574,  0.000738
+        -2193,      FRAMES.52,SOLAR_CARDS.421,  2.819995e-07   $    0.003046,  0.001428
+        -2194,      FRAMES.52,SOLAR_CARDS.425,  3.980250e-07   $    0.004299,  0.002015
+        -2195,      FRAMES.52,SOLAR_CARDS.429,  1.248580e-07   $    0.001348,  0.001264
+        -2196,      FRAMES.52,SOLAR_CARDS.467,  1.097700e-07   $    0.001186,  0.000556
+        -2197,      FRAMES.52,SOLAR_CARDS.471,  1.840816e-06   $    0.019881,  0.009319
+        -2198,      FRAMES.52,SOLAR_CARDS.475,  7.317684e-06   $    0.079031,  0.037046
+        -2199,      FRAMES.52,SOLAR_CARDS.479,  1.793738e-06   $    0.019372,  0.018162
+        -2200,      FRAMES.52,SOLAR_CARDS.517,  4.229720e-07   $    0.004568,  0.002141
+        -2201,      FRAMES.52,SOLAR_CARDS.521,  7.523333e-06   $    0.081252,  0.038087
+        -2202,      FRAMES.52,SOLAR_CARDS.525,  3.460356e-05   $    0.373718,  0.175181
+        -2203,      FRAMES.52,SOLAR_CARDS.529,  5.910870e-06   $    0.063837,  0.059848
+        -2204,     FRAMES.142,     FRAMES.328,  3.374636e-08   $    0.001458,  0.000364
+        -2205,     FRAMES.142,     FRAMES.331,  3.148059e-08   $    0.001360,  0.000680
+        -2206,     FRAMES.142,     FRAMES.360,  4.533475e-08   $    0.001958,  0.000490
+        -2207,     FRAMES.142,     FRAMES.364,  2.689964e-07   $    0.011621,  0.002905
+        -2208,     FRAMES.142,     FRAMES.367,  2.550020e-07   $    0.011016,  0.005508
+        -2209,     FRAMES.142,     FRAMES.396,  2.562484e-08   $    0.001107,  0.000553
+        -2210,     FRAMES.142,     FRAMES.399,  2.372798e-07   $    0.010250,  0.005125
+        -2211,     FRAMES.142,SOLAR_CARDS.141,  5.242557e-08   $    0.002265,  0.000265
+        -2212,     FRAMES.142,SOLAR_CARDS.173,  7.896966e-08   $    0.003411,  0.000800
+        -2213,     FRAMES.142,SOLAR_CARDS.177,  1.324074e-07   $    0.005720,  0.000670
+        -2214,     FRAMES.142,SOLAR_CARDS.185,  2.905922e-08   $    0.001255,  0.000147
+        -2215,     FRAMES.142,SOLAR_CARDS.213,  1.933948e-06   $    0.083547,  0.019581
+        -2216,     FRAMES.142,SOLAR_CARDS.217,  1.341116e-06   $    0.057936,  0.006789
+        -2217,     FRAMES.142,SOLAR_CARDS.221,  1.214921e-07   $    0.005248,  0.000615
+        -2218,     FRAMES.142,SOLAR_CARDS.225,  5.513008e-08   $    0.002382,  0.000279
+        -2219,     FRAMES.142,SOLAR_CARDS.253,  4.031095e-06   $    0.174143,  0.081630
+        -2220,     FRAMES.142,SOLAR_CARDS.257,  2.061088e-06   $    0.089039,  0.020869
+        -2221,     FRAMES.142,SOLAR_CARDS.261,  6.011204e-08   $    0.002597,  0.000609
+        -2222,     FRAMES.220,     FRAMES.221,  9.011860e-08   $    0.000973,  0.001947
+        -2223,     FRAMES.220,     FRAMES.226,  1.377313e-06   $    0.014875,  0.014875
+        -2224,     FRAMES.220,     FRAMES.227,  8.126041e-08   $    0.000878,  0.001755
+        -2225,     FRAMES.220,     FRAMES.232,  1.941462e-07   $    0.002097,  0.002097
+        -2226,     FRAMES.220,SOLAR_CARDS.292,  6.561690e-08   $    0.000709,  0.001329
+        -2227,     FRAMES.220,SOLAR_CARDS.298,  4.222828e-07   $    0.004561,  0.004276
+        -2228,     FRAMES.220,SOLAR_CARDS.301,  7.074383e-06   $    0.076403,  0.035814
+        -2229,     FRAMES.220,SOLAR_CARDS.304,  3.257437e-05   $    0.351803,  0.164908
+        -2230,     FRAMES.220,SOLAR_CARDS.307,  7.218440e-06   $    0.077959,  0.036543
+        -2231,     FRAMES.220,SOLAR_CARDS.310,  3.077888e-07   $    0.003324,  0.001558
+        -2232,     FRAMES.220,SOLAR_CARDS.313,  9.278168e-08   $    0.001002,  0.000470
+        -2233,     FRAMES.220,SOLAR_CARDS.334,  1.512588e-06   $    0.016336,  0.015315
+        -2234,     FRAMES.220,SOLAR_CARDS.335,  2.684131e-07   $    0.002899,  0.002718
+        -2235,     FRAMES.220,SOLAR_CARDS.342,  2.406393e-06   $    0.025989,  0.012182
+        -2236,     FRAMES.220,SOLAR_CARDS.346,  7.343255e-06   $    0.079307,  0.037175
+        -2237,     FRAMES.220,SOLAR_CARDS.350,  1.947787e-06   $    0.021036,  0.009861
+        -2238,     FRAMES.220,SOLAR_CARDS.354,  2.275628e-07   $    0.002458,  0.001152
+        -2239,     FRAMES.220,SOLAR_CARDS.359,  6.407826e-06   $    0.069205,  0.064879
+        -2240,     FRAMES.220,SOLAR_CARDS.360,  1.703765e-07   $    0.001840,  0.000863
+        -2241,     FRAMES.220,SOLAR_CARDS.384,  1.631548e-06   $    0.017621,  0.016519
+        -2242,     FRAMES.220,SOLAR_CARDS.385,  9.286592e-08   $    0.001003,  0.000940
+        -2243,     FRAMES.220,SOLAR_CARDS.392,  3.226318e-07   $    0.003484,  0.001633
+        -2244,     FRAMES.220,SOLAR_CARDS.396,  4.308037e-07   $    0.004653,  0.002181
+        -2245,     FRAMES.220,SOLAR_CARDS.400,  6.331314e-07   $    0.006838,  0.003205
+        -2246,     FRAMES.220,SOLAR_CARDS.409,  1.378276e-07   $    0.001489,  0.001396
+        -2247,     FRAMES.220,SOLAR_CARDS.454,  1.238865e-07   $    0.001338,  0.000627
+        -2248,     FRAMES.220,SOLAR_CARDS.500,  1.121585e-07   $    0.001211,  0.000568
+        -2249,     FRAMES.221,     FRAMES.226,  9.146173e-08   $    0.001976,  0.000988
+        -2250,     FRAMES.221,     FRAMES.227,  3.276939e-07   $    0.007078,  0.007078
+        -2251,     FRAMES.221,SOLAR_CARDS.292,  2.130000e-06   $    0.046008,  0.043132
+        -2252,     FRAMES.221,SOLAR_CARDS.298,  1.199746e-05   $    0.259145,  0.121474
+        -2253,     FRAMES.221,SOLAR_CARDS.301,  5.821171e-06   $    0.125737,  0.029470
+        -2254,     FRAMES.221,SOLAR_CARDS.304,  4.229852e-07   $    0.009136,  0.002141
+        -2255,     FRAMES.221,SOLAR_CARDS.307,  9.674607e-08   $    0.002090,  0.000490
+        -2256,     FRAMES.221,SOLAR_CARDS.334,  1.460187e-06   $    0.031540,  0.014784
+        -2257,     FRAMES.221,SOLAR_CARDS.335,  2.225033e-06   $    0.048061,  0.022528
+        -2258,     FRAMES.221,SOLAR_CARDS.342,  1.757898e-06   $    0.037971,  0.008899
+        -2259,     FRAMES.221,SOLAR_CARDS.346,  1.629023e-07   $    0.003519,  0.000825
+        -2260,     FRAMES.221,SOLAR_CARDS.359,  9.293443e-08   $    0.002007,  0.000941
+        -2261,     FRAMES.221,SOLAR_CARDS.385,  1.648578e-07   $    0.003561,  0.001669
+        -2262,     FRAMES.221,SOLAR_CARDS.392,  2.085425e-07   $    0.004505,  0.001056
+        -2263,     FRAMES.221,SOLAR_CARDS.396,  4.755987e-08   $    0.001027,  0.000241
+        -2264,     FRAMES.221,SOLAR_CARDS.450,  5.954715e-08   $    0.001286,  0.000301
+        -2265,     FRAMES.223,     FRAMES.224,  1.750412e-07   $    0.001890,  0.001890
+        -2266,     FRAMES.223,     FRAMES.229,  1.466157e-06   $    0.015834,  0.015834
+        -2267,     FRAMES.223,     FRAMES.230,  1.001373e-07   $    0.001081,  0.001081
+        -2268,     FRAMES.223,     FRAMES.235,  1.439434e-07   $    0.001555,  0.001555
+        -2269,     FRAMES.223,SOLAR_CARDS.307,  9.259259e-08   $    0.001000,  0.000469
+        -2270,     FRAMES.223,SOLAR_CARDS.310,  9.302556e-08   $    0.001005,  0.000471
+        -2271,     FRAMES.223,SOLAR_CARDS.313,  2.621310e-07   $    0.002831,  0.001327
+        -2272,     FRAMES.223,SOLAR_CARDS.317,  2.245266e-06   $    0.024249,  0.011367
+        -2273,     FRAMES.223,SOLAR_CARDS.321,  6.922660e-06   $    0.074765,  0.035046
+        -2274,     FRAMES.223,SOLAR_CARDS.325,  2.324285e-06   $    0.025102,  0.011767
+        -2275,     FRAMES.223,SOLAR_CARDS.329,  2.285001e-07   $    0.002468,  0.002314
+        -2276,     FRAMES.223,SOLAR_CARDS.360,  3.744037e-07   $    0.004044,  0.001895
+        -2277,     FRAMES.223,SOLAR_CARDS.367,  7.396512e-06   $    0.079882,  0.037445
+        -2278,     FRAMES.223,SOLAR_CARDS.371,  3.338872e-05   $    0.360598,  0.169030
+        -2279,     FRAMES.223,SOLAR_CARDS.375,  7.939130e-06   $    0.085743,  0.040192
+        -2280,     FRAMES.223,SOLAR_CARDS.379,  3.135318e-07   $    0.003386,  0.003175
+        -2281,     FRAMES.223,SOLAR_CARDS.410,  3.305368e-07   $    0.003570,  0.001673
+        -2282,     FRAMES.223,SOLAR_CARDS.417,  2.102543e-06   $    0.022707,  0.010644
+        -2283,     FRAMES.223,SOLAR_CARDS.421,  6.691136e-06   $    0.072264,  0.033874
+        -2284,     FRAMES.223,SOLAR_CARDS.425,  2.239872e-06   $    0.024191,  0.011339
+        -2285,     FRAMES.223,SOLAR_CARDS.429,  3.117864e-07   $    0.003367,  0.003157
+        -2286,     FRAMES.223,SOLAR_CARDS.434,  1.004776e-07   $    0.001085,  0.001017
+        -2287,     FRAMES.223,SOLAR_CARDS.459,  3.150905e-07   $    0.003403,  0.003190
+        -2288,     FRAMES.223,SOLAR_CARDS.460,  1.602575e-07   $    0.001731,  0.000811
+        -2289,     FRAMES.223,SOLAR_CARDS.467,  2.851550e-07   $    0.003080,  0.001444
+        -2290,     FRAMES.223,SOLAR_CARDS.471,  4.609898e-07   $    0.004979,  0.002334
+        -2291,     FRAMES.223,SOLAR_CARDS.475,  2.206467e-07   $    0.002383,  0.001117
+        -2292,     FRAMES.223,SOLAR_CARDS.484,  2.310201e-07   $    0.002495,  0.002339
+        -2293,     FRAMES.223,SOLAR_CARDS.509,  1.737433e-07   $    0.001876,  0.001759
+        -2294,     FRAMES.223,SOLAR_CARDS.510,  1.278619e-07   $    0.001381,  0.000647
+        -2295,     FRAMES.223,SOLAR_CARDS.521,  1.648817e-07   $    0.001781,  0.000835
+        -2296,     FRAMES.224,     FRAMES.229,  1.136722e-07   $    0.001228,  0.001228
+        -2297,     FRAMES.224,     FRAMES.230,  1.463022e-06   $    0.015801,  0.015801
+        -2298,     FRAMES.224,     FRAMES.236,  1.911228e-07   $    0.002064,  0.002064
+        -2299,     FRAMES.224,SOLAR_CARDS.304,  1.471910e-07   $    0.001590,  0.000745
+        -2300,     FRAMES.224,SOLAR_CARDS.307,  3.017936e-07   $    0.003259,  0.001528
+        -2301,     FRAMES.224,SOLAR_CARDS.310,  2.358812e-06   $    0.025475,  0.011941
+        -2302,     FRAMES.224,SOLAR_CARDS.313,  7.067926e-06   $    0.076334,  0.035781
+        -2303,     FRAMES.224,SOLAR_CARDS.317,  2.120882e-06   $    0.022906,  0.010737
+        -2304,     FRAMES.224,SOLAR_CARDS.321,  4.802520e-07   $    0.005187,  0.002431
+        -2305,     FRAMES.224,SOLAR_CARDS.325,  1.320667e-07   $    0.001426,  0.000669
+        -2306,     FRAMES.224,SOLAR_CARDS.350,  3.924704e-07   $    0.004239,  0.001987
+        -2307,     FRAMES.224,SOLAR_CARDS.354,  7.258004e-06   $    0.078386,  0.036744
+        -2308,     FRAMES.224,SOLAR_CARDS.360,  3.357688e-05   $    0.362630,  0.169983
+        -2309,     FRAMES.224,SOLAR_CARDS.367,  7.625259e-06   $    0.082353,  0.038603
+        -2310,     FRAMES.224,SOLAR_CARDS.371,  5.836516e-07   $    0.006303,  0.002955
+        -2311,     FRAMES.224,SOLAR_CARDS.400,  2.805130e-07   $    0.003030,  0.001420
+        -2312,     FRAMES.224,SOLAR_CARDS.404,  2.325257e-06   $    0.025113,  0.011772
+        -2313,     FRAMES.224,SOLAR_CARDS.409,  2.501647e-07   $    0.002702,  0.002533
+        -2314,     FRAMES.224,SOLAR_CARDS.410,  6.698434e-06   $    0.072343,  0.033911
+        -2315,     FRAMES.224,SOLAR_CARDS.417,  1.954226e-06   $    0.021106,  0.009893
+        -2316,     FRAMES.224,SOLAR_CARDS.421,  2.231756e-07   $    0.002410,  0.001130
+        -2317,     FRAMES.224,SOLAR_CARDS.434,  2.397065e-07   $    0.002589,  0.002427
+        -2318,     FRAMES.224,SOLAR_CARDS.450,  9.829056e-08   $    0.001062,  0.000498
+        -2319,     FRAMES.224,SOLAR_CARDS.454,  2.594831e-07   $    0.002802,  0.001314
+        -2320,     FRAMES.224,SOLAR_CARDS.459,  2.370544e-07   $    0.002560,  0.002400
+        -2321,     FRAMES.224,SOLAR_CARDS.460,  5.010486e-07   $    0.005411,  0.002537
+        -2322,     FRAMES.224,SOLAR_CARDS.467,  2.976911e-07   $    0.003215,  0.001507
+        -2323,     FRAMES.224,SOLAR_CARDS.504,  1.341344e-07   $    0.001449,  0.000679
+        -2324,     FRAMES.224,SOLAR_CARDS.510,  9.290797e-08   $    0.001003,  0.000470
+        -2325,     FRAMES.226,     FRAMES.227,  9.777008e-08   $    0.001056,  0.002112
+        -2326,     FRAMES.226,     FRAMES.232,  1.322541e-06   $    0.014283,  0.014283
+        -2327,     FRAMES.226,     FRAMES.233,  6.261872e-08   $    0.000676,  0.001353
+        -2328,     FRAMES.226,     FRAMES.238,  1.546796e-07   $    0.001671,  0.001671
+        -2329,     FRAMES.226,SOLAR_CARDS.141,  1.113464e-07   $    0.001203,  0.000564
+        -2330,     FRAMES.226,SOLAR_CARDS.298,  2.037390e-07   $    0.002200,  0.002063
+        -2331,     FRAMES.226,SOLAR_CARDS.301,  2.342486e-06   $    0.025299,  0.011859
+        -2332,     FRAMES.226,SOLAR_CARDS.304,  6.858102e-06   $    0.074067,  0.034719
+        -2333,     FRAMES.226,SOLAR_CARDS.307,  2.231565e-06   $    0.024101,  0.011297
+        -2334,     FRAMES.226,SOLAR_CARDS.310,  2.160424e-07   $    0.002333,  0.001094
+        -2335,     FRAMES.226,SOLAR_CARDS.313,  1.313566e-07   $    0.001419,  0.000665
+        -2336,     FRAMES.226,SOLAR_CARDS.334,  2.158768e-07   $    0.002331,  0.002186
+        -2337,     FRAMES.226,SOLAR_CARDS.335,  2.482090e-07   $    0.002681,  0.002513
+        -2338,     FRAMES.226,SOLAR_CARDS.342,  7.903991e-06   $    0.085363,  0.040014
+        -2339,     FRAMES.226,SOLAR_CARDS.346,  3.374946e-05   $    0.364494,  0.170857
+        -2340,     FRAMES.226,SOLAR_CARDS.350,  7.584503e-06   $    0.081913,  0.038397
+        -2341,     FRAMES.226,SOLAR_CARDS.354,  4.038328e-07   $    0.004361,  0.002044
+        -2342,     FRAMES.226,SOLAR_CARDS.359,  3.155703e-07   $    0.003408,  0.003195
+        -2343,     FRAMES.226,SOLAR_CARDS.367,  1.138882e-07   $    0.001230,  0.000577
+        -2344,     FRAMES.226,SOLAR_CARDS.384,  2.741030e-07   $    0.002960,  0.002775
+        -2345,     FRAMES.226,SOLAR_CARDS.385,  1.894402e-07   $    0.002046,  0.001918
+        -2346,     FRAMES.226,SOLAR_CARDS.392,  2.396587e-06   $    0.025883,  0.012133
+        -2347,     FRAMES.226,SOLAR_CARDS.396,  6.818408e-06   $    0.073639,  0.034518
+        -2348,     FRAMES.226,SOLAR_CARDS.400,  2.457852e-06   $    0.026545,  0.012443
+        -2349,     FRAMES.226,SOLAR_CARDS.404,  2.402398e-07   $    0.002595,  0.001216
+        -2350,     FRAMES.226,SOLAR_CARDS.442,  2.154408e-07   $    0.002327,  0.001091
+        -2351,     FRAMES.226,SOLAR_CARDS.446,  6.060980e-07   $    0.006546,  0.003068
+        -2352,     FRAMES.226,SOLAR_CARDS.450,  3.772284e-07   $    0.004074,  0.001910
+        -2353,     FRAMES.226,SOLAR_CARDS.454,  9.578034e-08   $    0.001034,  0.000485
+        -2354,     FRAMES.226,SOLAR_CARDS.492,  1.298003e-07   $    0.001402,  0.000657
+        -2355,     FRAMES.226,SOLAR_CARDS.496,  9.478457e-08   $    0.001024,  0.000480
+        -2356,     FRAMES.227,     FRAMES.232,  6.793078e-08   $    0.001467,  0.000734
+        -2357,     FRAMES.227,     FRAMES.233,  3.342007e-07   $    0.007219,  0.007219
+        -2358,     FRAMES.227,SOLAR_CARDS.292,  1.061915e-07   $    0.002294,  0.002150
+        -2359,     FRAMES.227,SOLAR_CARDS.298,  2.378045e-06   $    0.051366,  0.024078
+        -2360,     FRAMES.227,SOLAR_CARDS.301,  1.737784e-06   $    0.037536,  0.008798
+        -2361,     FRAMES.227,SOLAR_CARDS.304,  1.682317e-07   $    0.003634,  0.000852
+        -2362,     FRAMES.227,SOLAR_CARDS.307,  6.723241e-08   $    0.001452,  0.000340
+        -2363,     FRAMES.227,SOLAR_CARDS.334,  1.327874e-07   $    0.002868,  0.001344
+        -2364,     FRAMES.227,SOLAR_CARDS.335,  1.189181e-05   $    0.256863,  0.120405
+        -2365,     FRAMES.227,SOLAR_CARDS.342,  5.613621e-06   $    0.121254,  0.028419
+        -2366,     FRAMES.227,SOLAR_CARDS.346,  3.057027e-07   $    0.006603,  0.001548
+        -2367,     FRAMES.227,SOLAR_CARDS.359,  7.829451e-08   $    0.001691,  0.000793
+        -2368,     FRAMES.227,SOLAR_CARDS.385,  2.455798e-06   $    0.053045,  0.024865
+        -2369,     FRAMES.227,SOLAR_CARDS.392,  1.836476e-06   $    0.039668,  0.009297
+        -2370,     FRAMES.227,SOLAR_CARDS.396,  1.949308e-07   $    0.004211,  0.000987
+        -2371,     FRAMES.227,SOLAR_CARDS.400,  5.125816e-08   $    0.001107,  0.000259
+        -2372,     FRAMES.227,SOLAR_CARDS.435,  7.228327e-08   $    0.001561,  0.000732
+        -2373,     FRAMES.227,SOLAR_CARDS.442,  2.097994e-07   $    0.004532,  0.001062
+        -2374,     FRAMES.227,SOLAR_CARDS.446,  5.590032e-08   $    0.001207,  0.000283
+        -2375,     FRAMES.229,     FRAMES.230,  1.783848e-07   $    0.001927,  0.001927
+        -2376,     FRAMES.229,     FRAMES.235,  1.483212e-06   $    0.016019,  0.016019
+        -2377,     FRAMES.229,     FRAMES.236,  1.316477e-07   $    0.001422,  0.001422
+        -2378,     FRAMES.229,     FRAMES.241,  2.126282e-07   $    0.002296,  0.002296
+        -2379,     FRAMES.229,     FRAMES.242,  1.154180e-07   $    0.001247,  0.001247
+        -2380,     FRAMES.229,SOLAR_CARDS.161,  9.855871e-08   $    0.001064,  0.000499
+        -2381,     FRAMES.229,SOLAR_CARDS.165,  1.406938e-07   $    0.001519,  0.000712
+        -2382,     FRAMES.229,SOLAR_CARDS.313,  1.278921e-07   $    0.001381,  0.000647
+        -2383,     FRAMES.229,SOLAR_CARDS.317,  2.484081e-07   $    0.002683,  0.001258
+        -2384,     FRAMES.229,SOLAR_CARDS.321,  5.169489e-07   $    0.005583,  0.002617
+        -2385,     FRAMES.229,SOLAR_CARDS.325,  4.201931e-07   $    0.004538,  0.002127
+        -2386,     FRAMES.229,SOLAR_CARDS.360,  3.974035e-07   $    0.004292,  0.002012
+        -2387,     FRAMES.229,SOLAR_CARDS.367,  1.865568e-06   $    0.020148,  0.009444
+        -2388,     FRAMES.229,SOLAR_CARDS.371,  6.823166e-06   $    0.073690,  0.034542
+        -2389,     FRAMES.229,SOLAR_CARDS.375,  2.287930e-06   $    0.024710,  0.011583
+        -2390,     FRAMES.229,SOLAR_CARDS.379,  1.854903e-07   $    0.002003,  0.001878
+        -2391,     FRAMES.229,SOLAR_CARDS.410,  3.434552e-07   $    0.003709,  0.001739
+        -2392,     FRAMES.229,SOLAR_CARDS.417,  7.397371e-06   $    0.079892,  0.037449
+        -2393,     FRAMES.229,SOLAR_CARDS.421,  3.446595e-05   $    0.372232,  0.174484
+        -2394,     FRAMES.229,SOLAR_CARDS.425,  6.798442e-06   $    0.073423,  0.034417
+        -2395,     FRAMES.229,SOLAR_CARDS.429,  2.673808e-07   $    0.002888,  0.002707
+        -2396,     FRAMES.229,SOLAR_CARDS.460,  4.884049e-07   $    0.005275,  0.002473
+        -2397,     FRAMES.229,SOLAR_CARDS.467,  1.943645e-06   $    0.020991,  0.009840
+        -2398,     FRAMES.229,SOLAR_CARDS.471,  7.319722e-06   $    0.079053,  0.037056
+        -2399,     FRAMES.229,SOLAR_CARDS.475,  1.861417e-06   $    0.020103,  0.009423
+        -2400,     FRAMES.229,SOLAR_CARDS.479,  2.490008e-07   $    0.002689,  0.002521
+        -2401,     FRAMES.229,SOLAR_CARDS.517,  2.429319e-07   $    0.002624,  0.001230
+        -2402,     FRAMES.229,SOLAR_CARDS.521,  5.128890e-07   $    0.005539,  0.002597
+        -2403,     FRAMES.229,SOLAR_CARDS.525,  3.156277e-07   $    0.003409,  0.001598
+        -2404,     FRAMES.230,     FRAMES.235,  1.206271e-07   $    0.001303,  0.001303
+        -2405,     FRAMES.230,     FRAMES.236,  1.338073e-06   $    0.014451,  0.014451
+        -2406,     FRAMES.230,     FRAMES.243,  1.870554e-07   $    0.002020,  0.002020
+        -2407,     FRAMES.230,     FRAMES.246,  1.292923e-07   $    0.001396,  0.001396
+        -2408,     FRAMES.230,SOLAR_CARDS.149,  1.122777e-07   $    0.001213,  0.000568
+        -2409,     FRAMES.230,SOLAR_CARDS.157,  1.434920e-07   $    0.001550,  0.000726
+        -2410,     FRAMES.230,SOLAR_CARDS.193,  1.179815e-07   $    0.001274,  0.000597
+        -2411,     FRAMES.230,SOLAR_CARDS.307,  1.190196e-07   $    0.001285,  0.000603
+        -2412,     FRAMES.230,SOLAR_CARDS.310,  3.130260e-07   $    0.003381,  0.001585
+        -2413,     FRAMES.230,SOLAR_CARDS.313,  3.246646e-07   $    0.003506,  0.001644
+        -2414,     FRAMES.230,SOLAR_CARDS.317,  2.336719e-07   $    0.002524,  0.001183
+        -2415,     FRAMES.230,SOLAR_CARDS.325,  1.648322e-07   $    0.001780,  0.000834
+        -2416,     FRAMES.230,SOLAR_CARDS.346,  1.222579e-07   $    0.001320,  0.000619
+        -2417,     FRAMES.230,SOLAR_CARDS.350,  3.119362e-07   $    0.003369,  0.001579
+        -2418,     FRAMES.230,SOLAR_CARDS.354,  2.097692e-06   $    0.022655,  0.010620
+        -2419,     FRAMES.230,SOLAR_CARDS.360,  7.053614e-06   $    0.076179,  0.035709
+        -2420,     FRAMES.230,SOLAR_CARDS.367,  2.119868e-06   $    0.022895,  0.010732
+        -2421,     FRAMES.230,SOLAR_CARDS.371,  2.812498e-07   $    0.003037,  0.001424
+        -2422,     FRAMES.230,SOLAR_CARDS.375,  1.060641e-07   $    0.001145,  0.000537
+        -2423,     FRAMES.230,SOLAR_CARDS.396,  9.578034e-08   $    0.001034,  0.000485
+        -2424,     FRAMES.230,SOLAR_CARDS.400,  5.471384e-07   $    0.005909,  0.002770
+        -2425,     FRAMES.230,SOLAR_CARDS.404,  7.078807e-06   $    0.076451,  0.035836
+        -2426,     FRAMES.230,SOLAR_CARDS.410,  3.262007e-05   $    0.352297,  0.165139
+        -2427,     FRAMES.230,SOLAR_CARDS.417,  7.706593e-06   $    0.083231,  0.039015
+        -2428,     FRAMES.230,SOLAR_CARDS.421,  5.755146e-07   $    0.006216,  0.002914
+        -2429,     FRAMES.230,SOLAR_CARDS.425,  1.045510e-07   $    0.001129,  0.000529
+        -2430,     FRAMES.230,SOLAR_CARDS.450,  3.953278e-07   $    0.004270,  0.002001
+        -2431,     FRAMES.230,SOLAR_CARDS.454,  2.337846e-06   $    0.025249,  0.011835
+        -2432,     FRAMES.230,SOLAR_CARDS.460,  7.547903e-06   $    0.081517,  0.038211
+        -2433,     FRAMES.230,SOLAR_CARDS.467,  2.164866e-06   $    0.023381,  0.010960
+        -2434,     FRAMES.230,SOLAR_CARDS.471,  2.271476e-07   $    0.002453,  0.001150
+        -2435,     FRAMES.230,SOLAR_CARDS.500,  1.605220e-07   $    0.001734,  0.000813
+        -2436,     FRAMES.230,SOLAR_CARDS.504,  2.596840e-07   $    0.002805,  0.001315
+        -2437,     FRAMES.230,SOLAR_CARDS.510,  4.997185e-07   $    0.005397,  0.002530
+        -2438,     FRAMES.230,SOLAR_CARDS.517,  2.837447e-07   $    0.003064,  0.001436
+        -2439,     FRAMES.232,     FRAMES.233,  1.018931e-07   $    0.001100,  0.002201
+        -2440,     FRAMES.232,     FRAMES.238,  1.414629e-06   $    0.015278,  0.015278
+        -2441,     FRAMES.232,     FRAMES.239,  6.791277e-08   $    0.000733,  0.001467
+        -2442,     FRAMES.232,     FRAMES.249,  9.744291e-08   $    0.001052,  0.001052
+        -2443,     FRAMES.232,     FRAMES.252,  1.659947e-07   $    0.001793,  0.001793
+        -2444,     FRAMES.232,     FRAMES.256,  1.005493e-07   $    0.001086,  0.001086
+        -2445,     FRAMES.232,SOLAR_CARDS.301,  2.810776e-07   $    0.003036,  0.001423
+        -2446,     FRAMES.232,SOLAR_CARDS.304,  4.245316e-07   $    0.004585,  0.002149
+        -2447,     FRAMES.232,SOLAR_CARDS.307,  2.614203e-07   $    0.002823,  0.001323
+        -2448,     FRAMES.232,SOLAR_CARDS.310,  1.450798e-07   $    0.001567,  0.000734
+        -2449,     FRAMES.232,SOLAR_CARDS.335,  1.942434e-07   $    0.002098,  0.001967
+        -2450,     FRAMES.232,SOLAR_CARDS.342,  1.989518e-06   $    0.021487,  0.010072
+        -2451,     FRAMES.232,SOLAR_CARDS.346,  7.167641e-06   $    0.077411,  0.036286
+        -2452,     FRAMES.232,SOLAR_CARDS.350,  2.420812e-06   $    0.026145,  0.012255
+        -2453,     FRAMES.232,SOLAR_CARDS.354,  2.618114e-07   $    0.002828,  0.001325
+        -2454,     FRAMES.232,SOLAR_CARDS.385,  2.379053e-07   $    0.002569,  0.002409
+        -2455,     FRAMES.232,SOLAR_CARDS.392,  7.847098e-06   $    0.084749,  0.039726
+        -2456,     FRAMES.232,SOLAR_CARDS.396,  3.382075e-05   $    0.365264,  0.171218
+        -2457,     FRAMES.232,SOLAR_CARDS.400,  7.476452e-06   $    0.080746,  0.037850
+        -2458,     FRAMES.232,SOLAR_CARDS.404,  4.771976e-07   $    0.005154,  0.002416
+        -2459,     FRAMES.232,SOLAR_CARDS.410,  1.205953e-07   $    0.001302,  0.000611
+        -2460,     FRAMES.232,SOLAR_CARDS.435,  3.095063e-07   $    0.003343,  0.003134
+        -2461,     FRAMES.232,SOLAR_CARDS.442,  2.078453e-06   $    0.022447,  0.010522
+        -2462,     FRAMES.232,SOLAR_CARDS.446,  7.135638e-06   $    0.077065,  0.036124
+        -2463,     FRAMES.232,SOLAR_CARDS.450,  2.234786e-06   $    0.024136,  0.011314
+        -2464,     FRAMES.232,SOLAR_CARDS.454,  2.949591e-07   $    0.003186,  0.001493
+        -2465,     FRAMES.232,SOLAR_CARDS.460,  9.479946e-08   $    0.001024,  0.000480
+        -2466,     FRAMES.232,SOLAR_CARDS.492,  2.060558e-07   $    0.002225,  0.001043
+        -2467,     FRAMES.232,SOLAR_CARDS.496,  4.110948e-07   $    0.004440,  0.002081
+        -2468,     FRAMES.232,SOLAR_CARDS.500,  3.798030e-07   $    0.004102,  0.001923
+        -2469,     FRAMES.233,     FRAMES.238,  6.188068e-08   $    0.001337,  0.000668
+        -2470,     FRAMES.233,     FRAMES.239,  3.244114e-07   $    0.007007,  0.007007
+        -2471,     FRAMES.233,     FRAMES.256,  6.858802e-08   $    0.001482,  0.000741
+        -2472,     FRAMES.233,     FRAMES.259,  5.050123e-08   $    0.001091,  0.001091
+        -2473,     FRAMES.233,SOLAR_CARDS.177,  5.698799e-08   $    0.001231,  0.000289
+        -2474,     FRAMES.233,SOLAR_CARDS.298,  1.420770e-07   $    0.003069,  0.001439
+        -2475,     FRAMES.233,SOLAR_CARDS.301,  1.725128e-07   $    0.003726,  0.000873
+        -2476,     FRAMES.233,SOLAR_CARDS.304,  9.594249e-08   $    0.002072,  0.000486
+        -2477,     FRAMES.233,SOLAR_CARDS.335,  2.146473e-06   $    0.046364,  0.021733
+        -2478,     FRAMES.233,SOLAR_CARDS.342,  1.656343e-06   $    0.035777,  0.008385
+        -2479,     FRAMES.233,SOLAR_CARDS.346,  1.787704e-07   $    0.003861,  0.000905
+        -2480,     FRAMES.233,SOLAR_CARDS.350,  6.395874e-08   $    0.001382,  0.000324
+        -2481,     FRAMES.233,SOLAR_CARDS.360,  5.250700e-08   $    0.001134,  0.000266
+        -2482,     FRAMES.233,SOLAR_CARDS.385,  1.173547e-05   $    0.253486,  0.118822
+        -2483,     FRAMES.233,SOLAR_CARDS.392,  6.319427e-06   $    0.136500,  0.031992
+        -2484,     FRAMES.233,SOLAR_CARDS.396,  2.810904e-07   $    0.006072,  0.001423
+        -2485,     FRAMES.233,SOLAR_CARDS.400,  7.731987e-08   $    0.001670,  0.000391
+        -2486,     FRAMES.233,SOLAR_CARDS.435,  2.122611e-06   $    0.045848,  0.021491
+        -2487,     FRAMES.233,SOLAR_CARDS.442,  1.699908e-06   $    0.036718,  0.008606
+        -2488,     FRAMES.233,SOLAR_CARDS.446,  1.262055e-07   $    0.002726,  0.000639
+        -2489,     FRAMES.233,SOLAR_CARDS.450,  5.592849e-08   $    0.001208,  0.000283
+        -2490,     FRAMES.233,SOLAR_CARDS.485,  9.101343e-08   $    0.001966,  0.000922
+        -2491,     FRAMES.233,SOLAR_CARDS.492,  2.105763e-07   $    0.004548,  0.001066
+        -2492,     FRAMES.233,SOLAR_CARDS.496,  7.572322e-08   $    0.001636,  0.000383
+        -2493,     FRAMES.233,SOLAR_CARDS.537,  1.032553e-07   $    0.002230,  0.000523
+        -2494,     FRAMES.235,     FRAMES.236,  1.737073e-07   $    0.001876,  0.001876
+        -2495,     FRAMES.235,     FRAMES.241,  1.442784e-06   $    0.015582,  0.015582
+        -2496,     FRAMES.235,     FRAMES.242,  5.322668e-07   $    0.005748,  0.005748
+        -2497,     FRAMES.235,     FRAMES.243,  1.237128e-07   $    0.001336,  0.001336
+        -2498,     FRAMES.235,     FRAMES.270,  1.587727e-07   $    0.001715,  0.001715
+        -2499,     FRAMES.235,     FRAMES.274,  1.064895e-07   $    0.001150,  0.001150
+        -2500,     FRAMES.235,SOLAR_CARDS.157,  2.264702e-07   $    0.002446,  0.001147
+        -2501,     FRAMES.235,SOLAR_CARDS.161,  4.418761e-07   $    0.004772,  0.002237
+        -2502,     FRAMES.235,SOLAR_CARDS.165,  3.251171e-07   $    0.003511,  0.001646
+        -2503,     FRAMES.235,SOLAR_CARDS.205,  1.017533e-07   $    0.001099,  0.000515
+        -2504,     FRAMES.235,SOLAR_CARDS.360,  1.796152e-07   $    0.001940,  0.000909
+        -2505,     FRAMES.235,SOLAR_CARDS.367,  2.453031e-07   $    0.002649,  0.001242
+        -2506,     FRAMES.235,SOLAR_CARDS.371,  3.408787e-07   $    0.003681,  0.001726
+        -2507,     FRAMES.235,SOLAR_CARDS.375,  3.069225e-07   $    0.003315,  0.001554
+        -2508,     FRAMES.235,SOLAR_CARDS.410,  2.509934e-07   $    0.002711,  0.001271
+        -2509,     FRAMES.235,SOLAR_CARDS.417,  1.873688e-06   $    0.020236,  0.009486
+        -2510,     FRAMES.235,SOLAR_CARDS.421,  6.842663e-06   $    0.073901,  0.034641
+        -2511,     FRAMES.235,SOLAR_CARDS.425,  2.333393e-06   $    0.025201,  0.011813
+        -2512,     FRAMES.235,SOLAR_CARDS.429,  3.770242e-07   $    0.004072,  0.003817
+        -2513,     FRAMES.235,SOLAR_CARDS.454,  1.405577e-07   $    0.001518,  0.000712
+        -2514,     FRAMES.235,SOLAR_CARDS.460,  5.535906e-07   $    0.005979,  0.002803
+        -2515,     FRAMES.235,SOLAR_CARDS.467,  6.866638e-06   $    0.074160,  0.034762
+        -2516,     FRAMES.235,SOLAR_CARDS.471,  3.508268e-05   $    0.378893,  0.177606
+        -2517,     FRAMES.235,SOLAR_CARDS.475,  7.042391e-06   $    0.076058,  0.035652
+        -2518,     FRAMES.235,SOLAR_CARDS.479,  3.252786e-07   $    0.003513,  0.003293
+        -2519,     FRAMES.235,SOLAR_CARDS.510,  1.995493e-07   $    0.002155,  0.001010
+        -2520,     FRAMES.235,SOLAR_CARDS.517,  2.057276e-06   $    0.022219,  0.010415
+        -2521,     FRAMES.235,SOLAR_CARDS.521,  6.730874e-06   $    0.072693,  0.034075
+        -2522,     FRAMES.235,SOLAR_CARDS.525,  2.407421e-06   $    0.026000,  0.012188
+        -2523,     FRAMES.235,SOLAR_CARDS.529,  1.653014e-07   $    0.001785,  0.001674
+        -2524,     FRAMES.236,     FRAMES.241,  1.202278e-07   $    0.001298,  0.001298
+        -2525,     FRAMES.236,     FRAMES.242,  5.943631e-07   $    0.006419,  0.006419
+        -2526,     FRAMES.236,     FRAMES.243,  1.457560e-06   $    0.015742,  0.015742
+        -2527,     FRAMES.236,     FRAMES.246,  5.972998e-07   $    0.006451,  0.006451
+        -2528,     FRAMES.236,     FRAMES.249,  1.122235e-07   $    0.001212,  0.001212
+        -2529,     FRAMES.236,     FRAMES.274,  1.132365e-07   $    0.001223,  0.001223
+        -2530,     FRAMES.236,     FRAMES.277,  1.712743e-07   $    0.001850,  0.001850
+        -2531,     FRAMES.236,     FRAMES.282,  9.744291e-08   $    0.001052,  0.001052
+        -2532,     FRAMES.236,SOLAR_CARDS.145,  1.376897e-07   $    0.001487,  0.000697
+        -2533,     FRAMES.236,SOLAR_CARDS.149,  2.784052e-07   $    0.003007,  0.001409
+        -2534,     FRAMES.236,SOLAR_CARDS.153,  5.725095e-07   $    0.006183,  0.002898
+        -2535,     FRAMES.236,SOLAR_CARDS.157,  2.898797e-07   $    0.003131,  0.001468
+        -2536,     FRAMES.236,SOLAR_CARDS.161,  1.173507e-07   $    0.001267,  0.000594
+        -2537,     FRAMES.236,SOLAR_CARDS.181,  1.222222e-07   $    0.001320,  0.000619
+        -2538,     FRAMES.236,SOLAR_CARDS.193,  1.189371e-07   $    0.001285,  0.000602
+        -2539,     FRAMES.236,SOLAR_CARDS.197,  1.040941e-07   $    0.001124,  0.000527
+        -2540,     FRAMES.236,SOLAR_CARDS.310,  1.108857e-07   $    0.001198,  0.000561
+        -2541,     FRAMES.236,SOLAR_CARDS.317,  1.095220e-07   $    0.001183,  0.000554
+        -2542,     FRAMES.236,SOLAR_CARDS.350,  2.142375e-07   $    0.002314,  0.001085
+        -2543,     FRAMES.236,SOLAR_CARDS.354,  2.978847e-07   $    0.003217,  0.001508
+        -2544,     FRAMES.236,SOLAR_CARDS.360,  5.821011e-07   $    0.006287,  0.002947
+        -2545,     FRAMES.236,SOLAR_CARDS.367,  3.553565e-07   $    0.003838,  0.001799
+        -2546,     FRAMES.236,SOLAR_CARDS.375,  1.398026e-07   $    0.001510,  0.000708
+        -2547,     FRAMES.236,SOLAR_CARDS.396,  9.829056e-08   $    0.001062,  0.000498
+        -2548,     FRAMES.236,SOLAR_CARDS.400,  2.861894e-07   $    0.003091,  0.001449
+        -2549,     FRAMES.236,SOLAR_CARDS.404,  2.447725e-06   $    0.026435,  0.012392
+        -2550,     FRAMES.236,SOLAR_CARDS.410,  7.405142e-06   $    0.079976,  0.037489
+        -2551,     FRAMES.236,SOLAR_CARDS.417,  2.215774e-06   $    0.023930,  0.011217
+        -2552,     FRAMES.236,SOLAR_CARDS.421,  2.885007e-07   $    0.003116,  0.001461
+        -2553,     FRAMES.236,SOLAR_CARDS.425,  1.033316e-07   $    0.001116,  0.000523
+        -2554,     FRAMES.236,SOLAR_CARDS.450,  4.285992e-07   $    0.004629,  0.002170
+        -2555,     FRAMES.236,SOLAR_CARDS.454,  7.492868e-06   $    0.080923,  0.037933
+        -2556,     FRAMES.236,SOLAR_CARDS.460,  3.346954e-05   $    0.361471,  0.169440
+        -2557,     FRAMES.236,SOLAR_CARDS.467,  7.215178e-06   $    0.077924,  0.036527
+        -2558,     FRAMES.236,SOLAR_CARDS.471,  3.979693e-07   $    0.004298,  0.002015
+        -2559,     FRAMES.236,SOLAR_CARDS.475,  1.445658e-07   $    0.001561,  0.000732
+        -2560,     FRAMES.236,SOLAR_CARDS.500,  3.582001e-07   $    0.003869,  0.001813
+        -2561,     FRAMES.236,SOLAR_CARDS.504,  2.078689e-06   $    0.022450,  0.010523
+        -2562,     FRAMES.236,SOLAR_CARDS.510,  7.476386e-06   $    0.080745,  0.037849
+        -2563,     FRAMES.236,SOLAR_CARDS.517,  2.332585e-06   $    0.025192,  0.011809
+        -2564,     FRAMES.236,SOLAR_CARDS.521,  3.025388e-07   $    0.003267,  0.001532
+        -2565,     FRAMES.238,     FRAMES.239,  1.348376e-07   $    0.001456,  0.002912
+        -2566,     FRAMES.238,     FRAMES.246,  1.060760e-07   $    0.001146,  0.001146
+        -2567,     FRAMES.238,     FRAMES.249,  5.660121e-07   $    0.006113,  0.006113
+        -2568,     FRAMES.238,     FRAMES.252,  1.373154e-06   $    0.014830,  0.014830
+        -2569,     FRAMES.238,     FRAMES.256,  6.096219e-07   $    0.006584,  0.006584
+        -2570,     FRAMES.238,     FRAMES.259,  6.234860e-08   $    0.000673,  0.001347
+        -2571,     FRAMES.238,     FRAMES.285,  1.103905e-07   $    0.001192,  0.001192
+        -2572,     FRAMES.238,     FRAMES.288,  2.025880e-07   $    0.002188,  0.002188
+        -2573,     FRAMES.238,SOLAR_CARDS.141,  4.698361e-07   $    0.005074,  0.002379
+        -2574,     FRAMES.238,SOLAR_CARDS.145,  2.671859e-07   $    0.002886,  0.001353
+        -2575,     FRAMES.238,SOLAR_CARDS.149,  1.365124e-07   $    0.001474,  0.000691
+        -2576,     FRAMES.238,SOLAR_CARDS.181,  1.204875e-07   $    0.001301,  0.000610
+        -2577,     FRAMES.238,SOLAR_CARDS.304,  1.040640e-07   $    0.001124,  0.000527
+        -2578,     FRAMES.238,SOLAR_CARDS.307,  1.168276e-07   $    0.001262,  0.000591
+        -2579,     FRAMES.238,SOLAR_CARDS.342,  3.815379e-07   $    0.004121,  0.001932
+        -2580,     FRAMES.238,SOLAR_CARDS.346,  4.047320e-07   $    0.004371,  0.002049
+        -2581,     FRAMES.238,SOLAR_CARDS.350,  2.372015e-07   $    0.002562,  0.001201
+        -2582,     FRAMES.238,SOLAR_CARDS.354,  1.811238e-07   $    0.001956,  0.000917
+        -2583,     FRAMES.238,SOLAR_CARDS.385,  2.427890e-07   $    0.002622,  0.002458
+        -2584,     FRAMES.238,SOLAR_CARDS.392,  2.247581e-06   $    0.024274,  0.011378
+        -2585,     FRAMES.238,SOLAR_CARDS.396,  6.693022e-06   $    0.072285,  0.033883
+        -2586,     FRAMES.238,SOLAR_CARDS.400,  2.024591e-06   $    0.021866,  0.010249
+        -2587,     FRAMES.238,SOLAR_CARDS.404,  3.429632e-07   $    0.003704,  0.001736
+        -2588,     FRAMES.238,SOLAR_CARDS.435,  4.263331e-07   $    0.004604,  0.004317
+        -2589,     FRAMES.238,SOLAR_CARDS.442,  7.346033e-06   $    0.079337,  0.037189
+        -2590,     FRAMES.238,SOLAR_CARDS.446,  3.416311e-05   $    0.368962,  0.172951
+        -2591,     FRAMES.238,SOLAR_CARDS.450,  7.276273e-06   $    0.078584,  0.036836
+        -2592,     FRAMES.238,SOLAR_CARDS.454,  3.407506e-07   $    0.003680,  0.001725
+        -2593,     FRAMES.238,SOLAR_CARDS.485,  2.146425e-07   $    0.002318,  0.002173
+        -2594,     FRAMES.238,SOLAR_CARDS.492,  2.225268e-06   $    0.024033,  0.011265
+        -2595,     FRAMES.238,SOLAR_CARDS.496,  7.638904e-06   $    0.082500,  0.038672
+        -2596,     FRAMES.238,SOLAR_CARDS.500,  1.696476e-06   $    0.018322,  0.008588
+        -2597,     FRAMES.238,SOLAR_CARDS.504,  2.630716e-07   $    0.002841,  0.001332
+        -2598,     FRAMES.238,SOLAR_CARDS.537,  3.092560e-07   $    0.003340,  0.001566
+        -2599,     FRAMES.239,     FRAMES.252,  6.871518e-08   $    0.001484,  0.000742
+        -2600,     FRAMES.239,     FRAMES.256,  3.339104e-07   $    0.007212,  0.003606
+        -2601,     FRAMES.239,     FRAMES.259,  3.328555e-07   $    0.007190,  0.007190
+        -2602,     FRAMES.239,     FRAMES.292,  6.520100e-08   $    0.001408,  0.000704
+        -2603,     FRAMES.239,SOLAR_CARDS.141,  6.141623e-08   $    0.001327,  0.000311
+        -2604,     FRAMES.239,SOLAR_CARDS.301,  5.345107e-08   $    0.001155,  0.000271
+        -2605,     FRAMES.239,SOLAR_CARDS.304,  7.215385e-08   $    0.001559,  0.000365
+        -2606,     FRAMES.239,SOLAR_CARDS.335,  1.409107e-07   $    0.003044,  0.001427
+        -2607,     FRAMES.239,SOLAR_CARDS.342,  1.189750e-07   $    0.002570,  0.000602
+        -2608,     FRAMES.239,SOLAR_CARDS.346,  1.090042e-07   $    0.002354,  0.000552
+        -2609,     FRAMES.239,SOLAR_CARDS.385,  2.224319e-06   $    0.048045,  0.022521
+        -2610,     FRAMES.239,SOLAR_CARDS.392,  1.659326e-06   $    0.035841,  0.008400
+        -2611,     FRAMES.239,SOLAR_CARDS.396,  1.917715e-07   $    0.004142,  0.000971
+        -2612,     FRAMES.239,SOLAR_CARDS.435,  1.191163e-05   $    0.257291,  0.120605
+        -2613,     FRAMES.239,SOLAR_CARDS.442,  5.782392e-06   $    0.124900,  0.029273
+        -2614,     FRAMES.239,SOLAR_CARDS.446,  3.397098e-07   $    0.007338,  0.001720
+        -2615,     FRAMES.239,SOLAR_CARDS.485,  2.347743e-06   $    0.050711,  0.023771
+        -2616,     FRAMES.239,SOLAR_CARDS.492,  1.610209e-06   $    0.034781,  0.008152
+        -2617,     FRAMES.239,SOLAR_CARDS.496,  1.796024e-07   $    0.003879,  0.000909
+        -2618,     FRAMES.239,SOLAR_CARDS.500,  7.185185e-08   $    0.001552,  0.000364
+        -2619,     FRAMES.239,SOLAR_CARDS.533,  1.201719e-07   $    0.002596,  0.001217
+        -2620,     FRAMES.239,SOLAR_CARDS.537,  1.333708e-07   $    0.002881,  0.000675
+        -2621,     FRAMES.241,     FRAMES.242,  1.316339e-06   $    0.014216,  0.014216
+        -2622,     FRAMES.241,     FRAMES.243,  1.547988e-07   $    0.001672,  0.001672
+        -2623,     FRAMES.241,     FRAMES.264,  7.167230e-08   $    0.000774,  0.001548
+        -2624,     FRAMES.241,     FRAMES.267,  6.110986e-07   $    0.006600,  0.006600
+        -2625,     FRAMES.241,     FRAMES.270,  1.488947e-06   $    0.016081,  0.016081
+        -2626,     FRAMES.241,     FRAMES.274,  6.254765e-07   $    0.006755,  0.006755
+        -2627,     FRAMES.241,     FRAMES.277,  9.929064e-08   $    0.001072,  0.001072
+        -2628,     FRAMES.241,     FRAMES.303,  1.142582e-07   $    0.001234,  0.001234
+        -2629,     FRAMES.241,     FRAMES.306,  1.632296e-07   $    0.001763,  0.001763
+        -2630,     FRAMES.241,SOLAR_CARDS.153,  3.743305e-07   $    0.004043,  0.001895
+        -2631,     FRAMES.241,SOLAR_CARDS.157,  1.848442e-06   $    0.019963,  0.009358
+        -2632,     FRAMES.241,SOLAR_CARDS.161,  6.681760e-06   $    0.072163,  0.033826
+        -2633,     FRAMES.241,SOLAR_CARDS.165,  2.361993e-06   $    0.025510,  0.011958
+        -2634,     FRAMES.241,SOLAR_CARDS.169,  1.951790e-07   $    0.002108,  0.001976
+        -2635,     FRAMES.241,SOLAR_CARDS.193,  1.006341e-07   $    0.001087,  0.000509
+        -2636,     FRAMES.241,SOLAR_CARDS.197,  1.353477e-07   $    0.001462,  0.000685
+        -2637,     FRAMES.241,SOLAR_CARDS.201,  6.092939e-07   $    0.006580,  0.003085
+        -2638,     FRAMES.241,SOLAR_CARDS.205,  1.834679e-07   $    0.001981,  0.000929
+        -2639,     FRAMES.241,SOLAR_CARDS.367,  9.447244e-08   $    0.001020,  0.000478
+        -2640,     FRAMES.241,SOLAR_CARDS.375,  1.313078e-07   $    0.001418,  0.000665
+        -2641,     FRAMES.241,SOLAR_CARDS.410,  1.192704e-07   $    0.001288,  0.000604
+        -2642,     FRAMES.241,SOLAR_CARDS.417,  3.513734e-07   $    0.003795,  0.001779
+        -2643,     FRAMES.241,SOLAR_CARDS.421,  5.041350e-07   $    0.005445,  0.002552
+        -2644,     FRAMES.241,SOLAR_CARDS.425,  4.180789e-07   $    0.004515,  0.002117
+        -2645,     FRAMES.241,SOLAR_CARDS.429,  1.062997e-07   $    0.001148,  0.001076
+        -2646,     FRAMES.241,SOLAR_CARDS.460,  3.468296e-07   $    0.003746,  0.001756
+        -2647,     FRAMES.241,SOLAR_CARDS.467,  2.206698e-06   $    0.023832,  0.011171
+        -2648,     FRAMES.241,SOLAR_CARDS.471,  7.734433e-06   $    0.083532,  0.039156
+        -2649,     FRAMES.241,SOLAR_CARDS.475,  1.864970e-06   $    0.020142,  0.009441
+        -2650,     FRAMES.241,SOLAR_CARDS.479,  2.217474e-07   $    0.002395,  0.002245
+        -2651,     FRAMES.241,SOLAR_CARDS.510,  4.714695e-07   $    0.005092,  0.002387
+        -2652,     FRAMES.241,SOLAR_CARDS.517,  6.287091e-06   $    0.067901,  0.031828
+        -2653,     FRAMES.241,SOLAR_CARDS.521,  3.404403e-05   $    0.367676,  0.172348
+        -2654,     FRAMES.241,SOLAR_CARDS.525,  7.338248e-06   $    0.079253,  0.037150
+        -2655,     FRAMES.241,SOLAR_CARDS.529,  4.005442e-07   $    0.004326,  0.004056
+        -2656,     FRAMES.242,     FRAMES.243,  1.432674e-06   $    0.015473,  0.015473
+        -2657,     FRAMES.242,     FRAMES.246,  1.875503e-07   $    0.002026,  0.002026
+        -2658,     FRAMES.242,     FRAMES.267,  9.396818e-08   $    0.001015,  0.001015
+        -2659,     FRAMES.242,     FRAMES.270,  5.776492e-07   $    0.006239,  0.006239
+        -2660,     FRAMES.242,     FRAMES.274,  1.331105e-06   $    0.014376,  0.014376
+        -2661,     FRAMES.242,     FRAMES.277,  6.150170e-07   $    0.006642,  0.006642
+        -2662,     FRAMES.242,     FRAMES.282,  1.071493e-07   $    0.001157,  0.001157
+        -2663,     FRAMES.242,     FRAMES.310,  1.972441e-07   $    0.002130,  0.002130
+        -2664,     FRAMES.242,     FRAMES.313,  1.130888e-07   $    0.001221,  0.001221
+        -2665,     FRAMES.242,SOLAR_CARDS.145,  1.437693e-07   $    0.001553,  0.000728
+        -2666,     FRAMES.242,SOLAR_CARDS.149,  4.307614e-07   $    0.004652,  0.002181
+        -2667,     FRAMES.242,SOLAR_CARDS.153,  2.488187e-06   $    0.026872,  0.012596
+        -2668,     FRAMES.242,SOLAR_CARDS.157,  7.116345e-06   $    0.076857,  0.036026
+        -2669,     FRAMES.242,SOLAR_CARDS.161,  2.301107e-06   $    0.024852,  0.011649
+        -2670,     FRAMES.242,SOLAR_CARDS.165,  3.858257e-07   $    0.004167,  0.001953
+        -2671,     FRAMES.242,SOLAR_CARDS.189,  1.798165e-07   $    0.001942,  0.000910
+        -2672,     FRAMES.242,SOLAR_CARDS.193,  3.255861e-07   $    0.003516,  0.001648
+        -2673,     FRAMES.242,SOLAR_CARDS.197,  5.913412e-07   $    0.006386,  0.002994
+        -2674,     FRAMES.242,SOLAR_CARDS.201,  2.499149e-07   $    0.002699,  0.001265
+        -2675,     FRAMES.242,SOLAR_CARDS.205,  1.779159e-07   $    0.001921,  0.000901
+        -2676,     FRAMES.242,SOLAR_CARDS.360,  1.024256e-07   $    0.001106,  0.000519
+        -2677,     FRAMES.242,SOLAR_CARDS.371,  1.392646e-07   $    0.001504,  0.000705
+        -2678,     FRAMES.242,SOLAR_CARDS.404,  1.346732e-07   $    0.001454,  0.000682
+        -2679,     FRAMES.242,SOLAR_CARDS.410,  2.619047e-07   $    0.002829,  0.001326
+        -2680,     FRAMES.242,SOLAR_CARDS.417,  4.146629e-07   $    0.004478,  0.002099
+        -2681,     FRAMES.242,SOLAR_CARDS.421,  2.772805e-07   $    0.002995,  0.001404
+        -2682,     FRAMES.242,SOLAR_CARDS.425,  1.567765e-07   $    0.001693,  0.000794
+        -2683,     FRAMES.242,SOLAR_CARDS.454,  2.546442e-07   $    0.002750,  0.001289
+        -2684,     FRAMES.242,SOLAR_CARDS.460,  2.176757e-06   $    0.023509,  0.011020
+        -2685,     FRAMES.242,SOLAR_CARDS.467,  7.389397e-06   $    0.079805,  0.037409
+        -2686,     FRAMES.242,SOLAR_CARDS.471,  1.859888e-06   $    0.020087,  0.009416
+        -2687,     FRAMES.242,SOLAR_CARDS.475,  3.452608e-07   $    0.003729,  0.001748
+        -2688,     FRAMES.242,SOLAR_CARDS.479,  1.584337e-07   $    0.001711,  0.001604
+        -2689,     FRAMES.242,SOLAR_CARDS.504,  5.209184e-07   $    0.005626,  0.002637
+        -2690,     FRAMES.242,SOLAR_CARDS.510,  7.305589e-06   $    0.078900,  0.036985
+        -2691,     FRAMES.242,SOLAR_CARDS.517,  3.300675e-05   $    0.356473,  0.167097
+        -2692,     FRAMES.242,SOLAR_CARDS.521,  6.791376e-06   $    0.073347,  0.034381
+        -2693,     FRAMES.242,SOLAR_CARDS.525,  5.697962e-07   $    0.006154,  0.002885
+        -2694,     FRAMES.243,     FRAMES.246,  1.391787e-06   $    0.015031,  0.015031
+        -2695,     FRAMES.243,     FRAMES.249,  1.526742e-07   $    0.001649,  0.001649
+        -2696,     FRAMES.243,     FRAMES.270,  1.305621e-07   $    0.001410,  0.001410
+        -2697,     FRAMES.243,     FRAMES.274,  6.139931e-07   $    0.006631,  0.006631
+        -2698,     FRAMES.243,     FRAMES.277,  1.330988e-06   $    0.014375,  0.014375
+        -2699,     FRAMES.243,     FRAMES.282,  5.769147e-07   $    0.006231,  0.006231
+        -2700,     FRAMES.243,     FRAMES.285,  1.059744e-07   $    0.001145,  0.001145
+        -2701,     FRAMES.243,     FRAMES.310,  9.718753e-08   $    0.001050,  0.001050
+        -2702,     FRAMES.243,     FRAMES.313,  1.947272e-07   $    0.002103,  0.002103
+        -2703,     FRAMES.243,     FRAMES.318,  1.140773e-07   $    0.001232,  0.001232
+        -2704,     FRAMES.243,SOLAR_CARDS.141,  9.311205e-08   $    0.001006,  0.000471
+        -2705,     FRAMES.243,SOLAR_CARDS.145,  2.516280e-07   $    0.002718,  0.001274
+        -2706,     FRAMES.243,SOLAR_CARDS.149,  2.256616e-06   $    0.024371,  0.011424
+        -2707,     FRAMES.243,SOLAR_CARDS.153,  7.340978e-06   $    0.079283,  0.037164
+        -2708,     FRAMES.243,SOLAR_CARDS.157,  2.029462e-06   $    0.021918,  0.010274
+        -2709,     FRAMES.243,SOLAR_CARDS.161,  3.664183e-07   $    0.003957,  0.001855
+        -2710,     FRAMES.243,SOLAR_CARDS.165,  1.022488e-07   $    0.001104,  0.000518
+        -2711,     FRAMES.243,SOLAR_CARDS.185,  1.926918e-07   $    0.002081,  0.000976
+        -2712,     FRAMES.243,SOLAR_CARDS.189,  3.178014e-07   $    0.003432,  0.001609
+        -2713,     FRAMES.243,SOLAR_CARDS.193,  3.821280e-07   $    0.004127,  0.001935
+        -2714,     FRAMES.243,SOLAR_CARDS.197,  3.153267e-07   $    0.003406,  0.001596
+        -2715,     FRAMES.243,SOLAR_CARDS.201,  1.607369e-07   $    0.001736,  0.000814
+        -2716,     FRAMES.243,SOLAR_CARDS.354,  1.266380e-07   $    0.001368,  0.000641
+        -2717,     FRAMES.243,SOLAR_CARDS.360,  1.238865e-07   $    0.001338,  0.000627
+        -2718,     FRAMES.243,SOLAR_CARDS.367,  1.729704e-07   $    0.001868,  0.000876
+        -2719,     FRAMES.243,SOLAR_CARDS.396,  1.248571e-07   $    0.001348,  0.000632
+        -2720,     FRAMES.243,SOLAR_CARDS.400,  1.571313e-07   $    0.001697,  0.000795
+        -2721,     FRAMES.243,SOLAR_CARDS.404,  3.763297e-07   $    0.004064,  0.001905
+        -2722,     FRAMES.243,SOLAR_CARDS.410,  3.606077e-07   $    0.003895,  0.001826
+        -2723,     FRAMES.243,SOLAR_CARDS.417,  2.783028e-07   $    0.003006,  0.001409
+        -2724,     FRAMES.243,SOLAR_CARDS.450,  2.968222e-07   $    0.003206,  0.001503
+        -2725,     FRAMES.243,SOLAR_CARDS.454,  2.124744e-06   $    0.022947,  0.010757
+        -2726,     FRAMES.243,SOLAR_CARDS.460,  7.465518e-06   $    0.080628,  0.037794
+        -2727,     FRAMES.243,SOLAR_CARDS.467,  2.119544e-06   $    0.022891,  0.010730
+        -2728,     FRAMES.243,SOLAR_CARDS.471,  2.679760e-07   $    0.002894,  0.001357
+        -2729,     FRAMES.243,SOLAR_CARDS.475,  9.767602e-08   $    0.001055,  0.000494
+        -2730,     FRAMES.243,SOLAR_CARDS.496,  9.805002e-08   $    0.001059,  0.000496
+        -2731,     FRAMES.243,SOLAR_CARDS.500,  4.577163e-07   $    0.004943,  0.002317
+        -2732,     FRAMES.243,SOLAR_CARDS.504,  7.724402e-06   $    0.083424,  0.039105
+        -2733,     FRAMES.243,SOLAR_CARDS.510,  3.379243e-05   $    0.364958,  0.171074
+        -2734,     FRAMES.243,SOLAR_CARDS.517,  6.643372e-06   $    0.071748,  0.033632
+        -2735,     FRAMES.243,SOLAR_CARDS.521,  2.572473e-07   $    0.002778,  0.001302
+        -2736,     FRAMES.246,     FRAMES.249,  1.406512e-06   $    0.015190,  0.015190
+        -2737,     FRAMES.246,     FRAMES.252,  1.292255e-07   $    0.001396,  0.001396
+        -2738,     FRAMES.246,     FRAMES.274,  1.213034e-07   $    0.001310,  0.001310
+        -2739,     FRAMES.246,     FRAMES.277,  5.713703e-07   $    0.006171,  0.006171
+        -2740,     FRAMES.246,     FRAMES.282,  1.452392e-06   $    0.015686,  0.015686
+        -2741,     FRAMES.246,     FRAMES.285,  5.881056e-07   $    0.006352,  0.006352
+        -2742,     FRAMES.246,     FRAMES.288,  1.109319e-07   $    0.001198,  0.001198
+        -2743,     FRAMES.246,     FRAMES.313,  1.260350e-07   $    0.001361,  0.001361
+        -2744,     FRAMES.246,     FRAMES.318,  2.019660e-07   $    0.002181,  0.002181
+        -2745,     FRAMES.246,     FRAMES.321,  1.063687e-07   $    0.001149,  0.001149
+        -2746,     FRAMES.246,SOLAR_CARDS.141,  3.052592e-07   $    0.003297,  0.001545
+        -2747,     FRAMES.246,SOLAR_CARDS.145,  2.215540e-06   $    0.023928,  0.011216
+        -2748,     FRAMES.246,SOLAR_CARDS.149,  7.144905e-06   $    0.077165,  0.036171
+        -2749,     FRAMES.246,SOLAR_CARDS.153,  2.076260e-06   $    0.022424,  0.010511
+        -2750,     FRAMES.246,SOLAR_CARDS.157,  2.037561e-07   $    0.002201,  0.001032
+        -2751,     FRAMES.246,SOLAR_CARDS.181,  9.628026e-08   $    0.001040,  0.000487
+        -2752,     FRAMES.246,SOLAR_CARDS.185,  3.908780e-07   $    0.004221,  0.001979
+        -2753,     FRAMES.246,SOLAR_CARDS.189,  3.800302e-07   $    0.004104,  0.001924
+        -2754,     FRAMES.246,SOLAR_CARDS.193,  4.408072e-07   $    0.004761,  0.002232
+        -2755,     FRAMES.246,SOLAR_CARDS.197,  2.078772e-07   $    0.002245,  0.001052
+        -2756,     FRAMES.246,SOLAR_CARDS.201,  1.132027e-07   $    0.001223,  0.000573
+        -2757,     FRAMES.246,SOLAR_CARDS.221,  9.352951e-08   $    0.001010,  0.000473
+        -2758,     FRAMES.246,SOLAR_CARDS.233,  1.336435e-07   $    0.001443,  0.000677
+        -2759,     FRAMES.246,SOLAR_CARDS.237,  1.082211e-07   $    0.001169,  0.000548
+        -2760,     FRAMES.246,SOLAR_CARDS.354,  1.299098e-07   $    0.001403,  0.000658
+        -2761,     FRAMES.246,SOLAR_CARDS.400,  4.247712e-07   $    0.004588,  0.002150
+        -2762,     FRAMES.246,SOLAR_CARDS.404,  3.417376e-07   $    0.003691,  0.001730
+        -2763,     FRAMES.246,SOLAR_CARDS.410,  3.644331e-07   $    0.003936,  0.001845
+        -2764,     FRAMES.246,SOLAR_CARDS.417,  1.361849e-07   $    0.001471,  0.000689
+        -2765,     FRAMES.246,SOLAR_CARDS.442,  1.817445e-07   $    0.001963,  0.000920
+        -2766,     FRAMES.246,SOLAR_CARDS.446,  3.266737e-07   $    0.003528,  0.001654
+        -2767,     FRAMES.246,SOLAR_CARDS.450,  2.078008e-06   $    0.022442,  0.010520
+        -2768,     FRAMES.246,SOLAR_CARDS.454,  6.942880e-06   $    0.074983,  0.035148
+        -2769,     FRAMES.246,SOLAR_CARDS.460,  1.950154e-06   $    0.021062,  0.009873
+        -2770,     FRAMES.246,SOLAR_CARDS.467,  1.939931e-07   $    0.002095,  0.000982
+        -2771,     FRAMES.246,SOLAR_CARDS.492,  1.496414e-07   $    0.001616,  0.000758
+        -2772,     FRAMES.246,SOLAR_CARDS.496,  3.849634e-07   $    0.004158,  0.001949
+        -2773,     FRAMES.246,SOLAR_CARDS.500,  6.484441e-06   $    0.070032,  0.032827
+        -2774,     FRAMES.246,SOLAR_CARDS.504,  3.502846e-05   $    0.378307,  0.177332
+        -2775,     FRAMES.246,SOLAR_CARDS.510,  8.328911e-06   $    0.089952,  0.042165
+        -2776,     FRAMES.246,SOLAR_CARDS.517,  3.347758e-07   $    0.003616,  0.001695
+        -2777,     FRAMES.249,     FRAMES.252,  1.415524e-06   $    0.015288,  0.015288
+        -2778,     FRAMES.249,     FRAMES.256,  1.951690e-07   $    0.002108,  0.002108
+        -2779,     FRAMES.249,     FRAMES.277,  1.027392e-07   $    0.001110,  0.001110
+        -2780,     FRAMES.249,     FRAMES.282,  5.858674e-07   $    0.006327,  0.006327
+        -2781,     FRAMES.249,     FRAMES.285,  1.357718e-06   $    0.014663,  0.014663
+        -2782,     FRAMES.249,     FRAMES.288,  6.166723e-07   $    0.006660,  0.006660
+        -2783,     FRAMES.249,     FRAMES.292,  1.078437e-07   $    0.001165,  0.001165
+        -2784,     FRAMES.249,     FRAMES.318,  1.102553e-07   $    0.001191,  0.001191
+        -2785,     FRAMES.249,     FRAMES.321,  1.954803e-07   $    0.002111,  0.002111
+        -2786,     FRAMES.249,SOLAR_CARDS.141,  1.808782e-06   $    0.019535,  0.009157
+        -2787,     FRAMES.249,SOLAR_CARDS.145,  7.008525e-06   $    0.075692,  0.035481
+        -2788,     FRAMES.249,SOLAR_CARDS.149,  2.100049e-06   $    0.022681,  0.010631
+        -2789,     FRAMES.249,SOLAR_CARDS.153,  2.442481e-07   $    0.002638,  0.001237
+        -2790,     FRAMES.249,SOLAR_CARDS.177,  1.256373e-07   $    0.001357,  0.000636
+        -2791,     FRAMES.249,SOLAR_CARDS.181,  1.617462e-07   $    0.001747,  0.000819
+        -2792,     FRAMES.249,SOLAR_CARDS.185,  4.173241e-07   $    0.004507,  0.002113
+        -2793,     FRAMES.249,SOLAR_CARDS.189,  3.278171e-07   $    0.003540,  0.001660
+        -2794,     FRAMES.249,SOLAR_CARDS.193,  1.453089e-07   $    0.001569,  0.000736
+        -2795,     FRAMES.249,SOLAR_CARDS.229,  1.176698e-07   $    0.001271,  0.000596
+        -2796,     FRAMES.249,SOLAR_CARDS.350,  1.156343e-07   $    0.001249,  0.000585
+        -2797,     FRAMES.249,SOLAR_CARDS.392,  1.381279e-07   $    0.001492,  0.000699
+        -2798,     FRAMES.249,SOLAR_CARDS.396,  3.950135e-07   $    0.004266,  0.002000
+        -2799,     FRAMES.249,SOLAR_CARDS.400,  6.667373e-07   $    0.007201,  0.003375
+        -2800,     FRAMES.249,SOLAR_CARDS.404,  3.707827e-07   $    0.004004,  0.001877
+        -2801,     FRAMES.249,SOLAR_CARDS.410,  1.223478e-07   $    0.001321,  0.000619
+        -2802,     FRAMES.249,SOLAR_CARDS.442,  4.414399e-07   $    0.004768,  0.002235
+        -2803,     FRAMES.249,SOLAR_CARDS.446,  2.580513e-06   $    0.027870,  0.013064
+        -2804,     FRAMES.249,SOLAR_CARDS.450,  7.515192e-06   $    0.081164,  0.038046
+        -2805,     FRAMES.249,SOLAR_CARDS.454,  2.250432e-06   $    0.024305,  0.011393
+        -2806,     FRAMES.249,SOLAR_CARDS.460,  3.762690e-07   $    0.004064,  0.001905
+        -2807,     FRAMES.249,SOLAR_CARDS.492,  6.024516e-07   $    0.006506,  0.003050
+        -2808,     FRAMES.249,SOLAR_CARDS.496,  7.568311e-06   $    0.081738,  0.038315
+        -2809,     FRAMES.249,SOLAR_CARDS.500,  3.417953e-05   $    0.369139,  0.173034
+        -2810,     FRAMES.249,SOLAR_CARDS.504,  6.891103e-06   $    0.074424,  0.034886
+        -2811,     FRAMES.249,SOLAR_CARDS.510,  3.512116e-07   $    0.003793,  0.001778
+        -2812,     FRAMES.249,SOLAR_CARDS.517,  1.508510e-07   $    0.001629,  0.000764
+        -2813,     FRAMES.249,SOLAR_CARDS.537,  3.725791e-07   $    0.004024,  0.001886
+        -2814,     FRAMES.252,     FRAMES.256,  1.390559e-06   $    0.015018,  0.015018
+        -2815,     FRAMES.252,     FRAMES.259,  1.112479e-07   $    0.001201,  0.002403
+        -2816,     FRAMES.252,     FRAMES.282,  1.089751e-07   $    0.001177,  0.001177
+        -2817,     FRAMES.252,     FRAMES.285,  6.411773e-07   $    0.006925,  0.006925
+        -2818,     FRAMES.252,     FRAMES.288,  1.443838e-06   $    0.015593,  0.015593
+        -2819,     FRAMES.252,     FRAMES.292,  5.763094e-07   $    0.006224,  0.006224
+        -2820,     FRAMES.252,     FRAMES.295,  5.450408e-08   $    0.000589,  0.001177
+        -2821,     FRAMES.252,     FRAMES.321,  1.160898e-07   $    0.001254,  0.001254
+        -2822,     FRAMES.252,     FRAMES.324,  1.593455e-07   $    0.001721,  0.001721
+        -2823,     FRAMES.252,     FRAMES.328,  1.279956e-07   $    0.001382,  0.001382
+        -2824,     FRAMES.252,SOLAR_CARDS.141,  7.322494e-06   $    0.079083,  0.037070
+        -2825,     FRAMES.252,SOLAR_CARDS.145,  2.284213e-06   $    0.024670,  0.011564
+        -2826,     FRAMES.252,SOLAR_CARDS.149,  3.304471e-07   $    0.003569,  0.001673
+        -2827,     FRAMES.252,SOLAR_CARDS.153,  9.290797e-08   $    0.001003,  0.000470
+        -2828,     FRAMES.252,SOLAR_CARDS.173,  1.088197e-07   $    0.001175,  0.001102
+        -2829,     FRAMES.252,SOLAR_CARDS.177,  1.624138e-07   $    0.001754,  0.000822
+        -2830,     FRAMES.252,SOLAR_CARDS.181,  3.583603e-07   $    0.003870,  0.001814
+        -2831,     FRAMES.252,SOLAR_CARDS.185,  2.628687e-07   $    0.002839,  0.001331
+        -2832,     FRAMES.252,SOLAR_CARDS.225,  1.008752e-07   $    0.001089,  0.000511
+        -2833,     FRAMES.252,SOLAR_CARDS.350,  1.161482e-07   $    0.001254,  0.000588
+        -2834,     FRAMES.252,SOLAR_CARDS.385,  9.399046e-08   $    0.001015,  0.000952
+        -2835,     FRAMES.252,SOLAR_CARDS.392,  3.164560e-07   $    0.003418,  0.001602
+        -2836,     FRAMES.252,SOLAR_CARDS.396,  4.759765e-07   $    0.005141,  0.002410
+        -2837,     FRAMES.252,SOLAR_CARDS.400,  2.917376e-07   $    0.003151,  0.001477
+        -2838,     FRAMES.252,SOLAR_CARDS.404,  1.299479e-07   $    0.001403,  0.000658
+        -2839,     FRAMES.252,SOLAR_CARDS.435,  3.424624e-07   $    0.003699,  0.003467
+        -2840,     FRAMES.252,SOLAR_CARDS.442,  2.409799e-06   $    0.026026,  0.012200
+        -2841,     FRAMES.252,SOLAR_CARDS.446,  6.992449e-06   $    0.075518,  0.035399
+        -2842,     FRAMES.252,SOLAR_CARDS.450,  1.910790e-06   $    0.020637,  0.009673
+        -2843,     FRAMES.252,SOLAR_CARDS.454,  2.055975e-07   $    0.002220,  0.001041
+        -2844,     FRAMES.252,SOLAR_CARDS.460,  9.427617e-08   $    0.001018,  0.000477
+        -2845,     FRAMES.252,SOLAR_CARDS.485,  3.760882e-07   $    0.004062,  0.003808
+        -2846,     FRAMES.252,SOLAR_CARDS.492,  7.284106e-06   $    0.078668,  0.036876
+        -2847,     FRAMES.252,SOLAR_CARDS.496,  3.426158e-05   $    0.370025,  0.173449
+        -2848,     FRAMES.252,SOLAR_CARDS.500,  7.128967e-06   $    0.076993,  0.036090
+        -2849,     FRAMES.252,SOLAR_CARDS.504,  4.081430e-07   $    0.004408,  0.002066
+        -2850,     FRAMES.252,SOLAR_CARDS.533,  2.143053e-07   $    0.002314,  0.002170
+        -2851,     FRAMES.252,SOLAR_CARDS.537,  2.195519e-06   $    0.023712,  0.011115
+        -2852,     FRAMES.256,     FRAMES.259,  9.526141e-07   $    0.010288,  0.020576
+        -2853,     FRAMES.256,     FRAMES.285,  1.102553e-07   $    0.001191,  0.001191
+        -2854,     FRAMES.256,     FRAMES.288,  6.262079e-07   $    0.006763,  0.006763
+        -2855,     FRAMES.256,     FRAMES.292,  1.358052e-06   $    0.014667,  0.014667
+        -2856,     FRAMES.256,     FRAMES.295,  3.988890e-07   $    0.004308,  0.008616
+        -2857,     FRAMES.256,     FRAMES.324,  1.047035e-07   $    0.001131,  0.001131
+        -2858,     FRAMES.256,     FRAMES.328,  1.629630e-07   $    0.001760,  0.001760
+        -2859,     FRAMES.256,     FRAMES.331,  7.524208e-08   $    0.000813,  0.001625
+        -2860,     FRAMES.256,SOLAR_CARDS.141,  2.097073e-06   $    0.022648,  0.010616
+        -2861,     FRAMES.256,SOLAR_CARDS.145,  2.488796e-07   $    0.002688,  0.001260
+        -2862,     FRAMES.256,SOLAR_CARDS.149,  1.115168e-07   $    0.001204,  0.000565
+        -2863,     FRAMES.256,SOLAR_CARDS.173,  1.862088e-07   $    0.002011,  0.001885
+        -2864,     FRAMES.256,SOLAR_CARDS.177,  5.559800e-07   $    0.006005,  0.002815
+        -2865,     FRAMES.256,SOLAR_CARDS.181,  2.464326e-07   $    0.002661,  0.001248
+        -2866,     FRAMES.256,SOLAR_CARDS.185,  1.289640e-07   $    0.001393,  0.000653
+        -2867,     FRAMES.256,SOLAR_CARDS.217,  1.613119e-07   $    0.001742,  0.000817
+        -2868,     FRAMES.256,SOLAR_CARDS.221,  1.076096e-07   $    0.001162,  0.000545
+        -2869,     FRAMES.256,SOLAR_CARDS.335,  1.070766e-07   $    0.001156,  0.001084
+        -2870,     FRAMES.256,SOLAR_CARDS.385,  1.910272e-07   $    0.002063,  0.001934
+        -2871,     FRAMES.256,SOLAR_CARDS.392,  4.707907e-07   $    0.005085,  0.002383
+        -2872,     FRAMES.256,SOLAR_CARDS.396,  1.986172e-07   $    0.002145,  0.001005
+        -2873,     FRAMES.256,SOLAR_CARDS.400,  1.009130e-07   $    0.001090,  0.000511
+        -2874,     FRAMES.256,SOLAR_CARDS.404,  1.121585e-07   $    0.001211,  0.000568
+        -2875,     FRAMES.256,SOLAR_CARDS.435,  1.420446e-06   $    0.015341,  0.014382
+        -2876,     FRAMES.256,SOLAR_CARDS.442,  7.630559e-06   $    0.082410,  0.038630
+        -2877,     FRAMES.256,SOLAR_CARDS.446,  2.161442e-06   $    0.023344,  0.010942
+        -2878,     FRAMES.256,SOLAR_CARDS.450,  3.099368e-07   $    0.003347,  0.001569
+        -2879,     FRAMES.256,SOLAR_CARDS.454,  1.170840e-07   $    0.001265,  0.000593
+        -2880,     FRAMES.256,SOLAR_CARDS.485,  6.090227e-06   $    0.065774,  0.061664
+        -2881,     FRAMES.256,SOLAR_CARDS.492,  3.284432e-05   $    0.354719,  0.166274
+        -2882,     FRAMES.256,SOLAR_CARDS.496,  6.582949e-06   $    0.071096,  0.033326
+        -2883,     FRAMES.256,SOLAR_CARDS.500,  4.353280e-07   $    0.004702,  0.002204
+        -2884,     FRAMES.256,SOLAR_CARDS.533,  1.486066e-06   $    0.016050,  0.015046
+        -2885,     FRAMES.256,SOLAR_CARDS.537,  7.379117e-06   $    0.079694,  0.037357
+        -2886,     FRAMES.259,     FRAMES.288,  7.376630e-08   $    0.001593,  0.000797
+        -2887,     FRAMES.259,     FRAMES.292,  4.113349e-07   $    0.008885,  0.004442
+        -2888,     FRAMES.259,     FRAMES.295,  3.103633e-07   $    0.006704,  0.006704
+        -2889,     FRAMES.259,     FRAMES.328,  5.527136e-08   $    0.001194,  0.000597
+        -2890,     FRAMES.259,SOLAR_CARDS.141,  1.392745e-07   $    0.003008,  0.000705
+        -2891,     FRAMES.259,SOLAR_CARDS.173,  1.220926e-07   $    0.002637,  0.001236
+        -2892,     FRAMES.259,SOLAR_CARDS.177,  1.740596e-07   $    0.003760,  0.000881
+        -2893,     FRAMES.259,SOLAR_CARDS.181,  5.056699e-08   $    0.001092,  0.000256
+        -2894,     FRAMES.259,SOLAR_CARDS.213,  4.680756e-08   $    0.001011,  0.000474
+        -2895,     FRAMES.259,SOLAR_CARDS.342,  5.304006e-08   $    0.001146,  0.000269
+        -2896,     FRAMES.259,SOLAR_CARDS.385,  1.198588e-07   $    0.002589,  0.001214
+        -2897,     FRAMES.259,SOLAR_CARDS.392,  1.533868e-07   $    0.003313,  0.000777
+        -2898,     FRAMES.259,SOLAR_CARDS.396,  1.095426e-07   $    0.002366,  0.000555
+        -2899,     FRAMES.259,SOLAR_CARDS.435,  2.237964e-06   $    0.048340,  0.022659
+        -2900,     FRAMES.259,SOLAR_CARDS.442,  1.748294e-06   $    0.037763,  0.008851
+        -2901,     FRAMES.259,SOLAR_CARDS.446,  2.299649e-07   $    0.004967,  0.001164
+        -2902,     FRAMES.259,SOLAR_CARDS.485,  1.172070e-05   $    0.253167,  0.118672
+        -2903,     FRAMES.259,SOLAR_CARDS.492,  5.699356e-06   $    0.123106,  0.028853
+        -2904,     FRAMES.259,SOLAR_CARDS.496,  3.237812e-07   $    0.006994,  0.001639
+        -2905,     FRAMES.259,SOLAR_CARDS.500,  5.782399e-08   $    0.001249,  0.000293
+        -2906,     FRAMES.259,SOLAR_CARDS.533,  2.478531e-06   $    0.053536,  0.025095
+        -2907,     FRAMES.259,SOLAR_CARDS.537,  1.538394e-06   $    0.033229,  0.007788
+        -2908,     FRAMES.264,     FRAMES.267,  1.051867e-06   $    0.022720,  0.011360
+        -2909,     FRAMES.264,     FRAMES.270,  1.097169e-07   $    0.002370,  0.001185
+        -2910,     FRAMES.264,     FRAMES.300,  3.913953e-07   $    0.008454,  0.008454
+        -2911,     FRAMES.264,     FRAMES.303,  3.971597e-07   $    0.008579,  0.004289
+        -2912,     FRAMES.264,     FRAMES.306,  4.901475e-08   $    0.001059,  0.000529
+        -2913,     FRAMES.264,     FRAMES.339,  6.379289e-08   $    0.001378,  0.000689
+        -2914,     FRAMES.264,SOLAR_CARDS.161,  2.976386e-07   $    0.006429,  0.001507
+        -2915,     FRAMES.264,SOLAR_CARDS.165,  5.961377e-06   $    0.128766,  0.030179
+        -2916,     FRAMES.264,SOLAR_CARDS.169,  1.241508e-05   $    0.268166,  0.125703
+        -2917,     FRAMES.264,SOLAR_CARDS.193,  5.954715e-08   $    0.001286,  0.000301
+        -2918,     FRAMES.264,SOLAR_CARDS.201,  1.757897e-07   $    0.003797,  0.000890
+        -2919,     FRAMES.264,SOLAR_CARDS.205,  1.651574e-06   $    0.035674,  0.008361
+        -2920,     FRAMES.264,SOLAR_CARDS.209,  2.355048e-06   $    0.050869,  0.023845
+        -2921,     FRAMES.264,SOLAR_CARDS.241,  1.597659e-07   $    0.003451,  0.000809
+        -2922,     FRAMES.264,SOLAR_CARDS.245,  2.430715e-07   $    0.005250,  0.001231
+        -2923,     FRAMES.264,SOLAR_CARDS.249,  1.396788e-07   $    0.003017,  0.001414
+        -2924,     FRAMES.264,SOLAR_CARDS.281,  4.676475e-08   $    0.001010,  0.000473
+        -2925,     FRAMES.264,SOLAR_CARDS.285,  4.788350e-08   $    0.001034,  0.000485
+        -2926,     FRAMES.264,SOLAR_CARDS.425,  6.466704e-08   $    0.001397,  0.000327
+        -2927,     FRAMES.264,SOLAR_CARDS.471,  8.318614e-08   $    0.001797,  0.000421
+        -2928,     FRAMES.264,SOLAR_CARDS.475,  1.498457e-07   $    0.003237,  0.000759
+        -2929,     FRAMES.264,SOLAR_CARDS.479,  1.120535e-07   $    0.002420,  0.001135
+        -2930,     FRAMES.264,SOLAR_CARDS.521,  2.088516e-07   $    0.004511,  0.001057
+        -2931,     FRAMES.264,SOLAR_CARDS.525,  1.395689e-06   $    0.030147,  0.007066
+        -2932,     FRAMES.264,SOLAR_CARDS.529,  2.132142e-06   $    0.046054,  0.021588
+        -2933,     FRAMES.267,     FRAMES.270,  1.359692e-06   $    0.014685,  0.014685
+        -2934,     FRAMES.267,     FRAMES.274,  1.700975e-07   $    0.001837,  0.001837
+        -2935,     FRAMES.267,     FRAMES.300,  3.923780e-07   $    0.004238,  0.008475
+        -2936,     FRAMES.267,     FRAMES.303,  1.339654e-06   $    0.014468,  0.014468
+        -2937,     FRAMES.267,     FRAMES.306,  5.741513e-07   $    0.006201,  0.006201
+        -2938,     FRAMES.267,     FRAMES.336,  6.313317e-08   $    0.000682,  0.001364
+        -2939,     FRAMES.267,     FRAMES.339,  1.716512e-07   $    0.001854,  0.001854
+        -2940,     FRAMES.267,     FRAMES.342,  1.368111e-07   $    0.001478,  0.001478
+        -2941,     FRAMES.267,SOLAR_CARDS.157,  4.914734e-07   $    0.005308,  0.002488
+        -2942,     FRAMES.267,SOLAR_CARDS.161,  6.682687e-06   $    0.072173,  0.033831
+        -2943,     FRAMES.267,SOLAR_CARDS.165,  3.573442e-05   $    0.385932,  0.180906
+        -2944,     FRAMES.267,SOLAR_CARDS.169,  5.484072e-06   $    0.059228,  0.055526
+        -2945,     FRAMES.267,SOLAR_CARDS.193,  1.540788e-07   $    0.001664,  0.000780
+        -2946,     FRAMES.267,SOLAR_CARDS.197,  3.099891e-07   $    0.003348,  0.001569
+        -2947,     FRAMES.267,SOLAR_CARDS.201,  2.064560e-06   $    0.022297,  0.010452
+        -2948,     FRAMES.267,SOLAR_CARDS.205,  6.350516e-06   $    0.068586,  0.032149
+        -2949,     FRAMES.267,SOLAR_CARDS.209,  1.725983e-06   $    0.018641,  0.017476
+        -2950,     FRAMES.267,SOLAR_CARDS.237,  1.045673e-07   $    0.001129,  0.000529
+        -2951,     FRAMES.267,SOLAR_CARDS.241,  2.731005e-07   $    0.002949,  0.001383
+        -2952,     FRAMES.267,SOLAR_CARDS.245,  4.094042e-07   $    0.004422,  0.002073
+        -2953,     FRAMES.267,SOLAR_CARDS.249,  2.445634e-07   $    0.002641,  0.002476
+        -2954,     FRAMES.267,SOLAR_CARDS.421,  9.720127e-08   $    0.001050,  0.000492
+        -2955,     FRAMES.267,SOLAR_CARDS.425,  9.767602e-08   $    0.001055,  0.000494
+        -2956,     FRAMES.267,SOLAR_CARDS.460,  1.352651e-07   $    0.001461,  0.000685
+        -2957,     FRAMES.267,SOLAR_CARDS.467,  1.559423e-07   $    0.001684,  0.000789
+        -2958,     FRAMES.267,SOLAR_CARDS.471,  3.187123e-07   $    0.003442,  0.001613
+        -2959,     FRAMES.267,SOLAR_CARDS.475,  4.632606e-07   $    0.005003,  0.002345
+        -2960,     FRAMES.267,SOLAR_CARDS.510,  9.628026e-08   $    0.001040,  0.000487
+        -2961,     FRAMES.267,SOLAR_CARDS.517,  2.512758e-07   $    0.002714,  0.001272
+        -2962,     FRAMES.267,SOLAR_CARDS.521,  1.858662e-06   $    0.020074,  0.009409
+        -2963,     FRAMES.267,SOLAR_CARDS.525,  7.217849e-06   $    0.077953,  0.036540
+        -2964,     FRAMES.267,SOLAR_CARDS.529,  1.510424e-06   $    0.016313,  0.015293
+        -2965,     FRAMES.270,     FRAMES.274,  1.434275e-06   $    0.015490,  0.015490
+        -2966,     FRAMES.270,     FRAMES.277,  2.202361e-07   $    0.002379,  0.002379
+        -2967,     FRAMES.270,     FRAMES.300,  5.759552e-08   $    0.000622,  0.001244
+        -2968,     FRAMES.270,     FRAMES.303,  6.139674e-07   $    0.006631,  0.006631
+        -2969,     FRAMES.270,     FRAMES.306,  1.338084e-06   $    0.014451,  0.014451
+        -2970,     FRAMES.270,     FRAMES.310,  5.793771e-07   $    0.006257,  0.006257
+        -2971,     FRAMES.270,     FRAMES.313,  1.353400e-07   $    0.001462,  0.001462
+        -2972,     FRAMES.270,     FRAMES.339,  1.044880e-07   $    0.001128,  0.001128
+        -2973,     FRAMES.270,     FRAMES.342,  1.795161e-07   $    0.001939,  0.001939
+        -2974,     FRAMES.270,     FRAMES.346,  1.081901e-07   $    0.001168,  0.001168
+        -2975,     FRAMES.270,SOLAR_CARDS.149,  1.632212e-07   $    0.001763,  0.000826
+        -2976,     FRAMES.270,SOLAR_CARDS.153,  4.826397e-07   $    0.005213,  0.002443
+        -2977,     FRAMES.270,SOLAR_CARDS.157,  6.970627e-06   $    0.075283,  0.035289
+        -2978,     FRAMES.270,SOLAR_CARDS.161,  3.420134e-05   $    0.369374,  0.173144
+        -2979,     FRAMES.270,SOLAR_CARDS.165,  6.436669e-06   $    0.069516,  0.032586
+        -2980,     FRAMES.270,SOLAR_CARDS.169,  4.080163e-07   $    0.004407,  0.004131
+        -2981,     FRAMES.270,SOLAR_CARDS.193,  2.285314e-07   $    0.002468,  0.001157
+        -2982,     FRAMES.270,SOLAR_CARDS.197,  2.081943e-06   $    0.022485,  0.010540
+        -2983,     FRAMES.270,SOLAR_CARDS.201,  7.033570e-06   $    0.075963,  0.035607
+        -2984,     FRAMES.270,SOLAR_CARDS.205,  2.081714e-06   $    0.022483,  0.010539
+        -2985,     FRAMES.270,SOLAR_CARDS.209,  1.737641e-07   $    0.001877,  0.001759
+        -2986,     FRAMES.270,SOLAR_CARDS.237,  2.680684e-07   $    0.002895,  0.001357
+        -2987,     FRAMES.270,SOLAR_CARDS.241,  4.963035e-07   $    0.005360,  0.002513
+        -2988,     FRAMES.270,SOLAR_CARDS.245,  2.559037e-07   $    0.002764,  0.001296
+        -2989,     FRAMES.270,SOLAR_CARDS.249,  1.044830e-07   $    0.001128,  0.001058
+        -2990,     FRAMES.270,SOLAR_CARDS.285,  9.365428e-08   $    0.001011,  0.000948
+        -2991,     FRAMES.270,SOLAR_CARDS.421,  1.706287e-07   $    0.001843,  0.000864
+        -2992,     FRAMES.270,SOLAR_CARDS.460,  1.179985e-07   $    0.001274,  0.000597
+        -2993,     FRAMES.270,SOLAR_CARDS.467,  3.493324e-07   $    0.003773,  0.001768
+        -2994,     FRAMES.270,SOLAR_CARDS.471,  4.243639e-07   $    0.004583,  0.002148
+        -2995,     FRAMES.270,SOLAR_CARDS.475,  3.424092e-07   $    0.003698,  0.001733
+        -2996,     FRAMES.270,SOLAR_CARDS.504,  1.017533e-07   $    0.001099,  0.000515
+        -2997,     FRAMES.270,SOLAR_CARDS.510,  2.627893e-07   $    0.002838,  0.001330
+        -2998,     FRAMES.270,SOLAR_CARDS.517,  2.365494e-06   $    0.025547,  0.011975
+        -2999,     FRAMES.270,SOLAR_CARDS.521,  7.246714e-06   $    0.078265,  0.036686
+        -3000,     FRAMES.270,SOLAR_CARDS.525,  2.339452e-06   $    0.025266,  0.011843
+        -3001,     FRAMES.270,SOLAR_CARDS.529,  2.062777e-07   $    0.002228,  0.002089
+        -3002,     FRAMES.274,     FRAMES.277,  1.482195e-06   $    0.016008,  0.016008
+        -3003,     FRAMES.274,     FRAMES.282,  1.823197e-07   $    0.001969,  0.001969
+        -3004,     FRAMES.274,     FRAMES.303,  1.206271e-07   $    0.001303,  0.001303
+        -3005,     FRAMES.274,     FRAMES.306,  5.477581e-07   $    0.005916,  0.005916
+        -3006,     FRAMES.274,     FRAMES.310,  1.402488e-06   $    0.015147,  0.015147
+        -3007,     FRAMES.274,     FRAMES.313,  5.806759e-07   $    0.006271,  0.006271
+        -3008,     FRAMES.274,     FRAMES.318,  9.618793e-08   $    0.001039,  0.001039
+        -3009,     FRAMES.274,     FRAMES.342,  1.081901e-07   $    0.001168,  0.001168
+        -3010,     FRAMES.274,     FRAMES.346,  1.549018e-07   $    0.001673,  0.001673
+        -3011,     FRAMES.274,     FRAMES.349,  1.040091e-07   $    0.001123,  0.001123
+        -3012,     FRAMES.274,SOLAR_CARDS.145,  1.266380e-07   $    0.001368,  0.000641
+        -3013,     FRAMES.274,SOLAR_CARDS.149,  5.531039e-07   $    0.005974,  0.002800
+        -3014,     FRAMES.274,SOLAR_CARDS.153,  7.493662e-06   $    0.080932,  0.037937
+        -3015,     FRAMES.274,SOLAR_CARDS.157,  3.359799e-05   $    0.362858,  0.170090
+        -3016,     FRAMES.274,SOLAR_CARDS.161,  6.964281e-06   $    0.075214,  0.035257
+        -3017,     FRAMES.274,SOLAR_CARDS.165,  4.134052e-07   $    0.004465,  0.002093
+        -3018,     FRAMES.274,SOLAR_CARDS.189,  2.387268e-07   $    0.002578,  0.001209
+        -3019,     FRAMES.274,SOLAR_CARDS.193,  2.338660e-06   $    0.025258,  0.011839
+        -3020,     FRAMES.274,SOLAR_CARDS.197,  6.806806e-06   $    0.073514,  0.034459
+        -3021,     FRAMES.274,SOLAR_CARDS.201,  2.263316e-06   $    0.024444,  0.011458
+        -3022,     FRAMES.274,SOLAR_CARDS.205,  2.852194e-07   $    0.003080,  0.001444
+        -3023,     FRAMES.274,SOLAR_CARDS.229,  1.457456e-07   $    0.001574,  0.000738
+        -3024,     FRAMES.274,SOLAR_CARDS.233,  3.623717e-07   $    0.003914,  0.001835
+        -3025,     FRAMES.274,SOLAR_CARDS.237,  4.382045e-07   $    0.004733,  0.002218
+        -3026,     FRAMES.274,SOLAR_CARDS.241,  3.404383e-07   $    0.003677,  0.001723
+        -3027,     FRAMES.274,SOLAR_CARDS.245,  9.682895e-08   $    0.001046,  0.000490
+        -3028,     FRAMES.274,SOLAR_CARDS.400,  1.231365e-07   $    0.001330,  0.000623
+        -3029,     FRAMES.274,SOLAR_CARDS.410,  9.471067e-08   $    0.001023,  0.000479
+        -3030,     FRAMES.274,SOLAR_CARDS.417,  9.784931e-08   $    0.001057,  0.000495
+        -3031,     FRAMES.274,SOLAR_CARDS.450,  1.125650e-07   $    0.001216,  0.000570
+        -3032,     FRAMES.274,SOLAR_CARDS.454,  1.200585e-07   $    0.001297,  0.000608
+        -3033,     FRAMES.274,SOLAR_CARDS.460,  2.689997e-07   $    0.002905,  0.001362
+        -3034,     FRAMES.274,SOLAR_CARDS.467,  2.569187e-07   $    0.002775,  0.001301
+        -3035,     FRAMES.274,SOLAR_CARDS.471,  4.363710e-07   $    0.004713,  0.002209
+        -3036,     FRAMES.274,SOLAR_CARDS.475,  1.426673e-07   $    0.001541,  0.000722
+        -3037,     FRAMES.274,SOLAR_CARDS.504,  2.297847e-07   $    0.002482,  0.001163
+        -3038,     FRAMES.274,SOLAR_CARDS.510,  2.024659e-06   $    0.021866,  0.010250
+        -3039,     FRAMES.274,SOLAR_CARDS.517,  7.675351e-06   $    0.082894,  0.038856
+        -3040,     FRAMES.274,SOLAR_CARDS.521,  2.010315e-06   $    0.021711,  0.010177
+        -3041,     FRAMES.274,SOLAR_CARDS.525,  2.502260e-07   $    0.002702,  0.001267
+        -3042,     FRAMES.277,     FRAMES.282,  1.377780e-06   $    0.014880,  0.014880
+        -3043,     FRAMES.277,     FRAMES.285,  1.669965e-07   $    0.001804,  0.001804
+        -3044,     FRAMES.277,     FRAMES.306,  9.590978e-08   $    0.001036,  0.001036
+        -3045,     FRAMES.277,     FRAMES.310,  6.296515e-07   $    0.006800,  0.006800
+        -3046,     FRAMES.277,     FRAMES.313,  1.472313e-06   $    0.015901,  0.015901
+        -3047,     FRAMES.277,     FRAMES.318,  5.668189e-07   $    0.006122,  0.006122
+        -3048,     FRAMES.277,     FRAMES.321,  1.060760e-07   $    0.001146,  0.001146
+        -3049,     FRAMES.277,     FRAMES.346,  1.220389e-07   $    0.001318,  0.001318
+        -3050,     FRAMES.277,     FRAMES.349,  1.950807e-07   $    0.002107,  0.002107
+        -3051,     FRAMES.277,SOLAR_CARDS.141,  1.350131e-07   $    0.001458,  0.000684
+        -3052,     FRAMES.277,SOLAR_CARDS.145,  5.056590e-07   $    0.005461,  0.002560
+        -3053,     FRAMES.277,SOLAR_CARDS.149,  6.817225e-06   $    0.073626,  0.034512
+        -3054,     FRAMES.277,SOLAR_CARDS.153,  3.461084e-05   $    0.373797,  0.175217
+        -3055,     FRAMES.277,SOLAR_CARDS.157,  7.593625e-06   $    0.082011,  0.038443
+        -3056,     FRAMES.277,SOLAR_CARDS.161,  3.639373e-07   $    0.003931,  0.001842
+        -3057,     FRAMES.277,SOLAR_CARDS.165,  9.756268e-08   $    0.001054,  0.000494
+        -3058,     FRAMES.277,SOLAR_CARDS.181,  1.107169e-07   $    0.001196,  0.000561
+        -3059,     FRAMES.277,SOLAR_CARDS.185,  2.502260e-07   $    0.002702,  0.001267
+        -3060,     FRAMES.277,SOLAR_CARDS.189,  1.885246e-06   $    0.020361,  0.009544
+        -3061,     FRAMES.277,SOLAR_CARDS.193,  7.932570e-06   $    0.085672,  0.040159
+        -3062,     FRAMES.277,SOLAR_CARDS.197,  2.373327e-06   $    0.025632,  0.012015
+        -3063,     FRAMES.277,SOLAR_CARDS.201,  2.041054e-07   $    0.002204,  0.001033
+        -3064,     FRAMES.277,SOLAR_CARDS.225,  1.075194e-07   $    0.001161,  0.000544
+        -3065,     FRAMES.277,SOLAR_CARDS.229,  2.926056e-07   $    0.003160,  0.001481
+        -3066,     FRAMES.277,SOLAR_CARDS.233,  3.572347e-07   $    0.003858,  0.001809
+        -3067,     FRAMES.277,SOLAR_CARDS.237,  1.954517e-07   $    0.002111,  0.000989
+        -3068,     FRAMES.277,SOLAR_CARDS.241,  1.063534e-07   $    0.001149,  0.000538
+        -3069,     FRAMES.277,SOLAR_CARDS.245,  1.223099e-07   $    0.001321,  0.000619
+        -3070,     FRAMES.277,SOLAR_CARDS.273,  1.567641e-07   $    0.001693,  0.001587
+        -3071,     FRAMES.277,SOLAR_CARDS.404,  9.713271e-08   $    0.001049,  0.000492
+        -3072,     FRAMES.277,SOLAR_CARDS.421,  9.825620e-08   $    0.001061,  0.000497
+        -3073,     FRAMES.277,SOLAR_CARDS.450,  9.293893e-08   $    0.001004,  0.000471
+        -3074,     FRAMES.277,SOLAR_CARDS.454,  3.483798e-07   $    0.003763,  0.001764
+        -3075,     FRAMES.277,SOLAR_CARDS.460,  4.603220e-07   $    0.004971,  0.002330
+        -3076,     FRAMES.277,SOLAR_CARDS.467,  2.469573e-07   $    0.002667,  0.001250
+        -3077,     FRAMES.277,SOLAR_CARDS.471,  1.672211e-07   $    0.001806,  0.000847
+        -3078,     FRAMES.277,SOLAR_CARDS.500,  2.541142e-07   $    0.002744,  0.001286
+        -3079,     FRAMES.277,SOLAR_CARDS.504,  2.081050e-06   $    0.022475,  0.010535
+        -3080,     FRAMES.277,SOLAR_CARDS.510,  7.081470e-06   $    0.076480,  0.035850
+        -3081,     FRAMES.277,SOLAR_CARDS.517,  1.672945e-06   $    0.018068,  0.008469
+        -3082,     FRAMES.277,SOLAR_CARDS.521,  3.427518e-07   $    0.003702,  0.001735
+        -3083,     FRAMES.277,SOLAR_CARDS.525,  9.372926e-08   $    0.001012,  0.000475
+        -3084,     FRAMES.282,     FRAMES.285,  1.525028e-06   $    0.016470,  0.016470
+        -3085,     FRAMES.282,     FRAMES.288,  1.527708e-07   $    0.001650,  0.001650
+        -3086,     FRAMES.282,     FRAMES.310,  1.389136e-07   $    0.001500,  0.001500
+        -3087,     FRAMES.282,     FRAMES.313,  6.370587e-07   $    0.006880,  0.006880
+        -3088,     FRAMES.282,     FRAMES.318,  1.448620e-06   $    0.015645,  0.015645
+        -3089,     FRAMES.282,     FRAMES.321,  4.969910e-07   $    0.005368,  0.005368
+        -3090,     FRAMES.282,     FRAMES.324,  1.016458e-07   $    0.001098,  0.001098
+        -3091,     FRAMES.282,     FRAMES.349,  1.150538e-07   $    0.001243,  0.001243
+        -3092,     FRAMES.282,     FRAMES.354,  1.710963e-07   $    0.001848,  0.001848
+        -3093,     FRAMES.282,     FRAMES.357,  1.068765e-07   $    0.001154,  0.001154
+        -3094,     FRAMES.282,SOLAR_CARDS.141,  3.844717e-07   $    0.004152,  0.001946
+        -3095,     FRAMES.282,SOLAR_CARDS.145,  7.424458e-06   $    0.080184,  0.037586
+        -3096,     FRAMES.282,SOLAR_CARDS.149,  3.403583e-05   $    0.367587,  0.172306
+        -3097,     FRAMES.282,SOLAR_CARDS.153,  7.295497e-06   $    0.078791,  0.036933
+        -3098,     FRAMES.282,SOLAR_CARDS.157,  4.443980e-07   $    0.004799,  0.002250
+        -3099,     FRAMES.282,SOLAR_CARDS.181,  3.934505e-07   $    0.004249,  0.001992
+        -3100,     FRAMES.282,SOLAR_CARDS.185,  1.844038e-06   $    0.019916,  0.009335
+        -3101,     FRAMES.282,SOLAR_CARDS.189,  6.834279e-06   $    0.073810,  0.034599
+        -3102,     FRAMES.282,SOLAR_CARDS.193,  2.037040e-06   $    0.022000,  0.010313
+        -3103,     FRAMES.282,SOLAR_CARDS.197,  3.762690e-07   $    0.004064,  0.001905
+        -3104,     FRAMES.282,SOLAR_CARDS.201,  1.148262e-07   $    0.001240,  0.000581
+        -3105,     FRAMES.282,SOLAR_CARDS.205,  1.222222e-07   $    0.001320,  0.000619
+        -3106,     FRAMES.282,SOLAR_CARDS.217,  9.486966e-08   $    0.001025,  0.000480
+        -3107,     FRAMES.282,SOLAR_CARDS.221,  1.159723e-07   $    0.001253,  0.000587
+        -3108,     FRAMES.282,SOLAR_CARDS.225,  2.139765e-07   $    0.002311,  0.001083
+        -3109,     FRAMES.282,SOLAR_CARDS.229,  4.406050e-07   $    0.004759,  0.002231
+        -3110,     FRAMES.282,SOLAR_CARDS.233,  3.438670e-07   $    0.003714,  0.001741
+        -3111,     FRAMES.282,SOLAR_CARDS.237,  9.419868e-08   $    0.001017,  0.000477
+        -3112,     FRAMES.282,SOLAR_CARDS.269,  1.055492e-07   $    0.001140,  0.001069
+        -3113,     FRAMES.282,SOLAR_CARDS.360,  1.147572e-07   $    0.001239,  0.000581
+        -3114,     FRAMES.282,SOLAR_CARDS.396,  1.340656e-07   $    0.001448,  0.000679
+        -3115,     FRAMES.282,SOLAR_CARDS.404,  9.452326e-08   $    0.001021,  0.000479
+        -3116,     FRAMES.282,SOLAR_CARDS.410,  1.239247e-07   $    0.001338,  0.000627
+        -3117,     FRAMES.282,SOLAR_CARDS.450,  4.267355e-07   $    0.004609,  0.002160
+        -3118,     FRAMES.282,SOLAR_CARDS.454,  5.566164e-07   $    0.006011,  0.002818
+        -3119,     FRAMES.282,SOLAR_CARDS.460,  3.167911e-07   $    0.003421,  0.001604
+        -3120,     FRAMES.282,SOLAR_CARDS.467,  9.366560e-08   $    0.001012,  0.000474
+        -3121,     FRAMES.282,SOLAR_CARDS.496,  1.024571e-07   $    0.001107,  0.000519
+        -3122,     FRAMES.282,SOLAR_CARDS.500,  2.237734e-06   $    0.024168,  0.011329
+        -3123,     FRAMES.282,SOLAR_CARDS.504,  7.447701e-06   $    0.080435,  0.037704
+        -3124,     FRAMES.282,SOLAR_CARDS.510,  1.879916e-06   $    0.020303,  0.009517
+        -3125,     FRAMES.282,SOLAR_CARDS.517,  3.571462e-07   $    0.003857,  0.001808
+        -3126,     FRAMES.282,SOLAR_CARDS.521,  1.890172e-07   $    0.002041,  0.000957
+        -3127,     FRAMES.285,     FRAMES.288,  1.388297e-06   $    0.014994,  0.014994
+        -3128,     FRAMES.285,     FRAMES.292,  1.780676e-07   $    0.001923,  0.001923
+        -3129,     FRAMES.285,     FRAMES.313,  1.210615e-07   $    0.001307,  0.001307
+        -3130,     FRAMES.285,     FRAMES.318,  6.436808e-07   $    0.006952,  0.006952
+        -3131,     FRAMES.285,     FRAMES.321,  1.514355e-06   $    0.016355,  0.016355
+        -3132,     FRAMES.285,     FRAMES.324,  6.552946e-07   $    0.007077,  0.007077
+        -3133,     FRAMES.285,     FRAMES.328,  1.060160e-07   $    0.001145,  0.001145
+        -3134,     FRAMES.285,     FRAMES.354,  1.102390e-07   $    0.001191,  0.001191
+        -3135,     FRAMES.285,     FRAMES.357,  1.848515e-07   $    0.001996,  0.001996
+        -3136,     FRAMES.285,SOLAR_CARDS.141,  6.533176e-06   $    0.070558,  0.033074
+        -3137,     FRAMES.285,SOLAR_CARDS.145,  3.456796e-05   $    0.373334,  0.175000
+        -3138,     FRAMES.285,SOLAR_CARDS.149,  7.622185e-06   $    0.082320,  0.038587
+        -3139,     FRAMES.285,SOLAR_CARDS.153,  3.567687e-07   $    0.003853,  0.001806
+        -3140,     FRAMES.285,SOLAR_CARDS.157,  1.160116e-07   $    0.001253,  0.000587
+        -3141,     FRAMES.285,SOLAR_CARDS.177,  2.764369e-07   $    0.002986,  0.001399
+        -3142,     FRAMES.285,SOLAR_CARDS.181,  2.051954e-06   $    0.022161,  0.010388
+        -3143,     FRAMES.285,SOLAR_CARDS.185,  7.059119e-06   $    0.076238,  0.035737
+        -3144,     FRAMES.285,SOLAR_CARDS.189,  2.202220e-06   $    0.023784,  0.011149
+        -3145,     FRAMES.285,SOLAR_CARDS.193,  4.388688e-07   $    0.004740,  0.002222
+        -3146,     FRAMES.285,SOLAR_CARDS.197,  9.536982e-08   $    0.001030,  0.000483
+        -3147,     FRAMES.285,SOLAR_CARDS.221,  2.570390e-07   $    0.002776,  0.001301
+        -3148,     FRAMES.285,SOLAR_CARDS.225,  4.081459e-07   $    0.004408,  0.002066
+        -3149,     FRAMES.285,SOLAR_CARDS.229,  2.533515e-07   $    0.002736,  0.001283
+        -3150,     FRAMES.285,SOLAR_CARDS.233,  1.547341e-07   $    0.001671,  0.000783
+        -3151,     FRAMES.285,SOLAR_CARDS.400,  1.160116e-07   $    0.001253,  0.000587
+        -3152,     FRAMES.285,SOLAR_CARDS.442,  1.971242e-07   $    0.002129,  0.000998
+        -3153,     FRAMES.285,SOLAR_CARDS.446,  2.127971e-07   $    0.002298,  0.001077
+        -3154,     FRAMES.285,SOLAR_CARDS.450,  2.733177e-07   $    0.002952,  0.001384
+        -3155,     FRAMES.285,SOLAR_CARDS.454,  2.935305e-07   $    0.003170,  0.001486
+        -3156,     FRAMES.285,SOLAR_CARDS.492,  3.572651e-07   $    0.003858,  0.001809
+        -3157,     FRAMES.285,SOLAR_CARDS.496,  2.098532e-06   $    0.022664,  0.010624
+        -3158,     FRAMES.285,SOLAR_CARDS.500,  7.290171e-06   $    0.078734,  0.036906
+        -3159,     FRAMES.285,SOLAR_CARDS.504,  1.922698e-06   $    0.020765,  0.009734
+        -3160,     FRAMES.285,SOLAR_CARDS.510,  1.909158e-07   $    0.002062,  0.000967
+        -3161,     FRAMES.285,SOLAR_CARDS.517,  1.276169e-07   $    0.001378,  0.000646
+        -3162,     FRAMES.285,SOLAR_CARDS.537,  3.206394e-07   $    0.003463,  0.001623
+        -3163,     FRAMES.288,     FRAMES.292,  1.476134e-06   $    0.015942,  0.015942
+        -3164,     FRAMES.288,     FRAMES.295,  1.230257e-07   $    0.001329,  0.002657
+        -3165,     FRAMES.288,     FRAMES.318,  1.100362e-07   $    0.001188,  0.001188
+        -3166,     FRAMES.288,     FRAMES.321,  6.407966e-07   $    0.006921,  0.006921
+        -3167,     FRAMES.288,     FRAMES.324,  1.409108e-06   $    0.015218,  0.015218
+        -3168,     FRAMES.288,     FRAMES.328,  6.624492e-07   $    0.007154,  0.007154
+        -3169,     FRAMES.288,     FRAMES.331,  8.766637e-08   $    0.000947,  0.001894
+        -3170,     FRAMES.288,     FRAMES.360,  1.640935e-07   $    0.001772,  0.001772
+        -3171,     FRAMES.288,     FRAMES.364,  1.063687e-07   $    0.001149,  0.001149
+        -3172,     FRAMES.288,SOLAR_CARDS.141,  3.382936e-05   $    0.365357,  0.171261
+        -3173,     FRAMES.288,SOLAR_CARDS.145,  6.612319e-06   $    0.071413,  0.033475
+        -3174,     FRAMES.288,SOLAR_CARDS.149,  3.903152e-07   $    0.004215,  0.001976
+        -3175,     FRAMES.288,SOLAR_CARDS.153,  1.303233e-07   $    0.001407,  0.000660
+        -3176,     FRAMES.288,SOLAR_CARDS.173,  2.544910e-07   $    0.002749,  0.002577
+        -3177,     FRAMES.288,SOLAR_CARDS.177,  2.031646e-06   $    0.021942,  0.010285
+        -3178,     FRAMES.288,SOLAR_CARDS.181,  7.138186e-06   $    0.077092,  0.036137
+        -3179,     FRAMES.288,SOLAR_CARDS.185,  2.186679e-06   $    0.023616,  0.011070
+        -3180,     FRAMES.288,SOLAR_CARDS.189,  2.847950e-07   $    0.003076,  0.001442
+        -3181,     FRAMES.288,SOLAR_CARDS.217,  1.756998e-07   $    0.001898,  0.000889
+        -3182,     FRAMES.288,SOLAR_CARDS.221,  5.863373e-07   $    0.006332,  0.002968
+        -3183,     FRAMES.288,SOLAR_CARDS.225,  2.471351e-07   $    0.002669,  0.001251
+        -3184,     FRAMES.288,SOLAR_CARDS.392,  9.805797e-08   $    0.001059,  0.000496
+        -3185,     FRAMES.288,SOLAR_CARDS.404,  1.358347e-07   $    0.001467,  0.000688
+        -3186,     FRAMES.288,SOLAR_CARDS.442,  1.793516e-07   $    0.001937,  0.000908
+        -3187,     FRAMES.288,SOLAR_CARDS.446,  4.908284e-07   $    0.005301,  0.002485
+        -3188,     FRAMES.288,SOLAR_CARDS.450,  3.299768e-07   $    0.003564,  0.001671
+        -3189,     FRAMES.288,SOLAR_CARDS.485,  2.154284e-07   $    0.002327,  0.002181
+        -3190,     FRAMES.288,SOLAR_CARDS.492,  2.394315e-06   $    0.025859,  0.012121
+        -3191,     FRAMES.288,SOLAR_CARDS.496,  7.229142e-06   $    0.078075,  0.036598
+        -3192,     FRAMES.288,SOLAR_CARDS.500,  2.134638e-06   $    0.023054,  0.010807
+        -3193,     FRAMES.288,SOLAR_CARDS.504,  3.792009e-07   $    0.004095,  0.001920
+        -3194,     FRAMES.288,SOLAR_CARDS.533,  3.485543e-07   $    0.003764,  0.003529
+        -3195,     FRAMES.288,SOLAR_CARDS.537,  7.389187e-06   $    0.079803,  0.037408
+        -3196,     FRAMES.292,     FRAMES.295,  9.547980e-07   $    0.010312,  0.020624
+        -3197,     FRAMES.292,     FRAMES.321,  1.037368e-07   $    0.001120,  0.001120
+        -3198,     FRAMES.292,     FRAMES.324,  6.258665e-07   $    0.006759,  0.006759
+        -3199,     FRAMES.292,     FRAMES.328,  1.270907e-06   $    0.013726,  0.013726
+        -3200,     FRAMES.292,     FRAMES.331,  3.821619e-07   $    0.004127,  0.008255
+        -3201,     FRAMES.292,     FRAMES.364,  1.723020e-07   $    0.001861,  0.001861
+        -3202,     FRAMES.292,     FRAMES.367,  7.231822e-08   $    0.000781,  0.001562
+        -3203,     FRAMES.292,SOLAR_CARDS.141,  7.618156e-06   $    0.082276,  0.038567
+        -3204,     FRAMES.292,SOLAR_CARDS.145,  4.668705e-07   $    0.005042,  0.002364
+        -3205,     FRAMES.292,SOLAR_CARDS.149,  1.058212e-07   $    0.001143,  0.000536
+        -3206,     FRAMES.292,SOLAR_CARDS.173,  1.694632e-06   $    0.018302,  0.017158
+        -3207,     FRAMES.292,SOLAR_CARDS.177,  6.752778e-06   $    0.072930,  0.034186
+        -3208,     FRAMES.292,SOLAR_CARDS.181,  2.326827e-06   $    0.025130,  0.011780
+        -3209,     FRAMES.292,SOLAR_CARDS.185,  4.635121e-07   $    0.005006,  0.002347
+        -3210,     FRAMES.292,SOLAR_CARDS.213,  1.478579e-07   $    0.001597,  0.001497
+        -3211,     FRAMES.292,SOLAR_CARDS.217,  6.468151e-07   $    0.006986,  0.003275
+        -3212,     FRAMES.292,SOLAR_CARDS.221,  2.295470e-07   $    0.002479,  0.001162
+        -3213,     FRAMES.292,SOLAR_CARDS.225,  1.611586e-07   $    0.001741,  0.000816
+        -3214,     FRAMES.292,SOLAR_CARDS.346,  9.444445e-08   $    0.001020,  0.000478
+        -3215,     FRAMES.292,SOLAR_CARDS.392,  1.453638e-07   $    0.001570,  0.000736
+        -3216,     FRAMES.292,SOLAR_CARDS.435,  2.945761e-07   $    0.003181,  0.002983
+        -3217,     FRAMES.292,SOLAR_CARDS.442,  5.430607e-07   $    0.005865,  0.002749
+        -3218,     FRAMES.292,SOLAR_CARDS.446,  2.874128e-07   $    0.003104,  0.001455
+        -3219,     FRAMES.292,SOLAR_CARDS.450,  1.538849e-07   $    0.001662,  0.000779
+        -3220,     FRAMES.292,SOLAR_CARDS.485,  1.595315e-06   $    0.017229,  0.016153
+        -3221,     FRAMES.292,SOLAR_CARDS.492,  7.145469e-06   $    0.077171,  0.036174
+        -3222,     FRAMES.292,SOLAR_CARDS.496,  2.370059e-06   $    0.025597,  0.011998
+        -3223,     FRAMES.292,SOLAR_CARDS.500,  1.892636e-07   $    0.002044,  0.000958
+        -3224,     FRAMES.292,SOLAR_CARDS.533,  5.521992e-06   $    0.059638,  0.055910
+        -3225,     FRAMES.292,SOLAR_CARDS.537,  3.382653e-05   $    0.365326,  0.171247
+        -3226,     FRAMES.295,     FRAMES.324,  8.921415e-08   $    0.001927,  0.000964
+        -3227,     FRAMES.295,     FRAMES.328,  4.054637e-07   $    0.008758,  0.004379
+        -3228,     FRAMES.295,     FRAMES.331,  3.259464e-07   $    0.007040,  0.007040
+        -3229,     FRAMES.295,     FRAMES.364,  6.265011e-08   $    0.001353,  0.000677
+        -3230,     FRAMES.295,SOLAR_CARDS.141,  3.877358e-07   $    0.008375,  0.001963
+        -3231,     FRAMES.295,SOLAR_CARDS.173,  2.068488e-06   $    0.044679,  0.020943
+        -3232,     FRAMES.295,SOLAR_CARDS.177,  1.691737e-06   $    0.036542,  0.008564
+        -3233,     FRAMES.295,SOLAR_CARDS.181,  2.021282e-07   $    0.004366,  0.001023
+        -3234,     FRAMES.295,SOLAR_CARDS.213,  1.326087e-07   $    0.002864,  0.001343
+        -3235,     FRAMES.295,SOLAR_CARDS.217,  1.858425e-07   $    0.004014,  0.000941
+        -3236,     FRAMES.295,SOLAR_CARDS.221,  5.899555e-08   $    0.001274,  0.000299
+        -3237,     FRAMES.295,SOLAR_CARDS.392,  7.700623e-08   $    0.001663,  0.000390
+        -3238,     FRAMES.295,SOLAR_CARDS.400,  5.250700e-08   $    0.001134,  0.000266
+        -3239,     FRAMES.295,SOLAR_CARDS.435,  8.624578e-08   $    0.001863,  0.000873
+        -3240,     FRAMES.295,SOLAR_CARDS.442,  1.657691e-07   $    0.003581,  0.000839
+        -3241,     FRAMES.295,SOLAR_CARDS.446,  1.034400e-07   $    0.002234,  0.000524
+        -3242,     FRAMES.295,SOLAR_CARDS.485,  2.398656e-06   $    0.051811,  0.024286
+        -3243,     FRAMES.295,SOLAR_CARDS.492,  1.558245e-06   $    0.033658,  0.007889
+        -3244,     FRAMES.295,SOLAR_CARDS.496,  2.188247e-07   $    0.004727,  0.001108
+        -3245,     FRAMES.295,SOLAR_CARDS.533,  1.184030e-05   $    0.255750,  0.119883
+        -3246,     FRAMES.295,SOLAR_CARDS.537,  6.506687e-06   $    0.140544,  0.032940
+        -3247,     FRAMES.300,     FRAMES.303,  9.528678e-07   $    0.020582,  0.010291
+        -3248,     FRAMES.300,     FRAMES.306,  1.241311e-07   $    0.002681,  0.001341
+        -3249,     FRAMES.300,     FRAMES.336,  3.716048e-07   $    0.008027,  0.008027
+        -3250,     FRAMES.300,     FRAMES.339,  4.022668e-07   $    0.008689,  0.004344
+        -3251,     FRAMES.300,     FRAMES.342,  9.308609e-08   $    0.002011,  0.001005
+        -3252,     FRAMES.300,     FRAMES.372,  3.415434e-08   $    0.000738,  0.001475
+        -3253,     FRAMES.300,SOLAR_CARDS.161,  2.353969e-07   $    0.005085,  0.001192
+        -3254,     FRAMES.300,SOLAR_CARDS.165,  1.589791e-06   $    0.034339,  0.008048
+        -3255,     FRAMES.300,SOLAR_CARDS.169,  2.512554e-06   $    0.054271,  0.025440
+        -3256,     FRAMES.300,SOLAR_CARDS.201,  3.438229e-07   $    0.007427,  0.001741
+        -3257,     FRAMES.300,SOLAR_CARDS.205,  5.592803e-06   $    0.120805,  0.028314
+        -3258,     FRAMES.300,SOLAR_CARDS.209,  1.173832e-05   $    0.253548,  0.118850
+        -3259,     FRAMES.300,SOLAR_CARDS.241,  1.800987e-07   $    0.003890,  0.000912
+        -3260,     FRAMES.300,SOLAR_CARDS.245,  1.669586e-06   $    0.036063,  0.008452
+        -3261,     FRAMES.300,SOLAR_CARDS.249,  2.366656e-06   $    0.051120,  0.023962
+        -3262,     FRAMES.300,SOLAR_CARDS.281,  8.382861e-08   $    0.001811,  0.000849
+        -3263,     FRAMES.300,SOLAR_CARDS.285,  2.403377e-07   $    0.005191,  0.002433
+        -3264,     FRAMES.300,SOLAR_CARDS.289,  1.035991e-07   $    0.002238,  0.002098
+        -3265,     FRAMES.300,SOLAR_CARDS.475,  1.233411e-07   $    0.002664,  0.000624
+        -3266,     FRAMES.300,SOLAR_CARDS.521,  6.490571e-08   $    0.001402,  0.000329
+        -3267,     FRAMES.300,SOLAR_CARDS.525,  2.350595e-07   $    0.005077,  0.001190
+        -3268,     FRAMES.300,SOLAR_CARDS.529,  9.457775e-08   $    0.002043,  0.000958
+        -3269,     FRAMES.303,     FRAMES.306,  1.518875e-06   $    0.016404,  0.016404
+        -3270,     FRAMES.303,     FRAMES.310,  1.707955e-07   $    0.001845,  0.001845
+        -3271,     FRAMES.303,     FRAMES.336,  3.808310e-07   $    0.004113,  0.008226
+        -3272,     FRAMES.303,     FRAMES.339,  1.433973e-06   $    0.015487,  0.015487
+        -3273,     FRAMES.303,     FRAMES.342,  6.203270e-07   $    0.006700,  0.006700
+        -3274,     FRAMES.303,     FRAMES.346,  1.118273e-07   $    0.001208,  0.001208
+        -3275,     FRAMES.303,     FRAMES.372,  3.737324e-08   $    0.000404,  0.001615
+        -3276,     FRAMES.303,     FRAMES.375,  1.086178e-07   $    0.001173,  0.002346
+        -3277,     FRAMES.303,     FRAMES.378,  7.229090e-08   $    0.000781,  0.001561
+        -3278,     FRAMES.303,SOLAR_CARDS.157,  2.878606e-07   $    0.003109,  0.001457
+        -3279,     FRAMES.303,SOLAR_CARDS.161,  1.988368e-06   $    0.021474,  0.010066
+        -3280,     FRAMES.303,SOLAR_CARDS.165,  7.527941e-06   $    0.081302,  0.038110
+        -3281,     FRAMES.303,SOLAR_CARDS.169,  1.631458e-06   $    0.017620,  0.016519
+        -3282,     FRAMES.303,SOLAR_CARDS.193,  1.884170e-07   $    0.002035,  0.000954
+        -3283,     FRAMES.303,SOLAR_CARDS.197,  4.622250e-07   $    0.004992,  0.002340
+        -3284,     FRAMES.303,SOLAR_CARDS.201,  6.785829e-06   $    0.073287,  0.034353
+        -3285,     FRAMES.303,SOLAR_CARDS.205,  3.537663e-05   $    0.382068,  0.179094
+        -3286,     FRAMES.303,SOLAR_CARDS.209,  5.554478e-06   $    0.059988,  0.056239
+        -3287,     FRAMES.303,SOLAR_CARDS.237,  2.438700e-07   $    0.002634,  0.001235
+        -3288,     FRAMES.303,SOLAR_CARDS.241,  2.267055e-06   $    0.024484,  0.011477
+        -3289,     FRAMES.303,SOLAR_CARDS.245,  6.941280e-06   $    0.074966,  0.035140
+        -3290,     FRAMES.303,SOLAR_CARDS.249,  1.851178e-06   $    0.019993,  0.018743
+        -3291,     FRAMES.303,SOLAR_CARDS.281,  1.287123e-07   $    0.001390,  0.001303
+        -3292,     FRAMES.303,SOLAR_CARDS.285,  5.157110e-07   $    0.005570,  0.005222
+        -3293,     FRAMES.303,SOLAR_CARDS.289,  7.623865e-08   $    0.000823,  0.001544
+        -3294,     FRAMES.303,SOLAR_CARDS.471,  1.003943e-07   $    0.001084,  0.000508
+        -3295,     FRAMES.303,SOLAR_CARDS.517,  9.864262e-08   $    0.001065,  0.000499
+        -3296,     FRAMES.303,SOLAR_CARDS.521,  2.143598e-07   $    0.002315,  0.001085
+        -3297,     FRAMES.303,SOLAR_CARDS.525,  3.630604e-07   $    0.003921,  0.001838
+        -3298,     FRAMES.303,SOLAR_CARDS.529,  9.373222e-08   $    0.001012,  0.000949
+        -3299,     FRAMES.306,     FRAMES.310,  1.426551e-06   $    0.015407,  0.015407
+        -3300,     FRAMES.306,     FRAMES.313,  1.768829e-07   $    0.001910,  0.001910
+        -3301,     FRAMES.306,     FRAMES.336,  7.909341e-08   $    0.000854,  0.001708
+        -3302,     FRAMES.306,     FRAMES.339,  6.425980e-07   $    0.006940,  0.006940
+        -3303,     FRAMES.306,     FRAMES.342,  1.390855e-06   $    0.015021,  0.015021
+        -3304,     FRAMES.306,     FRAMES.346,  6.209968e-07   $    0.006707,  0.006707
+        -3305,     FRAMES.306,     FRAMES.375,  7.775245e-08   $    0.000840,  0.001679
+        -3306,     FRAMES.306,     FRAMES.378,  8.398771e-08   $    0.000907,  0.001814
+        -3307,     FRAMES.306,     FRAMES.382,  5.909908e-08   $    0.000638,  0.001277
+        -3308,     FRAMES.306,SOLAR_CARDS.153,  2.072459e-07   $    0.002238,  0.001049
+        -3309,     FRAMES.306,SOLAR_CARDS.157,  2.106321e-06   $    0.022748,  0.010663
+        -3310,     FRAMES.306,SOLAR_CARDS.161,  7.165893e-06   $    0.077392,  0.036277
+        -3311,     FRAMES.306,SOLAR_CARDS.165,  2.316551e-06   $    0.025019,  0.011728
+        -3312,     FRAMES.306,SOLAR_CARDS.169,  2.015163e-07   $    0.002176,  0.002040
+        -3313,     FRAMES.306,SOLAR_CARDS.189,  1.247957e-07   $    0.001348,  0.000632
+        -3314,     FRAMES.306,SOLAR_CARDS.193,  3.387490e-07   $    0.003658,  0.001715
+        -3315,     FRAMES.306,SOLAR_CARDS.197,  7.003946e-06   $    0.075643,  0.035457
+        -3316,     FRAMES.306,SOLAR_CARDS.201,  3.476462e-05   $    0.375458,  0.175996
+        -3317,     FRAMES.306,SOLAR_CARDS.205,  7.024049e-06   $    0.075860,  0.035559
+        -3318,     FRAMES.306,SOLAR_CARDS.209,  3.664019e-07   $    0.003957,  0.003710
+        -3319,     FRAMES.306,SOLAR_CARDS.229,  1.004036e-07   $    0.001084,  0.000508
+        -3320,     FRAMES.306,SOLAR_CARDS.233,  3.160472e-07   $    0.003413,  0.001600
+        -3321,     FRAMES.306,SOLAR_CARDS.237,  1.772285e-06   $    0.019141,  0.008972
+        -3322,     FRAMES.306,SOLAR_CARDS.241,  6.995778e-06   $    0.075554,  0.035416
+        -3323,     FRAMES.306,SOLAR_CARDS.245,  2.272349e-06   $    0.024541,  0.011504
+        -3324,     FRAMES.306,SOLAR_CARDS.249,  2.003650e-07   $    0.002164,  0.002029
+        -3325,     FRAMES.306,SOLAR_CARDS.277,  1.501504e-07   $    0.001622,  0.001520
+        -3326,     FRAMES.306,SOLAR_CARDS.281,  3.126241e-07   $    0.003376,  0.003165
+        -3327,     FRAMES.306,SOLAR_CARDS.285,  1.657225e-07   $    0.001790,  0.001678
+        -3328,     FRAMES.306,SOLAR_CARDS.467,  2.266289e-07   $    0.002448,  0.001147
+        -3329,     FRAMES.306,SOLAR_CARDS.475,  1.176698e-07   $    0.001271,  0.000596
+        -3330,     FRAMES.306,SOLAR_CARDS.510,  1.314815e-07   $    0.001420,  0.000666
+        -3331,     FRAMES.306,SOLAR_CARDS.517,  2.988204e-07   $    0.003227,  0.001513
+        -3332,     FRAMES.306,SOLAR_CARDS.521,  5.288129e-07   $    0.005711,  0.002677
+        -3333,     FRAMES.306,SOLAR_CARDS.525,  3.332270e-07   $    0.003599,  0.001687
+        -3334,     FRAMES.310,     FRAMES.313,  1.363895e-06   $    0.014730,  0.014730
+        -3335,     FRAMES.310,     FRAMES.318,  1.286330e-07   $    0.001389,  0.001389
+        -3336,     FRAMES.310,     FRAMES.339,  1.064895e-07   $    0.001150,  0.001150
+        -3337,     FRAMES.310,     FRAMES.342,  5.819622e-07   $    0.006285,  0.006285
+        -3338,     FRAMES.310,     FRAMES.346,  1.399403e-06   $    0.015114,  0.015114
+        -3339,     FRAMES.310,     FRAMES.349,  5.959308e-07   $    0.006436,  0.006436
+        -3340,     FRAMES.310,     FRAMES.354,  1.138964e-07   $    0.001230,  0.001230
+        -3341,     FRAMES.310,     FRAMES.378,  6.211954e-08   $    0.000671,  0.001342
+        -3342,     FRAMES.310,     FRAMES.382,  1.161566e-07   $    0.001254,  0.002509
+        -3343,     FRAMES.310,     FRAMES.385,  1.128762e-07   $    0.001219,  0.002438
+        -3344,     FRAMES.310,SOLAR_CARDS.145,  9.788914e-08   $    0.001057,  0.000496
+        -3345,     FRAMES.310,SOLAR_CARDS.149,  3.234078e-07   $    0.003493,  0.001637
+        -3346,     FRAMES.310,SOLAR_CARDS.153,  2.088059e-06   $    0.022551,  0.010571
+        -3347,     FRAMES.310,SOLAR_CARDS.157,  6.515924e-06   $    0.070372,  0.032987
+        -3348,     FRAMES.310,SOLAR_CARDS.161,  2.038387e-06   $    0.022015,  0.010319
+        -3349,     FRAMES.310,SOLAR_CARDS.165,  2.901716e-07   $    0.003134,  0.001469
+        -3350,     FRAMES.310,SOLAR_CARDS.185,  9.497699e-08   $    0.001026,  0.000481
+        -3351,     FRAMES.310,SOLAR_CARDS.189,  3.639151e-07   $    0.003930,  0.001842
+        -3352,     FRAMES.310,SOLAR_CARDS.193,  7.137704e-06   $    0.077087,  0.036135
+        -3353,     FRAMES.310,SOLAR_CARDS.197,  3.518429e-05   $    0.379990,  0.178120
+        -3354,     FRAMES.310,SOLAR_CARDS.201,  6.769410e-06   $    0.073110,  0.034270
+        -3355,     FRAMES.310,SOLAR_CARDS.205,  5.326341e-07   $    0.005752,  0.002696
+        -3356,     FRAMES.310,SOLAR_CARDS.229,  2.379123e-07   $    0.002569,  0.001204
+        -3357,     FRAMES.310,SOLAR_CARDS.233,  1.906100e-06   $    0.020586,  0.009650
+        -3358,     FRAMES.310,SOLAR_CARDS.237,  7.102055e-06   $    0.076702,  0.035954
+        -3359,     FRAMES.310,SOLAR_CARDS.241,  2.084488e-06   $    0.022512,  0.010553
+        -3360,     FRAMES.310,SOLAR_CARDS.245,  3.108757e-07   $    0.003357,  0.001574
+        -3361,     FRAMES.310,SOLAR_CARDS.269,  1.153570e-07   $    0.001246,  0.001168
+        -3362,     FRAMES.310,SOLAR_CARDS.273,  2.282319e-07   $    0.002465,  0.002311
+        -3363,     FRAMES.310,SOLAR_CARDS.277,  4.343541e-07   $    0.004691,  0.004398
+        -3364,     FRAMES.310,SOLAR_CARDS.281,  2.500421e-07   $    0.002700,  0.002532
+        -3365,     FRAMES.310,SOLAR_CARDS.285,  9.365428e-08   $    0.001011,  0.000948
+        -3366,     FRAMES.310,SOLAR_CARDS.467,  1.508767e-07   $    0.001629,  0.000764
+        -3367,     FRAMES.310,SOLAR_CARDS.510,  2.375320e-07   $    0.002565,  0.001203
+        -3368,     FRAMES.310,SOLAR_CARDS.517,  4.433046e-07   $    0.004788,  0.002244
+        -3369,     FRAMES.310,SOLAR_CARDS.521,  2.711609e-07   $    0.002929,  0.001373
+        -3370,     FRAMES.310,SOLAR_CARDS.525,  1.553254e-07   $    0.001678,  0.000786
+        -3371,     FRAMES.313,     FRAMES.318,  1.309344e-06   $    0.014141,  0.014141
+        -3372,     FRAMES.313,     FRAMES.321,  1.687457e-07   $    0.001822,  0.001822
+        -3373,     FRAMES.313,     FRAMES.342,  9.757967e-08   $    0.001054,  0.001054
+        -3374,     FRAMES.313,     FRAMES.346,  6.558613e-07   $    0.007083,  0.007083
+        -3375,     FRAMES.313,     FRAMES.349,  1.401603e-06   $    0.015137,  0.015137
+        -3376,     FRAMES.313,     FRAMES.354,  5.814815e-07   $    0.006280,  0.006280
+        -3377,     FRAMES.313,     FRAMES.382,  5.267738e-08   $    0.000569,  0.001138
+        -3378,     FRAMES.313,     FRAMES.385,  1.278786e-07   $    0.001381,  0.002762
+        -3379,     FRAMES.313,     FRAMES.390,  7.179016e-08   $    0.000775,  0.001551
+        -3380,     FRAMES.313,SOLAR_CARDS.141,  9.559736e-08   $    0.001032,  0.000484
+        -3381,     FRAMES.313,SOLAR_CARDS.145,  2.769157e-07   $    0.002991,  0.001402
+        -3382,     FRAMES.313,SOLAR_CARDS.149,  2.666908e-06   $    0.028803,  0.013501
+        -3383,     FRAMES.313,SOLAR_CARDS.153,  7.166103e-06   $    0.077394,  0.036278
+        -3384,     FRAMES.313,SOLAR_CARDS.157,  2.156177e-06   $    0.023287,  0.010916
+        -3385,     FRAMES.313,SOLAR_CARDS.161,  3.231831e-07   $    0.003490,  0.001636
+        -3386,     FRAMES.313,SOLAR_CARDS.181,  9.698281e-08   $    0.001047,  0.000491
+        -3387,     FRAMES.313,SOLAR_CARDS.185,  4.616710e-07   $    0.004986,  0.002337
+        -3388,     FRAMES.313,SOLAR_CARDS.189,  6.906968e-06   $    0.074595,  0.034967
+        -3389,     FRAMES.313,SOLAR_CARDS.193,  3.389959e-05   $    0.366116,  0.171617
+        -3390,     FRAMES.313,SOLAR_CARDS.197,  7.050860e-06   $    0.076149,  0.035695
+        -3391,     FRAMES.313,SOLAR_CARDS.201,  4.374969e-07   $    0.004725,  0.002215
+        -3392,     FRAMES.313,SOLAR_CARDS.225,  1.792680e-07   $    0.001936,  0.000908
+        -3393,     FRAMES.313,SOLAR_CARDS.229,  2.029088e-06   $    0.021914,  0.010272
+        -3394,     FRAMES.313,SOLAR_CARDS.233,  7.241614e-06   $    0.078209,  0.036661
+        -3395,     FRAMES.313,SOLAR_CARDS.237,  2.160672e-06   $    0.023335,  0.010938
+        -3396,     FRAMES.313,SOLAR_CARDS.241,  2.279879e-07   $    0.002462,  0.001154
+        -3397,     FRAMES.313,SOLAR_CARDS.269,  2.514260e-07   $    0.002715,  0.002546
+        -3398,     FRAMES.313,SOLAR_CARDS.273,  4.501861e-07   $    0.004862,  0.004558
+        -3399,     FRAMES.313,SOLAR_CARDS.277,  1.471120e-07   $    0.001589,  0.001490
+        -3400,     FRAMES.313,SOLAR_CARDS.500,  9.427617e-08   $    0.001018,  0.000477
+        -3401,     FRAMES.313,SOLAR_CARDS.504,  2.847198e-07   $    0.003075,  0.001441
+        -3402,     FRAMES.313,SOLAR_CARDS.510,  4.736246e-07   $    0.005115,  0.002398
+        -3403,     FRAMES.313,SOLAR_CARDS.517,  2.400335e-07   $    0.002592,  0.001215
+        -3404,     FRAMES.313,SOLAR_CARDS.521,  1.505984e-07   $    0.001626,  0.000762
+        -3405,     FRAMES.318,     FRAMES.321,  1.446734e-06   $    0.015625,  0.015625
+        -3406,     FRAMES.318,     FRAMES.324,  1.775079e-07   $    0.001917,  0.001917
+        -3407,     FRAMES.318,     FRAMES.346,  1.388929e-07   $    0.001500,  0.001500
+        -3408,     FRAMES.318,     FRAMES.349,  5.744598e-07   $    0.006204,  0.006204
+        -3409,     FRAMES.318,     FRAMES.354,  1.303926e-06   $    0.014082,  0.014082
+        -3410,     FRAMES.318,     FRAMES.357,  5.947289e-07   $    0.006423,  0.006423
+        -3411,     FRAMES.318,     FRAMES.360,  1.192428e-07   $    0.001288,  0.001288
+        -3412,     FRAMES.318,     FRAMES.385,  8.231034e-08   $    0.000889,  0.001778
+        -3413,     FRAMES.318,     FRAMES.390,  8.853515e-08   $    0.000956,  0.001912
+        -3414,     FRAMES.318,     FRAMES.393,  5.326156e-08   $    0.000575,  0.001150
+        -3415,     FRAMES.318,SOLAR_CARDS.141,  2.191756e-07   $    0.002367,  0.001110
+        -3416,     FRAMES.318,SOLAR_CARDS.145,  2.376773e-06   $    0.025669,  0.012032
+        -3417,     FRAMES.318,SOLAR_CARDS.149,  6.969394e-06   $    0.075269,  0.035283
+        -3418,     FRAMES.318,SOLAR_CARDS.153,  2.237688e-06   $    0.024167,  0.011328
+        -3419,     FRAMES.318,SOLAR_CARDS.157,  2.569857e-07   $    0.002775,  0.001301
+        -3420,     FRAMES.318,SOLAR_CARDS.161,  1.403631e-07   $    0.001516,  0.000711
+        -3421,     FRAMES.318,SOLAR_CARDS.165,  9.283951e-08   $    0.001003,  0.000470
+        -3422,     FRAMES.318,SOLAR_CARDS.181,  4.967691e-07   $    0.005365,  0.002515
+        -3423,     FRAMES.318,SOLAR_CARDS.185,  7.138761e-06   $    0.077099,  0.036140
+        -3424,     FRAMES.318,SOLAR_CARDS.189,  3.358319e-05   $    0.362698,  0.170015
+        -3425,     FRAMES.318,SOLAR_CARDS.193,  7.317077e-06   $    0.079024,  0.037043
+        -3426,     FRAMES.318,SOLAR_CARDS.197,  5.057163e-07   $    0.005462,  0.002560
+        -3427,     FRAMES.318,SOLAR_CARDS.201,  1.040941e-07   $    0.001124,  0.000527
+        -3428,     FRAMES.318,SOLAR_CARDS.217,  9.302556e-08   $    0.001005,  0.000471
+        -3429,     FRAMES.318,SOLAR_CARDS.221,  1.830118e-07   $    0.001977,  0.000926
+        -3430,     FRAMES.318,SOLAR_CARDS.225,  2.279702e-06   $    0.024621,  0.011541
+        -3431,     FRAMES.318,SOLAR_CARDS.229,  6.455661e-06   $    0.069721,  0.032682
+        -3432,     FRAMES.318,SOLAR_CARDS.233,  2.477004e-06   $    0.026752,  0.012540
+        -3433,     FRAMES.318,SOLAR_CARDS.237,  2.488279e-07   $    0.002687,  0.001260
+        -3434,     FRAMES.318,SOLAR_CARDS.265,  2.257233e-07   $    0.002438,  0.002285
+        -3435,     FRAMES.318,SOLAR_CARDS.269,  4.336079e-07   $    0.004683,  0.004390
+        -3436,     FRAMES.318,SOLAR_CARDS.273,  2.921936e-07   $    0.003156,  0.002958
+        -3437,     FRAMES.318,SOLAR_CARDS.354,  1.093255e-07   $    0.001181,  0.000553
+        -3438,     FRAMES.318,SOLAR_CARDS.400,  9.444445e-08   $    0.001020,  0.000478
+        -3439,     FRAMES.318,SOLAR_CARDS.454,  1.886660e-07   $    0.002038,  0.000955
+        -3440,     FRAMES.318,SOLAR_CARDS.496,  1.351125e-07   $    0.001459,  0.000684
+        -3441,     FRAMES.318,SOLAR_CARDS.500,  3.049768e-07   $    0.003294,  0.001544
+        -3442,     FRAMES.318,SOLAR_CARDS.504,  2.341855e-07   $    0.002529,  0.001186
+        -3443,     FRAMES.318,SOLAR_CARDS.510,  3.433425e-07   $    0.003708,  0.001738
+        -3444,     FRAMES.318,SOLAR_CARDS.517,  1.484955e-07   $    0.001604,  0.000752
+        -3445,     FRAMES.318,SOLAR_CARDS.521,  1.052540e-07   $    0.001137,  0.000533
+        -3446,     FRAMES.321,     FRAMES.324,  1.365641e-06   $    0.014749,  0.014749
+        -3447,     FRAMES.321,     FRAMES.328,  1.779517e-07   $    0.001922,  0.001922
+        -3448,     FRAMES.321,     FRAMES.349,  1.161042e-07   $    0.001254,  0.001254
+        -3449,     FRAMES.321,     FRAMES.354,  6.581467e-07   $    0.007108,  0.007108
+        -3450,     FRAMES.321,     FRAMES.357,  1.404684e-06   $    0.015171,  0.015171
+        -3451,     FRAMES.321,     FRAMES.360,  6.149552e-07   $    0.006642,  0.006642
+        -3452,     FRAMES.321,     FRAMES.364,  1.130065e-07   $    0.001220,  0.001220
+        -3453,     FRAMES.321,     FRAMES.390,  9.307670e-08   $    0.001005,  0.002010
+        -3454,     FRAMES.321,     FRAMES.393,  1.197188e-07   $    0.001293,  0.002586
+        -3455,     FRAMES.321,     FRAMES.396,  6.609498e-08   $    0.000714,  0.001428
+        -3456,     FRAMES.321,SOLAR_CARDS.141,  2.003591e-06   $    0.021639,  0.010143
+        -3457,     FRAMES.321,SOLAR_CARDS.145,  7.471400e-06   $    0.080691,  0.037824
+        -3458,     FRAMES.321,SOLAR_CARDS.149,  2.120456e-06   $    0.022901,  0.010735
+        -3459,     FRAMES.321,SOLAR_CARDS.153,  2.481369e-07   $    0.002680,  0.001256
+        -3460,     FRAMES.321,SOLAR_CARDS.157,  1.029134e-07   $    0.001111,  0.000521
+        -3461,     FRAMES.321,SOLAR_CARDS.161,  9.348844e-08   $    0.001010,  0.000473
+        -3462,     FRAMES.321,SOLAR_CARDS.177,  5.641242e-07   $    0.006093,  0.002856
+        -3463,     FRAMES.321,SOLAR_CARDS.181,  7.196932e-06   $    0.077727,  0.036434
+        -3464,     FRAMES.321,SOLAR_CARDS.185,  3.376996e-05   $    0.364716,  0.170960
+        -3465,     FRAMES.321,SOLAR_CARDS.189,  7.281989e-06   $    0.078645,  0.036865
+        -3466,     FRAMES.321,SOLAR_CARDS.193,  3.840696e-07   $    0.004148,  0.001944
+        -3467,     FRAMES.321,SOLAR_CARDS.197,  2.100410e-07   $    0.002268,  0.001063
+        -3468,     FRAMES.321,SOLAR_CARDS.217,  4.067061e-07   $    0.004392,  0.002059
+        -3469,     FRAMES.321,SOLAR_CARDS.221,  2.118609e-06   $    0.022881,  0.010725
+        -3470,     FRAMES.321,SOLAR_CARDS.225,  7.151298e-06   $    0.077234,  0.036203
+        -3471,     FRAMES.321,SOLAR_CARDS.229,  2.239152e-06   $    0.024183,  0.011336
+        -3472,     FRAMES.321,SOLAR_CARDS.233,  3.093005e-07   $    0.003340,  0.001566
+        -3473,     FRAMES.321,SOLAR_CARDS.257,  1.281460e-07   $    0.001384,  0.001297
+        -3474,     FRAMES.321,SOLAR_CARDS.261,  2.343464e-07   $    0.002531,  0.002373
+        -3475,     FRAMES.321,SOLAR_CARDS.265,  3.844426e-07   $    0.004152,  0.003892
+        -3476,     FRAMES.321,SOLAR_CARDS.269,  1.508765e-07   $    0.001629,  0.001528
+        -3477,     FRAMES.321,SOLAR_CARDS.446,  1.130549e-07   $    0.001221,  0.000572
+        -3478,     FRAMES.321,SOLAR_CARDS.450,  1.427473e-07   $    0.001542,  0.000723
+        -3479,     FRAMES.321,SOLAR_CARDS.454,  1.038057e-07   $    0.001121,  0.000526
+        -3480,     FRAMES.321,SOLAR_CARDS.460,  1.121585e-07   $    0.001211,  0.000568
+        -3481,     FRAMES.321,SOLAR_CARDS.492,  9.427617e-08   $    0.001018,  0.000477
+        -3482,     FRAMES.321,SOLAR_CARDS.496,  3.051614e-07   $    0.003296,  0.001545
+        -3483,     FRAMES.321,SOLAR_CARDS.500,  5.553393e-07   $    0.005998,  0.002811
+        -3484,     FRAMES.321,SOLAR_CARDS.504,  2.478420e-07   $    0.002677,  0.001255
+        -3485,     FRAMES.321,SOLAR_CARDS.510,  1.631039e-07   $    0.001762,  0.000826
+        -3486,     FRAMES.321,SOLAR_CARDS.537,  3.288279e-07   $    0.003551,  0.001665
+        -3487,     FRAMES.324,     FRAMES.328,  1.396785e-06   $    0.015085,  0.015085
+        -3488,     FRAMES.324,     FRAMES.331,  1.367317e-07   $    0.001477,  0.002953
+        -3489,     FRAMES.324,     FRAMES.357,  5.527793e-07   $    0.005970,  0.005970
+        -3490,     FRAMES.324,     FRAMES.360,  1.449724e-06   $    0.015657,  0.015657
+        -3491,     FRAMES.324,     FRAMES.364,  5.823950e-07   $    0.006290,  0.006290
+        -3492,     FRAMES.324,     FRAMES.367,  5.798960e-08   $    0.000626,  0.001253
+        -3493,     FRAMES.324,     FRAMES.393,  7.037037e-08   $    0.000760,  0.001520
+        -3494,     FRAMES.324,     FRAMES.396,  1.364209e-07   $    0.001473,  0.002947
+        -3495,     FRAMES.324,     FRAMES.399,  7.924328e-08   $    0.000856,  0.001712
+        -3496,     FRAMES.324,SOLAR_CARDS.141,  6.752650e-06   $    0.072929,  0.034185
+        -3497,     FRAMES.324,SOLAR_CARDS.145,  2.091751e-06   $    0.022591,  0.010589
+        -3498,     FRAMES.324,SOLAR_CARDS.149,  2.427590e-07   $    0.002622,  0.001229
+        -3499,     FRAMES.324,SOLAR_CARDS.153,  1.748817e-07   $    0.001889,  0.000885
+        -3500,     FRAMES.324,SOLAR_CARDS.173,  3.015131e-07   $    0.003256,  0.003053
+        -3501,     FRAMES.324,SOLAR_CARDS.177,  7.239094e-06   $    0.078182,  0.036648
+        -3502,     FRAMES.324,SOLAR_CARDS.181,  3.487072e-05   $    0.376604,  0.176533
+        -3503,     FRAMES.324,SOLAR_CARDS.185,  7.100268e-06   $    0.076683,  0.035945
+        -3504,     FRAMES.324,SOLAR_CARDS.189,  4.325076e-07   $    0.004671,  0.002190
+        -3505,     FRAMES.324,SOLAR_CARDS.197,  1.187020e-07   $    0.001282,  0.000601
+        -3506,     FRAMES.324,SOLAR_CARDS.213,  1.942048e-07   $    0.002097,  0.001966
+        -3507,     FRAMES.324,SOLAR_CARDS.217,  2.067683e-06   $    0.022331,  0.010468
+        -3508,     FRAMES.324,SOLAR_CARDS.221,  7.335761e-06   $    0.079226,  0.037137
+        -3509,     FRAMES.324,SOLAR_CARDS.225,  2.035184e-06   $    0.021980,  0.010303
+        -3510,     FRAMES.324,SOLAR_CARDS.229,  3.536271e-07   $    0.003819,  0.001790
+        -3511,     FRAMES.324,SOLAR_CARDS.257,  1.269085e-07   $    0.001371,  0.001285
+        -3512,     FRAMES.324,SOLAR_CARDS.261,  4.047507e-07   $    0.004371,  0.004098
+        -3513,     FRAMES.324,SOLAR_CARDS.265,  2.263066e-07   $    0.002444,  0.002291
+        -3514,     FRAMES.324,SOLAR_CARDS.492,  3.305368e-07   $    0.003570,  0.001673
+        -3515,     FRAMES.324,SOLAR_CARDS.496,  3.906071e-07   $    0.004219,  0.001977
+        -3516,     FRAMES.324,SOLAR_CARDS.500,  2.700117e-07   $    0.002916,  0.001367
+        -3517,     FRAMES.324,SOLAR_CARDS.510,  1.082542e-07   $    0.001169,  0.000548
+        -3518,     FRAMES.324,SOLAR_CARDS.533,  1.234992e-07   $    0.001334,  0.001250
+        -3519,     FRAMES.324,SOLAR_CARDS.537,  1.980628e-06   $    0.021391,  0.010027
+        -3520,     FRAMES.328,     FRAMES.331,  1.005807e-06   $    0.010863,  0.021725
+        -3521,     FRAMES.328,     FRAMES.357,  1.228887e-07   $    0.001327,  0.001327
+        -3522,     FRAMES.328,     FRAMES.360,  6.244879e-07   $    0.006744,  0.006744
+        -3523,     FRAMES.328,     FRAMES.364,  1.384486e-06   $    0.014952,  0.014952
+        -3524,     FRAMES.328,     FRAMES.367,  4.028099e-07   $    0.004350,  0.008701
+        -3525,     FRAMES.328,     FRAMES.396,  7.537277e-08   $    0.000814,  0.001628
+        -3526,     FRAMES.328,     FRAMES.399,  1.144630e-07   $    0.001236,  0.002472
+        -3527,     FRAMES.328,SOLAR_CARDS.141,  2.361679e-06   $    0.025506,  0.011956
+        -3528,     FRAMES.328,SOLAR_CARDS.145,  2.553618e-07   $    0.002758,  0.001293
+        -3529,     FRAMES.328,SOLAR_CARDS.149,  1.170840e-07   $    0.001265,  0.000593
+        -3530,     FRAMES.328,SOLAR_CARDS.173,  6.060513e-06   $    0.065454,  0.061363
+        -3531,     FRAMES.328,SOLAR_CARDS.177,  3.283318e-05   $    0.354598,  0.166218
+        -3532,     FRAMES.328,SOLAR_CARDS.181,  7.572624e-06   $    0.081784,  0.038336
+        -3533,     FRAMES.328,SOLAR_CARDS.185,  5.172945e-07   $    0.005587,  0.002619
+        -3534,     FRAMES.328,SOLAR_CARDS.189,  1.759704e-07   $    0.001900,  0.000891
+        -3535,     FRAMES.328,SOLAR_CARDS.213,  1.518915e-06   $    0.016404,  0.015379
+        -3536,     FRAMES.328,SOLAR_CARDS.217,  7.245879e-06   $    0.078255,  0.036682
+        -3537,     FRAMES.328,SOLAR_CARDS.221,  2.195503e-06   $    0.023711,  0.011115
+        -3538,     FRAMES.328,SOLAR_CARDS.225,  2.829704e-07   $    0.003056,  0.001433
+        -3539,     FRAMES.328,SOLAR_CARDS.253,  1.009493e-07   $    0.001090,  0.002044
+        -3540,     FRAMES.328,SOLAR_CARDS.257,  2.745403e-07   $    0.002965,  0.002780
+        -3541,     FRAMES.328,SOLAR_CARDS.261,  1.604976e-07   $    0.001733,  0.001625
+        -3542,     FRAMES.328,SOLAR_CARDS.485,  1.194214e-07   $    0.001290,  0.001209
+        -3543,     FRAMES.328,SOLAR_CARDS.492,  3.548118e-07   $    0.003832,  0.001796
+        -3544,     FRAMES.328,SOLAR_CARDS.496,  2.728226e-07   $    0.002946,  0.001381
+        -3545,     FRAMES.328,SOLAR_CARDS.500,  1.941697e-07   $    0.002097,  0.000983
+        -3546,     FRAMES.328,SOLAR_CARDS.533,  1.733285e-06   $    0.018719,  0.017550
+        -3547,     FRAMES.328,SOLAR_CARDS.537,  7.205967e-06   $    0.077824,  0.036480
+        -3548,     FRAMES.331,     FRAMES.360,  9.082893e-08   $    0.001962,  0.000981
+        -3549,     FRAMES.331,     FRAMES.364,  3.902351e-07   $    0.008429,  0.004215
+        -3550,     FRAMES.331,     FRAMES.367,  3.703170e-07   $    0.007999,  0.007999
+        -3551,     FRAMES.331,SOLAR_CARDS.141,  2.515563e-07   $    0.005434,  0.001274
+        -3552,     FRAMES.331,SOLAR_CARDS.145,  6.666667e-08   $    0.001440,  0.000337
+        -3553,     FRAMES.331,SOLAR_CARDS.173,  1.182311e-05   $    0.255379,  0.119709
+        -3554,     FRAMES.331,SOLAR_CARDS.177,  6.163576e-06   $    0.133133,  0.031203
+        -3555,     FRAMES.331,SOLAR_CARDS.181,  3.725971e-07   $    0.008048,  0.001886
+        -3556,     FRAMES.331,SOLAR_CARDS.185,  4.925744e-08   $    0.001064,  0.000249
+        -3557,     FRAMES.331,SOLAR_CARDS.213,  2.242211e-06   $    0.048432,  0.022702
+        -3558,     FRAMES.331,SOLAR_CARDS.217,  1.665398e-06   $    0.035973,  0.008431
+        -3559,     FRAMES.331,SOLAR_CARDS.221,  2.977703e-07   $    0.006432,  0.001507
+        -3560,     FRAMES.331,SOLAR_CARDS.225,  8.647351e-08   $    0.001868,  0.000438
+        -3561,     FRAMES.331,SOLAR_CARDS.253,  7.670452e-08   $    0.001657,  0.001553
+        -3562,     FRAMES.331,SOLAR_CARDS.257,  1.303711e-07   $    0.002816,  0.001320
+        -3563,     FRAMES.331,SOLAR_CARDS.261,  4.841700e-08   $    0.001046,  0.000490
+        -3564,     FRAMES.331,SOLAR_CARDS.485,  7.961226e-08   $    0.001720,  0.000806
+        -3565,     FRAMES.331,SOLAR_CARDS.492,  1.491828e-07   $    0.003222,  0.000755
+        -3566,     FRAMES.331,SOLAR_CARDS.496,  1.539671e-07   $    0.003326,  0.000779
+        -3567,     FRAMES.331,SOLAR_CARDS.533,  2.324004e-06   $    0.050198,  0.023531
+        -3568,     FRAMES.331,SOLAR_CARDS.537,  1.596433e-06   $    0.034483,  0.008082
+        -3569,     FRAMES.336,     FRAMES.339,  9.757954e-07   $    0.021077,  0.010539
+        -3570,     FRAMES.336,     FRAMES.342,  1.229367e-07   $    0.002655,  0.001328
+        -3571,     FRAMES.336,     FRAMES.372,  2.412918e-07   $    0.005212,  0.010424
+        -3572,     FRAMES.336,     FRAMES.375,  2.517669e-07   $    0.005438,  0.005438
+        -3573,     FRAMES.336,SOLAR_CARDS.161,  5.001138e-08   $    0.001080,  0.000253
+        -3574,     FRAMES.336,SOLAR_CARDS.165,  1.158226e-07   $    0.002502,  0.000586
+        -3575,     FRAMES.336,SOLAR_CARDS.169,  8.002424e-08   $    0.001729,  0.000810
+        -3576,     FRAMES.336,SOLAR_CARDS.201,  1.903904e-07   $    0.004112,  0.000964
+        -3577,     FRAMES.336,SOLAR_CARDS.205,  1.453214e-06   $    0.031389,  0.007357
+        -3578,     FRAMES.336,SOLAR_CARDS.209,  2.500393e-06   $    0.054008,  0.025316
+        -3579,     FRAMES.336,SOLAR_CARDS.241,  2.812165e-07   $    0.006074,  0.001424
+        -3580,     FRAMES.336,SOLAR_CARDS.245,  5.888739e-06   $    0.127197,  0.029812
+        -3581,     FRAMES.336,SOLAR_CARDS.249,  1.176275e-05   $    0.254075,  0.119098
+        -3582,     FRAMES.336,SOLAR_CARDS.281,  1.181559e-07   $    0.002552,  0.001196
+        -3583,     FRAMES.336,SOLAR_CARDS.285,  1.375016e-06   $    0.029700,  0.013922
+        -3584,     FRAMES.336,SOLAR_CARDS.289,  1.963057e-06   $    0.042402,  0.039752
+        -3585,     FRAMES.339,     FRAMES.342,  1.375657e-06   $    0.014857,  0.014857
+        -3586,     FRAMES.339,     FRAMES.346,  1.276708e-07   $    0.001379,  0.001379
+        -3587,     FRAMES.339,     FRAMES.372,  2.635630e-07   $    0.002846,  0.011386
+        -3588,     FRAMES.339,     FRAMES.375,  9.123988e-07   $    0.009854,  0.019708
+        -3589,     FRAMES.339,     FRAMES.378,  4.231823e-07   $    0.004570,  0.009141
+        -3590,     FRAMES.339,SOLAR_CARDS.161,  2.171040e-07   $    0.002345,  0.001099
+        -3591,     FRAMES.339,SOLAR_CARDS.165,  3.286724e-07   $    0.003550,  0.001664
+        -3592,     FRAMES.339,SOLAR_CARDS.169,  2.175735e-07   $    0.002350,  0.002203
+        -3593,     FRAMES.339,SOLAR_CARDS.193,  1.271555e-07   $    0.001373,  0.000644
+        -3594,     FRAMES.339,SOLAR_CARDS.197,  3.557191e-07   $    0.003842,  0.001801
+        -3595,     FRAMES.339,SOLAR_CARDS.201,  2.430933e-06   $    0.026254,  0.012307
+        -3596,     FRAMES.339,SOLAR_CARDS.205,  7.516793e-06   $    0.081181,  0.038054
+        -3597,     FRAMES.339,SOLAR_CARDS.209,  1.639207e-06   $    0.017703,  0.016597
+        -3598,     FRAMES.339,SOLAR_CARDS.233,  9.825547e-08   $    0.001061,  0.000497
+        -3599,     FRAMES.339,SOLAR_CARDS.237,  4.617253e-07   $    0.004987,  0.002337
+        -3600,     FRAMES.339,SOLAR_CARDS.241,  6.947099e-06   $    0.075029,  0.035170
+        -3601,     FRAMES.339,SOLAR_CARDS.245,  3.423519e-05   $    0.369740,  0.173316
+        -3602,     FRAMES.339,SOLAR_CARDS.249,  5.663645e-06   $    0.061167,  0.057344
+        -3603,     FRAMES.339,SOLAR_CARDS.277,  1.724193e-07   $    0.001862,  0.001746
+        -3604,     FRAMES.339,SOLAR_CARDS.281,  1.438315e-06   $    0.015534,  0.014563
+        -3605,     FRAMES.339,SOLAR_CARDS.285,  6.224924e-06   $    0.067229,  0.063027
+        -3606,     FRAMES.339,SOLAR_CARDS.289,  1.112988e-06   $    0.012020,  0.022538
+        -3607,     FRAMES.339,SOLAR_CARDS.525,  1.437693e-07   $    0.001553,  0.000728
+        -3608,     FRAMES.342,     FRAMES.346,  1.370411e-06   $    0.014800,  0.014800
+        -3609,     FRAMES.342,     FRAMES.349,  1.618787e-07   $    0.001748,  0.001748
+        -3610,     FRAMES.342,     FRAMES.372,  6.246891e-08   $    0.000675,  0.002699
+        -3611,     FRAMES.342,     FRAMES.375,  3.929715e-07   $    0.004244,  0.008488
+        -3612,     FRAMES.342,     FRAMES.378,  1.019664e-06   $    0.011012,  0.022025
+        -3613,     FRAMES.342,     FRAMES.382,  3.921349e-07   $    0.004235,  0.008470
+        -3614,     FRAMES.342,     FRAMES.385,  5.937586e-08   $    0.000641,  0.001283
+        -3615,     FRAMES.342,SOLAR_CARDS.153,  9.427617e-08   $    0.001018,  0.000477
+        -3616,     FRAMES.342,SOLAR_CARDS.157,  2.340940e-07   $    0.002528,  0.001185
+        -3617,     FRAMES.342,SOLAR_CARDS.161,  5.134464e-07   $    0.005545,  0.002599
+        -3618,     FRAMES.342,SOLAR_CARDS.165,  2.322324e-07   $    0.002508,  0.001176
+        -3619,     FRAMES.342,SOLAR_CARDS.189,  1.841039e-07   $    0.001988,  0.000932
+        -3620,     FRAMES.342,SOLAR_CARDS.193,  2.392606e-07   $    0.002584,  0.001211
+        -3621,     FRAMES.342,SOLAR_CARDS.197,  2.185223e-06   $    0.023600,  0.011063
+        -3622,     FRAMES.342,SOLAR_CARDS.201,  7.375535e-06   $    0.079656,  0.037339
+        -3623,     FRAMES.342,SOLAR_CARDS.205,  2.088991e-06   $    0.022561,  0.010576
+        -3624,     FRAMES.342,SOLAR_CARDS.209,  1.502341e-07   $    0.001623,  0.001521
+        -3625,     FRAMES.342,SOLAR_CARDS.229,  9.855871e-08   $    0.001064,  0.000499
+        -3626,     FRAMES.342,SOLAR_CARDS.233,  5.149942e-07   $    0.005562,  0.002607
+        -3627,     FRAMES.342,SOLAR_CARDS.237,  6.864836e-06   $    0.074140,  0.034753
+        -3628,     FRAMES.342,SOLAR_CARDS.241,  3.423326e-05   $    0.369719,  0.173306
+        -3629,     FRAMES.342,SOLAR_CARDS.245,  6.648162e-06   $    0.071800,  0.033656
+        -3630,     FRAMES.342,SOLAR_CARDS.249,  3.978146e-07   $    0.004296,  0.004028
+        -3631,     FRAMES.342,SOLAR_CARDS.273,  1.557710e-07   $    0.001682,  0.001577
+        -3632,     FRAMES.342,SOLAR_CARDS.277,  1.694110e-06   $    0.018296,  0.017153
+        -3633,     FRAMES.342,SOLAR_CARDS.281,  6.333631e-06   $    0.068403,  0.064128
+        -3634,     FRAMES.342,SOLAR_CARDS.285,  1.553526e-06   $    0.016778,  0.015729
+        -3635,     FRAMES.342,SOLAR_CARDS.289,  1.329403e-07   $    0.001436,  0.002692
+        -3636,     FRAMES.342,SOLAR_CARDS.521,  9.419481e-08   $    0.001017,  0.000477
+        -3637,     FRAMES.342,SOLAR_CARDS.525,  1.168852e-07   $    0.001262,  0.000592
+        -3638,     FRAMES.346,     FRAMES.349,  1.424742e-06   $    0.015387,  0.015387
+        -3639,     FRAMES.346,     FRAMES.354,  1.938781e-07   $    0.002094,  0.002094
+        -3640,     FRAMES.346,     FRAMES.375,  6.772007e-08   $    0.000731,  0.001463
+        -3641,     FRAMES.346,     FRAMES.378,  4.277847e-07   $    0.004620,  0.009240
+        -3642,     FRAMES.346,     FRAMES.382,  1.017895e-06   $    0.010993,  0.021987
+        -3643,     FRAMES.346,     FRAMES.385,  3.420236e-07   $    0.003694,  0.007388
+        -3644,     FRAMES.346,     FRAMES.390,  5.998500e-08   $    0.000648,  0.001296
+        -3645,     FRAMES.346,SOLAR_CARDS.145,  1.458502e-07   $    0.001575,  0.000738
+        -3646,     FRAMES.346,SOLAR_CARDS.149,  1.387331e-07   $    0.001498,  0.000702
+        -3647,     FRAMES.346,SOLAR_CARDS.153,  1.674867e-07   $    0.001809,  0.000848
+        -3648,     FRAMES.346,SOLAR_CARDS.157,  5.018480e-07   $    0.005420,  0.002541
+        -3649,     FRAMES.346,SOLAR_CARDS.161,  3.052491e-07   $    0.003297,  0.001545
+        -3650,     FRAMES.346,SOLAR_CARDS.185,  1.179815e-07   $    0.001274,  0.000597
+        -3651,     FRAMES.346,SOLAR_CARDS.189,  3.312274e-07   $    0.003577,  0.001677
+        -3652,     FRAMES.346,SOLAR_CARDS.193,  2.261073e-06   $    0.024420,  0.011447
+        -3653,     FRAMES.346,SOLAR_CARDS.197,  6.899916e-06   $    0.074519,  0.034931
+        -3654,     FRAMES.346,SOLAR_CARDS.201,  2.602896e-06   $    0.028111,  0.013177
+        -3655,     FRAMES.346,SOLAR_CARDS.205,  1.996754e-07   $    0.002156,  0.001011
+        -3656,     FRAMES.346,SOLAR_CARDS.229,  5.120546e-07   $    0.005530,  0.002592
+        -3657,     FRAMES.346,SOLAR_CARDS.233,  6.743528e-06   $    0.072830,  0.034139
+        -3658,     FRAMES.346,SOLAR_CARDS.237,  3.412502e-05   $    0.368550,  0.172758
+        -3659,     FRAMES.346,SOLAR_CARDS.241,  6.716266e-06   $    0.072536,  0.034001
+        -3660,     FRAMES.346,SOLAR_CARDS.245,  3.049675e-07   $    0.003294,  0.001544
+        -3661,     FRAMES.346,SOLAR_CARDS.249,  1.005338e-07   $    0.001086,  0.001018
+        -3662,     FRAMES.346,SOLAR_CARDS.269,  1.298004e-07   $    0.001402,  0.001314
+        -3663,     FRAMES.346,SOLAR_CARDS.273,  1.619071e-06   $    0.017486,  0.016393
+        -3664,     FRAMES.346,SOLAR_CARDS.277,  5.718786e-06   $    0.061763,  0.057903
+        -3665,     FRAMES.346,SOLAR_CARDS.281,  1.687144e-06   $    0.018221,  0.017082
+        -3666,     FRAMES.346,SOLAR_CARDS.285,  2.407742e-07   $    0.002600,  0.002438
+        -3667,     FRAMES.346,SOLAR_CARDS.517,  1.022736e-07   $    0.001105,  0.000518
+        -3668,     FRAMES.346,SOLAR_CARDS.521,  1.798988e-07   $    0.001943,  0.000911
+        -3669,     FRAMES.349,     FRAMES.354,  1.427000e-06   $    0.015412,  0.015412
+        -3670,     FRAMES.349,     FRAMES.357,  1.425926e-07   $    0.001540,  0.001540
+        -3671,     FRAMES.349,     FRAMES.378,  5.897210e-08   $    0.000637,  0.001274
+        -3672,     FRAMES.349,     FRAMES.382,  4.294941e-07   $    0.004639,  0.009277
+        -3673,     FRAMES.349,     FRAMES.385,  1.023758e-06   $    0.011057,  0.022113
+        -3674,     FRAMES.349,     FRAMES.390,  3.584659e-07   $    0.003871,  0.007743
+        -3675,     FRAMES.349,     FRAMES.393,  7.667608e-08   $    0.000828,  0.001656
+        -3676,     FRAMES.349,SOLAR_CARDS.145,  1.046359e-07   $    0.001130,  0.000530
+        -3677,     FRAMES.349,SOLAR_CARDS.149,  2.442105e-07   $    0.002637,  0.001236
+        -3678,     FRAMES.349,SOLAR_CARDS.153,  5.234551e-07   $    0.005653,  0.002650
+        -3679,     FRAMES.349,SOLAR_CARDS.157,  2.413127e-07   $    0.002606,  0.001222
+        -3680,     FRAMES.349,SOLAR_CARDS.161,  1.037359e-07   $    0.001120,  0.000525
+        -3681,     FRAMES.349,SOLAR_CARDS.185,  2.054240e-07   $    0.002219,  0.001040
+        -3682,     FRAMES.349,SOLAR_CARDS.189,  1.940658e-06   $    0.020959,  0.009825
+        -3683,     FRAMES.349,SOLAR_CARDS.193,  6.727198e-06   $    0.072654,  0.034056
+        -3684,     FRAMES.349,SOLAR_CARDS.197,  2.194987e-06   $    0.023706,  0.011112
+        -3685,     FRAMES.349,SOLAR_CARDS.201,  2.920889e-07   $    0.003155,  0.001479
+        -3686,     FRAMES.349,SOLAR_CARDS.225,  4.920159e-07   $    0.005314,  0.002491
+        -3687,     FRAMES.349,SOLAR_CARDS.229,  7.205286e-06   $    0.077817,  0.036477
+        -3688,     FRAMES.349,SOLAR_CARDS.233,  3.452229e-05   $    0.372841,  0.174769
+        -3689,     FRAMES.349,SOLAR_CARDS.237,  6.884323e-06   $    0.074351,  0.034852
+        -3690,     FRAMES.349,SOLAR_CARDS.241,  5.210568e-07   $    0.005627,  0.002638
+        -3691,     FRAMES.349,SOLAR_CARDS.265,  1.433093e-07   $    0.001548,  0.001451
+        -3692,     FRAMES.349,SOLAR_CARDS.269,  1.551685e-06   $    0.016758,  0.015711
+        -3693,     FRAMES.349,SOLAR_CARDS.273,  5.629311e-06   $    0.060797,  0.056997
+        -3694,     FRAMES.349,SOLAR_CARDS.277,  1.816468e-06   $    0.019618,  0.018392
+        -3695,     FRAMES.349,SOLAR_CARDS.281,  2.060027e-07   $    0.002225,  0.002086
+        -3696,     FRAMES.354,     FRAMES.357,  1.456247e-06   $    0.015727,  0.015727
+        -3697,     FRAMES.354,     FRAMES.360,  2.056827e-07   $    0.002221,  0.002221
+        -3698,     FRAMES.354,     FRAMES.382,  7.688195e-08   $    0.000830,  0.001661
+        -3699,     FRAMES.354,     FRAMES.385,  4.680505e-07   $    0.005055,  0.010110
+        -3700,     FRAMES.354,     FRAMES.390,  1.049717e-06   $    0.011337,  0.022674
+        -3701,     FRAMES.354,     FRAMES.393,  4.504134e-07   $    0.004864,  0.009729
+        -3702,     FRAMES.354,     FRAMES.396,  6.068053e-08   $    0.000655,  0.001311
+        -3703,     FRAMES.354,SOLAR_CARDS.141,  1.821900e-07   $    0.001968,  0.000922
+        -3704,     FRAMES.354,SOLAR_CARDS.145,  4.307780e-07   $    0.004652,  0.002181
+        -3705,     FRAMES.354,SOLAR_CARDS.149,  4.093893e-07   $    0.004421,  0.002073
+        -3706,     FRAMES.354,SOLAR_CARDS.153,  2.797429e-07   $    0.003021,  0.001416
+        -3707,     FRAMES.354,SOLAR_CARDS.157,  1.190196e-07   $    0.001285,  0.000603
+        -3708,     FRAMES.354,SOLAR_CARDS.181,  2.510649e-07   $    0.002712,  0.001271
+        -3709,     FRAMES.354,SOLAR_CARDS.185,  2.050636e-06   $    0.022147,  0.010381
+        -3710,     FRAMES.354,SOLAR_CARDS.189,  6.879572e-06   $    0.074299,  0.034828
+        -3711,     FRAMES.354,SOLAR_CARDS.193,  1.972573e-06   $    0.021304,  0.009986
+        -3712,     FRAMES.354,SOLAR_CARDS.197,  2.844050e-07   $    0.003072,  0.001440
+        -3713,     FRAMES.354,SOLAR_CARDS.201,  1.861408e-07   $    0.002010,  0.000942
+        -3714,     FRAMES.354,SOLAR_CARDS.221,  4.912544e-07   $    0.005306,  0.002487
+        -3715,     FRAMES.354,SOLAR_CARDS.225,  7.432761e-06   $    0.080274,  0.037628
+        -3716,     FRAMES.354,SOLAR_CARDS.229,  3.315892e-05   $    0.358116,  0.167867
+        -3717,     FRAMES.354,SOLAR_CARDS.233,  7.502739e-06   $    0.081030,  0.037983
+        -3718,     FRAMES.354,SOLAR_CARDS.237,  4.566818e-07   $    0.004932,  0.002312
+        -3719,     FRAMES.354,SOLAR_CARDS.241,  9.452326e-08   $    0.001021,  0.000479
+        -3720,     FRAMES.354,SOLAR_CARDS.261,  1.582228e-07   $    0.001709,  0.001602
+        -3721,     FRAMES.354,SOLAR_CARDS.265,  1.793673e-06   $    0.019372,  0.018161
+        -3722,     FRAMES.354,SOLAR_CARDS.269,  6.280397e-06   $    0.067828,  0.063589
+        -3723,     FRAMES.354,SOLAR_CARDS.273,  1.924460e-06   $    0.020784,  0.019485
+        -3724,     FRAMES.354,SOLAR_CARDS.277,  2.024620e-07   $    0.002187,  0.002050
+        -3725,     FRAMES.354,SOLAR_CARDS.504,  1.964220e-07   $    0.002121,  0.000994
+        -3726,     FRAMES.357,     FRAMES.360,  1.394356e-06   $    0.015059,  0.015059
+        -3727,     FRAMES.357,     FRAMES.364,  1.678437e-07   $    0.001813,  0.001813
+        -3728,     FRAMES.357,     FRAMES.385,  5.497333e-08   $    0.000594,  0.001187
+        -3729,     FRAMES.357,     FRAMES.390,  3.870370e-07   $    0.004180,  0.008360
+        -3730,     FRAMES.357,     FRAMES.393,  1.045943e-06   $    0.011296,  0.022592
+        -3731,     FRAMES.357,     FRAMES.396,  3.852464e-07   $    0.004161,  0.008321
+        -3732,     FRAMES.357,SOLAR_CARDS.141,  3.005144e-07   $    0.003246,  0.001521
+        -3733,     FRAMES.357,SOLAR_CARDS.145,  4.518707e-07   $    0.004880,  0.002288
+        -3734,     FRAMES.357,SOLAR_CARDS.149,  2.558070e-07   $    0.002763,  0.001295
+        -3735,     FRAMES.357,SOLAR_CARDS.153,  2.742372e-07   $    0.002962,  0.001388
+        -3736,     FRAMES.357,SOLAR_CARDS.177,  2.206882e-07   $    0.002383,  0.001117
+        -3737,     FRAMES.357,SOLAR_CARDS.181,  2.316197e-06   $    0.025015,  0.011726
+        -3738,     FRAMES.357,SOLAR_CARDS.185,  7.147463e-06   $    0.077193,  0.036184
+        -3739,     FRAMES.357,SOLAR_CARDS.189,  1.969790e-06   $    0.021274,  0.009972
+        -3740,     FRAMES.357,SOLAR_CARDS.193,  3.391904e-07   $    0.003663,  0.001717
+        -3741,     FRAMES.357,SOLAR_CARDS.217,  4.137393e-07   $    0.004468,  0.002095
+        -3742,     FRAMES.357,SOLAR_CARDS.221,  6.993776e-06   $    0.075533,  0.035406
+        -3743,     FRAMES.357,SOLAR_CARDS.225,  3.443676e-05   $    0.371917,  0.174336
+        -3744,     FRAMES.357,SOLAR_CARDS.229,  7.593338e-06   $    0.082008,  0.038441
+        -3745,     FRAMES.357,SOLAR_CARDS.233,  3.912256e-07   $    0.004225,  0.001981
+        -3746,     FRAMES.357,SOLAR_CARDS.257,  1.030796e-07   $    0.001113,  0.001044
+        -3747,     FRAMES.357,SOLAR_CARDS.261,  1.528389e-06   $    0.016507,  0.015475
+        -3748,     FRAMES.357,SOLAR_CARDS.265,  5.732919e-06   $    0.061916,  0.058046
+        -3749,     FRAMES.357,SOLAR_CARDS.269,  1.744277e-06   $    0.018838,  0.017661
+        -3750,     FRAMES.357,SOLAR_CARDS.273,  2.268278e-07   $    0.002450,  0.002297
+        -3751,     FRAMES.357,SOLAR_CARDS.500,  9.986230e-08   $    0.001079,  0.000506
+        -3752,     FRAMES.357,SOLAR_CARDS.537,  9.758579e-08   $    0.001054,  0.000494
+        -3753,     FRAMES.360,     FRAMES.364,  1.371553e-06   $    0.014813,  0.014813
+        -3754,     FRAMES.360,     FRAMES.367,  9.190848e-08   $    0.000993,  0.001985
+        -3755,     FRAMES.360,     FRAMES.390,  7.338966e-08   $    0.000793,  0.001585
+        -3756,     FRAMES.360,     FRAMES.393,  4.142636e-07   $    0.004474,  0.008948
+        -3757,     FRAMES.360,     FRAMES.396,  1.079970e-06   $    0.011664,  0.023327
+        -3758,     FRAMES.360,     FRAMES.399,  3.854391e-07   $    0.004163,  0.008325
+        -3759,     FRAMES.360,SOLAR_CARDS.141,  3.839337e-07   $    0.004146,  0.001944
+        -3760,     FRAMES.360,SOLAR_CARDS.145,  3.806147e-07   $    0.004111,  0.001927
+        -3761,     FRAMES.360,SOLAR_CARDS.173,  1.166405e-07   $    0.001260,  0.001181
+        -3762,     FRAMES.360,SOLAR_CARDS.177,  2.123721e-06   $    0.022936,  0.010751
+        -3763,     FRAMES.360,SOLAR_CARDS.181,  6.822835e-06   $    0.073687,  0.034541
+        -3764,     FRAMES.360,SOLAR_CARDS.185,  2.143974e-06   $    0.023155,  0.010854
+        -3765,     FRAMES.360,SOLAR_CARDS.189,  2.526104e-07   $    0.002728,  0.001279
+        -3766,     FRAMES.360,SOLAR_CARDS.213,  4.402694e-07   $    0.004755,  0.004458
+        -3767,     FRAMES.360,SOLAR_CARDS.217,  6.137187e-06   $    0.066282,  0.031070
+        -3768,     FRAMES.360,SOLAR_CARDS.221,  3.399861e-05   $    0.367185,  0.172118
+        -3769,     FRAMES.360,SOLAR_CARDS.225,  7.802060e-06   $    0.084262,  0.039498
+        -3770,     FRAMES.360,SOLAR_CARDS.229,  6.181917e-07   $    0.006676,  0.003130
+        -3771,     FRAMES.360,SOLAR_CARDS.233,  1.257827e-07   $    0.001358,  0.000637
+        -3772,     FRAMES.360,SOLAR_CARDS.253,  1.504938e-07   $    0.001625,  0.003047
+        -3773,     FRAMES.360,SOLAR_CARDS.257,  1.576358e-06   $    0.017025,  0.015961
+        -3774,     FRAMES.360,SOLAR_CARDS.261,  5.945588e-06   $    0.064212,  0.060199
+        -3775,     FRAMES.360,SOLAR_CARDS.265,  1.699815e-06   $    0.018358,  0.017211
+        -3776,     FRAMES.360,SOLAR_CARDS.269,  1.932137e-07   $    0.002087,  0.001956
+        -3777,     FRAMES.360,SOLAR_CARDS.504,  9.291465e-08   $    0.001003,  0.000470
+        -3778,     FRAMES.360,SOLAR_CARDS.537,  3.213839e-07   $    0.003471,  0.001627
+        -3779,     FRAMES.364,     FRAMES.367,  1.083172e-06   $    0.011698,  0.023397
+        -3780,     FRAMES.364,     FRAMES.393,  5.558998e-08   $    0.000600,  0.001201
+        -3781,     FRAMES.364,     FRAMES.396,  4.040579e-07   $    0.004364,  0.008728
+        -3782,     FRAMES.364,     FRAMES.399,  9.887981e-07   $    0.010679,  0.021358
+        -3783,     FRAMES.364,SOLAR_CARDS.141,  2.669809e-07   $    0.002883,  0.001352
+        -3784,     FRAMES.364,SOLAR_CARDS.149,  1.160655e-07   $    0.001254,  0.000588
+        -3785,     FRAMES.364,SOLAR_CARDS.173,  1.823335e-06   $    0.019692,  0.018461
+        -3786,     FRAMES.364,SOLAR_CARDS.177,  7.489520e-06   $    0.080887,  0.037916
+        -3787,     FRAMES.364,SOLAR_CARDS.181,  2.516764e-06   $    0.027181,  0.012741
+        -3788,     FRAMES.364,SOLAR_CARDS.185,  2.596866e-07   $    0.002805,  0.001315
+        -3789,     FRAMES.364,SOLAR_CARDS.213,  6.377305e-06   $    0.068875,  0.064570
+        -3790,     FRAMES.364,SOLAR_CARDS.217,  3.407058e-05   $    0.367962,  0.172482
+        -3791,     FRAMES.364,SOLAR_CARDS.221,  6.575979e-06   $    0.071021,  0.033291
+        -3792,     FRAMES.364,SOLAR_CARDS.225,  5.441393e-07   $    0.005877,  0.002755
+        -3793,     FRAMES.364,SOLAR_CARDS.253,  1.173107e-06   $    0.012670,  0.023755
+        -3794,     FRAMES.364,SOLAR_CARDS.257,  6.170522e-06   $    0.066642,  0.062477
+        -3795,     FRAMES.364,SOLAR_CARDS.261,  1.322964e-06   $    0.014288,  0.013395
+        -3796,     FRAMES.364,SOLAR_CARDS.265,  1.983797e-07   $    0.002143,  0.002009
+        -3797,     FRAMES.364,SOLAR_CARDS.485,  1.026822e-07   $    0.001109,  0.001040
+        -3798,     FRAMES.364,SOLAR_CARDS.533,  1.848552e-07   $    0.001996,  0.001872
+        -3799,     FRAMES.364,SOLAR_CARDS.537,  3.478177e-07   $    0.003756,  0.001761
+        -3800,     FRAMES.367,     FRAMES.399,  2.922103e-07   $    0.006312,  0.006312
+        -3801,     FRAMES.367,SOLAR_CARDS.141,  7.986566e-08   $    0.001725,  0.000404
+        -3802,     FRAMES.367,SOLAR_CARDS.145,  5.295157e-08   $    0.001144,  0.000268
+        -3803,     FRAMES.367,SOLAR_CARDS.173,  2.373047e-06   $    0.051258,  0.024027
+        -3804,     FRAMES.367,SOLAR_CARDS.177,  1.651302e-06   $    0.035668,  0.008360
+        -3805,     FRAMES.367,SOLAR_CARDS.181,  1.573924e-07   $    0.003400,  0.000797
+        -3806,     FRAMES.367,SOLAR_CARDS.213,  1.220705e-05   $    0.263672,  0.123596
+        -3807,     FRAMES.367,SOLAR_CARDS.217,  6.089243e-06   $    0.131528,  0.030827
+        -3808,     FRAMES.367,SOLAR_CARDS.221,  3.613948e-07   $    0.007806,  0.001830
+        -3809,     FRAMES.367,SOLAR_CARDS.225,  5.465801e-08   $    0.001181,  0.000277
+        -3810,     FRAMES.367,SOLAR_CARDS.253,  2.152180e-06   $    0.046487,  0.043582
+        -3811,     FRAMES.367,SOLAR_CARDS.257,  1.289338e-06   $    0.027850,  0.013055
+        -3812,     FRAMES.367,SOLAR_CARDS.261,  1.129434e-07   $    0.002440,  0.001144
+        -3813,     FRAMES.367,SOLAR_CARDS.500,  5.561439e-08   $    0.001201,  0.000282
+        -3814,     FRAMES.367,SOLAR_CARDS.533,  1.193193e-07   $    0.002577,  0.001208
+        -3815,     FRAMES.367,SOLAR_CARDS.537,  1.781517e-07   $    0.003848,  0.000902
+        -3816,     FRAMES.372,     FRAMES.375,  2.158251e-07   $    0.009324,  0.004662
+        -3817,     FRAMES.372,     FRAMES.378,  3.358901e-08   $    0.001451,  0.000726
+        -3818,     FRAMES.372,SOLAR_CARDS.161,  3.296362e-08   $    0.001424,  0.000167
+        -3819,     FRAMES.372,SOLAR_CARDS.197,  3.285070e-08   $    0.001419,  0.000166
+        -3820,     FRAMES.372,SOLAR_CARDS.201,  3.246926e-08   $    0.001403,  0.000164
+        -3821,     FRAMES.372,SOLAR_CARDS.205,  1.514479e-07   $    0.006543,  0.000767
+        -3822,     FRAMES.372,SOLAR_CARDS.209,  1.187101e-07   $    0.005128,  0.001202
+        -3823,     FRAMES.372,SOLAR_CARDS.237,  4.871348e-08   $    0.002104,  0.000247
+        -3824,     FRAMES.372,SOLAR_CARDS.241,  1.640693e-07   $    0.007088,  0.000831
+        -3825,     FRAMES.372,SOLAR_CARDS.245,  1.146349e-06   $    0.049522,  0.005803
+        -3826,     FRAMES.372,SOLAR_CARDS.249,  1.878372e-06   $    0.081146,  0.019019
+        -3827,     FRAMES.372,SOLAR_CARDS.277,  2.625350e-08   $    0.001134,  0.000266
+        -3828,     FRAMES.372,SOLAR_CARDS.281,  5.886912e-08   $    0.002543,  0.000596
+        -3829,     FRAMES.372,SOLAR_CARDS.285,  1.893297e-06   $    0.081790,  0.019170
+        -3830,     FRAMES.372,SOLAR_CARDS.289,  4.454071e-06   $    0.192416,  0.090195
+        -3831,     FRAMES.372,SOLAR_CARDS.467,  5.558546e-08   $    0.002401,  0.000281
+        -3832,     FRAMES.375,     FRAMES.378,  3.297182e-07   $    0.007122,  0.007122
+        -3833,     FRAMES.375,SOLAR_CARDS.161,  5.033789e-08   $    0.001087,  0.000255
+        -3834,     FRAMES.375,SOLAR_CARDS.197,  5.437428e-08   $    0.001174,  0.000275
+        -3835,     FRAMES.375,SOLAR_CARDS.201,  1.773373e-07   $    0.003830,  0.000898
+        -3836,     FRAMES.375,SOLAR_CARDS.205,  2.418080e-07   $    0.005223,  0.001224
+        -3837,     FRAMES.375,SOLAR_CARDS.209,  1.123943e-07   $    0.002428,  0.001138
+        -3838,     FRAMES.375,SOLAR_CARDS.229,  4.629630e-08   $    0.001000,  0.000234
+        -3839,     FRAMES.375,SOLAR_CARDS.237,  2.037153e-07   $    0.004400,  0.001031
+        -3840,     FRAMES.375,SOLAR_CARDS.241,  1.546545e-06   $    0.033405,  0.007829
+        -3841,     FRAMES.375,SOLAR_CARDS.245,  6.017685e-06   $    0.129982,  0.030465
+        -3842,     FRAMES.375,SOLAR_CARDS.249,  1.304909e-06   $    0.028186,  0.013212
+        -3843,     FRAMES.375,SOLAR_CARDS.277,  9.660785e-08   $    0.002087,  0.000978
+        -3844,     FRAMES.375,SOLAR_CARDS.281,  2.123714e-06   $    0.045872,  0.021503
+        -3845,     FRAMES.375,SOLAR_CARDS.285,  1.219002e-05   $    0.263304,  0.123424
+        -3846,     FRAMES.375,SOLAR_CARDS.289,  1.714637e-06   $    0.037036,  0.034721
+        -3847,     FRAMES.375,SOLAR_CARDS.510,  4.756539e-08   $    0.001027,  0.000241
+        -3848,     FRAMES.378,     FRAMES.382,  3.212712e-07   $    0.006939,  0.006939
+        -3849,     FRAMES.378,SOLAR_CARDS.153,  4.984756e-08   $    0.001077,  0.000252
+        -3850,     FRAMES.378,SOLAR_CARDS.177,  5.561439e-08   $    0.001201,  0.000282
+        -3851,     FRAMES.378,SOLAR_CARDS.193,  5.575774e-08   $    0.001204,  0.000282
+        -3852,     FRAMES.378,SOLAR_CARDS.197,  8.258708e-08   $    0.001784,  0.000418
+        -3853,     FRAMES.378,SOLAR_CARDS.201,  3.615465e-07   $    0.007809,  0.001830
+        -3854,     FRAMES.378,SOLAR_CARDS.205,  9.528301e-08   $    0.002058,  0.000482
+        -3855,     FRAMES.378,SOLAR_CARDS.233,  1.583720e-07   $    0.003421,  0.000802
+        -3856,     FRAMES.378,SOLAR_CARDS.237,  2.085725e-06   $    0.045052,  0.010559
+        -3857,     FRAMES.378,SOLAR_CARDS.241,  5.893065e-06   $    0.127290,  0.029834
+        -3858,     FRAMES.378,SOLAR_CARDS.245,  1.910123e-06   $    0.041259,  0.009670
+        -3859,     FRAMES.378,SOLAR_CARDS.249,  1.436655e-07   $    0.003103,  0.001455
+        -3860,     FRAMES.378,SOLAR_CARDS.273,  1.061391e-07   $    0.002293,  0.001075
+        -3861,     FRAMES.378,SOLAR_CARDS.277,  2.316662e-06   $    0.050040,  0.023456
+        -3862,     FRAMES.378,SOLAR_CARDS.281,  1.165035e-05   $    0.251647,  0.117960
+        -3863,     FRAMES.378,SOLAR_CARDS.285,  2.390037e-06   $    0.051625,  0.024199
+        -3864,     FRAMES.378,SOLAR_CARDS.289,  7.144145e-08   $    0.001543,  0.001447
+        -3865,     FRAMES.378,SOLAR_CARDS.529,  6.132362e-08   $    0.001325,  0.000621
+        -3866,     FRAMES.382,     FRAMES.385,  3.253336e-07   $    0.007027,  0.007027
+        -3867,     FRAMES.382,SOLAR_CARDS.145,  7.506014e-08   $    0.001621,  0.000380
+        -3868,     FRAMES.382,SOLAR_CARDS.153,  9.610611e-08   $    0.002076,  0.000487
+        -3869,     FRAMES.382,SOLAR_CARDS.157,  4.665896e-08   $    0.001008,  0.000236
+        -3870,     FRAMES.382,SOLAR_CARDS.181,  8.360932e-08   $    0.001806,  0.000423
+        -3871,     FRAMES.382,SOLAR_CARDS.189,  4.703205e-08   $    0.001016,  0.000238
+        -3872,     FRAMES.382,SOLAR_CARDS.193,  1.318608e-07   $    0.002848,  0.000668
+        -3873,     FRAMES.382,SOLAR_CARDS.197,  3.260160e-07   $    0.007042,  0.001650
+        -3874,     FRAMES.382,SOLAR_CARDS.201,  1.565063e-07   $    0.003381,  0.000792
+        -3875,     FRAMES.382,SOLAR_CARDS.225,  7.214886e-08   $    0.001558,  0.000365
+        -3876,     FRAMES.382,SOLAR_CARDS.229,  1.897536e-07   $    0.004099,  0.000961
+        -3877,     FRAMES.382,SOLAR_CARDS.233,  1.883493e-06   $    0.040683,  0.009535
+        -3878,     FRAMES.382,SOLAR_CARDS.237,  5.884026e-06   $    0.127095,  0.029788
+        -3879,     FRAMES.382,SOLAR_CARDS.241,  1.861927e-06   $    0.040218,  0.009426
+        -3880,     FRAMES.382,SOLAR_CARDS.245,  1.308200e-07   $    0.002826,  0.000662
+        -3881,     FRAMES.382,SOLAR_CARDS.249,  8.351118e-08   $    0.001804,  0.000846
+        -3882,     FRAMES.382,SOLAR_CARDS.269,  1.107568e-07   $    0.002392,  0.001121
+        -3883,     FRAMES.382,SOLAR_CARDS.273,  2.371268e-06   $    0.051219,  0.024009
+        -3884,     FRAMES.382,SOLAR_CARDS.277,  1.189085e-05   $    0.256842,  0.120395
+        -3885,     FRAMES.382,SOLAR_CARDS.281,  2.298450e-06   $    0.049647,  0.023272
+        -3886,     FRAMES.382,SOLAR_CARDS.285,  1.262810e-07   $    0.002728,  0.001279
+        -3887,     FRAMES.385,     FRAMES.390,  3.494611e-07   $    0.007548,  0.007548
+        -3888,     FRAMES.385,SOLAR_CARDS.153,  6.666667e-08   $    0.001440,  0.000337
+        -3889,     FRAMES.385,SOLAR_CARDS.157,  9.470562e-08   $    0.002046,  0.000479
+        -3890,     FRAMES.385,SOLAR_CARDS.185,  7.892559e-08   $    0.001705,  0.000400
+        -3891,     FRAMES.385,SOLAR_CARDS.189,  1.590628e-07   $    0.003436,  0.000805
+        -3892,     FRAMES.385,SOLAR_CARDS.193,  2.639309e-07   $    0.005701,  0.001336
+        -3893,     FRAMES.385,SOLAR_CARDS.197,  2.178789e-07   $    0.004706,  0.001103
+        -3894,     FRAMES.385,SOLAR_CARDS.201,  1.099359e-07   $    0.002375,  0.000557
+        -3895,     FRAMES.385,SOLAR_CARDS.221,  7.126124e-08   $    0.001539,  0.000361
+        -3896,     FRAMES.385,SOLAR_CARDS.225,  1.686640e-07   $    0.003643,  0.000854
+        -3897,     FRAMES.385,SOLAR_CARDS.229,  1.591548e-06   $    0.034377,  0.008057
+        -3898,     FRAMES.385,SOLAR_CARDS.233,  6.441432e-06   $    0.139135,  0.032610
+        -3899,     FRAMES.385,SOLAR_CARDS.237,  1.790011e-06   $    0.038664,  0.009062
+        -3900,     FRAMES.385,SOLAR_CARDS.241,  1.376910e-07   $    0.002974,  0.000697
+        -3901,     FRAMES.385,SOLAR_CARDS.261,  6.018519e-08   $    0.001300,  0.000609
+        -3902,     FRAMES.385,SOLAR_CARDS.265,  2.092606e-07   $    0.004520,  0.002119
+        -3903,     FRAMES.385,SOLAR_CARDS.269,  2.185533e-06   $    0.047208,  0.022129
+        -3904,     FRAMES.385,SOLAR_CARDS.273,  1.209482e-05   $    0.261248,  0.122460
+        -3905,     FRAMES.385,SOLAR_CARDS.277,  2.153535e-06   $    0.046516,  0.021805
+        -3906,     FRAMES.385,SOLAR_CARDS.281,  1.040207e-07   $    0.002247,  0.001053
+        -3907,     FRAMES.390,     FRAMES.393,  3.493490e-07   $    0.007546,  0.007546
+        -3908,     FRAMES.390,SOLAR_CARDS.145,  7.676159e-08   $    0.001658,  0.000389
+        -3909,     FRAMES.390,SOLAR_CARDS.153,  9.887536e-08   $    0.002136,  0.000501
+        -3910,     FRAMES.390,SOLAR_CARDS.157,  4.823931e-08   $    0.001042,  0.000244
+        -3911,     FRAMES.390,SOLAR_CARDS.181,  5.859679e-08   $    0.001266,  0.000297
+        -3912,     FRAMES.390,SOLAR_CARDS.185,  2.701665e-07   $    0.005836,  0.001368
+        -3913,     FRAMES.390,SOLAR_CARDS.189,  3.492274e-07   $    0.007543,  0.001768
+        -3914,     FRAMES.390,SOLAR_CARDS.193,  2.368482e-07   $    0.005116,  0.001199
+        -3915,     FRAMES.390,SOLAR_CARDS.197,  5.061020e-08   $    0.001093,  0.000256
+        -3916,     FRAMES.390,SOLAR_CARDS.217,  1.627119e-07   $    0.003515,  0.000824
+        -3917,     FRAMES.390,SOLAR_CARDS.221,  1.783328e-07   $    0.003852,  0.000903
+        -3918,     FRAMES.390,SOLAR_CARDS.225,  1.867993e-06   $    0.040349,  0.009457
+        -3919,     FRAMES.390,SOLAR_CARDS.229,  5.953657e-06   $    0.128599,  0.030140
+        -3920,     FRAMES.390,SOLAR_CARDS.233,  1.410042e-06   $    0.030457,  0.007138
+        -3921,     FRAMES.390,SOLAR_CARDS.237,  1.648336e-07   $    0.003560,  0.000834
+        -3922,     FRAMES.390,SOLAR_CARDS.241,  6.593658e-08   $    0.001424,  0.000334
+        -3923,     FRAMES.390,SOLAR_CARDS.261,  7.619761e-08   $    0.001646,  0.000772
+        -3924,     FRAMES.390,SOLAR_CARDS.265,  2.162956e-06   $    0.046720,  0.021900
+        -3925,     FRAMES.390,SOLAR_CARDS.269,  1.240527e-05   $    0.267954,  0.125603
+        -3926,     FRAMES.390,SOLAR_CARDS.273,  2.340216e-06   $    0.050549,  0.023695
+        -3927,     FRAMES.390,SOLAR_CARDS.277,  1.466951e-07   $    0.003169,  0.001485
+        -3928,     FRAMES.393,     FRAMES.396,  3.732424e-07   $    0.008062,  0.008062
+        -3929,     FRAMES.393,SOLAR_CARDS.145,  5.141798e-08   $    0.001111,  0.000260
+        -3930,     FRAMES.393,SOLAR_CARDS.149,  4.926454e-08   $    0.001064,  0.000249
+        -3931,     FRAMES.393,SOLAR_CARDS.173,  4.777777e-08   $    0.001032,  0.000484
+        -3932,     FRAMES.393,SOLAR_CARDS.181,  2.800456e-07   $    0.006049,  0.001418
+        -3933,     FRAMES.393,SOLAR_CARDS.185,  2.532936e-07   $    0.005471,  0.001282
+        -3934,     FRAMES.393,SOLAR_CARDS.189,  2.055465e-07   $    0.004440,  0.001041
+        -3935,     FRAMES.393,SOLAR_CARDS.193,  5.541474e-08   $    0.001197,  0.000281
+        -3936,     FRAMES.393,SOLAR_CARDS.197,  4.823931e-08   $    0.001042,  0.000244
+        -3937,     FRAMES.393,SOLAR_CARDS.213,  5.758526e-08   $    0.001244,  0.000583
+        -3938,     FRAMES.393,SOLAR_CARDS.217,  2.076149e-07   $    0.004484,  0.001051
+        -3939,     FRAMES.393,SOLAR_CARDS.221,  1.785626e-06   $    0.038570,  0.009040
+        -3940,     FRAMES.393,SOLAR_CARDS.225,  6.368560e-06   $    0.137561,  0.032241
+        -3941,     FRAMES.393,SOLAR_CARDS.229,  1.678559e-06   $    0.036257,  0.008498
+        -3942,     FRAMES.393,SOLAR_CARDS.233,  1.449156e-07   $    0.003130,  0.000734
+        -3943,     FRAMES.393,SOLAR_CARDS.237,  7.731987e-08   $    0.001670,  0.000391
+        -3944,     FRAMES.393,SOLAR_CARDS.257,  1.029140e-07   $    0.002223,  0.001042
+        -3945,     FRAMES.393,SOLAR_CARDS.261,  2.325184e-06   $    0.050224,  0.023542
+        -3946,     FRAMES.393,SOLAR_CARDS.265,  1.163521e-05   $    0.251321,  0.117807
+        -3947,     FRAMES.393,SOLAR_CARDS.269,  2.328254e-06   $    0.050290,  0.023574
+        -3948,     FRAMES.393,SOLAR_CARDS.273,  1.649372e-07   $    0.003563,  0.001670
+        -3949,     FRAMES.396,     FRAMES.399,  2.909307e-07   $    0.006284,  0.006284
+        -3950,     FRAMES.396,SOLAR_CARDS.141,  4.716057e-08   $    0.001019,  0.000239
+        -3951,     FRAMES.396,SOLAR_CARDS.145,  5.346410e-08   $    0.001155,  0.000271
+        -3952,     FRAMES.396,SOLAR_CARDS.149,  4.907407e-08   $    0.001060,  0.000248
+        -3953,     FRAMES.396,SOLAR_CARDS.177,  1.605355e-07   $    0.003468,  0.000813
+        -3954,     FRAMES.396,SOLAR_CARDS.181,  3.579520e-07   $    0.007732,  0.001812
+        -3955,     FRAMES.396,SOLAR_CARDS.185,  3.019158e-07   $    0.006521,  0.001528
+        -3956,     FRAMES.396,SOLAR_CARDS.189,  1.050051e-07   $    0.002268,  0.000532
+        -3957,     FRAMES.396,SOLAR_CARDS.213,  1.846936e-07   $    0.003989,  0.001870
+        -3958,     FRAMES.396,SOLAR_CARDS.217,  1.537508e-06   $    0.033210,  0.007784
+        -3959,     FRAMES.396,SOLAR_CARDS.221,  6.110355e-06   $    0.131984,  0.030934
+        -3960,     FRAMES.396,SOLAR_CARDS.225,  1.729500e-06   $    0.037357,  0.008756
+        -3961,     FRAMES.396,SOLAR_CARDS.229,  1.730696e-07   $    0.003738,  0.000876
+        -3962,     FRAMES.396,SOLAR_CARDS.253,  1.253060e-07   $    0.002707,  0.002537
+        -3963,     FRAMES.396,SOLAR_CARDS.257,  2.097318e-06   $    0.045302,  0.021235
+        -3964,     FRAMES.396,SOLAR_CARDS.261,  1.255925e-05   $    0.271280,  0.127162
+        -3965,     FRAMES.396,SOLAR_CARDS.265,  2.281815e-06   $    0.049287,  0.023103
+        -3966,     FRAMES.396,SOLAR_CARDS.269,  1.793599e-07   $    0.003874,  0.001816
+        -3967,     FRAMES.399,SOLAR_CARDS.173,  9.412229e-08   $    0.002033,  0.000953
+        -3968,     FRAMES.399,SOLAR_CARDS.177,  3.793613e-07   $    0.008194,  0.001921
+        -3969,     FRAMES.399,SOLAR_CARDS.181,  2.416064e-07   $    0.005219,  0.001223
+        -3970,     FRAMES.399,SOLAR_CARDS.185,  4.731507e-08   $    0.001022,  0.000240
+        -3971,     FRAMES.399,SOLAR_CARDS.189,  8.170964e-08   $    0.001765,  0.000414
+        -3972,     FRAMES.399,SOLAR_CARDS.213,  1.036756e-06   $    0.022394,  0.010497
+        -3973,     FRAMES.399,SOLAR_CARDS.217,  5.772368e-06   $    0.124683,  0.029223
+        -3974,     FRAMES.399,SOLAR_CARDS.221,  1.498336e-06   $    0.032364,  0.007585
+        -3975,     FRAMES.399,SOLAR_CARDS.225,  1.180600e-07   $    0.002550,  0.000598
+        -3976,     FRAMES.399,SOLAR_CARDS.229,  6.111111e-08   $    0.001320,  0.000309
+        -3977,     FRAMES.399,SOLAR_CARDS.253,  2.097735e-06   $    0.045311,  0.042479
+        -3978,     FRAMES.399,SOLAR_CARDS.257,  1.174154e-05   $    0.253617,  0.118883
+        -3979,     FRAMES.399,SOLAR_CARDS.261,  2.399863e-06   $    0.051837,  0.024299
+        -3980,     FRAMES.399,SOLAR_CARDS.265,  1.474890e-07   $    0.003186,  0.001493
+        -3981,     FRAMES.399,SOLAR_CARDS.537,  7.350128e-08   $    0.001588,  0.000372
+        -3982, SOLAR_CARDS.18, SOLAR_CARDS.28,  2.011453e-07   $    0.008146,  0.004073
+        -3983, SOLAR_CARDS.18, SOLAR_CARDS.33,  2.679663e-07   $    0.010853,  0.002713
+        -3984, SOLAR_CARDS.18, SOLAR_CARDS.38,  2.775843e-08   $    0.001124,  0.000281
+        -3985, SOLAR_CARDS.18, SOLAR_CARDS.59,  4.003132e-08   $    0.001621,  0.000405
+        -3986, SOLAR_CARDS.18,SOLAR_CARDS.338,  2.166285e-07   $    0.008773,  0.004387
+        -3987, SOLAR_CARDS.23, SOLAR_CARDS.55,  3.509082e-08   $    0.001421,  0.000355
+        -3988, SOLAR_CARDS.23, SOLAR_CARDS.56,  2.404100e-07   $    0.009737,  0.002434
+        -3989, SOLAR_CARDS.23, SOLAR_CARDS.57,  2.214677e-07   $    0.008969,  0.004485
+        -3990, SOLAR_CARDS.23, SOLAR_CARDS.66,  3.234931e-08   $    0.001310,  0.000328
+        -3991, SOLAR_CARDS.23,SOLAR_CARDS.513,  2.295291e-07   $    0.009296,  0.004648
+        -3992, SOLAR_CARDS.28, SOLAR_CARDS.33,  8.183699e-07   $    0.016572,  0.008286
+        -3993, SOLAR_CARDS.28, SOLAR_CARDS.38,  9.119180e-08   $    0.001847,  0.000923
+        -3994, SOLAR_CARDS.28, SOLAR_CARDS.58,  3.124123e-07   $    0.006326,  0.006326
+        -3995, SOLAR_CARDS.28, SOLAR_CARDS.59,  3.410024e-07   $    0.006905,  0.003453
+        -3996, SOLAR_CARDS.28, SOLAR_CARDS.60,  5.522832e-08   $    0.001118,  0.000559
+        -3997, SOLAR_CARDS.28, SOLAR_CARDS.69,  5.017446e-08   $    0.001016,  0.000508
+        -3998, SOLAR_CARDS.28,SOLAR_CARDS.338,  2.136631e-07   $    0.004327,  0.004327
+        -3999, SOLAR_CARDS.33, SOLAR_CARDS.38,  1.183492e-06   $    0.011983,  0.011983
+        -4000, SOLAR_CARDS.33, SOLAR_CARDS.43,  1.446374e-07   $    0.001464,  0.001464
+        -4001, SOLAR_CARDS.33, SOLAR_CARDS.58,  3.717699e-07   $    0.003764,  0.007528
+        -4002, SOLAR_CARDS.33, SOLAR_CARDS.59,  1.226123e-06   $    0.012414,  0.012414
+        -4003, SOLAR_CARDS.33, SOLAR_CARDS.60,  5.066840e-07   $    0.005130,  0.005130
+        -4004, SOLAR_CARDS.33, SOLAR_CARDS.69,  1.395549e-07   $    0.001413,  0.001413
+        -4005, SOLAR_CARDS.33,SOLAR_CARDS.338,  8.123790e-07   $    0.008225,  0.016451
+        -4006, SOLAR_CARDS.33,SOLAR_CARDS.363,  3.264098e-07   $    0.003305,  0.006610
+        -4007, SOLAR_CARDS.38, SOLAR_CARDS.43,  1.156259e-06   $    0.011707,  0.011707
+        -4008, SOLAR_CARDS.38, SOLAR_CARDS.48,  1.589566e-07   $    0.001609,  0.001609
+        -4009, SOLAR_CARDS.38, SOLAR_CARDS.58,  5.950455e-08   $    0.000602,  0.001205
+        -4010, SOLAR_CARDS.38, SOLAR_CARDS.59,  4.837424e-07   $    0.004898,  0.004898
+        -4011, SOLAR_CARDS.38, SOLAR_CARDS.60,  1.104964e-06   $    0.011188,  0.011188
+        -4012, SOLAR_CARDS.38, SOLAR_CARDS.61,  5.773801e-07   $    0.005846,  0.005846
+        -4013, SOLAR_CARDS.38, SOLAR_CARDS.70,  1.155586e-07   $    0.001170,  0.001170
+        -4014, SOLAR_CARDS.38,SOLAR_CARDS.338,  3.319466e-07   $    0.003361,  0.006722
+        -4015, SOLAR_CARDS.38,SOLAR_CARDS.363,  8.607034e-07   $    0.008715,  0.017429
+        -4016, SOLAR_CARDS.38,SOLAR_CARDS.388,  3.518388e-07   $    0.003562,  0.007125
+        -4017, SOLAR_CARDS.43, SOLAR_CARDS.48,  1.263153e-06   $    0.012789,  0.012789
+        -4018, SOLAR_CARDS.43, SOLAR_CARDS.53,  1.470491e-07   $    0.001489,  0.001489
+        -4019, SOLAR_CARDS.43, SOLAR_CARDS.59,  1.039124e-07   $    0.001052,  0.001052
+        -4020, SOLAR_CARDS.43, SOLAR_CARDS.60,  5.325911e-07   $    0.005392,  0.005392
+        -4021, SOLAR_CARDS.43, SOLAR_CARDS.61,  1.090693e-06   $    0.011043,  0.011043
+        -4022, SOLAR_CARDS.43, SOLAR_CARDS.62,  4.978799e-07   $    0.005041,  0.005041
+        -4023, SOLAR_CARDS.43, SOLAR_CARDS.71,  1.343040e-07   $    0.001360,  0.001360
+        -4024, SOLAR_CARDS.43,SOLAR_CARDS.338,  5.184842e-08   $    0.000525,  0.001050
+        -4025, SOLAR_CARDS.43,SOLAR_CARDS.363,  3.399211e-07   $    0.003442,  0.006883
+        -4026, SOLAR_CARDS.43,SOLAR_CARDS.388,  8.253460e-07   $    0.008357,  0.016713
+        -4027, SOLAR_CARDS.43,SOLAR_CARDS.413,  3.551940e-07   $    0.003596,  0.007193
+        -4028, SOLAR_CARDS.48, SOLAR_CARDS.53,  1.153678e-06   $    0.011681,  0.011681
+        -4029, SOLAR_CARDS.48, SOLAR_CARDS.54,  1.723759e-07   $    0.001745,  0.001745
+        -4030, SOLAR_CARDS.48, SOLAR_CARDS.60,  1.132628e-07   $    0.001147,  0.001147
+        -4031, SOLAR_CARDS.48, SOLAR_CARDS.61,  5.127060e-07   $    0.005191,  0.005191
+        -4032, SOLAR_CARDS.48, SOLAR_CARDS.62,  1.145571e-06   $    0.011599,  0.011599
+        -4033, SOLAR_CARDS.48, SOLAR_CARDS.63,  5.217845e-07   $    0.005283,  0.005283
+        -4034, SOLAR_CARDS.48, SOLAR_CARDS.72,  1.685256e-07   $    0.001706,  0.001706
+        -4035, SOLAR_CARDS.48,SOLAR_CARDS.363,  5.645625e-08   $    0.000572,  0.001143
+        -4036, SOLAR_CARDS.48,SOLAR_CARDS.388,  3.261732e-07   $    0.003303,  0.006605
+        -4037, SOLAR_CARDS.48,SOLAR_CARDS.413,  7.932821e-07   $    0.008032,  0.016064
+        -4038, SOLAR_CARDS.48,SOLAR_CARDS.438,  3.576420e-07   $    0.003621,  0.007242
+        -4039, SOLAR_CARDS.53, SOLAR_CARDS.54,  1.288483e-06   $    0.013046,  0.013046
+        -4040, SOLAR_CARDS.53, SOLAR_CARDS.55,  1.143980e-07   $    0.001158,  0.001158
+        -4041, SOLAR_CARDS.53, SOLAR_CARDS.62,  5.254046e-07   $    0.005320,  0.005320
+        -4042, SOLAR_CARDS.53, SOLAR_CARDS.63,  1.163068e-06   $    0.011776,  0.011776
+        -4043, SOLAR_CARDS.53, SOLAR_CARDS.64,  4.841575e-07   $    0.004902,  0.004902
+        -4044, SOLAR_CARDS.53, SOLAR_CARDS.73,  1.396811e-07   $    0.001414,  0.001414
+        -4045, SOLAR_CARDS.53,SOLAR_CARDS.388,  5.921611e-08   $    0.000600,  0.001199
+        -4046, SOLAR_CARDS.53,SOLAR_CARDS.413,  2.954690e-07   $    0.002992,  0.005983
+        -4047, SOLAR_CARDS.53,SOLAR_CARDS.438,  8.637443e-07   $    0.008745,  0.017491
+        -4048, SOLAR_CARDS.53,SOLAR_CARDS.463,  3.049537e-07   $    0.003088,  0.006175
+        -4049, SOLAR_CARDS.54, SOLAR_CARDS.55,  1.206228e-06   $    0.012213,  0.012213
+        -4050, SOLAR_CARDS.54, SOLAR_CARDS.56,  1.222584e-07   $    0.001238,  0.001238
+        -4051, SOLAR_CARDS.54, SOLAR_CARDS.63,  5.136400e-07   $    0.005201,  0.005201
+        -4052, SOLAR_CARDS.54, SOLAR_CARDS.64,  1.184059e-06   $    0.011989,  0.011989
+        -4053, SOLAR_CARDS.54, SOLAR_CARDS.65,  5.101026e-07   $    0.005165,  0.005165
+        -4054, SOLAR_CARDS.54, SOLAR_CARDS.66,  1.073297e-07   $    0.001087,  0.001087
+        -4055, SOLAR_CARDS.54, SOLAR_CARDS.74,  1.375736e-07   $    0.001393,  0.001393
+        -4056, SOLAR_CARDS.54,SOLAR_CARDS.438,  3.338340e-07   $    0.003380,  0.006760
+        -4057, SOLAR_CARDS.54,SOLAR_CARDS.463,  8.609846e-07   $    0.008717,  0.017435
+        -4058, SOLAR_CARDS.54,SOLAR_CARDS.488,  3.830616e-07   $    0.003878,  0.007757
+        -4059, SOLAR_CARDS.55, SOLAR_CARDS.56,  1.228799e-06   $    0.012442,  0.012442
+        -4060, SOLAR_CARDS.55, SOLAR_CARDS.57,  9.802145e-08   $    0.000992,  0.001985
+        -4061, SOLAR_CARDS.55, SOLAR_CARDS.64,  4.938362e-07   $    0.005000,  0.005000
+        -4062, SOLAR_CARDS.55, SOLAR_CARDS.65,  1.169200e-06   $    0.011838,  0.011838
+        -4063, SOLAR_CARDS.55, SOLAR_CARDS.66,  5.227342e-07   $    0.005293,  0.005293
+        -4064, SOLAR_CARDS.55, SOLAR_CARDS.67,  5.145815e-08   $    0.000521,  0.001042
+        -4065, SOLAR_CARDS.55, SOLAR_CARDS.75,  1.662127e-07   $    0.001683,  0.001683
+        -4066, SOLAR_CARDS.55,SOLAR_CARDS.438,  5.833258e-08   $    0.000591,  0.001181
+        -4067, SOLAR_CARDS.55,SOLAR_CARDS.463,  3.092631e-07   $    0.003131,  0.006263
+        -4068, SOLAR_CARDS.55,SOLAR_CARDS.488,  8.427159e-07   $    0.008532,  0.017065
+        -4069, SOLAR_CARDS.55,SOLAR_CARDS.513,  3.771543e-07   $    0.003819,  0.007637
+        -4070, SOLAR_CARDS.56, SOLAR_CARDS.57,  8.700984e-07   $    0.008810,  0.017619
+        -4071, SOLAR_CARDS.56, SOLAR_CARDS.65,  5.636882e-07   $    0.005707,  0.005707
+        -4072, SOLAR_CARDS.56, SOLAR_CARDS.66,  1.173085e-06   $    0.011877,  0.011877
+        -4073, SOLAR_CARDS.56, SOLAR_CARDS.67,  3.297134e-07   $    0.003338,  0.006677
+        -4074, SOLAR_CARDS.56, SOLAR_CARDS.75,  1.003044e-07   $    0.001016,  0.001016
+        -4075, SOLAR_CARDS.56, SOLAR_CARDS.76,  1.228114e-07   $    0.001243,  0.001243
+        -4076, SOLAR_CARDS.56, SOLAR_CARDS.77,  5.625522e-08   $    0.000570,  0.001139
+        -4077, SOLAR_CARDS.56,SOLAR_CARDS.488,  3.263314e-07   $    0.003304,  0.006608
+        -4078, SOLAR_CARDS.56,SOLAR_CARDS.513,  8.513614e-07   $    0.008620,  0.017240
+        -4079, SOLAR_CARDS.57, SOLAR_CARDS.65,  6.417468e-08   $    0.001300,  0.000650
+        -4080, SOLAR_CARDS.57, SOLAR_CARDS.66,  2.875388e-07   $    0.005823,  0.002911
+        -4081, SOLAR_CARDS.57, SOLAR_CARDS.67,  2.860536e-07   $    0.005793,  0.005793
+        -4082, SOLAR_CARDS.57, SOLAR_CARDS.76,  5.003685e-08   $    0.001013,  0.000507
+        -4083, SOLAR_CARDS.57,SOLAR_CARDS.329,  5.262064e-08   $    0.001066,  0.000533
+        -4084, SOLAR_CARDS.57,SOLAR_CARDS.513,  2.239290e-07   $    0.004535,  0.004535
+        -4085, SOLAR_CARDS.58, SOLAR_CARDS.59,  8.307014e-07   $    0.016822,  0.008411
+        -4086, SOLAR_CARDS.58, SOLAR_CARDS.60,  1.161824e-07   $    0.002353,  0.001176
+        -4087, SOLAR_CARDS.58, SOLAR_CARDS.68,  2.951302e-07   $    0.005976,  0.005976
+        -4088, SOLAR_CARDS.58, SOLAR_CARDS.69,  3.293064e-07   $    0.006668,  0.003334
+        -4089, SOLAR_CARDS.58, SOLAR_CARDS.70,  6.875641e-08   $    0.001392,  0.000696
+        -4090, SOLAR_CARDS.59, SOLAR_CARDS.60,  1.223314e-06   $    0.012386,  0.012386
+        -4091, SOLAR_CARDS.59, SOLAR_CARDS.61,  1.697314e-07   $    0.001719,  0.001719
+        -4092, SOLAR_CARDS.59, SOLAR_CARDS.68,  3.092341e-07   $    0.003131,  0.006262
+        -4093, SOLAR_CARDS.59, SOLAR_CARDS.69,  1.164054e-06   $    0.011786,  0.011786
+        -4094, SOLAR_CARDS.59, SOLAR_CARDS.70,  5.270809e-07   $    0.005337,  0.005337
+        -4095, SOLAR_CARDS.59, SOLAR_CARDS.79,  9.899493e-08   $    0.001002,  0.001002
+        -4096, SOLAR_CARDS.59,SOLAR_CARDS.338,  9.498221e-08   $    0.000962,  0.001923
+        -4097, SOLAR_CARDS.59,SOLAR_CARDS.363,  7.588952e-08   $    0.000768,  0.001537
+        -4098, SOLAR_CARDS.60, SOLAR_CARDS.61,  1.196327e-06   $    0.012113,  0.012113
+        -4099, SOLAR_CARDS.60, SOLAR_CARDS.62,  1.207902e-07   $    0.001223,  0.001223
+        -4100, SOLAR_CARDS.60, SOLAR_CARDS.68,  5.494876e-08   $    0.000556,  0.001113
+        -4101, SOLAR_CARDS.60, SOLAR_CARDS.69,  5.155021e-07   $    0.005219,  0.005219
+        -4102, SOLAR_CARDS.60, SOLAR_CARDS.70,  1.177082e-06   $    0.011918,  0.011918
+        -4103, SOLAR_CARDS.60, SOLAR_CARDS.71,  4.878430e-07   $    0.004939,  0.004939
+        -4104, SOLAR_CARDS.60,SOLAR_CARDS.338,  6.880374e-08   $    0.000697,  0.001393
+        -4105, SOLAR_CARDS.60,SOLAR_CARDS.363,  7.821956e-08   $    0.000792,  0.001584
+        -4106, SOLAR_CARDS.60,SOLAR_CARDS.388,  6.439682e-08   $    0.000652,  0.001304
+        -4107, SOLAR_CARDS.61, SOLAR_CARDS.62,  1.014027e-06   $    0.010267,  0.010267
+        -4108, SOLAR_CARDS.61, SOLAR_CARDS.63,  1.280110e-07   $    0.001296,  0.001296
+        -4109, SOLAR_CARDS.61, SOLAR_CARDS.69,  1.007413e-07   $    0.001020,  0.001020
+        -4110, SOLAR_CARDS.61, SOLAR_CARDS.70,  4.483811e-07   $    0.004540,  0.004540
+        -4111, SOLAR_CARDS.61, SOLAR_CARDS.71,  1.132305e-06   $    0.011465,  0.011465
+        -4112, SOLAR_CARDS.61, SOLAR_CARDS.72,  5.064511e-07   $    0.005128,  0.005128
+        -4113, SOLAR_CARDS.61, SOLAR_CARDS.81,  1.070945e-07   $    0.001084,  0.001084
+        -4114, SOLAR_CARDS.61,SOLAR_CARDS.363,  6.717874e-08   $    0.000680,  0.001360
+        -4115, SOLAR_CARDS.61,SOLAR_CARDS.388,  1.120790e-07   $    0.001135,  0.002270
+        -4116, SOLAR_CARDS.61,SOLAR_CARDS.413,  6.207525e-08   $    0.000629,  0.001257
+        -4117, SOLAR_CARDS.62, SOLAR_CARDS.63,  1.235708e-06   $    0.012512,  0.012512
+        -4118, SOLAR_CARDS.62, SOLAR_CARDS.64,  1.594096e-07   $    0.001614,  0.001614
+        -4119, SOLAR_CARDS.62, SOLAR_CARDS.70,  1.131275e-07   $    0.001145,  0.001145
+        -4120, SOLAR_CARDS.62, SOLAR_CARDS.71,  5.028078e-07   $    0.005091,  0.005091
+        -4121, SOLAR_CARDS.62, SOLAR_CARDS.72,  1.219942e-06   $    0.012352,  0.012352
+        -4122, SOLAR_CARDS.62, SOLAR_CARDS.73,  5.198708e-07   $    0.005264,  0.005264
+        -4123, SOLAR_CARDS.62,SOLAR_CARDS.388,  7.099726e-08   $    0.000719,  0.001438
+        -4124, SOLAR_CARDS.62,SOLAR_CARDS.413,  9.370603e-08   $    0.000949,  0.001898
+        -4125, SOLAR_CARDS.62,SOLAR_CARDS.438,  5.204975e-08   $    0.000527,  0.001054
+        -4126, SOLAR_CARDS.63, SOLAR_CARDS.64,  1.226110e-06   $    0.012414,  0.012414
+        -4127, SOLAR_CARDS.63, SOLAR_CARDS.65,  1.550420e-07   $    0.001570,  0.001570
+        -4128, SOLAR_CARDS.63, SOLAR_CARDS.72,  4.848634e-07   $    0.004909,  0.004909
+        -4129, SOLAR_CARDS.63, SOLAR_CARDS.73,  1.089479e-06   $    0.011031,  0.011031
+        -4130, SOLAR_CARDS.63, SOLAR_CARDS.74,  4.702859e-07   $    0.004762,  0.004762
+        -4131, SOLAR_CARDS.63, SOLAR_CARDS.75,  1.050182e-07   $    0.001063,  0.001063
+        -4132, SOLAR_CARDS.63,SOLAR_CARDS.413,  5.650938e-08   $    0.000572,  0.001144
+        -4133, SOLAR_CARDS.63,SOLAR_CARDS.438,  1.040013e-07   $    0.001053,  0.002106
+        -4134, SOLAR_CARDS.63,SOLAR_CARDS.463,  5.912528e-08   $    0.000599,  0.001197
+        -4135, SOLAR_CARDS.64, SOLAR_CARDS.65,  1.098070e-06   $    0.011118,  0.011118
+        -4136, SOLAR_CARDS.64, SOLAR_CARDS.66,  1.302357e-07   $    0.001319,  0.001319
+        -4137, SOLAR_CARDS.64, SOLAR_CARDS.73,  4.914209e-07   $    0.004976,  0.004976
+        -4138, SOLAR_CARDS.64, SOLAR_CARDS.74,  1.150231e-06   $    0.011646,  0.011646
+        -4139, SOLAR_CARDS.64, SOLAR_CARDS.75,  5.015402e-07   $    0.005078,  0.005078
+        -4140, SOLAR_CARDS.64, SOLAR_CARDS.76,  1.097098e-07   $    0.001111,  0.001111
+        -4141, SOLAR_CARDS.64,SOLAR_CARDS.438,  6.822347e-08   $    0.000691,  0.001382
+        -4142, SOLAR_CARDS.64,SOLAR_CARDS.463,  7.823060e-08   $    0.000792,  0.001584
+        -4143, SOLAR_CARDS.64,SOLAR_CARDS.488,  5.515157e-08   $    0.000558,  0.001117
+        -4144, SOLAR_CARDS.65, SOLAR_CARDS.66,  1.168025e-06   $    0.011826,  0.011826
+        -4145, SOLAR_CARDS.65, SOLAR_CARDS.67,  8.184485e-08   $    0.000829,  0.001657
+        -4146, SOLAR_CARDS.65, SOLAR_CARDS.73,  1.154801e-07   $    0.001169,  0.001169
+        -4147, SOLAR_CARDS.65, SOLAR_CARDS.74,  4.904610e-07   $    0.004966,  0.004966
+        -4148, SOLAR_CARDS.65, SOLAR_CARDS.75,  1.164555e-06   $    0.011791,  0.011791
+        -4149, SOLAR_CARDS.65, SOLAR_CARDS.76,  5.091542e-07   $    0.005155,  0.005155
+        -4150, SOLAR_CARDS.65, SOLAR_CARDS.77,  5.850213e-08   $    0.000592,  0.001185
+        -4151, SOLAR_CARDS.65, SOLAR_CARDS.85,  1.090499e-07   $    0.001104,  0.001104
+        -4152, SOLAR_CARDS.65,SOLAR_CARDS.463,  6.605806e-08   $    0.000669,  0.001338
+        -4153, SOLAR_CARDS.65,SOLAR_CARDS.488,  7.670801e-08   $    0.000777,  0.001553
+        -4154, SOLAR_CARDS.65,SOLAR_CARDS.513,  6.535665e-08   $    0.000662,  0.001323
+        -4155, SOLAR_CARDS.66, SOLAR_CARDS.67,  9.161537e-07   $    0.009276,  0.018552
+        -4156, SOLAR_CARDS.66, SOLAR_CARDS.75,  5.242543e-07   $    0.005308,  0.005308
+        -4157, SOLAR_CARDS.66, SOLAR_CARDS.76,  1.122618e-06   $    0.011367,  0.011367
+        -4158, SOLAR_CARDS.66, SOLAR_CARDS.77,  3.271404e-07   $    0.003312,  0.006625
+        -4159, SOLAR_CARDS.66,SOLAR_CARDS.488,  6.505077e-08   $    0.000659,  0.001317
+        -4160, SOLAR_CARDS.66,SOLAR_CARDS.513,  9.331711e-08   $    0.000945,  0.001890
+        -4161, SOLAR_CARDS.67, SOLAR_CARDS.75,  5.482015e-08   $    0.001110,  0.000555
+        -4162, SOLAR_CARDS.67, SOLAR_CARDS.76,  3.159057e-07   $    0.006397,  0.003199
+        -4163, SOLAR_CARDS.67, SOLAR_CARDS.77,  2.817991e-07   $    0.005706,  0.005706
+        -4164, SOLAR_CARDS.67,SOLAR_CARDS.379,  7.434408e-08   $    0.001505,  0.000753
+        -4165, SOLAR_CARDS.68, SOLAR_CARDS.69,  8.078777e-07   $    0.016360,  0.008180
+        -4166, SOLAR_CARDS.68, SOLAR_CARDS.70,  1.011367e-07   $    0.002048,  0.001024
+        -4167, SOLAR_CARDS.68, SOLAR_CARDS.78,  1.813755e-07   $    0.003673,  0.003673
+        -4168, SOLAR_CARDS.68, SOLAR_CARDS.79,  1.706252e-07   $    0.003455,  0.001728
+        -4169, SOLAR_CARDS.69, SOLAR_CARDS.70,  1.034024e-06   $    0.010469,  0.010469
+        -4170, SOLAR_CARDS.69, SOLAR_CARDS.71,  1.324701e-07   $    0.001341,  0.001341
+        -4171, SOLAR_CARDS.69, SOLAR_CARDS.78,  1.920955e-07   $    0.001945,  0.003890
+        -4172, SOLAR_CARDS.69, SOLAR_CARDS.79,  7.425304e-07   $    0.007518,  0.007518
+        -4173, SOLAR_CARDS.69, SOLAR_CARDS.80,  2.891900e-07   $    0.002928,  0.002928
+        -4174, SOLAR_CARDS.70, SOLAR_CARDS.71,  1.125105e-06   $    0.011392,  0.011392
+        -4175, SOLAR_CARDS.70, SOLAR_CARDS.72,  1.069644e-07   $    0.001083,  0.001083
+        -4176, SOLAR_CARDS.70, SOLAR_CARDS.79,  2.701696e-07   $    0.002735,  0.002735
+        -4177, SOLAR_CARDS.70, SOLAR_CARDS.80,  7.455498e-07   $    0.007549,  0.007549
+        -4178, SOLAR_CARDS.70, SOLAR_CARDS.81,  3.221730e-07   $    0.003262,  0.003262
+        -4179, SOLAR_CARDS.71, SOLAR_CARDS.72,  1.105973e-06   $    0.011198,  0.011198
+        -4180, SOLAR_CARDS.71, SOLAR_CARDS.73,  1.096328e-07   $    0.001110,  0.001110
+        -4181, SOLAR_CARDS.71, SOLAR_CARDS.80,  2.643443e-07   $    0.002676,  0.002676
+        -4182, SOLAR_CARDS.71, SOLAR_CARDS.81,  6.971345e-07   $    0.007058,  0.007058
+        -4183, SOLAR_CARDS.71, SOLAR_CARDS.82,  2.727925e-07   $    0.002762,  0.002762
+        -4184, SOLAR_CARDS.72, SOLAR_CARDS.73,  1.168438e-06   $    0.011830,  0.011830
+        -4185, SOLAR_CARDS.72, SOLAR_CARDS.74,  1.324849e-07   $    0.001341,  0.001341
+        -4186, SOLAR_CARDS.72, SOLAR_CARDS.81,  3.310582e-07   $    0.003352,  0.003352
+        -4187, SOLAR_CARDS.72, SOLAR_CARDS.82,  7.435529e-07   $    0.007528,  0.007528
+        -4188, SOLAR_CARDS.72, SOLAR_CARDS.83,  2.809691e-07   $    0.002845,  0.002845
+        -4189, SOLAR_CARDS.73, SOLAR_CARDS.74,  1.072612e-06   $    0.010860,  0.010860
+        -4190, SOLAR_CARDS.73, SOLAR_CARDS.75,  1.224269e-07   $    0.001240,  0.001240
+        -4191, SOLAR_CARDS.73, SOLAR_CARDS.82,  2.746472e-07   $    0.002781,  0.002781
+        -4192, SOLAR_CARDS.73, SOLAR_CARDS.83,  7.045342e-07   $    0.007133,  0.007133
+        -4193, SOLAR_CARDS.73, SOLAR_CARDS.84,  2.976686e-07   $    0.003014,  0.003014
+        -4194, SOLAR_CARDS.74, SOLAR_CARDS.75,  1.197696e-06   $    0.012127,  0.012127
+        -4195, SOLAR_CARDS.74, SOLAR_CARDS.76,  1.216334e-07   $    0.001232,  0.001232
+        -4196, SOLAR_CARDS.74, SOLAR_CARDS.83,  3.110241e-07   $    0.003149,  0.003149
+        -4197, SOLAR_CARDS.74, SOLAR_CARDS.84,  6.949579e-07   $    0.007036,  0.007036
+        -4198, SOLAR_CARDS.74, SOLAR_CARDS.85,  2.922940e-07   $    0.002959,  0.002959
+        -4199, SOLAR_CARDS.75, SOLAR_CARDS.76,  1.069058e-06   $    0.010824,  0.010824
+        -4200, SOLAR_CARDS.75, SOLAR_CARDS.77,  1.019225e-07   $    0.001032,  0.002064
+        -4201, SOLAR_CARDS.75, SOLAR_CARDS.84,  3.202819e-07   $    0.003243,  0.003243
+        -4202, SOLAR_CARDS.75, SOLAR_CARDS.85,  7.150148e-07   $    0.007240,  0.007240
+        -4203, SOLAR_CARDS.75, SOLAR_CARDS.86,  3.049730e-07   $    0.003088,  0.003088
+        -4204, SOLAR_CARDS.76, SOLAR_CARDS.77,  8.316017e-07   $    0.008420,  0.016840
+        -4205, SOLAR_CARDS.76, SOLAR_CARDS.85,  2.923722e-07   $    0.002960,  0.002960
+        -4206, SOLAR_CARDS.76, SOLAR_CARDS.86,  6.841021e-07   $    0.006927,  0.006927
+        -4207, SOLAR_CARDS.76, SOLAR_CARDS.87,  2.181058e-07   $    0.002208,  0.004417
+        -4208, SOLAR_CARDS.77, SOLAR_CARDS.86,  2.100242e-07   $    0.004253,  0.002126
+        -4209, SOLAR_CARDS.77, SOLAR_CARDS.87,  1.763008e-07   $    0.003570,  0.003570
+        -4210, SOLAR_CARDS.77,SOLAR_CARDS.429,  6.067720e-08   $    0.001229,  0.000614
+        -4211, SOLAR_CARDS.78, SOLAR_CARDS.79,  8.833896e-08   $    0.001789,  0.000894
+        -4212, SOLAR_CARDS.79, SOLAR_CARDS.80,  1.747120e-07   $    0.001769,  0.001769
+        -4213, SOLAR_CARDS.80, SOLAR_CARDS.81,  2.004220e-07   $    0.002029,  0.002029
+        -4214, SOLAR_CARDS.81, SOLAR_CARDS.82,  1.485962e-07   $    0.001505,  0.001505
+        -4215, SOLAR_CARDS.82, SOLAR_CARDS.83,  1.441197e-07   $    0.001459,  0.001459
+        -4216, SOLAR_CARDS.83, SOLAR_CARDS.84,  1.519513e-07   $    0.001539,  0.001539
+        -4217, SOLAR_CARDS.84, SOLAR_CARDS.85,  1.815727e-07   $    0.001838,  0.001838
+        -4218, SOLAR_CARDS.85, SOLAR_CARDS.86,  1.807321e-07   $    0.001830,  0.001830
+        -4219, SOLAR_CARDS.86, SOLAR_CARDS.87,  9.998398e-08   $    0.001012,  0.002025
+        -4220, SOLAR_CARDS.88, SOLAR_CARDS.89,  1.103808e-07   $    0.002235,  0.001118
+        -4221, SOLAR_CARDS.88, SOLAR_CARDS.98,  1.997504e-07   $    0.004045,  0.004045
+        -4222, SOLAR_CARDS.88, SOLAR_CARDS.99,  2.113659e-07   $    0.004280,  0.002140
+        -4223, SOLAR_CARDS.89, SOLAR_CARDS.90,  1.158020e-07   $    0.001172,  0.001172
+        -4224, SOLAR_CARDS.89, SOLAR_CARDS.98,  2.165269e-07   $    0.002192,  0.004385
+        -4225, SOLAR_CARDS.89, SOLAR_CARDS.99,  7.493560e-07   $    0.007587,  0.007587
+        -4226, SOLAR_CARDS.89,SOLAR_CARDS.100,  3.004311e-07   $    0.003042,  0.003042
+        -4227, SOLAR_CARDS.89,SOLAR_CARDS.109,  1.085255e-07   $    0.001099,  0.001099
+        -4228, SOLAR_CARDS.90, SOLAR_CARDS.91,  1.956707e-07   $    0.001981,  0.001981
+        -4229, SOLAR_CARDS.90, SOLAR_CARDS.99,  2.905374e-07   $    0.002942,  0.002942
+        -4230, SOLAR_CARDS.90,SOLAR_CARDS.100,  6.527939e-07   $    0.006610,  0.006610
+        -4231, SOLAR_CARDS.90,SOLAR_CARDS.101,  3.192257e-07   $    0.003232,  0.003232
+        -4232, SOLAR_CARDS.90,SOLAR_CARDS.110,  1.043653e-07   $    0.001057,  0.001057
+        -4233, SOLAR_CARDS.91, SOLAR_CARDS.92,  1.553889e-07   $    0.001573,  0.001573
+        -4234, SOLAR_CARDS.91,SOLAR_CARDS.100,  2.868414e-07   $    0.002904,  0.002904
+        -4235, SOLAR_CARDS.91,SOLAR_CARDS.101,  7.661640e-07   $    0.007757,  0.007757
+        -4236, SOLAR_CARDS.91,SOLAR_CARDS.102,  3.023206e-07   $    0.003061,  0.003061
+        -4237, SOLAR_CARDS.92, SOLAR_CARDS.93,  1.683236e-07   $    0.001704,  0.001704
+        -4238, SOLAR_CARDS.92,SOLAR_CARDS.101,  3.244623e-07   $    0.003285,  0.003285
+        -4239, SOLAR_CARDS.92,SOLAR_CARDS.102,  7.353714e-07   $    0.007446,  0.007446
+        -4240, SOLAR_CARDS.92,SOLAR_CARDS.103,  2.863825e-07   $    0.002900,  0.002900
+        -4241, SOLAR_CARDS.93, SOLAR_CARDS.94,  1.532709e-07   $    0.001552,  0.001552
+        -4242, SOLAR_CARDS.93,SOLAR_CARDS.102,  2.843990e-07   $    0.002880,  0.002880
+        -4243, SOLAR_CARDS.93,SOLAR_CARDS.103,  6.728418e-07   $    0.006813,  0.006813
+        -4244, SOLAR_CARDS.93,SOLAR_CARDS.104,  3.496254e-07   $    0.003540,  0.003540
+        -4245, SOLAR_CARDS.93,SOLAR_CARDS.113,  1.005729e-07   $    0.001018,  0.001018
+        -4246, SOLAR_CARDS.94, SOLAR_CARDS.95,  1.335990e-07   $    0.001353,  0.001353
+        -4247, SOLAR_CARDS.94,SOLAR_CARDS.103,  3.286201e-07   $    0.003327,  0.003327
+        -4248, SOLAR_CARDS.94,SOLAR_CARDS.104,  7.012523e-07   $    0.007100,  0.007100
+        -4249, SOLAR_CARDS.94,SOLAR_CARDS.105,  3.507948e-07   $    0.003552,  0.003552
+        -4250, SOLAR_CARDS.95, SOLAR_CARDS.96,  1.292078e-07   $    0.001308,  0.001308
+        -4251, SOLAR_CARDS.95,SOLAR_CARDS.104,  2.407759e-07   $    0.002438,  0.002438
+        -4252, SOLAR_CARDS.95,SOLAR_CARDS.105,  7.202086e-07   $    0.007292,  0.007292
+        -4253, SOLAR_CARDS.95,SOLAR_CARDS.106,  2.812380e-07   $    0.002848,  0.002848
+        -4254, SOLAR_CARDS.96, SOLAR_CARDS.97,  1.141993e-07   $    0.001156,  0.002313
+        -4255, SOLAR_CARDS.96,SOLAR_CARDS.105,  2.866210e-07   $    0.002902,  0.002902
+        -4256, SOLAR_CARDS.96,SOLAR_CARDS.106,  7.016678e-07   $    0.007104,  0.007104
+        -4257, SOLAR_CARDS.96,SOLAR_CARDS.107,  1.565543e-07   $    0.001585,  0.003170
+        -4258, SOLAR_CARDS.96,SOLAR_CARDS.116,  1.202992e-07   $    0.001218,  0.001218
+        -4259, SOLAR_CARDS.97,SOLAR_CARDS.106,  1.928016e-07   $    0.003904,  0.001952
+        -4260, SOLAR_CARDS.97,SOLAR_CARDS.107,  1.751237e-07   $    0.003546,  0.003546
+        -4261, SOLAR_CARDS.98, SOLAR_CARDS.99,  7.920310e-07   $    0.016039,  0.008019
+        -4262, SOLAR_CARDS.98,SOLAR_CARDS.100,  7.836475e-08   $    0.001587,  0.000793
+        -4263, SOLAR_CARDS.98,SOLAR_CARDS.108,  2.916052e-07   $    0.005905,  0.005905
+        -4264, SOLAR_CARDS.98,SOLAR_CARDS.109,  3.445799e-07   $    0.006978,  0.003489
+        -4265, SOLAR_CARDS.98,SOLAR_CARDS.110,  7.275015e-08   $    0.001473,  0.000737
+        -4266, SOLAR_CARDS.98,SOLAR_CARDS.119,  5.122315e-08   $    0.001037,  0.000519
+        -4267, SOLAR_CARDS.99,SOLAR_CARDS.100,  1.167278e-06   $    0.011819,  0.011819
+        -4268, SOLAR_CARDS.99,SOLAR_CARDS.101,  1.231511e-07   $    0.001247,  0.001247
+        -4269, SOLAR_CARDS.99,SOLAR_CARDS.108,  2.928749e-07   $    0.002965,  0.005931
+        -4270, SOLAR_CARDS.99,SOLAR_CARDS.109,  1.156663e-06   $    0.011711,  0.011711
+        -4271, SOLAR_CARDS.99,SOLAR_CARDS.110,  4.938877e-07   $    0.005001,  0.005001
+        -4272, SOLAR_CARDS.99,SOLAR_CARDS.119,  1.026865e-07   $    0.001040,  0.001040
+        -4273,SOLAR_CARDS.100,SOLAR_CARDS.101,  1.073779e-06   $    0.010872,  0.010872
+        -4274,SOLAR_CARDS.100,SOLAR_CARDS.102,  1.114279e-07   $    0.001128,  0.001128
+        -4275,SOLAR_CARDS.100,SOLAR_CARDS.108,  6.362424e-08   $    0.000644,  0.001288
+        -4276,SOLAR_CARDS.100,SOLAR_CARDS.109,  4.832852e-07   $    0.004893,  0.004893
+        -4277,SOLAR_CARDS.100,SOLAR_CARDS.110,  1.206395e-06   $    0.012215,  0.012215
+        -4278,SOLAR_CARDS.100,SOLAR_CARDS.111,  5.286888e-07   $    0.005353,  0.005353
+        -4279,SOLAR_CARDS.100,SOLAR_CARDS.120,  1.440024e-07   $    0.001458,  0.001458
+        -4280,SOLAR_CARDS.101,SOLAR_CARDS.102,  1.153344e-06   $    0.011678,  0.011678
+        -4281,SOLAR_CARDS.101,SOLAR_CARDS.103,  1.239307e-07   $    0.001255,  0.001255
+        -4282,SOLAR_CARDS.101,SOLAR_CARDS.110,  4.776414e-07   $    0.004836,  0.004836
+        -4283,SOLAR_CARDS.101,SOLAR_CARDS.111,  1.174617e-06   $    0.011893,  0.011893
+        -4284,SOLAR_CARDS.101,SOLAR_CARDS.112,  5.665392e-07   $    0.005736,  0.005736
+        -4285,SOLAR_CARDS.101,SOLAR_CARDS.120,  1.049274e-07   $    0.001062,  0.001062
+        -4286,SOLAR_CARDS.101,SOLAR_CARDS.121,  1.546924e-07   $    0.001566,  0.001566
+        -4287,SOLAR_CARDS.101,SOLAR_CARDS.122,  1.312354e-07   $    0.001329,  0.001329
+        -4288,SOLAR_CARDS.102,SOLAR_CARDS.103,  1.065662e-06   $    0.010790,  0.010790
+        -4289,SOLAR_CARDS.102,SOLAR_CARDS.104,  1.046833e-07   $    0.001060,  0.001060
+        -4290,SOLAR_CARDS.102,SOLAR_CARDS.111,  5.014037e-07   $    0.005077,  0.005077
+        -4291,SOLAR_CARDS.102,SOLAR_CARDS.112,  1.160307e-06   $    0.011748,  0.011748
+        -4292,SOLAR_CARDS.102,SOLAR_CARDS.113,  4.942997e-07   $    0.005005,  0.005005
+        -4293,SOLAR_CARDS.102,SOLAR_CARDS.122,  1.399033e-07   $    0.001417,  0.001417
+        -4294,SOLAR_CARDS.103,SOLAR_CARDS.104,  1.123965e-06   $    0.011380,  0.011380
+        -4295,SOLAR_CARDS.103,SOLAR_CARDS.105,  1.350276e-07   $    0.001367,  0.001367
+        -4296,SOLAR_CARDS.103,SOLAR_CARDS.112,  5.297804e-07   $    0.005364,  0.005364
+        -4297,SOLAR_CARDS.103,SOLAR_CARDS.113,  1.243391e-06   $    0.012589,  0.012589
+        -4298,SOLAR_CARDS.103,SOLAR_CARDS.114,  4.906221e-07   $    0.004968,  0.004968
+        -4299,SOLAR_CARDS.103,SOLAR_CARDS.115,  1.043138e-07   $    0.001056,  0.001056
+        -4300,SOLAR_CARDS.103,SOLAR_CARDS.123,  1.436526e-07   $    0.001454,  0.001454
+        -4301,SOLAR_CARDS.104,SOLAR_CARDS.105,  1.088770e-06   $    0.011024,  0.011024
+        -4302,SOLAR_CARDS.104,SOLAR_CARDS.106,  1.557033e-07   $    0.001576,  0.001576
+        -4303,SOLAR_CARDS.104,SOLAR_CARDS.112,  1.016960e-07   $    0.001030,  0.001030
+        -4304,SOLAR_CARDS.104,SOLAR_CARDS.113,  5.199782e-07   $    0.005265,  0.005265
+        -4305,SOLAR_CARDS.104,SOLAR_CARDS.114,  1.227926e-06   $    0.012433,  0.012433
+        -4306,SOLAR_CARDS.104,SOLAR_CARDS.115,  5.263537e-07   $    0.005329,  0.005329
+        -4307,SOLAR_CARDS.104,SOLAR_CARDS.124,  1.589413e-07   $    0.001609,  0.001609
+        -4308,SOLAR_CARDS.105,SOLAR_CARDS.106,  1.148939e-06   $    0.011633,  0.011633
+        -4309,SOLAR_CARDS.105,SOLAR_CARDS.107,  9.256464e-08   $    0.000937,  0.001874
+        -4310,SOLAR_CARDS.105,SOLAR_CARDS.114,  5.048065e-07   $    0.005111,  0.005111
+        -4311,SOLAR_CARDS.105,SOLAR_CARDS.115,  1.230850e-06   $    0.012462,  0.012462
+        -4312,SOLAR_CARDS.105,SOLAR_CARDS.116,  5.257808e-07   $    0.005324,  0.005324
+        -4313,SOLAR_CARDS.105,SOLAR_CARDS.117,  5.936669e-08   $    0.000601,  0.001202
+        -4314,SOLAR_CARDS.105,SOLAR_CARDS.125,  1.259184e-07   $    0.001275,  0.001275
+        -4315,SOLAR_CARDS.106,SOLAR_CARDS.107,  7.775674e-07   $    0.007873,  0.015746
+        -4316,SOLAR_CARDS.106,SOLAR_CARDS.115,  4.808979e-07   $    0.004869,  0.004869
+        -4317,SOLAR_CARDS.106,SOLAR_CARDS.116,  1.174574e-06   $    0.011893,  0.011893
+        -4318,SOLAR_CARDS.106,SOLAR_CARDS.117,  3.211635e-07   $    0.003252,  0.006504
+        -4319,SOLAR_CARDS.106,SOLAR_CARDS.126,  1.298022e-07   $    0.001314,  0.001314
+        -4320,SOLAR_CARDS.107,SOLAR_CARDS.115,  5.885378e-08   $    0.001192,  0.000596
+        -4321,SOLAR_CARDS.107,SOLAR_CARDS.116,  3.591177e-07   $    0.007272,  0.003636
+        -4322,SOLAR_CARDS.107,SOLAR_CARDS.117,  2.867158e-07   $    0.005806,  0.005806
+        -4323,SOLAR_CARDS.107,SOLAR_CARDS.126,  5.061461e-08   $    0.001025,  0.000512
+        -4324,SOLAR_CARDS.107,SOLAR_CARDS.169,  5.680581e-08   $    0.001150,  0.000575
+        -4325,SOLAR_CARDS.108,SOLAR_CARDS.109,  8.071663e-07   $    0.016345,  0.008173
+        -4326,SOLAR_CARDS.108,SOLAR_CARDS.110,  9.593901e-08   $    0.001943,  0.000971
+        -4327,SOLAR_CARDS.108,SOLAR_CARDS.118,  3.193653e-07   $    0.006467,  0.006467
+        -4328,SOLAR_CARDS.108,SOLAR_CARDS.119,  3.469632e-07   $    0.007026,  0.003513
+        -4329,SOLAR_CARDS.108,SOLAR_CARDS.128,  2.469459e-08   $    0.000500,  0.001000
+        -4330,SOLAR_CARDS.109,SOLAR_CARDS.110,  1.240754e-06   $    0.012563,  0.012563
+        -4331,SOLAR_CARDS.109,SOLAR_CARDS.111,  1.084477e-07   $    0.001098,  0.001098
+        -4332,SOLAR_CARDS.109,SOLAR_CARDS.118,  3.478919e-07   $    0.003522,  0.007045
+        -4333,SOLAR_CARDS.109,SOLAR_CARDS.119,  1.186429e-06   $    0.012013,  0.012013
+        -4334,SOLAR_CARDS.109,SOLAR_CARDS.120,  4.344697e-07   $    0.004399,  0.004399
+        -4335,SOLAR_CARDS.109,SOLAR_CARDS.128,  4.082068e-08   $    0.000413,  0.001653
+        -4336,SOLAR_CARDS.109,SOLAR_CARDS.129,  1.051057e-07   $    0.001064,  0.002128
+        -4337,SOLAR_CARDS.109,SOLAR_CARDS.130,  6.067703e-08   $    0.000614,  0.001229
+        -4338,SOLAR_CARDS.110,SOLAR_CARDS.111,  1.120808e-06   $    0.011348,  0.011348
+        -4339,SOLAR_CARDS.110,SOLAR_CARDS.112,  1.375450e-07   $    0.001393,  0.001393
+        -4340,SOLAR_CARDS.110,SOLAR_CARDS.118,  5.533864e-08   $    0.000560,  0.001121
+        -4341,SOLAR_CARDS.110,SOLAR_CARDS.119,  4.748520e-07   $    0.004808,  0.004808
+        -4342,SOLAR_CARDS.110,SOLAR_CARDS.120,  1.214138e-06   $    0.012293,  0.012293
+        -4343,SOLAR_CARDS.110,SOLAR_CARDS.121,  4.731519e-07   $    0.004791,  0.004791
+        -4344,SOLAR_CARDS.110,SOLAR_CARDS.129,  5.453163e-08   $    0.000552,  0.001104
+        -4345,SOLAR_CARDS.110,SOLAR_CARDS.130,  9.507948e-08   $    0.000963,  0.001925
+        -4346,SOLAR_CARDS.110,SOLAR_CARDS.131,  6.192978e-08   $    0.000627,  0.001254
+        -4347,SOLAR_CARDS.111,SOLAR_CARDS.112,  1.183841e-06   $    0.011986,  0.011986
+        -4348,SOLAR_CARDS.111,SOLAR_CARDS.113,  1.150731e-07   $    0.001165,  0.001165
+        -4349,SOLAR_CARDS.111,SOLAR_CARDS.120,  4.705762e-07   $    0.004765,  0.004765
+        -4350,SOLAR_CARDS.111,SOLAR_CARDS.121,  1.289229e-06   $    0.013053,  0.013053
+        -4351,SOLAR_CARDS.111,SOLAR_CARDS.122,  4.968769e-07   $    0.005031,  0.005031
+        -4352,SOLAR_CARDS.111,SOLAR_CARDS.130,  6.519571e-08   $    0.000660,  0.001320
+        -4353,SOLAR_CARDS.111,SOLAR_CARDS.131,  1.193805e-07   $    0.001209,  0.002417
+        -4354,SOLAR_CARDS.111,SOLAR_CARDS.132,  7.512537e-08   $    0.000761,  0.001521
+        -4355,SOLAR_CARDS.112,SOLAR_CARDS.113,  1.194226e-06   $    0.012092,  0.012092
+        -4356,SOLAR_CARDS.112,SOLAR_CARDS.114,  1.643362e-07   $    0.001664,  0.001664
+        -4357,SOLAR_CARDS.112,SOLAR_CARDS.121,  4.687475e-07   $    0.004746,  0.004746
+        -4358,SOLAR_CARDS.112,SOLAR_CARDS.122,  1.109437e-06   $    0.011233,  0.011233
+        -4359,SOLAR_CARDS.112,SOLAR_CARDS.123,  4.989743e-07   $    0.005052,  0.005052
+        -4360,SOLAR_CARDS.112,SOLAR_CARDS.132,  9.116874e-08   $    0.000923,  0.001846
+        -4361,SOLAR_CARDS.112,SOLAR_CARDS.133,  7.690122e-08   $    0.000779,  0.001557
+        -4362,SOLAR_CARDS.113,SOLAR_CARDS.114,  1.131350e-06   $    0.011455,  0.011455
+        -4363,SOLAR_CARDS.113,SOLAR_CARDS.115,  1.582219e-07   $    0.001602,  0.001602
+        -4364,SOLAR_CARDS.113,SOLAR_CARDS.122,  4.870411e-07   $    0.004931,  0.004931
+        -4365,SOLAR_CARDS.113,SOLAR_CARDS.123,  1.237175e-06   $    0.012526,  0.012526
+        -4366,SOLAR_CARDS.113,SOLAR_CARDS.124,  5.269092e-07   $    0.005335,  0.005335
+        -4367,SOLAR_CARDS.113,SOLAR_CARDS.132,  6.603269e-08   $    0.000669,  0.001337
+        -4368,SOLAR_CARDS.113,SOLAR_CARDS.133,  1.144748e-07   $    0.001159,  0.002318
+        -4369,SOLAR_CARDS.113,SOLAR_CARDS.134,  6.286007e-08   $    0.000636,  0.001273
+        -4370,SOLAR_CARDS.114,SOLAR_CARDS.115,  1.188644e-06   $    0.012035,  0.012035
+        -4371,SOLAR_CARDS.114,SOLAR_CARDS.116,  1.269842e-07   $    0.001286,  0.001286
+        -4372,SOLAR_CARDS.114,SOLAR_CARDS.123,  4.794816e-07   $    0.004855,  0.004855
+        -4373,SOLAR_CARDS.114,SOLAR_CARDS.124,  1.254644e-06   $    0.012703,  0.012703
+        -4374,SOLAR_CARDS.114,SOLAR_CARDS.125,  5.162036e-07   $    0.005227,  0.005227
+        -4375,SOLAR_CARDS.114,SOLAR_CARDS.134,  1.025793e-07   $    0.001039,  0.002077
+        -4376,SOLAR_CARDS.114,SOLAR_CARDS.135,  7.469414e-08   $    0.000756,  0.001513
+        -4377,SOLAR_CARDS.115,SOLAR_CARDS.116,  1.116731e-06   $    0.011307,  0.011307
+        -4378,SOLAR_CARDS.115,SOLAR_CARDS.117,  9.821142e-08   $    0.000994,  0.001989
+        -4379,SOLAR_CARDS.115,SOLAR_CARDS.123,  1.008664e-07   $    0.001021,  0.001021
+        -4380,SOLAR_CARDS.115,SOLAR_CARDS.124,  5.075408e-07   $    0.005139,  0.005139
+        -4381,SOLAR_CARDS.115,SOLAR_CARDS.125,  1.190002e-06   $    0.012049,  0.012049
+        -4382,SOLAR_CARDS.115,SOLAR_CARDS.126,  5.079360e-07   $    0.005143,  0.005143
+        -4383,SOLAR_CARDS.115,SOLAR_CARDS.127,  6.029971e-08   $    0.000611,  0.001221
+        -4384,SOLAR_CARDS.115,SOLAR_CARDS.134,  5.826861e-08   $    0.000590,  0.001180
+        -4385,SOLAR_CARDS.115,SOLAR_CARDS.135,  7.954777e-08   $    0.000805,  0.001611
+        -4386,SOLAR_CARDS.115,SOLAR_CARDS.136,  5.436634e-08   $    0.000550,  0.001101
+        -4387,SOLAR_CARDS.116,SOLAR_CARDS.117,  8.451744e-07   $    0.008557,  0.017115
+        -4388,SOLAR_CARDS.116,SOLAR_CARDS.125,  4.539290e-07   $    0.004596,  0.004596
+        -4389,SOLAR_CARDS.116,SOLAR_CARDS.126,  1.109856e-06   $    0.011237,  0.011237
+        -4390,SOLAR_CARDS.116,SOLAR_CARDS.127,  3.449452e-07   $    0.003493,  0.006985
+        -4391,SOLAR_CARDS.116,SOLAR_CARDS.135,  6.633836e-08   $    0.000672,  0.001343
+        -4392,SOLAR_CARDS.116,SOLAR_CARDS.136,  9.537192e-08   $    0.000966,  0.001931
+        -4393,SOLAR_CARDS.116,SOLAR_CARDS.137,  3.583891e-08   $    0.000363,  0.001451
+        -4394,SOLAR_CARDS.117,SOLAR_CARDS.125,  5.802436e-08   $    0.001175,  0.000587
+        -4395,SOLAR_CARDS.117,SOLAR_CARDS.126,  3.621906e-07   $    0.007334,  0.003667
+        -4396,SOLAR_CARDS.117,SOLAR_CARDS.127,  2.893330e-07   $    0.005859,  0.005859
+        -4397,SOLAR_CARDS.117,SOLAR_CARDS.209,  6.709246e-08   $    0.001359,  0.000679
+        -4398,SOLAR_CARDS.118,SOLAR_CARDS.119,  8.576845e-07   $    0.017368,  0.008684
+        -4399,SOLAR_CARDS.118,SOLAR_CARDS.120,  1.095141e-07   $    0.002218,  0.001109
+        -4400,SOLAR_CARDS.118,SOLAR_CARDS.128,  1.976645e-07   $    0.004003,  0.008005
+        -4401,SOLAR_CARDS.118,SOLAR_CARDS.129,  2.509073e-07   $    0.005081,  0.005081
+        -4402,SOLAR_CARDS.119,SOLAR_CARDS.120,  1.127358e-06   $    0.011415,  0.011415
+        -4403,SOLAR_CARDS.119,SOLAR_CARDS.121,  1.423057e-07   $    0.001441,  0.001441
+        -4404,SOLAR_CARDS.119,SOLAR_CARDS.128,  2.194035e-07   $    0.002221,  0.008886
+        -4405,SOLAR_CARDS.119,SOLAR_CARDS.129,  8.185795e-07   $    0.008288,  0.016576
+        -4406,SOLAR_CARDS.119,SOLAR_CARDS.130,  3.678122e-07   $    0.003724,  0.007448
+        -4407,SOLAR_CARDS.120,SOLAR_CARDS.121,  1.123834e-06   $    0.011379,  0.011379
+        -4408,SOLAR_CARDS.120,SOLAR_CARDS.122,  1.654376e-07   $    0.001675,  0.001675
+        -4409,SOLAR_CARDS.120,SOLAR_CARDS.128,  3.847511e-08   $    0.000390,  0.001558
+        -4410,SOLAR_CARDS.120,SOLAR_CARDS.129,  3.591530e-07   $    0.003636,  0.007273
+        -4411,SOLAR_CARDS.120,SOLAR_CARDS.130,  8.398979e-07   $    0.008504,  0.017008
+        -4412,SOLAR_CARDS.120,SOLAR_CARDS.131,  3.513484e-07   $    0.003557,  0.007115
+        -4413,SOLAR_CARDS.121,SOLAR_CARDS.122,  1.172850e-06   $    0.011875,  0.011875
+        -4414,SOLAR_CARDS.121,SOLAR_CARDS.123,  1.681102e-07   $    0.001702,  0.001702
+        -4415,SOLAR_CARDS.121,SOLAR_CARDS.130,  3.140751e-07   $    0.003180,  0.006360
+        -4416,SOLAR_CARDS.121,SOLAR_CARDS.131,  8.387687e-07   $    0.008493,  0.016985
+        -4417,SOLAR_CARDS.121,SOLAR_CARDS.132,  2.959408e-07   $    0.002996,  0.005993
+        -4418,SOLAR_CARDS.122,SOLAR_CARDS.123,  1.193855e-06   $    0.012088,  0.012088
+        -4419,SOLAR_CARDS.122,SOLAR_CARDS.124,  1.046616e-07   $    0.001060,  0.001060
+        -4420,SOLAR_CARDS.122,SOLAR_CARDS.131,  3.658826e-07   $    0.003705,  0.007409
+        -4421,SOLAR_CARDS.122,SOLAR_CARDS.132,  8.944805e-07   $    0.009057,  0.018113
+        -4422,SOLAR_CARDS.122,SOLAR_CARDS.133,  3.379307e-07   $    0.003422,  0.006843
+        -4423,SOLAR_CARDS.122,SOLAR_CARDS.134,  5.092286e-08   $    0.000516,  0.001031
+        -4424,SOLAR_CARDS.123,SOLAR_CARDS.124,  1.192308e-06   $    0.012072,  0.012072
+        -4425,SOLAR_CARDS.123,SOLAR_CARDS.125,  1.396658e-07   $    0.001414,  0.001414
+        -4426,SOLAR_CARDS.123,SOLAR_CARDS.132,  3.114290e-07   $    0.003153,  0.006306
+        -4427,SOLAR_CARDS.123,SOLAR_CARDS.133,  8.686090e-07   $    0.008795,  0.017589
+        -4428,SOLAR_CARDS.123,SOLAR_CARDS.134,  3.031628e-07   $    0.003070,  0.006139
+        -4429,SOLAR_CARDS.123,SOLAR_CARDS.135,  5.410154e-08   $    0.000548,  0.001096
+        -4430,SOLAR_CARDS.124,SOLAR_CARDS.125,  1.156616e-06   $    0.011711,  0.011711
+        -4431,SOLAR_CARDS.124,SOLAR_CARDS.126,  1.796030e-07   $    0.001818,  0.001818
+        -4432,SOLAR_CARDS.124,SOLAR_CARDS.132,  5.193674e-08   $    0.000526,  0.001052
+        -4433,SOLAR_CARDS.124,SOLAR_CARDS.133,  3.329612e-07   $    0.003371,  0.006742
+        -4434,SOLAR_CARDS.124,SOLAR_CARDS.134,  8.189691e-07   $    0.008292,  0.016584
+        -4435,SOLAR_CARDS.124,SOLAR_CARDS.135,  3.155907e-07   $    0.003195,  0.006391
+        -4436,SOLAR_CARDS.124,SOLAR_CARDS.136,  5.080173e-08   $    0.000514,  0.001029
+        -4437,SOLAR_CARDS.125,SOLAR_CARDS.126,  1.147904e-06   $    0.011623,  0.011623
+        -4438,SOLAR_CARDS.125,SOLAR_CARDS.127,  1.049871e-07   $    0.001063,  0.002126
+        -4439,SOLAR_CARDS.125,SOLAR_CARDS.133,  5.817355e-08   $    0.000589,  0.001178
+        -4440,SOLAR_CARDS.125,SOLAR_CARDS.134,  3.500389e-07   $    0.003544,  0.007088
+        -4441,SOLAR_CARDS.125,SOLAR_CARDS.135,  8.683918e-07   $    0.008792,  0.017585
+        -4442,SOLAR_CARDS.125,SOLAR_CARDS.136,  3.442096e-07   $    0.003485,  0.006970
+        -4443,SOLAR_CARDS.125,SOLAR_CARDS.137,  3.390017e-08   $    0.000343,  0.001373
+        -4444,SOLAR_CARDS.126,SOLAR_CARDS.127,  7.438800e-07   $    0.007532,  0.015064
+        -4445,SOLAR_CARDS.126,SOLAR_CARDS.134,  5.108766e-08   $    0.000517,  0.001035
+        -4446,SOLAR_CARDS.126,SOLAR_CARDS.135,  3.470760e-07   $    0.003514,  0.007028
+        -4447,SOLAR_CARDS.126,SOLAR_CARDS.136,  8.658280e-07   $    0.008767,  0.017533
+        -4448,SOLAR_CARDS.126,SOLAR_CARDS.137,  2.332155e-07   $    0.002361,  0.009445
+        -4449,SOLAR_CARDS.127,SOLAR_CARDS.136,  2.249388e-07   $    0.004555,  0.004555
+        -4450,SOLAR_CARDS.127,SOLAR_CARDS.137,  2.004116e-07   $    0.004058,  0.008117
+        -4451,SOLAR_CARDS.127,SOLAR_CARDS.249,  5.961364e-08   $    0.001207,  0.000604
+        -4452,SOLAR_CARDS.128,SOLAR_CARDS.129,  2.028933e-07   $    0.008217,  0.004109
+        -4453,SOLAR_CARDS.129,SOLAR_CARDS.130,  2.693913e-07   $    0.005455,  0.005455
+        -4454,SOLAR_CARDS.130,SOLAR_CARDS.131,  2.547046e-07   $    0.005158,  0.005158
+        -4455,SOLAR_CARDS.131,SOLAR_CARDS.132,  2.524699e-07   $    0.005113,  0.005113
+        -4456,SOLAR_CARDS.132,SOLAR_CARDS.133,  3.270967e-07   $    0.006624,  0.006624
+        -4457,SOLAR_CARDS.133,SOLAR_CARDS.134,  2.661697e-07   $    0.005390,  0.005390
+        -4458,SOLAR_CARDS.134,SOLAR_CARDS.135,  3.018276e-07   $    0.006112,  0.006112
+        -4459,SOLAR_CARDS.135,SOLAR_CARDS.136,  3.086400e-07   $    0.006250,  0.006250
+        -4460,SOLAR_CARDS.136,SOLAR_CARDS.137,  2.177992e-07   $    0.004410,  0.008821
+        -4461,SOLAR_CARDS.140,SOLAR_CARDS.144,  1.151178e-06   $    0.011656,  0.011656
+        -4462,SOLAR_CARDS.140,SOLAR_CARDS.148,  1.423552e-07   $    0.001441,  0.001441
+        -4463,SOLAR_CARDS.140,SOLAR_CARDS.172,  6.541975e-08   $    0.000662,  0.001325
+        -4464,SOLAR_CARDS.140,SOLAR_CARDS.176,  4.612052e-07   $    0.004670,  0.004670
+        -4465,SOLAR_CARDS.140,SOLAR_CARDS.180,  1.214288e-06   $    0.012295,  0.012295
+        -4466,SOLAR_CARDS.140,SOLAR_CARDS.184,  4.782229e-07   $    0.004842,  0.004842
+        -4467,SOLAR_CARDS.140,SOLAR_CARDS.220,  1.704789e-07   $    0.001726,  0.001726
+        -4468,SOLAR_CARDS.140,SOLAR_CARDS.224,  1.054574e-07   $    0.001068,  0.001068
+        -4469,SOLAR_CARDS.140,SOLAR_CARDS.491,  2.175608e-07   $    0.002203,  0.002203
+        -4470,SOLAR_CARDS.140,SOLAR_CARDS.495,  7.612707e-07   $    0.007708,  0.007708
+        -4471,SOLAR_CARDS.140,SOLAR_CARDS.499,  2.679360e-07   $    0.002713,  0.002713
+        -4472,SOLAR_CARDS.140,SOLAR_CARDS.532,  8.714548e-08   $    0.000882,  0.001765
+        -4473,SOLAR_CARDS.140,SOLAR_CARDS.536,  1.052450e-06   $    0.010656,  0.010656
+        -4474,SOLAR_CARDS.141,SOLAR_CARDS.145,  3.029022e-06   $    0.015334,  0.015334
+        -4475,SOLAR_CARDS.141,SOLAR_CARDS.149,  3.937682e-07   $    0.001993,  0.001993
+        -4476,SOLAR_CARDS.141,SOLAR_CARDS.173,  1.299898e-07   $    0.000658,  0.001316
+        -4477,SOLAR_CARDS.141,SOLAR_CARDS.177,  1.326703e-06   $    0.006716,  0.006716
+        -4478,SOLAR_CARDS.141,SOLAR_CARDS.181,  3.207144e-06   $    0.016236,  0.016236
+        -4479,SOLAR_CARDS.141,SOLAR_CARDS.185,  1.322903e-06   $    0.006697,  0.006697
+        -4480,SOLAR_CARDS.141,SOLAR_CARDS.189,  2.702151e-07   $    0.001368,  0.001368
+        -4481,SOLAR_CARDS.141,SOLAR_CARDS.221,  3.576293e-07   $    0.001810,  0.001810
+        -4482,SOLAR_CARDS.141,SOLAR_CARDS.225,  2.421250e-07   $    0.001226,  0.001226
+        -4483,SOLAR_CARDS.141,SOLAR_CARDS.442,  2.125086e-07   $    0.001076,  0.001076
+        -4484,SOLAR_CARDS.141,SOLAR_CARDS.446,  2.623614e-07   $    0.001328,  0.001328
+        -4485,SOLAR_CARDS.141,SOLAR_CARDS.485,  1.478095e-07   $    0.000748,  0.001497
+        -4486,SOLAR_CARDS.141,SOLAR_CARDS.492,  1.149060e-06   $    0.005817,  0.005817
+        -4487,SOLAR_CARDS.141,SOLAR_CARDS.496,  2.807941e-06   $    0.014215,  0.014215
+        -4488,SOLAR_CARDS.141,SOLAR_CARDS.500,  1.044944e-06   $    0.005290,  0.005290
+        -4489,SOLAR_CARDS.141,SOLAR_CARDS.533,  1.870216e-07   $    0.000947,  0.001894
+        -4490,SOLAR_CARDS.141,SOLAR_CARDS.537,  2.998414e-06   $    0.015179,  0.015179
+        -4491,SOLAR_CARDS.142,SOLAR_CARDS.146,  1.112565e-06   $    0.011265,  0.011265
+        -4492,SOLAR_CARDS.142,SOLAR_CARDS.150,  1.192282e-07   $    0.001207,  0.001207
+        -4493,SOLAR_CARDS.142,SOLAR_CARDS.174,  6.396115e-08   $    0.000648,  0.001295
+        -4494,SOLAR_CARDS.142,SOLAR_CARDS.178,  4.940078e-07   $    0.005002,  0.005002
+        -4495,SOLAR_CARDS.142,SOLAR_CARDS.182,  1.179646e-06   $    0.011944,  0.011944
+        -4496,SOLAR_CARDS.142,SOLAR_CARDS.186,  4.788620e-07   $    0.004848,  0.004848
+        -4497,SOLAR_CARDS.142,SOLAR_CARDS.222,  1.245462e-07   $    0.001261,  0.001261
+        -4498,SOLAR_CARDS.142,SOLAR_CARDS.493,  2.963338e-07   $    0.003000,  0.003000
+        -4499,SOLAR_CARDS.142,SOLAR_CARDS.497,  6.921563e-07   $    0.007008,  0.007008
+        -4500,SOLAR_CARDS.142,SOLAR_CARDS.501,  3.259951e-07   $    0.003301,  0.003301
+        -4501,SOLAR_CARDS.142,SOLAR_CARDS.534,  1.020713e-07   $    0.001033,  0.002067
+        -4502,SOLAR_CARDS.142,SOLAR_CARDS.538,  1.027937e-06   $    0.010408,  0.010408
+        -4503,SOLAR_CARDS.144,SOLAR_CARDS.148,  1.070831e-06   $    0.010842,  0.010842
+        -4504,SOLAR_CARDS.144,SOLAR_CARDS.152,  1.337332e-07   $    0.001354,  0.001354
+        -4505,SOLAR_CARDS.144,SOLAR_CARDS.176,  1.037071e-07   $    0.001050,  0.001050
+        -4506,SOLAR_CARDS.144,SOLAR_CARDS.180,  4.668071e-07   $    0.004726,  0.004726
+        -4507,SOLAR_CARDS.144,SOLAR_CARDS.184,  1.166925e-06   $    0.011815,  0.011815
+        -4508,SOLAR_CARDS.144,SOLAR_CARDS.188,  4.596062e-07   $    0.004654,  0.004654
+        -4509,SOLAR_CARDS.144,SOLAR_CARDS.224,  1.600000e-07   $    0.001620,  0.001620
+        -4510,SOLAR_CARDS.144,SOLAR_CARDS.495,  3.117082e-07   $    0.003156,  0.003156
+        -4511,SOLAR_CARDS.144,SOLAR_CARDS.499,  7.551589e-07   $    0.007646,  0.007646
+        -4512,SOLAR_CARDS.144,SOLAR_CARDS.503,  3.177267e-07   $    0.003217,  0.003217
+        -4513,SOLAR_CARDS.144,SOLAR_CARDS.536,  1.381378e-07   $    0.001399,  0.001399
+        -4514,SOLAR_CARDS.145,SOLAR_CARDS.149,  3.338543e-06   $    0.016901,  0.016901
+        -4515,SOLAR_CARDS.145,SOLAR_CARDS.153,  2.957148e-07   $    0.001497,  0.001497
+        -4516,SOLAR_CARDS.145,SOLAR_CARDS.177,  3.279776e-07   $    0.001660,  0.001660
+        -4517,SOLAR_CARDS.145,SOLAR_CARDS.181,  1.358724e-06   $    0.006879,  0.006879
+        -4518,SOLAR_CARDS.145,SOLAR_CARDS.185,  3.087940e-06   $    0.015633,  0.015633
+        -4519,SOLAR_CARDS.145,SOLAR_CARDS.189,  1.431767e-06   $    0.007248,  0.007248
+        -4520,SOLAR_CARDS.145,SOLAR_CARDS.193,  2.295860e-07   $    0.001162,  0.001162
+        -4521,SOLAR_CARDS.145,SOLAR_CARDS.221,  2.362717e-07   $    0.001196,  0.001196
+        -4522,SOLAR_CARDS.145,SOLAR_CARDS.225,  3.210780e-07   $    0.001625,  0.001625
+        -4523,SOLAR_CARDS.145,SOLAR_CARDS.229,  2.064488e-07   $    0.001045,  0.001045
+        -4524,SOLAR_CARDS.145,SOLAR_CARDS.450,  2.524341e-07   $    0.001278,  0.001278
+        -4525,SOLAR_CARDS.145,SOLAR_CARDS.496,  1.151792e-06   $    0.005831,  0.005831
+        -4526,SOLAR_CARDS.145,SOLAR_CARDS.500,  2.864226e-06   $    0.014500,  0.014500
+        -4527,SOLAR_CARDS.145,SOLAR_CARDS.504,  1.359046e-06   $    0.006880,  0.006880
+        -4528,SOLAR_CARDS.145,SOLAR_CARDS.510,  2.389485e-07   $    0.001210,  0.001210
+        -4529,SOLAR_CARDS.145,SOLAR_CARDS.537,  3.964167e-07   $    0.002007,  0.002007
+        -4530,SOLAR_CARDS.146,SOLAR_CARDS.150,  1.076690e-06   $    0.010901,  0.010901
+        -4531,SOLAR_CARDS.146,SOLAR_CARDS.154,  1.345839e-07   $    0.001363,  0.001363
+        -4532,SOLAR_CARDS.146,SOLAR_CARDS.178,  1.024623e-07   $    0.001037,  0.001037
+        -4533,SOLAR_CARDS.146,SOLAR_CARDS.182,  4.835819e-07   $    0.004896,  0.004896
+        -4534,SOLAR_CARDS.146,SOLAR_CARDS.186,  1.107215e-06   $    0.011211,  0.011211
+        -4535,SOLAR_CARDS.146,SOLAR_CARDS.190,  5.062419e-07   $    0.005126,  0.005126
+        -4536,SOLAR_CARDS.146,SOLAR_CARDS.222,  1.161862e-07   $    0.001176,  0.001176
+        -4537,SOLAR_CARDS.146,SOLAR_CARDS.226,  1.416321e-07   $    0.001434,  0.001434
+        -4538,SOLAR_CARDS.146,SOLAR_CARDS.497,  3.698388e-07   $    0.003745,  0.003745
+        -4539,SOLAR_CARDS.146,SOLAR_CARDS.501,  7.181033e-07   $    0.007271,  0.007271
+        -4540,SOLAR_CARDS.146,SOLAR_CARDS.505,  2.922940e-07   $    0.002959,  0.002959
+        -4541,SOLAR_CARDS.146,SOLAR_CARDS.538,  1.211253e-07   $    0.001226,  0.001226
+        -4542,SOLAR_CARDS.148,SOLAR_CARDS.152,  1.164879e-06   $    0.011794,  0.011794
+        -4543,SOLAR_CARDS.148,SOLAR_CARDS.156,  1.563244e-07   $    0.001583,  0.001583
+        -4544,SOLAR_CARDS.148,SOLAR_CARDS.184,  4.847407e-07   $    0.004908,  0.004908
+        -4545,SOLAR_CARDS.148,SOLAR_CARDS.188,  1.233338e-06   $    0.012488,  0.012488
+        -4546,SOLAR_CARDS.148,SOLAR_CARDS.192,  4.400208e-07   $    0.004455,  0.004455
+        -4547,SOLAR_CARDS.148,SOLAR_CARDS.228,  1.342666e-07   $    0.001359,  0.001359
+        -4548,SOLAR_CARDS.148,SOLAR_CARDS.499,  2.589643e-07   $    0.002622,  0.002622
+        -4549,SOLAR_CARDS.148,SOLAR_CARDS.503,  6.559003e-07   $    0.006641,  0.006641
+        -4550,SOLAR_CARDS.148,SOLAR_CARDS.508,  3.307412e-07   $    0.003349,  0.003349
+        -4551,SOLAR_CARDS.149,SOLAR_CARDS.153,  3.047497e-06   $    0.015428,  0.015428
+        -4552,SOLAR_CARDS.149,SOLAR_CARDS.157,  3.260286e-07   $    0.001651,  0.001651
+        -4553,SOLAR_CARDS.149,SOLAR_CARDS.181,  2.222527e-07   $    0.001125,  0.001125
+        -4554,SOLAR_CARDS.149,SOLAR_CARDS.185,  1.347997e-06   $    0.006824,  0.006824
+        -4555,SOLAR_CARDS.149,SOLAR_CARDS.189,  3.159457e-06   $    0.015995,  0.015995
+        -4556,SOLAR_CARDS.149,SOLAR_CARDS.193,  1.356533e-06   $    0.006867,  0.006867
+        -4557,SOLAR_CARDS.149,SOLAR_CARDS.197,  3.503139e-07   $    0.001773,  0.001773
+        -4558,SOLAR_CARDS.149,SOLAR_CARDS.225,  2.300564e-07   $    0.001165,  0.001165
+        -4559,SOLAR_CARDS.149,SOLAR_CARDS.229,  3.539661e-07   $    0.001792,  0.001792
+        -4560,SOLAR_CARDS.149,SOLAR_CARDS.233,  2.780290e-07   $    0.001408,  0.001408
+        -4561,SOLAR_CARDS.149,SOLAR_CARDS.454,  2.975770e-07   $    0.001506,  0.001506
+        -4562,SOLAR_CARDS.149,SOLAR_CARDS.460,  1.992162e-07   $    0.001009,  0.001009
+        -4563,SOLAR_CARDS.149,SOLAR_CARDS.500,  1.300532e-06   $    0.006584,  0.006584
+        -4564,SOLAR_CARDS.149,SOLAR_CARDS.504,  2.576882e-06   $    0.013045,  0.013045
+        -4565,SOLAR_CARDS.149,SOLAR_CARDS.510,  1.119117e-06   $    0.005666,  0.005666
+        -4566,SOLAR_CARDS.150,SOLAR_CARDS.154,  1.112215e-06   $    0.011261,  0.011261
+        -4567,SOLAR_CARDS.150,SOLAR_CARDS.158,  1.115286e-07   $    0.001129,  0.001129
+        -4568,SOLAR_CARDS.150,SOLAR_CARDS.182,  1.041159e-07   $    0.001054,  0.001054
+        -4569,SOLAR_CARDS.150,SOLAR_CARDS.186,  5.089887e-07   $    0.005154,  0.005154
+        -4570,SOLAR_CARDS.150,SOLAR_CARDS.190,  1.177727e-06   $    0.011924,  0.011924
+        -4571,SOLAR_CARDS.150,SOLAR_CARDS.194,  5.084460e-07   $    0.005148,  0.005148
+        -4572,SOLAR_CARDS.150,SOLAR_CARDS.230,  1.307881e-07   $    0.001324,  0.001324
+        -4573,SOLAR_CARDS.150,SOLAR_CARDS.501,  2.991259e-07   $    0.003029,  0.003029
+        -4574,SOLAR_CARDS.150,SOLAR_CARDS.505,  7.554532e-07   $    0.007649,  0.007649
+        -4575,SOLAR_CARDS.150,SOLAR_CARDS.512,  3.173828e-07   $    0.003214,  0.003214
+        -4576,SOLAR_CARDS.152,SOLAR_CARDS.156,  1.130961e-06   $    0.011451,  0.011451
+        -4577,SOLAR_CARDS.152,SOLAR_CARDS.160,  1.199974e-07   $    0.001215,  0.001215
+        -4578,SOLAR_CARDS.152,SOLAR_CARDS.184,  1.044176e-07   $    0.001057,  0.001057
+        -4579,SOLAR_CARDS.152,SOLAR_CARDS.188,  4.675553e-07   $    0.004734,  0.004734
+        -4580,SOLAR_CARDS.152,SOLAR_CARDS.192,  1.171928e-06   $    0.011866,  0.011866
+        -4581,SOLAR_CARDS.152,SOLAR_CARDS.196,  5.320039e-07   $    0.005387,  0.005387
+        -4582,SOLAR_CARDS.152,SOLAR_CARDS.232,  1.218424e-07   $    0.001234,  0.001234
+        -4583,SOLAR_CARDS.152,SOLAR_CARDS.503,  2.664565e-07   $    0.002698,  0.002698
+        -4584,SOLAR_CARDS.152,SOLAR_CARDS.508,  7.266672e-07   $    0.007358,  0.007358
+        -4585,SOLAR_CARDS.152,SOLAR_CARDS.516,  3.016308e-07   $    0.003054,  0.003054
+        -4586,SOLAR_CARDS.153,SOLAR_CARDS.157,  3.328419e-06   $    0.016850,  0.016850
+        -4587,SOLAR_CARDS.153,SOLAR_CARDS.161,  2.610810e-07   $    0.001322,  0.001322
+        -4588,SOLAR_CARDS.153,SOLAR_CARDS.185,  2.134415e-07   $    0.001081,  0.001081
+        -4589,SOLAR_CARDS.153,SOLAR_CARDS.189,  1.339259e-06   $    0.006780,  0.006780
+        -4590,SOLAR_CARDS.153,SOLAR_CARDS.193,  3.181724e-06   $    0.016107,  0.016107
+        -4591,SOLAR_CARDS.153,SOLAR_CARDS.197,  1.459033e-06   $    0.007386,  0.007386
+        -4592,SOLAR_CARDS.153,SOLAR_CARDS.229,  2.288944e-07   $    0.001159,  0.001159
+        -4593,SOLAR_CARDS.153,SOLAR_CARDS.233,  3.023151e-07   $    0.001530,  0.001530
+        -4594,SOLAR_CARDS.153,SOLAR_CARDS.237,  2.377375e-07   $    0.001204,  0.001204
+        -4595,SOLAR_CARDS.153,SOLAR_CARDS.454,  2.204898e-07   $    0.001116,  0.001116
+        -4596,SOLAR_CARDS.153,SOLAR_CARDS.460,  2.843645e-07   $    0.001440,  0.001440
+        -4597,SOLAR_CARDS.153,SOLAR_CARDS.504,  1.166281e-06   $    0.005904,  0.005904
+        -4598,SOLAR_CARDS.153,SOLAR_CARDS.510,  2.613314e-06   $    0.013230,  0.013230
+        -4599,SOLAR_CARDS.153,SOLAR_CARDS.517,  1.176446e-06   $    0.005956,  0.005956
+        -4600,SOLAR_CARDS.153,SOLAR_CARDS.521,  2.574143e-07   $    0.001303,  0.001303
+        -4601,SOLAR_CARDS.154,SOLAR_CARDS.158,  1.165734e-06   $    0.011803,  0.011803
+        -4602,SOLAR_CARDS.154,SOLAR_CARDS.162,  1.326247e-07   $    0.001343,  0.001343
+        -4603,SOLAR_CARDS.154,SOLAR_CARDS.190,  4.832610e-07   $    0.004893,  0.004893
+        -4604,SOLAR_CARDS.154,SOLAR_CARDS.194,  1.166423e-06   $    0.011810,  0.011810
+        -4605,SOLAR_CARDS.154,SOLAR_CARDS.198,  5.007471e-07   $    0.005070,  0.005070
+        -4606,SOLAR_CARDS.154,SOLAR_CARDS.234,  1.342519e-07   $    0.001359,  0.001359
+        -4607,SOLAR_CARDS.154,SOLAR_CARDS.505,  3.016149e-07   $    0.003054,  0.003054
+        -4608,SOLAR_CARDS.154,SOLAR_CARDS.512,  6.657748e-07   $    0.006741,  0.006741
+        -4609,SOLAR_CARDS.154,SOLAR_CARDS.518,  2.560220e-07   $    0.002592,  0.002592
+        -4610,SOLAR_CARDS.156,SOLAR_CARDS.160,  1.093834e-06   $    0.011075,  0.011075
+        -4611,SOLAR_CARDS.156,SOLAR_CARDS.164,  1.230990e-07   $    0.001246,  0.001246
+        -4612,SOLAR_CARDS.156,SOLAR_CARDS.192,  4.902197e-07   $    0.004963,  0.004963
+        -4613,SOLAR_CARDS.156,SOLAR_CARDS.196,  1.096671e-06   $    0.011104,  0.011104
+        -4614,SOLAR_CARDS.156,SOLAR_CARDS.200,  5.755848e-07   $    0.005828,  0.005828
+        -4615,SOLAR_CARDS.156,SOLAR_CARDS.236,  1.301536e-07   $    0.001318,  0.001318
+        -4616,SOLAR_CARDS.156,SOLAR_CARDS.240,  1.122015e-07   $    0.001136,  0.001136
+        -4617,SOLAR_CARDS.156,SOLAR_CARDS.508,  2.821433e-07   $    0.002857,  0.002857
+        -4618,SOLAR_CARDS.156,SOLAR_CARDS.516,  7.205279e-07   $    0.007295,  0.007295
+        -4619,SOLAR_CARDS.156,SOLAR_CARDS.520,  2.695476e-07   $    0.002729,  0.002729
+        -4620,SOLAR_CARDS.157,SOLAR_CARDS.161,  2.890130e-06   $    0.014631,  0.014631
+        -4621,SOLAR_CARDS.157,SOLAR_CARDS.165,  3.026256e-07   $    0.001532,  0.001532
+        -4622,SOLAR_CARDS.157,SOLAR_CARDS.189,  2.094549e-07   $    0.001060,  0.001060
+        -4623,SOLAR_CARDS.157,SOLAR_CARDS.193,  1.388851e-06   $    0.007031,  0.007031
+        -4624,SOLAR_CARDS.157,SOLAR_CARDS.197,  2.983383e-06   $    0.015103,  0.015103
+        -4625,SOLAR_CARDS.157,SOLAR_CARDS.201,  1.402175e-06   $    0.007099,  0.007099
+        -4626,SOLAR_CARDS.157,SOLAR_CARDS.205,  3.003021e-07   $    0.001520,  0.001520
+        -4627,SOLAR_CARDS.157,SOLAR_CARDS.233,  2.460599e-07   $    0.001246,  0.001246
+        -4628,SOLAR_CARDS.157,SOLAR_CARDS.237,  3.899185e-07   $    0.001974,  0.001974
+        -4629,SOLAR_CARDS.157,SOLAR_CARDS.241,  2.040823e-07   $    0.001033,  0.001033
+        -4630,SOLAR_CARDS.157,SOLAR_CARDS.467,  3.153413e-07   $    0.001596,  0.001596
+        -4631,SOLAR_CARDS.157,SOLAR_CARDS.471,  2.738345e-07   $    0.001386,  0.001386
+        -4632,SOLAR_CARDS.157,SOLAR_CARDS.504,  2.281967e-07   $    0.001155,  0.001155
+        -4633,SOLAR_CARDS.157,SOLAR_CARDS.510,  1.121802e-06   $    0.005679,  0.005679
+        -4634,SOLAR_CARDS.157,SOLAR_CARDS.517,  2.767255e-06   $    0.014009,  0.014009
+        -4635,SOLAR_CARDS.157,SOLAR_CARDS.521,  1.047383e-06   $    0.005302,  0.005302
+        -4636,SOLAR_CARDS.158,SOLAR_CARDS.162,  1.131516e-06   $    0.011457,  0.011457
+        -4637,SOLAR_CARDS.158,SOLAR_CARDS.166,  1.191000e-07   $    0.001206,  0.001206
+        -4638,SOLAR_CARDS.158,SOLAR_CARDS.194,  5.272956e-07   $    0.005339,  0.005339
+        -4639,SOLAR_CARDS.158,SOLAR_CARDS.198,  1.111888e-06   $    0.011258,  0.011258
+        -4640,SOLAR_CARDS.158,SOLAR_CARDS.202,  5.307225e-07   $    0.005374,  0.005374
+        -4641,SOLAR_CARDS.158,SOLAR_CARDS.234,  1.111895e-07   $    0.001126,  0.001126
+        -4642,SOLAR_CARDS.158,SOLAR_CARDS.238,  1.042766e-07   $    0.001056,  0.001056
+        -4643,SOLAR_CARDS.158,SOLAR_CARDS.512,  2.616365e-07   $    0.002649,  0.002649
+        -4644,SOLAR_CARDS.158,SOLAR_CARDS.518,  7.522381e-07   $    0.007616,  0.007616
+        -4645,SOLAR_CARDS.158,SOLAR_CARDS.522,  3.027639e-07   $    0.003065,  0.003065
+        -4646,SOLAR_CARDS.160,SOLAR_CARDS.164,  1.095758e-06   $    0.011095,  0.011095
+        -4647,SOLAR_CARDS.160,SOLAR_CARDS.168,  9.048579e-08   $    0.000916,  0.001832
+        -4648,SOLAR_CARDS.160,SOLAR_CARDS.196,  4.729964e-07   $    0.004789,  0.004789
+        -4649,SOLAR_CARDS.160,SOLAR_CARDS.200,  1.148327e-06   $    0.011627,  0.011627
+        -4650,SOLAR_CARDS.160,SOLAR_CARDS.204,  4.640372e-07   $    0.004698,  0.004698
+        -4651,SOLAR_CARDS.160,SOLAR_CARDS.208,  6.309327e-08   $    0.000639,  0.001278
+        -4652,SOLAR_CARDS.160,SOLAR_CARDS.236,  1.061039e-07   $    0.001074,  0.001074
+        -4653,SOLAR_CARDS.160,SOLAR_CARDS.240,  1.022708e-07   $    0.001035,  0.001035
+        -4654,SOLAR_CARDS.160,SOLAR_CARDS.516,  2.979551e-07   $    0.003017,  0.003017
+        -4655,SOLAR_CARDS.160,SOLAR_CARDS.520,  7.635727e-07   $    0.007731,  0.007731
+        -4656,SOLAR_CARDS.160,SOLAR_CARDS.524,  2.932220e-07   $    0.002969,  0.002969
+        -4657,SOLAR_CARDS.161,SOLAR_CARDS.165,  3.153881e-06   $    0.015967,  0.015967
+        -4658,SOLAR_CARDS.161,SOLAR_CARDS.169,  2.607107e-07   $    0.001320,  0.002640
+        -4659,SOLAR_CARDS.161,SOLAR_CARDS.193,  2.985456e-07   $    0.001511,  0.001511
+        -4660,SOLAR_CARDS.161,SOLAR_CARDS.197,  1.338942e-06   $    0.006778,  0.006778
+        -4661,SOLAR_CARDS.161,SOLAR_CARDS.201,  3.251369e-06   $    0.016460,  0.016460
+        -4662,SOLAR_CARDS.161,SOLAR_CARDS.205,  1.295140e-06   $    0.006557,  0.006557
+        -4663,SOLAR_CARDS.161,SOLAR_CARDS.209,  1.422494e-07   $    0.000720,  0.001440
+        -4664,SOLAR_CARDS.161,SOLAR_CARDS.237,  2.649107e-07   $    0.001341,  0.001341
+        -4665,SOLAR_CARDS.161,SOLAR_CARDS.241,  3.681784e-07   $    0.001864,  0.001864
+        -4666,SOLAR_CARDS.161,SOLAR_CARDS.245,  2.669764e-07   $    0.001352,  0.001352
+        -4667,SOLAR_CARDS.161,SOLAR_CARDS.471,  2.347424e-07   $    0.001188,  0.001188
+        -4668,SOLAR_CARDS.161,SOLAR_CARDS.517,  1.325436e-06   $    0.006710,  0.006710
+        -4669,SOLAR_CARDS.161,SOLAR_CARDS.521,  2.682380e-06   $    0.013580,  0.013580
+        -4670,SOLAR_CARDS.161,SOLAR_CARDS.525,  1.219664e-06   $    0.006175,  0.006175
+        -4671,SOLAR_CARDS.161,SOLAR_CARDS.529,  1.173358e-07   $    0.000594,  0.001188
+        -4672,SOLAR_CARDS.162,SOLAR_CARDS.166,  1.142608e-06   $    0.011569,  0.011569
+        -4673,SOLAR_CARDS.162,SOLAR_CARDS.170,  9.048343e-08   $    0.000916,  0.001832
+        -4674,SOLAR_CARDS.162,SOLAR_CARDS.198,  4.647544e-07   $    0.004706,  0.004706
+        -4675,SOLAR_CARDS.162,SOLAR_CARDS.202,  1.253336e-06   $    0.012690,  0.012690
+        -4676,SOLAR_CARDS.162,SOLAR_CARDS.206,  5.724563e-07   $    0.005796,  0.005796
+        -4677,SOLAR_CARDS.162,SOLAR_CARDS.210,  6.021779e-08   $    0.000610,  0.001219
+        -4678,SOLAR_CARDS.162,SOLAR_CARDS.238,  9.928515e-08   $    0.001005,  0.001005
+        -4679,SOLAR_CARDS.162,SOLAR_CARDS.242,  1.714403e-07   $    0.001736,  0.001736
+        -4680,SOLAR_CARDS.162,SOLAR_CARDS.518,  3.229902e-07   $    0.003270,  0.003270
+        -4681,SOLAR_CARDS.162,SOLAR_CARDS.522,  6.948628e-07   $    0.007035,  0.007035
+        -4682,SOLAR_CARDS.162,SOLAR_CARDS.526,  2.593752e-07   $    0.002626,  0.002626
+        -4683,SOLAR_CARDS.164,SOLAR_CARDS.168,  8.214566e-07   $    0.008317,  0.016634
+        -4684,SOLAR_CARDS.164,SOLAR_CARDS.200,  4.936127e-07   $    0.004998,  0.004998
+        -4685,SOLAR_CARDS.164,SOLAR_CARDS.204,  1.173993e-06   $    0.011887,  0.011887
+        -4686,SOLAR_CARDS.164,SOLAR_CARDS.208,  2.877215e-07   $    0.002913,  0.005826
+        -4687,SOLAR_CARDS.164,SOLAR_CARDS.240,  9.907556e-08   $    0.001003,  0.001003
+        -4688,SOLAR_CARDS.164,SOLAR_CARDS.244,  1.733916e-07   $    0.001756,  0.001756
+        -4689,SOLAR_CARDS.164,SOLAR_CARDS.248,  5.443327e-08   $    0.000551,  0.001102
+        -4690,SOLAR_CARDS.164,SOLAR_CARDS.520,  2.694007e-07   $    0.002728,  0.002728
+        -4691,SOLAR_CARDS.164,SOLAR_CARDS.524,  7.091899e-07   $    0.007181,  0.007181
+        -4692,SOLAR_CARDS.164,SOLAR_CARDS.528,  1.992804e-07   $    0.002018,  0.004035
+        -4693,SOLAR_CARDS.165,SOLAR_CARDS.169,  2.301595e-06   $    0.011652,  0.023304
+        -4694,SOLAR_CARDS.165,SOLAR_CARDS.197,  2.161976e-07   $    0.001095,  0.001095
+        -4695,SOLAR_CARDS.165,SOLAR_CARDS.201,  1.091632e-06   $    0.005526,  0.005526
+        -4696,SOLAR_CARDS.165,SOLAR_CARDS.205,  3.232407e-06   $    0.016364,  0.016364
+        -4697,SOLAR_CARDS.165,SOLAR_CARDS.209,  8.502774e-07   $    0.004305,  0.008609
+        -4698,SOLAR_CARDS.165,SOLAR_CARDS.241,  2.231294e-07   $    0.001130,  0.001130
+        -4699,SOLAR_CARDS.165,SOLAR_CARDS.245,  2.925920e-07   $    0.001481,  0.001481
+        -4700,SOLAR_CARDS.165,SOLAR_CARDS.249,  1.429240e-07   $    0.000724,  0.001447
+        -4701,SOLAR_CARDS.165,SOLAR_CARDS.471,  2.034887e-07   $    0.001030,  0.001030
+        -4702,SOLAR_CARDS.165,SOLAR_CARDS.475,  3.898441e-07   $    0.001974,  0.001974
+        -4703,SOLAR_CARDS.165,SOLAR_CARDS.517,  2.051840e-07   $    0.001039,  0.001039
+        -4704,SOLAR_CARDS.165,SOLAR_CARDS.521,  9.880275e-07   $    0.005002,  0.005002
+        -4705,SOLAR_CARDS.165,SOLAR_CARDS.525,  2.622510e-06   $    0.013276,  0.013276
+        -4706,SOLAR_CARDS.165,SOLAR_CARDS.529,  7.572136e-07   $    0.003833,  0.007667
+        -4707,SOLAR_CARDS.166,SOLAR_CARDS.170,  8.097438e-07   $    0.008199,  0.016397
+        -4708,SOLAR_CARDS.166,SOLAR_CARDS.202,  5.019403e-07   $    0.005082,  0.005082
+        -4709,SOLAR_CARDS.166,SOLAR_CARDS.206,  1.152752e-06   $    0.011672,  0.011672
+        -4710,SOLAR_CARDS.166,SOLAR_CARDS.210,  3.228344e-07   $    0.003269,  0.006537
+        -4711,SOLAR_CARDS.166,SOLAR_CARDS.246,  1.340955e-07   $    0.001358,  0.001358
+        -4712,SOLAR_CARDS.166,SOLAR_CARDS.250,  5.886545e-08   $    0.000596,  0.001192
+        -4713,SOLAR_CARDS.166,SOLAR_CARDS.522,  2.744003e-07   $    0.002778,  0.002778
+        -4714,SOLAR_CARDS.166,SOLAR_CARDS.526,  7.805211e-07   $    0.007903,  0.007903
+        -4715,SOLAR_CARDS.166,SOLAR_CARDS.530,  1.742370e-07   $    0.001764,  0.003528
+        -4716,SOLAR_CARDS.168,SOLAR_CARDS.200,  7.823060e-08   $    0.001584,  0.000792
+        -4717,SOLAR_CARDS.168,SOLAR_CARDS.204,  3.664781e-07   $    0.007421,  0.003711
+        -4718,SOLAR_CARDS.168,SOLAR_CARDS.208,  3.056958e-07   $    0.006190,  0.006190
+        -4719,SOLAR_CARDS.168,SOLAR_CARDS.244,  5.733492e-08   $    0.001161,  0.000581
+        -4720,SOLAR_CARDS.168,SOLAR_CARDS.524,  1.866775e-07   $    0.003780,  0.001890
+        -4721,SOLAR_CARDS.168,SOLAR_CARDS.528,  1.994079e-07   $    0.004038,  0.004038
+        -4722,SOLAR_CARDS.169,SOLAR_CARDS.201,  1.818374e-07   $    0.001841,  0.000921
+        -4723,SOLAR_CARDS.169,SOLAR_CARDS.205,  9.262380e-07   $    0.009378,  0.004689
+        -4724,SOLAR_CARDS.169,SOLAR_CARDS.209,  8.854914e-07   $    0.008966,  0.008966
+        -4725,SOLAR_CARDS.169,SOLAR_CARDS.245,  1.173640e-07   $    0.001188,  0.000594
+        -4726,SOLAR_CARDS.169,SOLAR_CARDS.521,  1.187897e-07   $    0.001203,  0.000601
+        -4727,SOLAR_CARDS.169,SOLAR_CARDS.525,  7.288438e-07   $    0.007380,  0.003690
+        -4728,SOLAR_CARDS.169,SOLAR_CARDS.529,  7.695476e-07   $    0.007792,  0.007792
+        -4729,SOLAR_CARDS.170,SOLAR_CARDS.206,  3.275469e-07   $    0.006633,  0.003316
+        -4730,SOLAR_CARDS.170,SOLAR_CARDS.210,  2.472759e-07   $    0.005007,  0.005007
+        -4731,SOLAR_CARDS.170,SOLAR_CARDS.526,  2.097006e-07   $    0.004246,  0.002123
+        -4732,SOLAR_CARDS.170,SOLAR_CARDS.530,  1.846570e-07   $    0.003739,  0.003739
+        -4733,SOLAR_CARDS.172,SOLAR_CARDS.176,  8.410160e-07   $    0.017031,  0.008515
+        -4734,SOLAR_CARDS.172,SOLAR_CARDS.180,  5.505649e-08   $    0.001115,  0.000557
+        -4735,SOLAR_CARDS.172,SOLAR_CARDS.212,  3.033294e-07   $    0.006142,  0.006142
+        -4736,SOLAR_CARDS.172,SOLAR_CARDS.216,  3.065859e-07   $    0.006208,  0.003104
+        -4737,SOLAR_CARDS.172,SOLAR_CARDS.220,  5.581658e-08   $    0.001130,  0.000565
+        -4738,SOLAR_CARDS.172,SOLAR_CARDS.532,  2.983064e-07   $    0.006041,  0.006041
+        -4739,SOLAR_CARDS.172,SOLAR_CARDS.536,  3.100705e-07   $    0.006279,  0.003139
+        -4740,SOLAR_CARDS.173,SOLAR_CARDS.174,  5.718460e-08   $    0.000579,  0.001158
+        -4741,SOLAR_CARDS.173,SOLAR_CARDS.177,  2.410205e-06   $    0.024403,  0.012202
+        -4742,SOLAR_CARDS.173,SOLAR_CARDS.181,  2.292262e-07   $    0.002321,  0.001160
+        -4743,SOLAR_CARDS.173,SOLAR_CARDS.213,  7.803387e-07   $    0.007901,  0.007901
+        -4744,SOLAR_CARDS.173,SOLAR_CARDS.217,  1.026995e-06   $    0.010398,  0.005199
+        -4745,SOLAR_CARDS.173,SOLAR_CARDS.221,  1.608464e-07   $    0.001629,  0.000814
+        -4746,SOLAR_CARDS.173,SOLAR_CARDS.257,  1.090430e-07   $    0.001104,  0.001104
+        -4747,SOLAR_CARDS.173,SOLAR_CARDS.492,  1.417079e-07   $    0.001435,  0.000717
+        -4748,SOLAR_CARDS.173,SOLAR_CARDS.533,  7.319515e-07   $    0.007411,  0.007411
+        -4749,SOLAR_CARDS.173,SOLAR_CARDS.537,  8.696476e-07   $    0.008805,  0.004403
+        -4750,SOLAR_CARDS.174,SOLAR_CARDS.178,  8.767016e-07   $    0.017753,  0.008877
+        -4751,SOLAR_CARDS.174,SOLAR_CARDS.182,  1.007195e-07   $    0.002040,  0.001020
+        -4752,SOLAR_CARDS.174,SOLAR_CARDS.214,  2.745640e-07   $    0.005560,  0.005560
+        -4753,SOLAR_CARDS.174,SOLAR_CARDS.218,  3.409898e-07   $    0.006905,  0.003453
+        -4754,SOLAR_CARDS.174,SOLAR_CARDS.222,  5.967108e-08   $    0.001208,  0.000604
+        -4755,SOLAR_CARDS.174,SOLAR_CARDS.534,  3.046937e-07   $    0.006170,  0.006170
+        -4756,SOLAR_CARDS.174,SOLAR_CARDS.538,  3.189144e-07   $    0.006458,  0.003229
+        -4757,SOLAR_CARDS.176,SOLAR_CARDS.180,  1.156864e-06   $    0.011713,  0.011713
+        -4758,SOLAR_CARDS.176,SOLAR_CARDS.184,  1.138890e-07   $    0.001153,  0.001153
+        -4759,SOLAR_CARDS.176,SOLAR_CARDS.212,  3.225326e-07   $    0.003266,  0.006531
+        -4760,SOLAR_CARDS.176,SOLAR_CARDS.216,  1.180726e-06   $    0.011955,  0.011955
+        -4761,SOLAR_CARDS.176,SOLAR_CARDS.220,  5.054729e-07   $    0.005118,  0.005118
+        -4762,SOLAR_CARDS.176,SOLAR_CARDS.252,  3.742991e-08   $    0.000379,  0.001516
+        -4763,SOLAR_CARDS.176,SOLAR_CARDS.256,  1.003826e-07   $    0.001016,  0.002033
+        -4764,SOLAR_CARDS.176,SOLAR_CARDS.260,  5.807500e-08   $    0.000588,  0.001176
+        -4765,SOLAR_CARDS.176,SOLAR_CARDS.491,  1.075293e-07   $    0.001089,  0.001089
+        -4766,SOLAR_CARDS.176,SOLAR_CARDS.532,  3.649662e-07   $    0.003695,  0.007391
+        -4767,SOLAR_CARDS.176,SOLAR_CARDS.536,  1.231124e-06   $    0.012465,  0.012465
+        -4768,SOLAR_CARDS.177,SOLAR_CARDS.181,  3.104019e-06   $    0.015714,  0.015714
+        -4769,SOLAR_CARDS.177,SOLAR_CARDS.185,  4.018595e-07   $    0.002034,  0.002034
+        -4770,SOLAR_CARDS.177,SOLAR_CARDS.213,  8.138021e-07   $    0.004120,  0.008240
+        -4771,SOLAR_CARDS.177,SOLAR_CARDS.217,  3.270346e-06   $    0.016556,  0.016556
+        -4772,SOLAR_CARDS.177,SOLAR_CARDS.221,  1.384399e-06   $    0.007009,  0.007009
+        -4773,SOLAR_CARDS.177,SOLAR_CARDS.225,  2.354993e-07   $    0.001192,  0.001192
+        -4774,SOLAR_CARDS.177,SOLAR_CARDS.253,  9.349859e-08   $    0.000473,  0.001893
+        -4775,SOLAR_CARDS.177,SOLAR_CARDS.257,  3.308434e-07   $    0.001675,  0.003350
+        -4776,SOLAR_CARDS.177,SOLAR_CARDS.261,  1.172227e-07   $    0.000593,  0.001187
+        -4777,SOLAR_CARDS.177,SOLAR_CARDS.485,  1.644639e-07   $    0.000833,  0.001665
+        -4778,SOLAR_CARDS.177,SOLAR_CARDS.492,  3.222112e-07   $    0.001631,  0.001631
+        -4779,SOLAR_CARDS.177,SOLAR_CARDS.496,  2.652585e-07   $    0.001343,  0.001343
+        -4780,SOLAR_CARDS.177,SOLAR_CARDS.533,  9.859631e-07   $    0.004991,  0.009983
+        -4781,SOLAR_CARDS.177,SOLAR_CARDS.537,  2.916882e-06   $    0.014767,  0.014767
+        -4782,SOLAR_CARDS.178,SOLAR_CARDS.182,  1.166830e-06   $    0.011814,  0.011814
+        -4783,SOLAR_CARDS.178,SOLAR_CARDS.186,  1.385574e-07   $    0.001403,  0.001403
+        -4784,SOLAR_CARDS.178,SOLAR_CARDS.214,  3.056380e-07   $    0.003095,  0.006189
+        -4785,SOLAR_CARDS.178,SOLAR_CARDS.218,  1.165238e-06   $    0.011798,  0.011798
+        -4786,SOLAR_CARDS.178,SOLAR_CARDS.222,  4.999972e-07   $    0.005062,  0.005062
+        -4787,SOLAR_CARDS.178,SOLAR_CARDS.226,  1.037342e-07   $    0.001050,  0.001050
+        -4788,SOLAR_CARDS.178,SOLAR_CARDS.254,  2.682717e-08   $    0.000272,  0.001087
+        -4789,SOLAR_CARDS.178,SOLAR_CARDS.258,  1.084530e-07   $    0.001098,  0.002196
+        -4790,SOLAR_CARDS.178,SOLAR_CARDS.262,  5.886966e-08   $    0.000596,  0.001192
+        -4791,SOLAR_CARDS.178,SOLAR_CARDS.534,  3.445674e-07   $    0.003489,  0.006977
+        -4792,SOLAR_CARDS.178,SOLAR_CARDS.538,  1.267217e-06   $    0.012831,  0.012831
+        -4793,SOLAR_CARDS.180,SOLAR_CARDS.184,  1.224666e-06   $    0.012400,  0.012400
+        -4794,SOLAR_CARDS.180,SOLAR_CARDS.188,  1.731591e-07   $    0.001753,  0.001753
+        -4795,SOLAR_CARDS.180,SOLAR_CARDS.216,  5.348206e-07   $    0.005415,  0.005415
+        -4796,SOLAR_CARDS.180,SOLAR_CARDS.220,  1.052931e-06   $    0.010661,  0.010661
+        -4797,SOLAR_CARDS.180,SOLAR_CARDS.224,  4.366252e-07   $    0.004421,  0.004421
+        -4798,SOLAR_CARDS.180,SOLAR_CARDS.256,  5.416248e-08   $    0.000548,  0.001097
+        -4799,SOLAR_CARDS.180,SOLAR_CARDS.260,  9.057072e-08   $    0.000917,  0.001834
+        -4800,SOLAR_CARDS.180,SOLAR_CARDS.264,  5.142451e-08   $    0.000521,  0.001041
+        -4801,SOLAR_CARDS.180,SOLAR_CARDS.491,  1.027506e-07   $    0.001040,  0.001040
+        -4802,SOLAR_CARDS.180,SOLAR_CARDS.532,  5.153982e-08   $    0.000522,  0.001044
+        -4803,SOLAR_CARDS.180,SOLAR_CARDS.536,  5.174159e-07   $    0.005239,  0.005239
+        -4804,SOLAR_CARDS.181,SOLAR_CARDS.185,  3.477778e-06   $    0.017606,  0.017606
+        -4805,SOLAR_CARDS.181,SOLAR_CARDS.189,  4.007488e-07   $    0.002029,  0.002029
+        -4806,SOLAR_CARDS.181,SOLAR_CARDS.213,  1.308725e-07   $    0.000663,  0.001325
+        -4807,SOLAR_CARDS.181,SOLAR_CARDS.217,  1.303161e-06   $    0.006597,  0.006597
+        -4808,SOLAR_CARDS.181,SOLAR_CARDS.221,  3.215177e-06   $    0.016277,  0.016277
+        -4809,SOLAR_CARDS.181,SOLAR_CARDS.225,  1.429620e-06   $    0.007237,  0.007237
+        -4810,SOLAR_CARDS.181,SOLAR_CARDS.229,  2.701603e-07   $    0.001368,  0.001368
+        -4811,SOLAR_CARDS.181,SOLAR_CARDS.257,  1.258892e-07   $    0.000637,  0.001275
+        -4812,SOLAR_CARDS.181,SOLAR_CARDS.261,  3.271393e-07   $    0.001656,  0.003312
+        -4813,SOLAR_CARDS.181,SOLAR_CARDS.265,  1.731916e-07   $    0.000877,  0.001754
+        -4814,SOLAR_CARDS.181,SOLAR_CARDS.492,  2.290834e-07   $    0.001160,  0.001160
+        -4815,SOLAR_CARDS.181,SOLAR_CARDS.496,  3.473035e-07   $    0.001758,  0.001758
+        -4816,SOLAR_CARDS.181,SOLAR_CARDS.500,  3.607747e-07   $    0.001826,  0.001826
+        -4817,SOLAR_CARDS.181,SOLAR_CARDS.533,  1.705751e-07   $    0.000864,  0.001727
+        -4818,SOLAR_CARDS.181,SOLAR_CARDS.537,  1.246857e-06   $    0.006312,  0.006312
+        -4819,SOLAR_CARDS.182,SOLAR_CARDS.186,  1.090015e-06   $    0.011036,  0.011036
+        -4820,SOLAR_CARDS.182,SOLAR_CARDS.190,  1.318629e-07   $    0.001335,  0.001335
+        -4821,SOLAR_CARDS.182,SOLAR_CARDS.214,  7.648954e-08   $    0.000774,  0.001549
+        -4822,SOLAR_CARDS.182,SOLAR_CARDS.218,  4.816700e-07   $    0.004877,  0.004877
+        -4823,SOLAR_CARDS.182,SOLAR_CARDS.222,  1.157955e-06   $    0.011724,  0.011724
+        -4824,SOLAR_CARDS.182,SOLAR_CARDS.226,  5.181283e-07   $    0.005246,  0.005246
+        -4825,SOLAR_CARDS.182,SOLAR_CARDS.258,  5.892865e-08   $    0.000597,  0.001193
+        -4826,SOLAR_CARDS.182,SOLAR_CARDS.262,  1.155153e-07   $    0.001170,  0.002339
+        -4827,SOLAR_CARDS.182,SOLAR_CARDS.266,  5.982669e-08   $    0.000606,  0.001211
+        -4828,SOLAR_CARDS.182,SOLAR_CARDS.497,  1.148283e-07   $    0.001163,  0.001163
+        -4829,SOLAR_CARDS.182,SOLAR_CARDS.538,  5.238581e-07   $    0.005304,  0.005304
+        -4830,SOLAR_CARDS.184,SOLAR_CARDS.188,  1.209465e-06   $    0.012246,  0.012246
+        -4831,SOLAR_CARDS.184,SOLAR_CARDS.192,  1.316518e-07   $    0.001333,  0.001333
+        -4832,SOLAR_CARDS.184,SOLAR_CARDS.220,  5.365340e-07   $    0.005432,  0.005432
+        -4833,SOLAR_CARDS.184,SOLAR_CARDS.224,  1.228363e-06   $    0.012437,  0.012437
+        -4834,SOLAR_CARDS.184,SOLAR_CARDS.228,  5.071581e-07   $    0.005135,  0.005135
+        -4835,SOLAR_CARDS.184,SOLAR_CARDS.260,  6.086442e-08   $    0.000616,  0.001233
+        -4836,SOLAR_CARDS.184,SOLAR_CARDS.264,  8.969247e-08   $    0.000908,  0.001816
+        -4837,SOLAR_CARDS.185,SOLAR_CARDS.189,  2.930582e-06   $    0.014836,  0.014836
+        -4838,SOLAR_CARDS.185,SOLAR_CARDS.193,  3.727472e-07   $    0.001887,  0.001887
+        -4839,SOLAR_CARDS.185,SOLAR_CARDS.217,  2.120324e-07   $    0.001073,  0.001073
+        -4840,SOLAR_CARDS.185,SOLAR_CARDS.221,  1.430925e-06   $    0.007244,  0.007244
+        -4841,SOLAR_CARDS.185,SOLAR_CARDS.225,  3.091754e-06   $    0.015652,  0.015652
+        -4842,SOLAR_CARDS.185,SOLAR_CARDS.229,  1.324953e-06   $    0.006708,  0.006708
+        -4843,SOLAR_CARDS.185,SOLAR_CARDS.261,  2.031152e-07   $    0.001028,  0.002057
+        -4844,SOLAR_CARDS.185,SOLAR_CARDS.265,  2.331801e-07   $    0.001180,  0.002361
+        -4845,SOLAR_CARDS.185,SOLAR_CARDS.269,  1.711257e-07   $    0.000866,  0.001733
+        -4846,SOLAR_CARDS.185,SOLAR_CARDS.496,  2.953008e-07   $    0.001495,  0.001495
+        -4847,SOLAR_CARDS.185,SOLAR_CARDS.500,  3.815171e-07   $    0.001931,  0.001931
+        -4848,SOLAR_CARDS.185,SOLAR_CARDS.504,  2.136434e-07   $    0.001082,  0.001082
+        -4849,SOLAR_CARDS.185,SOLAR_CARDS.537,  2.667921e-07   $    0.001351,  0.001351
+        -4850,SOLAR_CARDS.186,SOLAR_CARDS.190,  1.170842e-06   $    0.011855,  0.011855
+        -4851,SOLAR_CARDS.186,SOLAR_CARDS.194,  1.659178e-07   $    0.001680,  0.001680
+        -4852,SOLAR_CARDS.186,SOLAR_CARDS.218,  1.092505e-07   $    0.001106,  0.001106
+        -4853,SOLAR_CARDS.186,SOLAR_CARDS.222,  4.628766e-07   $    0.004687,  0.004687
+        -4854,SOLAR_CARDS.186,SOLAR_CARDS.226,  1.259450e-06   $    0.012752,  0.012752
+        -4855,SOLAR_CARDS.186,SOLAR_CARDS.230,  5.286972e-07   $    0.005353,  0.005353
+        -4856,SOLAR_CARDS.186,SOLAR_CARDS.262,  6.286981e-08   $    0.000637,  0.001273
+        -4857,SOLAR_CARDS.186,SOLAR_CARDS.266,  1.085994e-07   $    0.001100,  0.002199
+        -4858,SOLAR_CARDS.186,SOLAR_CARDS.270,  8.268356e-08   $    0.000837,  0.001674
+        -4859,SOLAR_CARDS.186,SOLAR_CARDS.538,  1.103267e-07   $    0.001117,  0.001117
+        -4860,SOLAR_CARDS.188,SOLAR_CARDS.192,  1.139602e-06   $    0.011538,  0.011538
+        -4861,SOLAR_CARDS.188,SOLAR_CARDS.196,  1.207910e-07   $    0.001223,  0.001223
+        -4862,SOLAR_CARDS.188,SOLAR_CARDS.224,  5.049588e-07   $    0.005113,  0.005113
+        -4863,SOLAR_CARDS.188,SOLAR_CARDS.228,  1.179227e-06   $    0.011940,  0.011940
+        -4864,SOLAR_CARDS.188,SOLAR_CARDS.232,  4.331860e-07   $    0.004386,  0.004386
+        -4865,SOLAR_CARDS.188,SOLAR_CARDS.264,  6.333988e-08   $    0.000641,  0.001283
+        -4866,SOLAR_CARDS.188,SOLAR_CARDS.268,  9.817733e-08   $    0.000994,  0.001988
+        -4867,SOLAR_CARDS.188,SOLAR_CARDS.272,  7.738250e-08   $    0.000783,  0.001567
+        -4868,SOLAR_CARDS.189,SOLAR_CARDS.193,  3.218407e-06   $    0.016293,  0.016293
+        -4869,SOLAR_CARDS.189,SOLAR_CARDS.197,  4.242877e-07   $    0.002148,  0.002148
+        -4870,SOLAR_CARDS.189,SOLAR_CARDS.221,  3.106474e-07   $    0.001573,  0.001573
+        -4871,SOLAR_CARDS.189,SOLAR_CARDS.225,  1.236071e-06   $    0.006258,  0.006258
+        -4872,SOLAR_CARDS.189,SOLAR_CARDS.229,  3.177644e-06   $    0.016087,  0.016087
+        -4873,SOLAR_CARDS.189,SOLAR_CARDS.233,  1.504897e-06   $    0.007619,  0.007619
+        -4874,SOLAR_CARDS.189,SOLAR_CARDS.237,  2.059554e-07   $    0.001043,  0.001043
+        -4875,SOLAR_CARDS.189,SOLAR_CARDS.265,  1.740666e-07   $    0.000881,  0.001762
+        -4876,SOLAR_CARDS.189,SOLAR_CARDS.269,  2.633620e-07   $    0.001333,  0.002667
+        -4877,SOLAR_CARDS.189,SOLAR_CARDS.273,  1.759474e-07   $    0.000891,  0.001781
+        -4878,SOLAR_CARDS.189,SOLAR_CARDS.500,  2.370359e-07   $    0.001200,  0.001200
+        -4879,SOLAR_CARDS.189,SOLAR_CARDS.504,  3.568421e-07   $    0.001807,  0.001807
+        -4880,SOLAR_CARDS.189,SOLAR_CARDS.510,  2.398187e-07   $    0.001214,  0.001214
+        -4881,SOLAR_CARDS.190,SOLAR_CARDS.194,  1.204086e-06   $    0.012191,  0.012191
+        -4882,SOLAR_CARDS.190,SOLAR_CARDS.198,  1.218312e-07   $    0.001234,  0.001234
+        -4883,SOLAR_CARDS.190,SOLAR_CARDS.226,  5.449373e-07   $    0.005517,  0.005517
+        -4884,SOLAR_CARDS.190,SOLAR_CARDS.230,  1.231523e-06   $    0.012469,  0.012469
+        -4885,SOLAR_CARDS.190,SOLAR_CARDS.234,  4.726732e-07   $    0.004786,  0.004786
+        -4886,SOLAR_CARDS.190,SOLAR_CARDS.266,  5.558636e-08   $    0.000563,  0.001126
+        -4887,SOLAR_CARDS.190,SOLAR_CARDS.270,  1.017795e-07   $    0.001031,  0.002061
+        -4888,SOLAR_CARDS.190,SOLAR_CARDS.274,  5.704091e-08   $    0.000578,  0.001155
+        -4889,SOLAR_CARDS.192,SOLAR_CARDS.196,  1.216117e-06   $    0.012313,  0.012313
+        -4890,SOLAR_CARDS.192,SOLAR_CARDS.200,  1.618843e-07   $    0.001639,  0.001639
+        -4891,SOLAR_CARDS.192,SOLAR_CARDS.228,  4.955003e-07   $    0.005017,  0.005017
+        -4892,SOLAR_CARDS.192,SOLAR_CARDS.232,  1.149299e-06   $    0.011637,  0.011637
+        -4893,SOLAR_CARDS.192,SOLAR_CARDS.236,  4.613372e-07   $    0.004671,  0.004671
+        -4894,SOLAR_CARDS.192,SOLAR_CARDS.240,  1.097098e-07   $    0.001111,  0.001111
+        -4895,SOLAR_CARDS.192,SOLAR_CARDS.272,  9.489383e-08   $    0.000961,  0.001922
+        -4896,SOLAR_CARDS.192,SOLAR_CARDS.276,  6.240909e-08   $    0.000632,  0.001264
+        -4897,SOLAR_CARDS.192,SOLAR_CARDS.508,  9.979971e-08   $    0.001010,  0.001010
+        -4898,SOLAR_CARDS.193,SOLAR_CARDS.197,  3.246350e-06   $    0.016435,  0.016435
+        -4899,SOLAR_CARDS.193,SOLAR_CARDS.201,  3.372331e-07   $    0.001707,  0.001707
+        -4900,SOLAR_CARDS.193,SOLAR_CARDS.225,  2.016309e-07   $    0.001021,  0.001021
+        -4901,SOLAR_CARDS.193,SOLAR_CARDS.229,  1.377701e-06   $    0.006975,  0.006975
+        -4902,SOLAR_CARDS.193,SOLAR_CARDS.233,  3.089922e-06   $    0.015643,  0.015643
+        -4903,SOLAR_CARDS.193,SOLAR_CARDS.237,  1.443664e-06   $    0.007309,  0.007309
+        -4904,SOLAR_CARDS.193,SOLAR_CARDS.241,  2.625757e-07   $    0.001329,  0.001329
+        -4905,SOLAR_CARDS.193,SOLAR_CARDS.269,  1.900552e-07   $    0.000962,  0.001924
+        -4906,SOLAR_CARDS.193,SOLAR_CARDS.273,  2.369178e-07   $    0.001199,  0.002399
+        -4907,SOLAR_CARDS.193,SOLAR_CARDS.277,  2.065049e-07   $    0.001045,  0.002091
+        -4908,SOLAR_CARDS.193,SOLAR_CARDS.504,  2.871808e-07   $    0.001454,  0.001454
+        -4909,SOLAR_CARDS.193,SOLAR_CARDS.510,  3.291249e-07   $    0.001666,  0.001666
+        -4910,SOLAR_CARDS.193,SOLAR_CARDS.517,  2.240430e-07   $    0.001134,  0.001134
+        -4911,SOLAR_CARDS.194,SOLAR_CARDS.198,  1.172116e-06   $    0.011868,  0.011868
+        -4912,SOLAR_CARDS.194,SOLAR_CARDS.202,  1.378162e-07   $    0.001395,  0.001395
+        -4913,SOLAR_CARDS.194,SOLAR_CARDS.226,  1.145785e-07   $    0.001160,  0.001160
+        -4914,SOLAR_CARDS.194,SOLAR_CARDS.230,  4.960064e-07   $    0.005022,  0.005022
+        -4915,SOLAR_CARDS.194,SOLAR_CARDS.234,  1.198410e-06   $    0.012134,  0.012134
+        -4916,SOLAR_CARDS.194,SOLAR_CARDS.238,  4.388403e-07   $    0.004443,  0.004443
+        -4917,SOLAR_CARDS.194,SOLAR_CARDS.274,  1.179881e-07   $    0.001195,  0.002389
+        -4918,SOLAR_CARDS.194,SOLAR_CARDS.278,  5.618725e-08   $    0.000569,  0.001138
+        -4919,SOLAR_CARDS.194,SOLAR_CARDS.512,  1.459322e-07   $    0.001478,  0.001478
+        -4920,SOLAR_CARDS.196,SOLAR_CARDS.200,  1.155616e-06   $    0.011701,  0.011701
+        -4921,SOLAR_CARDS.196,SOLAR_CARDS.204,  1.572553e-07   $    0.001592,  0.001592
+        -4922,SOLAR_CARDS.196,SOLAR_CARDS.232,  5.260607e-07   $    0.005326,  0.005326
+        -4923,SOLAR_CARDS.196,SOLAR_CARDS.236,  1.160378e-06   $    0.011749,  0.011749
+        -4924,SOLAR_CARDS.196,SOLAR_CARDS.240,  4.887951e-07   $    0.004949,  0.004949
+        -4925,SOLAR_CARDS.196,SOLAR_CARDS.272,  7.394341e-08   $    0.000749,  0.001497
+        -4926,SOLAR_CARDS.196,SOLAR_CARDS.276,  1.116084e-07   $    0.001130,  0.002260
+        -4927,SOLAR_CARDS.196,SOLAR_CARDS.280,  6.404655e-08   $    0.000648,  0.001297
+        -4928,SOLAR_CARDS.196,SOLAR_CARDS.516,  1.002476e-07   $    0.001015,  0.001015
+        -4929,SOLAR_CARDS.197,SOLAR_CARDS.201,  3.014754e-06   $    0.015262,  0.015262
+        -4930,SOLAR_CARDS.197,SOLAR_CARDS.205,  4.010608e-07   $    0.002030,  0.002030
+        -4931,SOLAR_CARDS.197,SOLAR_CARDS.229,  2.057777e-07   $    0.001042,  0.001042
+        -4932,SOLAR_CARDS.197,SOLAR_CARDS.233,  1.373006e-06   $    0.006951,  0.006951
+        -4933,SOLAR_CARDS.197,SOLAR_CARDS.237,  3.258156e-06   $    0.016494,  0.016494
+        -4934,SOLAR_CARDS.197,SOLAR_CARDS.241,  1.301102e-06   $    0.006587,  0.006587
+        -4935,SOLAR_CARDS.197,SOLAR_CARDS.245,  2.429749e-07   $    0.001230,  0.001230
+        -4936,SOLAR_CARDS.197,SOLAR_CARDS.273,  1.485901e-07   $    0.000752,  0.001504
+        -4937,SOLAR_CARDS.197,SOLAR_CARDS.277,  2.699435e-07   $    0.001367,  0.002733
+        -4938,SOLAR_CARDS.197,SOLAR_CARDS.281,  1.904189e-07   $    0.000964,  0.001928
+        -4939,SOLAR_CARDS.197,SOLAR_CARDS.510,  2.561275e-07   $    0.001297,  0.001297
+        -4940,SOLAR_CARDS.197,SOLAR_CARDS.517,  3.183231e-07   $    0.001612,  0.001612
+        -4941,SOLAR_CARDS.197,SOLAR_CARDS.521,  2.512613e-07   $    0.001272,  0.001272
+        -4942,SOLAR_CARDS.198,SOLAR_CARDS.202,  1.149657e-06   $    0.011640,  0.011640
+        -4943,SOLAR_CARDS.198,SOLAR_CARDS.206,  1.308922e-07   $    0.001325,  0.001325
+        -4944,SOLAR_CARDS.198,SOLAR_CARDS.230,  1.018713e-07   $    0.001031,  0.001031
+        -4945,SOLAR_CARDS.198,SOLAR_CARDS.234,  4.570051e-07   $    0.004627,  0.004627
+        -4946,SOLAR_CARDS.198,SOLAR_CARDS.238,  1.145911e-06   $    0.011602,  0.011602
+        -4947,SOLAR_CARDS.198,SOLAR_CARDS.242,  5.206247e-07   $    0.005271,  0.005271
+        -4948,SOLAR_CARDS.198,SOLAR_CARDS.246,  1.001678e-07   $    0.001014,  0.001014
+        -4949,SOLAR_CARDS.198,SOLAR_CARDS.274,  6.645048e-08   $    0.000673,  0.001346
+        -4950,SOLAR_CARDS.198,SOLAR_CARDS.278,  8.589673e-08   $    0.000870,  0.001739
+        -4951,SOLAR_CARDS.198,SOLAR_CARDS.282,  7.284085e-08   $    0.000738,  0.001475
+        -4952,SOLAR_CARDS.198,SOLAR_CARDS.518,  1.132131e-07   $    0.001146,  0.001146
+        -4953,SOLAR_CARDS.200,SOLAR_CARDS.204,  1.192047e-06   $    0.012069,  0.012069
+        -4954,SOLAR_CARDS.200,SOLAR_CARDS.208,  1.159908e-07   $    0.001174,  0.002349
+        -4955,SOLAR_CARDS.200,SOLAR_CARDS.232,  1.067194e-07   $    0.001081,  0.001081
+        -4956,SOLAR_CARDS.200,SOLAR_CARDS.236,  5.248006e-07   $    0.005314,  0.005314
+        -4957,SOLAR_CARDS.200,SOLAR_CARDS.240,  1.165477e-06   $    0.011800,  0.011800
+        -4958,SOLAR_CARDS.200,SOLAR_CARDS.244,  4.701948e-07   $    0.004761,  0.004761
+        -4959,SOLAR_CARDS.200,SOLAR_CARDS.248,  5.301005e-08   $    0.000537,  0.001073
+        -4960,SOLAR_CARDS.200,SOLAR_CARDS.276,  5.445061e-08   $    0.000551,  0.001103
+        -4961,SOLAR_CARDS.200,SOLAR_CARDS.280,  9.145696e-08   $    0.000926,  0.001852
+        -4962,SOLAR_CARDS.200,SOLAR_CARDS.284,  5.672644e-08   $    0.000574,  0.001149
+        -4963,SOLAR_CARDS.200,SOLAR_CARDS.520,  1.016960e-07   $    0.001030,  0.001030
+        -4964,SOLAR_CARDS.201,SOLAR_CARDS.205,  3.076459e-06   $    0.015575,  0.015575
+        -4965,SOLAR_CARDS.201,SOLAR_CARDS.209,  2.424689e-07   $    0.001227,  0.002455
+        -4966,SOLAR_CARDS.201,SOLAR_CARDS.233,  2.109827e-07   $    0.001068,  0.001068
+        -4967,SOLAR_CARDS.201,SOLAR_CARDS.237,  1.362731e-06   $    0.006899,  0.006899
+        -4968,SOLAR_CARDS.201,SOLAR_CARDS.241,  3.198115e-06   $    0.016190,  0.016190
+        -4969,SOLAR_CARDS.201,SOLAR_CARDS.245,  1.466291e-06   $    0.007423,  0.007423
+        -4970,SOLAR_CARDS.201,SOLAR_CARDS.249,  1.320235e-07   $    0.000668,  0.001337
+        -4971,SOLAR_CARDS.201,SOLAR_CARDS.277,  1.350018e-07   $    0.000683,  0.001367
+        -4972,SOLAR_CARDS.201,SOLAR_CARDS.281,  2.768725e-07   $    0.001402,  0.002803
+        -4973,SOLAR_CARDS.201,SOLAR_CARDS.285,  1.583338e-07   $    0.000802,  0.001603
+        -4974,SOLAR_CARDS.201,SOLAR_CARDS.517,  2.430151e-07   $    0.001230,  0.001230
+        -4975,SOLAR_CARDS.201,SOLAR_CARDS.521,  3.888196e-07   $    0.001968,  0.001968
+        -4976,SOLAR_CARDS.201,SOLAR_CARDS.525,  2.945247e-07   $    0.001491,  0.001491
+        -4977,SOLAR_CARDS.202,SOLAR_CARDS.206,  1.189553e-06   $    0.012044,  0.012044
+        -4978,SOLAR_CARDS.202,SOLAR_CARDS.210,  7.409594e-08   $    0.000750,  0.001500
+        -4979,SOLAR_CARDS.202,SOLAR_CARDS.238,  5.151885e-07   $    0.005216,  0.005216
+        -4980,SOLAR_CARDS.202,SOLAR_CARDS.242,  1.152079e-06   $    0.011665,  0.011665
+        -4981,SOLAR_CARDS.202,SOLAR_CARDS.246,  4.325103e-07   $    0.004379,  0.004379
+        -4982,SOLAR_CARDS.202,SOLAR_CARDS.250,  5.318662e-08   $    0.000539,  0.001077
+        -4983,SOLAR_CARDS.202,SOLAR_CARDS.278,  5.493662e-08   $    0.000556,  0.001112
+        -4984,SOLAR_CARDS.202,SOLAR_CARDS.282,  1.146549e-07   $    0.001161,  0.002322
+        -4985,SOLAR_CARDS.204,SOLAR_CARDS.208,  8.454020e-07   $    0.008560,  0.017119
+        -4986,SOLAR_CARDS.204,SOLAR_CARDS.236,  1.054022e-07   $    0.001067,  0.001067
+        -4987,SOLAR_CARDS.204,SOLAR_CARDS.240,  4.704733e-07   $    0.004764,  0.004764
+        -4988,SOLAR_CARDS.204,SOLAR_CARDS.244,  1.113622e-06   $    0.011275,  0.011275
+        -4989,SOLAR_CARDS.204,SOLAR_CARDS.248,  3.531870e-07   $    0.003576,  0.007152
+        -4990,SOLAR_CARDS.204,SOLAR_CARDS.280,  6.001640e-08   $    0.000608,  0.001215
+        -4991,SOLAR_CARDS.204,SOLAR_CARDS.284,  1.242970e-07   $    0.001259,  0.002517
+        -4992,SOLAR_CARDS.204,SOLAR_CARDS.288,  3.077540e-08   $    0.000312,  0.001246
+        -4993,SOLAR_CARDS.205,SOLAR_CARDS.209,  2.229655e-06   $    0.011288,  0.022575
+        -4994,SOLAR_CARDS.205,SOLAR_CARDS.237,  2.379181e-07   $    0.001204,  0.001204
+        -4995,SOLAR_CARDS.205,SOLAR_CARDS.241,  1.341792e-06   $    0.006793,  0.006793
+        -4996,SOLAR_CARDS.205,SOLAR_CARDS.245,  3.355714e-06   $    0.016988,  0.016988
+        -4997,SOLAR_CARDS.205,SOLAR_CARDS.249,  1.019949e-06   $    0.005163,  0.010327
+        -4998,SOLAR_CARDS.205,SOLAR_CARDS.281,  1.754150e-07   $    0.000888,  0.001776
+        -4999,SOLAR_CARDS.205,SOLAR_CARDS.285,  2.409893e-07   $    0.001220,  0.002440
+        -5000,SOLAR_CARDS.205,SOLAR_CARDS.289,  6.748130e-08   $    0.000342,  0.001366
+        -5001,SOLAR_CARDS.205,SOLAR_CARDS.525,  3.146161e-07   $    0.001593,  0.001593
+        -5002,SOLAR_CARDS.205,SOLAR_CARDS.529,  1.310803e-07   $    0.000664,  0.001327
+        -5003,SOLAR_CARDS.206,SOLAR_CARDS.210,  8.056314e-07   $    0.008157,  0.016314
+        -5004,SOLAR_CARDS.206,SOLAR_CARDS.242,  5.517717e-07   $    0.005587,  0.005587
+        -5005,SOLAR_CARDS.206,SOLAR_CARDS.246,  1.155879e-06   $    0.011703,  0.011703
+        -5006,SOLAR_CARDS.206,SOLAR_CARDS.250,  3.398823e-07   $    0.003441,  0.006883
+        -5007,SOLAR_CARDS.206,SOLAR_CARDS.282,  6.034498e-08   $    0.000611,  0.001222
+        -5008,SOLAR_CARDS.206,SOLAR_CARDS.286,  1.038106e-07   $    0.001051,  0.002102
+        -5009,SOLAR_CARDS.206,SOLAR_CARDS.290,  3.471210e-08   $    0.000351,  0.001406
+        -5010,SOLAR_CARDS.208,SOLAR_CARDS.240,  5.525256e-08   $    0.001119,  0.000559
+        -5011,SOLAR_CARDS.208,SOLAR_CARDS.244,  3.519375e-07   $    0.007127,  0.003563
+        -5012,SOLAR_CARDS.208,SOLAR_CARDS.248,  2.797088e-07   $    0.005664,  0.005664
+        -5013,SOLAR_CARDS.209,SOLAR_CARDS.241,  1.313190e-07   $    0.001330,  0.000665
+        -5014,SOLAR_CARDS.209,SOLAR_CARDS.245,  9.274102e-07   $    0.009390,  0.004695
+        -5015,SOLAR_CARDS.209,SOLAR_CARDS.249,  8.041151e-07   $    0.008142,  0.008142
+        -5016,SOLAR_CARDS.209,SOLAR_CARDS.289,  6.160772e-08   $    0.000624,  0.001248
+        -5017,SOLAR_CARDS.209,SOLAR_CARDS.525,  1.323550e-07   $    0.001340,  0.000670
+        -5018,SOLAR_CARDS.210,SOLAR_CARDS.242,  5.719659e-08   $    0.001158,  0.000579
+        -5019,SOLAR_CARDS.210,SOLAR_CARDS.246,  3.322476e-07   $    0.006728,  0.003364
+        -5020,SOLAR_CARDS.210,SOLAR_CARDS.250,  2.809203e-07   $    0.005689,  0.005689
+        -5021,SOLAR_CARDS.212,SOLAR_CARDS.216,  8.169936e-07   $    0.016544,  0.008272
+        -5022,SOLAR_CARDS.212,SOLAR_CARDS.220,  8.598701e-08   $    0.001741,  0.000871
+        -5023,SOLAR_CARDS.212,SOLAR_CARDS.252,  1.917544e-07   $    0.003883,  0.007766
+        -5024,SOLAR_CARDS.212,SOLAR_CARDS.256,  2.164721e-07   $    0.004384,  0.004384
+        -5025,SOLAR_CARDS.213,SOLAR_CARDS.214,  5.512784e-08   $    0.000558,  0.001116
+        -5026,SOLAR_CARDS.213,SOLAR_CARDS.217,  2.181881e-06   $    0.022092,  0.011046
+        -5027,SOLAR_CARDS.213,SOLAR_CARDS.221,  2.623701e-07   $    0.002656,  0.001328
+        -5028,SOLAR_CARDS.213,SOLAR_CARDS.253,  6.247242e-07   $    0.006325,  0.012651
+        -5029,SOLAR_CARDS.213,SOLAR_CARDS.257,  6.553884e-07   $    0.006636,  0.006636
+        -5030,SOLAR_CARDS.213,SOLAR_CARDS.261,  1.206441e-07   $    0.001222,  0.001222
+        -5031,SOLAR_CARDS.213,SOLAR_CARDS.537,  1.436101e-07   $    0.001454,  0.000727
+        -5032,SOLAR_CARDS.214,SOLAR_CARDS.218,  8.826377e-07   $    0.017873,  0.008937
+        -5033,SOLAR_CARDS.214,SOLAR_CARDS.222,  9.120206e-08   $    0.001847,  0.000923
+        -5034,SOLAR_CARDS.214,SOLAR_CARDS.254,  2.385446e-07   $    0.004831,  0.009661
+        -5035,SOLAR_CARDS.214,SOLAR_CARDS.258,  1.918901e-07   $    0.003886,  0.003886
+        -5036,SOLAR_CARDS.216,SOLAR_CARDS.220,  1.189390e-06   $    0.012043,  0.012043
+        -5037,SOLAR_CARDS.216,SOLAR_CARDS.224,  1.583094e-07   $    0.001603,  0.001603
+        -5038,SOLAR_CARDS.216,SOLAR_CARDS.252,  2.178286e-07   $    0.002206,  0.008822
+        -5039,SOLAR_CARDS.216,SOLAR_CARDS.256,  8.106672e-07   $    0.008208,  0.016416
+        -5040,SOLAR_CARDS.216,SOLAR_CARDS.260,  3.604775e-07   $    0.003650,  0.007300
+        -5041,SOLAR_CARDS.216,SOLAR_CARDS.264,  5.720008e-08   $    0.000579,  0.001158
+        -5042,SOLAR_CARDS.216,SOLAR_CARDS.532,  6.254278e-08   $    0.000633,  0.001266
+        -5043,SOLAR_CARDS.216,SOLAR_CARDS.536,  1.324216e-07   $    0.001341,  0.001341
+        -5044,SOLAR_CARDS.217,SOLAR_CARDS.221,  3.188600e-06   $    0.016142,  0.016142
+        -5045,SOLAR_CARDS.217,SOLAR_CARDS.225,  3.922350e-07   $    0.001986,  0.001986
+        -5046,SOLAR_CARDS.217,SOLAR_CARDS.253,  6.033683e-07   $    0.003055,  0.012218
+        -5047,SOLAR_CARDS.217,SOLAR_CARDS.257,  2.304878e-06   $    0.011668,  0.023337
+        -5048,SOLAR_CARDS.217,SOLAR_CARDS.261,  7.832752e-07   $    0.003965,  0.007931
+        -5049,SOLAR_CARDS.217,SOLAR_CARDS.265,  1.261596e-07   $    0.000639,  0.001277
+        -5050,SOLAR_CARDS.217,SOLAR_CARDS.533,  1.620490e-07   $    0.000820,  0.001641
+        -5051,SOLAR_CARDS.217,SOLAR_CARDS.537,  3.749367e-07   $    0.001898,  0.001898
+        -5052,SOLAR_CARDS.218,SOLAR_CARDS.222,  1.208617e-06   $    0.012237,  0.012237
+        -5053,SOLAR_CARDS.218,SOLAR_CARDS.226,  1.286172e-07   $    0.001302,  0.001302
+        -5054,SOLAR_CARDS.218,SOLAR_CARDS.254,  2.474414e-07   $    0.002505,  0.010021
+        -5055,SOLAR_CARDS.218,SOLAR_CARDS.258,  8.556282e-07   $    0.008663,  0.017326
+        -5056,SOLAR_CARDS.218,SOLAR_CARDS.262,  3.128780e-07   $    0.003168,  0.006336
+        -5057,SOLAR_CARDS.218,SOLAR_CARDS.266,  6.479512e-08   $    0.000656,  0.001312
+        -5058,SOLAR_CARDS.218,SOLAR_CARDS.538,  1.477486e-07   $    0.001496,  0.001496
+        -5059,SOLAR_CARDS.220,SOLAR_CARDS.224,  1.076973e-06   $    0.010904,  0.010904
+        -5060,SOLAR_CARDS.220,SOLAR_CARDS.228,  1.146387e-07   $    0.001161,  0.001161
+        -5061,SOLAR_CARDS.220,SOLAR_CARDS.252,  3.309523e-08   $    0.000335,  0.001340
+        -5062,SOLAR_CARDS.220,SOLAR_CARDS.256,  2.896806e-07   $    0.002933,  0.005866
+        -5063,SOLAR_CARDS.220,SOLAR_CARDS.260,  8.478037e-07   $    0.008584,  0.017168
+        -5064,SOLAR_CARDS.220,SOLAR_CARDS.264,  3.367158e-07   $    0.003409,  0.006818
+        -5065,SOLAR_CARDS.221,SOLAR_CARDS.225,  3.371391e-06   $    0.017068,  0.017068
+        -5066,SOLAR_CARDS.221,SOLAR_CARDS.229,  2.601226e-07   $    0.001317,  0.001317
+        -5067,SOLAR_CARDS.221,SOLAR_CARDS.253,  1.189018e-07   $    0.000602,  0.002408
+        -5068,SOLAR_CARDS.221,SOLAR_CARDS.257,  7.876246e-07   $    0.003987,  0.007975
+        -5069,SOLAR_CARDS.221,SOLAR_CARDS.261,  2.217524e-06   $    0.011226,  0.022452
+        -5070,SOLAR_CARDS.221,SOLAR_CARDS.265,  9.203161e-07   $    0.004659,  0.009318
+        -5071,SOLAR_CARDS.221,SOLAR_CARDS.269,  1.390540e-07   $    0.000704,  0.001408
+        -5072,SOLAR_CARDS.221,SOLAR_CARDS.537,  2.899532e-07   $    0.001468,  0.001468
+        -5073,SOLAR_CARDS.222,SOLAR_CARDS.226,  1.205957e-06   $    0.012210,  0.012210
+        -5074,SOLAR_CARDS.222,SOLAR_CARDS.230,  1.340229e-07   $    0.001357,  0.001357
+        -5075,SOLAR_CARDS.222,SOLAR_CARDS.254,  3.682999e-08   $    0.000373,  0.001492
+        -5076,SOLAR_CARDS.222,SOLAR_CARDS.258,  3.287637e-07   $    0.003329,  0.006657
+        -5077,SOLAR_CARDS.222,SOLAR_CARDS.262,  8.272243e-07   $    0.008376,  0.016751
+        -5078,SOLAR_CARDS.222,SOLAR_CARDS.266,  3.499031e-07   $    0.003543,  0.007086
+        -5079,SOLAR_CARDS.222,SOLAR_CARDS.538,  9.952814e-08   $    0.001008,  0.001008
+        -5080,SOLAR_CARDS.224,SOLAR_CARDS.228,  1.180464e-06   $    0.011952,  0.011952
+        -5081,SOLAR_CARDS.224,SOLAR_CARDS.232,  1.497529e-07   $    0.001516,  0.001516
+        -5082,SOLAR_CARDS.224,SOLAR_CARDS.260,  3.042357e-07   $    0.003080,  0.006161
+        -5083,SOLAR_CARDS.224,SOLAR_CARDS.264,  8.472886e-07   $    0.008579,  0.017158
+        -5084,SOLAR_CARDS.224,SOLAR_CARDS.268,  3.200009e-07   $    0.003240,  0.006480
+        -5085,SOLAR_CARDS.224,SOLAR_CARDS.272,  6.154165e-08   $    0.000623,  0.001246
+        -5086,SOLAR_CARDS.225,SOLAR_CARDS.229,  3.185634e-06   $    0.016127,  0.016127
+        -5087,SOLAR_CARDS.225,SOLAR_CARDS.233,  4.422401e-07   $    0.002239,  0.002239
+        -5088,SOLAR_CARDS.225,SOLAR_CARDS.257,  1.613140e-07   $    0.000817,  0.001633
+        -5089,SOLAR_CARDS.225,SOLAR_CARDS.261,  7.669712e-07   $    0.003883,  0.007766
+        -5090,SOLAR_CARDS.225,SOLAR_CARDS.265,  2.309304e-06   $    0.011691,  0.023382
+        -5091,SOLAR_CARDS.225,SOLAR_CARDS.269,  8.952543e-07   $    0.004532,  0.009064
+        -5092,SOLAR_CARDS.225,SOLAR_CARDS.273,  1.604558e-07   $    0.000812,  0.001625
+        -5093,SOLAR_CARDS.226,SOLAR_CARDS.230,  1.143410e-06   $    0.011577,  0.011577
+        -5094,SOLAR_CARDS.226,SOLAR_CARDS.234,  1.528078e-07   $    0.001547,  0.001547
+        -5095,SOLAR_CARDS.226,SOLAR_CARDS.258,  6.045553e-08   $    0.000612,  0.001224
+        -5096,SOLAR_CARDS.226,SOLAR_CARDS.262,  2.931799e-07   $    0.002968,  0.005937
+        -5097,SOLAR_CARDS.226,SOLAR_CARDS.266,  8.354776e-07   $    0.008459,  0.016918
+        -5098,SOLAR_CARDS.226,SOLAR_CARDS.270,  3.638519e-07   $    0.003684,  0.007368
+        -5099,SOLAR_CARDS.228,SOLAR_CARDS.232,  1.206859e-06   $    0.012219,  0.012219
+        -5100,SOLAR_CARDS.228,SOLAR_CARDS.236,  1.333571e-07   $    0.001350,  0.001350
+        -5101,SOLAR_CARDS.228,SOLAR_CARDS.264,  3.545187e-07   $    0.003590,  0.007179
+        -5102,SOLAR_CARDS.228,SOLAR_CARDS.268,  8.250774e-07   $    0.008354,  0.016708
+        -5103,SOLAR_CARDS.228,SOLAR_CARDS.272,  3.026015e-07   $    0.003064,  0.006128
+        -5104,SOLAR_CARDS.228,SOLAR_CARDS.276,  6.192978e-08   $    0.000627,  0.001254
+        -5105,SOLAR_CARDS.229,SOLAR_CARDS.233,  3.305867e-06   $    0.016736,  0.016736
+        -5106,SOLAR_CARDS.229,SOLAR_CARDS.237,  3.485520e-07   $    0.001765,  0.001765
+        -5107,SOLAR_CARDS.229,SOLAR_CARDS.261,  1.394555e-07   $    0.000706,  0.001412
+        -5108,SOLAR_CARDS.229,SOLAR_CARDS.265,  9.643751e-07   $    0.004882,  0.009764
+        -5109,SOLAR_CARDS.229,SOLAR_CARDS.269,  2.129783e-06   $    0.010782,  0.021564
+        -5110,SOLAR_CARDS.229,SOLAR_CARDS.273,  8.906273e-07   $    0.004509,  0.009018
+        -5111,SOLAR_CARDS.229,SOLAR_CARDS.277,  1.173436e-07   $    0.000594,  0.001188
+        -5112,SOLAR_CARDS.230,SOLAR_CARDS.234,  1.083165e-06   $    0.010967,  0.010967
+        -5113,SOLAR_CARDS.230,SOLAR_CARDS.238,  1.452457e-07   $    0.001471,  0.001471
+        -5114,SOLAR_CARDS.230,SOLAR_CARDS.266,  3.496938e-07   $    0.003541,  0.007081
+        -5115,SOLAR_CARDS.230,SOLAR_CARDS.270,  8.063334e-07   $    0.008164,  0.016328
+        -5116,SOLAR_CARDS.230,SOLAR_CARDS.274,  3.296625e-07   $    0.003338,  0.006676
+        -5117,SOLAR_CARDS.232,SOLAR_CARDS.236,  1.094721e-06   $    0.011084,  0.011084
+        -5118,SOLAR_CARDS.232,SOLAR_CARDS.240,  1.001797e-07   $    0.001014,  0.001014
+        -5119,SOLAR_CARDS.232,SOLAR_CARDS.268,  3.166134e-07   $    0.003206,  0.006411
+        -5120,SOLAR_CARDS.232,SOLAR_CARDS.272,  8.279507e-07   $    0.008383,  0.016766
+        -5121,SOLAR_CARDS.232,SOLAR_CARDS.276,  3.154701e-07   $    0.003194,  0.006388
+        -5122,SOLAR_CARDS.232,SOLAR_CARDS.280,  5.820349e-08   $    0.000589,  0.001179
+        -5123,SOLAR_CARDS.233,SOLAR_CARDS.237,  3.243887e-06   $    0.016422,  0.016422
+        -5124,SOLAR_CARDS.233,SOLAR_CARDS.241,  3.932436e-07   $    0.001991,  0.001991
+        -5125,SOLAR_CARDS.233,SOLAR_CARDS.265,  1.726648e-07   $    0.000874,  0.001748
+        -5126,SOLAR_CARDS.233,SOLAR_CARDS.269,  8.396357e-07   $    0.004251,  0.008501
+        -5127,SOLAR_CARDS.233,SOLAR_CARDS.273,  2.233787e-06   $    0.011309,  0.022617
+        -5128,SOLAR_CARDS.233,SOLAR_CARDS.277,  9.057559e-07   $    0.004585,  0.009171
+        -5129,SOLAR_CARDS.233,SOLAR_CARDS.281,  1.723675e-07   $    0.000873,  0.001745
+        -5130,SOLAR_CARDS.234,SOLAR_CARDS.238,  1.203960e-06   $    0.012190,  0.012190
+        -5131,SOLAR_CARDS.234,SOLAR_CARDS.242,  1.275894e-07   $    0.001292,  0.001292
+        -5132,SOLAR_CARDS.234,SOLAR_CARDS.270,  3.271687e-07   $    0.003313,  0.006625
+        -5133,SOLAR_CARDS.234,SOLAR_CARDS.274,  8.643927e-07   $    0.008752,  0.017504
+        -5134,SOLAR_CARDS.234,SOLAR_CARDS.278,  3.749854e-07   $    0.003797,  0.007593
+        -5135,SOLAR_CARDS.236,SOLAR_CARDS.240,  1.223547e-06   $    0.012388,  0.012388
+        -5136,SOLAR_CARDS.236,SOLAR_CARDS.244,  1.239910e-07   $    0.001255,  0.001255
+        -5137,SOLAR_CARDS.236,SOLAR_CARDS.272,  3.198763e-07   $    0.003239,  0.006477
+        -5138,SOLAR_CARDS.236,SOLAR_CARDS.276,  7.778668e-07   $    0.007876,  0.015752
+        -5139,SOLAR_CARDS.236,SOLAR_CARDS.280,  3.699753e-07   $    0.003746,  0.007492
+        -5140,SOLAR_CARDS.237,SOLAR_CARDS.241,  3.065650e-06   $    0.015520,  0.015520
+        -5141,SOLAR_CARDS.237,SOLAR_CARDS.245,  3.409980e-07   $    0.001726,  0.001726
+        -5142,SOLAR_CARDS.237,SOLAR_CARDS.269,  1.632774e-07   $    0.000827,  0.001653
+        -5143,SOLAR_CARDS.237,SOLAR_CARDS.273,  9.099081e-07   $    0.004606,  0.009213
+        -5144,SOLAR_CARDS.237,SOLAR_CARDS.277,  2.232375e-06   $    0.011301,  0.022603
+        -5145,SOLAR_CARDS.237,SOLAR_CARDS.281,  8.897447e-07   $    0.004504,  0.009009
+        -5146,SOLAR_CARDS.237,SOLAR_CARDS.285,  1.243138e-07   $    0.000629,  0.001259
+        -5147,SOLAR_CARDS.238,SOLAR_CARDS.242,  1.183185e-06   $    0.011980,  0.011980
+        -5148,SOLAR_CARDS.238,SOLAR_CARDS.246,  1.334626e-07   $    0.001351,  0.001351
+        -5149,SOLAR_CARDS.238,SOLAR_CARDS.270,  5.770037e-08   $    0.000584,  0.001168
+        -5150,SOLAR_CARDS.238,SOLAR_CARDS.274,  3.187741e-07   $    0.003228,  0.006455
+        -5151,SOLAR_CARDS.238,SOLAR_CARDS.278,  8.757720e-07   $    0.008867,  0.017734
+        -5152,SOLAR_CARDS.238,SOLAR_CARDS.282,  3.292606e-07   $    0.003334,  0.006668
+        -5153,SOLAR_CARDS.240,SOLAR_CARDS.244,  1.096982e-06   $    0.011107,  0.011107
+        -5154,SOLAR_CARDS.240,SOLAR_CARDS.248,  9.363676e-08   $    0.000948,  0.001896
+        -5155,SOLAR_CARDS.240,SOLAR_CARDS.276,  3.336319e-07   $    0.003378,  0.006756
+        -5156,SOLAR_CARDS.240,SOLAR_CARDS.280,  8.182361e-07   $    0.008285,  0.016569
+        -5157,SOLAR_CARDS.240,SOLAR_CARDS.284,  3.491748e-07   $    0.003535,  0.007071
+        -5158,SOLAR_CARDS.240,SOLAR_CARDS.288,  3.705149e-08   $    0.000375,  0.001501
+        -5159,SOLAR_CARDS.241,SOLAR_CARDS.245,  2.984142e-06   $    0.015107,  0.015107
+        -5160,SOLAR_CARDS.241,SOLAR_CARDS.249,  2.785626e-07   $    0.001410,  0.002820
+        -5161,SOLAR_CARDS.241,SOLAR_CARDS.273,  1.451426e-07   $    0.000735,  0.001470
+        -5162,SOLAR_CARDS.241,SOLAR_CARDS.277,  9.335665e-07   $    0.004726,  0.009452
+        -5163,SOLAR_CARDS.241,SOLAR_CARDS.281,  2.206755e-06   $    0.011172,  0.022343
+        -5164,SOLAR_CARDS.241,SOLAR_CARDS.285,  9.143410e-07   $    0.004629,  0.009258
+        -5165,SOLAR_CARDS.241,SOLAR_CARDS.289,  9.450715e-08   $    0.000478,  0.001914
+        -5166,SOLAR_CARDS.242,SOLAR_CARDS.246,  1.193318e-06   $    0.012082,  0.012082
+        -5167,SOLAR_CARDS.242,SOLAR_CARDS.250,  8.324506e-08   $    0.000843,  0.001686
+        -5168,SOLAR_CARDS.242,SOLAR_CARDS.278,  3.062729e-07   $    0.003101,  0.006202
+        -5169,SOLAR_CARDS.242,SOLAR_CARDS.282,  7.950979e-07   $    0.008050,  0.016101
+        -5170,SOLAR_CARDS.242,SOLAR_CARDS.286,  3.330655e-07   $    0.003372,  0.006745
+        -5171,SOLAR_CARDS.242,SOLAR_CARDS.290,  3.714639e-08   $    0.000376,  0.001504
+        -5172,SOLAR_CARDS.244,SOLAR_CARDS.248,  8.194590e-07   $    0.008297,  0.016594
+        -5173,SOLAR_CARDS.244,SOLAR_CARDS.280,  3.508711e-07   $    0.003553,  0.007105
+        -5174,SOLAR_CARDS.244,SOLAR_CARDS.284,  8.150347e-07   $    0.008252,  0.016504
+        -5175,SOLAR_CARDS.244,SOLAR_CARDS.288,  2.106631e-07   $    0.002133,  0.008532
+        -5176,SOLAR_CARDS.245,SOLAR_CARDS.249,  2.220605e-06   $    0.011242,  0.022484
+        -5177,SOLAR_CARDS.245,SOLAR_CARDS.277,  1.744912e-07   $    0.000883,  0.001767
+        -5178,SOLAR_CARDS.245,SOLAR_CARDS.281,  1.011269e-06   $    0.005120,  0.010239
+        -5179,SOLAR_CARDS.245,SOLAR_CARDS.285,  2.130034e-06   $    0.010783,  0.021567
+        -5180,SOLAR_CARDS.245,SOLAR_CARDS.289,  5.723171e-07   $    0.002897,  0.011589
+        -5181,SOLAR_CARDS.246,SOLAR_CARDS.250,  8.386340e-07   $    0.008491,  0.016982
+        -5182,SOLAR_CARDS.246,SOLAR_CARDS.278,  5.641348e-08   $    0.000571,  0.001142
+        -5183,SOLAR_CARDS.246,SOLAR_CARDS.282,  3.406142e-07   $    0.003449,  0.006897
+        -5184,SOLAR_CARDS.246,SOLAR_CARDS.286,  8.377591e-07   $    0.008482,  0.016965
+        -5185,SOLAR_CARDS.246,SOLAR_CARDS.290,  2.314639e-07   $    0.002344,  0.009374
+        -5186,SOLAR_CARDS.248,SOLAR_CARDS.284,  2.129529e-07   $    0.004312,  0.004312
+        -5187,SOLAR_CARDS.248,SOLAR_CARDS.288,  1.808724e-07   $    0.003663,  0.007325
+        -5188,SOLAR_CARDS.249,SOLAR_CARDS.285,  5.594852e-07   $    0.005665,  0.005665
+        -5189,SOLAR_CARDS.249,SOLAR_CARDS.289,  5.818765e-07   $    0.005891,  0.011783
+        -5190,SOLAR_CARDS.250,SOLAR_CARDS.286,  1.900071e-07   $    0.003848,  0.003848
+        -5191,SOLAR_CARDS.250,SOLAR_CARDS.290,  1.980447e-07   $    0.004010,  0.008021
+        -5192,SOLAR_CARDS.252,SOLAR_CARDS.256,  2.297714e-07   $    0.009306,  0.004653
+        -5193,SOLAR_CARDS.253,SOLAR_CARDS.257,  5.505547e-07   $    0.011149,  0.005574
+        -5194,SOLAR_CARDS.254,SOLAR_CARDS.258,  2.075219e-07   $    0.008405,  0.004202
+        -5195,SOLAR_CARDS.256,SOLAR_CARDS.260,  2.871218e-07   $    0.005814,  0.005814
+        -5196,SOLAR_CARDS.257,SOLAR_CARDS.261,  8.357019e-07   $    0.008461,  0.008461
+        -5197,SOLAR_CARDS.258,SOLAR_CARDS.262,  2.702010e-07   $    0.005472,  0.005472
+        -5198,SOLAR_CARDS.260,SOLAR_CARDS.264,  2.811633e-07   $    0.005694,  0.005694
+        -5199,SOLAR_CARDS.261,SOLAR_CARDS.265,  7.229476e-07   $    0.007320,  0.007320
+        -5200,SOLAR_CARDS.262,SOLAR_CARDS.266,  2.654651e-07   $    0.005376,  0.005376
+        -5201,SOLAR_CARDS.264,SOLAR_CARDS.268,  3.162960e-07   $    0.006405,  0.006405
+        -5202,SOLAR_CARDS.265,SOLAR_CARDS.269,  7.946306e-07   $    0.008046,  0.008046
+        -5203,SOLAR_CARDS.266,SOLAR_CARDS.270,  2.825184e-07   $    0.005721,  0.005721
+        -5204,SOLAR_CARDS.268,SOLAR_CARDS.272,  2.875740e-07   $    0.005823,  0.005823
+        -5205,SOLAR_CARDS.269,SOLAR_CARDS.273,  7.301707e-07   $    0.007393,  0.007393
+        -5206,SOLAR_CARDS.270,SOLAR_CARDS.274,  3.009306e-07   $    0.006094,  0.006094
+        -5207,SOLAR_CARDS.272,SOLAR_CARDS.276,  3.013030e-07   $    0.006101,  0.006101
+        -5208,SOLAR_CARDS.273,SOLAR_CARDS.277,  8.655809e-07   $    0.008764,  0.008764
+        -5209,SOLAR_CARDS.274,SOLAR_CARDS.278,  3.209941e-07   $    0.006500,  0.006500
+        -5210,SOLAR_CARDS.276,SOLAR_CARDS.280,  2.918667e-07   $    0.005910,  0.005910
+        -5211,SOLAR_CARDS.277,SOLAR_CARDS.281,  7.514176e-07   $    0.007608,  0.007608
+        -5212,SOLAR_CARDS.278,SOLAR_CARDS.282,  3.215825e-07   $    0.006512,  0.006512
+        -5213,SOLAR_CARDS.280,SOLAR_CARDS.284,  2.651888e-07   $    0.005370,  0.005370
+        -5214,SOLAR_CARDS.281,SOLAR_CARDS.285,  7.930211e-07   $    0.008029,  0.008029
+        -5215,SOLAR_CARDS.281,SOLAR_CARDS.289,  6.201370e-08   $    0.000628,  0.001256
+        -5216,SOLAR_CARDS.282,SOLAR_CARDS.286,  2.947066e-07   $    0.005968,  0.005968
+        -5217,SOLAR_CARDS.284,SOLAR_CARDS.288,  1.970016e-07   $    0.003989,  0.007979
+        -5218,SOLAR_CARDS.285,SOLAR_CARDS.289,  5.489734e-07   $    0.005558,  0.011117
+        -5219,SOLAR_CARDS.286,SOLAR_CARDS.290,  2.145444e-07   $    0.004345,  0.008689
+        -5220,SOLAR_CARDS.291,SOLAR_CARDS.297,  2.079130e-07   $    0.008420,  0.004210
+        -5221,SOLAR_CARDS.291,SOLAR_CARDS.300,  2.151910e-07   $    0.008715,  0.002179
+        -5222,SOLAR_CARDS.291,SOLAR_CARDS.303,  3.443447e-08   $    0.001395,  0.000349
+        -5223,SOLAR_CARDS.291,SOLAR_CARDS.332,  2.180922e-07   $    0.008833,  0.004416
+        -5224,SOLAR_CARDS.291,SOLAR_CARDS.341,  4.057906e-08   $    0.001643,  0.000411
+        -5225,SOLAR_CARDS.292,SOLAR_CARDS.298,  5.787660e-07   $    0.011720,  0.005860
+        -5226,SOLAR_CARDS.292,SOLAR_CARDS.301,  5.951748e-07   $    0.012052,  0.003013
+        -5227,SOLAR_CARDS.292,SOLAR_CARDS.304,  9.515351e-08   $    0.001927,  0.000482
+        -5228,SOLAR_CARDS.292,SOLAR_CARDS.334,  5.655199e-07   $    0.011452,  0.005726
+        -5229,SOLAR_CARDS.292,SOLAR_CARDS.342,  9.290475e-08   $    0.001881,  0.000470
+        -5230,SOLAR_CARDS.292,SOLAR_CARDS.359,  5.185233e-08   $    0.001050,  0.000525
+        -5231,SOLAR_CARDS.293,SOLAR_CARDS.299,  2.029042e-07   $    0.008218,  0.004109
+        -5232,SOLAR_CARDS.293,SOLAR_CARDS.302,  2.154671e-07   $    0.008726,  0.002182
+        -5233,SOLAR_CARDS.293,SOLAR_CARDS.305,  3.402205e-08   $    0.001378,  0.000344
+        -5234,SOLAR_CARDS.293,SOLAR_CARDS.336,  2.152839e-07   $    0.008719,  0.004359
+        -5235,SOLAR_CARDS.293,SOLAR_CARDS.343,  2.671889e-08   $    0.001082,  0.000271
+        -5236,SOLAR_CARDS.294,SOLAR_CARDS.320,  3.784272e-08   $    0.001533,  0.000383
+        -5237,SOLAR_CARDS.294,SOLAR_CARDS.324,  2.289720e-07   $    0.009273,  0.002318
+        -5238,SOLAR_CARDS.294,SOLAR_CARDS.328,  1.989361e-07   $    0.008057,  0.004028
+        -5239,SOLAR_CARDS.294,SOLAR_CARDS.374,  3.962752e-08   $    0.001605,  0.000401
+        -5240,SOLAR_CARDS.294,SOLAR_CARDS.507,  2.294695e-07   $    0.009294,  0.004647
+        -5241,SOLAR_CARDS.295,SOLAR_CARDS.321,  7.509352e-08   $    0.001521,  0.000380
+        -5242,SOLAR_CARDS.295,SOLAR_CARDS.325,  6.473293e-07   $    0.013108,  0.003277
+        -5243,SOLAR_CARDS.295,SOLAR_CARDS.329,  5.517924e-07   $    0.011174,  0.005587
+        -5244,SOLAR_CARDS.295,SOLAR_CARDS.371,  4.944720e-08   $    0.001001,  0.000250
+        -5245,SOLAR_CARDS.295,SOLAR_CARDS.375,  9.383309e-08   $    0.001900,  0.000475
+        -5246,SOLAR_CARDS.295,SOLAR_CARDS.509,  5.428838e-07   $    0.010993,  0.005497
+        -5247,SOLAR_CARDS.296,SOLAR_CARDS.326,  2.327592e-07   $    0.009427,  0.002357
+        -5248,SOLAR_CARDS.296,SOLAR_CARDS.330,  2.200431e-07   $    0.008912,  0.004456
+        -5249,SOLAR_CARDS.296,SOLAR_CARDS.376,  3.833863e-08   $    0.001553,  0.000388
+        -5250,SOLAR_CARDS.296,SOLAR_CARDS.511,  2.159291e-07   $    0.008745,  0.004373
+        -5251,SOLAR_CARDS.297,SOLAR_CARDS.300,  8.534135e-07   $    0.017282,  0.008641
+        -5252,SOLAR_CARDS.297,SOLAR_CARDS.303,  8.717134e-08   $    0.001765,  0.000883
+        -5253,SOLAR_CARDS.297,SOLAR_CARDS.332,  2.394089e-07   $    0.004848,  0.004848
+        -5254,SOLAR_CARDS.297,SOLAR_CARDS.333,  2.949161e-07   $    0.005972,  0.005972
+        -5255,SOLAR_CARDS.297,SOLAR_CARDS.341,  3.045961e-07   $    0.006168,  0.003084
+        -5256,SOLAR_CARDS.297,SOLAR_CARDS.345,  6.535665e-08   $    0.001323,  0.000662
+        -5257,SOLAR_CARDS.298,SOLAR_CARDS.299,  5.758552e-08   $    0.000583,  0.001166
+        -5258,SOLAR_CARDS.298,SOLAR_CARDS.301,  2.202045e-06   $    0.022296,  0.011148
+        -5259,SOLAR_CARDS.298,SOLAR_CARDS.304,  2.488779e-07   $    0.002520,  0.001260
+        -5260,SOLAR_CARDS.298,SOLAR_CARDS.334,  6.147852e-07   $    0.006225,  0.006225
+        -5261,SOLAR_CARDS.298,SOLAR_CARDS.335,  8.018981e-07   $    0.008119,  0.008119
+        -5262,SOLAR_CARDS.298,SOLAR_CARDS.342,  8.865803e-07   $    0.008977,  0.004488
+        -5263,SOLAR_CARDS.298,SOLAR_CARDS.346,  1.627510e-07   $    0.001648,  0.000824
+        -5264,SOLAR_CARDS.298,SOLAR_CARDS.392,  1.781176e-07   $    0.001803,  0.000902
+        -5265,SOLAR_CARDS.299,SOLAR_CARDS.302,  8.804881e-07   $    0.017830,  0.008915
+        -5266,SOLAR_CARDS.299,SOLAR_CARDS.305,  8.700460e-08   $    0.001762,  0.000881
+        -5267,SOLAR_CARDS.299,SOLAR_CARDS.336,  2.375300e-07   $    0.004810,  0.004810
+        -5268,SOLAR_CARDS.299,SOLAR_CARDS.337,  2.826029e-07   $    0.005723,  0.005723
+        -5269,SOLAR_CARDS.299,SOLAR_CARDS.343,  3.414441e-07   $    0.006914,  0.003457
+        -5270,SOLAR_CARDS.299,SOLAR_CARDS.347,  5.372004e-08   $    0.001088,  0.000544
+        -5271,SOLAR_CARDS.299,SOLAR_CARDS.393,  5.375193e-08   $    0.001088,  0.000544
+        -5272,SOLAR_CARDS.300,SOLAR_CARDS.303,  1.119064e-06   $    0.011331,  0.011331
+        -5273,SOLAR_CARDS.300,SOLAR_CARDS.306,  1.315703e-07   $    0.001332,  0.001332
+        -5274,SOLAR_CARDS.300,SOLAR_CARDS.332,  8.218494e-07   $    0.008321,  0.016642
+        -5275,SOLAR_CARDS.300,SOLAR_CARDS.333,  3.152657e-07   $    0.003192,  0.006384
+        -5276,SOLAR_CARDS.300,SOLAR_CARDS.341,  1.169808e-06   $    0.011844,  0.011844
+        -5277,SOLAR_CARDS.300,SOLAR_CARDS.345,  5.361778e-07   $    0.005429,  0.005429
+        -5278,SOLAR_CARDS.300,SOLAR_CARDS.349,  1.127063e-07   $    0.001141,  0.001141
+        -5279,SOLAR_CARDS.300,SOLAR_CARDS.357,  3.405202e-07   $    0.003448,  0.006896
+        -5280,SOLAR_CARDS.300,SOLAR_CARDS.383,  6.494638e-08   $    0.000658,  0.001315
+        -5281,SOLAR_CARDS.300,SOLAR_CARDS.391,  1.690124e-07   $    0.001711,  0.001711
+        -5282,SOLAR_CARDS.301,SOLAR_CARDS.304,  3.333480e-06   $    0.016876,  0.016876
+        -5283,SOLAR_CARDS.301,SOLAR_CARDS.307,  3.054446e-07   $    0.001546,  0.001546
+        -5284,SOLAR_CARDS.301,SOLAR_CARDS.334,  2.295312e-06   $    0.011620,  0.023240
+        -5285,SOLAR_CARDS.301,SOLAR_CARDS.335,  8.961646e-07   $    0.004537,  0.009074
+        -5286,SOLAR_CARDS.301,SOLAR_CARDS.342,  3.019956e-06   $    0.015289,  0.015289
+        -5287,SOLAR_CARDS.301,SOLAR_CARDS.346,  1.564064e-06   $    0.007918,  0.007918
+        -5288,SOLAR_CARDS.301,SOLAR_CARDS.350,  2.895540e-07   $    0.001466,  0.001466
+        -5289,SOLAR_CARDS.301,SOLAR_CARDS.359,  9.201672e-07   $    0.004658,  0.009317
+        -5290,SOLAR_CARDS.301,SOLAR_CARDS.384,  1.143613e-07   $    0.000579,  0.001158
+        -5291,SOLAR_CARDS.301,SOLAR_CARDS.385,  1.471193e-07   $    0.000745,  0.001490
+        -5292,SOLAR_CARDS.301,SOLAR_CARDS.392,  3.556418e-07   $    0.001800,  0.001800
+        -5293,SOLAR_CARDS.301,SOLAR_CARDS.396,  2.129176e-07   $    0.001078,  0.001078
+        -5294,SOLAR_CARDS.302,SOLAR_CARDS.305,  1.176517e-06   $    0.011912,  0.011912
+        -5295,SOLAR_CARDS.302,SOLAR_CARDS.308,  1.120283e-07   $    0.001134,  0.001134
+        -5296,SOLAR_CARDS.302,SOLAR_CARDS.336,  8.372115e-07   $    0.008477,  0.016954
+        -5297,SOLAR_CARDS.302,SOLAR_CARDS.337,  3.493971e-07   $    0.003538,  0.007075
+        -5298,SOLAR_CARDS.302,SOLAR_CARDS.343,  1.247318e-06   $    0.012629,  0.012629
+        -5299,SOLAR_CARDS.302,SOLAR_CARDS.347,  5.025213e-07   $    0.005088,  0.005088
+        -5300,SOLAR_CARDS.302,SOLAR_CARDS.361,  3.307618e-07   $    0.003349,  0.006698
+        -5301,SOLAR_CARDS.302,SOLAR_CARDS.393,  1.210750e-07   $    0.001226,  0.001226
+        -5302,SOLAR_CARDS.303,SOLAR_CARDS.306,  1.092994e-06   $    0.011067,  0.011067
+        -5303,SOLAR_CARDS.303,SOLAR_CARDS.309,  1.428552e-07   $    0.001446,  0.001446
+        -5304,SOLAR_CARDS.303,SOLAR_CARDS.332,  3.315180e-07   $    0.003357,  0.006713
+        -5305,SOLAR_CARDS.303,SOLAR_CARDS.333,  6.479124e-08   $    0.000656,  0.001312
+        -5306,SOLAR_CARDS.303,SOLAR_CARDS.341,  4.853690e-07   $    0.004914,  0.004914
+        -5307,SOLAR_CARDS.303,SOLAR_CARDS.345,  1.196427e-06   $    0.012114,  0.012114
+        -5308,SOLAR_CARDS.303,SOLAR_CARDS.349,  5.176342e-07   $    0.005241,  0.005241
+        -5309,SOLAR_CARDS.303,SOLAR_CARDS.353,  1.082823e-07   $    0.001096,  0.001096
+        -5310,SOLAR_CARDS.303,SOLAR_CARDS.357,  8.630968e-07   $    0.008739,  0.017478
+        -5311,SOLAR_CARDS.303,SOLAR_CARDS.382,  3.460536e-07   $    0.003504,  0.007008
+        -5312,SOLAR_CARDS.303,SOLAR_CARDS.395,  1.339483e-07   $    0.001356,  0.001356
+        -5313,SOLAR_CARDS.304,SOLAR_CARDS.307,  3.279447e-06   $    0.016602,  0.016602
+        -5314,SOLAR_CARDS.304,SOLAR_CARDS.310,  3.653584e-07   $    0.001850,  0.001850
+        -5315,SOLAR_CARDS.304,SOLAR_CARDS.334,  8.242586e-07   $    0.004173,  0.008346
+        -5316,SOLAR_CARDS.304,SOLAR_CARDS.335,  1.473007e-07   $    0.000746,  0.001491
+        -5317,SOLAR_CARDS.304,SOLAR_CARDS.342,  1.299659e-06   $    0.006580,  0.006580
+        -5318,SOLAR_CARDS.304,SOLAR_CARDS.346,  3.322104e-06   $    0.016818,  0.016818
+        -5319,SOLAR_CARDS.304,SOLAR_CARDS.350,  1.376425e-06   $    0.006968,  0.006968
+        -5320,SOLAR_CARDS.304,SOLAR_CARDS.354,  2.613353e-07   $    0.001323,  0.001323
+        -5321,SOLAR_CARDS.304,SOLAR_CARDS.359,  2.232731e-06   $    0.011303,  0.022606
+        -5322,SOLAR_CARDS.304,SOLAR_CARDS.384,  9.078825e-07   $    0.004596,  0.009192
+        -5323,SOLAR_CARDS.304,SOLAR_CARDS.392,  2.939436e-07   $    0.001488,  0.001488
+        -5324,SOLAR_CARDS.304,SOLAR_CARDS.396,  3.221008e-07   $    0.001631,  0.001631
+        -5325,SOLAR_CARDS.304,SOLAR_CARDS.400,  2.769889e-07   $    0.001402,  0.001402
+        -5326,SOLAR_CARDS.304,SOLAR_CARDS.409,  1.792754e-07   $    0.000908,  0.001815
+        -5327,SOLAR_CARDS.305,SOLAR_CARDS.308,  1.204380e-06   $    0.012194,  0.012194
+        -5328,SOLAR_CARDS.305,SOLAR_CARDS.311,  1.434957e-07   $    0.001453,  0.001453
+        -5329,SOLAR_CARDS.305,SOLAR_CARDS.336,  2.930190e-07   $    0.002967,  0.005934
+        -5330,SOLAR_CARDS.305,SOLAR_CARDS.337,  5.277461e-08   $    0.000534,  0.001069
+        -5331,SOLAR_CARDS.305,SOLAR_CARDS.343,  5.327573e-07   $    0.005394,  0.005394
+        -5332,SOLAR_CARDS.305,SOLAR_CARDS.347,  1.167813e-06   $    0.011824,  0.011824
+        -5333,SOLAR_CARDS.305,SOLAR_CARDS.351,  4.558617e-07   $    0.004616,  0.004616
+        -5334,SOLAR_CARDS.305,SOLAR_CARDS.361,  8.774524e-07   $    0.008884,  0.017768
+        -5335,SOLAR_CARDS.305,SOLAR_CARDS.386,  3.482773e-07   $    0.003526,  0.007053
+        -5336,SOLAR_CARDS.305,SOLAR_CARDS.397,  1.250623e-07   $    0.001266,  0.001266
+        -5337,SOLAR_CARDS.305,SOLAR_CARDS.411,  5.955690e-08   $    0.000603,  0.001206
+        -5338,SOLAR_CARDS.306,SOLAR_CARDS.309,  1.212676e-06   $    0.012278,  0.012278
+        -5339,SOLAR_CARDS.306,SOLAR_CARDS.312,  1.218424e-07   $    0.001234,  0.001234
+        -5340,SOLAR_CARDS.306,SOLAR_CARDS.345,  5.445933e-07   $    0.005514,  0.005514
+        -5341,SOLAR_CARDS.306,SOLAR_CARDS.349,  1.228625e-06   $    0.012440,  0.012440
+        -5342,SOLAR_CARDS.306,SOLAR_CARDS.353,  5.151610e-07   $    0.005216,  0.005216
+        -5343,SOLAR_CARDS.306,SOLAR_CARDS.357,  3.334875e-07   $    0.003377,  0.006753
+        -5344,SOLAR_CARDS.306,SOLAR_CARDS.382,  8.594369e-07   $    0.008702,  0.017404
+        -5345,SOLAR_CARDS.306,SOLAR_CARDS.399,  1.358677e-07   $    0.001376,  0.001376
+        -5346,SOLAR_CARDS.306,SOLAR_CARDS.403,  9.915112e-08   $    0.001004,  0.001004
+        -5347,SOLAR_CARDS.306,SOLAR_CARDS.407,  3.793961e-07   $    0.003841,  0.007683
+        -5348,SOLAR_CARDS.306,SOLAR_CARDS.432,  5.406271e-08   $    0.000547,  0.001095
+        -5349,SOLAR_CARDS.307,SOLAR_CARDS.310,  2.965794e-06   $    0.015014,  0.015014
+        -5350,SOLAR_CARDS.307,SOLAR_CARDS.313,  4.483559e-07   $    0.002270,  0.002270
+        -5351,SOLAR_CARDS.307,SOLAR_CARDS.334,  1.449546e-07   $    0.000734,  0.001468
+        -5352,SOLAR_CARDS.307,SOLAR_CARDS.342,  2.352264e-07   $    0.001191,  0.001191
+        -5353,SOLAR_CARDS.307,SOLAR_CARDS.346,  1.194066e-06   $    0.006045,  0.006045
+        -5354,SOLAR_CARDS.307,SOLAR_CARDS.350,  3.099518e-06   $    0.015691,  0.015691
+        -5355,SOLAR_CARDS.307,SOLAR_CARDS.354,  1.337293e-06   $    0.006770,  0.006770
+        -5356,SOLAR_CARDS.307,SOLAR_CARDS.359,  1.004517e-06   $    0.005085,  0.010171
+        -5357,SOLAR_CARDS.307,SOLAR_CARDS.360,  2.726499e-07   $    0.001380,  0.001380
+        -5358,SOLAR_CARDS.307,SOLAR_CARDS.384,  2.353099e-06   $    0.011913,  0.023825
+        -5359,SOLAR_CARDS.307,SOLAR_CARDS.396,  2.106237e-07   $    0.001066,  0.001066
+        -5360,SOLAR_CARDS.307,SOLAR_CARDS.400,  4.123899e-07   $    0.002088,  0.002088
+        -5361,SOLAR_CARDS.307,SOLAR_CARDS.404,  3.555556e-07   $    0.001800,  0.001800
+        -5362,SOLAR_CARDS.307,SOLAR_CARDS.409,  8.515009e-07   $    0.004311,  0.008621
+        -5363,SOLAR_CARDS.307,SOLAR_CARDS.434,  1.254685e-07   $    0.000635,  0.001270
+        -5364,SOLAR_CARDS.308,SOLAR_CARDS.311,  1.212460e-06   $    0.012276,  0.012276
+        -5365,SOLAR_CARDS.308,SOLAR_CARDS.314,  1.516372e-07   $    0.001535,  0.001535
+        -5366,SOLAR_CARDS.308,SOLAR_CARDS.347,  5.001497e-07   $    0.005064,  0.005064
+        -5367,SOLAR_CARDS.308,SOLAR_CARDS.351,  1.182111e-06   $    0.011969,  0.011969
+        -5368,SOLAR_CARDS.308,SOLAR_CARDS.355,  5.062263e-07   $    0.005126,  0.005126
+        -5369,SOLAR_CARDS.308,SOLAR_CARDS.361,  3.529653e-07   $    0.003574,  0.007148
+        -5370,SOLAR_CARDS.308,SOLAR_CARDS.386,  8.577364e-07   $    0.008685,  0.017369
+        -5371,SOLAR_CARDS.308,SOLAR_CARDS.401,  1.322147e-07   $    0.001339,  0.001339
+        -5372,SOLAR_CARDS.308,SOLAR_CARDS.411,  3.420088e-07   $    0.003463,  0.006926
+        -5373,SOLAR_CARDS.309,SOLAR_CARDS.312,  1.179463e-06   $    0.011942,  0.011942
+        -5374,SOLAR_CARDS.309,SOLAR_CARDS.316,  1.453300e-07   $    0.001471,  0.001471
+        -5375,SOLAR_CARDS.309,SOLAR_CARDS.345,  1.060481e-07   $    0.001074,  0.001074
+        -5376,SOLAR_CARDS.309,SOLAR_CARDS.349,  4.854959e-07   $    0.004916,  0.004916
+        -5377,SOLAR_CARDS.309,SOLAR_CARDS.353,  1.139581e-06   $    0.011538,  0.011538
+        -5378,SOLAR_CARDS.309,SOLAR_CARDS.357,  5.303592e-08   $    0.000537,  0.001074
+        -5379,SOLAR_CARDS.309,SOLAR_CARDS.358,  5.222695e-07   $    0.005288,  0.005288
+        -5380,SOLAR_CARDS.309,SOLAR_CARDS.382,  3.069948e-07   $    0.003108,  0.006217
+        -5381,SOLAR_CARDS.309,SOLAR_CARDS.403,  1.233620e-07   $    0.001249,  0.001249
+        -5382,SOLAR_CARDS.309,SOLAR_CARDS.407,  8.159525e-07   $    0.008262,  0.016523
+        -5383,SOLAR_CARDS.309,SOLAR_CARDS.408,  1.000246e-07   $    0.001013,  0.001013
+        -5384,SOLAR_CARDS.309,SOLAR_CARDS.432,  3.499780e-07   $    0.003544,  0.007087
+        -5385,SOLAR_CARDS.309,SOLAR_CARDS.457,  5.382613e-08   $    0.000545,  0.001090
+        -5386,SOLAR_CARDS.310,SOLAR_CARDS.313,  3.392155e-06   $    0.017173,  0.017173
+        -5387,SOLAR_CARDS.310,SOLAR_CARDS.317,  3.382799e-07   $    0.001713,  0.001713
+        -5388,SOLAR_CARDS.310,SOLAR_CARDS.346,  2.810417e-07   $    0.001423,  0.001423
+        -5389,SOLAR_CARDS.310,SOLAR_CARDS.350,  1.275674e-06   $    0.006458,  0.006458
+        -5390,SOLAR_CARDS.310,SOLAR_CARDS.354,  3.044846e-06   $    0.015415,  0.015415
+        -5391,SOLAR_CARDS.310,SOLAR_CARDS.359,  1.422814e-07   $    0.000720,  0.001441
+        -5392,SOLAR_CARDS.310,SOLAR_CARDS.360,  1.296814e-06   $    0.006565,  0.006565
+        -5393,SOLAR_CARDS.310,SOLAR_CARDS.367,  3.311116e-07   $    0.001676,  0.001676
+        -5394,SOLAR_CARDS.310,SOLAR_CARDS.384,  8.891741e-07   $    0.004501,  0.009003
+        -5395,SOLAR_CARDS.310,SOLAR_CARDS.400,  2.859795e-07   $    0.001448,  0.001448
+        -5396,SOLAR_CARDS.310,SOLAR_CARDS.404,  3.229978e-07   $    0.001635,  0.001635
+        -5397,SOLAR_CARDS.310,SOLAR_CARDS.409,  2.257779e-06   $    0.011430,  0.022860
+        -5398,SOLAR_CARDS.310,SOLAR_CARDS.410,  2.598921e-07   $    0.001316,  0.001316
+        -5399,SOLAR_CARDS.310,SOLAR_CARDS.434,  8.743293e-07   $    0.004426,  0.008853
+        -5400,SOLAR_CARDS.310,SOLAR_CARDS.459,  1.474274e-07   $    0.000746,  0.001493
+        -5401,SOLAR_CARDS.311,SOLAR_CARDS.314,  1.178798e-06   $    0.011935,  0.011935
+        -5402,SOLAR_CARDS.311,SOLAR_CARDS.318,  1.568471e-07   $    0.001588,  0.001588
+        -5403,SOLAR_CARDS.311,SOLAR_CARDS.351,  5.427964e-07   $    0.005496,  0.005496
+        -5404,SOLAR_CARDS.311,SOLAR_CARDS.355,  1.072074e-06   $    0.010855,  0.010855
+        -5405,SOLAR_CARDS.311,SOLAR_CARDS.362,  5.286033e-07   $    0.005352,  0.005352
+        -5406,SOLAR_CARDS.311,SOLAR_CARDS.386,  3.459953e-07   $    0.003503,  0.007006
+        -5407,SOLAR_CARDS.311,SOLAR_CARDS.405,  1.249982e-07   $    0.001266,  0.001266
+        -5408,SOLAR_CARDS.311,SOLAR_CARDS.411,  8.643827e-07   $    0.008752,  0.017504
+        -5409,SOLAR_CARDS.311,SOLAR_CARDS.436,  3.444910e-07   $    0.003488,  0.006976
+        -5410,SOLAR_CARDS.311,SOLAR_CARDS.461,  5.632337e-08   $    0.000570,  0.001141
+        -5411,SOLAR_CARDS.312,SOLAR_CARDS.316,  1.225941e-06   $    0.012413,  0.012413
+        -5412,SOLAR_CARDS.312,SOLAR_CARDS.320,  1.091022e-07   $    0.001105,  0.001105
+        -5413,SOLAR_CARDS.312,SOLAR_CARDS.349,  9.932909e-08   $    0.001006,  0.001006
+        -5414,SOLAR_CARDS.312,SOLAR_CARDS.353,  5.331998e-07   $    0.005399,  0.005399
+        -5415,SOLAR_CARDS.312,SOLAR_CARDS.358,  1.153793e-06   $    0.011682,  0.011682
+        -5416,SOLAR_CARDS.312,SOLAR_CARDS.366,  5.109044e-07   $    0.005173,  0.005173
+        -5417,SOLAR_CARDS.312,SOLAR_CARDS.407,  3.805804e-07   $    0.003853,  0.007707
+        -5418,SOLAR_CARDS.312,SOLAR_CARDS.408,  1.538675e-07   $    0.001558,  0.001558
+        -5419,SOLAR_CARDS.312,SOLAR_CARDS.416,  1.120785e-07   $    0.001135,  0.001135
+        -5420,SOLAR_CARDS.312,SOLAR_CARDS.432,  7.975403e-07   $    0.008075,  0.016150
+        -5421,SOLAR_CARDS.312,SOLAR_CARDS.457,  3.315180e-07   $    0.003357,  0.006713
+        -5422,SOLAR_CARDS.313,SOLAR_CARDS.317,  3.209128e-06   $    0.016246,  0.016246
+        -5423,SOLAR_CARDS.313,SOLAR_CARDS.321,  4.539430e-07   $    0.002298,  0.002298
+        -5424,SOLAR_CARDS.313,SOLAR_CARDS.350,  2.017506e-07   $    0.001021,  0.001021
+        -5425,SOLAR_CARDS.313,SOLAR_CARDS.354,  1.272246e-06   $    0.006441,  0.006441
+        -5426,SOLAR_CARDS.313,SOLAR_CARDS.360,  3.124328e-06   $    0.015817,  0.015817
+        -5427,SOLAR_CARDS.313,SOLAR_CARDS.367,  1.422811e-06   $    0.007203,  0.007203
+        -5428,SOLAR_CARDS.313,SOLAR_CARDS.371,  2.240007e-07   $    0.001134,  0.001134
+        -5429,SOLAR_CARDS.313,SOLAR_CARDS.384,  1.188952e-07   $    0.000602,  0.001204
+        -5430,SOLAR_CARDS.313,SOLAR_CARDS.409,  8.869627e-07   $    0.004490,  0.008980
+        -5431,SOLAR_CARDS.313,SOLAR_CARDS.410,  3.993874e-07   $    0.002022,  0.002022
+        -5432,SOLAR_CARDS.313,SOLAR_CARDS.417,  2.596573e-07   $    0.001315,  0.001315
+        -5433,SOLAR_CARDS.313,SOLAR_CARDS.434,  2.249246e-06   $    0.011387,  0.022774
+        -5434,SOLAR_CARDS.313,SOLAR_CARDS.459,  9.320501e-07   $    0.004719,  0.009437
+        -5435,SOLAR_CARDS.313,SOLAR_CARDS.484,  1.051809e-07   $    0.000532,  0.001065
+        -5436,SOLAR_CARDS.314,SOLAR_CARDS.318,  1.304486e-06   $    0.013208,  0.013208
+        -5437,SOLAR_CARDS.314,SOLAR_CARDS.322,  1.084424e-07   $    0.001098,  0.001098
+        -5438,SOLAR_CARDS.314,SOLAR_CARDS.355,  5.100978e-07   $    0.005165,  0.005165
+        -5439,SOLAR_CARDS.314,SOLAR_CARDS.362,  1.172568e-06   $    0.011872,  0.011872
+        -5440,SOLAR_CARDS.314,SOLAR_CARDS.368,  4.713142e-07   $    0.004772,  0.004772
+        -5441,SOLAR_CARDS.314,SOLAR_CARDS.386,  4.991015e-08   $    0.000505,  0.001011
+        -5442,SOLAR_CARDS.314,SOLAR_CARDS.411,  2.915591e-07   $    0.002952,  0.005904
+        -5443,SOLAR_CARDS.314,SOLAR_CARDS.412,  1.390493e-07   $    0.001408,  0.001408
+        -5444,SOLAR_CARDS.314,SOLAR_CARDS.418,  1.041139e-07   $    0.001054,  0.001054
+        -5445,SOLAR_CARDS.314,SOLAR_CARDS.436,  8.355531e-07   $    0.008460,  0.016920
+        -5446,SOLAR_CARDS.314,SOLAR_CARDS.461,  3.098966e-07   $    0.003138,  0.006275
+        -5447,SOLAR_CARDS.316,SOLAR_CARDS.320,  1.173577e-06   $    0.011882,  0.011882
+        -5448,SOLAR_CARDS.316,SOLAR_CARDS.324,  1.459185e-07   $    0.001477,  0.001477
+        -5449,SOLAR_CARDS.316,SOLAR_CARDS.353,  1.016143e-07   $    0.001029,  0.001029
+        -5450,SOLAR_CARDS.316,SOLAR_CARDS.358,  5.001594e-07   $    0.005064,  0.005064
+        -5451,SOLAR_CARDS.316,SOLAR_CARDS.366,  1.132155e-06   $    0.011463,  0.011463
+        -5452,SOLAR_CARDS.316,SOLAR_CARDS.370,  5.291240e-07   $    0.005357,  0.005357
+        -5453,SOLAR_CARDS.316,SOLAR_CARDS.408,  1.062525e-07   $    0.001076,  0.001076
+        -5454,SOLAR_CARDS.316,SOLAR_CARDS.416,  1.251038e-07   $    0.001267,  0.001267
+        -5455,SOLAR_CARDS.316,SOLAR_CARDS.432,  3.043261e-07   $    0.003081,  0.006163
+        -5456,SOLAR_CARDS.316,SOLAR_CARDS.457,  8.249845e-07   $    0.008353,  0.016706
+        -5457,SOLAR_CARDS.316,SOLAR_CARDS.482,  3.161569e-07   $    0.003201,  0.006402
+        -5458,SOLAR_CARDS.317,SOLAR_CARDS.321,  2.986056e-06   $    0.015117,  0.015117
+        -5459,SOLAR_CARDS.317,SOLAR_CARDS.325,  4.094125e-07   $    0.002073,  0.002073
+        -5460,SOLAR_CARDS.317,SOLAR_CARDS.354,  2.515594e-07   $    0.001274,  0.001274
+        -5461,SOLAR_CARDS.317,SOLAR_CARDS.360,  1.385436e-06   $    0.007014,  0.007014
+        -5462,SOLAR_CARDS.317,SOLAR_CARDS.367,  3.343537e-06   $    0.016927,  0.016927
+        -5463,SOLAR_CARDS.317,SOLAR_CARDS.371,  1.455644e-06   $    0.007369,  0.007369
+        -5464,SOLAR_CARDS.317,SOLAR_CARDS.375,  2.481391e-07   $    0.001256,  0.001256
+        -5465,SOLAR_CARDS.317,SOLAR_CARDS.409,  1.484052e-07   $    0.000751,  0.001503
+        -5466,SOLAR_CARDS.317,SOLAR_CARDS.410,  2.556238e-07   $    0.001294,  0.001294
+        -5467,SOLAR_CARDS.317,SOLAR_CARDS.417,  3.713082e-07   $    0.001880,  0.001880
+        -5468,SOLAR_CARDS.317,SOLAR_CARDS.421,  2.018773e-07   $    0.001022,  0.001022
+        -5469,SOLAR_CARDS.317,SOLAR_CARDS.434,  8.766007e-07   $    0.004438,  0.008876
+        -5470,SOLAR_CARDS.317,SOLAR_CARDS.459,  2.475859e-06   $    0.012534,  0.025068
+        -5471,SOLAR_CARDS.317,SOLAR_CARDS.484,  9.051178e-07   $    0.004582,  0.009164
+        -5472,SOLAR_CARDS.317,SOLAR_CARDS.509,  1.456020e-07   $    0.000737,  0.001474
+        -5473,SOLAR_CARDS.318,SOLAR_CARDS.322,  1.194174e-06   $    0.012091,  0.012091
+        -5474,SOLAR_CARDS.318,SOLAR_CARDS.326,  1.051986e-07   $    0.001065,  0.001065
+        -5475,SOLAR_CARDS.318,SOLAR_CARDS.362,  4.717283e-07   $    0.004776,  0.004776
+        -5476,SOLAR_CARDS.318,SOLAR_CARDS.368,  1.181040e-06   $    0.011958,  0.011958
+        -5477,SOLAR_CARDS.318,SOLAR_CARDS.372,  4.907533e-07   $    0.004969,  0.004969
+        -5478,SOLAR_CARDS.318,SOLAR_CARDS.418,  1.615585e-07   $    0.001636,  0.001636
+        -5479,SOLAR_CARDS.318,SOLAR_CARDS.436,  3.140741e-07   $    0.003180,  0.006360
+        -5480,SOLAR_CARDS.318,SOLAR_CARDS.461,  8.384753e-07   $    0.008490,  0.016979
+        -5481,SOLAR_CARDS.318,SOLAR_CARDS.486,  3.220126e-07   $    0.003260,  0.006521
+        -5482,SOLAR_CARDS.320,SOLAR_CARDS.324,  1.166303e-06   $    0.011809,  0.011809
+        -5483,SOLAR_CARDS.320,SOLAR_CARDS.328,  1.080005e-07   $    0.001094,  0.002187
+        -5484,SOLAR_CARDS.320,SOLAR_CARDS.358,  1.094769e-07   $    0.001108,  0.001108
+        -5485,SOLAR_CARDS.320,SOLAR_CARDS.366,  5.601822e-07   $    0.005672,  0.005672
+        -5486,SOLAR_CARDS.320,SOLAR_CARDS.370,  1.205716e-06   $    0.012208,  0.012208
+        -5487,SOLAR_CARDS.320,SOLAR_CARDS.374,  5.168409e-07   $    0.005233,  0.005233
+        -5488,SOLAR_CARDS.320,SOLAR_CARDS.378,  7.664289e-08   $    0.000776,  0.001552
+        -5489,SOLAR_CARDS.320,SOLAR_CARDS.420,  1.295823e-07   $    0.001312,  0.001312
+        -5490,SOLAR_CARDS.320,SOLAR_CARDS.432,  5.912271e-08   $    0.000599,  0.001197
+        -5491,SOLAR_CARDS.320,SOLAR_CARDS.457,  3.272659e-07   $    0.003314,  0.006627
+        -5492,SOLAR_CARDS.320,SOLAR_CARDS.482,  7.842195e-07   $    0.007940,  0.015880
+        -5493,SOLAR_CARDS.320,SOLAR_CARDS.507,  3.441897e-07   $    0.003485,  0.006970
+        -5494,SOLAR_CARDS.321,SOLAR_CARDS.325,  3.336548e-06   $    0.016891,  0.016891
+        -5495,SOLAR_CARDS.321,SOLAR_CARDS.329,  1.996971e-07   $    0.001011,  0.002022
+        -5496,SOLAR_CARDS.321,SOLAR_CARDS.360,  2.647666e-07   $    0.001340,  0.001340
+        -5497,SOLAR_CARDS.321,SOLAR_CARDS.367,  1.356438e-06   $    0.006867,  0.006867
+        -5498,SOLAR_CARDS.321,SOLAR_CARDS.371,  3.115227e-06   $    0.015771,  0.015771
+        -5499,SOLAR_CARDS.321,SOLAR_CARDS.375,  1.273169e-06   $    0.006445,  0.006445
+        -5500,SOLAR_CARDS.321,SOLAR_CARDS.379,  1.630011e-07   $    0.000825,  0.001650
+        -5501,SOLAR_CARDS.321,SOLAR_CARDS.421,  4.891761e-07   $    0.002476,  0.002476
+        -5502,SOLAR_CARDS.321,SOLAR_CARDS.425,  2.118969e-07   $    0.001073,  0.001073
+        -5503,SOLAR_CARDS.321,SOLAR_CARDS.434,  1.365624e-07   $    0.000691,  0.001383
+        -5504,SOLAR_CARDS.321,SOLAR_CARDS.459,  9.248384e-07   $    0.004682,  0.009364
+        -5505,SOLAR_CARDS.321,SOLAR_CARDS.484,  2.147198e-06   $    0.010870,  0.021740
+        -5506,SOLAR_CARDS.321,SOLAR_CARDS.509,  7.843610e-07   $    0.003971,  0.007942
+        -5507,SOLAR_CARDS.322,SOLAR_CARDS.326,  1.207089e-06   $    0.012222,  0.012222
+        -5508,SOLAR_CARDS.322,SOLAR_CARDS.330,  8.814794e-08   $    0.000892,  0.001785
+        -5509,SOLAR_CARDS.322,SOLAR_CARDS.368,  4.983337e-07   $    0.005046,  0.005046
+        -5510,SOLAR_CARDS.322,SOLAR_CARDS.372,  1.216054e-06   $    0.012313,  0.012313
+        -5511,SOLAR_CARDS.322,SOLAR_CARDS.376,  5.156541e-07   $    0.005221,  0.005221
+        -5512,SOLAR_CARDS.322,SOLAR_CARDS.380,  5.556241e-08   $    0.000563,  0.001125
+        -5513,SOLAR_CARDS.322,SOLAR_CARDS.422,  1.385045e-07   $    0.001402,  0.001402
+        -5514,SOLAR_CARDS.322,SOLAR_CARDS.436,  5.996381e-08   $    0.000607,  0.001214
+        -5515,SOLAR_CARDS.322,SOLAR_CARDS.461,  3.235852e-07   $    0.003276,  0.006553
+        -5516,SOLAR_CARDS.322,SOLAR_CARDS.486,  8.461956e-07   $    0.008568,  0.017135
+        -5517,SOLAR_CARDS.322,SOLAR_CARDS.511,  3.198271e-07   $    0.003238,  0.006476
+        -5518,SOLAR_CARDS.324,SOLAR_CARDS.328,  8.530189e-07   $    0.008637,  0.017274
+        -5519,SOLAR_CARDS.324,SOLAR_CARDS.366,  1.118260e-07   $    0.001132,  0.001132
+        -5520,SOLAR_CARDS.324,SOLAR_CARDS.370,  4.294528e-07   $    0.004348,  0.004348
+        -5521,SOLAR_CARDS.324,SOLAR_CARDS.374,  1.150484e-06   $    0.011649,  0.011649
+        -5522,SOLAR_CARDS.324,SOLAR_CARDS.378,  3.173156e-07   $    0.003213,  0.006426
+        -5523,SOLAR_CARDS.324,SOLAR_CARDS.424,  1.152587e-07   $    0.001167,  0.001167
+        -5524,SOLAR_CARDS.324,SOLAR_CARDS.428,  5.537253e-08   $    0.000561,  0.001121
+        -5525,SOLAR_CARDS.324,SOLAR_CARDS.457,  6.092607e-08   $    0.000617,  0.001234
+        -5526,SOLAR_CARDS.324,SOLAR_CARDS.482,  3.670420e-07   $    0.003716,  0.007433
+        -5527,SOLAR_CARDS.324,SOLAR_CARDS.507,  8.480515e-07   $    0.008587,  0.017173
+        -5528,SOLAR_CARDS.325,SOLAR_CARDS.329,  2.151040e-06   $    0.010890,  0.021779
+        -5529,SOLAR_CARDS.325,SOLAR_CARDS.367,  2.150161e-07   $    0.001089,  0.001089
+        -5530,SOLAR_CARDS.325,SOLAR_CARDS.371,  1.147001e-06   $    0.005807,  0.005807
+        -5531,SOLAR_CARDS.325,SOLAR_CARDS.375,  2.940754e-06   $    0.014888,  0.014888
+        -5532,SOLAR_CARDS.325,SOLAR_CARDS.379,  9.376276e-07   $    0.004747,  0.009493
+        -5533,SOLAR_CARDS.325,SOLAR_CARDS.421,  2.417881e-07   $    0.001224,  0.001224
+        -5534,SOLAR_CARDS.325,SOLAR_CARDS.425,  3.217208e-07   $    0.001629,  0.001629
+        -5535,SOLAR_CARDS.325,SOLAR_CARDS.429,  1.624983e-07   $    0.000823,  0.001645
+        -5536,SOLAR_CARDS.325,SOLAR_CARDS.459,  9.930474e-08   $    0.000503,  0.001005
+        -5537,SOLAR_CARDS.325,SOLAR_CARDS.484,  8.492543e-07   $    0.004299,  0.008599
+        -5538,SOLAR_CARDS.325,SOLAR_CARDS.509,  2.424877e-06   $    0.012276,  0.024552
+        -5539,SOLAR_CARDS.326,SOLAR_CARDS.330,  8.387150e-07   $    0.008492,  0.016984
+        -5540,SOLAR_CARDS.326,SOLAR_CARDS.368,  1.061748e-07   $    0.001075,  0.001075
+        -5541,SOLAR_CARDS.326,SOLAR_CARDS.372,  5.229998e-07   $    0.005295,  0.005295
+        -5542,SOLAR_CARDS.326,SOLAR_CARDS.376,  1.125334e-06   $    0.011394,  0.011394
+        -5543,SOLAR_CARDS.326,SOLAR_CARDS.380,  2.920500e-07   $    0.002957,  0.005914
+        -5544,SOLAR_CARDS.326,SOLAR_CARDS.426,  1.191377e-07   $    0.001206,  0.001206
+        -5545,SOLAR_CARDS.326,SOLAR_CARDS.486,  3.132195e-07   $    0.003171,  0.006343
+        -5546,SOLAR_CARDS.326,SOLAR_CARDS.511,  8.782503e-07   $    0.008892,  0.017785
+        -5547,SOLAR_CARDS.328,SOLAR_CARDS.370,  5.723239e-08   $    0.001159,  0.000579
+        -5548,SOLAR_CARDS.328,SOLAR_CARDS.374,  3.291392e-07   $    0.006665,  0.003333
+        -5549,SOLAR_CARDS.328,SOLAR_CARDS.378,  3.166665e-07   $    0.006412,  0.006412
+        -5550,SOLAR_CARDS.328,SOLAR_CARDS.507,  2.219263e-07   $    0.004494,  0.004494
+        -5551,SOLAR_CARDS.329,SOLAR_CARDS.371,  2.107705e-07   $    0.002134,  0.001067
+        -5552,SOLAR_CARDS.329,SOLAR_CARDS.375,  8.434523e-07   $    0.008540,  0.004270
+        -5553,SOLAR_CARDS.329,SOLAR_CARDS.379,  8.876964e-07   $    0.008988,  0.008988
+        -5554,SOLAR_CARDS.329,SOLAR_CARDS.425,  1.348498e-07   $    0.001365,  0.000683
+        -5555,SOLAR_CARDS.329,SOLAR_CARDS.484,  1.063425e-07   $    0.001077,  0.001077
+        -5556,SOLAR_CARDS.329,SOLAR_CARDS.509,  6.652581e-07   $    0.006736,  0.006736
+        -5557,SOLAR_CARDS.330,SOLAR_CARDS.372,  5.730606e-08   $    0.001160,  0.000580
+        -5558,SOLAR_CARDS.330,SOLAR_CARDS.376,  3.160555e-07   $    0.006400,  0.003200
+        -5559,SOLAR_CARDS.330,SOLAR_CARDS.380,  2.805954e-07   $    0.005682,  0.005682
+        -5560,SOLAR_CARDS.330,SOLAR_CARDS.426,  6.084157e-08   $    0.001232,  0.000616
+        -5561,SOLAR_CARDS.330,SOLAR_CARDS.511,  2.095038e-07   $    0.004242,  0.004242
+        -5562,SOLAR_CARDS.332,SOLAR_CARDS.341,  9.085099e-08   $    0.001840,  0.000920
+        -5563,SOLAR_CARDS.332,SOLAR_CARDS.357,  2.940990e-07   $    0.005956,  0.005956
+        -5564,SOLAR_CARDS.333,SOLAR_CARDS.341,  7.769236e-07   $    0.015733,  0.007866
+        -5565,SOLAR_CARDS.333,SOLAR_CARDS.345,  9.889264e-08   $    0.002003,  0.001001
+        -5566,SOLAR_CARDS.333,SOLAR_CARDS.383,  3.028764e-07   $    0.006133,  0.006133
+        -5567,SOLAR_CARDS.333,SOLAR_CARDS.391,  3.515135e-07   $    0.007118,  0.003559
+        -5568,SOLAR_CARDS.333,SOLAR_CARDS.395,  7.651482e-08   $    0.001549,  0.000775
+        -5569,SOLAR_CARDS.334,SOLAR_CARDS.335,  1.013583e-07   $    0.001026,  0.001026
+        -5570,SOLAR_CARDS.334,SOLAR_CARDS.342,  3.388792e-07   $    0.003431,  0.001716
+        -5571,SOLAR_CARDS.334,SOLAR_CARDS.346,  1.459878e-07   $    0.001478,  0.000739
+        -5572,SOLAR_CARDS.334,SOLAR_CARDS.359,  7.988943e-07   $    0.008089,  0.008089
+        -5573,SOLAR_CARDS.335,SOLAR_CARDS.337,  7.042307e-08   $    0.000713,  0.001426
+        -5574,SOLAR_CARDS.335,SOLAR_CARDS.342,  2.168099e-06   $    0.021952,  0.010976
+        -5575,SOLAR_CARDS.335,SOLAR_CARDS.346,  2.382429e-07   $    0.002412,  0.001206
+        -5576,SOLAR_CARDS.335,SOLAR_CARDS.385,  8.408275e-07   $    0.008513,  0.008513
+        -5577,SOLAR_CARDS.335,SOLAR_CARDS.392,  8.619837e-07   $    0.008728,  0.004364
+        -5578,SOLAR_CARDS.335,SOLAR_CARDS.396,  2.024556e-07   $    0.002050,  0.001025
+        -5579,SOLAR_CARDS.335,SOLAR_CARDS.442,  1.325985e-07   $    0.001343,  0.000671
+        -5580,SOLAR_CARDS.336,SOLAR_CARDS.343,  8.196514e-08   $    0.001660,  0.000830
+        -5581,SOLAR_CARDS.336,SOLAR_CARDS.347,  7.886214e-08   $    0.001597,  0.000798
+        -5582,SOLAR_CARDS.336,SOLAR_CARDS.361,  2.757052e-07   $    0.005583,  0.005583
+        -5583,SOLAR_CARDS.337,SOLAR_CARDS.343,  8.035653e-07   $    0.016272,  0.008136
+        -5584,SOLAR_CARDS.337,SOLAR_CARDS.347,  1.040128e-07   $    0.002106,  0.001053
+        -5585,SOLAR_CARDS.337,SOLAR_CARDS.387,  2.709652e-07   $    0.005487,  0.005487
+        -5586,SOLAR_CARDS.337,SOLAR_CARDS.393,  3.070046e-07   $    0.006217,  0.003108
+        -5587,SOLAR_CARDS.337,SOLAR_CARDS.397,  5.434309e-08   $    0.001100,  0.000550
+        -5588,SOLAR_CARDS.337,SOLAR_CARDS.443,  5.081858e-08   $    0.001029,  0.000515
+        -5589,SOLAR_CARDS.338,SOLAR_CARDS.363,  2.845360e-07   $    0.005762,  0.005762
+        -5590,SOLAR_CARDS.341,SOLAR_CARDS.345,  1.132673e-06   $    0.011468,  0.011468
+        -5591,SOLAR_CARDS.341,SOLAR_CARDS.349,  1.280989e-07   $    0.001297,  0.001297
+        -5592,SOLAR_CARDS.341,SOLAR_CARDS.383,  3.125132e-07   $    0.003164,  0.006328
+        -5593,SOLAR_CARDS.341,SOLAR_CARDS.391,  1.136689e-06   $    0.011509,  0.011509
+        -5594,SOLAR_CARDS.341,SOLAR_CARDS.395,  4.481543e-07   $    0.004538,  0.004538
+        -5595,SOLAR_CARDS.341,SOLAR_CARDS.399,  9.877334e-08   $    0.001000,  0.001000
+        -5596,SOLAR_CARDS.342,SOLAR_CARDS.346,  3.242102e-06   $    0.016413,  0.016413
+        -5597,SOLAR_CARDS.342,SOLAR_CARDS.350,  4.263083e-07   $    0.002158,  0.002158
+        -5598,SOLAR_CARDS.342,SOLAR_CARDS.359,  1.239770e-07   $    0.000628,  0.001255
+        -5599,SOLAR_CARDS.342,SOLAR_CARDS.385,  1.022330e-06   $    0.005176,  0.010351
+        -5600,SOLAR_CARDS.342,SOLAR_CARDS.392,  3.306690e-06   $    0.016740,  0.016740
+        -5601,SOLAR_CARDS.342,SOLAR_CARDS.396,  1.149516e-06   $    0.005819,  0.005819
+        -5602,SOLAR_CARDS.342,SOLAR_CARDS.400,  1.992892e-07   $    0.001009,  0.001009
+        -5603,SOLAR_CARDS.342,SOLAR_CARDS.435,  1.106052e-07   $    0.000560,  0.001120
+        -5604,SOLAR_CARDS.342,SOLAR_CARDS.442,  2.739222e-07   $    0.001387,  0.001387
+        -5605,SOLAR_CARDS.342,SOLAR_CARDS.446,  2.340805e-07   $    0.001185,  0.001185
+        -5606,SOLAR_CARDS.343,SOLAR_CARDS.347,  1.170881e-06   $    0.011855,  0.011855
+        -5607,SOLAR_CARDS.343,SOLAR_CARDS.351,  1.274102e-07   $    0.001290,  0.001290
+        -5608,SOLAR_CARDS.343,SOLAR_CARDS.387,  3.252114e-07   $    0.003293,  0.006586
+        -5609,SOLAR_CARDS.343,SOLAR_CARDS.393,  1.233995e-06   $    0.012494,  0.012494
+        -5610,SOLAR_CARDS.343,SOLAR_CARDS.397,  5.135990e-07   $    0.005200,  0.005200
+        -5611,SOLAR_CARDS.343,SOLAR_CARDS.443,  1.121513e-07   $    0.001136,  0.001136
+        -5612,SOLAR_CARDS.345,SOLAR_CARDS.349,  1.203139e-06   $    0.012182,  0.012182
+        -5613,SOLAR_CARDS.345,SOLAR_CARDS.353,  1.273294e-07   $    0.001289,  0.001289
+        -5614,SOLAR_CARDS.345,SOLAR_CARDS.357,  9.729937e-08   $    0.000985,  0.001970
+        -5615,SOLAR_CARDS.345,SOLAR_CARDS.382,  5.931274e-08   $    0.000601,  0.001201
+        -5616,SOLAR_CARDS.345,SOLAR_CARDS.383,  5.229644e-08   $    0.000530,  0.001059
+        -5617,SOLAR_CARDS.345,SOLAR_CARDS.391,  4.416430e-07   $    0.004472,  0.004472
+        -5618,SOLAR_CARDS.345,SOLAR_CARDS.395,  1.142394e-06   $    0.011567,  0.011567
+        -5619,SOLAR_CARDS.345,SOLAR_CARDS.399,  4.698416e-07   $    0.004757,  0.004757
+        -5620,SOLAR_CARDS.345,SOLAR_CARDS.403,  1.100414e-07   $    0.001114,  0.001114
+        -5621,SOLAR_CARDS.346,SOLAR_CARDS.350,  3.298022e-06   $    0.016696,  0.016696
+        -5622,SOLAR_CARDS.346,SOLAR_CARDS.354,  3.449523e-07   $    0.001746,  0.001746
+        -5623,SOLAR_CARDS.346,SOLAR_CARDS.359,  2.699857e-07   $    0.001367,  0.002734
+        -5624,SOLAR_CARDS.346,SOLAR_CARDS.384,  1.912276e-07   $    0.000968,  0.001936
+        -5625,SOLAR_CARDS.346,SOLAR_CARDS.385,  1.920799e-07   $    0.000972,  0.001945
+        -5626,SOLAR_CARDS.346,SOLAR_CARDS.392,  1.265906e-06   $    0.006409,  0.006409
+        -5627,SOLAR_CARDS.346,SOLAR_CARDS.396,  3.212733e-06   $    0.016264,  0.016264
+        -5628,SOLAR_CARDS.346,SOLAR_CARDS.400,  1.326977e-06   $    0.006718,  0.006718
+        -5629,SOLAR_CARDS.346,SOLAR_CARDS.404,  2.730852e-07   $    0.001382,  0.001382
+        -5630,SOLAR_CARDS.346,SOLAR_CARDS.446,  2.942558e-07   $    0.001490,  0.001490
+        -5631,SOLAR_CARDS.347,SOLAR_CARDS.351,  1.091317e-06   $    0.011050,  0.011050
+        -5632,SOLAR_CARDS.347,SOLAR_CARDS.355,  1.398921e-07   $    0.001416,  0.001416
+        -5633,SOLAR_CARDS.347,SOLAR_CARDS.361,  9.090547e-08   $    0.000920,  0.001841
+        -5634,SOLAR_CARDS.347,SOLAR_CARDS.386,  6.026811e-08   $    0.000610,  0.001220
+        -5635,SOLAR_CARDS.347,SOLAR_CARDS.387,  4.939668e-08   $    0.000500,  0.001000
+        -5636,SOLAR_CARDS.347,SOLAR_CARDS.393,  4.591284e-07   $    0.004649,  0.004649
+        -5637,SOLAR_CARDS.347,SOLAR_CARDS.397,  1.165038e-06   $    0.011796,  0.011796
+        -5638,SOLAR_CARDS.347,SOLAR_CARDS.401,  4.421252e-07   $    0.004477,  0.004477
+        -5639,SOLAR_CARDS.347,SOLAR_CARDS.447,  1.062525e-07   $    0.001076,  0.001076
+        -5640,SOLAR_CARDS.349,SOLAR_CARDS.353,  1.245565e-06   $    0.012611,  0.012611
+        -5641,SOLAR_CARDS.349,SOLAR_CARDS.358,  1.665713e-07   $    0.001687,  0.001687
+        -5642,SOLAR_CARDS.349,SOLAR_CARDS.382,  9.174821e-08   $    0.000929,  0.001858
+        -5643,SOLAR_CARDS.349,SOLAR_CARDS.395,  4.917738e-07   $    0.004979,  0.004979
+        -5644,SOLAR_CARDS.349,SOLAR_CARDS.399,  1.251067e-06   $    0.012667,  0.012667
+        -5645,SOLAR_CARDS.349,SOLAR_CARDS.403,  5.056048e-07   $    0.005119,  0.005119
+        -5646,SOLAR_CARDS.349,SOLAR_CARDS.407,  6.535873e-08   $    0.000662,  0.001324
+        -5647,SOLAR_CARDS.349,SOLAR_CARDS.449,  1.523504e-07   $    0.001543,  0.001543
+        -5648,SOLAR_CARDS.350,SOLAR_CARDS.354,  3.068958e-06   $    0.015537,  0.015537
+        -5649,SOLAR_CARDS.350,SOLAR_CARDS.359,  2.071656e-07   $    0.001049,  0.002098
+        -5650,SOLAR_CARDS.350,SOLAR_CARDS.360,  3.112278e-07   $    0.001576,  0.001576
+        -5651,SOLAR_CARDS.350,SOLAR_CARDS.384,  2.369937e-07   $    0.001200,  0.002400
+        -5652,SOLAR_CARDS.350,SOLAR_CARDS.392,  2.024077e-07   $    0.001025,  0.001025
+        -5653,SOLAR_CARDS.350,SOLAR_CARDS.396,  1.540781e-06   $    0.007800,  0.007800
+        -5654,SOLAR_CARDS.350,SOLAR_CARDS.400,  3.298581e-06   $    0.016699,  0.016699
+        -5655,SOLAR_CARDS.350,SOLAR_CARDS.404,  1.480959e-06   $    0.007497,  0.007497
+        -5656,SOLAR_CARDS.350,SOLAR_CARDS.409,  2.026488e-07   $    0.001026,  0.002052
+        -5657,SOLAR_CARDS.350,SOLAR_CARDS.410,  2.687682e-07   $    0.001361,  0.001361
+        -5658,SOLAR_CARDS.350,SOLAR_CARDS.446,  2.259106e-07   $    0.001144,  0.001144
+        -5659,SOLAR_CARDS.350,SOLAR_CARDS.450,  2.682615e-07   $    0.001358,  0.001358
+        -5660,SOLAR_CARDS.350,SOLAR_CARDS.454,  2.083664e-07   $    0.001055,  0.001055
+        -5661,SOLAR_CARDS.351,SOLAR_CARDS.355,  1.171375e-06   $    0.011860,  0.011860
+        -5662,SOLAR_CARDS.351,SOLAR_CARDS.362,  1.635642e-07   $    0.001656,  0.001656
+        -5663,SOLAR_CARDS.351,SOLAR_CARDS.386,  9.410720e-08   $    0.000953,  0.001906
+        -5664,SOLAR_CARDS.351,SOLAR_CARDS.397,  5.415969e-07   $    0.005484,  0.005484
+        -5665,SOLAR_CARDS.351,SOLAR_CARDS.401,  1.156444e-06   $    0.011709,  0.011709
+        -5666,SOLAR_CARDS.351,SOLAR_CARDS.405,  4.811747e-07   $    0.004872,  0.004872
+        -5667,SOLAR_CARDS.351,SOLAR_CARDS.411,  5.258001e-08   $    0.000532,  0.001065
+        -5668,SOLAR_CARDS.351,SOLAR_CARDS.451,  1.318258e-07   $    0.001335,  0.001335
+        -5669,SOLAR_CARDS.353,SOLAR_CARDS.358,  1.267348e-06   $    0.012832,  0.012832
+        -5670,SOLAR_CARDS.353,SOLAR_CARDS.366,  1.481861e-07   $    0.001500,  0.001500
+        -5671,SOLAR_CARDS.353,SOLAR_CARDS.399,  4.737850e-07   $    0.004797,  0.004797
+        -5672,SOLAR_CARDS.353,SOLAR_CARDS.403,  1.133399e-06   $    0.011476,  0.011476
+        -5673,SOLAR_CARDS.353,SOLAR_CARDS.407,  7.626548e-08   $    0.000772,  0.001544
+        -5674,SOLAR_CARDS.353,SOLAR_CARDS.408,  4.885854e-07   $    0.004947,  0.004947
+        -5675,SOLAR_CARDS.353,SOLAR_CARDS.432,  6.069175e-08   $    0.000615,  0.001229
+        -5676,SOLAR_CARDS.353,SOLAR_CARDS.453,  1.160983e-07   $    0.001175,  0.001175
+        -5677,SOLAR_CARDS.354,SOLAR_CARDS.360,  2.944885e-06   $    0.014908,  0.014908
+        -5678,SOLAR_CARDS.354,SOLAR_CARDS.367,  4.062960e-07   $    0.002057,  0.002057
+        -5679,SOLAR_CARDS.354,SOLAR_CARDS.384,  1.618093e-07   $    0.000819,  0.001638
+        -5680,SOLAR_CARDS.354,SOLAR_CARDS.396,  2.805713e-07   $    0.001420,  0.001420
+        -5681,SOLAR_CARDS.354,SOLAR_CARDS.400,  1.493405e-06   $    0.007560,  0.007560
+        -5682,SOLAR_CARDS.354,SOLAR_CARDS.404,  2.975389e-06   $    0.015063,  0.015063
+        -5683,SOLAR_CARDS.354,SOLAR_CARDS.409,  2.876799e-07   $    0.001456,  0.002913
+        -5684,SOLAR_CARDS.354,SOLAR_CARDS.410,  1.258046e-06   $    0.006369,  0.006369
+        -5685,SOLAR_CARDS.354,SOLAR_CARDS.417,  3.554590e-07   $    0.001800,  0.001800
+        -5686,SOLAR_CARDS.354,SOLAR_CARDS.434,  1.151710e-07   $    0.000583,  0.001166
+        -5687,SOLAR_CARDS.354,SOLAR_CARDS.450,  2.190470e-07   $    0.001109,  0.001109
+        -5688,SOLAR_CARDS.354,SOLAR_CARDS.454,  3.642648e-07   $    0.001844,  0.001844
+        -5689,SOLAR_CARDS.355,SOLAR_CARDS.362,  1.192359e-06   $    0.012073,  0.012073
+        -5690,SOLAR_CARDS.355,SOLAR_CARDS.368,  1.215561e-07   $    0.001231,  0.001231
+        -5691,SOLAR_CARDS.355,SOLAR_CARDS.386,  5.936996e-08   $    0.000601,  0.001202
+        -5692,SOLAR_CARDS.355,SOLAR_CARDS.401,  5.483011e-07   $    0.005552,  0.005552
+        -5693,SOLAR_CARDS.355,SOLAR_CARDS.405,  1.217764e-06   $    0.012330,  0.012330
+        -5694,SOLAR_CARDS.355,SOLAR_CARDS.411,  8.851649e-08   $    0.000896,  0.001792
+        -5695,SOLAR_CARDS.355,SOLAR_CARDS.412,  4.523118e-07   $    0.004580,  0.004580
+        -5696,SOLAR_CARDS.357,SOLAR_CARDS.382,  3.094397e-07   $    0.006266,  0.006266
+        -5697,SOLAR_CARDS.358,SOLAR_CARDS.366,  1.161604e-06   $    0.011761,  0.011761
+        -5698,SOLAR_CARDS.358,SOLAR_CARDS.370,  1.301075e-07   $    0.001317,  0.001317
+        -5699,SOLAR_CARDS.358,SOLAR_CARDS.403,  4.963764e-07   $    0.005026,  0.005026
+        -5700,SOLAR_CARDS.358,SOLAR_CARDS.407,  5.904649e-08   $    0.000598,  0.001196
+        -5701,SOLAR_CARDS.358,SOLAR_CARDS.408,  1.218599e-06   $    0.012338,  0.012338
+        -5702,SOLAR_CARDS.358,SOLAR_CARDS.416,  5.131123e-07   $    0.005195,  0.005195
+        -5703,SOLAR_CARDS.358,SOLAR_CARDS.432,  8.012718e-08   $    0.000811,  0.001623
+        -5704,SOLAR_CARDS.358,SOLAR_CARDS.457,  5.464105e-08   $    0.000553,  0.001106
+        -5705,SOLAR_CARDS.358,SOLAR_CARDS.458,  1.164650e-07   $    0.001179,  0.001179
+        -5706,SOLAR_CARDS.359,SOLAR_CARDS.384,  8.326216e-07   $    0.008430,  0.008430
+        -5707,SOLAR_CARDS.360,SOLAR_CARDS.367,  3.002685e-06   $    0.015201,  0.015201
+        -5708,SOLAR_CARDS.360,SOLAR_CARDS.371,  4.081959e-07   $    0.002066,  0.002066
+        -5709,SOLAR_CARDS.360,SOLAR_CARDS.400,  2.181199e-07   $    0.001104,  0.001104
+        -5710,SOLAR_CARDS.360,SOLAR_CARDS.404,  1.346791e-06   $    0.006818,  0.006818
+        -5711,SOLAR_CARDS.360,SOLAR_CARDS.409,  1.323109e-07   $    0.000670,  0.001340
+        -5712,SOLAR_CARDS.360,SOLAR_CARDS.410,  3.253811e-06   $    0.016472,  0.016472
+        -5713,SOLAR_CARDS.360,SOLAR_CARDS.417,  1.314595e-06   $    0.006655,  0.006655
+        -5714,SOLAR_CARDS.360,SOLAR_CARDS.421,  2.441372e-07   $    0.001236,  0.001236
+        -5715,SOLAR_CARDS.360,SOLAR_CARDS.434,  3.127810e-07   $    0.001583,  0.003167
+        -5716,SOLAR_CARDS.360,SOLAR_CARDS.454,  2.234843e-07   $    0.001131,  0.001131
+        -5717,SOLAR_CARDS.360,SOLAR_CARDS.459,  1.562058e-07   $    0.000791,  0.001582
+        -5718,SOLAR_CARDS.360,SOLAR_CARDS.460,  4.203179e-07   $    0.002128,  0.002128
+        -5719,SOLAR_CARDS.360,SOLAR_CARDS.467,  2.660464e-07   $    0.001347,  0.001347
+        -5720,SOLAR_CARDS.361,SOLAR_CARDS.386,  2.765834e-07   $    0.005601,  0.005601
+        -5721,SOLAR_CARDS.362,SOLAR_CARDS.368,  1.229547e-06   $    0.012449,  0.012449
+        -5722,SOLAR_CARDS.362,SOLAR_CARDS.372,  1.221274e-07   $    0.001237,  0.001237
+        -5723,SOLAR_CARDS.362,SOLAR_CARDS.405,  5.013932e-07   $    0.005077,  0.005077
+        -5724,SOLAR_CARDS.362,SOLAR_CARDS.411,  6.083117e-08   $    0.000616,  0.001232
+        -5725,SOLAR_CARDS.362,SOLAR_CARDS.412,  1.195243e-06   $    0.012102,  0.012102
+        -5726,SOLAR_CARDS.362,SOLAR_CARDS.418,  4.574138e-07   $    0.004631,  0.004631
+        -5727,SOLAR_CARDS.362,SOLAR_CARDS.436,  1.101585e-07   $    0.001115,  0.002231
+        -5728,SOLAR_CARDS.362,SOLAR_CARDS.462,  1.102733e-07   $    0.001117,  0.001117
+        -5729,SOLAR_CARDS.363,SOLAR_CARDS.388,  2.832705e-07   $    0.005736,  0.005736
+        -5730,SOLAR_CARDS.366,SOLAR_CARDS.370,  1.270654e-06   $    0.012865,  0.012865
+        -5731,SOLAR_CARDS.366,SOLAR_CARDS.374,  1.543087e-07   $    0.001562,  0.001562
+        -5732,SOLAR_CARDS.366,SOLAR_CARDS.408,  5.044986e-07   $    0.005108,  0.005108
+        -5733,SOLAR_CARDS.366,SOLAR_CARDS.416,  1.164396e-06   $    0.011790,  0.011790
+        -5734,SOLAR_CARDS.366,SOLAR_CARDS.420,  4.671564e-07   $    0.004730,  0.004730
+        -5735,SOLAR_CARDS.366,SOLAR_CARDS.432,  5.507033e-08   $    0.000558,  0.001115
+        -5736,SOLAR_CARDS.366,SOLAR_CARDS.457,  9.981215e-08   $    0.001011,  0.002021
+        -5737,SOLAR_CARDS.367,SOLAR_CARDS.371,  3.189351e-06   $    0.016146,  0.016146
+        -5738,SOLAR_CARDS.367,SOLAR_CARDS.375,  4.177265e-07   $    0.002115,  0.002115
+        -5739,SOLAR_CARDS.367,SOLAR_CARDS.404,  2.427759e-07   $    0.001229,  0.001229
+        -5740,SOLAR_CARDS.367,SOLAR_CARDS.410,  1.324593e-06   $    0.006706,  0.006706
+        -5741,SOLAR_CARDS.367,SOLAR_CARDS.417,  3.186575e-06   $    0.016132,  0.016132
+        -5742,SOLAR_CARDS.367,SOLAR_CARDS.421,  1.356367e-06   $    0.006867,  0.006867
+        -5743,SOLAR_CARDS.367,SOLAR_CARDS.425,  2.703143e-07   $    0.001368,  0.001368
+        -5744,SOLAR_CARDS.367,SOLAR_CARDS.434,  2.214263e-07   $    0.001121,  0.002242
+        -5745,SOLAR_CARDS.367,SOLAR_CARDS.459,  3.548404e-07   $    0.001796,  0.003593
+        -5746,SOLAR_CARDS.367,SOLAR_CARDS.460,  3.106063e-07   $    0.001572,  0.001572
+        -5747,SOLAR_CARDS.367,SOLAR_CARDS.467,  3.206379e-07   $    0.001623,  0.001623
+        -5748,SOLAR_CARDS.367,SOLAR_CARDS.471,  1.991319e-07   $    0.001008,  0.001008
+        -5749,SOLAR_CARDS.367,SOLAR_CARDS.484,  1.860455e-07   $    0.000942,  0.001884
+        -5750,SOLAR_CARDS.368,SOLAR_CARDS.372,  1.191754e-06   $    0.012067,  0.012067
+        -5751,SOLAR_CARDS.368,SOLAR_CARDS.376,  1.282529e-07   $    0.001299,  0.001299
+        -5752,SOLAR_CARDS.368,SOLAR_CARDS.412,  4.350149e-07   $    0.004405,  0.004405
+        -5753,SOLAR_CARDS.368,SOLAR_CARDS.418,  1.146224e-06   $    0.011606,  0.011606
+        -5754,SOLAR_CARDS.368,SOLAR_CARDS.422,  4.482075e-07   $    0.004538,  0.004538
+        -5755,SOLAR_CARDS.368,SOLAR_CARDS.436,  5.118438e-08   $    0.000518,  0.001036
+        -5756,SOLAR_CARDS.368,SOLAR_CARDS.461,  9.375125e-08   $    0.000949,  0.001898
+        -5757,SOLAR_CARDS.368,SOLAR_CARDS.486,  7.090634e-08   $    0.000718,  0.001436
+        -5758,SOLAR_CARDS.370,SOLAR_CARDS.374,  1.093686e-06   $    0.011074,  0.011074
+        -5759,SOLAR_CARDS.370,SOLAR_CARDS.378,  9.374827e-08   $    0.000949,  0.001898
+        -5760,SOLAR_CARDS.370,SOLAR_CARDS.408,  1.039124e-07   $    0.001052,  0.001052
+        -5761,SOLAR_CARDS.370,SOLAR_CARDS.416,  4.672652e-07   $    0.004731,  0.004731
+        -5762,SOLAR_CARDS.370,SOLAR_CARDS.420,  1.129430e-06   $    0.011435,  0.011435
+        -5763,SOLAR_CARDS.370,SOLAR_CARDS.424,  4.856063e-07   $    0.004917,  0.004917
+        -5764,SOLAR_CARDS.370,SOLAR_CARDS.428,  6.135129e-08   $    0.000621,  0.001242
+        -5765,SOLAR_CARDS.370,SOLAR_CARDS.457,  6.045631e-08   $    0.000612,  0.001224
+        -5766,SOLAR_CARDS.370,SOLAR_CARDS.470,  1.192825e-07   $    0.001208,  0.001208
+        -5767,SOLAR_CARDS.370,SOLAR_CARDS.482,  9.263272e-08   $    0.000938,  0.001876
+        -5768,SOLAR_CARDS.370,SOLAR_CARDS.507,  5.631371e-08   $    0.000570,  0.001140
+        -5769,SOLAR_CARDS.371,SOLAR_CARDS.375,  3.214822e-06   $    0.016275,  0.016275
+        -5770,SOLAR_CARDS.371,SOLAR_CARDS.379,  2.530730e-07   $    0.001281,  0.002562
+        -5771,SOLAR_CARDS.371,SOLAR_CARDS.410,  2.431056e-07   $    0.001231,  0.001231
+        -5772,SOLAR_CARDS.371,SOLAR_CARDS.417,  1.589360e-06   $    0.008046,  0.008046
+        -5773,SOLAR_CARDS.371,SOLAR_CARDS.421,  2.990984e-06   $    0.015142,  0.015142
+        -5774,SOLAR_CARDS.371,SOLAR_CARDS.425,  1.387247e-06   $    0.007023,  0.007023
+        -5775,SOLAR_CARDS.371,SOLAR_CARDS.429,  1.251852e-07   $    0.000634,  0.001268
+        -5776,SOLAR_CARDS.371,SOLAR_CARDS.459,  1.795288e-07   $    0.000909,  0.001818
+        -5777,SOLAR_CARDS.371,SOLAR_CARDS.467,  2.366873e-07   $    0.001198,  0.001198
+        -5778,SOLAR_CARDS.371,SOLAR_CARDS.471,  3.566897e-07   $    0.001806,  0.001806
+        -5779,SOLAR_CARDS.371,SOLAR_CARDS.484,  2.031337e-07   $    0.001028,  0.002057
+        -5780,SOLAR_CARDS.371,SOLAR_CARDS.509,  1.559595e-07   $    0.000790,  0.001579
+        -5781,SOLAR_CARDS.372,SOLAR_CARDS.376,  1.249218e-06   $    0.012648,  0.012648
+        -5782,SOLAR_CARDS.372,SOLAR_CARDS.380,  9.606706e-08   $    0.000973,  0.001945
+        -5783,SOLAR_CARDS.372,SOLAR_CARDS.412,  1.315663e-07   $    0.001332,  0.001332
+        -5784,SOLAR_CARDS.372,SOLAR_CARDS.418,  4.603705e-07   $    0.004661,  0.004661
+        -5785,SOLAR_CARDS.372,SOLAR_CARDS.422,  1.179336e-06   $    0.011941,  0.011941
+        -5786,SOLAR_CARDS.372,SOLAR_CARDS.426,  5.789697e-07   $    0.005862,  0.005862
+        -5787,SOLAR_CARDS.372,SOLAR_CARDS.430,  5.605597e-08   $    0.000568,  0.001135
+        -5788,SOLAR_CARDS.372,SOLAR_CARDS.461,  4.983395e-08   $    0.000505,  0.001009
+        -5789,SOLAR_CARDS.372,SOLAR_CARDS.486,  8.960200e-08   $    0.000907,  0.001814
+        -5790,SOLAR_CARDS.372,SOLAR_CARDS.511,  6.447845e-08   $    0.000653,  0.001306
+        -5791,SOLAR_CARDS.374,SOLAR_CARDS.378,  8.524424e-07   $    0.008631,  0.017262
+        -5792,SOLAR_CARDS.374,SOLAR_CARDS.420,  4.231329e-07   $    0.004284,  0.004284
+        -5793,SOLAR_CARDS.374,SOLAR_CARDS.424,  1.210987e-06   $    0.012261,  0.012261
+        -5794,SOLAR_CARDS.374,SOLAR_CARDS.428,  3.566811e-07   $    0.003611,  0.007223
+        -5795,SOLAR_CARDS.374,SOLAR_CARDS.478,  5.208152e-08   $    0.000527,  0.001055
+        -5796,SOLAR_CARDS.374,SOLAR_CARDS.482,  5.925926e-08   $    0.000600,  0.001200
+        -5797,SOLAR_CARDS.374,SOLAR_CARDS.507,  9.373419e-08   $    0.000949,  0.001898
+        -5798,SOLAR_CARDS.375,SOLAR_CARDS.379,  2.318848e-06   $    0.011739,  0.023478
+        -5799,SOLAR_CARDS.375,SOLAR_CARDS.417,  2.007089e-07   $    0.001016,  0.001016
+        -5800,SOLAR_CARDS.375,SOLAR_CARDS.421,  1.319181e-06   $    0.006678,  0.006678
+        -5801,SOLAR_CARDS.375,SOLAR_CARDS.425,  3.203298e-06   $    0.016217,  0.016217
+        -5802,SOLAR_CARDS.375,SOLAR_CARDS.429,  9.153179e-07   $    0.004634,  0.009268
+        -5803,SOLAR_CARDS.375,SOLAR_CARDS.475,  2.784444e-07   $    0.001410,  0.001410
+        -5804,SOLAR_CARDS.375,SOLAR_CARDS.479,  1.591398e-07   $    0.000806,  0.001611
+        -5805,SOLAR_CARDS.375,SOLAR_CARDS.484,  1.976257e-07   $    0.001000,  0.002001
+        -5806,SOLAR_CARDS.375,SOLAR_CARDS.509,  2.611792e-07   $    0.001322,  0.002644
+        -5807,SOLAR_CARDS.376,SOLAR_CARDS.380,  7.860722e-07   $    0.007959,  0.015918
+        -5808,SOLAR_CARDS.376,SOLAR_CARDS.418,  1.079012e-07   $    0.001092,  0.001092
+        -5809,SOLAR_CARDS.376,SOLAR_CARDS.422,  5.353493e-07   $    0.005420,  0.005420
+        -5810,SOLAR_CARDS.376,SOLAR_CARDS.426,  1.172171e-06   $    0.011868,  0.011868
+        -5811,SOLAR_CARDS.376,SOLAR_CARDS.430,  3.255390e-07   $    0.003296,  0.006592
+        -5812,SOLAR_CARDS.376,SOLAR_CARDS.486,  6.679689e-08   $    0.000676,  0.001353
+        -5813,SOLAR_CARDS.376,SOLAR_CARDS.511,  8.191400e-08   $    0.000829,  0.001659
+        -5814,SOLAR_CARDS.378,SOLAR_CARDS.420,  5.305233e-08   $    0.001074,  0.000537
+        -5815,SOLAR_CARDS.378,SOLAR_CARDS.424,  3.216495e-07   $    0.006513,  0.003257
+        -5816,SOLAR_CARDS.378,SOLAR_CARDS.428,  2.898313e-07   $    0.005869,  0.005869
+        -5817,SOLAR_CARDS.379,SOLAR_CARDS.421,  1.381917e-07   $    0.001399,  0.000700
+        -5818,SOLAR_CARDS.379,SOLAR_CARDS.425,  8.278806e-07   $    0.008382,  0.004191
+        -5819,SOLAR_CARDS.379,SOLAR_CARDS.429,  7.319974e-07   $    0.007411,  0.007411
+        -5820,SOLAR_CARDS.379,SOLAR_CARDS.475,  1.250709e-07   $    0.001266,  0.000633
+        -5821,SOLAR_CARDS.379,SOLAR_CARDS.479,  9.960912e-08   $    0.001009,  0.001009
+        -5822,SOLAR_CARDS.380,SOLAR_CARDS.422,  5.591826e-08   $    0.001132,  0.000566
+        -5823,SOLAR_CARDS.380,SOLAR_CARDS.426,  3.225326e-07   $    0.006531,  0.003266
+        -5824,SOLAR_CARDS.380,SOLAR_CARDS.430,  2.596426e-07   $    0.005258,  0.005258
+        -5825,SOLAR_CARDS.382,SOLAR_CARDS.407,  2.848274e-07   $    0.005768,  0.005768
+        -5826,SOLAR_CARDS.383,SOLAR_CARDS.391,  7.945407e-07   $    0.016089,  0.008045
+        -5827,SOLAR_CARDS.383,SOLAR_CARDS.395,  8.848997e-08   $    0.001792,  0.000896
+        -5828,SOLAR_CARDS.383,SOLAR_CARDS.433,  1.863467e-07   $    0.003774,  0.003774
+        -5829,SOLAR_CARDS.383,SOLAR_CARDS.441,  1.939774e-07   $    0.003928,  0.001964
+        -5830,SOLAR_CARDS.384,SOLAR_CARDS.409,  6.321003e-07   $    0.006400,  0.006400
+        -5831,SOLAR_CARDS.385,SOLAR_CARDS.387,  5.539917e-08   $    0.000561,  0.001122
+        -5832,SOLAR_CARDS.385,SOLAR_CARDS.392,  2.309386e-06   $    0.023383,  0.011691
+        -5833,SOLAR_CARDS.385,SOLAR_CARDS.396,  2.417506e-07   $    0.002448,  0.001224
+        -5834,SOLAR_CARDS.385,SOLAR_CARDS.435,  6.909713e-07   $    0.006996,  0.006996
+        -5835,SOLAR_CARDS.385,SOLAR_CARDS.442,  8.135744e-07   $    0.008237,  0.004119
+        -5836,SOLAR_CARDS.385,SOLAR_CARDS.446,  1.573889e-07   $    0.001594,  0.000797
+        -5837,SOLAR_CARDS.385,SOLAR_CARDS.492,  1.120855e-07   $    0.001135,  0.000567
+        -5838,SOLAR_CARDS.386,SOLAR_CARDS.411,  2.895235e-07   $    0.005863,  0.005863
+        -5839,SOLAR_CARDS.387,SOLAR_CARDS.393,  8.301191e-07   $    0.016810,  0.008405
+        -5840,SOLAR_CARDS.387,SOLAR_CARDS.397,  9.503810e-08   $    0.001925,  0.000962
+        -5841,SOLAR_CARDS.387,SOLAR_CARDS.437,  1.874475e-07   $    0.003796,  0.003796
+        -5842,SOLAR_CARDS.387,SOLAR_CARDS.443,  1.729776e-07   $    0.003503,  0.001751
+        -5843,SOLAR_CARDS.388,SOLAR_CARDS.413,  2.900992e-07   $    0.005875,  0.005875
+        -5844,SOLAR_CARDS.391,SOLAR_CARDS.395,  1.041888e-06   $    0.010549,  0.010549
+        -5845,SOLAR_CARDS.391,SOLAR_CARDS.399,  1.304675e-07   $    0.001321,  0.001321
+        -5846,SOLAR_CARDS.391,SOLAR_CARDS.433,  1.782489e-07   $    0.001805,  0.003610
+        -5847,SOLAR_CARDS.391,SOLAR_CARDS.441,  7.211577e-07   $    0.007302,  0.007302
+        -5848,SOLAR_CARDS.391,SOLAR_CARDS.445,  3.101127e-07   $    0.003140,  0.003140
+        -5849,SOLAR_CARDS.392,SOLAR_CARDS.396,  3.207301e-06   $    0.016237,  0.016237
+        -5850,SOLAR_CARDS.392,SOLAR_CARDS.400,  3.732488e-07   $    0.001890,  0.001890
+        -5851,SOLAR_CARDS.392,SOLAR_CARDS.435,  7.090557e-07   $    0.003590,  0.007179
+        -5852,SOLAR_CARDS.392,SOLAR_CARDS.442,  2.734464e-06   $    0.013843,  0.013843
+        -5853,SOLAR_CARDS.392,SOLAR_CARDS.446,  1.210289e-06   $    0.006127,  0.006127
+        -5854,SOLAR_CARDS.392,SOLAR_CARDS.450,  2.290815e-07   $    0.001160,  0.001160
+        -5855,SOLAR_CARDS.392,SOLAR_CARDS.485,  1.013366e-07   $    0.000513,  0.001026
+        -5856,SOLAR_CARDS.392,SOLAR_CARDS.492,  3.325438e-07   $    0.001684,  0.001684
+        -5857,SOLAR_CARDS.393,SOLAR_CARDS.397,  1.110758e-06   $    0.011246,  0.011246
+        -5858,SOLAR_CARDS.393,SOLAR_CARDS.401,  1.126697e-07   $    0.001141,  0.001141
+        -5859,SOLAR_CARDS.393,SOLAR_CARDS.437,  1.947999e-07   $    0.001972,  0.003945
+        -5860,SOLAR_CARDS.393,SOLAR_CARDS.443,  7.183818e-07   $    0.007274,  0.007274
+        -5861,SOLAR_CARDS.393,SOLAR_CARDS.447,  2.572457e-07   $    0.002605,  0.002605
+        -5862,SOLAR_CARDS.395,SOLAR_CARDS.399,  1.108399e-06   $    0.011223,  0.011223
+        -5863,SOLAR_CARDS.395,SOLAR_CARDS.403,  1.306401e-07   $    0.001323,  0.001323
+        -5864,SOLAR_CARDS.395,SOLAR_CARDS.441,  3.254211e-07   $    0.003295,  0.003295
+        -5865,SOLAR_CARDS.395,SOLAR_CARDS.445,  7.229708e-07   $    0.007320,  0.007320
+        -5866,SOLAR_CARDS.395,SOLAR_CARDS.449,  3.229640e-07   $    0.003270,  0.003270
+        -5867,SOLAR_CARDS.396,SOLAR_CARDS.400,  3.188504e-06   $    0.016142,  0.016142
+        -5868,SOLAR_CARDS.396,SOLAR_CARDS.404,  3.828626e-07   $    0.001938,  0.001938
+        -5869,SOLAR_CARDS.396,SOLAR_CARDS.435,  1.596348e-07   $    0.000808,  0.001616
+        -5870,SOLAR_CARDS.396,SOLAR_CARDS.442,  1.101527e-06   $    0.005576,  0.005576
+        -5871,SOLAR_CARDS.396,SOLAR_CARDS.446,  2.714096e-06   $    0.013740,  0.013740
+        -5872,SOLAR_CARDS.396,SOLAR_CARDS.450,  1.121766e-06   $    0.005679,  0.005679
+        -5873,SOLAR_CARDS.396,SOLAR_CARDS.454,  2.427155e-07   $    0.001229,  0.001229
+        -5874,SOLAR_CARDS.396,SOLAR_CARDS.496,  3.078197e-07   $    0.001558,  0.001558
+        -5875,SOLAR_CARDS.396,SOLAR_CARDS.500,  2.005556e-07   $    0.001015,  0.001015
+        -5876,SOLAR_CARDS.397,SOLAR_CARDS.401,  1.105601e-06   $    0.011194,  0.011194
+        -5877,SOLAR_CARDS.397,SOLAR_CARDS.405,  1.436465e-07   $    0.001454,  0.001454
+        -5878,SOLAR_CARDS.397,SOLAR_CARDS.443,  3.089975e-07   $    0.003129,  0.003129
+        -5879,SOLAR_CARDS.397,SOLAR_CARDS.447,  6.750515e-07   $    0.006835,  0.006835
+        -5880,SOLAR_CARDS.397,SOLAR_CARDS.451,  3.009112e-07   $    0.003047,  0.003047
+        -5881,SOLAR_CARDS.399,SOLAR_CARDS.403,  1.100648e-06   $    0.011144,  0.011144
+        -5882,SOLAR_CARDS.399,SOLAR_CARDS.408,  1.477368e-07   $    0.001496,  0.001496
+        -5883,SOLAR_CARDS.399,SOLAR_CARDS.445,  2.660229e-07   $    0.002693,  0.002693
+        -5884,SOLAR_CARDS.399,SOLAR_CARDS.449,  6.776642e-07   $    0.006861,  0.006861
+        -5885,SOLAR_CARDS.399,SOLAR_CARDS.453,  2.721547e-07   $    0.002756,  0.002756
+        -5886,SOLAR_CARDS.400,SOLAR_CARDS.404,  2.990058e-06   $    0.015137,  0.015137
+        -5887,SOLAR_CARDS.400,SOLAR_CARDS.410,  4.034074e-07   $    0.002042,  0.002042
+        -5888,SOLAR_CARDS.400,SOLAR_CARDS.446,  1.159202e-06   $    0.005868,  0.005868
+        -5889,SOLAR_CARDS.400,SOLAR_CARDS.450,  2.848499e-06   $    0.014421,  0.014421
+        -5890,SOLAR_CARDS.400,SOLAR_CARDS.454,  1.271434e-06   $    0.006437,  0.006437
+        -5891,SOLAR_CARDS.400,SOLAR_CARDS.500,  3.170454e-07   $    0.001605,  0.001605
+        -5892,SOLAR_CARDS.400,SOLAR_CARDS.504,  2.640552e-07   $    0.001337,  0.001337
+        -5893,SOLAR_CARDS.401,SOLAR_CARDS.405,  1.225418e-06   $    0.012407,  0.012407
+        -5894,SOLAR_CARDS.401,SOLAR_CARDS.412,  1.232593e-07   $    0.001248,  0.001248
+        -5895,SOLAR_CARDS.401,SOLAR_CARDS.447,  2.831164e-07   $    0.002867,  0.002867
+        -5896,SOLAR_CARDS.401,SOLAR_CARDS.451,  6.565868e-07   $    0.006648,  0.006648
+        -5897,SOLAR_CARDS.401,SOLAR_CARDS.455,  3.080607e-07   $    0.003119,  0.003119
+        -5898,SOLAR_CARDS.403,SOLAR_CARDS.408,  1.130552e-06   $    0.011447,  0.011447
+        -5899,SOLAR_CARDS.403,SOLAR_CARDS.416,  1.186775e-07   $    0.001202,  0.001202
+        -5900,SOLAR_CARDS.403,SOLAR_CARDS.449,  2.611237e-07   $    0.002644,  0.002644
+        -5901,SOLAR_CARDS.403,SOLAR_CARDS.453,  7.664610e-07   $    0.007760,  0.007760
+        -5902,SOLAR_CARDS.403,SOLAR_CARDS.458,  3.405017e-07   $    0.003448,  0.003448
+        -5903,SOLAR_CARDS.404,SOLAR_CARDS.410,  3.190055e-06   $    0.016150,  0.016150
+        -5904,SOLAR_CARDS.404,SOLAR_CARDS.417,  3.571386e-07   $    0.001808,  0.001808
+        -5905,SOLAR_CARDS.404,SOLAR_CARDS.446,  2.595512e-07   $    0.001314,  0.001314
+        -5906,SOLAR_CARDS.404,SOLAR_CARDS.450,  1.194619e-06   $    0.006048,  0.006048
+        -5907,SOLAR_CARDS.404,SOLAR_CARDS.454,  2.724757e-06   $    0.013794,  0.013794
+        -5908,SOLAR_CARDS.404,SOLAR_CARDS.460,  1.152870e-06   $    0.005836,  0.005836
+        -5909,SOLAR_CARDS.404,SOLAR_CARDS.500,  2.121359e-07   $    0.001074,  0.001074
+        -5910,SOLAR_CARDS.404,SOLAR_CARDS.504,  3.961215e-07   $    0.002005,  0.002005
+        -5911,SOLAR_CARDS.405,SOLAR_CARDS.412,  1.059266e-06   $    0.010725,  0.010725
+        -5912,SOLAR_CARDS.405,SOLAR_CARDS.418,  1.157974e-07   $    0.001172,  0.001172
+        -5913,SOLAR_CARDS.405,SOLAR_CARDS.451,  3.070890e-07   $    0.003109,  0.003109
+        -5914,SOLAR_CARDS.405,SOLAR_CARDS.455,  8.579648e-07   $    0.008687,  0.008687
+        -5915,SOLAR_CARDS.405,SOLAR_CARDS.462,  3.142557e-07   $    0.003182,  0.003182
+        -5916,SOLAR_CARDS.407,SOLAR_CARDS.432,  2.958483e-07   $    0.005991,  0.005991
+        -5917,SOLAR_CARDS.408,SOLAR_CARDS.416,  1.063080e-06   $    0.010764,  0.010764
+        -5918,SOLAR_CARDS.408,SOLAR_CARDS.420,  1.233049e-07   $    0.001248,  0.001248
+        -5919,SOLAR_CARDS.408,SOLAR_CARDS.453,  3.014304e-07   $    0.003052,  0.003052
+        -5920,SOLAR_CARDS.408,SOLAR_CARDS.458,  6.204906e-07   $    0.006282,  0.006282
+        -5921,SOLAR_CARDS.408,SOLAR_CARDS.466,  3.037889e-07   $    0.003076,  0.003076
+        -5922,SOLAR_CARDS.409,SOLAR_CARDS.434,  8.079762e-07   $    0.008181,  0.008181
+        -5923,SOLAR_CARDS.410,SOLAR_CARDS.417,  2.957167e-06   $    0.014971,  0.014971
+        -5924,SOLAR_CARDS.410,SOLAR_CARDS.421,  3.341057e-07   $    0.001691,  0.001691
+        -5925,SOLAR_CARDS.410,SOLAR_CARDS.454,  1.242198e-06   $    0.006289,  0.006289
+        -5926,SOLAR_CARDS.410,SOLAR_CARDS.460,  2.587585e-06   $    0.013100,  0.013100
+        -5927,SOLAR_CARDS.410,SOLAR_CARDS.467,  1.201697e-06   $    0.006084,  0.006084
+        -5928,SOLAR_CARDS.410,SOLAR_CARDS.504,  2.149252e-07   $    0.001088,  0.001088
+        -5929,SOLAR_CARDS.410,SOLAR_CARDS.510,  2.391706e-07   $    0.001211,  0.001211
+        -5930,SOLAR_CARDS.411,SOLAR_CARDS.436,  2.617055e-07   $    0.005300,  0.005300
+        -5931,SOLAR_CARDS.412,SOLAR_CARDS.418,  1.077861e-06   $    0.010913,  0.010913
+        -5932,SOLAR_CARDS.412,SOLAR_CARDS.422,  1.342666e-07   $    0.001359,  0.001359
+        -5933,SOLAR_CARDS.412,SOLAR_CARDS.455,  3.106819e-07   $    0.003146,  0.003146
+        -5934,SOLAR_CARDS.412,SOLAR_CARDS.462,  6.931701e-07   $    0.007018,  0.007018
+        -5935,SOLAR_CARDS.412,SOLAR_CARDS.468,  2.858900e-07   $    0.002895,  0.002895
+        -5936,SOLAR_CARDS.413,SOLAR_CARDS.438,  3.031254e-07   $    0.006138,  0.006138
+        -5937,SOLAR_CARDS.416,SOLAR_CARDS.420,  1.137829e-06   $    0.011521,  0.011521
+        -5938,SOLAR_CARDS.416,SOLAR_CARDS.424,  1.015033e-07   $    0.001028,  0.001028
+        -5939,SOLAR_CARDS.416,SOLAR_CARDS.458,  3.277315e-07   $    0.003318,  0.003318
+        -5940,SOLAR_CARDS.416,SOLAR_CARDS.466,  7.278281e-07   $    0.007369,  0.007369
+        -5941,SOLAR_CARDS.416,SOLAR_CARDS.470,  3.078133e-07   $    0.003117,  0.003117
+        -5942,SOLAR_CARDS.417,SOLAR_CARDS.421,  3.160521e-06   $    0.016000,  0.016000
+        -5943,SOLAR_CARDS.417,SOLAR_CARDS.425,  3.263417e-07   $    0.001652,  0.001652
+        -5944,SOLAR_CARDS.417,SOLAR_CARDS.454,  2.520571e-07   $    0.001276,  0.001276
+        -5945,SOLAR_CARDS.417,SOLAR_CARDS.460,  1.391645e-06   $    0.007045,  0.007045
+        -5946,SOLAR_CARDS.417,SOLAR_CARDS.467,  2.801950e-06   $    0.014185,  0.014185
+        -5947,SOLAR_CARDS.417,SOLAR_CARDS.471,  1.083853e-06   $    0.005487,  0.005487
+        -5948,SOLAR_CARDS.417,SOLAR_CARDS.510,  2.670324e-07   $    0.001352,  0.001352
+        -5949,SOLAR_CARDS.417,SOLAR_CARDS.517,  3.217559e-07   $    0.001629,  0.001629
+        -5950,SOLAR_CARDS.417,SOLAR_CARDS.521,  1.995814e-07   $    0.001010,  0.001010
+        -5951,SOLAR_CARDS.418,SOLAR_CARDS.422,  1.197101e-06   $    0.012121,  0.012121
+        -5952,SOLAR_CARDS.418,SOLAR_CARDS.462,  3.099816e-07   $    0.003139,  0.003139
+        -5953,SOLAR_CARDS.418,SOLAR_CARDS.468,  7.740848e-07   $    0.007838,  0.007838
+        -5954,SOLAR_CARDS.418,SOLAR_CARDS.472,  2.900875e-07   $    0.002937,  0.002937
+        -5955,SOLAR_CARDS.420,SOLAR_CARDS.424,  1.101327e-06   $    0.011151,  0.011151
+        -5956,SOLAR_CARDS.420,SOLAR_CARDS.428,  9.169693e-08   $    0.000928,  0.001857
+        -5957,SOLAR_CARDS.420,SOLAR_CARDS.466,  2.927455e-07   $    0.002964,  0.002964
+        -5958,SOLAR_CARDS.420,SOLAR_CARDS.470,  7.856800e-07   $    0.007955,  0.007955
+        -5959,SOLAR_CARDS.420,SOLAR_CARDS.474,  3.523248e-07   $    0.003567,  0.003567
+        -5960,SOLAR_CARDS.421,SOLAR_CARDS.425,  3.385370e-06   $    0.017138,  0.017138
+        -5961,SOLAR_CARDS.421,SOLAR_CARDS.429,  3.064377e-07   $    0.001551,  0.003103
+        -5962,SOLAR_CARDS.421,SOLAR_CARDS.460,  2.342578e-07   $    0.001186,  0.001186
+        -5963,SOLAR_CARDS.421,SOLAR_CARDS.467,  1.246652e-06   $    0.006311,  0.006311
+        -5964,SOLAR_CARDS.421,SOLAR_CARDS.471,  2.684518e-06   $    0.013590,  0.013590
+        -5965,SOLAR_CARDS.421,SOLAR_CARDS.475,  1.127998e-06   $    0.005710,  0.005710
+        -5966,SOLAR_CARDS.421,SOLAR_CARDS.479,  1.182596e-07   $    0.000599,  0.001197
+        -5967,SOLAR_CARDS.421,SOLAR_CARDS.521,  2.857878e-07   $    0.001447,  0.001447
+        -5968,SOLAR_CARDS.421,SOLAR_CARDS.525,  2.210001e-07   $    0.001119,  0.001119
+        -5969,SOLAR_CARDS.422,SOLAR_CARDS.426,  1.166976e-06   $    0.011816,  0.011816
+        -5970,SOLAR_CARDS.422,SOLAR_CARDS.430,  9.114775e-08   $    0.000923,  0.001846
+        -5971,SOLAR_CARDS.422,SOLAR_CARDS.468,  3.210772e-07   $    0.003251,  0.003251
+        -5972,SOLAR_CARDS.422,SOLAR_CARDS.472,  6.717445e-07   $    0.006801,  0.006801
+        -5973,SOLAR_CARDS.422,SOLAR_CARDS.476,  2.905931e-07   $    0.002942,  0.002942
+        -5974,SOLAR_CARDS.424,SOLAR_CARDS.428,  7.992069e-07   $    0.008092,  0.016184
+        -5975,SOLAR_CARDS.424,SOLAR_CARDS.470,  2.577824e-07   $    0.002610,  0.002610
+        -5976,SOLAR_CARDS.424,SOLAR_CARDS.474,  7.003295e-07   $    0.007091,  0.007091
+        -5977,SOLAR_CARDS.424,SOLAR_CARDS.478,  1.936005e-07   $    0.001960,  0.003920
+        -5978,SOLAR_CARDS.425,SOLAR_CARDS.429,  2.131331e-06   $    0.010790,  0.021580
+        -5979,SOLAR_CARDS.425,SOLAR_CARDS.467,  2.115762e-07   $    0.001071,  0.001071
+        -5980,SOLAR_CARDS.425,SOLAR_CARDS.471,  1.155926e-06   $    0.005852,  0.005852
+        -5981,SOLAR_CARDS.425,SOLAR_CARDS.475,  2.664320e-06   $    0.013488,  0.013488
+        -5982,SOLAR_CARDS.425,SOLAR_CARDS.479,  8.721833e-07   $    0.004415,  0.008831
+        -5983,SOLAR_CARDS.425,SOLAR_CARDS.521,  2.355645e-07   $    0.001193,  0.001193
+        -5984,SOLAR_CARDS.425,SOLAR_CARDS.525,  2.705121e-07   $    0.001369,  0.001369
+        -5985,SOLAR_CARDS.425,SOLAR_CARDS.529,  1.383257e-07   $    0.000700,  0.001401
+        -5986,SOLAR_CARDS.426,SOLAR_CARDS.430,  8.221577e-07   $    0.008324,  0.016649
+        -5987,SOLAR_CARDS.426,SOLAR_CARDS.472,  2.747380e-07   $    0.002782,  0.002782
+        -5988,SOLAR_CARDS.426,SOLAR_CARDS.476,  7.244295e-07   $    0.007335,  0.007335
+        -5989,SOLAR_CARDS.426,SOLAR_CARDS.480,  1.962700e-07   $    0.001987,  0.003974
+        -5990,SOLAR_CARDS.428,SOLAR_CARDS.474,  1.908090e-07   $    0.003864,  0.001932
+        -5991,SOLAR_CARDS.428,SOLAR_CARDS.478,  1.663967e-07   $    0.003370,  0.003370
+        -5992,SOLAR_CARDS.429,SOLAR_CARDS.471,  1.944705e-07   $    0.001969,  0.000985
+        -5993,SOLAR_CARDS.429,SOLAR_CARDS.475,  7.442613e-07   $    0.007536,  0.003768
+        -5994,SOLAR_CARDS.429,SOLAR_CARDS.479,  6.952769e-07   $    0.007040,  0.007040
+        -5995,SOLAR_CARDS.429,SOLAR_CARDS.525,  1.018386e-07   $    0.001031,  0.000516
+        -5996,SOLAR_CARDS.430,SOLAR_CARDS.476,  2.128361e-07   $    0.004310,  0.002155
+        -5997,SOLAR_CARDS.430,SOLAR_CARDS.480,  1.741939e-07   $    0.003527,  0.003527
+        -5998,SOLAR_CARDS.432,SOLAR_CARDS.457,  2.612894e-07   $    0.005291,  0.005291
+        -5999,SOLAR_CARDS.433,SOLAR_CARDS.441,  1.133256e-07   $    0.002295,  0.001147
+        -6000,SOLAR_CARDS.434,SOLAR_CARDS.459,  6.826158e-07   $    0.006911,  0.006911
+        -6001,SOLAR_CARDS.434,SOLAR_CARDS.484,  1.051399e-07   $    0.001065,  0.001065
+        -6002,SOLAR_CARDS.435,SOLAR_CARDS.442,  1.605958e-06   $    0.016260,  0.008130
+        -6003,SOLAR_CARDS.435,SOLAR_CARDS.446,  1.969589e-07   $    0.001994,  0.000997
+        -6004,SOLAR_CARDS.435,SOLAR_CARDS.485,  4.987255e-07   $    0.005050,  0.005050
+        -6005,SOLAR_CARDS.435,SOLAR_CARDS.492,  6.005078e-07   $    0.006080,  0.003040
+        -6006,SOLAR_CARDS.435,SOLAR_CARDS.496,  1.079688e-07   $    0.001093,  0.000547
+        -6007,SOLAR_CARDS.435,SOLAR_CARDS.537,  1.222034e-07   $    0.001237,  0.000619
+        -6008,SOLAR_CARDS.436,SOLAR_CARDS.461,  2.756389e-07   $    0.005582,  0.005582
+        -6009,SOLAR_CARDS.437,SOLAR_CARDS.443,  9.320127e-08   $    0.001887,  0.000944
+        -6010,SOLAR_CARDS.438,SOLAR_CARDS.463,  2.582721e-07   $    0.005230,  0.005230
+        -6011,SOLAR_CARDS.441,SOLAR_CARDS.445,  1.604309e-07   $    0.001624,  0.001624
+        -6012,SOLAR_CARDS.442,SOLAR_CARDS.446,  2.249141e-06   $    0.011386,  0.011386
+        -6013,SOLAR_CARDS.442,SOLAR_CARDS.450,  2.275203e-07   $    0.001152,  0.001152
+        -6014,SOLAR_CARDS.442,SOLAR_CARDS.485,  5.746962e-07   $    0.002909,  0.005819
+        -6015,SOLAR_CARDS.442,SOLAR_CARDS.492,  2.143060e-06   $    0.010849,  0.010849
+        -6016,SOLAR_CARDS.442,SOLAR_CARDS.496,  1.003017e-06   $    0.005078,  0.005078
+        -6017,SOLAR_CARDS.442,SOLAR_CARDS.533,  1.019817e-07   $    0.000516,  0.001033
+        -6018,SOLAR_CARDS.442,SOLAR_CARDS.537,  2.600684e-07   $    0.001317,  0.001317
+        -6019,SOLAR_CARDS.443,SOLAR_CARDS.447,  1.373652e-07   $    0.001391,  0.001391
+        -6020,SOLAR_CARDS.445,SOLAR_CARDS.449,  1.646303e-07   $    0.001667,  0.001667
+        -6021,SOLAR_CARDS.446,SOLAR_CARDS.450,  2.091248e-06   $    0.010587,  0.010587
+        -6022,SOLAR_CARDS.446,SOLAR_CARDS.454,  2.460145e-07   $    0.001245,  0.001245
+        -6023,SOLAR_CARDS.446,SOLAR_CARDS.485,  1.067283e-07   $    0.000540,  0.001081
+        -6024,SOLAR_CARDS.446,SOLAR_CARDS.492,  9.105815e-07   $    0.004610,  0.004610
+        -6025,SOLAR_CARDS.446,SOLAR_CARDS.496,  2.177371e-06   $    0.011023,  0.011023
+        -6026,SOLAR_CARDS.446,SOLAR_CARDS.500,  9.943868e-07   $    0.005034,  0.005034
+        -6027,SOLAR_CARDS.446,SOLAR_CARDS.504,  1.980417e-07   $    0.001003,  0.001003
+        -6028,SOLAR_CARDS.446,SOLAR_CARDS.537,  2.518358e-07   $    0.001275,  0.001275
+        -6029,SOLAR_CARDS.447,SOLAR_CARDS.451,  1.756717e-07   $    0.001779,  0.001779
+        -6030,SOLAR_CARDS.449,SOLAR_CARDS.453,  1.726913e-07   $    0.001748,  0.001748
+        -6031,SOLAR_CARDS.450,SOLAR_CARDS.454,  2.198803e-06   $    0.011131,  0.011131
+        -6032,SOLAR_CARDS.450,SOLAR_CARDS.460,  2.023210e-07   $    0.001024,  0.001024
+        -6033,SOLAR_CARDS.450,SOLAR_CARDS.496,  8.678560e-07   $    0.004394,  0.004394
+        -6034,SOLAR_CARDS.450,SOLAR_CARDS.500,  2.072772e-06   $    0.010493,  0.010493
+        -6035,SOLAR_CARDS.450,SOLAR_CARDS.504,  8.179421e-07   $    0.004141,  0.004141
+        -6036,SOLAR_CARDS.450,SOLAR_CARDS.510,  2.415712e-07   $    0.001223,  0.001223
+        -6037,SOLAR_CARDS.451,SOLAR_CARDS.455,  1.574970e-07   $    0.001595,  0.001595
+        -6038,SOLAR_CARDS.453,SOLAR_CARDS.458,  1.390687e-07   $    0.001408,  0.001408
+        -6039,SOLAR_CARDS.454,SOLAR_CARDS.460,  2.318965e-06   $    0.011740,  0.011740
+        -6040,SOLAR_CARDS.454,SOLAR_CARDS.467,  2.684180e-07   $    0.001359,  0.001359
+        -6041,SOLAR_CARDS.454,SOLAR_CARDS.500,  9.515009e-07   $    0.004817,  0.004817
+        -6042,SOLAR_CARDS.454,SOLAR_CARDS.504,  1.924992e-06   $    0.009745,  0.009745
+        -6043,SOLAR_CARDS.454,SOLAR_CARDS.510,  7.259269e-07   $    0.003675,  0.003675
+        -6044,SOLAR_CARDS.455,SOLAR_CARDS.462,  1.420094e-07   $    0.001438,  0.001438
+        -6045,SOLAR_CARDS.457,SOLAR_CARDS.482,  2.862171e-07   $    0.005796,  0.005796
+        -6046,SOLAR_CARDS.458,SOLAR_CARDS.466,  1.499915e-07   $    0.001519,  0.001519
+        -6047,SOLAR_CARDS.459,SOLAR_CARDS.484,  8.046114e-07   $    0.008147,  0.008147
+        -6048,SOLAR_CARDS.460,SOLAR_CARDS.467,  2.079194e-06   $    0.010526,  0.010526
+        -6049,SOLAR_CARDS.460,SOLAR_CARDS.471,  2.534926e-07   $    0.001283,  0.001283
+        -6050,SOLAR_CARDS.460,SOLAR_CARDS.504,  9.249478e-07   $    0.004683,  0.004683
+        -6051,SOLAR_CARDS.460,SOLAR_CARDS.510,  2.144801e-06   $    0.010858,  0.010858
+        -6052,SOLAR_CARDS.460,SOLAR_CARDS.517,  9.263892e-07   $    0.004690,  0.004690
+        -6053,SOLAR_CARDS.460,SOLAR_CARDS.521,  2.691331e-07   $    0.001362,  0.001362
+        -6054,SOLAR_CARDS.461,SOLAR_CARDS.486,  3.050167e-07   $    0.006177,  0.006177
+        -6055,SOLAR_CARDS.462,SOLAR_CARDS.468,  1.709862e-07   $    0.001731,  0.001731
+        -6056,SOLAR_CARDS.463,SOLAR_CARDS.488,  3.087694e-07   $    0.006253,  0.006253
+        -6057,SOLAR_CARDS.466,SOLAR_CARDS.470,  1.554876e-07   $    0.001574,  0.001574
+        -6058,SOLAR_CARDS.467,SOLAR_CARDS.471,  2.125740e-06   $    0.010762,  0.010762
+        -6059,SOLAR_CARDS.467,SOLAR_CARDS.475,  2.131195e-07   $    0.001079,  0.001079
+        -6060,SOLAR_CARDS.467,SOLAR_CARDS.510,  8.528794e-07   $    0.004318,  0.004318
+        -6061,SOLAR_CARDS.467,SOLAR_CARDS.517,  1.947662e-06   $    0.009860,  0.009860
+        -6062,SOLAR_CARDS.467,SOLAR_CARDS.521,  9.157445e-07   $    0.004636,  0.004636
+        -6063,SOLAR_CARDS.468,SOLAR_CARDS.472,  1.533477e-07   $    0.001553,  0.001553
+        -6064,SOLAR_CARDS.470,SOLAR_CARDS.474,  1.754395e-07   $    0.001776,  0.001776
+        -6065,SOLAR_CARDS.471,SOLAR_CARDS.475,  2.343275e-06   $    0.011863,  0.011863
+        -6066,SOLAR_CARDS.471,SOLAR_CARDS.479,  1.564112e-07   $    0.000792,  0.001584
+        -6067,SOLAR_CARDS.471,SOLAR_CARDS.517,  7.853899e-07   $    0.003976,  0.003976
+        -6068,SOLAR_CARDS.471,SOLAR_CARDS.521,  2.043205e-06   $    0.010344,  0.010344
+        -6069,SOLAR_CARDS.471,SOLAR_CARDS.525,  9.211276e-07   $    0.004663,  0.004663
+        -6070,SOLAR_CARDS.472,SOLAR_CARDS.476,  1.842982e-07   $    0.001866,  0.001866
+        -6071,SOLAR_CARDS.474,SOLAR_CARDS.478,  1.150059e-07   $    0.001164,  0.002329
+        -6072,SOLAR_CARDS.475,SOLAR_CARDS.479,  1.550744e-06   $    0.007851,  0.015701
+        -6073,SOLAR_CARDS.475,SOLAR_CARDS.521,  8.453745e-07   $    0.004280,  0.004280
+        -6074,SOLAR_CARDS.475,SOLAR_CARDS.525,  2.268381e-06   $    0.011484,  0.011484
+        -6075,SOLAR_CARDS.475,SOLAR_CARDS.529,  6.177512e-07   $    0.003127,  0.006255
+        -6076,SOLAR_CARDS.476,SOLAR_CARDS.480,  9.022042e-08   $    0.000913,  0.001827
+        -6077,SOLAR_CARDS.479,SOLAR_CARDS.521,  1.579986e-07   $    0.001600,  0.000800
+        -6078,SOLAR_CARDS.479,SOLAR_CARDS.525,  6.048752e-07   $    0.006124,  0.003062
+        -6079,SOLAR_CARDS.479,SOLAR_CARDS.529,  5.088356e-07   $    0.005152,  0.005152
+        -6080,SOLAR_CARDS.482,SOLAR_CARDS.507,  3.015028e-07   $    0.006105,  0.006105
+        -6081,SOLAR_CARDS.483,SOLAR_CARDS.491,  1.117682e-07   $    0.002263,  0.001132
+        -6082,SOLAR_CARDS.483,SOLAR_CARDS.532,  1.785950e-07   $    0.003617,  0.003617
+        -6083,SOLAR_CARDS.483,SOLAR_CARDS.536,  1.931386e-07   $    0.003911,  0.001956
+        -6084,SOLAR_CARDS.484,SOLAR_CARDS.509,  7.263009e-07   $    0.007354,  0.007354
+        -6085,SOLAR_CARDS.485,SOLAR_CARDS.492,  1.522705e-06   $    0.015417,  0.007709
+        -6086,SOLAR_CARDS.485,SOLAR_CARDS.496,  1.655097e-07   $    0.001676,  0.000838
+        -6087,SOLAR_CARDS.485,SOLAR_CARDS.533,  6.620155e-07   $    0.006703,  0.006703
+        -6088,SOLAR_CARDS.485,SOLAR_CARDS.537,  7.821918e-07   $    0.007920,  0.003960
+        -6089,SOLAR_CARDS.486,SOLAR_CARDS.511,  2.770374e-07   $    0.005610,  0.005610
+        -6090,SOLAR_CARDS.487,SOLAR_CARDS.493,  1.043911e-07   $    0.002114,  0.001057
+        -6091,SOLAR_CARDS.487,SOLAR_CARDS.534,  1.767766e-07   $    0.003580,  0.003580
+        -6092,SOLAR_CARDS.487,SOLAR_CARDS.538,  1.900717e-07   $    0.003849,  0.001924
+        -6093,SOLAR_CARDS.488,SOLAR_CARDS.513,  2.726466e-07   $    0.005521,  0.005521
+        -6094,SOLAR_CARDS.491,SOLAR_CARDS.495,  1.544920e-07   $    0.001564,  0.001564
+        -6095,SOLAR_CARDS.491,SOLAR_CARDS.532,  1.981123e-07   $    0.002006,  0.004012
+        -6096,SOLAR_CARDS.491,SOLAR_CARDS.536,  7.760291e-07   $    0.007857,  0.007857
+        -6097,SOLAR_CARDS.492,SOLAR_CARDS.496,  2.122944e-06   $    0.010747,  0.010747
+        -6098,SOLAR_CARDS.492,SOLAR_CARDS.500,  2.514273e-07   $    0.001273,  0.001273
+        -6099,SOLAR_CARDS.492,SOLAR_CARDS.533,  7.422975e-07   $    0.003758,  0.007516
+        -6100,SOLAR_CARDS.492,SOLAR_CARDS.537,  2.758884e-06   $    0.013967,  0.013967
+        -6101,SOLAR_CARDS.493,SOLAR_CARDS.497,  1.602040e-07   $    0.001622,  0.001622
+        -6102,SOLAR_CARDS.493,SOLAR_CARDS.534,  1.510598e-07   $    0.001529,  0.003059
+        -6103,SOLAR_CARDS.493,SOLAR_CARDS.538,  7.157979e-07   $    0.007247,  0.007247
+        -6104,SOLAR_CARDS.495,SOLAR_CARDS.499,  1.460190e-07   $    0.001478,  0.001478
+        -6105,SOLAR_CARDS.495,SOLAR_CARDS.536,  2.957049e-07   $    0.002994,  0.002994
+        -6106,SOLAR_CARDS.496,SOLAR_CARDS.500,  2.283950e-06   $    0.011562,  0.011562
+        -6107,SOLAR_CARDS.496,SOLAR_CARDS.504,  2.198250e-07   $    0.001113,  0.001113
+        -6108,SOLAR_CARDS.496,SOLAR_CARDS.533,  1.562194e-07   $    0.000791,  0.001582
+        -6109,SOLAR_CARDS.496,SOLAR_CARDS.537,  1.200614e-06   $    0.006078,  0.006078
+        -6110,SOLAR_CARDS.497,SOLAR_CARDS.501,  1.577184e-07   $    0.001597,  0.001597
+        -6111,SOLAR_CARDS.497,SOLAR_CARDS.538,  3.093379e-07   $    0.003132,  0.003132
+        -6112,SOLAR_CARDS.499,SOLAR_CARDS.503,  1.377824e-07   $    0.001395,  0.001395
+        -6113,SOLAR_CARDS.500,SOLAR_CARDS.504,  1.987664e-06   $    0.010063,  0.010063
+        -6114,SOLAR_CARDS.500,SOLAR_CARDS.537,  2.003546e-07   $    0.001014,  0.001014
+        -6115,SOLAR_CARDS.501,SOLAR_CARDS.505,  1.830794e-07   $    0.001854,  0.001854
+        -6116,SOLAR_CARDS.503,SOLAR_CARDS.508,  1.483001e-07   $    0.001502,  0.001502
+        -6117,SOLAR_CARDS.504,SOLAR_CARDS.510,  2.433284e-06   $    0.012318,  0.012318
+        -6118,SOLAR_CARDS.504,SOLAR_CARDS.517,  2.370479e-07   $    0.001200,  0.001200
+        -6119,SOLAR_CARDS.505,SOLAR_CARDS.512,  1.133843e-07   $    0.001148,  0.001148
+        -6120,SOLAR_CARDS.508,SOLAR_CARDS.516,  1.546871e-07   $    0.001566,  0.001566
+        -6121,SOLAR_CARDS.510,SOLAR_CARDS.517,  2.055136e-06   $    0.010404,  0.010404
+        -6122,SOLAR_CARDS.510,SOLAR_CARDS.521,  2.795351e-07   $    0.001415,  0.001415
+        -6123,SOLAR_CARDS.512,SOLAR_CARDS.518,  1.368915e-07   $    0.001386,  0.001386
+        -6124,SOLAR_CARDS.516,SOLAR_CARDS.520,  1.490452e-07   $    0.001509,  0.001509
+        -6125,SOLAR_CARDS.517,SOLAR_CARDS.521,  2.072340e-06   $    0.010491,  0.010491
+        -6126,SOLAR_CARDS.517,SOLAR_CARDS.525,  2.109899e-07   $    0.001068,  0.001068
+        -6127,SOLAR_CARDS.518,SOLAR_CARDS.522,  1.882085e-07   $    0.001906,  0.001906
+        -6128,SOLAR_CARDS.520,SOLAR_CARDS.524,  1.413484e-07   $    0.001431,  0.001431
+        -6129,SOLAR_CARDS.521,SOLAR_CARDS.525,  2.174494e-06   $    0.011008,  0.011008
+        -6130,SOLAR_CARDS.521,SOLAR_CARDS.529,  1.531639e-07   $    0.000775,  0.001551
+        -6131,SOLAR_CARDS.522,SOLAR_CARDS.526,  1.565149e-07   $    0.001585,  0.001585
+        -6132,SOLAR_CARDS.524,SOLAR_CARDS.528,  1.283476e-07   $    0.001300,  0.002599
+        -6133,SOLAR_CARDS.525,SOLAR_CARDS.529,  1.458963e-06   $    0.007386,  0.014772
+        -6134,SOLAR_CARDS.526,SOLAR_CARDS.530,  1.234890e-07   $    0.001250,  0.002501
+        -6135,SOLAR_CARDS.532,SOLAR_CARDS.536,  7.916419e-07   $    0.016031,  0.008015
+        -6136,SOLAR_CARDS.533,SOLAR_CARDS.534,  5.517734e-08   $    0.000559,  0.001117
+        -6137,SOLAR_CARDS.533,SOLAR_CARDS.537,  2.169756e-06   $    0.021969,  0.010984
+        -6138,SOLAR_CARDS.534,SOLAR_CARDS.538,  7.945530e-07   $    0.016090,  0.008045
 C
 C Summary data for nodes with Bij sums < 0.900000 or > 1.100000
 C BijSum always contains Bij Self
@@ -1005,412 +6235,412 @@ C
 C Summary data for position 1
 C       node           area         rays     emiss       Bij     Bij     Bij   Weighted
 C                                                        sum    self   inact   % Error
-C   SOLAR_CARDS.18    0.000031      2500  0.800000  0.463200           0.537     3.3
-C   SOLAR_CARDS.23    0.000031      2500  0.800000  0.469600           0.530     3.3
-C   SOLAR_CARDS.28    0.000062      2500  0.800000  0.291600           0.708     3.0
-C   SOLAR_CARDS.33    0.000123      2500  0.800000  0.089600           0.910     1.9
-C   SOLAR_CARDS.38    0.000123      2500  0.800000  0.066400           0.934     1.6
-C   SOLAR_CARDS.43    0.000123      2500  0.800000  0.060800           0.939     1.6
-C   SOLAR_CARDS.48    0.000123      2500  0.800000  0.062400           0.938     1.6
-C   SOLAR_CARDS.53    0.000123      2500  0.800000  0.059600           0.940     1.6
-C   SOLAR_CARDS.54    0.000123      2500  0.800000  0.072800           0.927     1.7
-C   SOLAR_CARDS.55    0.000123      2500  0.800000  0.060400           0.940     1.6
-C   SOLAR_CARDS.56    0.000123      2500  0.800000  0.103200           0.897     2.0
-C   SOLAR_CARDS.57    0.000062      2500  0.800000  0.305200           0.695     3.0
-C   SOLAR_CARDS.58    0.000062      2500  0.800000  0.282400           0.718     3.0
-C   SOLAR_CARDS.59    0.000123      2500  0.800000  0.078000           0.922     1.8
-C   SOLAR_CARDS.60    0.000123      2500  0.800000  0.037600           0.962     1.3
-C   SOLAR_CARDS.61    0.000123      2500  0.800000  0.031600           0.968     1.2
-C   SOLAR_CARDS.62    0.000123      2500  0.800000  0.031600           0.968     1.2
-C   SOLAR_CARDS.63    0.000123      2500  0.800000  0.031600           0.968     1.2
-C   SOLAR_CARDS.64    0.000123      2500  0.800000  0.035600           0.964     1.2
-C   SOLAR_CARDS.65    0.000123      2500  0.800000  0.036800           0.963     1.2
-C   SOLAR_CARDS.66    0.000123      2500  0.800000  0.076400           0.924     1.7
-C   SOLAR_CARDS.67    0.000062      2500  0.800000  0.289600           0.710     3.0
-C   SOLAR_CARDS.68    0.000062      2500  0.800000  0.365200           0.635     3.2
-C   SOLAR_CARDS.69    0.000123      2500  0.800000  0.172800           0.827     2.5
-C   SOLAR_CARDS.70    0.000123      2500  0.800000  0.151200           0.849     2.4
-C   SOLAR_CARDS.71    0.000123      2500  0.800000  0.131600           0.868     2.2
-C   SOLAR_CARDS.72    0.000123      2500  0.800000  0.130800           0.869     2.2
-C   SOLAR_CARDS.73    0.000123      2500  0.800000  0.140800           0.859     2.3
-C   SOLAR_CARDS.74    0.000123      2500  0.800000  0.138400           0.862     2.3
-C   SOLAR_CARDS.75    0.000123      2500  0.800000  0.148800           0.851     2.3
-C   SOLAR_CARDS.76    0.000123      2500  0.800000  0.167200           0.833     2.5
-C   SOLAR_CARDS.77    0.000062      2500  0.800000  0.354800           0.645     3.1
-C   SOLAR_CARDS.78    0.000062      2500  0.800000  0.833200           0.167     2.5
-C   SOLAR_CARDS.79    0.000123      2500  0.800000  0.762400           0.238     2.8
-C   SOLAR_CARDS.80    0.000123      2500  0.800000  0.750400           0.250     2.8
-C   SOLAR_CARDS.81    0.000123      2500  0.800000  0.755600           0.244     2.8
-C   SOLAR_CARDS.82    0.000123      2500  0.800000  0.759600           0.240     2.8
-C   SOLAR_CARDS.83    0.000123      2500  0.800000  0.751200           0.249     2.8
-C   SOLAR_CARDS.84    0.000123      2500  0.800000  0.750000           0.250     2.8
-C   SOLAR_CARDS.85    0.000123      2500  0.800000  0.766000           0.234     2.8
-C   SOLAR_CARDS.86    0.000123      2500  0.800000  0.781200           0.219     2.7
-C   SOLAR_CARDS.87    0.000062      2500  0.800000  0.843200           0.157     2.4
-C   SOLAR_CARDS.88    0.000062      2500  0.800000  0.825600           0.174     2.5
-C   SOLAR_CARDS.89    0.000123      2500  0.800000  0.762800           0.237     2.8
-C   SOLAR_CARDS.90    0.000123      2500  0.800000  0.755600           0.244     2.8
-C   SOLAR_CARDS.91    0.000123      2500  0.800000  0.753200           0.247     2.8
-C   SOLAR_CARDS.92    0.000123      2500  0.800000  0.756800           0.243     2.8
-C   SOLAR_CARDS.93    0.000123      2500  0.800000  0.762000           0.238     2.8
-C   SOLAR_CARDS.94    0.000123      2500  0.800000  0.768400           0.232     2.8
-C   SOLAR_CARDS.95    0.000123      2500  0.800000  0.760400           0.240     2.8
-C   SOLAR_CARDS.96    0.000123      2500  0.800000  0.786800           0.213     2.7
-C   SOLAR_CARDS.97    0.000062      2500  0.800000  0.840400           0.160     2.4
-C   SOLAR_CARDS.98    0.000062      2500  0.800000  0.361200           0.639     3.2
-C   SOLAR_CARDS.99    0.000123      2500  0.800000  0.190400           0.810     2.6
-C  SOLAR_CARDS.100    0.000123      2500  0.800000  0.142000           0.858     2.3
-C  SOLAR_CARDS.101    0.000123      2500  0.800000  0.140400           0.860     2.3
-C  SOLAR_CARDS.102    0.000123      2500  0.800000  0.135200           0.865     2.2
-C  SOLAR_CARDS.103    0.000123      2500  0.800000  0.134000           0.866     2.2
-C  SOLAR_CARDS.104    0.000123      2500  0.800000  0.148800           0.851     2.3
-C  SOLAR_CARDS.105    0.000123      2500  0.800000  0.141200           0.859     2.3
-C  SOLAR_CARDS.106    0.000123      2500  0.800000  0.173200           0.827     2.5
-C  SOLAR_CARDS.107    0.000062      2500  0.800000  0.341600           0.658     3.1
-C  SOLAR_CARDS.108    0.000062      2500  0.800000  0.282800           0.717     3.0
-C  SOLAR_CARDS.109    0.000123      2500  0.800000  0.076800           0.923     1.8
-C  SOLAR_CARDS.110    0.000123      2500  0.800000  0.042000           0.958     1.3
-C  SOLAR_CARDS.111    0.000123      2500  0.800000  0.036800           0.963     1.2
-C  SOLAR_CARDS.112    0.000123      2500  0.800000  0.032400           0.968     1.2
-C  SOLAR_CARDS.113    0.000123      2500  0.800000  0.032800           0.967     1.2
-C  SOLAR_CARDS.114    0.000123      2500  0.800000  0.034400           0.966     1.2
-C  SOLAR_CARDS.115    0.000123      2500  0.800000  0.036400           0.964     1.2
-C  SOLAR_CARDS.116    0.000123      2500  0.800000  0.076400           0.924     1.7
-C  SOLAR_CARDS.117    0.000062      2500  0.800000  0.280800           0.719     3.0
-C  SOLAR_CARDS.118    0.000062      2500  0.800000  0.325600           0.674     3.1
-C  SOLAR_CARDS.119    0.000123      2500  0.800000  0.107600           0.892     2.0
-C  SOLAR_CARDS.120    0.000123      2500  0.800000  0.072800           0.927     1.7
-C  SOLAR_CARDS.121    0.000123      2500  0.800000  0.064400           0.936     1.6
-C  SOLAR_CARDS.122    0.000123      2500  0.800000  0.066400           0.934     1.6
-C  SOLAR_CARDS.123    0.000123      2500  0.800000  0.067600           0.932     1.7
-C  SOLAR_CARDS.124    0.000123      2500  0.800000  0.053200           0.947     1.5
-C  SOLAR_CARDS.125    0.000123      2500  0.800000  0.076800           0.923     1.8
-C  SOLAR_CARDS.126    0.000123      2500  0.800000  0.096000           0.904     1.9
-C  SOLAR_CARDS.127    0.000062      2500  0.800000  0.306000           0.694     3.0
-C  SOLAR_CARDS.128    0.000031      2500  0.800000  0.478000           0.522     3.3
-C  SOLAR_CARDS.129    0.000062      2500  0.800000  0.312800           0.687     3.1
-C  SOLAR_CARDS.130    0.000062      2500  0.800000  0.287600           0.712     3.0
-C  SOLAR_CARDS.131    0.000062      2500  0.800000  0.267600           0.732     2.9
-C  SOLAR_CARDS.132    0.000062      2500  0.800000  0.284000           0.716     3.0
-C  SOLAR_CARDS.133    0.000062      2500  0.800000  0.283200           0.717     3.0
-C  SOLAR_CARDS.134    0.000062      2500  0.800000  0.291600           0.708     3.0
-C  SOLAR_CARDS.135    0.000062      2500  0.800000  0.288400           0.712     3.0
-C  SOLAR_CARDS.136    0.000062      2500  0.800000  0.307200           0.693     3.0
-C  SOLAR_CARDS.137    0.000031      2500  0.800000  0.453200           0.547     3.3
-C  SOLAR_CARDS.140    0.000123      2500  0.800000  0.136000           0.864     2.3
-C  SOLAR_CARDS.141    0.000123      2500  0.800000  0.148400           0.852     2.3
-C  SOLAR_CARDS.142    0.000123      2500  0.800000  0.148400           0.852     2.3
-C  SOLAR_CARDS.144    0.000123      2500  0.800000  0.144000           0.856     2.3
-C  SOLAR_CARDS.145    0.000123      2500  0.800000  0.136800           0.863     2.3
-C  SOLAR_CARDS.146    0.000123      2500  0.800000  0.142000           0.858     2.3
-C  SOLAR_CARDS.148    0.000123      2500  0.800000  0.144400           0.856     2.3
-C  SOLAR_CARDS.149    0.000123      2500  0.800000  0.137600           0.862     2.3
-C  SOLAR_CARDS.150    0.000123      2500  0.800000  0.136400           0.864     2.3
-C  SOLAR_CARDS.152    0.000123      2500  0.800000  0.148400           0.852     2.3
-C  SOLAR_CARDS.153    0.000123      2500  0.800000  0.138000           0.862     2.3
-C  SOLAR_CARDS.154    0.000123      2500  0.800000  0.139600           0.860     2.3
-C  SOLAR_CARDS.156    0.000123      2500  0.800000  0.135200           0.865     2.2
-C  SOLAR_CARDS.157    0.000123      2500  0.800000  0.132000           0.868     2.2
-C  SOLAR_CARDS.158    0.000123      2500  0.800000  0.144400           0.856     2.3
-C  SOLAR_CARDS.160    0.000123      2500  0.800000  0.144400           0.856     2.3
-C  SOLAR_CARDS.161    0.000123      2500  0.800000  0.135200           0.865     2.2
-C  SOLAR_CARDS.162    0.000123      2500  0.800000  0.148000           0.852     2.3
-C  SOLAR_CARDS.164    0.000123      2500  0.800000  0.168400           0.832     2.5
-C  SOLAR_CARDS.165    0.000123      2500  0.800000  0.161600           0.838     2.4
-C  SOLAR_CARDS.166    0.000123      2500  0.800000  0.174800           0.825     2.5
-C  SOLAR_CARDS.168    0.000062      2500  0.800000  0.367200           0.633     3.2
-C  SOLAR_CARDS.169    0.000062      2500  0.800000  0.374000           0.626     3.2
-C  SOLAR_CARDS.170    0.000062      2500  0.800000  0.371200           0.629     3.2
-C  SOLAR_CARDS.172    0.000062      2500  0.800000  0.304800           0.695     3.0
-C  SOLAR_CARDS.173    0.000062      2500  0.800000  0.287600           0.712     3.0
-C  SOLAR_CARDS.174    0.000062      2500  0.800000  0.315600           0.684     3.1
-C  SOLAR_CARDS.176    0.000123      2500  0.800000  0.074800           0.925     1.7
-C  SOLAR_CARDS.177    0.000123      2500  0.800000  0.075600           0.924     1.7
-C  SOLAR_CARDS.178    0.000123      2500  0.800000  0.072800           0.927     1.7
-C  SOLAR_CARDS.180    0.000123      2500  0.800000  0.038800           0.961     1.3
-C  SOLAR_CARDS.181    0.000123      2500  0.800000  0.041600           0.958     1.3
-C  SOLAR_CARDS.182    0.000123      2500  0.800000  0.045600           0.954     1.4
-C  SOLAR_CARDS.184    0.000123      2500  0.800000  0.034400           0.966     1.2
-C  SOLAR_CARDS.185    0.000123      2500  0.800000  0.033200           0.967     1.2
-C  SOLAR_CARDS.186    0.000123      2500  0.800000  0.037200           0.963     1.2
-C  SOLAR_CARDS.188    0.000123      2500  0.800000  0.036800           0.963     1.2
-C  SOLAR_CARDS.189    0.000123      2500  0.800000  0.034000           0.966     1.2
-C  SOLAR_CARDS.190    0.000123      2500  0.800000  0.032400           0.968     1.2
-C  SOLAR_CARDS.192    0.000123      2500  0.800000  0.033200           0.967     1.2
-C  SOLAR_CARDS.193    0.000123      2500  0.800000  0.032800           0.967     1.2
-C  SOLAR_CARDS.194    0.000123      2500  0.800000  0.033600           0.966     1.2
-C  SOLAR_CARDS.196    0.000123      2500  0.800000  0.034800           0.965     1.2
-C  SOLAR_CARDS.197    0.000123      2500  0.800000  0.038000           0.962     1.3
-C  SOLAR_CARDS.198    0.000123      2500  0.800000  0.038800           0.961     1.3
-C  SOLAR_CARDS.200    0.000123      2500  0.800000  0.037200           0.963     1.2
-C  SOLAR_CARDS.201    0.000123      2500  0.800000  0.037600           0.962     1.3
-C  SOLAR_CARDS.202    0.000123      2500  0.800000  0.040800           0.959     1.3
-C  SOLAR_CARDS.204    0.000123      2500  0.800000  0.070000           0.930     1.7
-C  SOLAR_CARDS.205    0.000123      2500  0.800000  0.070800           0.929     1.7
-C  SOLAR_CARDS.206    0.000123      2500  0.800000  0.083200           0.917     1.8
-C  SOLAR_CARDS.208    0.000062      2500  0.800000  0.287200           0.713     3.0
-C  SOLAR_CARDS.209    0.000062      2500  0.800000  0.298000           0.702     3.0
-C  SOLAR_CARDS.210    0.000062      2500  0.800000  0.291200           0.709     3.0
-C  SOLAR_CARDS.212    0.000062      2500  0.800000  0.304400           0.696     3.0
-C  SOLAR_CARDS.213    0.000062      2500  0.800000  0.318800           0.681     3.1
-C  SOLAR_CARDS.214    0.000062      2500  0.800000  0.308000           0.692     3.0
-C  SOLAR_CARDS.216    0.000123      2500  0.800000  0.104800           0.895     2.0
-C  SOLAR_CARDS.217    0.000123      2500  0.800000  0.100400           0.900     2.0
-C  SOLAR_CARDS.218    0.000123      2500  0.800000  0.100000           0.900     2.0
-C  SOLAR_CARDS.220    0.000123      2500  0.800000  0.059200           0.941     1.6
-C  SOLAR_CARDS.221    0.000123      2500  0.800000  0.073200           0.927     1.7
-C  SOLAR_CARDS.222    0.000123      2500  0.800000  0.077200           0.923     1.8
-C  SOLAR_CARDS.224    0.000123      2500  0.800000  0.050800           0.949     1.4
-C  SOLAR_CARDS.225    0.000123      2500  0.800000  0.060800           0.939     1.6
-C  SOLAR_CARDS.226    0.000123      2500  0.800000  0.054000           0.946     1.5
-C  SOLAR_CARDS.228    0.000123      2500  0.800000  0.050400           0.950     1.4
-C  SOLAR_CARDS.229    0.000123      2500  0.800000  0.057200           0.943     1.5
-C  SOLAR_CARDS.230    0.000123      2500  0.800000  0.067600           0.932     1.7
-C  SOLAR_CARDS.232    0.000123      2500  0.800000  0.062800           0.937     1.6
-C  SOLAR_CARDS.233    0.000123      2500  0.800000  0.058400           0.942     1.5
-C  SOLAR_CARDS.234    0.000123      2500  0.800000  0.062000           0.938     1.6
-C  SOLAR_CARDS.236    0.000123      2500  0.800000  0.063600           0.936     1.6
-C  SOLAR_CARDS.237    0.000123      2500  0.800000  0.054400           0.946     1.5
-C  SOLAR_CARDS.238    0.000123      2500  0.800000  0.073200           0.927     1.7
-C  SOLAR_CARDS.240    0.000123      2500  0.800000  0.063200           0.937     1.6
-C  SOLAR_CARDS.241    0.000123      2500  0.800000  0.064800           0.935     1.6
-C  SOLAR_CARDS.242    0.000123      2500  0.800000  0.074800           0.925     1.7
-C  SOLAR_CARDS.244    0.000123      2500  0.800000  0.108400           0.892     2.0
-C  SOLAR_CARDS.245    0.000123      2500  0.800000  0.106000           0.894     2.0
-C  SOLAR_CARDS.246    0.000123      2500  0.800000  0.103600           0.896     2.0
-C  SOLAR_CARDS.248    0.000062      2500  0.800000  0.314000           0.686     3.1
-C  SOLAR_CARDS.249    0.000062      2500  0.800000  0.317200           0.683     3.1
-C  SOLAR_CARDS.250    0.000062      2500  0.800000  0.315200           0.685     3.1
-C  SOLAR_CARDS.252    0.000031      2500  0.800000  0.465600           0.534     3.3
-C  SOLAR_CARDS.253    0.000031      2500  0.800000  0.461200           0.539     3.3
-C  SOLAR_CARDS.254    0.000031      2500  0.800000  0.457600           0.542     3.3
-C  SOLAR_CARDS.256    0.000062      2500  0.800000  0.312000           0.688     3.0
-C  SOLAR_CARDS.257    0.000062      2500  0.800000  0.306000           0.694     3.0
-C  SOLAR_CARDS.258    0.000062      2500  0.800000  0.319200           0.681     3.1
-C  SOLAR_CARDS.260    0.000062      2500  0.800000  0.284800           0.715     3.0
-C  SOLAR_CARDS.261    0.000062      2500  0.800000  0.288800           0.711     3.0
-C  SOLAR_CARDS.262    0.000062      2500  0.800000  0.272400           0.728     2.9
-C  SOLAR_CARDS.264    0.000062      2500  0.800000  0.292400           0.708     3.0
-C  SOLAR_CARDS.265    0.000062      2500  0.800000  0.299200           0.701     3.0
-C  SOLAR_CARDS.266    0.000062      2500  0.800000  0.296800           0.703     3.0
-C  SOLAR_CARDS.268    0.000062      2500  0.800000  0.276400           0.724     2.9
-C  SOLAR_CARDS.269    0.000062      2500  0.800000  0.292400           0.708     3.0
-C  SOLAR_CARDS.270    0.000062      2500  0.800000  0.287600           0.712     3.0
-C  SOLAR_CARDS.272    0.000062      2500  0.800000  0.290000           0.710     3.0
-C  SOLAR_CARDS.273    0.000062      2500  0.800000  0.286400           0.714     3.0
-C  SOLAR_CARDS.274    0.000062      2500  0.800000  0.296000           0.704     3.0
-C  SOLAR_CARDS.276    0.000062      2500  0.800000  0.290800           0.709     3.0
-C  SOLAR_CARDS.277    0.000062      2500  0.800000  0.274800           0.725     2.9
-C  SOLAR_CARDS.278    0.000062      2500  0.800000  0.280000           0.720     3.0
-C  SOLAR_CARDS.280    0.000062      2500  0.800000  0.284800           0.715     3.0
-C  SOLAR_CARDS.281    0.000062      2500  0.800000  0.286400           0.714     3.0
-C  SOLAR_CARDS.282    0.000062      2500  0.800000  0.298000           0.702     3.0
-C  SOLAR_CARDS.284    0.000062      2500  0.800000  0.304400           0.696     3.0
-C  SOLAR_CARDS.285    0.000062      2500  0.800000  0.312800           0.687     3.1
-C  SOLAR_CARDS.286    0.000062      2500  0.800000  0.315600           0.684     3.1
-C  SOLAR_CARDS.288    0.000031      2500  0.800000  0.463600           0.536     3.3
-C  SOLAR_CARDS.289    0.000031      2500  0.800000  0.469600           0.530     3.3
-C  SOLAR_CARDS.290    0.000031      2500  0.800000  0.483200           0.517     3.3
-C  SOLAR_CARDS.291    0.000031      2500  0.800000  0.479600           0.520     3.3
-C  SOLAR_CARDS.292    0.000031      2500  0.800000  0.478400           0.522     3.3
-C  SOLAR_CARDS.293    0.000031      2500  0.800000  0.486400           0.514     3.3
-C  SOLAR_CARDS.294    0.000031      2500  0.800000  0.469200           0.531     3.3
-C  SOLAR_CARDS.295    0.000031      2500  0.800000  0.462400           0.538     3.3
-C  SOLAR_CARDS.296    0.000031      2500  0.800000  0.462000           0.538     3.3
-C  SOLAR_CARDS.297    0.000062      2500  0.800000  0.321200           0.679     3.1
-C  SOLAR_CARDS.298    0.000062      2500  0.800000  0.320800           0.679     3.1
-C  SOLAR_CARDS.299    0.000062      2500  0.800000  0.305200           0.695     3.0
-C  SOLAR_CARDS.300    0.000123      2500  0.800000  0.095600           0.904     1.9
-C  SOLAR_CARDS.301    0.000123      2500  0.800000  0.096800           0.903     1.9
-C  SOLAR_CARDS.302    0.000123      2500  0.800000  0.090800           0.909     1.9
-C  SOLAR_CARDS.303    0.000123      2500  0.800000  0.062400           0.938     1.6
-C  SOLAR_CARDS.304    0.000123      2500  0.800000  0.076000           0.924     1.7
-C  SOLAR_CARDS.305    0.000123      2500  0.800000  0.060400           0.940     1.6
-C  SOLAR_CARDS.306    0.000123      2500  0.800000  0.062000           0.938     1.6
-C  SOLAR_CARDS.307    0.000123      2500  0.800000  0.062000           0.938     1.6
-C  SOLAR_CARDS.308    0.000123      2500  0.800000  0.068000           0.932     1.7
-C  SOLAR_CARDS.309    0.000123      2500  0.800000  0.063200           0.937     1.6
-C  SOLAR_CARDS.310    0.000123      2500  0.800000  0.062000           0.938     1.6
-C  SOLAR_CARDS.311    0.000123      2500  0.800000  0.057600           0.942     1.5
-C  SOLAR_CARDS.312    0.000123      2500  0.800000  0.056800           0.943     1.5
-C  SOLAR_CARDS.313    0.000123      2500  0.800000  0.063600           0.936     1.6
-C  SOLAR_CARDS.314    0.000123      2500  0.800000  0.060000           0.940     1.6
-C  SOLAR_CARDS.316    0.000123      2500  0.800000  0.060400           0.940     1.6
-C  SOLAR_CARDS.317    0.000123      2500  0.800000  0.060400           0.940     1.6
-C  SOLAR_CARDS.318    0.000123      2500  0.800000  0.058400           0.942     1.5
-C  SOLAR_CARDS.320    0.000123      2500  0.800000  0.069200           0.931     1.7
-C  SOLAR_CARDS.321    0.000123      2500  0.800000  0.073600           0.926     1.7
-C  SOLAR_CARDS.322    0.000123      2500  0.800000  0.064400           0.936     1.6
-C  SOLAR_CARDS.324    0.000123      2500  0.800000  0.110000           0.890     2.1
-C  SOLAR_CARDS.325    0.000123      2500  0.800000  0.096000           0.904     1.9
-C  SOLAR_CARDS.326    0.000123      2500  0.800000  0.106800           0.893     2.0
-C  SOLAR_CARDS.328    0.000062      2500  0.800000  0.320000           0.680     3.1
-C  SOLAR_CARDS.329    0.000062      2500  0.800000  0.310400           0.690     3.0
-C  SOLAR_CARDS.330    0.000062      2500  0.800000  0.303600           0.696     3.0
-C  SOLAR_CARDS.332    0.000062      2500  0.800000  0.320800           0.679     3.1
-C  SOLAR_CARDS.333    0.000062      2500  0.800000  0.296400           0.704     3.0
-C  SOLAR_CARDS.334    0.000062      2500  0.800000  0.309600           0.690     3.0
-C  SOLAR_CARDS.335    0.000062      2500  0.800000  0.287200           0.713     3.0
-C  SOLAR_CARDS.336    0.000062      2500  0.800000  0.302000           0.698     3.0
-C  SOLAR_CARDS.337    0.000062      2500  0.800000  0.305200           0.695     3.0
-C  SOLAR_CARDS.338    0.000062      2500  0.800000  0.317600           0.682     3.1
-C  SOLAR_CARDS.341    0.000123      2500  0.800000  0.081600           0.918     1.8
-C  SOLAR_CARDS.342    0.000123      2500  0.800000  0.082800           0.917     1.8
-C  SOLAR_CARDS.343    0.000123      2500  0.800000  0.069200           0.931     1.7
-C  SOLAR_CARDS.345    0.000123      2500  0.800000  0.038400           0.962     1.3
-C  SOLAR_CARDS.346    0.000123      2500  0.800000  0.042400           0.958     1.3
-C  SOLAR_CARDS.347    0.000123      2500  0.800000  0.037200           0.963     1.2
-C  SOLAR_CARDS.349    0.000123      2500  0.800000  0.030800           0.969     1.1
-C  SOLAR_CARDS.350    0.000123      2500  0.800000  0.030800           0.969     1.1
-C  SOLAR_CARDS.351    0.000123      2500  0.800000  0.036000           0.964     1.2
-C  SOLAR_CARDS.353    0.000123      2500  0.800000  0.036400           0.964     1.2
-C  SOLAR_CARDS.354    0.000123      2500  0.800000  0.032000           0.968     1.2
-C  SOLAR_CARDS.355    0.000123      2500  0.800000  0.032400           0.968     1.2
-C  SOLAR_CARDS.357    0.000062      2500  0.800000  0.283600           0.716     3.0
-C  SOLAR_CARDS.358    0.000123      2500  0.800000  0.036800           0.963     1.2
-C  SOLAR_CARDS.359    0.000062      2500  0.800000  0.289200           0.711     3.0
-C  SOLAR_CARDS.360    0.000123      2500  0.800000  0.034000           0.966     1.2
-C  SOLAR_CARDS.361    0.000062      2500  0.800000  0.286000           0.714     3.0
-C  SOLAR_CARDS.362    0.000123      2500  0.800000  0.032800           0.967     1.2
-C  SOLAR_CARDS.363    0.000062      2500  0.800000  0.290400           0.710     3.0
-C  SOLAR_CARDS.366    0.000123      2500  0.800000  0.026400           0.974     1.1
-C  SOLAR_CARDS.367    0.000123      2500  0.800000  0.034000           0.966     1.2
-C  SOLAR_CARDS.368    0.000123      2500  0.800000  0.034800           0.965     1.2
-C  SOLAR_CARDS.370    0.000123      2500  0.800000  0.035600           0.964     1.2
-C  SOLAR_CARDS.371    0.000123      2500  0.800000  0.035200           0.965     1.2
-C  SOLAR_CARDS.372    0.000123      2500  0.800000  0.034000           0.966     1.2
-C  SOLAR_CARDS.374    0.000123      2500  0.800000  0.078800           0.921     1.8
-C  SOLAR_CARDS.375    0.000123      2500  0.800000  0.085600           0.914     1.8
-C  SOLAR_CARDS.376    0.000123      2500  0.800000  0.064000           0.936     1.6
-C  SOLAR_CARDS.378    0.000062      2500  0.800000  0.294000           0.706     3.0
-C  SOLAR_CARDS.379    0.000062      2500  0.800000  0.306400           0.694     3.0
-C  SOLAR_CARDS.380    0.000062      2500  0.800000  0.287200           0.713     3.0
-C  SOLAR_CARDS.382    0.000062      2500  0.800000  0.286800           0.713     3.0
-C  SOLAR_CARDS.383    0.000062      2500  0.800000  0.362000           0.638     3.2
-C  SOLAR_CARDS.384    0.000062      2500  0.800000  0.281600           0.718     3.0
-C  SOLAR_CARDS.385    0.000062      2500  0.800000  0.349600           0.650     3.1
-C  SOLAR_CARDS.386    0.000062      2500  0.800000  0.280800           0.719     3.0
-C  SOLAR_CARDS.387    0.000062      2500  0.800000  0.375600           0.624     3.2
-C  SOLAR_CARDS.388    0.000062      2500  0.800000  0.271200           0.729     2.9
-C  SOLAR_CARDS.391    0.000123      2500  0.800000  0.179200           0.821     2.5
-C  SOLAR_CARDS.392    0.000123      2500  0.800000  0.171600           0.828     2.5
-C  SOLAR_CARDS.393    0.000123      2500  0.800000  0.169200           0.831     2.5
-C  SOLAR_CARDS.395    0.000123      2500  0.800000  0.167600           0.832     2.5
-C  SOLAR_CARDS.396    0.000123      2500  0.800000  0.153200           0.847     2.4
-C  SOLAR_CARDS.397    0.000123      2500  0.800000  0.152400           0.848     2.4
-C  SOLAR_CARDS.399    0.000123      2500  0.800000  0.141200           0.859     2.3
-C  SOLAR_CARDS.400    0.000123      2500  0.800000  0.138400           0.862     2.3
-C  SOLAR_CARDS.401    0.000123      2500  0.800000  0.140800           0.859     2.3
-C  SOLAR_CARDS.403    0.000123      2500  0.800000  0.140400           0.860     2.3
-C  SOLAR_CARDS.404    0.000123      2500  0.800000  0.142400           0.858     2.3
-C  SOLAR_CARDS.405    0.000123      2500  0.800000  0.134000           0.866     2.2
-C  SOLAR_CARDS.407    0.000062      2500  0.800000  0.277200           0.723     2.9
-C  SOLAR_CARDS.408    0.000123      2500  0.800000  0.141600           0.858     2.3
-C  SOLAR_CARDS.409    0.000062      2500  0.800000  0.287200           0.713     3.0
-C  SOLAR_CARDS.410    0.000123      2500  0.800000  0.142400           0.858     2.3
-C  SOLAR_CARDS.411    0.000062      2500  0.800000  0.297600           0.702     3.0
-C  SOLAR_CARDS.412    0.000123      2500  0.800000  0.150000           0.850     2.3
-C  SOLAR_CARDS.413    0.000062      2500  0.800000  0.283200           0.717     3.0
-C  SOLAR_CARDS.416    0.000123      2500  0.800000  0.143200           0.857     2.3
-C  SOLAR_CARDS.417    0.000123      2500  0.800000  0.137200           0.863     2.3
-C  SOLAR_CARDS.418    0.000123      2500  0.800000  0.130000           0.870     2.2
-C  SOLAR_CARDS.420    0.000123      2500  0.800000  0.135600           0.864     2.3
-C  SOLAR_CARDS.421    0.000123      2500  0.800000  0.135200           0.865     2.2
-C  SOLAR_CARDS.422    0.000123      2500  0.800000  0.131200           0.869     2.2
-C  SOLAR_CARDS.424    0.000123      2500  0.800000  0.181200           0.819     2.5
-C  SOLAR_CARDS.425    0.000123      2500  0.800000  0.172400           0.828     2.5
-C  SOLAR_CARDS.426    0.000123      2500  0.800000  0.174800           0.825     2.5
-C  SOLAR_CARDS.428    0.000062      2500  0.800000  0.360400           0.640     3.2
-C  SOLAR_CARDS.429    0.000062      2500  0.800000  0.354800           0.645     3.1
-C  SOLAR_CARDS.430    0.000062      2500  0.800000  0.353600           0.646     3.1
-C  SOLAR_CARDS.432    0.000062      2500  0.800000  0.278400           0.722     2.9
-C  SOLAR_CARDS.433    0.000062      2500  0.800000  0.822000           0.178     2.5
-C  SOLAR_CARDS.434    0.000062      2500  0.800000  0.284000           0.716     3.0
-C  SOLAR_CARDS.435    0.000062      2500  0.800000  0.836400           0.164     2.4
-C  SOLAR_CARDS.436    0.000062      2500  0.800000  0.297200           0.703     3.0
-C  SOLAR_CARDS.437    0.000062      2500  0.800000  0.822800           0.177     2.5
-C  SOLAR_CARDS.438    0.000062      2500  0.800000  0.285600           0.714     3.0
-C  SOLAR_CARDS.441    0.000123      2500  0.800000  0.772400           0.228     2.8
-C  SOLAR_CARDS.442    0.000123      2500  0.800000  0.769600           0.230     2.8
-C  SOLAR_CARDS.443    0.000123      2500  0.800000  0.785600           0.214     2.7
-C  SOLAR_CARDS.445    0.000123      2500  0.800000  0.772800           0.227     2.8
-C  SOLAR_CARDS.446    0.000123      2500  0.800000  0.763200           0.237     2.8
-C  SOLAR_CARDS.447    0.000123      2500  0.800000  0.752400           0.248     2.8
-C  SOLAR_CARDS.449    0.000123      2500  0.800000  0.764800           0.235     2.8
-C  SOLAR_CARDS.450    0.000123      2500  0.800000  0.750000           0.250     2.8
-C  SOLAR_CARDS.451    0.000123      2500  0.800000  0.738800           0.261     2.9
-C  SOLAR_CARDS.453    0.000123      2500  0.800000  0.767600           0.232     2.8
-C  SOLAR_CARDS.454    0.000123      2500  0.800000  0.748400           0.252     2.9
-C  SOLAR_CARDS.455    0.000123      2500  0.800000  0.756000           0.244     2.8
-C  SOLAR_CARDS.457    0.000062      2500  0.800000  0.280800           0.719     3.0
-C  SOLAR_CARDS.458    0.000123      2500  0.800000  0.749200           0.251     2.9
-C  SOLAR_CARDS.459    0.000062      2500  0.800000  0.272800           0.727     2.9
-C  SOLAR_CARDS.460    0.000123      2500  0.800000  0.744800           0.255     2.9
-C  SOLAR_CARDS.461    0.000062      2500  0.800000  0.276400           0.724     2.9
-C  SOLAR_CARDS.462    0.000123      2500  0.800000  0.751200           0.249     2.8
-C  SOLAR_CARDS.463    0.000062      2500  0.800000  0.293600           0.706     3.0
-C  SOLAR_CARDS.466    0.000123      2500  0.800000  0.751600           0.248     2.8
-C  SOLAR_CARDS.467    0.000123      2500  0.800000  0.750400           0.250     2.8
-C  SOLAR_CARDS.468    0.000123      2500  0.800000  0.748000           0.252     2.9
-C  SOLAR_CARDS.470    0.000123      2500  0.800000  0.754400           0.246     2.8
-C  SOLAR_CARDS.471    0.000123      2500  0.800000  0.735600           0.264     2.9
-C  SOLAR_CARDS.472    0.000123      2500  0.800000  0.755200           0.245     2.8
-C  SOLAR_CARDS.474    0.000123      2500  0.800000  0.771600           0.228     2.8
-C  SOLAR_CARDS.475    0.000123      2500  0.800000  0.769600           0.230     2.8
-C  SOLAR_CARDS.476    0.000123      2500  0.800000  0.776000           0.224     2.7
-C  SOLAR_CARDS.478    0.000062      2500  0.800000  0.830000           0.170     2.5
-C  SOLAR_CARDS.479    0.000062      2500  0.800000  0.838000           0.162     2.4
-C  SOLAR_CARDS.480    0.000062      2500  0.800000  0.832000           0.168     2.5
-C  SOLAR_CARDS.482    0.000062      2500  0.800000  0.284000           0.716     3.0
-C  SOLAR_CARDS.483    0.000062      2500  0.800000  0.833200           0.167     2.5
-C  SOLAR_CARDS.484    0.000062      2500  0.800000  0.306800           0.693     3.0
-C  SOLAR_CARDS.485    0.000062      2500  0.800000  0.834000           0.166     2.4
-C  SOLAR_CARDS.486    0.000062      2500  0.800000  0.279200           0.721     3.0
-C  SOLAR_CARDS.487    0.000062      2500  0.800000  0.833600           0.166     2.5
-C  SOLAR_CARDS.488    0.000062      2500  0.800000  0.290000           0.710     3.0
-C  SOLAR_CARDS.491    0.000123      2500  0.800000  0.772800           0.227     2.8
-C  SOLAR_CARDS.492    0.000123      2500  0.800000  0.776000           0.224     2.7
-C  SOLAR_CARDS.493    0.000123      2500  0.800000  0.770800           0.229     2.8
-C  SOLAR_CARDS.495    0.000123      2500  0.800000  0.750400           0.250     2.8
-C  SOLAR_CARDS.496    0.000123      2500  0.800000  0.756000           0.244     2.8
-C  SOLAR_CARDS.497    0.000123      2500  0.800000  0.751200           0.249     2.8
-C  SOLAR_CARDS.499    0.000123      2500  0.800000  0.760000           0.240     2.8
-C  SOLAR_CARDS.500    0.000123      2500  0.800000  0.763200           0.237     2.8
-C  SOLAR_CARDS.501    0.000123      2500  0.800000  0.764000           0.236     2.8
-C  SOLAR_CARDS.503    0.000123      2500  0.800000  0.765600           0.234     2.8
-C  SOLAR_CARDS.504    0.000123      2500  0.800000  0.746000           0.254     2.9
-C  SOLAR_CARDS.505    0.000123      2500  0.800000  0.756400           0.244     2.8
-C  SOLAR_CARDS.507    0.000062      2500  0.800000  0.315200           0.685     3.1
-C  SOLAR_CARDS.508    0.000123      2500  0.800000  0.744000           0.256     2.9
-C  SOLAR_CARDS.509    0.000062      2500  0.800000  0.321600           0.678     3.1
-C  SOLAR_CARDS.510    0.000123      2500  0.800000  0.734400           0.266     2.9
-C  SOLAR_CARDS.511    0.000062      2500  0.800000  0.294000           0.706     3.0
-C  SOLAR_CARDS.512    0.000123      2500  0.800000  0.758800           0.241     2.8
-C  SOLAR_CARDS.513    0.000062      2500  0.800000  0.314800           0.685     3.1
-C  SOLAR_CARDS.516    0.000123      2500  0.800000  0.752800           0.247     2.8
-C  SOLAR_CARDS.517    0.000123      2500  0.800000  0.755600           0.244     2.8
-C  SOLAR_CARDS.518    0.000123      2500  0.800000  0.759600           0.240     2.8
-C  SOLAR_CARDS.520    0.000123      2500  0.800000  0.763600           0.236     2.8
-C  SOLAR_CARDS.521    0.000123      2500  0.800000  0.753200           0.247     2.8
-C  SOLAR_CARDS.522    0.000123      2500  0.800000  0.737600           0.262     2.9
-C  SOLAR_CARDS.524    0.000123      2500  0.800000  0.782800           0.217     2.7
-C  SOLAR_CARDS.525    0.000123      2500  0.800000  0.759200           0.241     2.8
-C  SOLAR_CARDS.526    0.000123      2500  0.800000  0.767600           0.232     2.8
-C  SOLAR_CARDS.528    0.000062      2500  0.800000  0.837200           0.163     2.4
-C  SOLAR_CARDS.529    0.000062      2500  0.800000  0.831600           0.168     2.5
-C  SOLAR_CARDS.530    0.000062      2500  0.800000  0.831600           0.168     2.5
-C  SOLAR_CARDS.532    0.000062      2500  0.800000  0.371200           0.629     3.2
-C  SOLAR_CARDS.533    0.000062      2500  0.800000  0.360400           0.640     3.2
-C  SOLAR_CARDS.534    0.000062      2500  0.800000  0.360000           0.640     3.2
-C  SOLAR_CARDS.536    0.000123      2500  0.800000  0.163200           0.837     2.4
-C  SOLAR_CARDS.537    0.000123      2500  0.800000  0.176800           0.823     2.5
-C  SOLAR_CARDS.538    0.000123      2500  0.800000  0.179600           0.820     2.5
+C   SOLAR_CARDS.18    0.000031      2500  0.800000  0.537146   0.009   0.460     5.4
+C   SOLAR_CARDS.23    0.000031      2500  0.800000  0.543659   0.008   0.451     5.9
+C   SOLAR_CARDS.28    0.000062      2500  0.800000  0.396960   0.017   0.600     6.0
+C   SOLAR_CARDS.33    0.000123      2500  0.800000  0.215118   0.033   0.781     5.9
+C   SOLAR_CARDS.38    0.000123      2500  0.800000  0.183759   0.034   0.811     6.2
+C   SOLAR_CARDS.43    0.000123      2500  0.800000  0.177223   0.033   0.816     6.3
+C   SOLAR_CARDS.48    0.000123      2500  0.800000  0.177787   0.034   0.818     6.3
+C   SOLAR_CARDS.53    0.000123      2500  0.800000  0.169614   0.034   0.822     6.3
+C   SOLAR_CARDS.54    0.000123      2500  0.800000  0.179996   0.032   0.815     6.3
+C   SOLAR_CARDS.55    0.000123      2500  0.800000  0.182973   0.033   0.812     6.2
+C   SOLAR_CARDS.56    0.000123      2500  0.800000  0.210252   0.033   0.786     6.0
+C   SOLAR_CARDS.57    0.000062      2500  0.800000  0.396361   0.018   0.598     6.6
+C   SOLAR_CARDS.58    0.000062      2500  0.800000  0.372899   0.017   0.623     6.4
+C   SOLAR_CARDS.59    0.000123      2500  0.800000  0.189733   0.033   0.807     6.1
+C   SOLAR_CARDS.60    0.000123      2500  0.800000  0.153772   0.032   0.840     6.4
+C   SOLAR_CARDS.61    0.000123      2500  0.800000  0.145951   0.034   0.845     6.6
+C   SOLAR_CARDS.62    0.000123      2500  0.800000  0.144098   0.035   0.847     6.7
+C   SOLAR_CARDS.63    0.000123      2500  0.800000  0.147865   0.033   0.843     6.6
+C   SOLAR_CARDS.64    0.000123      2500  0.800000  0.141040   0.034   0.850     6.6
+C   SOLAR_CARDS.65    0.000123      2500  0.800000  0.158140   0.034   0.838     6.6
+C   SOLAR_CARDS.66    0.000123      2500  0.800000  0.182055   0.034   0.811     6.3
+C   SOLAR_CARDS.67    0.000062      2500  0.800000  0.359218   0.017   0.631     7.3
+C   SOLAR_CARDS.68    0.000062      2500  0.800000  0.432463   0.018   0.562     6.2
+C   SOLAR_CARDS.69    0.000123      2500  0.800000  0.278182   0.032   0.716     6.6
+C   SOLAR_CARDS.70    0.000123      2500  0.800000  0.248644   0.034   0.746     7.0
+C   SOLAR_CARDS.71    0.000123      2500  0.800000  0.246213   0.033   0.744     7.3
+C   SOLAR_CARDS.72    0.000123      2500  0.800000  0.238445   0.033   0.753     7.4
+C   SOLAR_CARDS.73    0.000123      2500  0.800000  0.232766   0.035   0.759     7.2
+C   SOLAR_CARDS.74    0.000123      2500  0.800000  0.238187   0.035   0.754     7.1
+C   SOLAR_CARDS.75    0.000123      2500  0.800000  0.239315   0.034   0.756     7.0
+C   SOLAR_CARDS.76    0.000123      2500  0.800000  0.278078   0.034   0.716     7.0
+C   SOLAR_CARDS.77    0.000062      2500  0.800000  0.429838   0.018   0.563     7.1
+C   SOLAR_CARDS.78    0.000062      2500  0.800000  0.842304   0.002   0.152     4.0
+C   SOLAR_CARDS.79    0.000123      2500  0.800000  0.797517   0.003   0.196     4.9
+C   SOLAR_CARDS.80    0.000123      2500  0.800000  0.781943   0.003   0.210     5.3
+C   SOLAR_CARDS.81    0.000123      2500  0.800000  0.776043   0.004   0.216     5.5
+C   SOLAR_CARDS.82    0.000123      2500  0.800000  0.786555   0.004   0.205     5.3
+C   SOLAR_CARDS.83    0.000123      2500  0.800000  0.768485   0.004   0.221     5.6
+C   SOLAR_CARDS.84    0.000123      2500  0.800000  0.780910   0.004   0.210     5.5
+C   SOLAR_CARDS.85    0.000123      2500  0.800000  0.780537   0.004   0.212     5.2
+C   SOLAR_CARDS.86    0.000123      2500  0.800000  0.801153   0.004   0.192     4.8
+C   SOLAR_CARDS.87    0.000062      2500  0.800000  0.846666   0.002   0.147     4.4
+C   SOLAR_CARDS.88    0.000062      2500  0.800000  0.840597   0.002   0.154     4.1
+C   SOLAR_CARDS.89    0.000123      2500  0.800000  0.806924   0.004   0.189     4.8
+C   SOLAR_CARDS.90    0.000123      2500  0.800000  0.790618   0.004   0.203     5.2
+C   SOLAR_CARDS.91    0.000123      2500  0.800000  0.776461   0.004   0.215     5.3
+C   SOLAR_CARDS.92    0.000123      2500  0.800000  0.767008   0.004   0.223     5.7
+C   SOLAR_CARDS.93    0.000123      2500  0.800000  0.781058   0.004   0.211     5.5
+C   SOLAR_CARDS.94    0.000123      2500  0.800000  0.777588   0.004   0.214     5.4
+C   SOLAR_CARDS.95    0.000123      2500  0.800000  0.781266   0.003   0.209     5.3
+C   SOLAR_CARDS.96    0.000123      2500  0.800000  0.794133   0.004   0.199     5.0
+C   SOLAR_CARDS.97    0.000062      2500  0.800000  0.842885   0.002   0.151     4.3
+C   SOLAR_CARDS.98    0.000062      2500  0.800000  0.423119   0.017   0.573     6.2
+C   SOLAR_CARDS.99    0.000123      2500  0.800000  0.268955   0.034   0.724     6.4
+C  SOLAR_CARDS.100    0.000123      2500  0.800000  0.246695   0.033   0.745     7.1
+C  SOLAR_CARDS.101    0.000123      2500  0.800000  0.237037   0.034   0.757     7.3
+C  SOLAR_CARDS.102    0.000123      2500  0.800000  0.242336   0.034   0.748     7.4
+C  SOLAR_CARDS.103    0.000123      2500  0.800000  0.241851   0.033   0.750     7.4
+C  SOLAR_CARDS.104    0.000123      2500  0.800000  0.236381   0.035   0.756     7.2
+C  SOLAR_CARDS.105    0.000123      2500  0.800000  0.243616   0.031   0.748     7.1
+C  SOLAR_CARDS.106    0.000123      2500  0.800000  0.280724   0.033   0.714     6.7
+C  SOLAR_CARDS.107    0.000062      2500  0.800000  0.440505   0.017   0.551     7.0
+C  SOLAR_CARDS.108    0.000062      2500  0.800000  0.371857   0.017   0.624     6.1
+C  SOLAR_CARDS.109    0.000123      2500  0.800000  0.187595   0.033   0.806     6.0
+C  SOLAR_CARDS.110    0.000123      2500  0.800000  0.165225   0.034   0.831     6.5
+C  SOLAR_CARDS.111    0.000123      2500  0.800000  0.145707   0.036   0.847     6.6
+C  SOLAR_CARDS.112    0.000123      2500  0.800000  0.143589   0.033   0.846     6.7
+C  SOLAR_CARDS.113    0.000123      2500  0.800000  0.142660   0.035   0.850     6.6
+C  SOLAR_CARDS.114    0.000123      2500  0.800000  0.141095   0.033   0.848     6.5
+C  SOLAR_CARDS.115    0.000123      2500  0.800000  0.158832   0.033   0.837     6.4
+C  SOLAR_CARDS.116    0.000123      2500  0.800000  0.190034   0.035   0.805     6.2
+C  SOLAR_CARDS.117    0.000062      2500  0.800000  0.371441   0.018   0.620     7.1
+C  SOLAR_CARDS.118    0.000062      2500  0.800000  0.387567   0.017   0.608     6.1
+C  SOLAR_CARDS.119    0.000123      2500  0.800000  0.205485   0.034   0.788     5.8
+C  SOLAR_CARDS.120    0.000123      2500  0.800000  0.182558   0.034   0.812     6.0
+C  SOLAR_CARDS.121    0.000123      2500  0.800000  0.176630   0.036   0.818     6.2
+C  SOLAR_CARDS.122    0.000123      2500  0.800000  0.172436   0.035   0.822     6.2
+C  SOLAR_CARDS.123    0.000123      2500  0.800000  0.176582   0.033   0.817     6.3
+C  SOLAR_CARDS.124    0.000123      2500  0.800000  0.170374   0.034   0.822     6.2
+C  SOLAR_CARDS.125    0.000123      2500  0.800000  0.181118   0.034   0.814     6.2
+C  SOLAR_CARDS.126    0.000123      2500  0.800000  0.210646   0.033   0.784     6.1
+C  SOLAR_CARDS.127    0.000062      2500  0.800000  0.410712   0.018   0.583     6.8
+C  SOLAR_CARDS.128    0.000031      2500  0.800000  0.548417   0.008   0.449     5.4
+C  SOLAR_CARDS.129    0.000062      2500  0.800000  0.405673   0.016   0.590     6.0
+C  SOLAR_CARDS.130    0.000062      2500  0.800000  0.377515   0.017   0.617     6.2
+C  SOLAR_CARDS.131    0.000062      2500  0.800000  0.371287   0.017   0.621     6.3
+C  SOLAR_CARDS.132    0.000062      2500  0.800000  0.364041   0.018   0.631     6.4
+C  SOLAR_CARDS.133    0.000062      2500  0.800000  0.377610   0.018   0.617     6.6
+C  SOLAR_CARDS.134    0.000062      2500  0.800000  0.369733   0.018   0.624     6.4
+C  SOLAR_CARDS.135    0.000062      2500  0.800000  0.365773   0.017   0.630     6.3
+C  SOLAR_CARDS.136    0.000062      2500  0.800000  0.427032   0.017   0.571     6.1
+C  SOLAR_CARDS.137    0.000031      2500  0.800000  0.522251   0.010   0.471     5.9
+C  SOLAR_CARDS.140    0.000123      2500  0.800000  0.252962   0.032   0.741     7.1
+C  SOLAR_CARDS.141    0.000247      2500  0.800000  0.602242   0.044   0.392    13.6
+C  SOLAR_CARDS.142    0.000123      2500  0.800000  0.238257   0.036   0.754     6.8
+C  SOLAR_CARDS.144    0.000123      2500  0.800000  0.242239   0.034   0.750     7.3
+C  SOLAR_CARDS.145    0.000247      2500  0.800000  0.622724   0.046   0.361    14.1
+C  SOLAR_CARDS.146    0.000123      2500  0.800000  0.230790   0.034   0.761     7.2
+C  SOLAR_CARDS.148    0.000123      2500  0.800000  0.239999   0.033   0.749     7.6
+C  SOLAR_CARDS.149    0.000247      2500  0.800000  0.608429   0.047   0.369    14.6
+C  SOLAR_CARDS.150    0.000123      2500  0.800000  0.235323   0.035   0.756     7.4
+C  SOLAR_CARDS.152    0.000123      2500  0.800000  0.227449   0.032   0.762     7.3
+C  SOLAR_CARDS.153    0.000247      2500  0.800000  0.617321   0.046   0.390    14.6
+C  SOLAR_CARDS.154    0.000123      2500  0.800000  0.246466   0.032   0.743     7.3
+C  SOLAR_CARDS.156    0.000123      2500  0.800000  0.236174   0.034   0.756     7.3
+C  SOLAR_CARDS.157    0.000247      2500  0.800000  0.600218   0.045   0.383    14.1
+C  SOLAR_CARDS.158    0.000123      2500  0.800000  0.238582   0.033   0.752     7.3
+C  SOLAR_CARDS.160    0.000123      2500  0.800000  0.258901   0.033   0.735     7.1
+C  SOLAR_CARDS.161    0.000247      2500  0.800000  0.604668   0.045   0.384    13.4
+C  SOLAR_CARDS.162    0.000123      2500  0.800000  0.241251   0.032   0.752     6.9
+C  SOLAR_CARDS.164    0.000123      2500  0.800000  0.280919   0.033   0.715     6.5
+C  SOLAR_CARDS.165    0.000247      2500  0.800000  0.623758   0.046   0.380    12.1
+C  SOLAR_CARDS.166    0.000123      2500  0.800000  0.257946   0.033   0.734     6.5
+C  SOLAR_CARDS.168    0.000062      2500  0.800000  0.421854   0.017   0.573     6.3
+C  SOLAR_CARDS.169    0.000123      2500  0.800000  0.611176   0.023   0.369    12.2
+C  SOLAR_CARDS.170    0.000062      2500  0.800000  0.434740   0.018   0.559     6.3
+C  SOLAR_CARDS.172    0.000062      2500  0.800000  0.390862   0.019   0.605     6.4
+C  SOLAR_CARDS.173    0.000123      2500  0.800000  0.576599   0.024   0.425    11.4
+C  SOLAR_CARDS.174    0.000062      2500  0.800000  0.367300   0.018   0.623     7.1
+C  SOLAR_CARDS.176    0.000123      2500  0.800000  0.188380   0.034   0.809     6.0
+C  SOLAR_CARDS.177    0.000247      2500  0.800000  0.577000   0.044   0.408    11.7
+C  SOLAR_CARDS.178    0.000123      2500  0.800000  0.187806   0.035   0.808     6.3
+C  SOLAR_CARDS.180    0.000123      2500  0.800000  0.153513   0.035   0.841     6.4
+C  SOLAR_CARDS.181    0.000247      2500  0.800000  0.581260   0.042   0.440    12.7
+C  SOLAR_CARDS.182    0.000123      2500  0.800000  0.157040   0.034   0.837     6.5
+C  SOLAR_CARDS.184    0.000123      2500  0.800000  0.143431   0.033   0.847     6.5
+C  SOLAR_CARDS.185    0.000247      2500  0.800000  0.569120   0.044   0.425    13.4
+C  SOLAR_CARDS.186    0.000123      2500  0.800000  0.150455   0.035   0.844     6.5
+C  SOLAR_CARDS.188    0.000123      2500  0.800000  0.143893   0.034   0.846     6.6
+C  SOLAR_CARDS.189    0.000247      2500  0.800000  0.556750   0.045   0.436    13.5
+C  SOLAR_CARDS.190    0.000123      2500  0.800000  0.146322   0.033   0.844     6.6
+C  SOLAR_CARDS.192    0.000123      2500  0.800000  0.146435   0.037   0.846     6.6
+C  SOLAR_CARDS.193    0.000247      2500  0.800000  0.570768   0.043   0.425    13.8
+C  SOLAR_CARDS.194    0.000123      2500  0.800000  0.149944   0.033   0.842     6.6
+C  SOLAR_CARDS.196    0.000123      2500  0.800000  0.150579   0.035   0.842     6.6
+C  SOLAR_CARDS.197    0.000247      2500  0.800000  0.572090   0.044   0.443    13.7
+C  SOLAR_CARDS.198    0.000123      2500  0.800000  0.151193   0.034   0.842     6.6
+C  SOLAR_CARDS.200    0.000123      2500  0.800000  0.149826   0.033   0.845     6.6
+C  SOLAR_CARDS.201    0.000247      2500  0.800000  0.576365   0.047   0.429    12.7
+C  SOLAR_CARDS.202    0.000123      2500  0.800000  0.152172   0.033   0.839     6.5
+C  SOLAR_CARDS.204    0.000123      2500  0.800000  0.183437   0.034   0.811     6.0
+C  SOLAR_CARDS.205    0.000247      2500  0.800000  0.572711   0.046   0.435    11.4
+C  SOLAR_CARDS.206    0.000123      2500  0.800000  0.177482   0.035   0.816     6.0
+C  SOLAR_CARDS.208    0.000062      2500  0.800000  0.367942   0.018   0.628     6.2
+C  SOLAR_CARDS.209    0.000123      2500  0.800000  0.557649   0.023   0.425    11.4
+C  SOLAR_CARDS.210    0.000062      2500  0.800000  0.376125   0.017   0.617     6.2
+C  SOLAR_CARDS.212    0.000062      2500  0.800000  0.383704   0.019   0.611     6.0
+C  SOLAR_CARDS.213    0.000123      2500  0.800000  0.603002   0.027   0.383    10.5
+C  SOLAR_CARDS.214    0.000062      2500  0.800000  0.384306   0.018   0.607     6.5
+C  SOLAR_CARDS.216    0.000123      2500  0.800000  0.219170   0.032   0.776     5.9
+C  SOLAR_CARDS.217    0.000247      2500  0.800000  0.576846   0.047   0.406    10.6
+C  SOLAR_CARDS.218    0.000123      2500  0.800000  0.215202   0.033   0.781     5.9
+C  SOLAR_CARDS.220    0.000123      2500  0.800000  0.175939   0.034   0.816     5.9
+C  SOLAR_CARDS.221    0.000247      2500  0.800000  0.588692   0.047   0.404    11.6
+C  SOLAR_CARDS.222    0.000123      2500  0.800000  0.183856   0.031   0.811     6.1
+C  SOLAR_CARDS.224    0.000123      2500  0.800000  0.174788   0.033   0.818     6.3
+C  SOLAR_CARDS.225    0.000247      2500  0.800000  0.603109   0.046   0.385    12.2
+C  SOLAR_CARDS.226    0.000123      2500  0.800000  0.181029   0.035   0.816     6.3
+C  SOLAR_CARDS.228    0.000123      2500  0.800000  0.179336   0.035   0.815     6.3
+C  SOLAR_CARDS.229    0.000247      2500  0.800000  0.573043   0.044   0.424    12.2
+C  SOLAR_CARDS.230    0.000123      2500  0.800000  0.178566   0.036   0.816     6.3
+C  SOLAR_CARDS.232    0.000123      2500  0.800000  0.175977   0.037   0.818     6.2
+C  SOLAR_CARDS.233    0.000247      2500  0.800000  0.586946   0.046   0.418    12.4
+C  SOLAR_CARDS.234    0.000123      2500  0.800000  0.170269   0.035   0.823     6.3
+C  SOLAR_CARDS.236    0.000123      2500  0.800000  0.172840   0.034   0.820     6.3
+C  SOLAR_CARDS.237    0.000247      2500  0.800000  0.584655   0.043   0.413    12.1
+C  SOLAR_CARDS.238    0.000123      2500  0.800000  0.182491   0.035   0.812     6.2
+C  SOLAR_CARDS.240    0.000123      2500  0.800000  0.189157   0.036   0.809     6.1
+C  SOLAR_CARDS.241    0.000247      2500  0.800000  0.579324   0.047   0.412    11.5
+C  SOLAR_CARDS.242    0.000123      2500  0.800000  0.182090   0.034   0.813     6.1
+C  SOLAR_CARDS.244    0.000123      2500  0.800000  0.210466   0.034   0.783     5.7
+C  SOLAR_CARDS.245    0.000247      2500  0.800000  0.585091   0.047   0.411    10.2
+C  SOLAR_CARDS.246    0.000123      2500  0.800000  0.213343   0.035   0.783     5.8
+C  SOLAR_CARDS.248    0.000062      2500  0.800000  0.403405   0.016   0.593     6.1
+C  SOLAR_CARDS.249    0.000123      2500  0.800000  0.589673   0.025   0.404    10.7
+C  SOLAR_CARDS.250    0.000062      2500  0.800000  0.387259   0.017   0.608     6.0
+C  SOLAR_CARDS.252    0.000031      2500  0.800000  0.540541   0.010   0.456     5.5
+C  SOLAR_CARDS.253    0.000062      2500  0.800000  0.693434   0.014   0.299     9.3
+C  SOLAR_CARDS.254    0.000031      2500  0.800000  0.539038   0.009   0.456     5.7
+C  SOLAR_CARDS.256    0.000062      2500  0.800000  0.397895   0.018   0.596     6.0
+C  SOLAR_CARDS.257    0.000123      2500  0.800000  0.692193   0.023   0.305    10.1
+C  SOLAR_CARDS.258    0.000062      2500  0.800000  0.404367   0.017   0.592     6.1
+C  SOLAR_CARDS.260    0.000062      2500  0.800000  0.365875   0.017   0.630     6.2
+C  SOLAR_CARDS.261    0.000123      2500  0.800000  0.690273   0.022   0.304    11.3
+C  SOLAR_CARDS.262    0.000062      2500  0.800000  0.379186   0.018   0.616     6.2
+C  SOLAR_CARDS.264    0.000062      2500  0.800000  0.370904   0.018   0.625     6.5
+C  SOLAR_CARDS.265    0.000123      2500  0.800000  0.673540   0.022   0.307    11.7
+C  SOLAR_CARDS.266    0.000062      2500  0.800000  0.360374   0.017   0.633     6.5
+C  SOLAR_CARDS.268    0.000062      2500  0.800000  0.370784   0.018   0.622     6.3
+C  SOLAR_CARDS.269    0.000123      2500  0.800000  0.692991   0.024   0.305    11.6
+C  SOLAR_CARDS.270    0.000062      2500  0.800000  0.372876   0.016   0.621     6.4
+C  SOLAR_CARDS.272    0.000062      2500  0.800000  0.376872   0.018   0.618     6.6
+C  SOLAR_CARDS.273    0.000123      2500  0.800000  0.676571   0.023   0.306    11.8
+C  SOLAR_CARDS.274    0.000062      2500  0.800000  0.362647   0.018   0.632     6.4
+C  SOLAR_CARDS.276    0.000062      2500  0.800000  0.372148   0.017   0.622     6.3
+C  SOLAR_CARDS.277    0.000123      2500  0.800000  0.667763   0.023   0.323    11.5
+C  SOLAR_CARDS.278    0.000062      2500  0.800000  0.358935   0.017   0.636     6.4
+C  SOLAR_CARDS.280    0.000062      2500  0.800000  0.368402   0.018   0.629     6.4
+C  SOLAR_CARDS.281    0.000123      2500  0.800000  0.684294   0.023   0.303    11.0
+C  SOLAR_CARDS.282    0.000062      2500  0.800000  0.378500   0.018   0.617     6.4
+C  SOLAR_CARDS.284    0.000062      2500  0.800000  0.400033   0.017   0.596     6.0
+C  SOLAR_CARDS.285    0.000123      2500  0.800000  0.691163   0.025   0.304    10.5
+C  SOLAR_CARDS.286    0.000062      2500  0.800000  0.401599   0.017   0.592     5.9
+C  SOLAR_CARDS.288    0.000031      2500  0.800000  0.546202   0.009   0.450     5.2
+C  SOLAR_CARDS.289    0.000062      2500  0.800000  0.679525   0.014   0.298     9.2
+C  SOLAR_CARDS.290    0.000031      2500  0.800000  0.537202   0.009   0.459     5.2
+C  SOLAR_CARDS.291    0.000031      2500  0.800000  0.540492   0.009   0.456     5.5
+C  SOLAR_CARDS.292    0.000062      2500  0.800000  0.687244   0.011   0.310     9.1
+C  SOLAR_CARDS.293    0.000031      2500  0.800000  0.546153   0.010   0.447     6.0
+C  SOLAR_CARDS.294    0.000031      2500  0.800000  0.539550   0.009   0.459     5.5
+C  SOLAR_CARDS.295    0.000062      2500  0.800000  0.694802   0.012   0.307     9.4
+C  SOLAR_CARDS.296    0.000031      2500  0.800000  0.526579   0.009   0.468     5.5
+C  SOLAR_CARDS.297    0.000062      2500  0.800000  0.399219   0.017   0.597     6.1
+C  SOLAR_CARDS.298    0.000123      2500  0.800000  0.591564   0.024   0.400    10.6
+C  SOLAR_CARDS.299    0.000062      2500  0.800000  0.384417   0.018   0.608     6.7
+C  SOLAR_CARDS.300    0.000123      2500  0.800000  0.209132   0.032   0.786     5.9
+C  SOLAR_CARDS.301    0.000247      2500  0.800000  0.595252   0.045   0.405    10.3
+C  SOLAR_CARDS.302    0.000123      2500  0.800000  0.212561   0.033   0.783     6.0
+C  SOLAR_CARDS.303    0.000123      2500  0.800000  0.177457   0.036   0.819     6.0
+C  SOLAR_CARDS.304    0.000247      2500  0.800000  0.581953   0.043   0.411    11.8
+C  SOLAR_CARDS.305    0.000123      2500  0.800000  0.176620   0.034   0.818     6.1
+C  SOLAR_CARDS.306    0.000123      2500  0.800000  0.176235   0.034   0.819     6.3
+C  SOLAR_CARDS.307    0.000247      2500  0.800000  0.578134   0.045   0.406    12.1
+C  SOLAR_CARDS.308    0.000123      2500  0.800000  0.177075   0.034   0.817     6.3
+C  SOLAR_CARDS.309    0.000123      2500  0.800000  0.174947   0.033   0.820     6.3
+C  SOLAR_CARDS.310    0.000247      2500  0.800000  0.578021   0.045   0.417    12.2
+C  SOLAR_CARDS.311    0.000123      2500  0.800000  0.172018   0.033   0.820     6.3
+C  SOLAR_CARDS.312    0.000123      2500  0.800000  0.179390   0.034   0.815     6.4
+C  SOLAR_CARDS.313    0.000247      2500  0.800000  0.581344   0.044   0.421    12.3
+C  SOLAR_CARDS.314    0.000123      2500  0.800000  0.171375   0.032   0.822     6.3
+C  SOLAR_CARDS.316    0.000123      2500  0.800000  0.178783   0.032   0.814     6.3
+C  SOLAR_CARDS.317    0.000247      2500  0.800000  0.593905   0.047   0.397    12.0
+C  SOLAR_CARDS.318    0.000123      2500  0.800000  0.182169   0.033   0.810     6.3
+C  SOLAR_CARDS.320    0.000123      2500  0.800000  0.177800   0.033   0.818     5.8
+C  SOLAR_CARDS.321    0.000247      2500  0.800000  0.582854   0.044   0.404    11.6
+C  SOLAR_CARDS.322    0.000123      2500  0.800000  0.180249   0.033   0.814     6.0
+C  SOLAR_CARDS.324    0.000123      2500  0.800000  0.208574   0.033   0.787     5.7
+C  SOLAR_CARDS.325    0.000247      2500  0.800000  0.595193   0.046   0.404    10.4
+C  SOLAR_CARDS.326    0.000123      2500  0.800000  0.210838   0.034   0.785     5.8
+C  SOLAR_CARDS.328    0.000062      2500  0.800000  0.399963   0.018   0.597     6.1
+C  SOLAR_CARDS.329    0.000123      2500  0.800000  0.584366   0.025   0.402    10.3
+C  SOLAR_CARDS.330    0.000062      2500  0.800000  0.406267   0.017   0.591     6.1
+C  SOLAR_CARDS.332    0.000062      2500  0.800000  0.393916   0.018   0.601     6.0
+C  SOLAR_CARDS.333    0.000062      2500  0.800000  0.364054   0.019   0.631     6.3
+C  SOLAR_CARDS.334    0.000123      2500  0.800000  0.660742   0.024   0.323    10.0
+C  SOLAR_CARDS.335    0.000123      2500  0.800000  0.566743   0.025   0.429    11.7
+C  SOLAR_CARDS.336    0.000062      2500  0.800000  0.400050   0.018   0.595     6.0
+C  SOLAR_CARDS.337    0.000062      2500  0.800000  0.364110   0.018   0.627     7.2
+C  SOLAR_CARDS.338    0.000062      2500  0.800000  0.392664   0.017   0.602     5.9
+C  SOLAR_CARDS.341    0.000123      2500  0.800000  0.194743   0.034   0.799     6.2
+C  SOLAR_CARDS.342    0.000247      2500  0.800000  0.580785   0.048   0.423    11.6
+C  SOLAR_CARDS.343    0.000123      2500  0.800000  0.188628   0.034   0.806     6.1
+C  SOLAR_CARDS.345    0.000123      2500  0.800000  0.154102   0.033   0.840     6.3
+C  SOLAR_CARDS.346    0.000247      2500  0.800000  0.572891   0.046   0.429    12.7
+C  SOLAR_CARDS.347    0.000123      2500  0.800000  0.165801   0.035   0.829     6.4
+C  SOLAR_CARDS.349    0.000123      2500  0.800000  0.147891   0.032   0.846     6.6
+C  SOLAR_CARDS.350    0.000247      2500  0.800000  0.570111   0.046   0.431    13.4
+C  SOLAR_CARDS.351    0.000123      2500  0.800000  0.148457   0.035   0.843     6.5
+C  SOLAR_CARDS.353    0.000123      2500  0.800000  0.144989   0.033   0.848     6.6
+C  SOLAR_CARDS.354    0.000247      2500  0.800000  0.573073   0.047   0.414    13.6
+C  SOLAR_CARDS.355    0.000123      2500  0.800000  0.144579   0.035   0.845     6.6
+C  SOLAR_CARDS.357    0.000062      2500  0.800000  0.377836   0.017   0.616     6.3
+C  SOLAR_CARDS.358    0.000123      2500  0.800000  0.144657   0.033   0.848     6.7
+C  SOLAR_CARDS.359    0.000123      2500  0.800000  0.683230   0.022   0.300    11.4
+C  SOLAR_CARDS.360    0.000247      2500  0.800000  0.573384   0.045   0.421    13.9
+C  SOLAR_CARDS.361    0.000062      2500  0.800000  0.372304   0.019   0.622     6.3
+C  SOLAR_CARDS.362    0.000123      2500  0.800000  0.151505   0.034   0.840     6.6
+C  SOLAR_CARDS.363    0.000062      2500  0.800000  0.379805   0.017   0.616     6.4
+C  SOLAR_CARDS.366    0.000123      2500  0.800000  0.148829   0.033   0.843     6.7
+C  SOLAR_CARDS.367    0.000247      2500  0.800000  0.568845   0.043   0.418    13.5
+C  SOLAR_CARDS.368    0.000123      2500  0.800000  0.153970   0.036   0.839     6.6
+C  SOLAR_CARDS.370    0.000123      2500  0.800000  0.148239   0.034   0.845     6.3
+C  SOLAR_CARDS.371    0.000247      2500  0.800000  0.568166   0.045   0.440    12.8
+C  SOLAR_CARDS.372    0.000123      2500  0.800000  0.158773   0.032   0.836     6.5
+C  SOLAR_CARDS.374    0.000123      2500  0.800000  0.192028   0.036   0.805     6.2
+C  SOLAR_CARDS.375    0.000247      2500  0.800000  0.574097   0.047   0.415    11.7
+C  SOLAR_CARDS.376    0.000123      2500  0.800000  0.188070   0.033   0.806     6.2
+C  SOLAR_CARDS.378    0.000062      2500  0.800000  0.357686   0.017   0.637     6.4
+C  SOLAR_CARDS.379    0.000123      2500  0.800000  0.581608   0.025   0.411    11.4
+C  SOLAR_CARDS.380    0.000062      2500  0.800000  0.387051   0.017   0.607     6.4
+C  SOLAR_CARDS.382    0.000062      2500  0.800000  0.360169   0.016   0.630     6.3
+C  SOLAR_CARDS.383    0.000062      2500  0.800000  0.446749   0.017   0.549     6.4
+C  SOLAR_CARDS.384    0.000123      2500  0.800000  0.676590   0.022   0.312    11.7
+C  SOLAR_CARDS.385    0.000123      2500  0.800000  0.600180   0.023   0.385    12.2
+C  SOLAR_CARDS.386    0.000062      2500  0.800000  0.365500   0.018   0.629     6.4
+C  SOLAR_CARDS.387    0.000062      2500  0.800000  0.431130   0.017   0.560     7.1
+C  SOLAR_CARDS.388    0.000062      2500  0.800000  0.367916   0.018   0.626     6.4
+C  SOLAR_CARDS.391    0.000123      2500  0.800000  0.278495   0.034   0.716     6.5
+C  SOLAR_CARDS.392    0.000247      2500  0.800000  0.629102   0.046   0.350    12.2
+C  SOLAR_CARDS.393    0.000123      2500  0.800000  0.268001   0.032   0.724     6.6
+C  SOLAR_CARDS.395    0.000123      2500  0.800000  0.246759   0.032   0.744     7.1
+C  SOLAR_CARDS.396    0.000247      2500  0.800000  0.610495   0.041   0.375    13.3
+C  SOLAR_CARDS.397    0.000123      2500  0.800000  0.253552   0.033   0.739     7.1
+C  SOLAR_CARDS.399    0.000123      2500  0.800000  0.241351   0.034   0.750     7.4
+C  SOLAR_CARDS.400    0.000247      2500  0.800000  0.621747   0.044   0.360    14.3
+C  SOLAR_CARDS.401    0.000123      2500  0.800000  0.244920   0.033   0.746     7.2
+C  SOLAR_CARDS.403    0.000123      2500  0.800000  0.246395   0.033   0.746     7.4
+C  SOLAR_CARDS.404    0.000247      2500  0.800000  0.617905   0.044   0.371    14.8
+C  SOLAR_CARDS.405    0.000123      2500  0.800000  0.233281   0.033   0.759     7.3
+C  SOLAR_CARDS.407    0.000062      2500  0.800000  0.367400   0.018   0.628     6.4
+C  SOLAR_CARDS.408    0.000123      2500  0.800000  0.245041   0.034   0.749     7.3
+C  SOLAR_CARDS.409    0.000123      2500  0.800000  0.676564   0.026   0.310    11.8
+C  SOLAR_CARDS.410    0.000247      2500  0.800000  0.603259   0.047   0.386    14.2
+C  SOLAR_CARDS.411    0.000062      2500  0.800000  0.387787   0.018   0.608     6.4
+C  SOLAR_CARDS.412    0.000123      2500  0.800000  0.235386   0.034   0.755     7.2
+C  SOLAR_CARDS.413    0.000062      2500  0.800000  0.378272   0.017   0.615     6.3
+C  SOLAR_CARDS.416    0.000123      2500  0.800000  0.239932   0.035   0.753     7.4
+C  SOLAR_CARDS.417    0.000247      2500  0.800000  0.624994   0.044   0.372    14.3
+C  SOLAR_CARDS.418    0.000123      2500  0.800000  0.243804   0.032   0.747     7.4
+C  SOLAR_CARDS.420    0.000123      2500  0.800000  0.250966   0.034   0.742     7.1
+C  SOLAR_CARDS.421    0.000247      2500  0.800000  0.621177   0.045   0.379    13.6
+C  SOLAR_CARDS.422    0.000123      2500  0.800000  0.245713   0.031   0.746     7.1
+C  SOLAR_CARDS.424    0.000123      2500  0.800000  0.274163   0.034   0.719     6.7
+C  SOLAR_CARDS.425    0.000247      2500  0.800000  0.619456   0.046   0.366    12.2
+C  SOLAR_CARDS.426    0.000123      2500  0.800000  0.276351   0.033   0.717     6.6
+C  SOLAR_CARDS.428    0.000062      2500  0.800000  0.435984   0.017   0.560     6.4
+C  SOLAR_CARDS.429    0.000123      2500  0.800000  0.608977   0.024   0.378    12.0
+C  SOLAR_CARDS.430    0.000062      2500  0.800000  0.445977   0.016   0.549     6.4
+C  SOLAR_CARDS.432    0.000062      2500  0.800000  0.371545   0.019   0.625     6.5
+C  SOLAR_CARDS.433    0.000062      2500  0.800000  0.834296   0.003   0.159     4.0
+C  SOLAR_CARDS.434    0.000123      2500  0.800000  0.674338   0.023   0.325    11.7
+C  SOLAR_CARDS.435    0.000123      2500  0.800000  0.806459   0.015   0.186    11.3
+C  SOLAR_CARDS.436    0.000062      2500  0.800000  0.379683   0.018   0.615     6.5
+C  SOLAR_CARDS.437    0.000062      2500  0.800000  0.836823   0.002   0.156     4.5
+C  SOLAR_CARDS.438    0.000062      2500  0.800000  0.366884   0.018   0.628     6.4
+C  SOLAR_CARDS.441    0.000123      2500  0.800000  0.786173   0.004   0.207     4.8
+C  SOLAR_CARDS.442    0.000247      2500  0.800000  0.870929   0.031   0.122    11.8
+C  SOLAR_CARDS.443    0.000123      2500  0.800000  0.796367   0.004   0.198     4.9
+C  SOLAR_CARDS.445    0.000123      2500  0.800000  0.784057   0.003   0.207     5.3
+C  SOLAR_CARDS.446    0.000247      2500  0.800000  0.890170   0.030   0.102    13.0
+C  SOLAR_CARDS.447    0.000123      2500  0.800000  0.793679   0.004   0.200     5.1
+C  SOLAR_CARDS.449    0.000123      2500  0.800000  0.787845   0.004   0.206     5.4
+C  SOLAR_CARDS.450    0.000247      2500  0.800000  0.887576   0.030   0.106    14.0
+C  SOLAR_CARDS.451    0.000123      2500  0.800000  0.798312   0.004   0.196     5.2
+C  SOLAR_CARDS.453    0.000123      2500  0.800000  0.773156   0.004   0.218     5.6
+C  SOLAR_CARDS.454    0.000247      2500  0.800000  0.887947   0.030   0.111    14.0
+C  SOLAR_CARDS.455    0.000123      2500  0.800000  0.770032   0.004   0.221     5.6
+C  SOLAR_CARDS.457    0.000062      2500  0.800000  0.377145   0.017   0.619     6.4
+C  SOLAR_CARDS.458    0.000123      2500  0.800000  0.780402   0.005   0.212     5.6
+C  SOLAR_CARDS.459    0.000123      2500  0.800000  0.691804   0.022   0.294    11.8
+C  SOLAR_CARDS.460    0.000247      2500  0.800000  0.871996   0.032   0.105    14.2
+C  SOLAR_CARDS.461    0.000062      2500  0.800000  0.386494   0.017   0.608     6.5
+C  SOLAR_CARDS.462    0.000123      2500  0.800000  0.789140   0.003   0.204     5.5
+C  SOLAR_CARDS.463    0.000062      2500  0.800000  0.366075   0.018   0.626     6.4
+C  SOLAR_CARDS.466    0.000123      2500  0.800000  0.778594   0.004   0.212     5.5
+C  SOLAR_CARDS.467    0.000247      2500  0.800000  0.878399   0.030   0.104    13.6
+C  SOLAR_CARDS.468    0.000123      2500  0.800000  0.770311   0.004   0.221     5.6
+C  SOLAR_CARDS.470    0.000123      2500  0.800000  0.790732   0.004   0.203     5.1
+C  SOLAR_CARDS.471    0.000247      2500  0.800000  0.877918   0.034   0.107    13.0
+C  SOLAR_CARDS.472    0.000123      2500  0.800000  0.797407   0.004   0.196     5.2
+C  SOLAR_CARDS.474    0.000123      2500  0.800000  0.793704   0.004   0.199     4.7
+C  SOLAR_CARDS.475    0.000247      2500  0.800000  0.874768   0.029   0.115    12.1
+C  SOLAR_CARDS.476    0.000123      2500  0.800000  0.790355   0.004   0.202     4.9
+C  SOLAR_CARDS.478    0.000062      2500  0.800000  0.854135   0.002   0.142     3.9
+C  SOLAR_CARDS.479    0.000123      2500  0.800000  0.815159   0.016   0.172    11.8
+C  SOLAR_CARDS.480    0.000062      2500  0.800000  0.842801   0.002   0.151     4.1
+C  SOLAR_CARDS.482    0.000062      2500  0.800000  0.382249   0.018   0.612     6.5
+C  SOLAR_CARDS.483    0.000062      2500  0.800000  0.848457   0.002   0.147     4.0
+C  SOLAR_CARDS.484    0.000123      2500  0.800000  0.679554   0.024   0.313    11.1
+C  SOLAR_CARDS.485    0.000123      2500  0.800000  0.814426   0.016   0.183    11.4
+C  SOLAR_CARDS.486    0.000062      2500  0.800000  0.390524   0.016   0.605     6.3
+C  SOLAR_CARDS.487    0.000062      2500  0.800000  0.845528   0.002   0.147     4.4
+C  SOLAR_CARDS.488    0.000062      2500  0.800000  0.391051   0.017   0.605     6.3
+C  SOLAR_CARDS.491    0.000123      2500  0.800000  0.806333   0.004   0.190     4.7
+C  SOLAR_CARDS.492    0.000247      2500  0.800000  0.873762   0.030   0.114    11.7
+C  SOLAR_CARDS.493    0.000123      2500  0.800000  0.793778   0.004   0.199     4.9
+C  SOLAR_CARDS.495    0.000123      2500  0.800000  0.776477   0.004   0.215     5.4
+C  SOLAR_CARDS.496    0.000247      2500  0.800000  0.874242   0.030   0.115    13.3
+C  SOLAR_CARDS.497    0.000123      2500  0.800000  0.772582   0.004   0.219     5.4
+C  SOLAR_CARDS.499    0.000123      2500  0.800000  0.791670   0.004   0.200     5.3
+C  SOLAR_CARDS.500    0.000247      2500  0.800000  0.870932   0.031   0.109    14.0
+C  SOLAR_CARDS.501    0.000123      2500  0.800000  0.781379   0.004   0.210     5.5
+C  SOLAR_CARDS.503    0.000123      2500  0.800000  0.774088   0.004   0.215     5.6
+C  SOLAR_CARDS.504    0.000247      2500  0.800000  0.879244   0.031   0.111    14.4
+C  SOLAR_CARDS.505    0.000123      2500  0.800000  0.773488   0.004   0.217     5.5
+C  SOLAR_CARDS.507    0.000062      2500  0.800000  0.387564   0.017   0.607     5.9
+C  SOLAR_CARDS.508    0.000123      2500  0.800000  0.771197   0.004   0.220     5.8
+C  SOLAR_CARDS.509    0.000123      2500  0.800000  0.693609   0.024   0.309    10.0
+C  SOLAR_CARDS.510    0.000247      2500  0.800000  0.881265   0.031   0.095    14.0
+C  SOLAR_CARDS.511    0.000062      2500  0.800000  0.401741   0.018   0.594     5.8
+C  SOLAR_CARDS.512    0.000123      2500  0.800000  0.787663   0.004   0.204     5.4
+C  SOLAR_CARDS.513    0.000062      2500  0.800000  0.375759   0.018   0.617     6.1
+C  SOLAR_CARDS.516    0.000123      2500  0.800000  0.785457   0.003   0.207     5.4
+C  SOLAR_CARDS.517    0.000247      2500  0.800000  0.871839   0.031   0.113    13.7
+C  SOLAR_CARDS.518    0.000123      2500  0.800000  0.779441   0.004   0.213     5.6
+C  SOLAR_CARDS.520    0.000123      2500  0.800000  0.786106   0.004   0.207     5.3
+C  SOLAR_CARDS.521    0.000247      2500  0.800000  0.885487   0.029   0.108    13.3
+C  SOLAR_CARDS.522    0.000123      2500  0.800000  0.778974   0.004   0.213     5.4
+C  SOLAR_CARDS.524    0.000123      2500  0.800000  0.795118   0.004   0.198     4.8
+C  SOLAR_CARDS.525    0.000247      2500  0.800000  0.875839   0.029   0.126    11.9
+C  SOLAR_CARDS.526    0.000123      2500  0.800000  0.797825   0.004   0.196     4.8
+C  SOLAR_CARDS.528    0.000062      2500  0.800000  0.833678   0.002   0.161     4.1
+C  SOLAR_CARDS.529    0.000123      2500  0.800000  0.801394   0.017   0.186    11.3
+C  SOLAR_CARDS.530    0.000062      2500  0.800000  0.844377   0.002   0.150     4.2
+C  SOLAR_CARDS.532    0.000062      2500  0.800000  0.432923   0.017   0.561     6.4
+C  SOLAR_CARDS.533    0.000123      2500  0.800000  0.603889   0.023   0.376    11.8
+C  SOLAR_CARDS.534    0.000062      2500  0.800000  0.437965   0.019   0.552     7.0
+C  SOLAR_CARDS.536    0.000123      2500  0.800000  0.264617   0.033   0.729     6.6
+C  SOLAR_CARDS.537    0.000247      2500  0.800000  0.624504   0.046   0.369    11.9
+C  SOLAR_CARDS.538    0.000123      2500  0.800000  0.281849   0.031   0.713     6.6
 C
 PSTART
-C    920 calculation nodes
-C    920 radks were output, 0 radks were filtered out
+C    1020 calculation nodes
+C    6138 radks were output, 17088 radks were filtered out
 C    0 nodes(0%) have bij sum + bij inactive < .9
 C    2500 average number of rays per node shot
-C    384 nodes(41%) have Bij Inactive > .2
+C    355 nodes(34%) have Bij Inactive > .2
 C        This may be ok, but may be an indication of an incorrect active side
 C     
