@@ -1,0 +1,180 @@
+[ AutoCAD - Fri Jun 03 06:41:09 2022  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Undefined symbol: 'CardHeatLoad' in expression:
+CardHeatLoad
+The error occurred while updating: Heatload: Bat1_heat_load
+There were expression errors, default value of 1.0 will be returned.
+
+Calculating SINDA/FLUINT data
+Face Contactor[NEG_X][4]::7A8
+From areas = 0.02156, To areas = 0.0166
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_X_7A8.txt contains warnings
+Face Contactor-Board2_solar[NEG_X][6]::7A9
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_X_7A9.txt contains warnings
+Face Contactor-Board1_solar[NEG_X][4]::7AD
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_X_7AD.txt contains warnings
+Face Contactor[NEG_Y][4]::7C9
+From areas = 0.02156, To areas = 0.0166
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_Y_7C9.txt contains warnings
+Face Contactor-Board1_solar[NEG_Y][0]::829
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_Y_829.txt contains warnings
+Face Contactor-Board2_solar[NEG_Y][1]::82A
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_Y_82A.txt contains warnings
+Face Contactor[POS_X][1]::82E
+From areas = 0.02156, To areas = 0.0083
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_X_82E.txt contains warnings
+Face Contactor-Board1_solar[POS_X][1]::832
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_X_832.txt contains warnings
+Face Contactor[POS_Y][1]::837
+From areas = 0.02156, To areas = 0.0166
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_Y_837.txt contains warnings
+Face Contactor-Board1_solar[POS_Y][1]::838
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_Y_838.txt contains warnings
+Face Contactor-Board2_solar[POS_Y][0]::839
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_Y_839.txt contains warnings
+Face Contactor-Reaction_Wheel[POS_Y][0]::846
+From areas = 0.02156, To areas = 0.0018841
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_POS_Y_846.txt contains warnings
+Face Contactor-Reaction_wheel[NEG_Y][0]::847
+From areas = 0.02156, To areas = 0.0018841
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_NEG_Y_847.txt contains warnings
+Face Contactor-Bat1[BATTERY][1]::848
+From areas = 0.01, To areas = 0.00578664
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_BATTERY_848.txt contains warnings
+Face Contactor-Bat2[BATTERY][1]::849
+From areas = 0.01, To areas = 0.00578664
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_BATTERY_849.txt contains warnings
+Calculating Thermal Analyzer Input took 0.57 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel BATTERY...
+Outputting data for submodel FRAME...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel MAIN...
+Outputting data for submodel NEG_X...
+Outputting data for submodel NEG_Y...
+Outputting data for submodel OUTER_BOARD...
+Outputting data for submodel POS_X...
+Outputting data for submodel POS_Y...
+Outputting data for submodel SOLAR_PANEL...
+Outputting data for submodel SPACE...
+    Number of nodes:      659
+    Number of conductors: 1812
+    
+Total Nodal Mass = 1.001984 kg
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Exterior-RcOptics.rck
+Creating new database named Exterior-RcOptics.rck
+Using regular optical properties
+Fixed RadCAD
+Fixed license found.
+Setting number of threads to: 12
+Time to calculate radk = 0.23 sec
+Outputting SINDA/FLUINT radks to file C0A0.k...
+Total elapsed time for calculations and output = 0.43 sec
+    370 calculation nodes
+    2702 radks were output, 3198 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    2500 average number of rays per node shot
+    178 nodes(48%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlapping surfaces greater than 10.0% found in Exterior
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database Exterior-Full_sun_orbit-RcOptics.rch
+Fast Spin about Vector 0.000000 0.000000 1.000000 is enabled
+
+Undefined symbol: 'CardHeatLoad' in expression:
+CardHeatLoad
+The error occurred while updating: Heatload: Bat1_heat_load
+There were expression errors, default value of 1.0 will be returned.
+Creating new database named Exterior-Full_sun_orbit-RcOptics.rch
+Using regular optical properties
+Fixed RadCAD
+Fixed license found.
+Setting number of threads to: 12
+Start and End position calc already done
+Total Elapsed time for heating rate calculations = 1.76 sec
+Outputting SINDA/FLUINT heating rate data to files:
+    C0A1.hra for arrays and C0A1.hrl for logic...
+Total Elapsed time for heating rate calculations and output = 2.06 sec
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Interior-RcOptics.rck
+Creating new database named Interior-RcOptics.rck
+Using regular optical properties
+Fixed RadCAD
+Fixed license found.
+Setting number of threads to: 12
+Time to calculate radk = 0.29 sec
+Outputting SINDA/FLUINT radks to file C0A2.k...
+Total elapsed time for calculations and output = 0.58 sec
+    288 calculation nodes
+    7912 radks were output, 3619 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    2500 average number of rays per node shot
+     
+    No overlapping surfaces greater than 10.0% found in Interior
+
+*** Running SINDA model named C:\Users\duyti\Desktop\Cubesat2U\case0.inp
+Successful completion of processor
+From C:\Users\duyti\Desktop\Cubesat2U\messages_case0.log
+     LOOPCT =               8  The ASTAP execution time is:   0.954085999999734       seconds
+Time to run SINDA = 7.52 sec
+
+Case Set Solved::Elapsed time = 12.03 sec

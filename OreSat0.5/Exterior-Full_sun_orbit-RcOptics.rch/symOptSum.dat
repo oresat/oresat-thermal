@@ -1,0 +1,64 @@
+C    DWG name:      2U.dwg
+C    Thermophysical Property Database: ..\..\Documents\TdThermo.tdp
+C    Optical Property Database:        ..\..\Documents\RcOptics.rco
+C    Computer name: TIN-PC
+C    User name:     duyti
+C    Symbol Names, Evaluated values, Input Strings, Comments
+C    ACS_load                0.            0
+C    Al_Al                   0.885         0.885       conduction coefficient for aluminum to aluminum contact
+C    Al_Al_A                 0.00118467    .00118467
+C    Al_cp                   900.          900         Specific heat of 6061-type2 aluminum
+C    Al_k                    187.          187         Conductivity of 6061-tyep2 aluminum
+C    Al_rho                  2700.         2700        Density of 6061-type2 aluminum
+C    backplane_Frame         0.144         .144
+C    BatteryCard_load        0.003         .003
+C    Battery_cp              837.4         837.4
+C    Battery_Heater          1.            1
+C    Battery_k               300.          300
+C    Battery_rho             2007.7        2007.7
+C    Bat_2_card              0.108         .108
+C    Bat_2_card_A            0.00578664    .00578664
+C    BlackAnno_alpha         0.54          0.54        Absportivity of black annodized aluminum
+C    BlackAnno_epsilon       0.75          .75         Emissivity of black annodized aluminum
+C    Board_frame_X_A         0.0001645     16.45*10^-5
+C    Board_frame_Y_A         8.970000e-05  8.97*10^-5
+C    C3_card_load            0.481         .481        Heat load for the C3 card in W
+C    DxWifi_load             0.            0
+C    hrBetaAngle             90.           90
+C    hrEccen                 0.            0
+C    hrIllum                 0.            0
+C    hrMeanAnom              0.            0
+C    hrPeriod                5676.98       5676.98     Always in current user units. If programming, use hrPeriodSec ...
+C    hrPeriodSec             5676.98       5676.98
+C    hrPos                   0.            0
+C    hrShadowEntry           -1.           -1
+C    hrShadowExit            -1.           -1
+C    hrSubSolarMeanAnom      45.           45          -180 to 180
+C    hrSubSolarTrueAnom      45.           45          -180 to 180
+C    hrTime                  0.            0           Always in current user units. If programming, use hrTimeSec so...
+C    hrTimeSec               0.            0
+C    hrTimeShadowEntry       -1.           -1
+C    hrTimeShadowEntrySec    -1.           -1
+C    hrTimeShadowExit        -1.           -1
+C    hrTimeShadowExitSec     -1.           -1
+C    hrTrueAnom              0.            0
+C    InteriorCards_toFrames  0.3301        0.3301
+C    Int_card_frame          10.857        10.857
+C    Lattice_solar_A         0.00236364    .00236364
+C    negZendcap_load         0.            0
+C    PCB_cp                  1144.         1144        Specific heat of PCB assuming 97.5% RF4, 2.5% Cu
+C    PCB_k                   9.9           9.9         Conductivity of 2-layer FR4 PCB. Calculated assuming 90...
+C    PCB_rho                 2077.         2077        Density of PCB assuming 97.5% FR4, 2.5% Cu
+C    Purple_alpha            0.8           0.8         absorptivity of purple coating on PCB
+C    Purple_epsilon          0.8           0.8         emissivity of purple coating on PCB
+C    Reaction_wheel_A        0.00184015    .00184015
+C    SDR_GPS_load            0.001         .001
+C    SolarCard_frames        10.857        10.857
+C    SolarPanel_solarCard    1.21          1.21
+C    Solar_card_A            0.27892       0.27892
+C    Solar_card_w_holes_A    0.002785      .002785     Area of solar panel minus the area of 2 small holes on the card
+C    solar_cell_solar_module 1.            1
+C    StarTracker_load        0.041         .041
+C    Zcard_frame_A           0.00171952    .00042988*4
+C    zendcard_load           0.            0
+C

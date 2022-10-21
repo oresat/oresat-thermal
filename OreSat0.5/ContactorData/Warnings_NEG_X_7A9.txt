@@ -1,0 +1,5 @@
+Face Contactor-Board2_solar[NEG_X][6]::7A9
+From areas = 0.0083, To areas = 0.0055784
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+Total connected Area = 0.0083 .vs. Total = 0.0083

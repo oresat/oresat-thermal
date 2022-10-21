@@ -1,0 +1,305 @@
+NODES	PROPERTY NAME	EMISS	ALPHA	IR TRANS	SOL TRANS	IR TSPEC	SOL TSPEC	IR REFL SPEC	SOL REFL SPEC	..\..\Documents\RcOptics.rco
+FRAME.17	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.18	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.19	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.20	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.21	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.22	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.23	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.24	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.25	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.26	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.27	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.28	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.30	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.31	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.32	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.33	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.35	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.36	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.37	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.38	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.40	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.41	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.42	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.43	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.45	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.46	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.47	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.48	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.50	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.51	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.52	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.53	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.55	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.56	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.57	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.58	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.60	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.61	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.62	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.63	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.65	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.66	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.67	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.68	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.69	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.70	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.71	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.72	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.73	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.74	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.75	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.76	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.77	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.79	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.80	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.81	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.82	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.83	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.84	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.85	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.86	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.87	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.88	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.89	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.90	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.91	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.92	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.93	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.94	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.95	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.96	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.97	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.98	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.99	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.100	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.101	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.102	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.103	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.104	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.105	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.106	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.107	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.108	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.109	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.111	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.112	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.113	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.114	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.116	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.117	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.118	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.119	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.121	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.122	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.123	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.124	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.126	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.127	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.128	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.129	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.131	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.132	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.133	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.134	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.136	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.137	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.138	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.139	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+FRAME.141	DEFAULT	1.	1.							Rect-TOP::2A7, Rect-BOT::2A7
+FRAME.142	Aluminum	0.8	0.54							Rect-TOP::2C5, Rect-BOT::2C5
+FRAME.143	DEFAULT	1.	1.							Rect-TOP::2E2, Rect-BOT::2E2
+FRAME.144	DEFAULT	1.	1.							Rect-TOP::2FF, Rect-BOT::2FF
+MAIN.10	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.10	PCB	0.8	0.8							Rect-TOP::461
+MAIN.12	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.12	PCB	0.8	0.8							Rect-TOP::461
+MAIN.25	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.27	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.28	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.29	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.30	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.31	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.32	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.33	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.34	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.35	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.36	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.36	PCB	0.8	0.8							Rect-TOP::461
+MAIN.42	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.44	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.45	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.46	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.47	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.48	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.49	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.50	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.51	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.52	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.53	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.55	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.56	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.57	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.58	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.59	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.60	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.61	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.62	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.63	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.64	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.64	PCB	0.8	0.8							Rect-TOP::461
+MAIN.66	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.68	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.69	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.70	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.71	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.72	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.73	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.74	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.75	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.76	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.77	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.79	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.80	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.81	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.82	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.83	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.84	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.85	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.86	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.87	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.88	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.88	PCB	0.8	0.8							Rect-TOP::461
+MAIN.90	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.92	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.93	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.94	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.95	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.96	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.97	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.98	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.99	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.100	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.101	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.101	PCB	0.8	0.8							Rect-TOP::461
+MAIN.105	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.107	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.108	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.109	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.110	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.111	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.112	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.113	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.114	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.115	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.116	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.116	PCB	0.8	0.8							Rect-TOP::461
+MAIN.117	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.119	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.120	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.121	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.122	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.123	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.124	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.125	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.126	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.127	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.128	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.128	PCB	0.8	0.8							Rect-TOP::461
+MAIN.132	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.134	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.135	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.136	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.137	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.138	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.139	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.140	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.141	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.142	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.143	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.143	PCB	0.8	0.8							Rect-TOP::461
+MAIN.147	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.149	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.150	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.151	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.152	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.153	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.154	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.155	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.156	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.157	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.158	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.158	PCB	0.8	0.8							Rect-TOP::461
+MAIN.161	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.163	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.164	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.165	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.166	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.167	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.168	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.169	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.170	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.171	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.172	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.172	PCB	0.8	0.8							Rect-TOP::461
+MAIN.174	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.176	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.177	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.178	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.179	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.180	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.181	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.182	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.183	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.184	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.185	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.185	PCB	0.8	0.8							Rect-TOP::461
+MAIN.187	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.189	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.190	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.191	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.192	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.193	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.194	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.195	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.196	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.197	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.198	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.198	PCB	0.8	0.8							Rect-TOP::461
+MAIN.202	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.204	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.205	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.206	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.207	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.208	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.209	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.210	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.211	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.212	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.213	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.213	PCB	0.8	0.8							Rect-TOP::461
+MAIN.216	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.218	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.219	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.220	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.221	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.222	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.223	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.224	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.225	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.226	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.227	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.227	PCB	0.8	0.8							Rect-TOP::461
+MAIN.229	PCB	0.8	0.8							Rect-TOP::395, Rect-BOT::395
+MAIN.231	PCB	0.8	0.8							Rect-TOP::3B7, Rect-BOT::3B7
+MAIN.232	PCB	0.8	0.8							Rect-TOP::3C8, Rect-BOT::3C8
+MAIN.233	PCB	0.8	0.8							Rect-TOP::3D9, Rect-BOT::3D9
+MAIN.234	PCB	0.8	0.8							Rect-TOP::3FB, Rect-BOT::3FB
+MAIN.235	PCB	0.8	0.8							Rect-TOP::40C, Rect-BOT::40C
+MAIN.236	PCB	0.8	0.8							Rect-TOP::41D, Rect-BOT::41D
+MAIN.237	PCB	0.8	0.8							Rect-TOP::42E, Rect-BOT::42E
+MAIN.238	PCB	0.8	0.8							Rect-TOP::43F, Rect-BOT::43F
+MAIN.239	PCB	0.8	0.8							Rect-TOP::450, Rect-BOT::450
+MAIN.240	DEFAULT	1.	1.							Rect-BOT::461
+MAIN.240	PCB	0.8	0.8							Rect-TOP::461

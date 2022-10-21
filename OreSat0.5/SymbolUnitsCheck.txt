@@ -1,0 +1,6 @@
+Lattice_Indent_Area - Symbol used with and without units
+       m^2 - units used by the following objects:
+              Face Contactor-Radiation (+X) Solar Card to (+X) Frame[SOLAR_CARDS][0]::159B 
+       ^2 - units used by the following objects:
+              Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C 
+

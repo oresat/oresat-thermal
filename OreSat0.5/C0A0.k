@@ -1,0 +1,2981 @@
+HEADER CONDUCTOR DATA, C0A0
+C     SINDA/FLUINT data created with Thermal Desktop 6.2 Patch 20
+C     Generated on Fri Jun  3 06:41:10 2022
+C
+C        Generated from database Exterior-RcOptics.rck
+C        Bij Cutoff factor:      0.001000
+C        Conductor units are: m^2
+C        (more information at end of file)
+C
+C  PSTOP causes the radks not to be echoed to the preprocessor pp.out file
+PSTOP
+C    DWG name:      2U.dwg
+C    Thermophysical Property Database: ..\..\Documents\TdThermo.tdp
+C    Optical Property Database:        ..\..\Documents\RcOptics.rco
+C    Computer name: TIN-PC
+C    User name:     duyti
+C    Symbol Names, Evaluated values, Input Strings, Comments
+C    ACS_load                0.            0
+C    Al_Al                   0.885         0.885       conduction coefficient for aluminum to aluminum contact
+C    Al_Al_A                 0.00118467    .00118467
+C    Al_cp                   900.          900         Specific heat of 6061-type2 aluminum
+C    Al_k                    187.          187         Conductivity of 6061-tyep2 aluminum
+C    Al_rho                  2700.         2700        Density of 6061-type2 aluminum
+C    backplane_Frame         0.144         .144
+C    BatteryCard_load        0.003         .003
+C    Battery_cp              837.4         837.4
+C    Battery_Heater          1.            1
+C    Battery_k               300.          300
+C    Battery_rho             2007.7        2007.7
+C    Bat_2_card              0.108         .108
+C    Bat_2_card_A            0.00578664    .00578664
+C    BlackAnno_alpha         0.54          0.54        Absportivity of black annodized aluminum
+C    BlackAnno_epsilon       0.75          .75         Emissivity of black annodized aluminum
+C    Board_frame_X_A         0.0001645     16.45*10^-5
+C    Board_frame_Y_A         8.970000e-05  8.97*10^-5
+C    C3_card_load            0.481         .481        Heat load for the C3 card in W
+C    DxWifi_load             0.            0
+C    hrBetaAngle             90.           90
+C    hrEccen                 0.            0
+C    hrIllum                 0.            0
+C    hrMeanAnom              0.            0
+C    hrPeriod                5676.98       5676.98     Always in current user units. If programming, use hrPeriodSec ...
+C    hrPeriodSec             5676.98       5676.98
+C    hrPos                   0.            0
+C    hrShadowEntry           -1.           -1
+C    hrShadowExit            -1.           -1
+C    hrSubSolarMeanAnom      45.           45          -180 to 180
+C    hrSubSolarTrueAnom      45.           45          -180 to 180
+C    hrTime                  0.            0           Always in current user units. If programming, use hrTimeSec so...
+C    hrTimeSec               0.            0
+C    hrTimeShadowEntry       -1.           -1
+C    hrTimeShadowEntrySec    -1.           -1
+C    hrTimeShadowExit        -1.           -1
+C    hrTimeShadowExitSec     -1.           -1
+C    hrTrueAnom              0.            0
+C    InteriorCards_toFrames  0.3301        0.3301
+C    Int_card_frame          10.857        10.857
+C    Lattice_solar_A         0.00236364    .00236364
+C    negZendcap_load         0.            0
+C    PCB_cp                  1144.         1144        Specific heat of PCB assuming 97.5% RF4, 2.5% Cu
+C    PCB_k                   9.9           9.9         Conductivity of 2-layer FR4 PCB. Calculated assuming 90...
+C    PCB_rho                 2077.         2077        Density of PCB assuming 97.5% FR4, 2.5% Cu
+C    Purple_alpha            0.8           0.8         absorptivity of purple coating on PCB
+C    Purple_epsilon          0.8           0.8         emissivity of purple coating on PCB
+C    Reaction_wheel_A        0.00184015    .00184015
+C    SDR_GPS_load            0.001         .001
+C    SolarCard_frames        10.857        10.857
+C    SolarPanel_solarCard    1.21          1.21
+C    Solar_card_A            0.27892       0.27892
+C    Solar_card_w_holes_A    0.002785      .002785     Area of solar panel minus the area of 2 small holes on the card
+C    solar_cell_solar_module 1.            1
+C    StarTracker_load        0.041         .041
+C    Zcard_frame_A           0.00171952    .00042988*4
+C    zendcard_load           0.            0
+C
+C Optical Properties Used:
+C PROPERTY NAME EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
+C Aluminum      0.8   0.54                                                     
+C PCB           0.8   0.8                                                      
+C Solar_panel   0.85  0.92                                                     
+C
+C
+C    radk format: 
+C    cond_id    node_1     node_2     Area*e*Bij $  Bij   Bji
+C
+           -1,      BATTERY.1,        SPACE.1,   0.0001106475  $    0.191212
+           -2,      BATTERY.2,        SPACE.1,   0.0001808128  $    0.156233
+           -3,      BATTERY.3,        SPACE.1,   0.0001118789  $    0.193340
+           -4,      BATTERY.4,        SPACE.1,   0.0001788164  $    0.154508
+           -5,      BATTERY.5,        SPACE.1,   0.0003467818  $    0.149820
+           -6,      BATTERY.6,        SPACE.1,    0.000192584  $    0.166404
+           -7,      BATTERY.7,        SPACE.1,   0.0001159851  $    0.200436
+           -8,      BATTERY.8,        SPACE.1,   0.0001834041  $    0.158472
+           -9,      BATTERY.9,        SPACE.1,   0.0001147606  $    0.198320
+          -10,     BATTERY.10,        SPACE.1,   0.0001282852  $    0.221692
+          -11,     BATTERY.11,        SPACE.1,   0.0002198738  $    0.189984
+          -12,     BATTERY.12,        SPACE.1,   0.0001276024  $    0.220512
+          -13,     BATTERY.13,        SPACE.1,   0.0002112124  $    0.182500
+          -14,     BATTERY.14,        SPACE.1,   0.0004147123  $    0.179168
+          -15,     BATTERY.15,        SPACE.1,   0.0002316322  $    0.200144
+          -16,     BATTERY.16,        SPACE.1,   0.0001269103  $    0.219316
+          -17,     BATTERY.17,        SPACE.1,   0.0002026296  $    0.175084
+          -18,     BATTERY.18,        SPACE.1,   0.0001269612  $    0.219404
+          -19,        FRAME.1,        SPACE.1,   0.0002222222  $    1.000000
+          -20,        FRAME.2,        SPACE.1,   0.0004444444  $    1.000000
+          -21,        FRAME.3,        SPACE.1,   0.0004444444  $    1.000000
+          -22,        FRAME.4,        SPACE.1,   0.0002222222  $    1.000000
+          -23,        FRAME.5,        SPACE.1,   0.0004444444  $    1.000000
+          -24,        FRAME.6,        SPACE.1,   0.0008888889  $    1.000000
+          -25,        FRAME.7,        SPACE.1,   0.0008888889  $    1.000000
+          -26,        FRAME.8,        SPACE.1,   0.0004444444  $    1.000000
+          -27,        FRAME.9,        SPACE.1,   0.0004444444  $    1.000000
+          -28,       FRAME.10,        SPACE.1,   0.0008888889  $    1.000000
+          -29,       FRAME.11,        SPACE.1,   0.0008888889  $    1.000000
+          -30,       FRAME.12,        SPACE.1,   0.0004444444  $    1.000000
+          -31,       FRAME.13,        SPACE.1,   0.0002222222  $    1.000000
+          -32,       FRAME.14,        SPACE.1,   0.0004444444  $    1.000000
+          -33,       FRAME.15,        SPACE.1,   0.0004444444  $    1.000000
+          -34,       FRAME.16,        SPACE.1,   0.0002222222  $    1.000000
+          -35,       FRAME.29,        SPACE.1,   0.0002082596  $    0.937168
+          -36,       FRAME.34,        SPACE.1,   0.0004678222  $    0.526300
+          -37,       FRAME.39,        SPACE.1,   0.0004817067  $    0.541920
+          -38,       FRAME.44,        SPACE.1,   0.0003851218  $    0.866524
+          -39,       FRAME.49,        SPACE.1,   0.0002085431  $    0.938444
+          -40,       FRAME.54,        SPACE.1,   0.0003876035  $    0.872108
+          -41,       FRAME.59,        SPACE.1,   0.0003865102  $    0.869648
+          -42,       FRAME.64,        SPACE.1,   0.0002078969  $    0.935536
+          -43,       FRAME.78,        SPACE.1,   0.0003831058  $    0.861988
+          -44,      FRAME.110,        SPACE.1,    0.000389904  $    0.877284
+          -45,      FRAME.115,        SPACE.1,   0.0002082027  $    0.936912
+          -46,      FRAME.120,        SPACE.1,   0.0003902631  $    0.878092
+          -47,      FRAME.125,        SPACE.1,   0.0004765547  $    0.536124
+          -48,      FRAME.130,        SPACE.1,      0.0004632  $    0.521100
+          -49,      FRAME.135,        SPACE.1,   0.0003881938  $    0.873436
+          -50,      FRAME.140,        SPACE.1,   0.0003880569  $    0.873128
+          -51,         MAIN.1,        SPACE.1,  8.179034e-05   $    0.404240
+          -52,         MAIN.2,        SPACE.1,  8.075764e-05   $    0.399136
+          -53,         MAIN.3,        SPACE.1,  8.428954e-05   $    0.416592
+          -54,         MAIN.4,        SPACE.1,  9.278514e-05   $    0.369348
+          -55,         MAIN.5,        SPACE.1,   0.0001039953  $    0.413972
+          -56,         MAIN.6,        SPACE.1,    0.000200133  $    0.494568
+          -57,         MAIN.7,        SPACE.1,  8.207846e-05   $    0.405664
+          -58,         MAIN.8,        SPACE.1,   0.0001079001  $    0.429516
+          -59,         MAIN.9,        SPACE.1,   0.0001976808  $    0.488508
+          -60,        MAIN.11,        SPACE.1,   0.0001988073  $    0.491292
+          -61,        MAIN.13,        SPACE.1,   0.0002425319  $    0.599344
+          -62,        MAIN.14,        SPACE.1,   0.0002389223  $    0.590424
+          -63,        MAIN.15,        SPACE.1,   0.0002438948  $    0.602712
+          -64,        MAIN.16,        SPACE.1,   0.0002514701  $    0.621432
+          -65,        MAIN.18,        SPACE.1,   0.0001399266  $    0.691572
+          -66,        MAIN.19,        SPACE.1,   0.0001391909  $    0.687936
+          -67,        MAIN.20,        SPACE.1,   0.0001417977  $    0.700820
+          -68,        MAIN.21,        SPACE.1,   0.0001394774  $    0.689352
+          -69,        MAIN.22,        SPACE.1,   0.0001409325  $    0.696544
+          -70,        MAIN.23,        SPACE.1,   0.0001378393  $    0.681256
+          -71,        MAIN.24,        SPACE.1,   0.0001390314  $    0.687148
+          -72,        MAIN.26,        SPACE.1,   0.0001474098  $    0.331672
+          -73,        MAIN.37,        SPACE.1,  9.541384e-05   $    0.379812
+          -74,        MAIN.38,        SPACE.1,  9.250378e-05   $    0.368228
+          -75,        MAIN.39,        SPACE.1,  8.142777e-05   $    0.402448
+          -76,        MAIN.40,        SPACE.1,  8.187775e-05   $    0.404672
+          -77,        MAIN.41,        SPACE.1,  8.039830e-05   $    0.397360
+          -78,        MAIN.43,        SPACE.1,   0.0002115769  $    0.119012
+          -79,        MAIN.54,        SPACE.1,   0.0002022684  $    0.113776
+          -80,        MAIN.65,        SPACE.1,   0.0001977407  $    0.488656
+          -81,        MAIN.67,        SPACE.1,   0.0001426738  $    0.160508
+          -82,        MAIN.78,        SPACE.1,   0.0001418204  $    0.319096
+          -83,        MAIN.89,        SPACE.1,   0.0001877228  $    0.463900
+          -84,        MAIN.91,        SPACE.1,   0.0001410525  $    0.158684
+          -85,       MAIN.102,        SPACE.1,   0.0002001007  $    0.494488
+          -86,       MAIN.103,        SPACE.1,   0.0001982959  $    0.490028
+          -87,       MAIN.104,        SPACE.1,   0.0002515753  $    0.621692
+          -88,       MAIN.106,        SPACE.1,   0.0001449422  $    0.163060
+          -89,       MAIN.118,        SPACE.1,   0.0001405973  $    0.316344
+          -90,       MAIN.129,        SPACE.1,   0.0002475918  $    0.611848
+          -91,       MAIN.130,        SPACE.1,   0.0002401881  $    0.593552
+          -92,       MAIN.131,        SPACE.1,   0.0002392007  $    0.591112
+          -93,       MAIN.133,        SPACE.1,   0.0001461973  $    0.164472
+          -94,       MAIN.144,        SPACE.1,   0.0001367846  $    0.272248
+          -95,       MAIN.145,        SPACE.1,   0.0001342524  $    0.267208
+          -96,       MAIN.146,        SPACE.1,   0.0001395607  $    0.689764
+          -97,       MAIN.148,        SPACE.1,   0.0001444125  $    0.162464
+          -98,       MAIN.159,        SPACE.1,   0.0001381653  $    0.274996
+          -99,       MAIN.160,        SPACE.1,   0.0001369716  $    0.272620
+         -100,       MAIN.162,        SPACE.1,   0.0001429511  $    0.321640
+         -101,       MAIN.173,        SPACE.1,  9.198428e-05   $    0.366160
+         -102,       MAIN.175,        SPACE.1,   0.0001380231  $    0.155276
+         -103,       MAIN.186,        SPACE.1,   0.0001076942  $    0.428696
+         -104,       MAIN.188,        SPACE.1,   0.0001977245  $    0.111220
+         -105,       MAIN.199,        SPACE.1,    0.000159635  $    0.317728
+         -106,       MAIN.200,        SPACE.1,    0.000160656  $    0.319760
+         -107,       MAIN.201,        SPACE.1,  8.002925e-05   $    0.395536
+         -108,       MAIN.203,        SPACE.1,    0.000190272  $    0.107028
+         -109,       MAIN.214,        SPACE.1,   0.0001638313  $    0.326080
+         -110,       MAIN.215,        SPACE.1,   0.0001620246  $    0.322484
+         -111,       MAIN.217,        SPACE.1,   0.0001413938  $    0.159068
+         -112,       MAIN.228,        SPACE.1,   0.0001060904  $    0.422312
+         -113,       MAIN.230,        SPACE.1,    0.000140864  $    0.158472
+         -114,       MAIN.241,        SPACE.1,   0.0001994014  $    0.492760
+         -115,  OUTER_BOARD.1,        SPACE.1,   0.0001056306  $    0.572696
+         -116,  OUTER_BOARD.2,        SPACE.1,  7.163969e-05   $    0.194204
+         -117,  OUTER_BOARD.3,        SPACE.1,  6.972442e-05   $    0.189012
+         -118,  OUTER_BOARD.4,        SPACE.1,   0.0001065513  $    0.577688
+         -119,  OUTER_BOARD.5,        SPACE.1,   0.0002308802  $    0.625880
+         -120,  OUTER_BOARD.6,        SPACE.1,   0.0002127839  $    0.288412
+         -121,  OUTER_BOARD.7,        SPACE.1,    0.000219117  $    0.296996
+         -122,  OUTER_BOARD.8,        SPACE.1,    0.000233576  $    0.633188
+         -123,  OUTER_BOARD.9,        SPACE.1,   0.0002380351  $    0.645276
+         -124, OUTER_BOARD.10,        SPACE.1,   0.0002474979  $    0.335464
+         -125, OUTER_BOARD.11,        SPACE.1,   0.0002369978  $    0.321232
+         -126, OUTER_BOARD.12,        SPACE.1,   0.0002394472  $    0.649104
+         -127, OUTER_BOARD.13,        SPACE.1,   0.0001017115  $    0.551448
+         -128, OUTER_BOARD.14,        SPACE.1,  5.565647e-05   $    0.150876
+         -129, OUTER_BOARD.15,        SPACE.1,  5.490689e-05   $    0.148844
+         -130, OUTER_BOARD.16,        SPACE.1,   0.0001045365  $    0.566764
+         -131, OUTER_BOARD.17,        SPACE.1,   0.0001046508  $    0.567384
+         -132, OUTER_BOARD.18,        SPACE.1,   0.0001070243  $    0.580252
+         -133, OUTER_BOARD.19,        SPACE.1,   0.0001036888  $    0.562168
+         -134, OUTER_BOARD.20,        SPACE.1,   0.0001111433  $    0.602584
+         -135, OUTER_BOARD.21,        SPACE.1,   0.0001094995  $    0.593672
+         -136, OUTER_BOARD.22,        SPACE.1,    0.000150092  $    0.406876
+         -137, OUTER_BOARD.23,        SPACE.1,   0.0001087403  $    0.589556
+         -138, OUTER_BOARD.24,        SPACE.1,   0.0002361361  $    0.320064
+         -139, OUTER_BOARD.25,        SPACE.1,   0.0002380071  $    0.322600
+         -140, OUTER_BOARD.26,        SPACE.1,   0.0002406336  $    0.326160
+         -141, OUTER_BOARD.27,        SPACE.1,   0.0002364991  $    0.320556
+         -142, OUTER_BOARD.28,        SPACE.1,   0.0002321787  $    0.314700
+         -143, OUTER_BOARD.29,        SPACE.1,   0.0003556561  $    0.241032
+         -144, OUTER_BOARD.30,        SPACE.1,   0.0002473651  $    0.335284
+         -145, OUTER_BOARD.31,        SPACE.1,   0.0002392436  $    0.324276
+         -146, OUTER_BOARD.32,        SPACE.1,   0.0002489439  $    0.337424
+         -147, OUTER_BOARD.33,        SPACE.1,   0.0002369506  $    0.321168
+         -148, OUTER_BOARD.34,        SPACE.1,    0.000240123  $    0.325468
+         -149, OUTER_BOARD.35,        SPACE.1,   0.0002342267  $    0.317476
+         -150, OUTER_BOARD.36,        SPACE.1,   0.0003590853  $    0.243356
+         -151, OUTER_BOARD.37,        SPACE.1,   0.0002369359  $    0.321148
+         -152, OUTER_BOARD.38,        SPACE.1,   0.0002333237  $    0.632504
+         -153, OUTER_BOARD.39,        SPACE.1,   0.0002367603  $    0.641820
+         -154, OUTER_BOARD.40,        SPACE.1,    0.000239279  $    0.648648
+         -155, OUTER_BOARD.41,        SPACE.1,    0.000233967  $    0.634248
+         -156, OUTER_BOARD.42,        SPACE.1,   0.0002419601  $    0.655916
+         -157, OUTER_BOARD.43,        SPACE.1,   0.0003167752  $    0.429364
+         -158, OUTER_BOARD.44,        SPACE.1,   0.0002403385  $    0.651520
+         -159, OUTER_BOARD.45,        SPACE.1,   0.0001030587  $    0.558752
+         -160, OUTER_BOARD.46,        SPACE.1,   0.0001015315  $    0.550472
+         -161, OUTER_BOARD.47,        SPACE.1,   0.0001013227  $    0.549340
+         -162, OUTER_BOARD.48,        SPACE.1,   0.0001074485  $    0.582552
+         -163, OUTER_BOARD.49,        SPACE.1,   0.0001042782  $    0.565364
+         -164, OUTER_BOARD.50,        SPACE.1,   0.0001528882  $    0.414456
+         -165, OUTER_BOARD.51,        SPACE.1,   0.0001038319  $    0.562944
+         -166, OUTER_BOARD.52,        SPACE.1,  5.653148e-05   $    0.153248
+         -167, OUTER_BOARD.53,        SPACE.1,  5.491132e-05   $    0.148856
+         -168, OUTER_BOARD.54,        SPACE.1,  5.162821e-05   $    0.139956
+         -169, OUTER_BOARD.55,        SPACE.1,  6.392549e-05   $    0.173292
+         -170, OUTER_BOARD.56,        SPACE.1,  5.796425e-05   $    0.157132
+         -171, OUTER_BOARD.57,        SPACE.1,   0.0001270188  $    0.172164
+         -172, OUTER_BOARD.58,        SPACE.1,  6.158526e-05   $    0.166948
+         -173, OUTER_BOARD.59,        SPACE.1,  5.584387e-05   $    0.151384
+         -174, OUTER_BOARD.60,        SPACE.1,  5.711875e-05   $    0.154840
+         -175, OUTER_BOARD.61,        SPACE.1,  5.175954e-05   $    0.140312
+         -176, OUTER_BOARD.62,        SPACE.1,  6.534203e-05   $    0.177132
+         -177, OUTER_BOARD.63,        SPACE.1,  5.721762e-05   $    0.155108
+         -178, OUTER_BOARD.64,        SPACE.1,    0.000145233  $    0.196852
+         -179, OUTER_BOARD.65,        SPACE.1,  6.209875e-05   $    0.168340
+         -180, OUTER_BOARD.66,        SPACE.1,   0.0001028138  $    0.557424
+         -181, OUTER_BOARD.67,        SPACE.1,   0.0001016009  $    0.550848
+         -182, OUTER_BOARD.68,        SPACE.1,  9.945392e-05   $    0.539208
+         -183, OUTER_BOARD.69,        SPACE.1,   0.0001046346  $    0.567296
+         -184, OUTER_BOARD.70,        SPACE.1,   0.0001053783  $    0.571328
+         -185, OUTER_BOARD.71,        SPACE.1,   0.0001583478  $    0.429256
+         -186, OUTER_BOARD.72,        SPACE.1,    0.000103207  $    0.559556
+         -187, OUTER_BOARD.73,        SPACE.1,  7.415994e-05   $    0.201036
+         -188, OUTER_BOARD.74,        SPACE.1,  6.706400e-05   $    0.181800
+         -189, OUTER_BOARD.75,        SPACE.1,  7.805983e-05   $    0.211608
+         -190, OUTER_BOARD.76,        SPACE.1,  8.109653e-05   $    0.219840
+         -191, OUTER_BOARD.77,        SPACE.1,  7.304295e-05   $    0.198008
+         -192, OUTER_BOARD.78,        SPACE.1,   0.0001446989  $    0.196128
+         -193, OUTER_BOARD.79,        SPACE.1,  7.838888e-05   $    0.212500
+         -194, OUTER_BOARD.80,        SPACE.1,  6.815443e-05   $    0.184756
+         -195, OUTER_BOARD.81,        SPACE.1,  7.228009e-05   $    0.195940
+         -196, OUTER_BOARD.82,        SPACE.1,  7.411715e-05   $    0.200920
+         -197, OUTER_BOARD.83,        SPACE.1,  7.727042e-05   $    0.209468
+         -198, OUTER_BOARD.84,        SPACE.1,  7.775734e-05   $    0.210788
+         -199, OUTER_BOARD.85,        SPACE.1,   0.0001324488  $    0.179524
+         -200, OUTER_BOARD.86,        SPACE.1,  7.997068e-05   $    0.216788
+         -201, OUTER_BOARD.87,        SPACE.1,   0.0001059191  $    0.574260
+         -202, OUTER_BOARD.88,        SPACE.1,   0.0001067808  $    0.578932
+         -203, OUTER_BOARD.89,        SPACE.1,   0.0001043941  $    0.565992
+         -204, OUTER_BOARD.90,        SPACE.1,   0.0001090223  $    0.591085
+         -205, OUTER_BOARD.91,        SPACE.1,   0.0001096913  $    0.594712
+         -206, OUTER_BOARD.92,        SPACE.1,   0.0001537588  $    0.416816
+         -207, OUTER_BOARD.93,        SPACE.1,   0.0001079435  $    0.585236
+         -208, OUTER_BOARD.94,        SPACE.1,   0.0002369683  $    0.642384
+         -209, OUTER_BOARD.95,        SPACE.1,   0.0002342562  $    0.635032
+         -210, OUTER_BOARD.96,        SPACE.1,    0.000236505  $    0.641128
+         -211, OUTER_BOARD.97,        SPACE.1,   0.0002240026  $    0.607236
+         -212, OUTER_BOARD.98,        SPACE.1,   0.0002242726  $    0.607968
+         -213, OUTER_BOARD.99,        SPACE.1,   0.0003147655  $    0.426640
+         -214,OUTER_BOARD.100,        SPACE.1,   0.0002253882  $    0.610992
+         -215,OUTER_BOARD.101,        SPACE.1,   0.0002250665  $    0.305060
+         -216,OUTER_BOARD.102,        SPACE.1,   0.0002319455  $    0.314384
+         -217,OUTER_BOARD.103,        SPACE.1,   0.0002144838  $    0.290716
+         -218,OUTER_BOARD.104,        SPACE.1,   0.0002109985  $    0.285992
+         -219,OUTER_BOARD.105,        SPACE.1,   0.0002110281  $    0.286032
+         -220,OUTER_BOARD.106,        SPACE.1,   0.0003367336  $    0.228208
+         -221,OUTER_BOARD.107,        SPACE.1,   0.0002003362  $    0.271540
+         -222,OUTER_BOARD.108,        SPACE.1,    0.000229139  $    0.310580
+         -223,OUTER_BOARD.109,        SPACE.1,   0.0002209762  $    0.299516
+         -224,OUTER_BOARD.110,        SPACE.1,   0.0002187747  $    0.296532
+         -225,OUTER_BOARD.111,        SPACE.1,   0.0001907421  $    0.258536
+         -226,OUTER_BOARD.112,        SPACE.1,   0.0001832581  $    0.248392
+         -227,OUTER_BOARD.113,        SPACE.1,   0.0003430017  $    0.232456
+         -228,OUTER_BOARD.114,        SPACE.1,   0.0002121081  $    0.287496
+         -229,OUTER_BOARD.115,        SPACE.1,   0.0002309938  $    0.626188
+         -230,OUTER_BOARD.116,        SPACE.1,   0.0002403842  $    0.651644
+         -231,OUTER_BOARD.117,        SPACE.1,   0.0002325549  $    0.630420
+         -232,OUTER_BOARD.118,        SPACE.1,   0.0002265907  $    0.614252
+         -233,OUTER_BOARD.119,        SPACE.1,   0.0002345528  $    0.635836
+         -234,OUTER_BOARD.120,        SPACE.1,   0.0003305894  $    0.448088
+         -235,OUTER_BOARD.121,        SPACE.1,   0.0002266483  $    0.614408
+         -236,OUTER_BOARD.122,        SPACE.1,   0.0002438429  $    0.661020
+         -237,OUTER_BOARD.123,        SPACE.1,   0.0002373269  $    0.643356
+         -238,OUTER_BOARD.124,        SPACE.1,   0.0002380632  $    0.645352
+         -239,OUTER_BOARD.125,        SPACE.1,   0.0002423379  $    0.656940
+         -240,OUTER_BOARD.126,        SPACE.1,   0.0002401895  $    0.651116
+         -241,OUTER_BOARD.127,        SPACE.1,   0.0003121921  $    0.423152
+         -242,OUTER_BOARD.128,        SPACE.1,   0.0002417653  $    0.655388
+         -243,  SOLAR_PANEL.1,        SPACE.1,   0.0001975683  $    1.000000
+         -244,  SOLAR_PANEL.2,        SPACE.1,   0.0003951367  $    1.000000
+         -245,  SOLAR_PANEL.3,        SPACE.1,   0.0003951367  $    1.000000
+         -246,  SOLAR_PANEL.4,        SPACE.1,   0.0001975683  $    1.000000
+         -247,  SOLAR_PANEL.5,        SPACE.1,   0.0001975683  $    1.000000
+         -248,  SOLAR_PANEL.6,        SPACE.1,   0.0003951367  $    1.000000
+         -249,  SOLAR_PANEL.7,        SPACE.1,   0.0003951367  $    1.000000
+         -250,  SOLAR_PANEL.8,        SPACE.1,   0.0001975683  $    1.000000
+         -251,  SOLAR_PANEL.9,        SPACE.1,   0.0001975683  $    1.000000
+         -252, SOLAR_PANEL.10,        SPACE.1,   0.0001975683  $    1.000000
+         -253, SOLAR_PANEL.11,        SPACE.1,   0.0001975683  $    1.000000
+         -254, SOLAR_PANEL.12,        SPACE.1,   0.0001975683  $    1.000000
+         -255, SOLAR_PANEL.13,        SPACE.1,   0.0001975683  $    1.000000
+         -256, SOLAR_PANEL.14,        SPACE.1,   0.0001975683  $    1.000000
+         -257, SOLAR_PANEL.15,        SPACE.1,   0.0001975683  $    1.000000
+         -258, SOLAR_PANEL.16,        SPACE.1,   0.0001975683  $    1.000000
+         -259, SOLAR_PANEL.17,        SPACE.1,   0.0001975683  $    1.000000
+         -260, SOLAR_PANEL.18,        SPACE.1,   0.0001975683  $    1.000000
+         -261, SOLAR_PANEL.19,        SPACE.1,   0.0001975683  $    1.000000
+         -262, SOLAR_PANEL.20,        SPACE.1,   0.0001975683  $    1.000000
+         -263, SOLAR_PANEL.21,        SPACE.1,   0.0001975683  $    1.000000
+         -264, SOLAR_PANEL.22,        SPACE.1,   0.0001975683  $    1.000000
+         -265, SOLAR_PANEL.23,        SPACE.1,   0.0001975683  $    1.000000
+         -266, SOLAR_PANEL.24,        SPACE.1,   0.0003951367  $    1.000000
+         -267, SOLAR_PANEL.25,        SPACE.1,   0.0003951367  $    1.000000
+         -268, SOLAR_PANEL.26,        SPACE.1,   0.0003951367  $    1.000000
+         -269, SOLAR_PANEL.27,        SPACE.1,   0.0003951367  $    1.000000
+         -270, SOLAR_PANEL.28,        SPACE.1,   0.0003951367  $    1.000000
+         -271, SOLAR_PANEL.29,        SPACE.1,   0.0003951367  $    1.000000
+         -272, SOLAR_PANEL.30,        SPACE.1,   0.0003951367  $    1.000000
+         -273, SOLAR_PANEL.31,        SPACE.1,   0.0003951367  $    1.000000
+         -274, SOLAR_PANEL.32,        SPACE.1,   0.0003951367  $    1.000000
+         -275, SOLAR_PANEL.33,        SPACE.1,   0.0003951367  $    1.000000
+         -276, SOLAR_PANEL.34,        SPACE.1,   0.0003951367  $    1.000000
+         -277, SOLAR_PANEL.35,        SPACE.1,   0.0003951367  $    1.000000
+         -278, SOLAR_PANEL.36,        SPACE.1,   0.0003951367  $    1.000000
+         -279, SOLAR_PANEL.37,        SPACE.1,   0.0003951367  $    1.000000
+         -280, SOLAR_PANEL.38,        SPACE.1,   0.0003951367  $    1.000000
+         -281, SOLAR_PANEL.39,        SPACE.1,   0.0003951367  $    1.000000
+         -282, SOLAR_PANEL.40,        SPACE.1,   0.0003951367  $    1.000000
+         -283, SOLAR_PANEL.41,        SPACE.1,   0.0003951367  $    1.000000
+         -284, SOLAR_PANEL.42,        SPACE.1,   0.0003951367  $    1.000000
+         -285, SOLAR_PANEL.43,        SPACE.1,   0.0003951367  $    1.000000
+         -286, SOLAR_PANEL.44,        SPACE.1,   0.0003951367  $    1.000000
+         -287, SOLAR_PANEL.45,        SPACE.1,   0.0003951367  $    1.000000
+         -288, SOLAR_PANEL.46,        SPACE.1,   0.0003951367  $    1.000000
+         -289, SOLAR_PANEL.47,        SPACE.1,   0.0003951367  $    1.000000
+         -290, SOLAR_PANEL.48,        SPACE.1,   0.0003951367  $    1.000000
+         -291, SOLAR_PANEL.49,        SPACE.1,   0.0003951367  $    1.000000
+         -292, SOLAR_PANEL.50,        SPACE.1,   0.0003951367  $    1.000000
+         -293, SOLAR_PANEL.51,        SPACE.1,   0.0003951367  $    1.000000
+         -294, SOLAR_PANEL.52,        SPACE.1,   0.0003951367  $    1.000000
+         -295, SOLAR_PANEL.53,        SPACE.1,   0.0003951367  $    1.000000
+         -296, SOLAR_PANEL.54,        SPACE.1,   0.0001975683  $    1.000000
+         -297, SOLAR_PANEL.55,        SPACE.1,   0.0001975683  $    1.000000
+         -298, SOLAR_PANEL.56,        SPACE.1,   0.0001975683  $    1.000000
+         -299, SOLAR_PANEL.57,        SPACE.1,   0.0001975683  $    1.000000
+         -300, SOLAR_PANEL.58,        SPACE.1,   0.0001975683  $    1.000000
+         -301, SOLAR_PANEL.59,        SPACE.1,   0.0001975683  $    1.000000
+         -302, SOLAR_PANEL.60,        SPACE.1,   0.0001975683  $    1.000000
+         -303, SOLAR_PANEL.61,        SPACE.1,   0.0001975683  $    1.000000
+         -304, SOLAR_PANEL.62,        SPACE.1,   0.0001975683  $    1.000000
+         -305, SOLAR_PANEL.63,        SPACE.1,   0.0001975683  $    1.000000
+         -306, SOLAR_PANEL.64,        SPACE.1,   0.0001975683  $    1.000000
+         -307, SOLAR_PANEL.65,        SPACE.1,   0.0001975683  $    1.000000
+         -308, SOLAR_PANEL.66,        SPACE.1,   0.0001975683  $    1.000000
+         -309, SOLAR_PANEL.67,        SPACE.1,   0.0001975683  $    1.000000
+         -310, SOLAR_PANEL.68,        SPACE.1,   0.0001975683  $    1.000000
+         -311, SOLAR_PANEL.69,        SPACE.1,   0.0001975683  $    1.000000
+         -312, SOLAR_PANEL.70,        SPACE.1,   0.0001975683  $    1.000000
+         -313, SOLAR_PANEL.71,        SPACE.1,   0.0001975683  $    1.000000
+         -314, SOLAR_PANEL.72,        SPACE.1,   0.0001975683  $    1.000000
+         -315, SOLAR_PANEL.73,        SPACE.1,   0.0001975683  $    1.000000
+         -316, SOLAR_PANEL.74,        SPACE.1,   0.0001975683  $    1.000000
+         -317, SOLAR_PANEL.75,        SPACE.1,   0.0001975683  $    1.000000
+         -318, SOLAR_PANEL.76,        SPACE.1,   0.0001975683  $    1.000000
+         -319, SOLAR_PANEL.77,        SPACE.1,   0.0001975683  $    1.000000
+         -320, SOLAR_PANEL.78,        SPACE.1,   0.0001975683  $    1.000000
+         -321, SOLAR_PANEL.79,        SPACE.1,   0.0001975683  $    1.000000
+         -322, SOLAR_PANEL.80,        SPACE.1,   0.0001975683  $    1.000000
+         -323, SOLAR_PANEL.81,        SPACE.1,   0.0001975683  $    1.000000
+         -324, SOLAR_PANEL.82,        SPACE.1,   0.0001975683  $    1.000000
+         -325, SOLAR_PANEL.83,        SPACE.1,   0.0001975683  $    1.000000
+         -326, SOLAR_PANEL.84,        SPACE.1,   0.0003951367  $    1.000000
+         -327, SOLAR_PANEL.85,        SPACE.1,   0.0003951367  $    1.000000
+         -328, SOLAR_PANEL.86,        SPACE.1,   0.0003951367  $    1.000000
+         -329, SOLAR_PANEL.87,        SPACE.1,   0.0003951367  $    1.000000
+         -330, SOLAR_PANEL.88,        SPACE.1,   0.0003951367  $    1.000000
+         -331, SOLAR_PANEL.89,        SPACE.1,   0.0003951367  $    1.000000
+         -332, SOLAR_PANEL.90,        SPACE.1,   0.0003951367  $    1.000000
+         -333, SOLAR_PANEL.91,        SPACE.1,   0.0003951367  $    1.000000
+         -334, SOLAR_PANEL.92,        SPACE.1,   0.0003951367  $    1.000000
+         -335, SOLAR_PANEL.93,        SPACE.1,   0.0003951367  $    1.000000
+         -336, SOLAR_PANEL.94,        SPACE.1,   0.0003951367  $    1.000000
+         -337, SOLAR_PANEL.95,        SPACE.1,   0.0003951367  $    1.000000
+         -338, SOLAR_PANEL.96,        SPACE.1,   0.0003951367  $    1.000000
+         -339, SOLAR_PANEL.97,        SPACE.1,   0.0003951367  $    1.000000
+         -340, SOLAR_PANEL.98,        SPACE.1,   0.0003951367  $    1.000000
+         -341, SOLAR_PANEL.99,        SPACE.1,   0.0003951367  $    1.000000
+         -342,SOLAR_PANEL.100,        SPACE.1,   0.0003951367  $    1.000000
+         -343,SOLAR_PANEL.101,        SPACE.1,   0.0003951367  $    1.000000
+         -344,SOLAR_PANEL.102,        SPACE.1,   0.0003951367  $    1.000000
+         -345,SOLAR_PANEL.103,        SPACE.1,   0.0003951367  $    1.000000
+         -346,SOLAR_PANEL.104,        SPACE.1,   0.0003951367  $    1.000000
+         -347,SOLAR_PANEL.105,        SPACE.1,   0.0003951367  $    1.000000
+         -348,SOLAR_PANEL.106,        SPACE.1,   0.0003951367  $    1.000000
+         -349,SOLAR_PANEL.107,        SPACE.1,   0.0003951367  $    1.000000
+         -350,SOLAR_PANEL.108,        SPACE.1,   0.0003951367  $    1.000000
+         -351,SOLAR_PANEL.109,        SPACE.1,   0.0003951367  $    1.000000
+         -352,SOLAR_PANEL.110,        SPACE.1,   0.0003951367  $    1.000000
+         -353,SOLAR_PANEL.111,        SPACE.1,   0.0003951367  $    1.000000
+         -354,SOLAR_PANEL.112,        SPACE.1,   0.0003951367  $    1.000000
+         -355,SOLAR_PANEL.113,        SPACE.1,   0.0003951367  $    1.000000
+         -356,SOLAR_PANEL.114,        SPACE.1,   0.0001975683  $    1.000000
+         -357,SOLAR_PANEL.115,        SPACE.1,   0.0001975683  $    1.000000
+         -358,SOLAR_PANEL.116,        SPACE.1,   0.0001975683  $    1.000000
+         -359,SOLAR_PANEL.117,        SPACE.1,   0.0001975683  $    1.000000
+         -360,SOLAR_PANEL.118,        SPACE.1,   0.0001975683  $    1.000000
+         -361,SOLAR_PANEL.119,        SPACE.1,   0.0001975683  $    1.000000
+         -362,SOLAR_PANEL.120,        SPACE.1,   0.0001975683  $    1.000000
+         -363,SOLAR_PANEL.121,        SPACE.1,   0.0001975683  $    1.000000
+         -364,SOLAR_PANEL.122,        SPACE.1,   0.0001975683  $    1.000000
+         -365,SOLAR_PANEL.123,        SPACE.1,   0.0001975683  $    1.000000
+         -366,SOLAR_PANEL.124,        SPACE.1,   0.0001975683  $    1.000000
+         -367,SOLAR_PANEL.125,        SPACE.1,   0.0001975683  $    1.000000
+         -368,SOLAR_PANEL.126,        SPACE.1,   0.0001975683  $    1.000000
+         -369,SOLAR_PANEL.127,        SPACE.1,   0.0001975683  $    1.000000
+         -370,SOLAR_PANEL.128,        SPACE.1,   0.0001975683  $    1.000000
+         -371,      BATTERY.1,      BATTERY.2,  2.517140e-06   $    0.004350,  0.002175
+         -372,      BATTERY.1,      BATTERY.3,  6.862656e-07   $    0.001186,  0.001186
+         -373,      BATTERY.1,      BATTERY.4,  2.118547e-06   $    0.003661,  0.001831
+         -374,      BATTERY.1,      BATTERY.5,  3.668168e-06   $    0.006339,  0.001585
+         -375,      BATTERY.1,      BATTERY.6,  1.247733e-06   $    0.002156,  0.001078
+         -376,      BATTERY.1,      BATTERY.7,  6.934215e-07   $    0.001198,  0.001198
+         -377,      BATTERY.1,      BATTERY.8,  1.291844e-06   $    0.002232,  0.001116
+         -378,      BATTERY.1,     BATTERY.10,  4.621569e-06   $    0.007987,  0.007987
+         -379,      BATTERY.1,     BATTERY.11,  9.291707e-06   $    0.016057,  0.008029
+         -380,      BATTERY.1,     BATTERY.12,  2.428237e-06   $    0.004196,  0.004196
+         -381,      BATTERY.1,     BATTERY.13,  9.740339e-06   $    0.016832,  0.008416
+         -382,      BATTERY.1,     BATTERY.14,  1.312812e-05   $    0.022687,  0.005672
+         -383,      BATTERY.1,     BATTERY.15,  2.888310e-06   $    0.004991,  0.002496
+         -384,      BATTERY.1,     BATTERY.16,  1.958008e-06   $    0.003384,  0.003384
+         -385,      BATTERY.1,     BATTERY.17,  3.815490e-06   $    0.006594,  0.003297
+         -386,      BATTERY.1,     BATTERY.18,  9.077236e-07   $    0.001569,  0.001569
+         -387,      BATTERY.1,         MAIN.4,  5.320745e-06   $    0.009195,  0.021180
+         -388,      BATTERY.1,         MAIN.5,  4.919047e-07   $    0.000850,  0.001958
+         -389,      BATTERY.1,         MAIN.8,  2.036293e-06   $    0.003519,  0.008106
+         -390,      BATTERY.1,        MAIN.26,  5.176394e-06   $    0.008945,  0.011647
+         -391,      BATTERY.1,        MAIN.37,  8.503679e-07   $    0.001470,  0.003385
+         -392,      BATTERY.1,        MAIN.38,  3.549596e-07   $    0.000613,  0.001413
+         -393,      BATTERY.1,        MAIN.43,  8.777740e-06   $    0.015169,  0.004937
+         -394,      BATTERY.1,        MAIN.54,  6.458141e-06   $    0.011160,  0.003633
+         -395,      BATTERY.1,        MAIN.67,  1.625877e-06   $    0.002810,  0.001829
+         -396,      BATTERY.1,        MAIN.78,  1.431738e-06   $    0.002474,  0.003221
+         -397,      BATTERY.1,        MAIN.91,  2.115127e-06   $    0.003655,  0.002380
+         -398,      BATTERY.1,       MAIN.106,  1.817694e-06   $    0.003141,  0.002045
+         -399,      BATTERY.1,       MAIN.118,  9.497460e-07   $    0.001641,  0.002137
+         -400,      BATTERY.1,       MAIN.133,  1.158070e-05   $    0.020013,  0.013028
+         -401,      BATTERY.1,       MAIN.144,  1.956550e-06   $    0.003381,  0.003894
+         -402,      BATTERY.1,       MAIN.145,  2.137910e-06   $    0.003695,  0.004255
+         -403,      BATTERY.1,       MAIN.148,  5.035333e-06   $    0.008702,  0.005665
+         -404,      BATTERY.1,       MAIN.159,  9.431288e-07   $    0.001630,  0.001877
+         -405,      BATTERY.1,       MAIN.160,  9.506874e-06   $    0.016429,  0.018922
+         -406,      BATTERY.1,       MAIN.162,  1.268173e-06   $    0.002192,  0.002853
+         -407,      BATTERY.1,       MAIN.173,  3.294768e-07   $    0.000569,  0.001312
+         -408,      BATTERY.1,       MAIN.175,  1.130757e-05   $    0.019541,  0.012721
+         -409,      BATTERY.1,       MAIN.186,  9.510850e-07   $    0.001644,  0.003786
+         -410,      BATTERY.1,       MAIN.188,  2.198043e-05   $    0.037985,  0.012364
+         -411,      BATTERY.1,       MAIN.199,  1.366972e-06   $    0.002362,  0.002721
+         -412,      BATTERY.1,       MAIN.200,  9.118604e-07   $    0.001576,  0.001815
+         -413,      BATTERY.1,       MAIN.203,  1.210032e-05   $    0.020911,  0.006806
+         -414,      BATTERY.1,       MAIN.214,  1.416946e-06   $    0.002449,  0.002820
+         -415,      BATTERY.1,       MAIN.215,  4.419250e-06   $    0.007637,  0.008796
+         -416,      BATTERY.1,       MAIN.217,  3.004462e-06   $    0.005192,  0.003380
+         -417,      BATTERY.1,       MAIN.228,  4.906645e-07   $    0.000848,  0.001953
+         -418,      BATTERY.1,       MAIN.230,  3.752007e-06   $    0.006484,  0.004221
+         -419,      BATTERY.1, OUTER_BOARD.22,  1.601347e-06   $    0.002767,  0.004341
+         -420,      BATTERY.1, OUTER_BOARD.29,  1.184414e-06   $    0.002047,  0.000803
+         -421,      BATTERY.1, OUTER_BOARD.36,  1.247074e-06   $    0.002155,  0.000845
+         -422,      BATTERY.1, OUTER_BOARD.43,  8.526707e-07   $    0.001474,  0.001156
+         -423,      BATTERY.1, OUTER_BOARD.78,  1.397966e-06   $    0.002416,  0.001895
+         -424,      BATTERY.1, OUTER_BOARD.85,  1.392199e-06   $    0.002406,  0.001887
+         -425,      BATTERY.1, OUTER_BOARD.92,  4.948436e-07   $    0.000855,  0.001341
+         -426,      BATTERY.1, OUTER_BOARD.99,  1.976535e-06   $    0.003416,  0.002679
+         -427,      BATTERY.1,OUTER_BOARD.106,  3.051213e-06   $    0.005273,  0.002068
+         -428,      BATTERY.1,OUTER_BOARD.113,  3.471893e-06   $    0.006000,  0.002353
+         -429,      BATTERY.1,OUTER_BOARD.120,  7.677445e-07   $    0.001327,  0.001041
+         -430,      BATTERY.1,OUTER_BOARD.127,  6.040582e-07   $    0.001044,  0.000819
+         -431,      BATTERY.2,      BATTERY.3,  2.367851e-06   $    0.002046,  0.004092
+         -432,      BATTERY.2,      BATTERY.4,  4.440866e-06   $    0.003837,  0.003837
+         -433,      BATTERY.2,      BATTERY.5,  7.869867e-06   $    0.006800,  0.003400
+         -434,      BATTERY.2,      BATTERY.6,  3.762477e-06   $    0.003251,  0.003251
+         -435,      BATTERY.2,      BATTERY.7,  1.352687e-06   $    0.001169,  0.002338
+         -436,      BATTERY.2,      BATTERY.8,  2.913002e-06   $    0.002517,  0.002517
+         -437,      BATTERY.2,      BATTERY.9,  1.161205e-06   $    0.001003,  0.002007
+         -438,      BATTERY.2,     BATTERY.10,  8.391011e-06   $    0.007250,  0.014501
+         -439,      BATTERY.2,     BATTERY.11,  1.950465e-05   $    0.016853,  0.016853
+         -440,      BATTERY.2,     BATTERY.12,  8.974411e-06   $    0.007754,  0.015509
+         -441,      BATTERY.2,     BATTERY.13,  1.225537e-05   $    0.010589,  0.010589
+         -442,      BATTERY.2,     BATTERY.14,  2.807016e-05   $    0.024254,  0.012127
+         -443,      BATTERY.2,     BATTERY.15,  1.186669e-05   $    0.010254,  0.010254
+         -444,      BATTERY.2,     BATTERY.16,  4.017474e-06   $    0.003471,  0.006943
+         -445,      BATTERY.2,     BATTERY.17,  6.506271e-06   $    0.005622,  0.005622
+         -446,      BATTERY.2,     BATTERY.18,  3.333535e-06   $    0.002880,  0.005761
+         -447,      BATTERY.2,         MAIN.4,  2.589396e-06   $    0.002237,  0.010308
+         -448,      BATTERY.2,         MAIN.5,  2.178002e-06   $    0.001882,  0.008670
+         -449,      BATTERY.2,         MAIN.8,  2.282040e-06   $    0.001972,  0.009084
+         -450,      BATTERY.2,        MAIN.26,  5.250578e-06   $    0.004537,  0.011814
+         -451,      BATTERY.2,        MAIN.37,  1.070170e-06   $    0.000925,  0.004260
+         -452,      BATTERY.2,        MAIN.38,  2.600270e-06   $    0.002247,  0.010351
+         -453,      BATTERY.2,        MAIN.43,  1.519289e-05   $    0.013128,  0.008546
+         -454,      BATTERY.2,        MAIN.54,  1.642506e-05   $    0.014192,  0.009239
+         -455,      BATTERY.2,        MAIN.67,  6.894559e-06   $    0.005957,  0.007756
+         -456,      BATTERY.2,        MAIN.78,  1.488923e-06   $    0.001287,  0.003350
+         -457,      BATTERY.2,        MAIN.91,  4.660095e-06   $    0.004027,  0.005243
+         -458,      BATTERY.2,       MAIN.106,  5.109837e-06   $    0.004415,  0.005749
+         -459,      BATTERY.2,       MAIN.118,  2.099674e-06   $    0.001814,  0.004724
+         -460,      BATTERY.2,       MAIN.133,  2.468877e-05   $    0.021333,  0.027775
+         -461,      BATTERY.2,       MAIN.144,  2.725073e-06   $    0.002355,  0.005424
+         -462,      BATTERY.2,       MAIN.145,  1.813916e-05   $    0.015673,  0.036103
+         -463,      BATTERY.2,       MAIN.148,  1.983568e-05   $    0.017139,  0.022315
+         -464,      BATTERY.2,       MAIN.159,  2.588009e-06   $    0.002236,  0.005151
+         -465,      BATTERY.2,       MAIN.160,  1.803489e-05   $    0.015583,  0.035896
+         -466,      BATTERY.2,       MAIN.162,  6.141198e-06   $    0.005306,  0.013818
+         -467,      BATTERY.2,       MAIN.173,  9.522917e-07   $    0.000823,  0.003791
+         -468,      BATTERY.2,       MAIN.175,  1.142555e-05   $    0.009872,  0.012854
+         -469,      BATTERY.2,       MAIN.186,  8.188043e-07   $    0.000707,  0.003259
+         -470,      BATTERY.2,       MAIN.188,  3.706589e-05   $    0.032027,  0.020850
+         -471,      BATTERY.2,       MAIN.199,  2.819516e-06   $    0.002436,  0.005612
+         -472,      BATTERY.2,       MAIN.200,  6.696118e-06   $    0.005786,  0.013328
+         -473,      BATTERY.2,       MAIN.203,  4.116186e-05   $    0.035566,  0.023154
+         -474,      BATTERY.2,       MAIN.214,  3.060029e-06   $    0.002644,  0.006090
+         -475,      BATTERY.2,       MAIN.215,  1.003732e-05   $    0.008673,  0.019978
+         -476,      BATTERY.2,       MAIN.217,  1.199493e-05   $    0.010364,  0.013494
+         -477,      BATTERY.2,       MAIN.228,  1.139702e-06   $    0.000985,  0.004537
+         -478,      BATTERY.2,       MAIN.230,  6.462804e-06   $    0.005584,  0.007271
+         -479,      BATTERY.2, OUTER_BOARD.22,  3.434704e-06   $    0.002968,  0.009311
+         -480,      BATTERY.2, OUTER_BOARD.29,  4.570686e-06   $    0.003949,  0.003098
+         -481,      BATTERY.2, OUTER_BOARD.36,  3.552683e-06   $    0.003070,  0.002408
+         -482,      BATTERY.2, OUTER_BOARD.64,  9.530862e-07   $    0.000824,  0.001292
+         -483,      BATTERY.2, OUTER_BOARD.78,  6.421853e-06   $    0.005549,  0.008704
+         -484,      BATTERY.2, OUTER_BOARD.85,  5.133985e-06   $    0.004436,  0.006959
+         -485,      BATTERY.2, OUTER_BOARD.92,  1.180202e-06   $    0.001020,  0.003199
+         -486,      BATTERY.2, OUTER_BOARD.99,  5.553368e-06   $    0.004798,  0.007527
+         -487,      BATTERY.2,OUTER_BOARD.106,  7.306435e-06   $    0.006313,  0.004952
+         -488,      BATTERY.2,OUTER_BOARD.113,  5.170826e-06   $    0.004468,  0.003504
+         -489,      BATTERY.2,OUTER_BOARD.120,  2.814415e-06   $    0.002432,  0.003815
+         -490,      BATTERY.2,OUTER_BOARD.127,  2.425350e-06   $    0.002096,  0.003287
+         -491,      BATTERY.3,      BATTERY.4,  1.500348e-06   $    0.002593,  0.001296
+         -492,      BATTERY.3,      BATTERY.5,  4.048096e-06   $    0.006996,  0.001749
+         -493,      BATTERY.3,      BATTERY.6,  2.815088e-06   $    0.004865,  0.002432
+         -494,      BATTERY.3,      BATTERY.8,  1.143894e-06   $    0.001977,  0.000988
+         -495,      BATTERY.3,      BATTERY.9,  7.184137e-07   $    0.001242,  0.001242
+         -496,      BATTERY.3,     BATTERY.10,  2.203237e-06   $    0.003807,  0.003807
+         -497,      BATTERY.3,     BATTERY.11,  9.721838e-06   $    0.016800,  0.008400
+         -498,      BATTERY.3,     BATTERY.12,  6.786036e-06   $    0.011727,  0.011727
+         -499,      BATTERY.3,     BATTERY.13,  4.272775e-06   $    0.007384,  0.003692
+         -500,      BATTERY.3,     BATTERY.14,  1.257970e-05   $    0.021739,  0.005435
+         -501,      BATTERY.3,     BATTERY.15,  5.941827e-06   $    0.010268,  0.005134
+         -502,      BATTERY.3,     BATTERY.16,  1.305717e-06   $    0.002256,  0.002256
+         -503,      BATTERY.3,     BATTERY.17,  3.125281e-06   $    0.005401,  0.002700
+         -504,      BATTERY.3,     BATTERY.18,  1.625406e-06   $    0.002809,  0.002809
+         -505,      BATTERY.3,         MAIN.4,  4.009422e-07   $    0.000693,  0.001596
+         -506,      BATTERY.3,         MAIN.5,  2.431021e-06   $    0.004201,  0.009677
+         -507,      BATTERY.3,         MAIN.8,  3.193354e-07   $    0.000552,  0.001271
+         -508,      BATTERY.3,        MAIN.26,  1.050909e-06   $    0.001816,  0.002365
+         -509,      BATTERY.3,        MAIN.37,  3.460542e-07   $    0.000598,  0.001378
+         -510,      BATTERY.3,        MAIN.38,  5.353481e-06   $    0.009251,  0.021310
+         -511,      BATTERY.3,        MAIN.43,  5.974665e-06   $    0.010325,  0.003361
+         -512,      BATTERY.3,        MAIN.54,  9.502835e-06   $    0.016422,  0.005345
+         -513,      BATTERY.3,        MAIN.67,  5.174888e-06   $    0.008943,  0.005822
+         -514,      BATTERY.3,        MAIN.91,  1.841499e-06   $    0.003182,  0.002072
+         -515,      BATTERY.3,       MAIN.106,  1.684198e-06   $    0.002910,  0.001895
+         -516,      BATTERY.3,       MAIN.118,  5.370571e-07   $    0.000928,  0.001208
+         -517,      BATTERY.3,       MAIN.133,  5.736788e-06   $    0.009914,  0.006454
+         -518,      BATTERY.3,       MAIN.144,  7.945562e-07   $    0.001373,  0.001581
+         -519,      BATTERY.3,       MAIN.145,  9.671764e-06   $    0.016714,  0.019250
+         -520,      BATTERY.3,       MAIN.148,  1.319328e-05   $    0.022800,  0.014842
+         -521,      BATTERY.3,       MAIN.159,  8.850674e-07   $    0.001530,  0.001762
+         -522,      BATTERY.3,       MAIN.160,  2.431948e-06   $    0.004203,  0.004840
+         -523,      BATTERY.3,       MAIN.162,  5.211069e-06   $    0.009005,  0.011725
+         -524,      BATTERY.3,       MAIN.173,  8.116004e-07   $    0.001403,  0.003231
+         -525,      BATTERY.3,       MAIN.175,  2.728196e-06   $    0.004715,  0.003069
+         -526,      BATTERY.3,       MAIN.188,  1.140051e-05   $    0.019701,  0.006413
+         -527,      BATTERY.3,       MAIN.199,  6.140496e-07   $    0.001061,  0.001222
+         -528,      BATTERY.3,       MAIN.200,  5.130047e-06   $    0.008865,  0.010211
+         -529,      BATTERY.3,       MAIN.203,  2.069094e-05   $    0.035756,  0.011639
+         -530,      BATTERY.3,       MAIN.214,  1.412004e-06   $    0.002440,  0.002810
+         -531,      BATTERY.3,       MAIN.215,  2.188607e-06   $    0.003782,  0.004356
+         -532,      BATTERY.3,       MAIN.217,  1.110671e-05   $    0.019194,  0.012495
+         -533,      BATTERY.3,       MAIN.228,  6.477335e-07   $    0.001119,  0.002578
+         -534,      BATTERY.3,       MAIN.230,  1.739247e-06   $    0.003006,  0.001957
+         -535,      BATTERY.3, OUTER_BOARD.22,  2.362046e-06   $    0.004082,  0.006403
+         -536,      BATTERY.3, OUTER_BOARD.29,  2.208741e-06   $    0.003817,  0.001497
+         -537,      BATTERY.3, OUTER_BOARD.36,  1.320306e-06   $    0.002282,  0.000895
+         -538,      BATTERY.3, OUTER_BOARD.64,  6.071281e-07   $    0.001049,  0.000823
+         -539,      BATTERY.3, OUTER_BOARD.78,  4.299132e-06   $    0.007429,  0.005827
+         -540,      BATTERY.3, OUTER_BOARD.85,  2.884774e-06   $    0.004985,  0.003910
+         -541,      BATTERY.3, OUTER_BOARD.92,  9.147240e-07   $    0.001581,  0.002480
+         -542,      BATTERY.3, OUTER_BOARD.99,  2.442787e-06   $    0.004221,  0.003311
+         -543,      BATTERY.3,OUTER_BOARD.106,  4.234508e-06   $    0.007318,  0.002870
+         -544,      BATTERY.3,OUTER_BOARD.113,  3.058984e-06   $    0.005286,  0.002073
+         -545,      BATTERY.3,OUTER_BOARD.120,  6.797010e-07   $    0.001175,  0.000921
+         -546,      BATTERY.3,OUTER_BOARD.127,  1.064175e-06   $    0.001839,  0.001442
+         -547,      BATTERY.4,      BATTERY.5,  8.111031e-06   $    0.007008,  0.003504
+         -548,      BATTERY.4,      BATTERY.6,  3.650637e-06   $    0.003154,  0.003154
+         -549,      BATTERY.4,      BATTERY.7,  1.958259e-06   $    0.001692,  0.003384
+         -550,      BATTERY.4,      BATTERY.8,  3.949378e-06   $    0.003412,  0.003412
+         -551,      BATTERY.4,      BATTERY.9,  1.516745e-06   $    0.001311,  0.002621
+         -552,      BATTERY.4,     BATTERY.10,  9.010546e-06   $    0.007786,  0.015571
+         -553,      BATTERY.4,     BATTERY.11,  1.354457e-05   $    0.011703,  0.011703
+         -554,      BATTERY.4,     BATTERY.12,  4.309872e-06   $    0.003724,  0.007448
+         -555,      BATTERY.4,     BATTERY.13,  1.903494e-05   $    0.016447,  0.016447
+         -556,      BATTERY.4,     BATTERY.14,  3.362347e-05   $    0.029053,  0.014526
+         -557,      BATTERY.4,     BATTERY.15,  1.210710e-05   $    0.010461,  0.010461
+         -558,      BATTERY.4,     BATTERY.16,  8.826548e-06   $    0.007627,  0.015253
+         -559,      BATTERY.4,     BATTERY.17,  1.367141e-05   $    0.011813,  0.011813
+         -560,      BATTERY.4,     BATTERY.18,  4.759990e-06   $    0.004113,  0.008226
+         -561,      BATTERY.4,         MAIN.4,  4.867054e-06   $    0.004205,  0.019374
+         -562,      BATTERY.4,         MAIN.5,  1.164840e-06   $    0.001006,  0.004637
+         -563,      BATTERY.4,         MAIN.8,  4.204515e-06   $    0.003633,  0.016737
+         -564,      BATTERY.4,        MAIN.26,  6.258812e-06   $    0.005408,  0.014082
+         -565,      BATTERY.4,        MAIN.37,  4.750489e-06   $    0.004105,  0.018910
+         -566,      BATTERY.4,        MAIN.38,  7.741687e-07   $    0.000669,  0.003082
+         -567,      BATTERY.4,        MAIN.43,  3.710277e-05   $    0.032059,  0.020870
+         -568,      BATTERY.4,        MAIN.54,  1.717613e-05   $    0.014841,  0.009662
+         -569,      BATTERY.4,        MAIN.67,  5.012170e-06   $    0.004331,  0.005639
+         -570,      BATTERY.4,        MAIN.78,  5.804657e-06   $    0.005016,  0.013060
+         -571,      BATTERY.4,        MAIN.91,  1.163037e-05   $    0.010049,  0.013084
+         -572,      BATTERY.4,       MAIN.106,  5.710021e-06   $    0.004934,  0.006424
+         -573,      BATTERY.4,       MAIN.118,  1.348358e-06   $    0.001165,  0.003034
+         -574,      BATTERY.4,       MAIN.133,  1.011004e-05   $    0.008736,  0.011374
+         -575,      BATTERY.4,       MAIN.144,  8.560499e-06   $    0.007397,  0.017038
+         -576,      BATTERY.4,       MAIN.145,  2.949613e-06   $    0.002549,  0.005871
+         -577,      BATTERY.4,       MAIN.148,  6.992535e-06   $    0.006042,  0.007867
+         -578,      BATTERY.4,       MAIN.159,  4.208654e-06   $    0.003637,  0.008377
+         -579,      BATTERY.4,       MAIN.160,  8.215900e-06   $    0.007099,  0.016352
+         -580,      BATTERY.4,       MAIN.162,  1.768049e-06   $    0.001528,  0.003978
+         -581,      BATTERY.4,       MAIN.173,  5.582029e-07   $    0.000482,  0.002222
+         -582,      BATTERY.4,       MAIN.175,  2.427004e-05   $    0.020971,  0.027304
+         -583,      BATTERY.4,       MAIN.186,  3.467786e-06   $    0.002996,  0.013804
+         -584,      BATTERY.4,       MAIN.188,  4.498529e-05   $    0.038870,  0.025304
+         -585,      BATTERY.4,       MAIN.199,  7.231522e-06   $    0.006248,  0.014393
+         -586,      BATTERY.4,       MAIN.200,  4.179421e-06   $    0.003611,  0.008318
+         -587,      BATTERY.4,       MAIN.203,  2.052743e-05   $    0.017737,  0.011547
+         -588,      BATTERY.4,       MAIN.214,  3.584202e-06   $    0.003097,  0.007134
+         -589,      BATTERY.4,       MAIN.215,  6.441040e-06   $    0.005565,  0.012820
+         -590,      BATTERY.4,       MAIN.217,  3.547416e-06   $    0.003065,  0.003991
+         -591,      BATTERY.4,       MAIN.228,  1.339802e-06   $    0.001158,  0.005333
+         -592,      BATTERY.4,       MAIN.230,  2.088897e-05   $    0.018049,  0.023500
+         -593,      BATTERY.4, OUTER_BOARD.22,  1.789507e-06   $    0.001546,  0.004851
+         -594,      BATTERY.4, OUTER_BOARD.29,  1.963508e-06   $    0.001697,  0.001331
+         -595,      BATTERY.4, OUTER_BOARD.36,  3.370804e-06   $    0.002913,  0.002284
+         -596,      BATTERY.4, OUTER_BOARD.77,  4.260979e-07   $    0.000368,  0.001155
+         -597,      BATTERY.4, OUTER_BOARD.78,  4.021853e-06   $    0.003475,  0.005451
+         -598,      BATTERY.4, OUTER_BOARD.85,  3.761843e-06   $    0.003250,  0.005099
+         -599,      BATTERY.4, OUTER_BOARD.92,  1.950648e-06   $    0.001685,  0.005288
+         -600,      BATTERY.4, OUTER_BOARD.99,  4.232149e-06   $    0.003657,  0.005736
+         -601,      BATTERY.4,OUTER_BOARD.106,  5.572816e-06   $    0.004815,  0.003777
+         -602,      BATTERY.4,OUTER_BOARD.113,  6.664306e-06   $    0.005758,  0.004516
+         -603,      BATTERY.4,OUTER_BOARD.120,  3.003808e-06   $    0.002595,  0.004071
+         -604,      BATTERY.4,OUTER_BOARD.127,  7.745920e-07   $    0.000669,  0.001050
+         -605,      BATTERY.5,      BATTERY.6,  9.558371e-06   $    0.004129,  0.008259
+         -606,      BATTERY.5,      BATTERY.7,  3.729981e-06   $    0.001611,  0.006446
+         -607,      BATTERY.5,      BATTERY.8,  8.864088e-06   $    0.003830,  0.007659
+         -608,      BATTERY.5,      BATTERY.9,  4.026072e-06   $    0.001739,  0.006958
+         -609,      BATTERY.5,     BATTERY.10,  1.315802e-05   $    0.005685,  0.022739
+         -610,      BATTERY.5,     BATTERY.11,  2.931052e-05   $    0.012663,  0.025326
+         -611,      BATTERY.5,     BATTERY.12,  1.308238e-05   $    0.005652,  0.022608
+         -612,      BATTERY.5,     BATTERY.13,  2.943307e-05   $    0.012716,  0.025432
+         -613,      BATTERY.5,     BATTERY.14,  7.759242e-05   $    0.033522,  0.033522
+         -614,      BATTERY.5,     BATTERY.15,  3.134592e-05   $    0.013542,  0.027085
+         -615,      BATTERY.5,     BATTERY.16,  1.326165e-05   $    0.005729,  0.022918
+         -616,      BATTERY.5,     BATTERY.17,  2.808171e-05   $    0.012132,  0.024264
+         -617,      BATTERY.5,     BATTERY.18,  1.341412e-05   $    0.005795,  0.023181
+         -618,      BATTERY.5,         MAIN.4,  4.032427e-06   $    0.001742,  0.016052
+         -619,      BATTERY.5,         MAIN.5,  4.027053e-06   $    0.001740,  0.016030
+         -620,      BATTERY.5,         MAIN.8,  4.494329e-06   $    0.001942,  0.017890
+         -621,      BATTERY.5,        MAIN.26,  8.113870e-06   $    0.003505,  0.018256
+         -622,      BATTERY.5,        MAIN.37,  3.883195e-06   $    0.001678,  0.015458
+         -623,      BATTERY.5,        MAIN.38,  5.022147e-06   $    0.002170,  0.019992
+         -624,      BATTERY.5,        MAIN.43,  7.103608e-05   $    0.030690,  0.039958
+         -625,      BATTERY.5,        MAIN.54,  7.501420e-05   $    0.032408,  0.042195
+         -626,      BATTERY.5,        MAIN.67,  2.168162e-05   $    0.009367,  0.024392
+         -627,      BATTERY.5,        MAIN.78,  6.711401e-06   $    0.002900,  0.015101
+         -628,      BATTERY.5,        MAIN.91,  2.044137e-05   $    0.008831,  0.022997
+         -629,      BATTERY.5,       MAIN.106,  1.967919e-05   $    0.008502,  0.022139
+         -630,      BATTERY.5,       MAIN.118,  7.634993e-06   $    0.003299,  0.017179
+         -631,      BATTERY.5,       MAIN.133,  2.179753e-05   $    0.009417,  0.024522
+         -632,      BATTERY.5,       MAIN.144,  1.443447e-05   $    0.006236,  0.028730
+         -633,      BATTERY.5,       MAIN.145,  1.492654e-05   $    0.006449,  0.029709
+         -634,      BATTERY.5,       MAIN.148,  2.065454e-05   $    0.008923,  0.023236
+         -635,      BATTERY.5,       MAIN.159,  1.388003e-05   $    0.005997,  0.027626
+         -636,      BATTERY.5,       MAIN.160,  1.643959e-05   $    0.007102,  0.032720
+         -637,      BATTERY.5,       MAIN.162,  6.717531e-06   $    0.002902,  0.015114
+         -638,      BATTERY.5,       MAIN.173,  5.086765e-06   $    0.002198,  0.020249
+         -639,      BATTERY.5,       MAIN.175,  2.163262e-05   $    0.009346,  0.024337
+         -640,      BATTERY.5,       MAIN.186,  4.004818e-06   $    0.001730,  0.015942
+         -641,      BATTERY.5,       MAIN.188,  6.901789e-05   $    0.029818,  0.038823
+         -642,      BATTERY.5,       MAIN.199,  1.461910e-05   $    0.006316,  0.029097
+         -643,      BATTERY.5,       MAIN.200,  1.359716e-05   $    0.005874,  0.027063
+         -644,      BATTERY.5,       MAIN.203,  6.821790e-05   $    0.029472,  0.038373
+         -645,      BATTERY.5,       MAIN.214,  1.451541e-05   $    0.006271,  0.028891
+         -646,      BATTERY.5,       MAIN.215,  1.533112e-05   $    0.006623,  0.030514
+         -647,      BATTERY.5,       MAIN.217,  2.000198e-05   $    0.008641,  0.022502
+         -648,      BATTERY.5,       MAIN.228,  5.256634e-06   $    0.002271,  0.020925
+         -649,      BATTERY.5,       MAIN.230,  2.537327e-05   $    0.010962,  0.028545
+         -650,      BATTERY.5, OUTER_BOARD.22,  5.233460e-06   $    0.002261,  0.014187
+         -651,      BATTERY.5, OUTER_BOARD.29,  4.754560e-06   $    0.002054,  0.003222
+         -652,      BATTERY.5, OUTER_BOARD.36,  4.816324e-06   $    0.002081,  0.003264
+         -653,      BATTERY.5, OUTER_BOARD.43,  4.437188e-06   $    0.001917,  0.006014
+         -654,      BATTERY.5, OUTER_BOARD.50,  3.744124e-07   $    0.000162,  0.001015
+         -655,      BATTERY.5, OUTER_BOARD.57,  3.086897e-06   $    0.001334,  0.004184
+         -656,      BATTERY.5, OUTER_BOARD.64,  1.223457e-06   $    0.000529,  0.001658
+         -657,      BATTERY.5, OUTER_BOARD.78,  1.421903e-05   $    0.006143,  0.019273
+         -658,      BATTERY.5, OUTER_BOARD.85,  1.292303e-05   $    0.005583,  0.017516
+         -659,      BATTERY.5, OUTER_BOARD.92,  5.392737e-06   $    0.002330,  0.014619
+         -660,      BATTERY.5, OUTER_BOARD.99,  7.521480e-06   $    0.003250,  0.010195
+         -661,      BATTERY.5,OUTER_BOARD.106,  1.488597e-05   $    0.006431,  0.010088
+         -662,      BATTERY.5,OUTER_BOARD.113,  1.300688e-05   $    0.005619,  0.008815
+         -663,      BATTERY.5,OUTER_BOARD.120,  6.954044e-06   $    0.003004,  0.009426
+         -664,      BATTERY.5,OUTER_BOARD.127,  2.168247e-06   $    0.000937,  0.002939
+         -665,      BATTERY.6,      BATTERY.7,  1.638129e-06   $    0.001415,  0.002831
+         -666,      BATTERY.6,      BATTERY.8,  3.500606e-06   $    0.003025,  0.003025
+         -667,      BATTERY.6,      BATTERY.9,  2.344171e-06   $    0.002026,  0.004051
+         -668,      BATTERY.6,     BATTERY.10,  3.056148e-06   $    0.002641,  0.005281
+         -669,      BATTERY.6,     BATTERY.11,  1.099831e-05   $    0.009503,  0.009503
+         -670,      BATTERY.6,     BATTERY.12,  6.852509e-06   $    0.005921,  0.011842
+         -671,      BATTERY.6,     BATTERY.13,  1.262528e-05   $    0.010909,  0.010909
+         -672,      BATTERY.6,     BATTERY.14,  3.206830e-05   $    0.027709,  0.013854
+         -673,      BATTERY.6,     BATTERY.15,  1.777918e-05   $    0.015362,  0.015362
+         -674,      BATTERY.6,     BATTERY.16,  4.157692e-06   $    0.003592,  0.007185
+         -675,      BATTERY.6,     BATTERY.17,  1.166578e-05   $    0.010080,  0.010080
+         -676,      BATTERY.6,     BATTERY.18,  8.626349e-06   $    0.007454,  0.014907
+         -677,      BATTERY.6,         MAIN.4,  9.991685e-07   $    0.000863,  0.003977
+         -678,      BATTERY.6,         MAIN.5,  3.763103e-06   $    0.003252,  0.014980
+         -679,      BATTERY.6,         MAIN.8,  1.078456e-06   $    0.000932,  0.004293
+         -680,      BATTERY.6,        MAIN.26,  1.914698e-06   $    0.001654,  0.004308
+         -681,      BATTERY.6,        MAIN.37,  8.439168e-07   $    0.000729,  0.003359
+         -682,      BATTERY.6,        MAIN.38,  5.483682e-06   $    0.004738,  0.021829
+         -683,      BATTERY.6,        MAIN.43,  1.980012e-05   $    0.017108,  0.011138
+         -684,      BATTERY.6,        MAIN.54,  4.246267e-05   $    0.036690,  0.023885
+         -685,      BATTERY.6,        MAIN.67,  1.709060e-05   $    0.014767,  0.019227
+         -686,      BATTERY.6,        MAIN.78,  1.577479e-06   $    0.001363,  0.003549
+         -687,      BATTERY.6,        MAIN.91,  7.859589e-06   $    0.006791,  0.008842
+         -688,      BATTERY.6,       MAIN.106,  1.026611e-05   $    0.008871,  0.011549
+         -689,      BATTERY.6,       MAIN.118,  6.234256e-06   $    0.005387,  0.014027
+         -690,      BATTERY.6,       MAIN.133,  7.971777e-06   $    0.006888,  0.008968
+         -691,      BATTERY.6,       MAIN.144,  4.076060e-06   $    0.003522,  0.008113
+         -692,      BATTERY.6,       MAIN.145,  8.699424e-06   $    0.007517,  0.017315
+         -693,      BATTERY.6,       MAIN.148,  1.193190e-05   $    0.010310,  0.013423
+         -694,      BATTERY.6,       MAIN.159,  7.937663e-06   $    0.006859,  0.015799
+         -695,      BATTERY.6,       MAIN.160,  3.055210e-06   $    0.002640,  0.006081
+         -696,      BATTERY.6,       MAIN.162,  5.205026e-06   $    0.004497,  0.011711
+         -697,      BATTERY.6,       MAIN.173,  4.143300e-06   $    0.003580,  0.016493
+         -698,      BATTERY.6,       MAIN.175,  5.052229e-06   $    0.004365,  0.005684
+         -699,      BATTERY.6,       MAIN.186,  9.791457e-07   $    0.000846,  0.003898
+         -700,      BATTERY.6,       MAIN.188,  1.835421e-05   $    0.015859,  0.010324
+         -701,      BATTERY.6,       MAIN.199,  4.105605e-06   $    0.003547,  0.008172
+         -702,      BATTERY.6,       MAIN.200,  8.350532e-06   $    0.007215,  0.016620
+         -703,      BATTERY.6,       MAIN.203,  3.775458e-05   $    0.032622,  0.021237
+         -704,      BATTERY.6,       MAIN.214,  6.113445e-06   $    0.005282,  0.012168
+         -705,      BATTERY.6,       MAIN.215,  4.569790e-06   $    0.003949,  0.009095
+         -706,      BATTERY.6,       MAIN.217,  2.282526e-05   $    0.019722,  0.025678
+         -707,      BATTERY.6,       MAIN.228,  3.820707e-06   $    0.003301,  0.015209
+         -708,      BATTERY.6,       MAIN.230,  4.431433e-06   $    0.003829,  0.004985
+         -709,      BATTERY.6, OUTER_BOARD.22,  3.531217e-06   $    0.003051,  0.009573
+         -710,      BATTERY.6, OUTER_BOARD.29,  3.406120e-06   $    0.002943,  0.002308
+         -711,      BATTERY.6, OUTER_BOARD.36,  4.569126e-06   $    0.003948,  0.003097
+         -712,      BATTERY.6, OUTER_BOARD.43,  1.978373e-06   $    0.001709,  0.002682
+         -713,      BATTERY.6, OUTER_BOARD.50,  4.843087e-07   $    0.000418,  0.001313
+         -714,      BATTERY.6, OUTER_BOARD.57,  1.531776e-06   $    0.001324,  0.002076
+         -715,      BATTERY.6, OUTER_BOARD.64,  9.634077e-07   $    0.000832,  0.001306
+         -716,      BATTERY.6, OUTER_BOARD.71,  4.005199e-07   $    0.000346,  0.001086
+         -717,      BATTERY.6, OUTER_BOARD.78,  9.648362e-06   $    0.008337,  0.013078
+         -718,      BATTERY.6, OUTER_BOARD.85,  9.633006e-06   $    0.008323,  0.013057
+         -719,      BATTERY.6, OUTER_BOARD.92,  2.753343e-06   $    0.002379,  0.007464
+         -720,      BATTERY.6, OUTER_BOARD.99,  3.518593e-06   $    0.003040,  0.004769
+         -721,      BATTERY.6,OUTER_BOARD.106,  8.711994e-06   $    0.007528,  0.005904
+         -722,      BATTERY.6,OUTER_BOARD.113,  7.068357e-06   $    0.006107,  0.004790
+         -723,      BATTERY.6,OUTER_BOARD.120,  2.958044e-06   $    0.002556,  0.004009
+         -724,      BATTERY.6,OUTER_BOARD.127,  8.743225e-07   $    0.000755,  0.001185
+         -725,      BATTERY.7,      BATTERY.8,  2.623653e-06   $    0.004534,  0.002267
+         -726,      BATTERY.7,      BATTERY.9,  7.397973e-07   $    0.001278,  0.001278
+         -727,      BATTERY.7,     BATTERY.10,  2.031921e-06   $    0.003511,  0.003511
+         -728,      BATTERY.7,     BATTERY.11,  3.204098e-06   $    0.005537,  0.002769
+         -729,      BATTERY.7,     BATTERY.12,  1.087514e-06   $    0.001879,  0.001879
+         -730,      BATTERY.7,     BATTERY.13,  8.396489e-06   $    0.014510,  0.007255
+         -731,      BATTERY.7,     BATTERY.14,  1.250381e-05   $    0.021608,  0.005402
+         -732,      BATTERY.7,     BATTERY.15,  5.379938e-06   $    0.009297,  0.004649
+         -733,      BATTERY.7,     BATTERY.16,  5.970946e-06   $    0.010319,  0.010319
+         -734,      BATTERY.7,     BATTERY.17,  8.039988e-06   $    0.013894,  0.006947
+         -735,      BATTERY.7,     BATTERY.18,  2.048532e-06   $    0.003540,  0.003540
+         -736,      BATTERY.7,         MAIN.4,  8.051384e-07   $    0.001391,  0.003205
+         -737,      BATTERY.7,         MAIN.8,  8.079793e-07   $    0.001396,  0.003216
+         -738,      BATTERY.7,        MAIN.26,  1.122026e-06   $    0.001939,  0.002525
+         -739,      BATTERY.7,        MAIN.37,  6.026913e-06   $    0.010415,  0.023991
+         -740,      BATTERY.7,        MAIN.43,  2.202114e-05   $    0.038055,  0.012387
+         -741,      BATTERY.7,        MAIN.54,  1.015630e-05   $    0.017551,  0.005713
+         -742,      BATTERY.7,        MAIN.67,  2.098917e-06   $    0.003627,  0.002361
+         -743,      BATTERY.7,        MAIN.78,  5.783524e-06   $    0.009995,  0.013013
+         -744,      BATTERY.7,        MAIN.91,  1.284801e-05   $    0.022203,  0.014454
+         -745,      BATTERY.7,       MAIN.106,  4.702081e-06   $    0.008126,  0.005290
+         -746,      BATTERY.7,       MAIN.118,  9.257176e-07   $    0.001600,  0.002083
+         -747,      BATTERY.7,       MAIN.133,  9.305546e-07   $    0.001608,  0.001047
+         -748,      BATTERY.7,       MAIN.144,  1.037584e-05   $    0.017931,  0.020651
+         -749,      BATTERY.7,       MAIN.145,  6.749320e-07   $    0.001166,  0.001343
+         -750,      BATTERY.7,       MAIN.148,  1.991766e-06   $    0.003442,  0.002241
+         -751,      BATTERY.7,       MAIN.159,  1.259538e-06   $    0.002177,  0.002507
+         -752,      BATTERY.7,       MAIN.160,  1.401644e-06   $    0.002422,  0.002790
+         -753,      BATTERY.7,       MAIN.173,  3.738550e-07   $    0.000646,  0.001488
+         -754,      BATTERY.7,       MAIN.175,  6.156747e-06   $    0.010640,  0.006926
+         -755,      BATTERY.7,       MAIN.186,  2.361463e-06   $    0.004081,  0.009400
+         -756,      BATTERY.7,       MAIN.188,  1.042538e-05   $    0.018016,  0.005864
+         -757,      BATTERY.7,       MAIN.199,  4.517480e-06   $    0.007807,  0.008991
+         -758,      BATTERY.7,       MAIN.200,  1.331911e-06   $    0.002302,  0.002651
+         -759,      BATTERY.7,       MAIN.203,  6.597646e-06   $    0.011402,  0.003711
+         -760,      BATTERY.7,       MAIN.214,  1.847731e-06   $    0.003193,  0.003678
+         -761,      BATTERY.7,       MAIN.215,  1.718221e-06   $    0.002969,  0.003420
+         -762,      BATTERY.7,       MAIN.217,  1.847490e-06   $    0.003193,  0.002078
+         -763,      BATTERY.7,       MAIN.228,  3.836128e-07   $    0.000663,  0.001527
+         -764,      BATTERY.7,       MAIN.230,  1.117816e-05   $    0.019317,  0.012575
+         -765,      BATTERY.7, OUTER_BOARD.22,  5.516202e-07   $    0.000953,  0.001495
+         -766,      BATTERY.7, OUTER_BOARD.36,  1.194048e-06   $    0.002063,  0.000809
+         -767,      BATTERY.7, OUTER_BOARD.43,  6.818548e-07   $    0.001178,  0.000924
+         -768,      BATTERY.7, OUTER_BOARD.78,  1.739566e-06   $    0.003006,  0.002358
+         -769,      BATTERY.7, OUTER_BOARD.85,  1.909977e-06   $    0.003301,  0.002589
+         -770,      BATTERY.7, OUTER_BOARD.92,  1.021600e-06   $    0.001765,  0.002769
+         -771,      BATTERY.7, OUTER_BOARD.99,  9.096917e-07   $    0.001572,  0.001233
+         -772,      BATTERY.7,OUTER_BOARD.106,  2.666478e-06   $    0.004608,  0.001807
+         -773,      BATTERY.7,OUTER_BOARD.113,  3.936683e-06   $    0.006803,  0.002668
+         -774,      BATTERY.7,OUTER_BOARD.120,  1.684401e-06   $    0.002911,  0.002283
+         -775,      BATTERY.8,      BATTERY.9,  2.616433e-06   $    0.002261,  0.004522
+         -776,      BATTERY.8,     BATTERY.10,  4.278375e-06   $    0.003697,  0.007394
+         -777,      BATTERY.8,     BATTERY.11,  7.650954e-06   $    0.006611,  0.006611
+         -778,      BATTERY.8,     BATTERY.12,  3.474635e-06   $    0.003002,  0.006005
+         -779,      BATTERY.8,     BATTERY.13,  1.456736e-05   $    0.012587,  0.012587
+         -780,      BATTERY.8,     BATTERY.14,  2.623674e-05   $    0.022670,  0.011335
+         -781,      BATTERY.8,     BATTERY.15,  1.423177e-05   $    0.012297,  0.012297
+         -782,      BATTERY.8,     BATTERY.16,  7.967215e-06   $    0.006884,  0.013768
+         -783,      BATTERY.8,     BATTERY.17,  1.959301e-05   $    0.016930,  0.016930
+         -784,      BATTERY.8,     BATTERY.18,  7.942789e-06   $    0.006863,  0.013726
+         -785,      BATTERY.8,         MAIN.4,  1.025374e-06   $    0.000886,  0.004082
+         -786,      BATTERY.8,         MAIN.5,  8.209979e-07   $    0.000709,  0.003268
+         -787,      BATTERY.8,         MAIN.8,  1.238514e-06   $    0.001070,  0.004930
+         -788,      BATTERY.8,        MAIN.26,  2.195212e-06   $    0.001897,  0.004939
+         -789,      BATTERY.8,        MAIN.37,  3.638148e-06   $    0.003144,  0.014482
+         -790,      BATTERY.8,        MAIN.38,  1.665371e-06   $    0.001439,  0.006629
+         -791,      BATTERY.8,        MAIN.43,  4.229982e-05   $    0.036550,  0.023794
+         -792,      BATTERY.8,        MAIN.54,  3.459026e-05   $    0.029888,  0.019457
+         -793,      BATTERY.8,        MAIN.67,  9.875621e-06   $    0.008533,  0.011110
+         -794,      BATTERY.8,        MAIN.78,  5.438032e-06   $    0.004699,  0.012236
+         -795,      BATTERY.8,        MAIN.91,  2.225805e-05   $    0.019232,  0.025040
+         -796,      BATTERY.8,       MAIN.106,  2.166264e-05   $    0.018718,  0.024370
+         -797,      BATTERY.8,       MAIN.118,  6.105080e-06   $    0.005275,  0.013736
+         -798,      BATTERY.8,       MAIN.133,  5.537875e-06   $    0.004785,  0.006230
+         -799,      BATTERY.8,       MAIN.144,  2.002808e-05   $    0.017305,  0.039863
+         -800,      BATTERY.8,       MAIN.145,  3.279803e-06   $    0.002834,  0.006528
+         -801,      BATTERY.8,       MAIN.148,  3.125946e-06   $    0.002701,  0.003517
+         -802,      BATTERY.8,       MAIN.159,  1.672831e-05   $    0.014454,  0.033295
+         -803,      BATTERY.8,       MAIN.160,  2.806991e-06   $    0.002425,  0.005587
+         -804,      BATTERY.8,       MAIN.162,  9.067263e-07   $    0.000783,  0.002040
+         -805,      BATTERY.8,       MAIN.173,  3.009796e-06   $    0.002601,  0.011981
+         -806,      BATTERY.8,       MAIN.175,  6.909652e-06   $    0.005970,  0.007773
+         -807,      BATTERY.8,       MAIN.186,  2.007225e-06   $    0.001734,  0.007990
+         -808,      BATTERY.8,       MAIN.188,  1.808164e-05   $    0.015624,  0.010171
+         -809,      BATTERY.8,       MAIN.199,  9.261926e-06   $    0.008003,  0.018434
+         -810,      BATTERY.8,       MAIN.200,  3.100940e-06   $    0.002679,  0.006172
+         -811,      BATTERY.8,       MAIN.203,  1.505991e-05   $    0.013013,  0.008471
+         -812,      BATTERY.8,       MAIN.214,  8.010476e-06   $    0.006922,  0.015944
+         -813,      BATTERY.8,       MAIN.215,  2.342638e-06   $    0.002024,  0.004663
+         -814,      BATTERY.8,       MAIN.217,  5.543321e-06   $    0.004790,  0.006236
+         -815,      BATTERY.8,       MAIN.228,  2.007967e-06   $    0.001735,  0.007993
+         -816,      BATTERY.8,       MAIN.230,  1.067149e-05   $    0.009221,  0.012005
+         -817,      BATTERY.8, OUTER_BOARD.22,  1.017002e-06   $    0.000879,  0.002757
+         -818,      BATTERY.8, OUTER_BOARD.29,  3.404520e-06   $    0.002942,  0.002307
+         -819,      BATTERY.8, OUTER_BOARD.36,  3.744970e-06   $    0.003236,  0.002538
+         -820,      BATTERY.8, OUTER_BOARD.43,  2.162469e-06   $    0.001869,  0.002931
+         -821,      BATTERY.8, OUTER_BOARD.50,  3.802061e-07   $    0.000329,  0.001031
+         -822,      BATTERY.8, OUTER_BOARD.71,  4.119116e-07   $    0.000356,  0.001117
+         -823,      BATTERY.8, OUTER_BOARD.78,  5.652595e-06   $    0.004884,  0.007662
+         -824,      BATTERY.8, OUTER_BOARD.85,  7.553661e-06   $    0.006527,  0.010238
+         -825,      BATTERY.8, OUTER_BOARD.92,  4.393184e-06   $    0.003796,  0.011909
+         -826,      BATTERY.8, OUTER_BOARD.99,  1.940403e-06   $    0.001677,  0.002630
+         -827,      BATTERY.8,OUTER_BOARD.106,  5.345546e-06   $    0.004619,  0.003623
+         -828,      BATTERY.8,OUTER_BOARD.113,  7.136473e-06   $    0.006166,  0.004836
+         -829,      BATTERY.8,OUTER_BOARD.120,  4.413118e-06   $    0.003813,  0.005982
+         -830,      BATTERY.9,     BATTERY.10,  1.160914e-06   $    0.002006,  0.002006
+         -831,      BATTERY.9,     BATTERY.11,  3.218867e-06   $    0.005563,  0.002781
+         -832,      BATTERY.9,     BATTERY.12,  1.904834e-06   $    0.003292,  0.003292
+         -833,      BATTERY.9,     BATTERY.13,  4.197528e-06   $    0.007254,  0.003627
+         -834,      BATTERY.9,     BATTERY.14,  1.321894e-05   $    0.022844,  0.005711
+         -835,      BATTERY.9,     BATTERY.15,  7.394457e-06   $    0.012778,  0.006389
+         -836,      BATTERY.9,     BATTERY.16,  3.478907e-06   $    0.006012,  0.006012
+         -837,      BATTERY.9,     BATTERY.17,  8.388271e-06   $    0.014496,  0.007248
+         -838,      BATTERY.9,     BATTERY.18,  5.183345e-06   $    0.008957,  0.008957
+         -839,      BATTERY.9,         MAIN.4,  3.621852e-07   $    0.000626,  0.001442
+         -840,      BATTERY.9,         MAIN.5,  5.570089e-07   $    0.000963,  0.002217
+         -841,      BATTERY.9,         MAIN.8,  3.851858e-07   $    0.000666,  0.001533
+         -842,      BATTERY.9,        MAIN.26,  5.409181e-07   $    0.000935,  0.001217
+         -843,      BATTERY.9,        MAIN.38,  6.262422e-07   $    0.001082,  0.002493
+         -844,      BATTERY.9,        MAIN.43,  1.261003e-05   $    0.021792,  0.007093
+         -845,      BATTERY.9,        MAIN.54,  2.416726e-05   $    0.041764,  0.013594
+         -846,      BATTERY.9,        MAIN.67,  1.006887e-05   $    0.017400,  0.011327
+         -847,      BATTERY.9,        MAIN.78,  1.799826e-06   $    0.003110,  0.004050
+         -848,      BATTERY.9,        MAIN.91,  4.958080e-06   $    0.008568,  0.005578
+         -849,      BATTERY.9,       MAIN.106,  1.006342e-05   $    0.017391,  0.011321
+         -850,      BATTERY.9,       MAIN.118,  5.770590e-06   $    0.009972,  0.012984
+         -851,      BATTERY.9,       MAIN.133,  1.904901e-06   $    0.003292,  0.002143
+         -852,      BATTERY.9,       MAIN.144,  2.831608e-06   $    0.004893,  0.005636
+         -853,      BATTERY.9,       MAIN.145,  1.141632e-06   $    0.001973,  0.002272
+         -854,      BATTERY.9,       MAIN.148,  2.119835e-06   $    0.003663,  0.002385
+         -855,      BATTERY.9,       MAIN.159,  1.005841e-05   $    0.017382,  0.020020
+         -856,      BATTERY.9,       MAIN.160,  5.175039e-07   $    0.000894,  0.001030
+         -857,      BATTERY.9,       MAIN.162,  1.208969e-06   $    0.002089,  0.002720
+         -858,      BATTERY.9,       MAIN.173,  5.718693e-06   $    0.009883,  0.022764
+         -859,      BATTERY.9,       MAIN.175,  1.200848e-06   $    0.002075,  0.001351
+         -860,      BATTERY.9,       MAIN.186,  2.673375e-07   $    0.000462,  0.001064
+         -861,      BATTERY.9,       MAIN.188,  6.079847e-06   $    0.010507,  0.003420
+         -862,      BATTERY.9,       MAIN.199,  1.778704e-06   $    0.003074,  0.003540
+         -863,      BATTERY.9,       MAIN.200,  1.618528e-06   $    0.002797,  0.003221
+         -864,      BATTERY.9,       MAIN.203,  8.071665e-06   $    0.013949,  0.004540
+         -865,      BATTERY.9,       MAIN.214,  4.666520e-06   $    0.008064,  0.009288
+         -866,      BATTERY.9,       MAIN.215,  1.312201e-06   $    0.002268,  0.002612
+         -867,      BATTERY.9,       MAIN.217,  4.983354e-06   $    0.008612,  0.005606
+         -868,      BATTERY.9,       MAIN.228,  2.634093e-06   $    0.004552,  0.010485
+         -869,      BATTERY.9,       MAIN.230,  3.154268e-06   $    0.005451,  0.003549
+         -870,      BATTERY.9, OUTER_BOARD.22,  5.958802e-07   $    0.001030,  0.001615
+         -871,      BATTERY.9, OUTER_BOARD.29,  1.490591e-06   $    0.002576,  0.001010
+         -872,      BATTERY.9, OUTER_BOARD.36,  1.413960e-06   $    0.002443,  0.000958
+         -873,      BATTERY.9, OUTER_BOARD.43,  1.459114e-06   $    0.002522,  0.001978
+         -874,      BATTERY.9, OUTER_BOARD.71,  7.096818e-07   $    0.001226,  0.001924
+         -875,      BATTERY.9, OUTER_BOARD.78,  2.939123e-06   $    0.005079,  0.003984
+         -876,      BATTERY.9, OUTER_BOARD.85,  3.612992e-06   $    0.006244,  0.004897
+         -877,      BATTERY.9, OUTER_BOARD.92,  3.125014e-06   $    0.005400,  0.008471
+         -878,      BATTERY.9,OUTER_BOARD.106,  2.690508e-06   $    0.004650,  0.001823
+         -879,      BATTERY.9,OUTER_BOARD.113,  4.259704e-06   $    0.007361,  0.002887
+         -880,      BATTERY.9,OUTER_BOARD.120,  2.389699e-06   $    0.004130,  0.003239
+         -881,      BATTERY.9,OUTER_BOARD.127,  7.532201e-07   $    0.001302,  0.001021
+         -882,     BATTERY.10,     BATTERY.11,  2.505907e-06   $    0.004331,  0.002165
+         -883,     BATTERY.10,     BATTERY.12,  5.948690e-07   $    0.001028,  0.001028
+         -884,     BATTERY.10,     BATTERY.13,  2.028559e-06   $    0.003506,  0.001753
+         -885,     BATTERY.10,     BATTERY.14,  3.475632e-06   $    0.006006,  0.001502
+         -886,     BATTERY.10,     BATTERY.15,  1.407440e-06   $    0.002432,  0.001216
+         -887,     BATTERY.10,     BATTERY.17,  1.115070e-06   $    0.001927,  0.000963
+         -888,     BATTERY.10,         MAIN.4,  9.131458e-07   $    0.001578,  0.003635
+         -889,     BATTERY.10,         MAIN.5,  4.407606e-07   $    0.000762,  0.001755
+         -890,     BATTERY.10,         MAIN.8,  1.941091e-06   $    0.003354,  0.007727
+         -891,     BATTERY.10,        MAIN.26,  1.104227e-06   $    0.001908,  0.002485
+         -892,     BATTERY.10,        MAIN.37,  1.052100e-06   $    0.001818,  0.004188
+         -893,     BATTERY.10,        MAIN.78,  4.692798e-07   $    0.000811,  0.001056
+         -894,     BATTERY.10,       MAIN.144,  1.413692e-06   $    0.002443,  0.002814
+         -895,     BATTERY.10,       MAIN.145,  1.586904e-06   $    0.002742,  0.003158
+         -896,     BATTERY.10,       MAIN.159,  6.476904e-07   $    0.001119,  0.001289
+         -897,     BATTERY.10,       MAIN.160,  2.125290e-06   $    0.003673,  0.004230
+         -898,     BATTERY.10,       MAIN.173,  4.916351e-07   $    0.000850,  0.001957
+         -899,     BATTERY.10,       MAIN.175,  2.091102e-06   $    0.003614,  0.002352
+         -900,     BATTERY.10,       MAIN.186,  5.166953e-07   $    0.000893,  0.002057
+         -901,     BATTERY.10,       MAIN.199,  1.658843e-06   $    0.002867,  0.003302
+         -902,     BATTERY.10,       MAIN.200,  1.923137e-06   $    0.003323,  0.003828
+         -903,     BATTERY.10,       MAIN.214,  1.494008e-06   $    0.002582,  0.002974
+         -904,     BATTERY.10,       MAIN.215,  3.397747e-06   $    0.005872,  0.006763
+         -905,     BATTERY.10,       MAIN.228,  4.376468e-07   $    0.000756,  0.001742
+         -906,     BATTERY.10, OUTER_BOARD.22,  1.324499e-06   $    0.002289,  0.003591
+         -907,     BATTERY.10, OUTER_BOARD.29,  2.468654e-06   $    0.004266,  0.001673
+         -908,     BATTERY.10, OUTER_BOARD.36,  3.017048e-06   $    0.005214,  0.002045
+         -909,     BATTERY.10, OUTER_BOARD.43,  1.141337e-06   $    0.001972,  0.001547
+         -910,     BATTERY.10, OUTER_BOARD.50,  9.192155e-07   $    0.001589,  0.002492
+         -911,     BATTERY.10, OUTER_BOARD.57,  2.355705e-06   $    0.004071,  0.003193
+         -912,     BATTERY.10, OUTER_BOARD.64,  1.924235e-06   $    0.003325,  0.002608
+         -913,     BATTERY.10, OUTER_BOARD.71,  5.517259e-07   $    0.000953,  0.001496
+         -914,     BATTERY.10, OUTER_BOARD.78,  1.909671e-06   $    0.003300,  0.002588
+         -915,     BATTERY.10, OUTER_BOARD.85,  1.069113e-06   $    0.001848,  0.001449
+         -916,     BATTERY.10, OUTER_BOARD.99,  7.221926e-07   $    0.001248,  0.000979
+         -917,     BATTERY.10,OUTER_BOARD.106,  1.846571e-06   $    0.003191,  0.001251
+         -918,     BATTERY.10,OUTER_BOARD.113,  1.864596e-06   $    0.003222,  0.001264
+         -919,     BATTERY.10,OUTER_BOARD.127,  2.137910e-06   $    0.003695,  0.002898
+         -920,     BATTERY.11,     BATTERY.12,  2.317777e-06   $    0.002003,  0.004005
+         -921,     BATTERY.11,     BATTERY.13,  3.301237e-06   $    0.002852,  0.002852
+         -922,     BATTERY.11,     BATTERY.14,  7.974052e-06   $    0.006890,  0.003445
+         -923,     BATTERY.11,     BATTERY.15,  3.531599e-06   $    0.003052,  0.003052
+         -924,     BATTERY.11,     BATTERY.16,  1.184670e-06   $    0.001024,  0.002047
+         -925,     BATTERY.11,     BATTERY.17,  2.745068e-06   $    0.002372,  0.002372
+         -926,     BATTERY.11,     BATTERY.18,  1.339431e-06   $    0.001157,  0.002315
+         -927,     BATTERY.11,         MAIN.4,  1.289375e-06   $    0.001114,  0.005133
+         -928,     BATTERY.11,         MAIN.5,  2.758106e-06   $    0.002383,  0.010979
+         -929,     BATTERY.11,         MAIN.8,  1.875772e-06   $    0.001621,  0.007467
+         -930,     BATTERY.11,        MAIN.37,  1.580004e-06   $    0.001365,  0.006289
+         -931,     BATTERY.11,        MAIN.38,  1.627883e-06   $    0.001407,  0.006480
+         -932,     BATTERY.11,       MAIN.144,  3.397738e-06   $    0.002936,  0.006763
+         -933,     BATTERY.11,       MAIN.145,  4.415219e-06   $    0.003815,  0.008788
+         -934,     BATTERY.11,       MAIN.159,  3.192489e-06   $    0.002758,  0.006354
+         -935,     BATTERY.11,       MAIN.160,  4.680506e-06   $    0.004044,  0.009316
+         -936,     BATTERY.11,       MAIN.173,  1.166148e-06   $    0.001008,  0.004642
+         -937,     BATTERY.11,       MAIN.186,  1.156913e-06   $    0.001000,  0.004605
+         -938,     BATTERY.11,       MAIN.199,  3.247456e-06   $    0.002806,  0.006464
+         -939,     BATTERY.11,       MAIN.200,  6.631971e-06   $    0.005730,  0.013200
+         -940,     BATTERY.11,       MAIN.214,  3.506054e-06   $    0.003029,  0.006978
+         -941,     BATTERY.11,       MAIN.215,  5.904119e-06   $    0.005102,  0.011751
+         -942,     BATTERY.11,       MAIN.228,  9.973919e-07   $    0.000862,  0.003970
+         -943,     BATTERY.11, OUTER_BOARD.22,  3.896740e-06   $    0.003367,  0.010563
+         -944,     BATTERY.11, OUTER_BOARD.29,  1.510571e-05   $    0.013052,  0.010237
+         -945,     BATTERY.11, OUTER_BOARD.36,  9.101757e-06   $    0.007864,  0.006168
+         -946,     BATTERY.11, OUTER_BOARD.43,  3.145724e-06   $    0.002718,  0.004264
+         -947,     BATTERY.11, OUTER_BOARD.50,  3.956233e-06   $    0.003418,  0.010725
+         -948,     BATTERY.11, OUTER_BOARD.52,  5.179294e-07   $    0.000448,  0.001404
+         -949,     BATTERY.11, OUTER_BOARD.57,  5.498224e-06   $    0.004751,  0.007452
+         -950,     BATTERY.11, OUTER_BOARD.59,  4.626433e-07   $    0.000400,  0.001254
+         -951,     BATTERY.11, OUTER_BOARD.64,  2.924864e-06   $    0.002527,  0.003964
+         -952,     BATTERY.11, OUTER_BOARD.71,  1.190773e-06   $    0.001029,  0.003228
+         -953,     BATTERY.11, OUTER_BOARD.78,  6.696021e-06   $    0.005786,  0.009076
+         -954,     BATTERY.11, OUTER_BOARD.85,  3.469330e-06   $    0.002998,  0.004702
+         -955,     BATTERY.11, OUTER_BOARD.92,  9.411280e-07   $    0.000813,  0.002551
+         -956,     BATTERY.11, OUTER_BOARD.99,  3.814763e-06   $    0.003296,  0.005171
+         -957,     BATTERY.11,OUTER_BOARD.106,  9.790025e-06   $    0.008459,  0.006635
+         -958,     BATTERY.11,OUTER_BOARD.113,  5.225575e-06   $    0.004515,  0.003541
+         -959,     BATTERY.11,OUTER_BOARD.120,  1.655287e-06   $    0.001430,  0.002244
+         -960,     BATTERY.11,OUTER_BOARD.127,  1.026840e-05   $    0.008873,  0.013918
+         -961,     BATTERY.12,     BATTERY.13,  1.393583e-06   $    0.002408,  0.001204
+         -962,     BATTERY.12,     BATTERY.14,  3.655222e-06   $    0.006317,  0.001579
+         -963,     BATTERY.12,     BATTERY.15,  2.267484e-06   $    0.003918,  0.001959
+         -964,     BATTERY.12,     BATTERY.17,  1.104404e-06   $    0.001909,  0.000954
+         -965,     BATTERY.12,         MAIN.4,  5.590867e-07   $    0.000966,  0.002226
+         -966,     BATTERY.12,         MAIN.5,  2.036254e-06   $    0.003519,  0.008106
+         -967,     BATTERY.12,         MAIN.8,  3.587328e-07   $    0.000620,  0.001428
+         -968,     BATTERY.12,        MAIN.37,  4.766380e-07   $    0.000824,  0.001897
+         -969,     BATTERY.12,        MAIN.38,  1.421365e-06   $    0.002456,  0.005658
+         -970,     BATTERY.12,        MAIN.67,  1.244972e-06   $    0.002151,  0.001401
+         -971,     BATTERY.12,       MAIN.118,  4.815681e-07   $    0.000832,  0.001084
+         -972,     BATTERY.12,       MAIN.144,  1.790566e-06   $    0.003094,  0.003564
+         -973,     BATTERY.12,       MAIN.145,  2.489817e-06   $    0.004303,  0.004956
+         -974,     BATTERY.12,       MAIN.148,  6.681963e-07   $    0.001155,  0.000752
+         -975,     BATTERY.12,       MAIN.159,  2.174230e-06   $    0.003757,  0.004327
+         -976,     BATTERY.12,       MAIN.160,  1.673140e-06   $    0.002891,  0.003330
+         -977,     BATTERY.12,       MAIN.162,  1.239173e-06   $    0.002141,  0.002788
+         -978,     BATTERY.12,       MAIN.173,  9.789904e-07   $    0.001692,  0.003897
+         -979,     BATTERY.12,       MAIN.186,  3.419287e-07   $    0.000591,  0.001361
+         -980,     BATTERY.12,       MAIN.199,  1.264420e-06   $    0.002185,  0.002517
+         -981,     BATTERY.12,       MAIN.200,  3.847400e-06   $    0.006649,  0.007658
+         -982,     BATTERY.12,       MAIN.214,  1.937555e-06   $    0.003348,  0.003856
+         -983,     BATTERY.12,       MAIN.215,  2.057100e-06   $    0.003555,  0.004094
+         -984,     BATTERY.12,       MAIN.217,  2.812155e-06   $    0.004860,  0.003164
+         -985,     BATTERY.12,       MAIN.228,  5.076470e-07   $    0.000877,  0.002021
+         -986,     BATTERY.12, OUTER_BOARD.22,  5.371644e-06   $    0.009283,  0.014562
+         -987,     BATTERY.12, OUTER_BOARD.29,  1.358881e-05   $    0.023483,  0.009209
+         -988,     BATTERY.12, OUTER_BOARD.36,  5.520574e-06   $    0.009540,  0.003741
+         -989,     BATTERY.12, OUTER_BOARD.43,  1.139387e-06   $    0.001969,  0.001544
+         -990,     BATTERY.12, OUTER_BOARD.50,  2.106463e-06   $    0.003640,  0.005710
+         -991,     BATTERY.12, OUTER_BOARD.57,  2.944286e-06   $    0.005088,  0.003991
+         -992,     BATTERY.12, OUTER_BOARD.64,  1.902231e-06   $    0.003287,  0.002578
+         -993,     BATTERY.12, OUTER_BOARD.71,  6.411535e-07   $    0.001108,  0.001738
+         -994,     BATTERY.12, OUTER_BOARD.78,  7.863875e-06   $    0.013590,  0.010659
+         -995,     BATTERY.12, OUTER_BOARD.85,  2.951803e-06   $    0.005101,  0.004001
+         -996,     BATTERY.12, OUTER_BOARD.92,  4.576943e-07   $    0.000791,  0.001241
+         -997,     BATTERY.12, OUTER_BOARD.99,  8.714876e-06   $    0.015060,  0.011812
+         -998,     BATTERY.12,OUTER_BOARD.106,  1.179643e-05   $    0.020386,  0.007995
+         -999,     BATTERY.12,OUTER_BOARD.113,  2.939805e-06   $    0.005080,  0.001992
+        -1000,     BATTERY.12,OUTER_BOARD.120,  7.818858e-07   $    0.001351,  0.001060
+        -1001,     BATTERY.12,OUTER_BOARD.127,  9.899230e-06   $    0.017107,  0.013418
+        -1002,     BATTERY.13,     BATTERY.14,  7.198939e-06   $    0.006220,  0.003110
+        -1003,     BATTERY.13,     BATTERY.15,  2.627301e-06   $    0.002270,  0.002270
+        -1004,     BATTERY.13,     BATTERY.16,  1.784269e-06   $    0.001542,  0.003083
+        -1005,     BATTERY.13,     BATTERY.17,  3.257718e-06   $    0.002815,  0.002815
+        -1006,     BATTERY.13,     BATTERY.18,  1.616617e-06   $    0.001397,  0.002794
+        -1007,     BATTERY.13,         MAIN.4,  3.170153e-06   $    0.002739,  0.012619
+        -1008,     BATTERY.13,         MAIN.5,  1.086975e-06   $    0.000939,  0.004327
+        -1009,     BATTERY.13,         MAIN.8,  2.800324e-06   $    0.002420,  0.011147
+        -1010,     BATTERY.13,        MAIN.26,  1.250168e-06   $    0.001080,  0.002813
+        -1011,     BATTERY.13,        MAIN.37,  2.438742e-06   $    0.002107,  0.009708
+        -1012,     BATTERY.13,        MAIN.38,  8.883076e-07   $    0.000768,  0.003536
+        -1013,     BATTERY.13,        MAIN.78,  1.723567e-06   $    0.001489,  0.003878
+        -1014,     BATTERY.13,       MAIN.144,  4.744808e-06   $    0.004100,  0.009444
+        -1015,     BATTERY.13,       MAIN.145,  3.520297e-06   $    0.003042,  0.007007
+        -1016,     BATTERY.13,       MAIN.159,  2.915661e-06   $    0.002519,  0.005803
+        -1017,     BATTERY.13,       MAIN.160,  5.713300e-06   $    0.004937,  0.011371
+        -1018,     BATTERY.13,       MAIN.173,  5.793912e-07   $    0.000501,  0.002306
+        -1019,     BATTERY.13,       MAIN.175,  2.323239e-06   $    0.002007,  0.002614
+        -1020,     BATTERY.13,       MAIN.186,  3.269456e-06   $    0.002825,  0.013015
+        -1021,     BATTERY.13,       MAIN.199,  7.422434e-06   $    0.006413,  0.014773
+        -1022,     BATTERY.13,       MAIN.200,  3.970668e-06   $    0.003431,  0.007903
+        -1023,     BATTERY.13,       MAIN.214,  3.170459e-06   $    0.002739,  0.006310
+        -1024,     BATTERY.13,       MAIN.215,  7.266329e-06   $    0.006279,  0.014462
+        -1025,     BATTERY.13,       MAIN.228,  1.157404e-06   $    0.001000,  0.004607
+        -1026,     BATTERY.13,       MAIN.230,  3.280529e-06   $    0.002835,  0.003691
+        -1027,     BATTERY.13, OUTER_BOARD.22,  1.456234e-06   $    0.001258,  0.003948
+        -1028,     BATTERY.13, OUTER_BOARD.29,  7.913946e-06   $    0.006838,  0.005363
+        -1029,     BATTERY.13, OUTER_BOARD.36,  6.617204e-06   $    0.005718,  0.004485
+        -1030,     BATTERY.13, OUTER_BOARD.43,  3.746885e-06   $    0.003238,  0.005079
+        -1031,     BATTERY.13, OUTER_BOARD.50,  1.133510e-06   $    0.000979,  0.003073
+        -1032,     BATTERY.13, OUTER_BOARD.53,  4.451570e-07   $    0.000385,  0.001207
+        -1033,     BATTERY.13, OUTER_BOARD.57,  3.518922e-06   $    0.003041,  0.004770
+        -1034,     BATTERY.13, OUTER_BOARD.60,  4.823906e-07   $    0.000417,  0.001308
+        -1035,     BATTERY.13, OUTER_BOARD.64,  4.995572e-06   $    0.004316,  0.006771
+        -1036,     BATTERY.13, OUTER_BOARD.71,  1.054493e-06   $    0.000911,  0.002859
+        -1037,     BATTERY.13, OUTER_BOARD.78,  3.973014e-06   $    0.003433,  0.005385
+        -1038,     BATTERY.13, OUTER_BOARD.85,  3.819685e-06   $    0.003300,  0.005177
+        -1039,     BATTERY.13, OUTER_BOARD.92,  1.503240e-06   $    0.001299,  0.004075
+        -1040,     BATTERY.13, OUTER_BOARD.99,  1.937436e-06   $    0.001674,  0.002626
+        -1041,     BATTERY.13,OUTER_BOARD.106,  3.183394e-06   $    0.002751,  0.002157
+        -1042,     BATTERY.13,OUTER_BOARD.113,  5.234745e-06   $    0.004523,  0.003548
+        -1043,     BATTERY.13,OUTER_BOARD.120,  1.169694e-06   $    0.001011,  0.001585
+        -1044,     BATTERY.13,OUTER_BOARD.127,  3.217232e-06   $    0.002780,  0.004361
+        -1045,     BATTERY.14,     BATTERY.15,  7.924207e-06   $    0.003423,  0.006847
+        -1046,     BATTERY.14,     BATTERY.16,  2.871691e-06   $    0.001241,  0.004963
+        -1047,     BATTERY.14,     BATTERY.17,  6.891097e-06   $    0.002977,  0.005954
+        -1048,     BATTERY.14,     BATTERY.18,  3.605956e-06   $    0.001558,  0.006232
+        -1049,     BATTERY.14,         MAIN.4,  3.598757e-06   $    0.001555,  0.014326
+        -1050,     BATTERY.14,         MAIN.5,  3.997606e-06   $    0.001727,  0.015913
+        -1051,     BATTERY.14,         MAIN.8,  3.891597e-06   $    0.001681,  0.015491
+        -1052,     BATTERY.14,        MAIN.37,  3.368814e-06   $    0.001455,  0.013410
+        -1053,     BATTERY.14,        MAIN.38,  4.240691e-06   $    0.001832,  0.016881
+        -1054,     BATTERY.14,       MAIN.144,  9.645869e-06   $    0.004167,  0.019199
+        -1055,     BATTERY.14,       MAIN.145,  1.022510e-05   $    0.004418,  0.020351
+        -1056,     BATTERY.14,       MAIN.159,  9.912575e-06   $    0.004283,  0.019729
+        -1057,     BATTERY.14,       MAIN.160,  8.699385e-06   $    0.003758,  0.017315
+        -1058,     BATTERY.14,       MAIN.162,  4.506469e-07   $    0.000195,  0.001014
+        -1059,     BATTERY.14,       MAIN.173,  4.101996e-06   $    0.001772,  0.016329
+        -1060,     BATTERY.14,       MAIN.186,  4.153533e-06   $    0.001794,  0.016534
+        -1061,     BATTERY.14,       MAIN.199,  1.484800e-05   $    0.006415,  0.029553
+        -1062,     BATTERY.14,       MAIN.200,  1.176354e-05   $    0.005082,  0.023413
+        -1063,     BATTERY.14,       MAIN.214,  1.406222e-05   $    0.006075,  0.027989
+        -1064,     BATTERY.14,       MAIN.215,  1.395057e-05   $    0.006027,  0.027766
+        -1065,     BATTERY.14,       MAIN.228,  3.696075e-06   $    0.001597,  0.014713
+        -1066,     BATTERY.14, OUTER_BOARD.22,  4.977564e-06   $    0.002150,  0.013493
+        -1067,     BATTERY.14, OUTER_BOARD.29,  3.139951e-05   $    0.013566,  0.021280
+        -1068,     BATTERY.14, OUTER_BOARD.36,  3.178734e-05   $    0.013733,  0.021543
+        -1069,     BATTERY.14, OUTER_BOARD.43,  9.561592e-06   $    0.004131,  0.012960
+        -1070,     BATTERY.14, OUTER_BOARD.50,  4.514401e-06   $    0.001950,  0.012238
+        -1071,     BATTERY.14, OUTER_BOARD.57,  1.169542e-05   $    0.005053,  0.015852
+        -1072,     BATTERY.14, OUTER_BOARD.64,  1.118743e-05   $    0.004833,  0.015164
+        -1073,     BATTERY.14, OUTER_BOARD.71,  4.886661e-06   $    0.002111,  0.013247
+        -1074,     BATTERY.14, OUTER_BOARD.78,  1.636367e-05   $    0.007070,  0.022180
+        -1075,     BATTERY.14, OUTER_BOARD.85,  1.590180e-05   $    0.006870,  0.021554
+        -1076,     BATTERY.14, OUTER_BOARD.92,  4.388328e-06   $    0.001896,  0.011896
+        -1077,     BATTERY.14, OUTER_BOARD.99,  5.224393e-06   $    0.002257,  0.007081
+        -1078,     BATTERY.14,OUTER_BOARD.106,  1.368905e-05   $    0.005914,  0.009277
+        -1079,     BATTERY.14,OUTER_BOARD.113,  1.479401e-05   $    0.006391,  0.010026
+        -1080,     BATTERY.14,OUTER_BOARD.120,  5.845792e-06   $    0.002526,  0.007924
+        -1081,     BATTERY.14,OUTER_BOARD.127,  1.124768e-05   $    0.004859,  0.015245
+        -1082,     BATTERY.15,     BATTERY.16,  1.229287e-06   $    0.001062,  0.002124
+        -1083,     BATTERY.15,     BATTERY.17,  3.025739e-06   $    0.002614,  0.002614
+        -1084,     BATTERY.15,     BATTERY.18,  1.938721e-06   $    0.001675,  0.003350
+        -1085,     BATTERY.15,         MAIN.4,  8.693039e-07   $    0.000751,  0.003460
+        -1086,     BATTERY.15,         MAIN.5,  3.456073e-06   $    0.002986,  0.013758
+        -1087,     BATTERY.15,         MAIN.8,  7.550796e-07   $    0.000652,  0.003006
+        -1088,     BATTERY.15,        MAIN.37,  1.406784e-06   $    0.001216,  0.005600
+        -1089,     BATTERY.15,        MAIN.38,  2.827131e-06   $    0.002443,  0.011254
+        -1090,     BATTERY.15,        MAIN.67,  3.676559e-06   $    0.003177,  0.004136
+        -1091,     BATTERY.15,       MAIN.118,  1.214870e-06   $    0.001050,  0.002733
+        -1092,     BATTERY.15,       MAIN.144,  3.086203e-06   $    0.002667,  0.006143
+        -1093,     BATTERY.15,       MAIN.145,  5.921112e-06   $    0.005116,  0.011785
+        -1094,     BATTERY.15,       MAIN.159,  5.331568e-06   $    0.004607,  0.010612
+        -1095,     BATTERY.15,       MAIN.160,  3.716687e-06   $    0.003211,  0.007397
+        -1096,     BATTERY.15,       MAIN.162,  1.404488e-06   $    0.001214,  0.003160
+        -1097,     BATTERY.15,       MAIN.173,  2.420996e-06   $    0.002092,  0.009637
+        -1098,     BATTERY.15,       MAIN.186,  1.040343e-06   $    0.000899,  0.004141
+        -1099,     BATTERY.15,       MAIN.199,  4.848865e-06   $    0.004190,  0.009651
+        -1100,     BATTERY.15,       MAIN.200,  6.811015e-06   $    0.005885,  0.013556
+        -1101,     BATTERY.15,       MAIN.214,  6.609781e-06   $    0.005711,  0.013156
+        -1102,     BATTERY.15,       MAIN.215,  3.622750e-06   $    0.003130,  0.007211
+        -1103,     BATTERY.15,       MAIN.217,  2.031403e-06   $    0.001755,  0.002285
+        -1104,     BATTERY.15,       MAIN.228,  3.757530e-06   $    0.003247,  0.014958
+        -1105,     BATTERY.15, OUTER_BOARD.14,  3.741076e-07   $    0.000323,  0.001014
+        -1106,     BATTERY.15, OUTER_BOARD.22,  5.114259e-06   $    0.004419,  0.013864
+        -1107,     BATTERY.15, OUTER_BOARD.29,  2.522057e-05   $    0.021792,  0.017092
+        -1108,     BATTERY.15, OUTER_BOARD.36,  2.987673e-05   $    0.025815,  0.020248
+        -1109,     BATTERY.15, OUTER_BOARD.43,  8.705953e-06   $    0.007522,  0.011800
+        -1110,     BATTERY.15, OUTER_BOARD.50,  2.594275e-06   $    0.002242,  0.007033
+        -1111,     BATTERY.15, OUTER_BOARD.57,  6.958504e-06   $    0.006013,  0.009432
+        -1112,     BATTERY.15, OUTER_BOARD.64,  7.027845e-06   $    0.006072,  0.009526
+        -1113,     BATTERY.15, OUTER_BOARD.71,  2.838655e-06   $    0.002453,  0.007695
+        -1114,     BATTERY.15, OUTER_BOARD.78,  1.648687e-05   $    0.014246,  0.022347
+        -1115,     BATTERY.15, OUTER_BOARD.85,  1.595131e-05   $    0.013783,  0.021621
+        -1116,     BATTERY.15, OUTER_BOARD.92,  4.037159e-06   $    0.003488,  0.010944
+        -1117,     BATTERY.15, OUTER_BOARD.99,  6.320398e-06   $    0.005461,  0.008567
+        -1118,     BATTERY.15,OUTER_BOARD.106,  2.421292e-05   $    0.020921,  0.016409
+        -1119,     BATTERY.15,OUTER_BOARD.113,  2.385481e-05   $    0.020612,  0.016167
+        -1120,     BATTERY.15,OUTER_BOARD.120,  5.689484e-06   $    0.004916,  0.007712
+        -1121,     BATTERY.15,OUTER_BOARD.127,  9.017936e-06   $    0.007792,  0.012223
+        -1122,     BATTERY.16,     BATTERY.17,  2.203353e-06   $    0.003808,  0.001904
+        -1123,     BATTERY.16,     BATTERY.18,  8.141323e-07   $    0.001407,  0.001407
+        -1124,     BATTERY.16,         MAIN.4,  1.068429e-06   $    0.001846,  0.004253
+        -1125,     BATTERY.16,         MAIN.5,  5.485261e-07   $    0.000948,  0.002184
+        -1126,     BATTERY.16,         MAIN.8,  8.719495e-07   $    0.001507,  0.003471
+        -1127,     BATTERY.16,        MAIN.26,  4.615583e-07   $    0.000798,  0.001039
+        -1128,     BATTERY.16,        MAIN.37,  1.288778e-06   $    0.002227,  0.005130
+        -1129,     BATTERY.16,        MAIN.38,  6.407176e-07   $    0.001107,  0.002550
+        -1130,     BATTERY.16,        MAIN.78,  7.609983e-07   $    0.001315,  0.001712
+        -1131,     BATTERY.16,        MAIN.91,  7.281889e-07   $    0.001258,  0.000819
+        -1132,     BATTERY.16,       MAIN.144,  1.962833e-06   $    0.003392,  0.003907
+        -1133,     BATTERY.16,       MAIN.145,  1.315628e-06   $    0.002274,  0.002619
+        -1134,     BATTERY.16,       MAIN.159,  1.286089e-06   $    0.002223,  0.002560
+        -1135,     BATTERY.16,       MAIN.160,  1.852322e-06   $    0.003201,  0.003687
+        -1136,     BATTERY.16,       MAIN.173,  2.645917e-07   $    0.000457,  0.001053
+        -1137,     BATTERY.16,       MAIN.175,  1.214878e-06   $    0.002099,  0.001367
+        -1138,     BATTERY.16,       MAIN.186,  2.074689e-06   $    0.003585,  0.008259
+        -1139,     BATTERY.16,       MAIN.199,  4.091732e-06   $    0.007071,  0.008144
+        -1140,     BATTERY.16,       MAIN.200,  1.020026e-06   $    0.001763,  0.002030
+        -1141,     BATTERY.16,       MAIN.214,  1.603385e-06   $    0.002771,  0.003191
+        -1142,     BATTERY.16,       MAIN.215,  1.888005e-06   $    0.003263,  0.003758
+        -1143,     BATTERY.16,       MAIN.228,  5.159372e-07   $    0.000892,  0.002054
+        -1144,     BATTERY.16,       MAIN.230,  1.658403e-06   $    0.002866,  0.001866
+        -1145,     BATTERY.16, OUTER_BOARD.29,  3.247556e-06   $    0.005612,  0.002201
+        -1146,     BATTERY.16, OUTER_BOARD.36,  3.566750e-06   $    0.006164,  0.002417
+        -1147,     BATTERY.16, OUTER_BOARD.43,  1.682539e-06   $    0.002908,  0.002281
+        -1148,     BATTERY.16, OUTER_BOARD.50,  6.134233e-07   $    0.001060,  0.001663
+        -1149,     BATTERY.16, OUTER_BOARD.57,  1.338803e-06   $    0.002314,  0.001815
+        -1150,     BATTERY.16, OUTER_BOARD.64,  1.506959e-06   $    0.002604,  0.002043
+        -1151,     BATTERY.16, OUTER_BOARD.71,  9.612587e-07   $    0.001661,  0.002606
+        -1152,     BATTERY.16, OUTER_BOARD.78,  1.204952e-06   $    0.002082,  0.001633
+        -1153,     BATTERY.16, OUTER_BOARD.85,  2.087550e-06   $    0.003608,  0.002830
+        -1154,     BATTERY.16, OUTER_BOARD.92,  1.089313e-06   $    0.001882,  0.002953
+        -1155,     BATTERY.16,OUTER_BOARD.106,  1.507861e-06   $    0.002606,  0.001022
+        -1156,     BATTERY.16,OUTER_BOARD.113,  1.783946e-06   $    0.003083,  0.001209
+        -1157,     BATTERY.16,OUTER_BOARD.120,  9.584138e-07   $    0.001656,  0.001299
+        -1158,     BATTERY.16,OUTER_BOARD.127,  7.420070e-07   $    0.001282,  0.001006
+        -1159,     BATTERY.17,     BATTERY.18,  1.981248e-06   $    0.001712,  0.003424
+        -1160,     BATTERY.17,         MAIN.4,  1.705107e-06   $    0.001473,  0.006787
+        -1161,     BATTERY.17,         MAIN.5,  1.129484e-06   $    0.000976,  0.004496
+        -1162,     BATTERY.17,         MAIN.8,  1.647423e-06   $    0.001423,  0.006558
+        -1163,     BATTERY.17,        MAIN.37,  1.330677e-06   $    0.001150,  0.005297
+        -1164,     BATTERY.17,        MAIN.38,  1.196988e-06   $    0.001034,  0.004765
+        -1165,     BATTERY.17,        MAIN.78,  4.668711e-07   $    0.000403,  0.001050
+        -1166,     BATTERY.17,       MAIN.106,  1.626045e-06   $    0.001405,  0.001829
+        -1167,     BATTERY.17,       MAIN.118,  5.760000e-07   $    0.000498,  0.001296
+        -1168,     BATTERY.17,       MAIN.144,  3.739473e-06   $    0.003231,  0.007443
+        -1169,     BATTERY.17,       MAIN.145,  2.774372e-06   $    0.002397,  0.005522
+        -1170,     BATTERY.17,       MAIN.159,  4.087637e-06   $    0.003532,  0.008136
+        -1171,     BATTERY.17,       MAIN.160,  3.633474e-06   $    0.003140,  0.007232
+        -1172,     BATTERY.17,       MAIN.173,  1.739884e-06   $    0.001503,  0.006926
+        -1173,     BATTERY.17,       MAIN.186,  2.389637e-06   $    0.002065,  0.009512
+        -1174,     BATTERY.17,       MAIN.199,  8.500965e-06   $    0.007345,  0.016920
+        -1175,     BATTERY.17,       MAIN.200,  2.513414e-06   $    0.002172,  0.005003
+        -1176,     BATTERY.17,       MAIN.214,  6.727169e-06   $    0.005813,  0.013389
+        -1177,     BATTERY.17,       MAIN.215,  3.877400e-06   $    0.003350,  0.007717
+        -1178,     BATTERY.17,       MAIN.228,  2.057953e-06   $    0.001778,  0.008192
+        -1179,     BATTERY.17, OUTER_BOARD.22,  8.127187e-07   $    0.000702,  0.002203
+        -1180,     BATTERY.17, OUTER_BOARD.29,  8.354640e-06   $    0.007219,  0.005662
+        -1181,     BATTERY.17, OUTER_BOARD.36,  1.674501e-05   $    0.014469,  0.011348
+        -1182,     BATTERY.17, OUTER_BOARD.43,  9.084011e-06   $    0.007849,  0.012313
+        -1183,     BATTERY.17, OUTER_BOARD.50,  1.603811e-06   $    0.001386,  0.004348
+        -1184,     BATTERY.17, OUTER_BOARD.54,  4.533503e-07   $    0.000392,  0.001229
+        -1185,     BATTERY.17, OUTER_BOARD.57,  3.442516e-06   $    0.002975,  0.004666
+        -1186,     BATTERY.17, OUTER_BOARD.61,  5.852320e-07   $    0.000506,  0.001586
+        -1187,     BATTERY.17, OUTER_BOARD.64,  6.542599e-06   $    0.005653,  0.008868
+        -1188,     BATTERY.17, OUTER_BOARD.71,  2.436062e-06   $    0.002105,  0.006604
+        -1189,     BATTERY.17, OUTER_BOARD.78,  4.424592e-06   $    0.003823,  0.005997
+        -1190,     BATTERY.17, OUTER_BOARD.85,  8.344306e-06   $    0.007210,  0.011310
+        -1191,     BATTERY.17, OUTER_BOARD.92,  3.831733e-06   $    0.003311,  0.010387
+        -1192,     BATTERY.17, OUTER_BOARD.99,  8.938075e-07   $    0.000772,  0.001211
+        -1193,     BATTERY.17,OUTER_BOARD.106,  4.417414e-06   $    0.003817,  0.002994
+        -1194,     BATTERY.17,OUTER_BOARD.113,  8.188537e-06   $    0.007075,  0.005549
+        -1195,     BATTERY.17,OUTER_BOARD.120,  3.462291e-06   $    0.002992,  0.004693
+        -1196,     BATTERY.17,OUTER_BOARD.127,  2.773558e-06   $    0.002397,  0.003759
+        -1197,     BATTERY.18,         MAIN.4,  5.251358e-07   $    0.000907,  0.002090
+        -1198,     BATTERY.18,         MAIN.5,  1.124683e-06   $    0.001944,  0.004477
+        -1199,     BATTERY.18,         MAIN.8,  4.268999e-07   $    0.000738,  0.001699
+        -1200,     BATTERY.18,        MAIN.37,  5.133763e-07   $    0.000887,  0.002044
+        -1201,     BATTERY.18,        MAIN.38,  5.256415e-07   $    0.000908,  0.002092
+        -1202,     BATTERY.18,        MAIN.67,  7.972425e-07   $    0.001378,  0.000897
+        -1203,     BATTERY.18,       MAIN.118,  7.932032e-07   $    0.001371,  0.001785
+        -1204,     BATTERY.18,       MAIN.144,  1.246698e-06   $    0.002154,  0.002481
+        -1205,     BATTERY.18,       MAIN.145,  2.296484e-06   $    0.003969,  0.004571
+        -1206,     BATTERY.18,       MAIN.159,  2.517151e-06   $    0.004350,  0.005010
+        -1207,     BATTERY.18,       MAIN.160,  9.583432e-07   $    0.001656,  0.001907
+        -1208,     BATTERY.18,       MAIN.173,  1.167087e-06   $    0.002017,  0.004646
+        -1209,     BATTERY.18,       MAIN.186,  3.810269e-07   $    0.000658,  0.001517
+        -1210,     BATTERY.18,       MAIN.199,  2.431785e-06   $    0.004202,  0.004840
+        -1211,     BATTERY.18,       MAIN.200,  1.337613e-06   $    0.002312,  0.002662
+        -1212,     BATTERY.18,       MAIN.214,  3.671228e-06   $    0.006344,  0.007307
+        -1213,     BATTERY.18,       MAIN.215,  1.172249e-06   $    0.002026,  0.002333
+        -1214,     BATTERY.18,       MAIN.217,  2.394861e-06   $    0.004139,  0.002694
+        -1215,     BATTERY.18,       MAIN.228,  2.011274e-06   $    0.003476,  0.008006
+        -1216,     BATTERY.18, OUTER_BOARD.22,  8.138666e-07   $    0.001406,  0.002206
+        -1217,     BATTERY.18, OUTER_BOARD.29,  5.345802e-06   $    0.009238,  0.003623
+        -1218,     BATTERY.18, OUTER_BOARD.36,  1.703715e-05   $    0.029442,  0.011546
+        -1219,     BATTERY.18, OUTER_BOARD.43,  9.846504e-06   $    0.017016,  0.013346
+        -1220,     BATTERY.18, OUTER_BOARD.50,  8.919881e-07   $    0.001541,  0.002418
+        -1221,     BATTERY.18, OUTER_BOARD.57,  2.246757e-06   $    0.003883,  0.003045
+        -1222,     BATTERY.18, OUTER_BOARD.64,  4.015601e-06   $    0.006939,  0.005443
+        -1223,     BATTERY.18, OUTER_BOARD.71,  1.151407e-06   $    0.001990,  0.003121
+        -1224,     BATTERY.18, OUTER_BOARD.78,  2.388960e-06   $    0.004128,  0.003238
+        -1225,     BATTERY.18, OUTER_BOARD.85,  6.738652e-06   $    0.011645,  0.009134
+        -1226,     BATTERY.18, OUTER_BOARD.92,  5.661606e-06   $    0.009784,  0.015348
+        -1227,     BATTERY.18, OUTER_BOARD.99,  1.115866e-06   $    0.001928,  0.001512
+        -1228,     BATTERY.18,OUTER_BOARD.106,  3.404753e-06   $    0.005884,  0.002307
+        -1229,     BATTERY.18,OUTER_BOARD.113,  1.225183e-05   $    0.021173,  0.008303
+        -1230,     BATTERY.18,OUTER_BOARD.120,  7.202463e-06   $    0.012447,  0.009762
+        -1231,     BATTERY.18,OUTER_BOARD.127,  1.116733e-06   $    0.001930,  0.001514
+        -1232,       FRAME.29,        MAIN.15,  3.047868e-06   $    0.013715,  0.007532
+        -1233,       FRAME.29,        MAIN.16,  1.088767e-06   $    0.004899,  0.002691
+        -1234,       FRAME.29,        MAIN.18,  6.719839e-07   $    0.003024,  0.003321
+        -1235,       FRAME.29,        MAIN.23,  5.825828e-07   $    0.002622,  0.002879
+        -1236,       FRAME.29,        MAIN.24,  1.362475e-06   $    0.006131,  0.006734
+        -1237,       FRAME.29,        MAIN.40,  5.627675e-07   $    0.002532,  0.002781
+        -1238,       FRAME.29,        MAIN.89,  3.447674e-06   $    0.015515,  0.008520
+        -1239,       FRAME.29,       MAIN.102,  6.024933e-07   $    0.002711,  0.001489
+        -1240,       FRAME.29,       MAIN.104,  9.668704e-07   $    0.004351,  0.002389
+        -1241,       FRAME.29,       MAIN.241,  8.921102e-07   $    0.004014,  0.002205
+        -1242,       FRAME.34,       FRAME.39,  3.770236e-06   $    0.004242,  0.004242
+        -1243,       FRAME.34,       FRAME.54,  7.623356e-07   $    0.000858,  0.001715
+        -1244,       FRAME.34,      FRAME.125,  3.516334e-06   $    0.003956,  0.003956
+        -1245,       FRAME.34,      FRAME.130,  2.114323e-06   $    0.002379,  0.002379
+        -1246,       FRAME.34,      FRAME.140,  9.415310e-07   $    0.001059,  0.002118
+        -1247,       FRAME.34,         MAIN.1,  2.348517e-06   $    0.002642,  0.011607
+        -1248,       FRAME.34,         MAIN.2,  1.168429e-06   $    0.001314,  0.005775
+        -1249,       FRAME.34,         MAIN.3,  1.540781e-06   $    0.001733,  0.007615
+        -1250,       FRAME.34,         MAIN.6,  6.283227e-06   $    0.007069,  0.015527
+        -1251,       FRAME.34,         MAIN.7,  3.282084e-05   $    0.036923,  0.162214
+        -1252,       FRAME.34,         MAIN.9,  3.034125e-05   $    0.034134,  0.074979
+        -1253,       FRAME.34,        MAIN.11,  5.603116e-05   $    0.063035,  0.138464
+        -1254,       FRAME.34,        MAIN.13,  6.955080e-06   $    0.007824,  0.017187
+        -1255,       FRAME.34,        MAIN.14,  2.077229e-05   $    0.023369,  0.051332
+        -1256,       FRAME.34,        MAIN.15,  9.145076e-06   $    0.010288,  0.022599
+        -1257,       FRAME.34,        MAIN.16,  1.284704e-05   $    0.014453,  0.031748
+        -1258,       FRAME.34,        MAIN.18,  3.900866e-06   $    0.004388,  0.019280
+        -1259,       FRAME.34,        MAIN.19,  4.717664e-06   $    0.005307,  0.023317
+        -1260,       FRAME.34,        MAIN.20,  3.271335e-06   $    0.003680,  0.016168
+        -1261,       FRAME.34,        MAIN.21,  3.571418e-06   $    0.004018,  0.017651
+        -1262,       FRAME.34,        MAIN.22,  2.771023e-06   $    0.003117,  0.013695
+        -1263,       FRAME.34,        MAIN.23,  3.348217e-06   $    0.003767,  0.016548
+        -1264,       FRAME.34,        MAIN.24,  3.650799e-06   $    0.004107,  0.018044
+        -1265,       FRAME.34,        MAIN.39,  1.372193e-06   $    0.001544,  0.006782
+        -1266,       FRAME.34,        MAIN.40,  2.069581e-06   $    0.002328,  0.010229
+        -1267,       FRAME.34,        MAIN.41,  3.042798e-05   $    0.034231,  0.150387
+        -1268,       FRAME.34,        MAIN.65,  4.205017e-06   $    0.004731,  0.010391
+        -1269,       FRAME.34,        MAIN.89,  8.511943e-06   $    0.009576,  0.021035
+        -1270,       FRAME.34,       MAIN.102,  2.767649e-05   $    0.031136,  0.068394
+        -1271,       FRAME.34,       MAIN.103,  9.330839e-06   $    0.010497,  0.023058
+        -1272,       FRAME.34,       MAIN.104,  6.266810e-06   $    0.007050,  0.015487
+        -1273,       FRAME.34,       MAIN.129,  7.277016e-06   $    0.008187,  0.017983
+        -1274,       FRAME.34,       MAIN.130,  1.404369e-05   $    0.015799,  0.034705
+        -1275,       FRAME.34,       MAIN.131,  8.014136e-06   $    0.009016,  0.019805
+        -1276,       FRAME.34,       MAIN.146,  3.042605e-06   $    0.003423,  0.015038
+        -1277,       FRAME.34,       MAIN.201,  6.487530e-05   $    0.072985,  0.320639
+        -1278,       FRAME.34,       MAIN.241,  5.504191e-06   $    0.006192,  0.013602
+        -1279,       FRAME.39,       FRAME.44,  9.721107e-07   $    0.001094,  0.002187
+        -1280,       FRAME.39,       FRAME.59,  9.323106e-07   $    0.001049,  0.002098
+        -1281,       FRAME.39,       FRAME.64,  2.566585e-07   $    0.000289,  0.001155
+        -1282,       FRAME.39,      FRAME.125,  2.226250e-06   $    0.002505,  0.002505
+        -1283,       FRAME.39,      FRAME.130,  3.310120e-06   $    0.003724,  0.003724
+        -1284,       FRAME.39,         MAIN.1,  6.317642e-05   $    0.071073,  0.312243
+        -1285,       FRAME.39,         MAIN.2,  3.234458e-06   $    0.003639,  0.015986
+        -1286,       FRAME.39,         MAIN.3,  1.573691e-06   $    0.001770,  0.007778
+        -1287,       FRAME.39,         MAIN.6,  3.109968e-05   $    0.034987,  0.076853
+        -1288,       FRAME.39,         MAIN.7,  2.966335e-05   $    0.033371,  0.146608
+        -1289,       FRAME.39,         MAIN.9,  2.817438e-05   $    0.031696,  0.069624
+        -1290,       FRAME.39,        MAIN.11,  8.028244e-06   $    0.009032,  0.019839
+        -1291,       FRAME.39,        MAIN.13,  8.538002e-06   $    0.009605,  0.021099
+        -1292,       FRAME.39,        MAIN.14,  9.248830e-06   $    0.010405,  0.022856
+        -1293,       FRAME.39,        MAIN.15,  6.187390e-06   $    0.006961,  0.015290
+        -1294,       FRAME.39,        MAIN.16,  6.543479e-06   $    0.007361,  0.016170
+        -1295,       FRAME.39,        MAIN.18,  3.039879e-06   $    0.003420,  0.015024
+        -1296,       FRAME.39,        MAIN.19,  3.436590e-06   $    0.003866,  0.016985
+        -1297,       FRAME.39,        MAIN.20,  3.532353e-06   $    0.003974,  0.017458
+        -1298,       FRAME.39,        MAIN.21,  5.036561e-06   $    0.005666,  0.024893
+        -1299,       FRAME.39,        MAIN.22,  3.303683e-06   $    0.003717,  0.016328
+        -1300,       FRAME.39,        MAIN.23,  3.282549e-06   $    0.003693,  0.016224
+        -1301,       FRAME.39,        MAIN.24,  3.046021e-06   $    0.003427,  0.015055
+        -1302,       FRAME.39,        MAIN.39,  3.101860e-05   $    0.034896,  0.153306
+        -1303,       FRAME.39,        MAIN.40,  1.327516e-06   $    0.001493,  0.006561
+        -1304,       FRAME.39,        MAIN.41,  1.334635e-06   $    0.001501,  0.006596
+        -1305,       FRAME.39,        MAIN.65,  1.000848e-05   $    0.011260,  0.024733
+        -1306,       FRAME.39,        MAIN.89,  5.423819e-06   $    0.006102,  0.013403
+        -1307,       FRAME.39,       MAIN.102,  5.574434e-06   $    0.006271,  0.013776
+        -1308,       FRAME.39,       MAIN.103,  5.561642e-05   $    0.062568,  0.137439
+        -1309,       FRAME.39,       MAIN.104,  6.742443e-06   $    0.007585,  0.016662
+        -1310,       FRAME.39,       MAIN.129,  1.181856e-05   $    0.013296,  0.029206
+        -1311,       FRAME.39,       MAIN.130,  1.242290e-05   $    0.013976,  0.030699
+        -1312,       FRAME.39,       MAIN.131,  1.898915e-05   $    0.021363,  0.046926
+        -1313,       FRAME.39,       MAIN.146,  3.790679e-06   $    0.004265,  0.018735
+        -1314,       FRAME.39,       MAIN.201,  2.065160e-06   $    0.002323,  0.010207
+        -1315,       FRAME.39,       MAIN.241,  6.383623e-06   $    0.007182,  0.015775
+        -1316,       FRAME.44,         MAIN.1,  2.643584e-06   $    0.005948,  0.013066
+        -1317,       FRAME.44,         MAIN.6,  1.418970e-05   $    0.031927,  0.035066
+        -1318,       FRAME.44,         MAIN.9,  5.244423e-07   $    0.001180,  0.001296
+        -1319,       FRAME.44,        MAIN.21,  2.628872e-06   $    0.005915,  0.012993
+        -1320,       FRAME.44,        MAIN.39,  4.785252e-06   $    0.010767,  0.023651
+        -1321,       FRAME.44,       MAIN.103,  1.210914e-05   $    0.027246,  0.029924
+        -1322,       FRAME.44,       MAIN.129,  6.885470e-06   $    0.015492,  0.017015
+        -1323,       FRAME.44,       MAIN.130,  4.340000e-07   $    0.000977,  0.001072
+        -1324,       FRAME.44,       MAIN.131,  7.215873e-06   $    0.016236,  0.017832
+        -1325,       FRAME.44,       MAIN.146,  2.906434e-06   $    0.006539,  0.014365
+        -1326,       FRAME.49,         MAIN.9,  9.561323e-07   $    0.004303,  0.002363
+        -1327,       FRAME.49,        MAIN.11,  3.145749e-06   $    0.014156,  0.007774
+        -1328,       FRAME.49,        MAIN.14,  3.706542e-06   $    0.016679,  0.009160
+        -1329,       FRAME.49,        MAIN.16,  7.357815e-07   $    0.003311,  0.001818
+        -1330,       FRAME.49,        MAIN.18,  7.214763e-07   $    0.003247,  0.003566
+        -1331,       FRAME.49,        MAIN.19,  1.156645e-06   $    0.005205,  0.005717
+        -1332,       FRAME.49,        MAIN.20,  3.396427e-07   $    0.001528,  0.001679
+        -1333,       FRAME.49,       MAIN.102,  1.012455e-06   $    0.004556,  0.002502
+        -1334,       FRAME.49,       MAIN.130,  1.155494e-06   $    0.005200,  0.002855
+        -1335,       FRAME.49,       MAIN.201,  6.276024e-07   $    0.002824,  0.003102
+        -1336,       FRAME.54,         MAIN.7,  4.524377e-06   $    0.010180,  0.022361
+        -1337,       FRAME.54,         MAIN.9,  1.363940e-05   $    0.030689,  0.033706
+        -1338,       FRAME.54,        MAIN.11,  9.399090e-06   $    0.021148,  0.023227
+        -1339,       FRAME.54,        MAIN.14,  8.363452e-06   $    0.018818,  0.020668
+        -1340,       FRAME.54,        MAIN.19,  2.496831e-06   $    0.005618,  0.012340
+        -1341,       FRAME.54,        MAIN.20,  2.016738e-06   $    0.004538,  0.009968
+        -1342,       FRAME.54,        MAIN.21,  4.532218e-07   $    0.001020,  0.002240
+        -1343,       FRAME.54,       MAIN.130,  8.673452e-06   $    0.019515,  0.021434
+        -1344,       FRAME.54,       MAIN.131,  6.595764e-07   $    0.001484,  0.001630
+        -1345,       FRAME.54,       MAIN.201,  2.596288e-06   $    0.005842,  0.012832
+        -1346,       FRAME.59,         MAIN.1,  2.429121e-06   $    0.005466,  0.012006
+        -1347,       FRAME.59,         MAIN.7,  4.794024e-06   $    0.010787,  0.023694
+        -1348,       FRAME.59,         MAIN.9,  1.487136e-05   $    0.033461,  0.036750
+        -1349,       FRAME.59,        MAIN.14,  5.880330e-07   $    0.001323,  0.001453
+        -1350,       FRAME.59,        MAIN.20,  2.409289e-06   $    0.005421,  0.011908
+        -1351,       FRAME.59,        MAIN.21,  2.486795e-06   $    0.005595,  0.012291
+        -1352,       FRAME.59,       MAIN.103,  1.034118e-05   $    0.023268,  0.025555
+        -1353,       FRAME.59,       MAIN.130,  9.435175e-06   $    0.021229,  0.023316
+        -1354,       FRAME.59,       MAIN.131,  7.354450e-06   $    0.016548,  0.018174
+        -1355,       FRAME.59,       MAIN.146,  2.622212e-07   $    0.000590,  0.001296
+        -1356,       FRAME.64,         MAIN.1,  5.287037e-07   $    0.002379,  0.002613
+        -1357,       FRAME.64,         MAIN.6,  8.501830e-07   $    0.003826,  0.002101
+        -1358,       FRAME.64,         MAIN.9,  1.058340e-06   $    0.004763,  0.002615
+        -1359,       FRAME.64,        MAIN.20,  6.125518e-07   $    0.002756,  0.003027
+        -1360,       FRAME.64,        MAIN.21,  1.371111e-06   $    0.006170,  0.006777
+        -1361,       FRAME.64,       MAIN.103,  2.803919e-06   $    0.012618,  0.006929
+        -1362,       FRAME.64,       MAIN.129,  9.668749e-07   $    0.004351,  0.002389
+        -1363,       FRAME.64,       MAIN.130,  6.315904e-07   $    0.002842,  0.001561
+        -1364,       FRAME.64,       MAIN.131,  4.135852e-06   $    0.018611,  0.010221
+        -1365,       FRAME.64,       MAIN.146,  4.555385e-07   $    0.002050,  0.002251
+        -1366,       FRAME.78,      FRAME.125,  9.261830e-07   $    0.002084,  0.001042
+        -1367,       FRAME.78,         MAIN.3,  5.378415e-06   $    0.012101,  0.026582
+        -1368,       FRAME.78,        MAIN.13,  4.828437e-07   $    0.001086,  0.001193
+        -1369,       FRAME.78,        MAIN.15,  8.823583e-06   $    0.019853,  0.021805
+        -1370,       FRAME.78,        MAIN.23,  2.829967e-06   $    0.006367,  0.013987
+        -1371,       FRAME.78,        MAIN.24,  2.083329e-06   $    0.004687,  0.010297
+        -1372,       FRAME.78,        MAIN.40,  3.350321e-06   $    0.007538,  0.016559
+        -1373,       FRAME.78,        MAIN.65,  6.222047e-07   $    0.001400,  0.001538
+        -1374,       FRAME.78,        MAIN.89,  1.128843e-05   $    0.025399,  0.027896
+        -1375,       FRAME.78,       MAIN.104,  7.921754e-06   $    0.017824,  0.019576
+        -1376,       FRAME.78,       MAIN.241,  1.377911e-05   $    0.031003,  0.034051
+        -1377,      FRAME.110,      FRAME.130,  8.472110e-07   $    0.001906,  0.000953
+        -1378,      FRAME.110,         MAIN.2,  2.857517e-06   $    0.006429,  0.014123
+        -1379,      FRAME.110,         MAIN.3,  4.120308e-06   $    0.009271,  0.020364
+        -1380,      FRAME.110,        MAIN.13,  7.689076e-06   $    0.017300,  0.019001
+        -1381,      FRAME.110,        MAIN.15,  5.244423e-07   $    0.001180,  0.001296
+        -1382,      FRAME.110,        MAIN.22,  2.086042e-06   $    0.004694,  0.010310
+        -1383,      FRAME.110,        MAIN.23,  2.484331e-06   $    0.005590,  0.012279
+        -1384,      FRAME.110,        MAIN.65,  9.939761e-06   $    0.022364,  0.024563
+        -1385,      FRAME.110,        MAIN.89,  4.472729e-07   $    0.001006,  0.001105
+        -1386,      FRAME.110,       MAIN.104,  9.164919e-06   $    0.020621,  0.022648
+        -1387,      FRAME.110,       MAIN.129,  5.646955e-07   $    0.001271,  0.001395
+        -1388,      FRAME.110,       MAIN.146,  2.303136e-07   $    0.000518,  0.001138
+        -1389,      FRAME.110,       MAIN.241,  1.554123e-05   $    0.034968,  0.038405
+        -1390,      FRAME.115,      FRAME.130,  2.553374e-07   $    0.001149,  0.000287
+        -1391,      FRAME.115,         MAIN.2,  5.225809e-07   $    0.002352,  0.002583
+        -1392,      FRAME.115,         MAIN.6,  8.045357e-07   $    0.003620,  0.001988
+        -1393,      FRAME.115,        MAIN.13,  3.310502e-06   $    0.014897,  0.008181
+        -1394,      FRAME.115,        MAIN.22,  1.232893e-06   $    0.005548,  0.006093
+        -1395,      FRAME.115,        MAIN.23,  2.457916e-07   $    0.001106,  0.001215
+        -1396,      FRAME.115,        MAIN.65,  4.142640e-06   $    0.018642,  0.010237
+        -1397,      FRAME.115,       MAIN.104,  8.753623e-07   $    0.003939,  0.002163
+        -1398,      FRAME.115,       MAIN.129,  7.696532e-07   $    0.003463,  0.001902
+        -1399,      FRAME.115,       MAIN.146,  3.062728e-07   $    0.001378,  0.001514
+        -1400,      FRAME.115,       MAIN.241,  1.153516e-06   $    0.005191,  0.002851
+        -1401,      FRAME.120,      FRAME.125,  7.644231e-07   $    0.001720,  0.000860
+        -1402,      FRAME.120,        MAIN.11,  6.299376e-07   $    0.001417,  0.001557
+        -1403,      FRAME.120,        MAIN.14,  6.926015e-07   $    0.001558,  0.001712
+        -1404,      FRAME.120,        MAIN.15,  6.616069e-06   $    0.014886,  0.016350
+        -1405,      FRAME.120,        MAIN.16,  8.025913e-06   $    0.018058,  0.019834
+        -1406,      FRAME.120,        MAIN.18,  2.207928e-06   $    0.004968,  0.010912
+        -1407,      FRAME.120,        MAIN.23,  3.308348e-07   $    0.000744,  0.001635
+        -1408,      FRAME.120,        MAIN.24,  2.387399e-06   $    0.005372,  0.011799
+        -1409,      FRAME.120,        MAIN.40,  2.350881e-06   $    0.005289,  0.011619
+        -1410,      FRAME.120,        MAIN.41,  4.959167e-06   $    0.011158,  0.024510
+        -1411,      FRAME.120,        MAIN.89,  1.060608e-05   $    0.023864,  0.026210
+        -1412,      FRAME.120,       MAIN.102,  1.382732e-05   $    0.031111,  0.034170
+        -1413,      FRAME.120,       MAIN.241,  4.488145e-07   $    0.001010,  0.001109
+        -1414,      FRAME.125,      FRAME.130,  3.766727e-06   $    0.004238,  0.004238
+        -1415,      FRAME.125,         MAIN.1,  1.148370e-06   $    0.001292,  0.005676
+        -1416,      FRAME.125,         MAIN.2,  2.165628e-06   $    0.002436,  0.010703
+        -1417,      FRAME.125,         MAIN.3,  2.957423e-05   $    0.033271,  0.146167
+        -1418,      FRAME.125,         MAIN.6,  5.430335e-06   $    0.006109,  0.013419
+        -1419,      FRAME.125,         MAIN.7,  1.438999e-06   $    0.001619,  0.007112
+        -1420,      FRAME.125,         MAIN.9,  6.050912e-06   $    0.006807,  0.014953
+        -1421,      FRAME.125,        MAIN.11,  9.510469e-06   $    0.010699,  0.023502
+        -1422,      FRAME.125,        MAIN.13,  9.402136e-06   $    0.010577,  0.023235
+        -1423,      FRAME.125,        MAIN.14,  8.955625e-06   $    0.010075,  0.022131
+        -1424,      FRAME.125,        MAIN.15,  1.982103e-05   $    0.022299,  0.048982
+        -1425,      FRAME.125,        MAIN.16,  1.321811e-05   $    0.014870,  0.032665
+        -1426,      FRAME.125,        MAIN.18,  3.768861e-06   $    0.004240,  0.018627
+        -1427,      FRAME.125,        MAIN.19,  3.314434e-06   $    0.003729,  0.016381
+        -1428,      FRAME.125,        MAIN.20,  3.011209e-06   $    0.003388,  0.014883
+        -1429,      FRAME.125,        MAIN.21,  3.420235e-06   $    0.003848,  0.016904
+        -1430,      FRAME.125,        MAIN.22,  3.222850e-06   $    0.003626,  0.015929
+        -1431,      FRAME.125,        MAIN.23,  4.097346e-06   $    0.004610,  0.020251
+        -1432,      FRAME.125,        MAIN.24,  4.611017e-06   $    0.005187,  0.022789
+        -1433,      FRAME.125,        MAIN.39,  1.401772e-06   $    0.001577,  0.006928
+        -1434,      FRAME.125,        MAIN.40,  6.166381e-05   $    0.069372,  0.304767
+        -1435,      FRAME.125,        MAIN.41,  2.946124e-05   $    0.033144,  0.145609
+        -1436,      FRAME.125,        MAIN.65,  9.035094e-06   $    0.010164,  0.022327
+        -1437,      FRAME.125,        MAIN.89,  5.646603e-05   $    0.063524,  0.139539
+        -1438,      FRAME.125,       MAIN.102,  2.662692e-05   $    0.029955,  0.065800
+        -1439,      FRAME.125,       MAIN.103,  4.949659e-06   $    0.005568,  0.012232
+        -1440,      FRAME.125,       MAIN.104,  1.272927e-05   $    0.014320,  0.031457
+        -1441,      FRAME.125,       MAIN.129,  6.144836e-06   $    0.006913,  0.015185
+        -1442,      FRAME.125,       MAIN.130,  6.462807e-06   $    0.007271,  0.015971
+        -1443,      FRAME.125,       MAIN.131,  6.332440e-06   $    0.007124,  0.015649
+        -1444,      FRAME.125,       MAIN.146,  3.273131e-06   $    0.003682,  0.016177
+        -1445,      FRAME.125,       MAIN.201,  2.124569e-06   $    0.002390,  0.010500
+        -1446,      FRAME.125,       MAIN.241,  2.815231e-05   $    0.031671,  0.069570
+        -1447,      FRAME.130,      FRAME.135,  1.014806e-06   $    0.001142,  0.002283
+        -1448,      FRAME.130,         MAIN.1,  1.793194e-06   $    0.002017,  0.008863
+        -1449,      FRAME.130,         MAIN.2,  6.379408e-05   $    0.071768,  0.315295
+        -1450,      FRAME.130,         MAIN.3,  3.080151e-05   $    0.034652,  0.152233
+        -1451,      FRAME.130,         MAIN.6,  2.994056e-05   $    0.033683,  0.073989
+        -1452,      FRAME.130,         MAIN.7,  1.192014e-06   $    0.001341,  0.005891
+        -1453,      FRAME.130,         MAIN.9,  5.995773e-06   $    0.006745,  0.014817
+        -1454,      FRAME.130,        MAIN.11,  5.224224e-06   $    0.005877,  0.012910
+        -1455,      FRAME.130,        MAIN.13,  1.863567e-05   $    0.020965,  0.046052
+        -1456,      FRAME.130,        MAIN.14,  6.603276e-06   $    0.007429,  0.016318
+        -1457,      FRAME.130,        MAIN.15,  8.851009e-06   $    0.009957,  0.021873
+        -1458,      FRAME.130,        MAIN.16,  7.408357e-06   $    0.008334,  0.018308
+        -1459,      FRAME.130,        MAIN.18,  3.254583e-06   $    0.003661,  0.016085
+        -1460,      FRAME.130,        MAIN.19,  3.111277e-06   $    0.003500,  0.015377
+        -1461,      FRAME.130,        MAIN.20,  3.425869e-06   $    0.003854,  0.016932
+        -1462,      FRAME.130,        MAIN.21,  3.378490e-06   $    0.003801,  0.016698
+        -1463,      FRAME.130,        MAIN.22,  5.753675e-06   $    0.006473,  0.028437
+        -1464,      FRAME.130,        MAIN.23,  3.635005e-06   $    0.004089,  0.017966
+        -1465,      FRAME.130,        MAIN.24,  3.644083e-06   $    0.004100,  0.018010
+        -1466,      FRAME.130,        MAIN.39,  3.135647e-05   $    0.035276,  0.154976
+        -1467,      FRAME.130,        MAIN.40,  2.432185e-06   $    0.002736,  0.012021
+        -1468,      FRAME.130,        MAIN.41,  1.471807e-06   $    0.001656,  0.007274
+        -1469,      FRAME.130,        MAIN.65,  5.764734e-05   $    0.064853,  0.142458
+        -1470,      FRAME.130,        MAIN.89,  7.981152e-06   $    0.008979,  0.019723
+        -1471,      FRAME.130,       MAIN.102,  6.507343e-06   $    0.007321,  0.016081
+        -1472,      FRAME.130,       MAIN.103,  9.417525e-06   $    0.010595,  0.023273
+        -1473,      FRAME.130,       MAIN.104,  1.320991e-05   $    0.014861,  0.032644
+        -1474,      FRAME.130,       MAIN.129,  1.335174e-05   $    0.015021,  0.032995
+        -1475,      FRAME.130,       MAIN.130,  7.197392e-06   $    0.008097,  0.017786
+        -1476,      FRAME.130,       MAIN.131,  9.676998e-06   $    0.010887,  0.023914
+        -1477,      FRAME.130,       MAIN.146,  3.947303e-06   $    0.004441,  0.019509
+        -1478,      FRAME.130,       MAIN.201,  1.333263e-06   $    0.001500,  0.006590
+        -1479,      FRAME.130,       MAIN.241,  3.105831e-05   $    0.034941,  0.076751
+        -1480,      FRAME.135,         MAIN.2,  2.470040e-06   $    0.005558,  0.012208
+        -1481,      FRAME.135,         MAIN.6,  1.288844e-05   $    0.028999,  0.031850
+        -1482,      FRAME.135,        MAIN.13,  7.472139e-06   $    0.016812,  0.018465
+        -1483,      FRAME.135,        MAIN.22,  2.387443e-06   $    0.005372,  0.011800
+        -1484,      FRAME.135,        MAIN.39,  4.482157e-06   $    0.010085,  0.022153
+        -1485,      FRAME.135,        MAIN.65,  1.017808e-05   $    0.022901,  0.025152
+        -1486,      FRAME.135,       MAIN.103,  8.864308e-07   $    0.001994,  0.002191
+        -1487,      FRAME.135,       MAIN.104,  4.915831e-07   $    0.001106,  0.001215
+        -1488,      FRAME.135,       MAIN.129,  8.624163e-06   $    0.019404,  0.021312
+        -1489,      FRAME.135,       MAIN.131,  4.401599e-07   $    0.000990,  0.001088
+        -1490,      FRAME.135,       MAIN.146,  2.799936e-06   $    0.006300,  0.013838
+        -1491,      FRAME.140,        MAIN.11,  1.087463e-05   $    0.024468,  0.026873
+        -1492,      FRAME.140,        MAIN.14,  8.362857e-06   $    0.018816,  0.020666
+        -1493,      FRAME.140,        MAIN.15,  6.125455e-07   $    0.001378,  0.001514
+        -1494,      FRAME.140,        MAIN.16,  8.227104e-06   $    0.018511,  0.020331
+        -1495,      FRAME.140,        MAIN.18,  2.275386e-06   $    0.005120,  0.011246
+        -1496,      FRAME.140,        MAIN.19,  2.663712e-06   $    0.005993,  0.013165
+        -1497,      FRAME.140,        MAIN.20,  2.112272e-07   $    0.000475,  0.001044
+        -1498,      FRAME.140,        MAIN.41,  4.739721e-06   $    0.010664,  0.023426
+        -1499,      FRAME.140,        MAIN.89,  7.742040e-07   $    0.001742,  0.001913
+        -1500,      FRAME.140,       MAIN.102,  1.278018e-05   $    0.028755,  0.031582
+        -1501,      FRAME.140,       MAIN.201,  2.550353e-06   $    0.005738,  0.012605
+        -1502,         MAIN.1,         MAIN.2,  1.116365e-06   $    0.005518,  0.005518
+        -1503,         MAIN.1,         MAIN.3,  1.215660e-06   $    0.006008,  0.006008
+        -1504,         MAIN.1,         MAIN.6,  2.142089e-06   $    0.010587,  0.005294
+        -1505,         MAIN.1,         MAIN.7,  1.257942e-06   $    0.006217,  0.006217
+        -1506,         MAIN.1,         MAIN.9,  1.998950e-06   $    0.009880,  0.004940
+        -1507,         MAIN.1,        MAIN.11,  2.043892e-06   $    0.010102,  0.005051
+        -1508,         MAIN.1,        MAIN.13,  1.698468e-06   $    0.008394,  0.004197
+        -1509,         MAIN.1,        MAIN.14,  1.278799e-06   $    0.006320,  0.003160
+        -1510,         MAIN.1,        MAIN.15,  2.135876e-06   $    0.010556,  0.005278
+        -1511,         MAIN.1,        MAIN.16,  2.470817e-06   $    0.012212,  0.006106
+        -1512,         MAIN.1,        MAIN.18,  7.250422e-07   $    0.003583,  0.003583
+        -1513,         MAIN.1,        MAIN.19,  5.572337e-07   $    0.002754,  0.002754
+        -1514,         MAIN.1,        MAIN.20,  3.055477e-07   $    0.001510,  0.001510
+        -1515,         MAIN.1,        MAIN.22,  6.753626e-07   $    0.003338,  0.003338
+        -1516,         MAIN.1,        MAIN.23,  7.820801e-07   $    0.003865,  0.003865
+        -1517,         MAIN.1,        MAIN.24,  7.761143e-07   $    0.003836,  0.003836
+        -1518,         MAIN.1,        MAIN.39,  1.449755e-06   $    0.007165,  0.007165
+        -1519,         MAIN.1,        MAIN.40,  1.348279e-06   $    0.006664,  0.006664
+        -1520,         MAIN.1,        MAIN.41,  1.327243e-06   $    0.006560,  0.006560
+        -1521,         MAIN.1,        MAIN.65,  2.258466e-06   $    0.011162,  0.005581
+        -1522,         MAIN.1,        MAIN.89,  2.305001e-06   $    0.011392,  0.005696
+        -1523,         MAIN.1,       MAIN.102,  2.560815e-06   $    0.012657,  0.006328
+        -1524,         MAIN.1,       MAIN.103,  1.615246e-06   $    0.007983,  0.003992
+        -1525,         MAIN.1,       MAIN.104,  1.505465e-06   $    0.007441,  0.003720
+        -1526,         MAIN.1,       MAIN.129,  6.651613e-07   $    0.003287,  0.001644
+        -1527,         MAIN.1,       MAIN.130,  1.196939e-06   $    0.005916,  0.002958
+        -1528,         MAIN.1,       MAIN.131,  5.509392e-07   $    0.002723,  0.001361
+        -1529,         MAIN.1,       MAIN.201,  1.097046e-06   $    0.005422,  0.005422
+        -1530,         MAIN.1,       MAIN.241,  2.371414e-06   $    0.011720,  0.005860
+        -1531,         MAIN.2,         MAIN.3,  1.302860e-06   $    0.006439,  0.006439
+        -1532,         MAIN.2,         MAIN.6,  1.975284e-06   $    0.009763,  0.004881
+        -1533,         MAIN.2,         MAIN.7,  1.165464e-06   $    0.005760,  0.005760
+        -1534,         MAIN.2,         MAIN.9,  2.594757e-06   $    0.012824,  0.006412
+        -1535,         MAIN.2,        MAIN.11,  2.354874e-06   $    0.011639,  0.005819
+        -1536,         MAIN.2,        MAIN.13,  4.572435e-07   $    0.002260,  0.001130
+        -1537,         MAIN.2,        MAIN.14,  1.924400e-06   $    0.009511,  0.004756
+        -1538,         MAIN.2,        MAIN.15,  1.517303e-06   $    0.007499,  0.003750
+        -1539,         MAIN.2,        MAIN.16,  2.094541e-06   $    0.010352,  0.005176
+        -1540,         MAIN.2,        MAIN.18,  7.042057e-07   $    0.003480,  0.003480
+        -1541,         MAIN.2,        MAIN.19,  1.085155e-06   $    0.005363,  0.005363
+        -1542,         MAIN.2,        MAIN.20,  7.397262e-07   $    0.003656,  0.003656
+        -1543,         MAIN.2,        MAIN.21,  4.923936e-07   $    0.002434,  0.002434
+        -1544,         MAIN.2,        MAIN.23,  3.387015e-07   $    0.001674,  0.001674
+        -1545,         MAIN.2,        MAIN.24,  5.687054e-07   $    0.002811,  0.002811
+        -1546,         MAIN.2,        MAIN.39,  1.233419e-06   $    0.006096,  0.006096
+        -1547,         MAIN.2,        MAIN.40,  1.202658e-06   $    0.005944,  0.005944
+        -1548,         MAIN.2,        MAIN.41,  1.373462e-06   $    0.006788,  0.006788
+        -1549,         MAIN.2,        MAIN.65,  1.605449e-06   $    0.007935,  0.003967
+        -1550,         MAIN.2,        MAIN.89,  2.374594e-06   $    0.011736,  0.005868
+        -1551,         MAIN.2,       MAIN.102,  2.082557e-06   $    0.010293,  0.005146
+        -1552,         MAIN.2,       MAIN.103,  2.579094e-06   $    0.012747,  0.006373
+        -1553,         MAIN.2,       MAIN.104,  1.040296e-06   $    0.005142,  0.002571
+        -1554,         MAIN.2,       MAIN.129,  8.218529e-07   $    0.004062,  0.002031
+        -1555,         MAIN.2,       MAIN.130,  1.566313e-06   $    0.007741,  0.003871
+        -1556,         MAIN.2,       MAIN.131,  1.887036e-06   $    0.009326,  0.004663
+        -1557,         MAIN.2,       MAIN.146,  2.254645e-07   $    0.001114,  0.001114
+        -1558,         MAIN.2,       MAIN.201,  1.263057e-06   $    0.006243,  0.006243
+        -1559,         MAIN.2,       MAIN.241,  1.536271e-06   $    0.007593,  0.003796
+        -1560,         MAIN.3,         MAIN.6,  2.385311e-06   $    0.011789,  0.005895
+        -1561,         MAIN.3,         MAIN.7,  1.069715e-06   $    0.005287,  0.005287
+        -1562,         MAIN.3,         MAIN.9,  2.247286e-06   $    0.011107,  0.005553
+        -1563,         MAIN.3,        MAIN.11,  2.726614e-06   $    0.013476,  0.006738
+        -1564,         MAIN.3,        MAIN.13,  1.026613e-06   $    0.005074,  0.002537
+        -1565,         MAIN.3,        MAIN.14,  1.699515e-06   $    0.008400,  0.004200
+        -1566,         MAIN.3,        MAIN.15,  8.172202e-07   $    0.004039,  0.002020
+        -1567,         MAIN.3,        MAIN.16,  1.743190e-06   $    0.008616,  0.004308
+        -1568,         MAIN.3,        MAIN.18,  6.126592e-07   $    0.003028,  0.003028
+        -1569,         MAIN.3,        MAIN.19,  8.508119e-07   $    0.004205,  0.004205
+        -1570,         MAIN.3,        MAIN.20,  6.967668e-07   $    0.003444,  0.003444
+        -1571,         MAIN.3,        MAIN.21,  7.796504e-07   $    0.003853,  0.003853
+        -1572,         MAIN.3,        MAIN.22,  2.607388e-07   $    0.001289,  0.001289
+        -1573,         MAIN.3,        MAIN.24,  2.292809e-07   $    0.001133,  0.001133
+        -1574,         MAIN.3,        MAIN.39,  1.285316e-06   $    0.006353,  0.006353
+        -1575,         MAIN.3,        MAIN.40,  1.638718e-06   $    0.008099,  0.008099
+        -1576,         MAIN.3,        MAIN.41,  1.202847e-06   $    0.005945,  0.005945
+        -1577,         MAIN.3,        MAIN.65,  2.437796e-06   $    0.012049,  0.006024
+        -1578,         MAIN.3,        MAIN.89,  2.776411e-06   $    0.013722,  0.006861
+        -1579,         MAIN.3,       MAIN.102,  2.075518e-06   $    0.010258,  0.005129
+        -1580,         MAIN.3,       MAIN.103,  2.225984e-06   $    0.011002,  0.005501
+        -1581,         MAIN.3,       MAIN.104,  4.872521e-07   $    0.002408,  0.001204
+        -1582,         MAIN.3,       MAIN.129,  1.300706e-06   $    0.006429,  0.003214
+        -1583,         MAIN.3,       MAIN.130,  1.990480e-06   $    0.009838,  0.004919
+        -1584,         MAIN.3,       MAIN.131,  1.733021e-06   $    0.008565,  0.004283
+        -1585,         MAIN.3,       MAIN.146,  6.553038e-07   $    0.003239,  0.003239
+        -1586,         MAIN.3,       MAIN.201,  1.194193e-06   $    0.005902,  0.005902
+        -1587,         MAIN.3,       MAIN.241,  2.053945e-06   $    0.010151,  0.005076
+        -1588,         MAIN.4,         MAIN.8,  3.900570e-07   $    0.001553,  0.001553
+        -1589,         MAIN.4,        MAIN.37,  8.146978e-07   $    0.003243,  0.003243
+        -1590,         MAIN.4,        MAIN.43,  5.217250e-07   $    0.002077,  0.000293
+        -1591,         MAIN.4,        MAIN.78,  2.955350e-07   $    0.001176,  0.000665
+        -1592,         MAIN.4,       MAIN.133,  2.754080e-07   $    0.001096,  0.000310
+        -1593,         MAIN.4,       MAIN.144,  1.566553e-06   $    0.006236,  0.003118
+        -1594,         MAIN.4,       MAIN.159,  8.311620e-07   $    0.003309,  0.001654
+        -1595,         MAIN.4,       MAIN.160,  1.089863e-06   $    0.004338,  0.002169
+        -1596,         MAIN.4,       MAIN.175,  9.935593e-07   $    0.003955,  0.001118
+        -1597,         MAIN.4,       MAIN.186,  4.743249e-07   $    0.001888,  0.001888
+        -1598,         MAIN.4,       MAIN.188,  4.586509e-07   $    0.001826,  0.000258
+        -1599,         MAIN.4,       MAIN.199,  1.260897e-06   $    0.005019,  0.002510
+        -1600,         MAIN.4,       MAIN.214,  8.232333e-07   $    0.003277,  0.001639
+        -1601,         MAIN.4,       MAIN.215,  5.847599e-07   $    0.002328,  0.001164
+        -1602,         MAIN.4,       MAIN.228,  2.836063e-07   $    0.001129,  0.001129
+        -1603,         MAIN.4,       MAIN.230,  8.958059e-07   $    0.003566,  0.001008
+        -1604,         MAIN.4, OUTER_BOARD.78,  5.787733e-07   $    0.002304,  0.000784
+        -1605,         MAIN.4, OUTER_BOARD.85,  8.228403e-07   $    0.003275,  0.001115
+        -1606,         MAIN.4, OUTER_BOARD.92,  5.334633e-07   $    0.002124,  0.001446
+        -1607,         MAIN.4,OUTER_BOARD.106,  6.836306e-07   $    0.002721,  0.000463
+        -1608,         MAIN.4,OUTER_BOARD.113,  1.006400e-06   $    0.004006,  0.000682
+        -1609,         MAIN.4,OUTER_BOARD.120,  4.441067e-07   $    0.001768,  0.000602
+        -1610,         MAIN.5,        MAIN.37,  3.069217e-07   $    0.001222,  0.001222
+        -1611,         MAIN.5,        MAIN.38,  5.781849e-07   $    0.002302,  0.002302
+        -1612,         MAIN.5,        MAIN.67,  6.750300e-07   $    0.002687,  0.000759
+        -1613,         MAIN.5,       MAIN.144,  7.043490e-07   $    0.002804,  0.001402
+        -1614,         MAIN.5,       MAIN.145,  5.788913e-07   $    0.002304,  0.001152
+        -1615,         MAIN.5,       MAIN.148,  2.652813e-07   $    0.001056,  0.000298
+        -1616,         MAIN.5,       MAIN.159,  1.268861e-06   $    0.005051,  0.002525
+        -1617,         MAIN.5,       MAIN.173,  7.234648e-07   $    0.002880,  0.002880
+        -1618,         MAIN.5,       MAIN.199,  8.464769e-07   $    0.003370,  0.001685
+        -1619,         MAIN.5,       MAIN.200,  7.936035e-07   $    0.003159,  0.001580
+        -1620,         MAIN.5,       MAIN.203,  4.321124e-07   $    0.001720,  0.000243
+        -1621,         MAIN.5,       MAIN.214,  1.260336e-06   $    0.005017,  0.002508
+        -1622,         MAIN.5,       MAIN.217,  7.395168e-07   $    0.002944,  0.000832
+        -1623,         MAIN.5,       MAIN.228,  9.967355e-07   $    0.003968,  0.003968
+        -1624,         MAIN.5, OUTER_BOARD.22,  3.509725e-06   $    0.013971,  0.009514
+        -1625,         MAIN.5, OUTER_BOARD.29,  7.832026e-07   $    0.003118,  0.000531
+        -1626,         MAIN.5, OUTER_BOARD.36,  8.702146e-07   $    0.003464,  0.000590
+        -1627,         MAIN.5, OUTER_BOARD.43,  5.850238e-07   $    0.002329,  0.000793
+        -1628,         MAIN.5, OUTER_BOARD.78,  4.425602e-06   $    0.017617,  0.005999
+        -1629,         MAIN.5, OUTER_BOARD.85,  1.142912e-06   $    0.004550,  0.001549
+        -1630,         MAIN.5, OUTER_BOARD.92,  2.877946e-07   $    0.001146,  0.000780
+        -1631,         MAIN.5, OUTER_BOARD.99,  1.091292e-06   $    0.004344,  0.001479
+        -1632,         MAIN.5,OUTER_BOARD.106,  2.141336e-06   $    0.008524,  0.001451
+        -1633,         MAIN.5,OUTER_BOARD.113,  1.413512e-06   $    0.005627,  0.000958
+        -1634,         MAIN.5,OUTER_BOARD.120,  5.420459e-07   $    0.002158,  0.000735
+        -1635,         MAIN.6,         MAIN.7,  2.376753e-06   $    0.005873,  0.011747
+        -1636,         MAIN.6,         MAIN.9,  5.448257e-06   $    0.013464,  0.013464
+        -1637,         MAIN.6,        MAIN.11,  4.607931e-06   $    0.011387,  0.011387
+        -1638,         MAIN.6,        MAIN.13,  3.296865e-06   $    0.008147,  0.008147
+        -1639,         MAIN.6,        MAIN.14,  4.306508e-06   $    0.010642,  0.010642
+        -1640,         MAIN.6,        MAIN.15,  4.160826e-06   $    0.010282,  0.010282
+        -1641,         MAIN.6,        MAIN.16,  5.004178e-06   $    0.012366,  0.012366
+        -1642,         MAIN.6,        MAIN.18,  2.024527e-06   $    0.005003,  0.010006
+        -1643,         MAIN.6,        MAIN.19,  2.076365e-06   $    0.005131,  0.010262
+        -1644,         MAIN.6,        MAIN.20,  1.480543e-06   $    0.003659,  0.007317
+        -1645,         MAIN.6,        MAIN.21,  9.209706e-07   $    0.002276,  0.004552
+        -1646,         MAIN.6,        MAIN.22,  1.031991e-06   $    0.002550,  0.005101
+        -1647,         MAIN.6,        MAIN.23,  1.390545e-06   $    0.003436,  0.006873
+        -1648,         MAIN.6,        MAIN.24,  1.817529e-06   $    0.004491,  0.008983
+        -1649,         MAIN.6,        MAIN.39,  1.560746e-06   $    0.003857,  0.007714
+        -1650,         MAIN.6,        MAIN.40,  3.505500e-06   $    0.008663,  0.017326
+        -1651,         MAIN.6,        MAIN.41,  2.744800e-06   $    0.006783,  0.013566
+        -1652,         MAIN.6,        MAIN.65,  4.248772e-06   $    0.010500,  0.010500
+        -1653,         MAIN.6,        MAIN.89,  5.605336e-06   $    0.013852,  0.013852
+        -1654,         MAIN.6,       MAIN.102,  5.024650e-06   $    0.012417,  0.012417
+        -1655,         MAIN.6,       MAIN.103,  5.335503e-06   $    0.013185,  0.013185
+        -1656,         MAIN.6,       MAIN.104,  3.948709e-06   $    0.009758,  0.009758
+        -1657,         MAIN.6,       MAIN.129,  1.674275e-06   $    0.004137,  0.004137
+        -1658,         MAIN.6,       MAIN.130,  4.351280e-06   $    0.010753,  0.010753
+        -1659,         MAIN.6,       MAIN.131,  2.893754e-06   $    0.007151,  0.007151
+        -1660,         MAIN.6,       MAIN.146,  4.516862e-07   $    0.001116,  0.002232
+        -1661,         MAIN.6,       MAIN.201,  2.448265e-06   $    0.006050,  0.012100
+        -1662,         MAIN.6,       MAIN.241,  5.364635e-06   $    0.013257,  0.013257
+        -1663,         MAIN.7,         MAIN.9,  1.812067e-06   $    0.008956,  0.004478
+        -1664,         MAIN.7,        MAIN.11,  1.860524e-06   $    0.009195,  0.004598
+        -1665,         MAIN.7,        MAIN.13,  1.838696e-06   $    0.009088,  0.004544
+        -1666,         MAIN.7,        MAIN.14,  1.026688e-06   $    0.005074,  0.002537
+        -1667,         MAIN.7,        MAIN.15,  1.736556e-06   $    0.008583,  0.004291
+        -1668,         MAIN.7,        MAIN.16,  1.737711e-06   $    0.008588,  0.004294
+        -1669,         MAIN.7,        MAIN.18,  6.221492e-07   $    0.003075,  0.003075
+        -1670,         MAIN.7,        MAIN.19,  2.609692e-07   $    0.001290,  0.001290
+        -1671,         MAIN.7,        MAIN.21,  3.653310e-07   $    0.001806,  0.001806
+        -1672,         MAIN.7,        MAIN.22,  6.924582e-07   $    0.003422,  0.003422
+        -1673,         MAIN.7,        MAIN.23,  8.538344e-07   $    0.004220,  0.004220
+        -1674,         MAIN.7,        MAIN.24,  6.733190e-07   $    0.003328,  0.003328
+        -1675,         MAIN.7,        MAIN.39,  1.000901e-06   $    0.004947,  0.004947
+        -1676,         MAIN.7,        MAIN.40,  1.445531e-06   $    0.007144,  0.007144
+        -1677,         MAIN.7,        MAIN.41,  9.330552e-07   $    0.004612,  0.004612
+        -1678,         MAIN.7,        MAIN.65,  2.011688e-06   $    0.009943,  0.004971
+        -1679,         MAIN.7,        MAIN.89,  2.194230e-06   $    0.010845,  0.005422
+        -1680,         MAIN.7,       MAIN.102,  2.322257e-06   $    0.011478,  0.005739
+        -1681,         MAIN.7,       MAIN.103,  2.396103e-06   $    0.011842,  0.005921
+        -1682,         MAIN.7,       MAIN.104,  1.797348e-06   $    0.008883,  0.004442
+        -1683,         MAIN.7,       MAIN.129,  1.353653e-06   $    0.006690,  0.003345
+        -1684,         MAIN.7,       MAIN.130,  4.481540e-07   $    0.002215,  0.001107
+        -1685,         MAIN.7,       MAIN.131,  1.412659e-06   $    0.006982,  0.003491
+        -1686,         MAIN.7,       MAIN.146,  6.924359e-07   $    0.003422,  0.003422
+        -1687,         MAIN.7,       MAIN.201,  8.870316e-07   $    0.004384,  0.004384
+        -1688,         MAIN.7,       MAIN.241,  3.004842e-06   $    0.014851,  0.007426
+        -1689,         MAIN.8,        MAIN.37,  8.678830e-07   $    0.003455,  0.003455
+        -1690,         MAIN.8,        MAIN.43,  4.417617e-07   $    0.001759,  0.000248
+        -1691,         MAIN.8,        MAIN.78,  3.083195e-07   $    0.001227,  0.000694
+        -1692,         MAIN.8,       MAIN.144,  1.197552e-06   $    0.004767,  0.002384
+        -1693,         MAIN.8,       MAIN.159,  1.124994e-06   $    0.004478,  0.002239
+        -1694,         MAIN.8,       MAIN.160,  5.671475e-07   $    0.002258,  0.001129
+        -1695,         MAIN.8,       MAIN.175,  5.836616e-07   $    0.002323,  0.000657
+        -1696,         MAIN.8,       MAIN.186,  8.312353e-07   $    0.003309,  0.003309
+        -1697,         MAIN.8,       MAIN.188,  3.470047e-07   $    0.001381,  0.000195
+        -1698,         MAIN.8,       MAIN.199,  1.402730e-06   $    0.005584,  0.002792
+        -1699,         MAIN.8,       MAIN.214,  1.154234e-06   $    0.004595,  0.002297
+        -1700,         MAIN.8,       MAIN.215,  9.583905e-07   $    0.003815,  0.001908
+        -1701,         MAIN.8,       MAIN.228,  2.754099e-07   $    0.001096,  0.001096
+        -1702,         MAIN.8,       MAIN.230,  5.378058e-07   $    0.002141,  0.000605
+        -1703,         MAIN.8, OUTER_BOARD.22,  3.769732e-07   $    0.001501,  0.001022
+        -1704,         MAIN.8, OUTER_BOARD.78,  6.827982e-07   $    0.002718,  0.000925
+        -1705,         MAIN.8, OUTER_BOARD.85,  8.071755e-07   $    0.003213,  0.001094
+        -1706,         MAIN.8, OUTER_BOARD.92,  4.013776e-07   $    0.001598,  0.001088
+        -1707,         MAIN.8, OUTER_BOARD.99,  3.803182e-07   $    0.001514,  0.000515
+        -1708,         MAIN.8,OUTER_BOARD.106,  1.219178e-06   $    0.004853,  0.000826
+        -1709,         MAIN.8,OUTER_BOARD.113,  6.875553e-07   $    0.002737,  0.000466
+        -1710,         MAIN.8,OUTER_BOARD.120,  5.586538e-07   $    0.002224,  0.000757
+        -1711,         MAIN.9,        MAIN.11,  4.700887e-06   $    0.011617,  0.011617
+        -1712,         MAIN.9,        MAIN.13,  4.744040e-06   $    0.011723,  0.011723
+        -1713,         MAIN.9,        MAIN.14,  2.829399e-06   $    0.006992,  0.006992
+        -1714,         MAIN.9,        MAIN.15,  5.727749e-06   $    0.014154,  0.014154
+        -1715,         MAIN.9,        MAIN.16,  3.887958e-06   $    0.009608,  0.009608
+        -1716,         MAIN.9,        MAIN.18,  1.854574e-06   $    0.004583,  0.009166
+        -1717,         MAIN.9,        MAIN.19,  8.122145e-07   $    0.002007,  0.004014
+        -1718,         MAIN.9,        MAIN.20,  2.959898e-07   $    0.000731,  0.001463
+        -1719,         MAIN.9,        MAIN.21,  7.616550e-07   $    0.001882,  0.003764
+        -1720,         MAIN.9,        MAIN.22,  1.878866e-06   $    0.004643,  0.009286
+        -1721,         MAIN.9,        MAIN.23,  2.042657e-06   $    0.005048,  0.010096
+        -1722,         MAIN.9,        MAIN.24,  1.630836e-06   $    0.004030,  0.008060
+        -1723,         MAIN.9,        MAIN.39,  1.905238e-06   $    0.004708,  0.009416
+        -1724,         MAIN.9,        MAIN.40,  2.604952e-06   $    0.006437,  0.012875
+        -1725,         MAIN.9,        MAIN.41,  2.525199e-06   $    0.006240,  0.012481
+        -1726,         MAIN.9,        MAIN.65,  5.602418e-06   $    0.013845,  0.013845
+        -1727,         MAIN.9,        MAIN.89,  6.698430e-06   $    0.016553,  0.016553
+        -1728,         MAIN.9,       MAIN.102,  5.862118e-06   $    0.014486,  0.014486
+        -1729,         MAIN.9,       MAIN.103,  5.083685e-06   $    0.012563,  0.012563
+        -1730,         MAIN.9,       MAIN.104,  4.240856e-06   $    0.010480,  0.010480
+        -1731,         MAIN.9,       MAIN.129,  4.051514e-06   $    0.010012,  0.010012
+        -1732,         MAIN.9,       MAIN.130,  1.982452e-06   $    0.004899,  0.004899
+        -1733,         MAIN.9,       MAIN.131,  3.238851e-06   $    0.008004,  0.008004
+        -1734,         MAIN.9,       MAIN.146,  1.388946e-06   $    0.003432,  0.006865
+        -1735,         MAIN.9,       MAIN.201,  1.955528e-06   $    0.004832,  0.009665
+        -1736,         MAIN.9,       MAIN.241,  3.815166e-06   $    0.009428,  0.009428
+        -1737,        MAIN.11,        MAIN.13,  4.746401e-06   $    0.011729,  0.011729
+        -1738,        MAIN.11,        MAIN.14,  1.597399e-06   $    0.003947,  0.003947
+        -1739,        MAIN.11,        MAIN.15,  4.345068e-06   $    0.010738,  0.010738
+        -1740,        MAIN.11,        MAIN.16,  3.631165e-06   $    0.008973,  0.008973
+        -1741,        MAIN.11,        MAIN.18,  3.410017e-07   $    0.000843,  0.001685
+        -1742,        MAIN.11,        MAIN.19,  3.354888e-07   $    0.000829,  0.001658
+        -1743,        MAIN.11,        MAIN.20,  8.631174e-07   $    0.002133,  0.004266
+        -1744,        MAIN.11,        MAIN.21,  1.461057e-06   $    0.003611,  0.007221
+        -1745,        MAIN.11,        MAIN.22,  1.687109e-06   $    0.004169,  0.008338
+        -1746,        MAIN.11,        MAIN.23,  1.336133e-06   $    0.003302,  0.006604
+        -1747,        MAIN.11,        MAIN.24,  1.429060e-06   $    0.003531,  0.007063
+        -1748,        MAIN.11,        MAIN.39,  2.706540e-06   $    0.006688,  0.013377
+        -1749,        MAIN.11,        MAIN.40,  2.488352e-06   $    0.006149,  0.012298
+        -1750,        MAIN.11,        MAIN.41,  2.052573e-06   $    0.005072,  0.010145
+        -1751,        MAIN.11,        MAIN.65,  4.838152e-06   $    0.011956,  0.011956
+        -1752,        MAIN.11,        MAIN.89,  5.170415e-06   $    0.012777,  0.012777
+        -1753,        MAIN.11,       MAIN.102,  4.735524e-06   $    0.011702,  0.011702
+        -1754,        MAIN.11,       MAIN.103,  5.634965e-06   $    0.013925,  0.013925
+        -1755,        MAIN.11,       MAIN.104,  3.304014e-06   $    0.008165,  0.008165
+        -1756,        MAIN.11,       MAIN.129,  4.668766e-06   $    0.011537,  0.011537
+        -1757,        MAIN.11,       MAIN.130,  2.961717e-06   $    0.007319,  0.007319
+        -1758,        MAIN.11,       MAIN.131,  4.500899e-06   $    0.011123,  0.011123
+        -1759,        MAIN.11,       MAIN.146,  1.778790e-06   $    0.004396,  0.008791
+        -1760,        MAIN.11,       MAIN.201,  1.713812e-06   $    0.004235,  0.008470
+        -1761,        MAIN.11,       MAIN.241,  5.683356e-06   $    0.014045,  0.014045
+        -1762,        MAIN.13,        MAIN.14,  4.552573e-06   $    0.011250,  0.011250
+        -1763,        MAIN.13,        MAIN.15,  5.094331e-06   $    0.012589,  0.012589
+        -1764,        MAIN.13,        MAIN.16,  5.349428e-06   $    0.013219,  0.013219
+        -1765,        MAIN.13,        MAIN.18,  2.403671e-06   $    0.005940,  0.011880
+        -1766,        MAIN.13,        MAIN.19,  2.345216e-06   $    0.005795,  0.011591
+        -1767,        MAIN.13,        MAIN.20,  1.770765e-06   $    0.004376,  0.008752
+        -1768,        MAIN.13,        MAIN.21,  1.928332e-06   $    0.004765,  0.009531
+        -1769,        MAIN.13,        MAIN.22,  7.319440e-07   $    0.001809,  0.003618
+        -1770,        MAIN.13,        MAIN.23,  1.890426e-06   $    0.004672,  0.009343
+        -1771,        MAIN.13,        MAIN.24,  1.934941e-06   $    0.004782,  0.009563
+        -1772,        MAIN.13,        MAIN.39,  8.498496e-07   $    0.002100,  0.004200
+        -1773,        MAIN.13,        MAIN.40,  1.829045e-06   $    0.004520,  0.009040
+        -1774,        MAIN.13,        MAIN.41,  1.716621e-06   $    0.004242,  0.008484
+        -1775,        MAIN.13,        MAIN.65,  1.265991e-06   $    0.003129,  0.003129
+        -1776,        MAIN.13,        MAIN.89,  4.333546e-06   $    0.010709,  0.010709
+        -1777,        MAIN.13,       MAIN.102,  5.416973e-06   $    0.013386,  0.013386
+        -1778,        MAIN.13,       MAIN.103,  4.957527e-06   $    0.012251,  0.012251
+        -1779,        MAIN.13,       MAIN.104,  4.723328e-06   $    0.011672,  0.011672
+        -1780,        MAIN.13,       MAIN.129,  5.078477e-06   $    0.012550,  0.012550
+        -1781,        MAIN.13,       MAIN.130,  5.154966e-06   $    0.012739,  0.012739
+        -1782,        MAIN.13,       MAIN.131,  5.163657e-06   $    0.012760,  0.012760
+        -1783,        MAIN.13,       MAIN.146,  1.845482e-06   $    0.004561,  0.009121
+        -1784,        MAIN.13,       MAIN.201,  2.212593e-06   $    0.005468,  0.010936
+        -1785,        MAIN.13,       MAIN.241,  3.975498e-06   $    0.009824,  0.009824
+        -1786,        MAIN.14,        MAIN.15,  5.941858e-06   $    0.014683,  0.014683
+        -1787,        MAIN.14,        MAIN.16,  3.693107e-06   $    0.009126,  0.009126
+        -1788,        MAIN.14,        MAIN.18,  2.208110e-06   $    0.005457,  0.010913
+        -1789,        MAIN.14,        MAIN.19,  6.539698e-07   $    0.001616,  0.003232
+        -1790,        MAIN.14,        MAIN.20,  1.964054e-06   $    0.004854,  0.009707
+        -1791,        MAIN.14,        MAIN.21,  2.095266e-06   $    0.005178,  0.010356
+        -1792,        MAIN.14,        MAIN.22,  2.303549e-06   $    0.005693,  0.011385
+        -1793,        MAIN.14,        MAIN.23,  2.488405e-06   $    0.006149,  0.012299
+        -1794,        MAIN.14,        MAIN.24,  2.833737e-06   $    0.007003,  0.014005
+        -1795,        MAIN.14,        MAIN.39,  1.988914e-06   $    0.004915,  0.009830
+        -1796,        MAIN.14,        MAIN.40,  1.429630e-06   $    0.003533,  0.007066
+        -1797,        MAIN.14,        MAIN.41,  8.446915e-07   $    0.002087,  0.004175
+        -1798,        MAIN.14,        MAIN.65,  3.875267e-06   $    0.009577,  0.009577
+        -1799,        MAIN.14,        MAIN.89,  5.602617e-06   $    0.013845,  0.013845
+        -1800,        MAIN.14,       MAIN.102,  3.273262e-06   $    0.008089,  0.008089
+        -1801,        MAIN.14,       MAIN.103,  4.598523e-06   $    0.011364,  0.011364
+        -1802,        MAIN.14,       MAIN.104,  5.318931e-06   $    0.013144,  0.013144
+        -1803,        MAIN.14,       MAIN.129,  4.503154e-06   $    0.011128,  0.011128
+        -1804,        MAIN.14,       MAIN.130,  4.951843e-06   $    0.012237,  0.012237
+        -1805,        MAIN.14,       MAIN.131,  5.826694e-06   $    0.014399,  0.014399
+        -1806,        MAIN.14,       MAIN.146,  2.439918e-06   $    0.006030,  0.012059
+        -1807,        MAIN.14,       MAIN.201,  3.941522e-07   $    0.000974,  0.001948
+        -1808,        MAIN.14,       MAIN.241,  4.884862e-06   $    0.012071,  0.012071
+        -1809,        MAIN.15,        MAIN.16,  4.499768e-06   $    0.011120,  0.011120
+        -1810,        MAIN.15,        MAIN.18,  2.039287e-06   $    0.005039,  0.010079
+        -1811,        MAIN.15,        MAIN.19,  2.321425e-06   $    0.005737,  0.011473
+        -1812,        MAIN.15,        MAIN.20,  2.516618e-06   $    0.006219,  0.012438
+        -1813,        MAIN.15,        MAIN.21,  2.278357e-06   $    0.005630,  0.011261
+        -1814,        MAIN.15,        MAIN.22,  2.121658e-06   $    0.005243,  0.010486
+        -1815,        MAIN.15,        MAIN.23,  1.565174e-06   $    0.003868,  0.007736
+        -1816,        MAIN.15,        MAIN.24,  8.906732e-07   $    0.002201,  0.004402
+        -1817,        MAIN.15,        MAIN.39,  1.623262e-06   $    0.004011,  0.008023
+        -1818,        MAIN.15,        MAIN.40,  6.061576e-07   $    0.001498,  0.002996
+        -1819,        MAIN.15,        MAIN.41,  5.904521e-07   $    0.001459,  0.002918
+        -1820,        MAIN.15,        MAIN.65,  4.389815e-06   $    0.010848,  0.010848
+        -1821,        MAIN.15,        MAIN.89,  1.892037e-06   $    0.004676,  0.004676
+        -1822,        MAIN.15,       MAIN.102,  2.795598e-06   $    0.006908,  0.006908
+        -1823,        MAIN.15,       MAIN.103,  5.269967e-06   $    0.013023,  0.013023
+        -1824,        MAIN.15,       MAIN.104,  4.451500e-06   $    0.011001,  0.011001
+        -1825,        MAIN.15,       MAIN.129,  4.569653e-06   $    0.011293,  0.011293
+        -1826,        MAIN.15,       MAIN.130,  5.014828e-06   $    0.012393,  0.012393
+        -1827,        MAIN.15,       MAIN.131,  5.147601e-06   $    0.012721,  0.012721
+        -1828,        MAIN.15,       MAIN.146,  1.732750e-06   $    0.004282,  0.008564
+        -1829,        MAIN.15,       MAIN.201,  1.618822e-06   $    0.004000,  0.008001
+        -1830,        MAIN.15,       MAIN.241,  3.241129e-06   $    0.008009,  0.008009
+        -1831,        MAIN.16,        MAIN.18,  7.483197e-07   $    0.001849,  0.003698
+        -1832,        MAIN.16,        MAIN.19,  1.816198e-06   $    0.004488,  0.008976
+        -1833,        MAIN.16,        MAIN.20,  1.839595e-06   $    0.004546,  0.009092
+        -1834,        MAIN.16,        MAIN.21,  2.655034e-06   $    0.006561,  0.013122
+        -1835,        MAIN.16,        MAIN.22,  2.132418e-06   $    0.005270,  0.010539
+        -1836,        MAIN.16,        MAIN.23,  1.707930e-06   $    0.004221,  0.008441
+        -1837,        MAIN.16,        MAIN.24,  1.641939e-06   $    0.004058,  0.008115
+        -1838,        MAIN.16,        MAIN.39,  2.514928e-06   $    0.006215,  0.012430
+        -1839,        MAIN.16,        MAIN.40,  1.023602e-06   $    0.002530,  0.005059
+        -1840,        MAIN.16,        MAIN.41,  5.792414e-07   $    0.001431,  0.002863
+        -1841,        MAIN.16,        MAIN.65,  4.503999e-06   $    0.011130,  0.011130
+        -1842,        MAIN.16,        MAIN.89,  2.846461e-06   $    0.007034,  0.007034
+        -1843,        MAIN.16,       MAIN.102,  2.018359e-06   $    0.004988,  0.004988
+        -1844,        MAIN.16,       MAIN.103,  3.345459e-06   $    0.008267,  0.008267
+        -1845,        MAIN.16,       MAIN.104,  4.541903e-06   $    0.011224,  0.011224
+        -1846,        MAIN.16,       MAIN.129,  4.478410e-06   $    0.011067,  0.011067
+        -1847,        MAIN.16,       MAIN.130,  4.710703e-06   $    0.011641,  0.011641
+        -1848,        MAIN.16,       MAIN.131,  4.951544e-06   $    0.012236,  0.012236
+        -1849,        MAIN.16,       MAIN.146,  2.235890e-06   $    0.005525,  0.011051
+        -1850,        MAIN.16,       MAIN.201,  8.751915e-07   $    0.002163,  0.004326
+        -1851,        MAIN.16,       MAIN.241,  3.408144e-06   $    0.008422,  0.008422
+        -1852,        MAIN.18,        MAIN.19,  1.471362e-06   $    0.007272,  0.007272
+        -1853,        MAIN.18,        MAIN.20,  7.982778e-07   $    0.003945,  0.003945
+        -1854,        MAIN.18,        MAIN.21,  1.233201e-06   $    0.006095,  0.006095
+        -1855,        MAIN.18,        MAIN.22,  1.371874e-06   $    0.006780,  0.006780
+        -1856,        MAIN.18,        MAIN.23,  8.763672e-07   $    0.004331,  0.004331
+        -1857,        MAIN.18,        MAIN.24,  1.237257e-06   $    0.006115,  0.006115
+        -1858,        MAIN.18,        MAIN.39,  5.347028e-07   $    0.002643,  0.002643
+        -1859,        MAIN.18,        MAIN.40,  3.608080e-07   $    0.001783,  0.001783
+        -1860,        MAIN.18,        MAIN.65,  1.727430e-06   $    0.008538,  0.004269
+        -1861,        MAIN.18,        MAIN.89,  1.052239e-06   $    0.005201,  0.002600
+        -1862,        MAIN.18,       MAIN.102,  2.835434e-07   $    0.001401,  0.000701
+        -1863,        MAIN.18,       MAIN.103,  1.595361e-06   $    0.007885,  0.003942
+        -1864,        MAIN.18,       MAIN.104,  2.438701e-06   $    0.012053,  0.006027
+        -1865,        MAIN.18,       MAIN.129,  2.325172e-06   $    0.011492,  0.005746
+        -1866,        MAIN.18,       MAIN.130,  1.909119e-06   $    0.009436,  0.004718
+        -1867,        MAIN.18,       MAIN.131,  2.438559e-06   $    0.012052,  0.006026
+        -1868,        MAIN.18,       MAIN.146,  1.157014e-06   $    0.005718,  0.005718
+        -1869,        MAIN.18,       MAIN.201,  3.727405e-07   $    0.001842,  0.001842
+        -1870,        MAIN.18,       MAIN.241,  1.583438e-06   $    0.007826,  0.003913
+        -1871,        MAIN.19,        MAIN.20,  1.221833e-06   $    0.006039,  0.006039
+        -1872,        MAIN.19,        MAIN.21,  1.032379e-06   $    0.005102,  0.005102
+        -1873,        MAIN.19,        MAIN.22,  7.692058e-07   $    0.003802,  0.003802
+        -1874,        MAIN.19,        MAIN.23,  1.268861e-06   $    0.006271,  0.006271
+        -1875,        MAIN.19,        MAIN.24,  1.039538e-06   $    0.005138,  0.005138
+        -1876,        MAIN.19,        MAIN.39,  7.224266e-07   $    0.003571,  0.003571
+        -1877,        MAIN.19,        MAIN.40,  1.037942e-06   $    0.005130,  0.005130
+        -1878,        MAIN.19,        MAIN.41,  3.575839e-07   $    0.001767,  0.001767
+        -1879,        MAIN.19,        MAIN.65,  1.794705e-06   $    0.008870,  0.004435
+        -1880,        MAIN.19,        MAIN.89,  1.796067e-06   $    0.008877,  0.004438
+        -1881,        MAIN.19,       MAIN.102,  7.375247e-07   $    0.003645,  0.001823
+        -1882,        MAIN.19,       MAIN.103,  1.695518e-06   $    0.008380,  0.004190
+        -1883,        MAIN.19,       MAIN.104,  1.606545e-06   $    0.007940,  0.003970
+        -1884,        MAIN.19,       MAIN.129,  1.991735e-06   $    0.009844,  0.004922
+        -1885,        MAIN.19,       MAIN.130,  1.940105e-06   $    0.009589,  0.004794
+        -1886,        MAIN.19,       MAIN.131,  2.049198e-06   $    0.010128,  0.005064
+        -1887,        MAIN.19,       MAIN.146,  1.155798e-06   $    0.005712,  0.005712
+        -1888,        MAIN.19,       MAIN.241,  1.805274e-06   $    0.008922,  0.004461
+        -1889,        MAIN.20,        MAIN.21,  1.096641e-06   $    0.005420,  0.005420
+        -1890,        MAIN.20,        MAIN.22,  1.207003e-06   $    0.005965,  0.005965
+        -1891,        MAIN.20,        MAIN.23,  1.416562e-06   $    0.007001,  0.007001
+        -1892,        MAIN.20,        MAIN.24,  1.229980e-06   $    0.006079,  0.006079
+        -1893,        MAIN.20,        MAIN.39,  1.005003e-06   $    0.004967,  0.004967
+        -1894,        MAIN.20,        MAIN.40,  6.939841e-07   $    0.003430,  0.003430
+        -1895,        MAIN.20,        MAIN.41,  5.627237e-07   $    0.002781,  0.002781
+        -1896,        MAIN.20,        MAIN.65,  2.339653e-06   $    0.011563,  0.005782
+        -1897,        MAIN.20,        MAIN.89,  1.717863e-06   $    0.008490,  0.004245
+        -1898,        MAIN.20,       MAIN.102,  1.169422e-06   $    0.005780,  0.002890
+        -1899,        MAIN.20,       MAIN.103,  1.033106e-06   $    0.005106,  0.002553
+        -1900,        MAIN.20,       MAIN.104,  1.954065e-06   $    0.009658,  0.004829
+        -1901,        MAIN.20,       MAIN.129,  2.294273e-06   $    0.011339,  0.005670
+        -1902,        MAIN.20,       MAIN.130,  7.195418e-07   $    0.003556,  0.001778
+        -1903,        MAIN.20,       MAIN.131,  1.744044e-06   $    0.008620,  0.004310
+        -1904,        MAIN.20,       MAIN.146,  1.440135e-06   $    0.007118,  0.007118
+        -1905,        MAIN.20,       MAIN.201,  2.296201e-07   $    0.001135,  0.001135
+        -1906,        MAIN.20,       MAIN.241,  2.255870e-06   $    0.011149,  0.005575
+        -1907,        MAIN.21,        MAIN.22,  1.049017e-06   $    0.005185,  0.005185
+        -1908,        MAIN.21,        MAIN.23,  9.162589e-07   $    0.004529,  0.004529
+        -1909,        MAIN.21,        MAIN.24,  1.013784e-06   $    0.005011,  0.005011
+        -1910,        MAIN.21,        MAIN.39,  2.671655e-07   $    0.001320,  0.001320
+        -1911,        MAIN.21,        MAIN.40,  6.554553e-07   $    0.003240,  0.003240
+        -1912,        MAIN.21,        MAIN.41,  8.900072e-07   $    0.004399,  0.004399
+        -1913,        MAIN.21,        MAIN.65,  1.535423e-06   $    0.007589,  0.003794
+        -1914,        MAIN.21,        MAIN.89,  1.705322e-06   $    0.008428,  0.004214
+        -1915,        MAIN.21,       MAIN.102,  1.918095e-06   $    0.009480,  0.004740
+        -1916,        MAIN.21,       MAIN.103,  4.596629e-07   $    0.002272,  0.001136
+        -1917,        MAIN.21,       MAIN.104,  2.859341e-06   $    0.014132,  0.007066
+        -1918,        MAIN.21,       MAIN.129,  1.408405e-06   $    0.006961,  0.003480
+        -1919,        MAIN.21,       MAIN.130,  1.549921e-06   $    0.007660,  0.003830
+        -1920,        MAIN.21,       MAIN.131,  6.103247e-07   $    0.003016,  0.001508
+        -1921,        MAIN.21,       MAIN.146,  1.298189e-06   $    0.006416,  0.006416
+        -1922,        MAIN.21,       MAIN.201,  5.332820e-07   $    0.002636,  0.002636
+        -1923,        MAIN.21,       MAIN.241,  1.355173e-06   $    0.006698,  0.003349
+        -1924,        MAIN.22,        MAIN.23,  1.224711e-06   $    0.006053,  0.006053
+        -1925,        MAIN.22,        MAIN.24,  8.707999e-07   $    0.004304,  0.004304
+        -1926,        MAIN.22,        MAIN.39,  2.965439e-07   $    0.001466,  0.001466
+        -1927,        MAIN.22,        MAIN.40,  4.005848e-07   $    0.001980,  0.001980
+        -1928,        MAIN.22,        MAIN.41,  5.584377e-07   $    0.002760,  0.002760
+        -1929,        MAIN.22,        MAIN.65,  5.121478e-07   $    0.002531,  0.001266
+        -1930,        MAIN.22,        MAIN.89,  1.291904e-06   $    0.006385,  0.003193
+        -1931,        MAIN.22,       MAIN.102,  2.069856e-06   $    0.010230,  0.005115
+        -1932,        MAIN.22,       MAIN.103,  1.805785e-06   $    0.008925,  0.004462
+        -1933,        MAIN.22,       MAIN.104,  1.635965e-06   $    0.008086,  0.004043
+        -1934,        MAIN.22,       MAIN.129,  1.851249e-06   $    0.009150,  0.004575
+        -1935,        MAIN.22,       MAIN.130,  2.336197e-06   $    0.011546,  0.005773
+        -1936,        MAIN.22,       MAIN.131,  2.331503e-06   $    0.011523,  0.005762
+        -1937,        MAIN.22,       MAIN.146,  1.278234e-06   $    0.006318,  0.006318
+        -1938,        MAIN.22,       MAIN.201,  8.341451e-07   $    0.004123,  0.004123
+        -1939,        MAIN.22,       MAIN.241,  9.098806e-07   $    0.004497,  0.002248
+        -1940,        MAIN.23,        MAIN.24,  1.382062e-06   $    0.006831,  0.006831
+        -1941,        MAIN.23,        MAIN.39,  5.586833e-07   $    0.002761,  0.002761
+        -1942,        MAIN.23,        MAIN.40,  2.501498e-07   $    0.001236,  0.001236
+        -1943,        MAIN.23,        MAIN.41,  7.438330e-07   $    0.003676,  0.003676
+        -1944,        MAIN.23,        MAIN.65,  8.491382e-07   $    0.004197,  0.002098
+        -1945,        MAIN.23,        MAIN.89,  9.188856e-07   $    0.004541,  0.002271
+        -1946,        MAIN.23,       MAIN.102,  1.361888e-06   $    0.006731,  0.003365
+        -1947,        MAIN.23,       MAIN.103,  1.935834e-06   $    0.009568,  0.004784
+        -1948,        MAIN.23,       MAIN.104,  6.721245e-07   $    0.003322,  0.001661
+        -1949,        MAIN.23,       MAIN.129,  2.614890e-06   $    0.012924,  0.006462
+        -1950,        MAIN.23,       MAIN.130,  2.562575e-06   $    0.012665,  0.006333
+        -1951,        MAIN.23,       MAIN.131,  2.580598e-06   $    0.012754,  0.006377
+        -1952,        MAIN.23,       MAIN.146,  1.055991e-06   $    0.005219,  0.005219
+        -1953,        MAIN.23,       MAIN.201,  8.373822e-07   $    0.004139,  0.004139
+        -1954,        MAIN.23,       MAIN.241,  3.437414e-07   $    0.001699,  0.000849
+        -1955,        MAIN.24,        MAIN.39,  6.865524e-07   $    0.003393,  0.003393
+        -1956,        MAIN.24,        MAIN.41,  3.038120e-07   $    0.001502,  0.001502
+        -1957,        MAIN.24,        MAIN.65,  1.608026e-06   $    0.007947,  0.003974
+        -1958,        MAIN.24,        MAIN.89,  3.124762e-07   $    0.001544,  0.000772
+        -1959,        MAIN.24,       MAIN.102,  7.844150e-07   $    0.003877,  0.001938
+        -1960,        MAIN.24,       MAIN.103,  2.775802e-06   $    0.013719,  0.006860
+        -1961,        MAIN.24,       MAIN.104,  1.360084e-06   $    0.006722,  0.003361
+        -1962,        MAIN.24,       MAIN.129,  2.559662e-06   $    0.012651,  0.006325
+        -1963,        MAIN.24,       MAIN.130,  2.237388e-06   $    0.011058,  0.005529
+        -1964,        MAIN.24,       MAIN.131,  2.365874e-06   $    0.011693,  0.005847
+        -1965,        MAIN.24,       MAIN.146,  1.305722e-06   $    0.006453,  0.006453
+        -1966,        MAIN.24,       MAIN.201,  7.019508e-07   $    0.003469,  0.003469
+        -1967,        MAIN.24,       MAIN.241,  1.026305e-06   $    0.005072,  0.002536
+        -1968,        MAIN.26,        MAIN.43,  1.619526e-06   $    0.003644,  0.000911
+        -1969,        MAIN.26,        MAIN.54,  9.644577e-07   $    0.002170,  0.000543
+        -1970,        MAIN.26,       MAIN.133,  3.767757e-06   $    0.008477,  0.004239
+        -1971,        MAIN.26,       MAIN.148,  8.319399e-07   $    0.001872,  0.000936
+        -1972,        MAIN.26,       MAIN.175,  3.262896e-06   $    0.007342,  0.003671
+        -1973,        MAIN.26,       MAIN.186,  2.617165e-07   $    0.000589,  0.001042
+        -1974,        MAIN.26,       MAIN.188,  3.788907e-06   $    0.008525,  0.002131
+        -1975,        MAIN.26,       MAIN.203,  1.478611e-06   $    0.003327,  0.000832
+        -1976,        MAIN.26,       MAIN.230,  9.180830e-07   $    0.002066,  0.001033
+        -1977,        MAIN.37,        MAIN.38,  4.306658e-07   $    0.001714,  0.001714
+        -1978,        MAIN.37,        MAIN.43,  6.783314e-07   $    0.002700,  0.000382
+        -1979,        MAIN.37,        MAIN.54,  3.167713e-07   $    0.001261,  0.000178
+        -1980,        MAIN.37,        MAIN.91,  3.551983e-07   $    0.001414,  0.000400
+        -1981,        MAIN.37,       MAIN.144,  1.277933e-06   $    0.005087,  0.002544
+        -1982,        MAIN.37,       MAIN.145,  9.662676e-07   $    0.003846,  0.001923
+        -1983,        MAIN.37,       MAIN.160,  1.324478e-06   $    0.005272,  0.002636
+        -1984,        MAIN.37,       MAIN.175,  9.570349e-07   $    0.003810,  0.001077
+        -1985,        MAIN.37,       MAIN.186,  5.988178e-07   $    0.002384,  0.002384
+        -1986,        MAIN.37,       MAIN.199,  6.093277e-07   $    0.002426,  0.001213
+        -1987,        MAIN.37,       MAIN.200,  9.417139e-07   $    0.003749,  0.001874
+        -1988,        MAIN.37,       MAIN.215,  1.136997e-06   $    0.004526,  0.002263
+        -1989,        MAIN.37,       MAIN.230,  9.350952e-07   $    0.003722,  0.001052
+        -1990,        MAIN.37, OUTER_BOARD.78,  6.484167e-07   $    0.002581,  0.000879
+        -1991,        MAIN.37, OUTER_BOARD.85,  8.160506e-07   $    0.003248,  0.001106
+        -1992,        MAIN.37, OUTER_BOARD.92,  2.949284e-07   $    0.001174,  0.000800
+        -1993,        MAIN.37, OUTER_BOARD.99,  5.432494e-07   $    0.002163,  0.000736
+        -1994,        MAIN.37,OUTER_BOARD.106,  7.736718e-07   $    0.003080,  0.000524
+        -1995,        MAIN.37,OUTER_BOARD.113,  9.516953e-07   $    0.003788,  0.000645
+        -1996,        MAIN.38,        MAIN.54,  4.786290e-07   $    0.001905,  0.000269
+        -1997,        MAIN.38,        MAIN.67,  8.202736e-07   $    0.003265,  0.000923
+        -1998,        MAIN.38,       MAIN.106,  4.445687e-07   $    0.001770,  0.000500
+        -1999,        MAIN.38,       MAIN.118,  2.894749e-07   $    0.001152,  0.000651
+        -2000,        MAIN.38,       MAIN.133,  3.394310e-07   $    0.001351,  0.000382
+        -2001,        MAIN.38,       MAIN.144,  8.645040e-07   $    0.003441,  0.001721
+        -2002,        MAIN.38,       MAIN.145,  1.363419e-06   $    0.005427,  0.002714
+        -2003,        MAIN.38,       MAIN.159,  1.185028e-06   $    0.004717,  0.002359
+        -2004,        MAIN.38,       MAIN.173,  7.070664e-07   $    0.002815,  0.002815
+        -2005,        MAIN.38,       MAIN.199,  9.761949e-07   $    0.003886,  0.001943
+        -2006,        MAIN.38,       MAIN.200,  6.703741e-07   $    0.002669,  0.001334
+        -2007,        MAIN.38,       MAIN.203,  2.946296e-07   $    0.001173,  0.000166
+        -2008,        MAIN.38,       MAIN.214,  1.342680e-06   $    0.005345,  0.002672
+        -2009,        MAIN.38,       MAIN.217,  8.777819e-07   $    0.003494,  0.000988
+        -2010,        MAIN.38,       MAIN.228,  9.082279e-07   $    0.003615,  0.003615
+        -2011,        MAIN.38, OUTER_BOARD.22,  1.415935e-06   $    0.005636,  0.003838
+        -2012,        MAIN.38, OUTER_BOARD.29,  6.389716e-07   $    0.002544,  0.000433
+        -2013,        MAIN.38, OUTER_BOARD.36,  5.267588e-07   $    0.002097,  0.000357
+        -2014,        MAIN.38, OUTER_BOARD.78,  2.246870e-06   $    0.008944,  0.003045
+        -2015,        MAIN.38, OUTER_BOARD.85,  1.627176e-06   $    0.006477,  0.002206
+        -2016,        MAIN.38, OUTER_BOARD.99,  6.454933e-07   $    0.002570,  0.000875
+        -2017,        MAIN.38,OUTER_BOARD.106,  2.174168e-06   $    0.008655,  0.001473
+        -2018,        MAIN.38,OUTER_BOARD.113,  8.599508e-07   $    0.003423,  0.000583
+        -2019,        MAIN.38,OUTER_BOARD.120,  6.123558e-07   $    0.002438,  0.000830
+        -2020,        MAIN.39,        MAIN.40,  1.014314e-06   $    0.005013,  0.005013
+        -2021,        MAIN.39,        MAIN.41,  9.300225e-07   $    0.004597,  0.004597
+        -2022,        MAIN.39,        MAIN.65,  2.127042e-06   $    0.010513,  0.005256
+        -2023,        MAIN.39,        MAIN.89,  2.705337e-06   $    0.013371,  0.006685
+        -2024,        MAIN.39,       MAIN.102,  2.531695e-06   $    0.012513,  0.006256
+        -2025,        MAIN.39,       MAIN.103,  1.811675e-06   $    0.008954,  0.004477
+        -2026,        MAIN.39,       MAIN.104,  1.476351e-06   $    0.007297,  0.003648
+        -2027,        MAIN.39,       MAIN.129,  6.648189e-07   $    0.003286,  0.001643
+        -2028,        MAIN.39,       MAIN.130,  1.621461e-06   $    0.008014,  0.004007
+        -2029,        MAIN.39,       MAIN.131,  9.983517e-07   $    0.004934,  0.002467
+        -2030,        MAIN.39,       MAIN.201,  1.063752e-06   $    0.005257,  0.005257
+        -2031,        MAIN.39,       MAIN.241,  2.253355e-06   $    0.011137,  0.005568
+        -2032,        MAIN.40,        MAIN.41,  1.620857e-06   $    0.008011,  0.008011
+        -2033,        MAIN.40,        MAIN.65,  2.217511e-06   $    0.010960,  0.005480
+        -2034,        MAIN.40,        MAIN.89,  1.851877e-06   $    0.009153,  0.004576
+        -2035,        MAIN.40,       MAIN.102,  2.326803e-06   $    0.011500,  0.005750
+        -2036,        MAIN.40,       MAIN.103,  2.062194e-06   $    0.010192,  0.005096
+        -2037,        MAIN.40,       MAIN.104,  9.812933e-07   $    0.004850,  0.002425
+        -2038,        MAIN.40,       MAIN.129,  1.909274e-06   $    0.009436,  0.004718
+        -2039,        MAIN.40,       MAIN.130,  1.472359e-06   $    0.007277,  0.003638
+        -2040,        MAIN.40,       MAIN.131,  1.981023e-06   $    0.009791,  0.004895
+        -2041,        MAIN.40,       MAIN.146,  7.095805e-07   $    0.003507,  0.003507
+        -2042,        MAIN.40,       MAIN.201,  1.351989e-06   $    0.006682,  0.006682
+        -2043,        MAIN.40,       MAIN.241,  2.209577e-06   $    0.010921,  0.005460
+        -2044,        MAIN.41,        MAIN.65,  2.837062e-06   $    0.014022,  0.007011
+        -2045,        MAIN.41,        MAIN.89,  2.301010e-06   $    0.011372,  0.005686
+        -2046,        MAIN.41,       MAIN.102,  1.566857e-06   $    0.007744,  0.003872
+        -2047,        MAIN.41,       MAIN.103,  2.146483e-06   $    0.010609,  0.005304
+        -2048,        MAIN.41,       MAIN.104,  1.593100e-06   $    0.007874,  0.003937
+        -2049,        MAIN.41,       MAIN.129,  1.954012e-06   $    0.009657,  0.004829
+        -2050,        MAIN.41,       MAIN.130,  2.064821e-06   $    0.010205,  0.005103
+        -2051,        MAIN.41,       MAIN.131,  2.144672e-06   $    0.010600,  0.005300
+        -2052,        MAIN.41,       MAIN.146,  8.319989e-07   $    0.004112,  0.004112
+        -2053,        MAIN.41,       MAIN.201,  1.556709e-06   $    0.007694,  0.007694
+        -2054,        MAIN.41,       MAIN.241,  2.581132e-06   $    0.012757,  0.006378
+        -2055,        MAIN.43,        MAIN.54,  1.975493e-05   $    0.011112,  0.011112
+        -2056,        MAIN.43,        MAIN.67,  3.774601e-06   $    0.002123,  0.004246
+        -2057,        MAIN.43,        MAIN.78,  4.411338e-06   $    0.002481,  0.009926
+        -2058,        MAIN.43,        MAIN.91,  1.150264e-05   $    0.006470,  0.012940
+        -2059,        MAIN.43,       MAIN.106,  7.545671e-06   $    0.004244,  0.008489
+        -2060,        MAIN.43,       MAIN.118,  1.716120e-06   $    0.000965,  0.003861
+        -2061,        MAIN.43,       MAIN.133,  3.493346e-06   $    0.001965,  0.003930
+        -2062,        MAIN.43,       MAIN.144,  7.412571e-07   $    0.000417,  0.001475
+        -2063,        MAIN.43,       MAIN.148,  2.617725e-06   $    0.001472,  0.002945
+        -2064,        MAIN.43,       MAIN.162,  9.704939e-07   $    0.000546,  0.002184
+        -2065,        MAIN.43,       MAIN.175,  7.400190e-06   $    0.004163,  0.008325
+        -2066,        MAIN.43,       MAIN.188,  1.596227e-05   $    0.008979,  0.008979
+        -2067,        MAIN.43,       MAIN.203,  1.075599e-05   $    0.006050,  0.006050
+        -2068,        MAIN.43,       MAIN.217,  3.224282e-06   $    0.001814,  0.003627
+        -2069,        MAIN.43,       MAIN.230,  1.208985e-05   $    0.006801,  0.013601
+        -2070,        MAIN.54,        MAIN.67,  1.143965e-05   $    0.006435,  0.012870
+        -2071,        MAIN.54,        MAIN.78,  1.480120e-06   $    0.000833,  0.003330
+        -2072,        MAIN.54,        MAIN.91,  6.696654e-06   $    0.003767,  0.007534
+        -2073,        MAIN.54,       MAIN.106,  1.278209e-05   $    0.007190,  0.014380
+        -2074,        MAIN.54,       MAIN.118,  4.371289e-06   $    0.002459,  0.009835
+        -2075,        MAIN.54,       MAIN.133,  2.820152e-06   $    0.001586,  0.003173
+        -2076,        MAIN.54,       MAIN.144,  5.657780e-07   $    0.000318,  0.001126
+        -2077,        MAIN.54,       MAIN.148,  4.262958e-06   $    0.002398,  0.004796
+        -2078,        MAIN.54,       MAIN.162,  1.672060e-06   $    0.000941,  0.003762
+        -2079,        MAIN.54,       MAIN.173,  4.704284e-07   $    0.000265,  0.001873
+        -2080,        MAIN.54,       MAIN.175,  2.931070e-06   $    0.001649,  0.003297
+        -2081,        MAIN.54,       MAIN.188,  1.190785e-05   $    0.006698,  0.006698
+        -2082,        MAIN.54,       MAIN.203,  1.739642e-05   $    0.009785,  0.009785
+        -2083,        MAIN.54,       MAIN.217,  7.291654e-06   $    0.004102,  0.008203
+        -2084,        MAIN.54,       MAIN.230,  2.929778e-06   $    0.001648,  0.003296
+        -2085,        MAIN.54, OUTER_BOARD.22,  1.212662e-06   $    0.000682,  0.003287
+        -2086,        MAIN.54, OUTER_BOARD.78,  2.401483e-06   $    0.001351,  0.003255
+        -2087,        MAIN.54, OUTER_BOARD.85,  2.529189e-06   $    0.001423,  0.003428
+        -2088,        MAIN.54, OUTER_BOARD.92,  1.438639e-06   $    0.000809,  0.003900
+        -2089,        MAIN.54,OUTER_BOARD.106,  1.647598e-06   $    0.000927,  0.001117
+        -2090,        MAIN.54,OUTER_BOARD.113,  2.947715e-06   $    0.001658,  0.001998
+        -2091,        MAIN.54,OUTER_BOARD.120,  7.831883e-07   $    0.000441,  0.001062
+        -2092,        MAIN.65,        MAIN.89,  5.935246e-06   $    0.014667,  0.014667
+        -2093,        MAIN.65,       MAIN.102,  5.133019e-06   $    0.012685,  0.012685
+        -2094,        MAIN.65,       MAIN.103,  5.584609e-06   $    0.013801,  0.013801
+        -2095,        MAIN.65,       MAIN.104,  3.891823e-06   $    0.009617,  0.009617
+        -2096,        MAIN.65,       MAIN.129,  2.299656e-06   $    0.005683,  0.005683
+        -2097,        MAIN.65,       MAIN.130,  4.277677e-06   $    0.010571,  0.010571
+        -2098,        MAIN.65,       MAIN.131,  4.023094e-06   $    0.009942,  0.009942
+        -2099,        MAIN.65,       MAIN.146,  1.080338e-06   $    0.002670,  0.005339
+        -2100,        MAIN.65,       MAIN.201,  1.956018e-06   $    0.004834,  0.009667
+        -2101,        MAIN.65,       MAIN.241,  5.315889e-06   $    0.013137,  0.013137
+        -2102,        MAIN.67,        MAIN.78,  4.481604e-07   $    0.000504,  0.001008
+        -2103,        MAIN.67,        MAIN.91,  1.653800e-06   $    0.001861,  0.001861
+        -2104,        MAIN.67,       MAIN.106,  4.322076e-06   $    0.004862,  0.004862
+        -2105,        MAIN.67,       MAIN.118,  3.070066e-06   $    0.003454,  0.006908
+        -2106,        MAIN.67,       MAIN.148,  1.537206e-06   $    0.001729,  0.001729
+        -2107,        MAIN.67,       MAIN.162,  6.316510e-07   $    0.000711,  0.001421
+        -2108,        MAIN.67,       MAIN.173,  1.302102e-06   $    0.001465,  0.005183
+        -2109,        MAIN.67,       MAIN.188,  2.977406e-06   $    0.003350,  0.001675
+        -2110,        MAIN.67,       MAIN.203,  6.845856e-06   $    0.007702,  0.003851
+        -2111,        MAIN.67,       MAIN.217,  4.837069e-06   $    0.005442,  0.005442
+        -2112,        MAIN.67,       MAIN.228,  4.046011e-07   $    0.000455,  0.001611
+        -2113,        MAIN.67, OUTER_BOARD.22,  4.545752e-07   $    0.000511,  0.001232
+        -2114,        MAIN.67, OUTER_BOARD.78,  1.619072e-06   $    0.001821,  0.002195
+        -2115,        MAIN.67, OUTER_BOARD.85,  9.107414e-07   $    0.001025,  0.001234
+        -2116,        MAIN.67, OUTER_BOARD.92,  6.199309e-07   $    0.000697,  0.001681
+        -2117,        MAIN.67,OUTER_BOARD.113,  9.561933e-07   $    0.001076,  0.000648
+        -2118,        MAIN.78,        MAIN.91,  3.276062e-06   $    0.007371,  0.003686
+        -2119,        MAIN.78,       MAIN.106,  9.275022e-07   $    0.002087,  0.001043
+        -2120,        MAIN.78,       MAIN.175,  8.192619e-07   $    0.001843,  0.000922
+        -2121,        MAIN.78,       MAIN.188,  1.820829e-06   $    0.004097,  0.001024
+        -2122,        MAIN.78,       MAIN.203,  8.956587e-07   $    0.002015,  0.000504
+        -2123,        MAIN.78,       MAIN.230,  2.903266e-06   $    0.006532,  0.003266
+        -2124,        MAIN.89,       MAIN.102,  4.997814e-06   $    0.012351,  0.012351
+        -2125,        MAIN.89,       MAIN.103,  5.005046e-06   $    0.012368,  0.012368
+        -2126,        MAIN.89,       MAIN.104,  3.466219e-06   $    0.008566,  0.008566
+        -2127,        MAIN.89,       MAIN.129,  4.962455e-06   $    0.012263,  0.012263
+        -2128,        MAIN.89,       MAIN.130,  5.270825e-06   $    0.013025,  0.013025
+        -2129,        MAIN.89,       MAIN.131,  4.936678e-06   $    0.012200,  0.012200
+        -2130,        MAIN.89,       MAIN.146,  1.951552e-06   $    0.004823,  0.009645
+        -2131,        MAIN.89,       MAIN.201,  2.058872e-06   $    0.005088,  0.010176
+        -2132,        MAIN.89,       MAIN.241,  5.368352e-06   $    0.013266,  0.013266
+        -2133,        MAIN.91,       MAIN.106,  5.390826e-06   $    0.006065,  0.006065
+        -2134,        MAIN.91,       MAIN.118,  6.970378e-07   $    0.000784,  0.001568
+        -2135,        MAIN.91,       MAIN.148,  1.066769e-06   $    0.001200,  0.001200
+        -2136,        MAIN.91,       MAIN.175,  1.343225e-06   $    0.001511,  0.001511
+        -2137,        MAIN.91,       MAIN.188,  3.345327e-06   $    0.003763,  0.001882
+        -2138,        MAIN.91,       MAIN.203,  3.281707e-06   $    0.003692,  0.001846
+        -2139,        MAIN.91,       MAIN.217,  1.133973e-06   $    0.001276,  0.001276
+        -2140,        MAIN.91,       MAIN.230,  4.743208e-06   $    0.005336,  0.005336
+        -2141,       MAIN.102,       MAIN.103,  5.219088e-06   $    0.012897,  0.012897
+        -2142,       MAIN.102,       MAIN.104,  4.358221e-06   $    0.010770,  0.010770
+        -2143,       MAIN.102,       MAIN.129,  4.339132e-06   $    0.010723,  0.010723
+        -2144,       MAIN.102,       MAIN.130,  4.278945e-06   $    0.010574,  0.010574
+        -2145,       MAIN.102,       MAIN.131,  4.411737e-06   $    0.010902,  0.010902
+        -2146,       MAIN.102,       MAIN.146,  1.638170e-06   $    0.004048,  0.008096
+        -2147,       MAIN.102,       MAIN.201,  2.215040e-06   $    0.005474,  0.010948
+        -2148,       MAIN.102,       MAIN.241,  5.577332e-06   $    0.013783,  0.013783
+        -2149,       MAIN.103,       MAIN.104,  4.192721e-06   $    0.010361,  0.010361
+        -2150,       MAIN.103,       MAIN.129,  2.923530e-06   $    0.007225,  0.007225
+        -2151,       MAIN.103,       MAIN.130,  3.702258e-06   $    0.009149,  0.009149
+        -2152,       MAIN.103,       MAIN.131,  1.676946e-06   $    0.004144,  0.004144
+        -2153,       MAIN.103,       MAIN.146,  8.915164e-07   $    0.002203,  0.004406
+        -2154,       MAIN.103,       MAIN.201,  2.239457e-06   $    0.005534,  0.011068
+        -2155,       MAIN.103,       MAIN.241,  4.558865e-06   $    0.011266,  0.011266
+        -2156,       MAIN.104,       MAIN.129,  4.825404e-06   $    0.011925,  0.011925
+        -2157,       MAIN.104,       MAIN.130,  4.605000e-06   $    0.011380,  0.011380
+        -2158,       MAIN.104,       MAIN.131,  4.563683e-06   $    0.011278,  0.011278
+        -2159,       MAIN.104,       MAIN.146,  2.109510e-06   $    0.005213,  0.010426
+        -2160,       MAIN.104,       MAIN.201,  2.114585e-06   $    0.005226,  0.010451
+        -2161,       MAIN.104,       MAIN.241,  1.719158e-06   $    0.004248,  0.004248
+        -2162,       MAIN.106,       MAIN.118,  3.802210e-06   $    0.004277,  0.008555
+        -2163,       MAIN.106,       MAIN.148,  9.884957e-07   $    0.001112,  0.001112
+        -2164,       MAIN.106,       MAIN.159,  1.287276e-06   $    0.001448,  0.002562
+        -2165,       MAIN.106,       MAIN.188,  2.322978e-06   $    0.002613,  0.001307
+        -2166,       MAIN.106,       MAIN.203,  3.821071e-06   $    0.004299,  0.002149
+        -2167,       MAIN.106,       MAIN.217,  1.607860e-06   $    0.001809,  0.001809
+        -2168,       MAIN.106,       MAIN.230,  1.413405e-06   $    0.001590,  0.001590
+        -2169,       MAIN.106, OUTER_BOARD.85,  1.232104e-06   $    0.001386,  0.001670
+        -2170,       MAIN.106, OUTER_BOARD.92,  7.377777e-07   $    0.000830,  0.002000
+        -2171,       MAIN.118,       MAIN.188,  8.593711e-07   $    0.001934,  0.000483
+        -2172,       MAIN.118,       MAIN.203,  1.374710e-06   $    0.003093,  0.000773
+        -2173,       MAIN.118,       MAIN.217,  7.159122e-07   $    0.001611,  0.000805
+        -2174,       MAIN.118, OUTER_BOARD.36,  5.102553e-07   $    0.001148,  0.000346
+        -2175,       MAIN.118, OUTER_BOARD.85,  4.646637e-07   $    0.001045,  0.000630
+        -2176,       MAIN.118,OUTER_BOARD.106,  5.533648e-07   $    0.001245,  0.000375
+        -2177,       MAIN.129,       MAIN.130,  6.207931e-06   $    0.015341,  0.015341
+        -2178,       MAIN.129,       MAIN.131,  4.672509e-06   $    0.011547,  0.011547
+        -2179,       MAIN.129,       MAIN.146,  9.374523e-07   $    0.002317,  0.004633
+        -2180,       MAIN.129,       MAIN.201,  2.653130e-06   $    0.006556,  0.013113
+        -2181,       MAIN.129,       MAIN.241,  3.869287e-06   $    0.009562,  0.009562
+        -2182,       MAIN.130,       MAIN.131,  4.493489e-06   $    0.011104,  0.011104
+        -2183,       MAIN.130,       MAIN.146,  1.710712e-06   $    0.004228,  0.008455
+        -2184,       MAIN.130,       MAIN.201,  9.994975e-07   $    0.002470,  0.004940
+        -2185,       MAIN.130,       MAIN.241,  4.243603e-06   $    0.010487,  0.010487
+        -2186,       MAIN.131,       MAIN.146,  1.543730e-06   $    0.003815,  0.007630
+        -2187,       MAIN.131,       MAIN.201,  1.420066e-06   $    0.003509,  0.007019
+        -2188,       MAIN.131,       MAIN.241,  4.961350e-06   $    0.012260,  0.012260
+        -2189,       MAIN.133,       MAIN.148,  4.858658e-06   $    0.005466,  0.005466
+        -2190,       MAIN.133,       MAIN.162,  5.129197e-07   $    0.000577,  0.001154
+        -2191,       MAIN.133,       MAIN.175,  4.765512e-06   $    0.005361,  0.005361
+        -2192,       MAIN.133,       MAIN.188,  1.103949e-05   $    0.012419,  0.006210
+        -2193,       MAIN.133,       MAIN.203,  6.984970e-06   $    0.007858,  0.003929
+        -2194,       MAIN.133,       MAIN.217,  1.405988e-06   $    0.001582,  0.001582
+        -2195,       MAIN.133,       MAIN.230,  1.375689e-06   $    0.001548,  0.001548
+        -2196,       MAIN.144,       MAIN.145,  2.668394e-06   $    0.005311,  0.005311
+        -2197,       MAIN.144,       MAIN.159,  1.776792e-06   $    0.003536,  0.003536
+        -2198,       MAIN.144,       MAIN.160,  3.002539e-06   $    0.005976,  0.005976
+        -2199,       MAIN.144,       MAIN.186,  6.856458e-07   $    0.001365,  0.002729
+        -2200,       MAIN.144,       MAIN.199,  2.193142e-06   $    0.004365,  0.004365
+        -2201,       MAIN.144,       MAIN.200,  2.499564e-06   $    0.004975,  0.004975
+        -2202,       MAIN.144,       MAIN.214,  9.304483e-07   $    0.001852,  0.001852
+        -2203,       MAIN.144,       MAIN.215,  2.693090e-06   $    0.005360,  0.005360
+        -2204,       MAIN.144, OUTER_BOARD.22,  5.821267e-07   $    0.001159,  0.001578
+        -2205,       MAIN.144, OUTER_BOARD.29,  5.382971e-07   $    0.001071,  0.000365
+        -2206,       MAIN.144, OUTER_BOARD.36,  6.973106e-07   $    0.001388,  0.000473
+        -2207,       MAIN.144, OUTER_BOARD.43,  5.029687e-07   $    0.001001,  0.000682
+        -2208,       MAIN.144, OUTER_BOARD.78,  2.294701e-06   $    0.004567,  0.003110
+        -2209,       MAIN.144, OUTER_BOARD.85,  1.692220e-06   $    0.003368,  0.002294
+        -2210,       MAIN.144, OUTER_BOARD.86,  5.037362e-07   $    0.001003,  0.001366
+        -2211,       MAIN.144, OUTER_BOARD.92,  4.391155e-07   $    0.000874,  0.001190
+        -2212,       MAIN.144, OUTER_BOARD.99,  1.646086e-06   $    0.003276,  0.002231
+        -2213,       MAIN.144,OUTER_BOARD.106,  3.463340e-06   $    0.006893,  0.002347
+        -2214,       MAIN.144,OUTER_BOARD.113,  2.177949e-06   $    0.004335,  0.001476
+        -2215,       MAIN.144,OUTER_BOARD.120,  9.579137e-07   $    0.001907,  0.001298
+        -2216,       MAIN.145,       MAIN.159,  4.129607e-06   $    0.008219,  0.008219
+        -2217,       MAIN.145,       MAIN.160,  1.808485e-06   $    0.003600,  0.003600
+        -2218,       MAIN.145,       MAIN.173,  9.653664e-07   $    0.001921,  0.003843
+        -2219,       MAIN.145,       MAIN.186,  6.461160e-07   $    0.001286,  0.002572
+        -2220,       MAIN.145,       MAIN.199,  2.830626e-06   $    0.005634,  0.005634
+        -2221,       MAIN.145,       MAIN.200,  1.982683e-06   $    0.003946,  0.003946
+        -2222,       MAIN.145,       MAIN.203,  6.376309e-07   $    0.001269,  0.000359
+        -2223,       MAIN.145,       MAIN.214,  3.592045e-06   $    0.007149,  0.007149
+        -2224,       MAIN.145,       MAIN.215,  8.884543e-07   $    0.001768,  0.001768
+        -2225,       MAIN.145,       MAIN.228,  1.435702e-06   $    0.002858,  0.005715
+        -2226,       MAIN.145, OUTER_BOARD.22,  1.483552e-06   $    0.002953,  0.004022
+        -2227,       MAIN.145, OUTER_BOARD.29,  1.873047e-06   $    0.003728,  0.001269
+        -2228,       MAIN.145, OUTER_BOARD.36,  1.301572e-06   $    0.002591,  0.000882
+        -2229,       MAIN.145, OUTER_BOARD.78,  4.443351e-06   $    0.008844,  0.006023
+        -2230,       MAIN.145, OUTER_BOARD.83,  5.718046e-07   $    0.001138,  0.001550
+        -2231,       MAIN.145, OUTER_BOARD.85,  3.574304e-06   $    0.007114,  0.004845
+        -2232,       MAIN.145, OUTER_BOARD.92,  8.258911e-07   $    0.001644,  0.002239
+        -2233,       MAIN.145, OUTER_BOARD.99,  1.365896e-06   $    0.002719,  0.001851
+        -2234,       MAIN.145,OUTER_BOARD.106,  3.065573e-06   $    0.006102,  0.002078
+        -2235,       MAIN.145,OUTER_BOARD.113,  3.456443e-06   $    0.006879,  0.002342
+        -2236,       MAIN.145,OUTER_BOARD.120,  9.341441e-07   $    0.001859,  0.001266
+        -2237,       MAIN.146,       MAIN.201,  7.917682e-07   $    0.003913,  0.003913
+        -2238,       MAIN.146,       MAIN.241,  1.137872e-06   $    0.005624,  0.002812
+        -2239,       MAIN.148,       MAIN.160,  5.062251e-07   $    0.000570,  0.001008
+        -2240,       MAIN.148,       MAIN.162,  3.326129e-06   $    0.003742,  0.007484
+        -2241,       MAIN.148,       MAIN.173,  2.541937e-07   $    0.000286,  0.001012
+        -2242,       MAIN.148,       MAIN.175,  1.413180e-06   $    0.001590,  0.001590
+        -2243,       MAIN.148,       MAIN.188,  6.754315e-06   $    0.007599,  0.003799
+        -2244,       MAIN.148,       MAIN.203,  1.236715e-05   $    0.013913,  0.006957
+        -2245,       MAIN.148,       MAIN.217,  4.275787e-06   $    0.004810,  0.004810
+        -2246,       MAIN.148,       MAIN.230,  1.135708e-06   $    0.001278,  0.001278
+        -2247,       MAIN.148, OUTER_BOARD.22,  5.352076e-07   $    0.000602,  0.001451
+        -2248,       MAIN.148, OUTER_BOARD.78,  9.372554e-07   $    0.001054,  0.001270
+        -2249,       MAIN.148, OUTER_BOARD.99,  8.621988e-07   $    0.000970,  0.001169
+        -2250,       MAIN.148,OUTER_BOARD.106,  9.357943e-07   $    0.001053,  0.000634
+        -2251,       MAIN.148,OUTER_BOARD.113,  1.139748e-06   $    0.001282,  0.000772
+        -2252,       MAIN.159,       MAIN.160,  2.076551e-06   $    0.004133,  0.004133
+        -2253,       MAIN.159,       MAIN.173,  1.229671e-06   $    0.002447,  0.004895
+        -2254,       MAIN.159,       MAIN.199,  9.030118e-07   $    0.001797,  0.001797
+        -2255,       MAIN.159,       MAIN.200,  3.390596e-06   $    0.006748,  0.006748
+        -2256,       MAIN.159,       MAIN.214,  1.912967e-06   $    0.003807,  0.003807
+        -2257,       MAIN.159,       MAIN.215,  1.949339e-06   $    0.003880,  0.003880
+        -2258,       MAIN.159,       MAIN.228,  5.764841e-07   $    0.001147,  0.002295
+        -2259,       MAIN.159, OUTER_BOARD.22,  9.432893e-07   $    0.001877,  0.002557
+        -2260,       MAIN.159, OUTER_BOARD.29,  1.338570e-06   $    0.002664,  0.000907
+        -2261,       MAIN.159, OUTER_BOARD.36,  6.259441e-07   $    0.001246,  0.000424
+        -2262,       MAIN.159, OUTER_BOARD.78,  2.569916e-06   $    0.005115,  0.003483
+        -2263,       MAIN.159, OUTER_BOARD.79,  5.319058e-07   $    0.001059,  0.001442
+        -2264,       MAIN.159, OUTER_BOARD.85,  4.062580e-06   $    0.008086,  0.005507
+        -2265,       MAIN.159, OUTER_BOARD.92,  1.454606e-06   $    0.002895,  0.003943
+        -2266,       MAIN.159, OUTER_BOARD.99,  1.266208e-06   $    0.002520,  0.001716
+        -2267,       MAIN.159,OUTER_BOARD.106,  3.290755e-06   $    0.006550,  0.002230
+        -2268,       MAIN.159,OUTER_BOARD.113,  3.315975e-06   $    0.006600,  0.002247
+        -2269,       MAIN.159,OUTER_BOARD.120,  1.330503e-06   $    0.002648,  0.001803
+        -2270,       MAIN.159,OUTER_BOARD.127,  5.545750e-07   $    0.001104,  0.000752
+        -2271,       MAIN.160,       MAIN.173,  5.586970e-07   $    0.001112,  0.002224
+        -2272,       MAIN.160,       MAIN.186,  9.782563e-07   $    0.001947,  0.003894
+        -2273,       MAIN.160,       MAIN.188,  7.761186e-07   $    0.001545,  0.000437
+        -2274,       MAIN.160,       MAIN.199,  2.798945e-06   $    0.005571,  0.005571
+        -2275,       MAIN.160,       MAIN.200,  9.690964e-07   $    0.001929,  0.001929
+        -2276,       MAIN.160,       MAIN.214,  2.152017e-06   $    0.004283,  0.004283
+        -2277,       MAIN.160,       MAIN.215,  2.239690e-06   $    0.004458,  0.004458
+        -2278,       MAIN.160,       MAIN.228,  9.585398e-07   $    0.001908,  0.003816
+        -2279,       MAIN.160, OUTER_BOARD.22,  3.911096e-07   $    0.000778,  0.001060
+        -2280,       MAIN.160, OUTER_BOARD.78,  2.176182e-06   $    0.004331,  0.002950
+        -2281,       MAIN.160, OUTER_BOARD.85,  1.986801e-06   $    0.003954,  0.002693
+        -2282,       MAIN.160, OUTER_BOARD.92,  6.409760e-07   $    0.001276,  0.001738
+        -2283,       MAIN.160, OUTER_BOARD.99,  7.022743e-07   $    0.001398,  0.000952
+        -2284,       MAIN.160,OUTER_BOARD.106,  2.685593e-06   $    0.005345,  0.001820
+        -2285,       MAIN.160,OUTER_BOARD.113,  3.128699e-06   $    0.006227,  0.002120
+        -2286,       MAIN.160,OUTER_BOARD.120,  1.378870e-06   $    0.002744,  0.001869
+        -2287,       MAIN.162,       MAIN.173,  2.597318e-07   $    0.000584,  0.001034
+        -2288,       MAIN.162,       MAIN.188,  1.792486e-06   $    0.004033,  0.001008
+        -2289,       MAIN.162,       MAIN.203,  4.996705e-06   $    0.011243,  0.002811
+        -2290,       MAIN.162,       MAIN.217,  3.382494e-06   $    0.007611,  0.003805
+        -2291,       MAIN.162,       MAIN.228,  3.255725e-07   $    0.000733,  0.001296
+        -2292,       MAIN.162, OUTER_BOARD.78,  5.666207e-07   $    0.001275,  0.000768
+        -2293,       MAIN.162,OUTER_BOARD.106,  5.404444e-07   $    0.001216,  0.000366
+        -2294,       MAIN.162,OUTER_BOARD.113,  4.830203e-07   $    0.001087,  0.000327
+        -2295,       MAIN.173,       MAIN.200,  1.439130e-06   $    0.005729,  0.002864
+        -2296,       MAIN.173,       MAIN.203,  8.003408e-07   $    0.003186,  0.000450
+        -2297,       MAIN.173,       MAIN.214,  6.805338e-07   $    0.002709,  0.001354
+        -2298,       MAIN.173,       MAIN.215,  1.119873e-06   $    0.004458,  0.002229
+        -2299,       MAIN.173,       MAIN.217,  6.194336e-07   $    0.002466,  0.000697
+        -2300,       MAIN.173,       MAIN.228,  4.610742e-07   $    0.001835,  0.001835
+        -2301,       MAIN.173, OUTER_BOARD.22,  2.893066e-07   $    0.001152,  0.000784
+        -2302,       MAIN.173, OUTER_BOARD.29,  3.738054e-07   $    0.001488,  0.000253
+        -2303,       MAIN.173, OUTER_BOARD.36,  3.911456e-07   $    0.001557,  0.000265
+        -2304,       MAIN.173, OUTER_BOARD.78,  1.598895e-06   $    0.006365,  0.002167
+        -2305,       MAIN.173, OUTER_BOARD.85,  2.072483e-06   $    0.008250,  0.002809
+        -2306,       MAIN.173, OUTER_BOARD.92,  1.945057e-06   $    0.007743,  0.005273
+        -2307,       MAIN.173,OUTER_BOARD.106,  1.085211e-06   $    0.004320,  0.000735
+        -2308,       MAIN.173,OUTER_BOARD.113,  1.773957e-06   $    0.007062,  0.001202
+        -2309,       MAIN.173,OUTER_BOARD.120,  3.361816e-07   $    0.001338,  0.000456
+        -2310,       MAIN.173,OUTER_BOARD.127,  4.323017e-07   $    0.001721,  0.000586
+        -2311,       MAIN.175,       MAIN.186,  9.500499e-07   $    0.001069,  0.003782
+        -2312,       MAIN.175,       MAIN.188,  1.127304e-05   $    0.012682,  0.006341
+        -2313,       MAIN.175,       MAIN.203,  4.112638e-06   $    0.004627,  0.002313
+        -2314,       MAIN.175,       MAIN.230,  4.936678e-06   $    0.005554,  0.005554
+        -2315,       MAIN.186,       MAIN.188,  3.800506e-07   $    0.001513,  0.000214
+        -2316,       MAIN.186,       MAIN.199,  6.617309e-07   $    0.002634,  0.001317
+        -2317,       MAIN.186,       MAIN.200,  8.152297e-07   $    0.003245,  0.001623
+        -2318,       MAIN.186,       MAIN.215,  9.439483e-07   $    0.003758,  0.001879
+        -2319,       MAIN.186,       MAIN.230,  5.267440e-07   $    0.002097,  0.000593
+        -2320,       MAIN.186, OUTER_BOARD.22,  4.598970e-07   $    0.001831,  0.001247
+        -2321,       MAIN.186, OUTER_BOARD.78,  7.710375e-07   $    0.003069,  0.001045
+        -2322,       MAIN.186, OUTER_BOARD.85,  9.505240e-07   $    0.003784,  0.001288
+        -2323,       MAIN.186, OUTER_BOARD.99,  5.220626e-07   $    0.002078,  0.000708
+        -2324,       MAIN.186,OUTER_BOARD.106,  1.425329e-06   $    0.005674,  0.000966
+        -2325,       MAIN.186,OUTER_BOARD.113,  1.000130e-06   $    0.003981,  0.000678
+        -2326,       MAIN.188,       MAIN.203,  1.684168e-05   $    0.009473,  0.009473
+        -2327,       MAIN.188,       MAIN.217,  3.891460e-06   $    0.002189,  0.004378
+        -2328,       MAIN.188,       MAIN.230,  6.703402e-06   $    0.003771,  0.007541
+        -2329,       MAIN.199,       MAIN.200,  1.946303e-06   $    0.003874,  0.003874
+        -2330,       MAIN.199,       MAIN.214,  1.172858e-06   $    0.002334,  0.002334
+        -2331,       MAIN.199,       MAIN.215,  3.104472e-06   $    0.006179,  0.006179
+        -2332,       MAIN.199, OUTER_BOARD.22,  6.062062e-07   $    0.001207,  0.001643
+        -2333,       MAIN.199, OUTER_BOARD.61,  8.558404e-07   $    0.001703,  0.002320
+        -2334,       MAIN.199, OUTER_BOARD.68,  2.036223e-07   $    0.000405,  0.001104
+        -2335,       MAIN.199, OUTER_BOARD.78,  2.147914e-06   $    0.004275,  0.002911
+        -2336,       MAIN.199, OUTER_BOARD.85,  2.840500e-06   $    0.005654,  0.003850
+        -2337,       MAIN.199, OUTER_BOARD.92,  4.748044e-07   $    0.000945,  0.001287
+        -2338,       MAIN.199, OUTER_BOARD.99,  2.028788e-06   $    0.004038,  0.002750
+        -2339,       MAIN.199,OUTER_BOARD.106,  2.497634e-06   $    0.004971,  0.001693
+        -2340,       MAIN.199,OUTER_BOARD.113,  3.276295e-06   $    0.006521,  0.002220
+        -2341,       MAIN.199,OUTER_BOARD.120,  1.615695e-06   $    0.003216,  0.002190
+        -2342,       MAIN.200,       MAIN.214,  3.518463e-06   $    0.007003,  0.007003
+        -2343,       MAIN.200,       MAIN.215,  1.205481e-06   $    0.002399,  0.002399
+        -2344,       MAIN.200,       MAIN.228,  1.222260e-06   $    0.002433,  0.004865
+        -2345,       MAIN.200, OUTER_BOARD.22,  2.287086e-06   $    0.004552,  0.006200
+        -2346,       MAIN.200, OUTER_BOARD.29,  5.673655e-07   $    0.001129,  0.000385
+        -2347,       MAIN.200, OUTER_BOARD.36,  1.349705e-06   $    0.002686,  0.000915
+        -2348,       MAIN.200, OUTER_BOARD.59,  9.219160e-07   $    0.001835,  0.002499
+        -2349,       MAIN.200, OUTER_BOARD.78,  5.191224e-06   $    0.010332,  0.007036
+        -2350,       MAIN.200, OUTER_BOARD.85,  2.919046e-06   $    0.005810,  0.003957
+        -2351,       MAIN.200, OUTER_BOARD.92,  9.294432e-07   $    0.001850,  0.002520
+        -2352,       MAIN.200, OUTER_BOARD.99,  1.334140e-06   $    0.002655,  0.001808
+        -2353,       MAIN.200,OUTER_BOARD.106,  6.933544e-06   $    0.013800,  0.004699
+        -2354,       MAIN.200,OUTER_BOARD.113,  4.323064e-06   $    0.008604,  0.002930
+        -2355,       MAIN.200,OUTER_BOARD.120,  1.208850e-06   $    0.002406,  0.001639
+        -2356,       MAIN.201,       MAIN.241,  2.227182e-06   $    0.011008,  0.005504
+        -2357,       MAIN.203,       MAIN.217,  1.246202e-05   $    0.007010,  0.014020
+        -2358,       MAIN.203,       MAIN.228,  3.165288e-07   $    0.000178,  0.001260
+        -2359,       MAIN.203,       MAIN.230,  2.899706e-06   $    0.001631,  0.003262
+        -2360,       MAIN.203, OUTER_BOARD.22,  7.639689e-07   $    0.000430,  0.002071
+        -2361,       MAIN.203, OUTER_BOARD.78,  2.868572e-06   $    0.001614,  0.003888
+        -2362,       MAIN.203, OUTER_BOARD.85,  4.938357e-06   $    0.002778,  0.006694
+        -2363,       MAIN.203, OUTER_BOARD.92,  9.081448e-07   $    0.000511,  0.002462
+        -2364,       MAIN.203, OUTER_BOARD.99,  7.728319e-07   $    0.000435,  0.001048
+        -2365,       MAIN.203,OUTER_BOARD.106,  1.735584e-06   $    0.000976,  0.001176
+        -2366,       MAIN.203,OUTER_BOARD.113,  1.482923e-06   $    0.000834,  0.001005
+        -2367,       MAIN.214,       MAIN.215,  2.480992e-06   $    0.004938,  0.004938
+        -2368,       MAIN.214,       MAIN.228,  6.860934e-07   $    0.001366,  0.002731
+        -2369,       MAIN.214, OUTER_BOARD.22,  5.202383e-07   $    0.001035,  0.001410
+        -2370,       MAIN.214, OUTER_BOARD.29,  1.306671e-06   $    0.002601,  0.000886
+        -2371,       MAIN.214, OUTER_BOARD.36,  6.096365e-07   $    0.001213,  0.000413
+        -2372,       MAIN.214, OUTER_BOARD.43,  5.149141e-07   $    0.001025,  0.000698
+        -2373,       MAIN.214, OUTER_BOARD.54,  8.432589e-07   $    0.001678,  0.002286
+        -2374,       MAIN.214, OUTER_BOARD.78,  2.401864e-06   $    0.004781,  0.003256
+        -2375,       MAIN.214, OUTER_BOARD.85,  5.147519e-06   $    0.010245,  0.006977
+        -2376,       MAIN.214, OUTER_BOARD.92,  2.580846e-06   $    0.005137,  0.006996
+        -2377,       MAIN.214, OUTER_BOARD.99,  2.107358e-06   $    0.004194,  0.002856
+        -2378,       MAIN.214,OUTER_BOARD.106,  4.740114e-06   $    0.009434,  0.003212
+        -2379,       MAIN.214,OUTER_BOARD.113,  6.278061e-06   $    0.012495,  0.004255
+        -2380,       MAIN.214,OUTER_BOARD.120,  2.027101e-06   $    0.004035,  0.002748
+        -2381,       MAIN.214,OUTER_BOARD.127,  5.461221e-07   $    0.001087,  0.000740
+        -2382,       MAIN.215,       MAIN.228,  1.032392e-06   $    0.002055,  0.004110
+        -2383,       MAIN.215, OUTER_BOARD.22,  5.439263e-07   $    0.001083,  0.001474
+        -2384,       MAIN.215, OUTER_BOARD.29,  5.633931e-07   $    0.001121,  0.000382
+        -2385,       MAIN.215, OUTER_BOARD.36,  7.707148e-07   $    0.001534,  0.000522
+        -2386,       MAIN.215, OUTER_BOARD.52,  7.449701e-07   $    0.001483,  0.002019
+        -2387,       MAIN.215, OUTER_BOARD.78,  2.277277e-06   $    0.004533,  0.003087
+        -2388,       MAIN.215, OUTER_BOARD.85,  1.248480e-06   $    0.002485,  0.001692
+        -2389,       MAIN.215, OUTER_BOARD.92,  1.211692e-06   $    0.002412,  0.003285
+        -2390,       MAIN.215, OUTER_BOARD.99,  8.274532e-07   $    0.001647,  0.001122
+        -2391,       MAIN.215,OUTER_BOARD.106,  4.143115e-06   $    0.008246,  0.002808
+        -2392,       MAIN.215,OUTER_BOARD.113,  3.669720e-06   $    0.007304,  0.002487
+        -2393,       MAIN.215,OUTER_BOARD.120,  1.568467e-06   $    0.003122,  0.002126
+        -2394,       MAIN.217,       MAIN.228,  5.615032e-07   $    0.000632,  0.002235
+        -2395,       MAIN.217,       MAIN.230,  9.537389e-07   $    0.001073,  0.001073
+        -2396,       MAIN.217, OUTER_BOARD.22,  5.114931e-07   $    0.000575,  0.001387
+        -2397,       MAIN.217, OUTER_BOARD.85,  1.049799e-06   $    0.001181,  0.001423
+        -2398,       MAIN.217,OUTER_BOARD.106,  9.512844e-07   $    0.001070,  0.000645
+        -2399,       MAIN.228, OUTER_BOARD.22,  3.035042e-07   $    0.001208,  0.000823
+        -2400,       MAIN.228, OUTER_BOARD.29,  4.118638e-07   $    0.001639,  0.000279
+        -2401,       MAIN.228, OUTER_BOARD.36,  3.105345e-07   $    0.001236,  0.000210
+        -2402,       MAIN.228, OUTER_BOARD.54,  2.626544e-07   $    0.001046,  0.000712
+        -2403,       MAIN.228, OUTER_BOARD.57,  2.571989e-07   $    0.001024,  0.000349
+        -2404,       MAIN.228, OUTER_BOARD.78,  1.187203e-06   $    0.004726,  0.001609
+        -2405,       MAIN.228, OUTER_BOARD.85,  4.588390e-06   $    0.018265,  0.006219
+        -2406,       MAIN.228, OUTER_BOARD.92,  3.918949e-06   $    0.015600,  0.010624
+        -2407,       MAIN.228, OUTER_BOARD.99,  7.380426e-07   $    0.002938,  0.001000
+        -2408,       MAIN.228,OUTER_BOARD.106,  2.108286e-06   $    0.008392,  0.001429
+        -2409,       MAIN.228,OUTER_BOARD.113,  3.034034e-06   $    0.012078,  0.002056
+        -2410,       MAIN.228,OUTER_BOARD.120,  1.596509e-06   $    0.006355,  0.002164
+        -2411,       MAIN.228,OUTER_BOARD.127,  2.953995e-07   $    0.001176,  0.000400
+        -2412,  OUTER_BOARD.1,  OUTER_BOARD.2,  2.241319e-06   $    0.012152,  0.006076
+        -2413,  OUTER_BOARD.1,  OUTER_BOARD.5,  8.995800e-07   $    0.004877,  0.002439
+        -2414,  OUTER_BOARD.1,  OUTER_BOARD.6,  7.157642e-07   $    0.003881,  0.000970
+        -2415,  OUTER_BOARD.2,  OUTER_BOARD.3,  2.496580e-06   $    0.006768,  0.006768
+        -2416,  OUTER_BOARD.2,  OUTER_BOARD.5,  8.789901e-07   $    0.002383,  0.002383
+        -2417,  OUTER_BOARD.2,  OUTER_BOARD.6,  6.046081e-06   $    0.016390,  0.008195
+        -2418,  OUTER_BOARD.2,  OUTER_BOARD.7,  1.192251e-06   $    0.003232,  0.001616
+        -2419,  OUTER_BOARD.3,  OUTER_BOARD.4,  2.129022e-06   $    0.005771,  0.011543
+        -2420,  OUTER_BOARD.3,  OUTER_BOARD.6,  1.078776e-06   $    0.002924,  0.001462
+        -2421,  OUTER_BOARD.3,  OUTER_BOARD.7,  5.908894e-06   $    0.016018,  0.008009
+        -2422,  OUTER_BOARD.3,  OUTER_BOARD.8,  8.521357e-07   $    0.002310,  0.002310
+        -2423,  OUTER_BOARD.4,  OUTER_BOARD.7,  9.156670e-07   $    0.004964,  0.001241
+        -2424,  OUTER_BOARD.4,  OUTER_BOARD.8,  1.184699e-06   $    0.006423,  0.003212
+        -2425,  OUTER_BOARD.5,  OUTER_BOARD.6,  4.822091e-06   $    0.013072,  0.006536
+        -2426,  OUTER_BOARD.6,  OUTER_BOARD.7,  6.192723e-06   $    0.008394,  0.008394
+        -2427,  OUTER_BOARD.6, OUTER_BOARD.10,  1.299391e-06   $    0.001761,  0.001761
+        -2428,  OUTER_BOARD.7,  OUTER_BOARD.8,  4.800005e-06   $    0.006506,  0.013012
+        -2429,  OUTER_BOARD.7, OUTER_BOARD.11,  1.160945e-06   $    0.001574,  0.001574
+        -2430,  OUTER_BOARD.9, OUTER_BOARD.10,  4.344401e-06   $    0.011777,  0.005888
+        -2431,  OUTER_BOARD.9, OUTER_BOARD.13,  1.067573e-06   $    0.002894,  0.005788
+        -2432,  OUTER_BOARD.9, OUTER_BOARD.14,  8.151093e-07   $    0.002210,  0.002210
+        -2433, OUTER_BOARD.10, OUTER_BOARD.11,  5.468236e-06   $    0.007412,  0.007412
+        -2434, OUTER_BOARD.10, OUTER_BOARD.13,  9.102041e-07   $    0.001234,  0.004935
+        -2435, OUTER_BOARD.10, OUTER_BOARD.14,  5.468426e-06   $    0.007412,  0.014824
+        -2436, OUTER_BOARD.10, OUTER_BOARD.15,  9.338810e-07   $    0.001266,  0.002532
+        -2437, OUTER_BOARD.11, OUTER_BOARD.12,  4.730869e-06   $    0.006412,  0.012825
+        -2438, OUTER_BOARD.11, OUTER_BOARD.14,  1.249826e-06   $    0.001694,  0.003388
+        -2439, OUTER_BOARD.11, OUTER_BOARD.15,  6.026456e-06   $    0.008168,  0.016337
+        -2440, OUTER_BOARD.11, OUTER_BOARD.16,  7.966823e-07   $    0.001080,  0.004319
+        -2441, OUTER_BOARD.12, OUTER_BOARD.15,  7.446196e-07   $    0.002019,  0.002019
+        -2442, OUTER_BOARD.12, OUTER_BOARD.16,  1.039801e-06   $    0.002819,  0.005637
+        -2443, OUTER_BOARD.13, OUTER_BOARD.14,  2.337862e-06   $    0.012675,  0.006338
+        -2444, OUTER_BOARD.14, OUTER_BOARD.15,  2.710277e-06   $    0.007347,  0.007347
+        -2445, OUTER_BOARD.15, OUTER_BOARD.16,  2.156349e-06   $    0.005846,  0.011691
+        -2446, OUTER_BOARD.17, OUTER_BOARD.73,  2.228952e-06   $    0.012085,  0.006042
+        -2447, OUTER_BOARD.17, OUTER_BOARD.94,  1.060274e-06   $    0.005748,  0.002874
+        -2448, OUTER_BOARD.17,OUTER_BOARD.101,  8.407629e-07   $    0.004558,  0.001140
+        -2449, OUTER_BOARD.18, OUTER_BOARD.74,  2.397979e-06   $    0.013001,  0.006501
+        -2450, OUTER_BOARD.18, OUTER_BOARD.95,  1.105450e-06   $    0.005993,  0.002997
+        -2451, OUTER_BOARD.18,OUTER_BOARD.102,  9.342544e-07   $    0.005065,  0.001266
+        -2452, OUTER_BOARD.19, OUTER_BOARD.75,  2.337375e-06   $    0.012673,  0.006336
+        -2453, OUTER_BOARD.19, OUTER_BOARD.96,  1.126465e-06   $    0.006107,  0.003054
+        -2454, OUTER_BOARD.19,OUTER_BOARD.103,  8.535214e-07   $    0.004628,  0.001157
+        -2455, OUTER_BOARD.20, OUTER_BOARD.76,  2.055767e-06   $    0.011146,  0.005573
+        -2456, OUTER_BOARD.20, OUTER_BOARD.97,  1.129464e-06   $    0.006124,  0.003062
+        -2457, OUTER_BOARD.20,OUTER_BOARD.104,  7.790983e-07   $    0.004224,  0.001056
+        -2458, OUTER_BOARD.21, OUTER_BOARD.77,  2.210950e-06   $    0.011987,  0.005994
+        -2459, OUTER_BOARD.21, OUTER_BOARD.98,  1.061992e-06   $    0.005758,  0.002879
+        -2460, OUTER_BOARD.21,OUTER_BOARD.105,  8.842425e-07   $    0.004794,  0.001199
+        -2461, OUTER_BOARD.22, OUTER_BOARD.78,  2.658349e-06   $    0.007206,  0.003603
+        -2462, OUTER_BOARD.22, OUTER_BOARD.99,  1.452154e-06   $    0.003937,  0.001968
+        -2463, OUTER_BOARD.22,OUTER_BOARD.106,  1.041770e-06   $    0.002824,  0.000706
+        -2464, OUTER_BOARD.22,OUTER_BOARD.113,  4.147287e-07   $    0.001124,  0.000281
+        -2465, OUTER_BOARD.23, OUTER_BOARD.79,  2.403219e-06   $    0.013030,  0.006515
+        -2466, OUTER_BOARD.23,OUTER_BOARD.100,  9.716618e-07   $    0.005268,  0.002634
+        -2467, OUTER_BOARD.23,OUTER_BOARD.107,  8.246901e-07   $    0.004471,  0.001118
+        -2468, OUTER_BOARD.24, OUTER_BOARD.31,  5.693546e-06   $    0.007717,  0.007717
+        -2469, OUTER_BOARD.24, OUTER_BOARD.45,  8.315739e-07   $    0.001127,  0.004509
+        -2470, OUTER_BOARD.24, OUTER_BOARD.52,  5.828452e-06   $    0.007900,  0.015800
+        -2471, OUTER_BOARD.24, OUTER_BOARD.59,  9.134205e-07   $    0.001238,  0.002476
+        -2472, OUTER_BOARD.24,OUTER_BOARD.101,  1.229477e-06   $    0.001666,  0.001666
+        -2473, OUTER_BOARD.24,OUTER_BOARD.122,  4.616285e-06   $    0.006257,  0.012514
+        -2474, OUTER_BOARD.25, OUTER_BOARD.32,  4.924127e-06   $    0.006674,  0.006674
+        -2475, OUTER_BOARD.25, OUTER_BOARD.46,  7.262004e-07   $    0.000984,  0.003937
+        -2476, OUTER_BOARD.25, OUTER_BOARD.53,  5.692374e-06   $    0.007716,  0.015431
+        -2477, OUTER_BOARD.25, OUTER_BOARD.60,  9.473441e-07   $    0.001284,  0.002568
+        -2478, OUTER_BOARD.25,OUTER_BOARD.102,  1.087082e-06   $    0.001473,  0.001473
+        -2479, OUTER_BOARD.25,OUTER_BOARD.123,  4.560799e-06   $    0.006182,  0.012364
+        -2480, OUTER_BOARD.26, OUTER_BOARD.33,  5.688856e-06   $    0.007711,  0.007711
+        -2481, OUTER_BOARD.26, OUTER_BOARD.47,  8.019055e-07   $    0.001087,  0.004348
+        -2482, OUTER_BOARD.26, OUTER_BOARD.54,  6.262126e-06   $    0.008488,  0.016976
+        -2483, OUTER_BOARD.26, OUTER_BOARD.61,  1.323129e-06   $    0.001793,  0.003587
+        -2484, OUTER_BOARD.26,OUTER_BOARD.103,  7.804266e-07   $    0.001058,  0.001058
+        -2485, OUTER_BOARD.26,OUTER_BOARD.124,  4.796688e-06   $    0.006502,  0.013003
+        -2486, OUTER_BOARD.27, OUTER_BOARD.34,  5.410514e-06   $    0.007334,  0.007334
+        -2487, OUTER_BOARD.27, OUTER_BOARD.48,  7.269644e-07   $    0.000985,  0.003941
+        -2488, OUTER_BOARD.27, OUTER_BOARD.55,  5.556421e-06   $    0.007531,  0.015063
+        -2489, OUTER_BOARD.27, OUTER_BOARD.62,  1.276189e-06   $    0.001730,  0.003460
+        -2490, OUTER_BOARD.27,OUTER_BOARD.104,  1.089762e-06   $    0.001477,  0.001477
+        -2491, OUTER_BOARD.27,OUTER_BOARD.125,  4.506192e-06   $    0.006108,  0.012216
+        -2492, OUTER_BOARD.28, OUTER_BOARD.35,  5.603436e-06   $    0.007595,  0.007595
+        -2493, OUTER_BOARD.28, OUTER_BOARD.49,  8.712207e-07   $    0.001181,  0.004723
+        -2494, OUTER_BOARD.28, OUTER_BOARD.56,  5.865161e-06   $    0.007950,  0.015900
+        -2495, OUTER_BOARD.28, OUTER_BOARD.63,  1.128061e-06   $    0.001529,  0.003058
+        -2496, OUTER_BOARD.28,OUTER_BOARD.105,  1.332843e-06   $    0.001807,  0.001807
+        -2497, OUTER_BOARD.28,OUTER_BOARD.126,  4.687120e-06   $    0.006353,  0.012706
+        -2498, OUTER_BOARD.29, OUTER_BOARD.36,  8.419122e-06   $    0.005706,  0.005706
+        -2499, OUTER_BOARD.29, OUTER_BOARD.43,  1.114271e-06   $    0.000755,  0.001510
+        -2500, OUTER_BOARD.29, OUTER_BOARD.50,  1.505432e-06   $    0.001020,  0.004081
+        -2501, OUTER_BOARD.29, OUTER_BOARD.57,  7.572691e-06   $    0.005132,  0.010264
+        -2502, OUTER_BOARD.29, OUTER_BOARD.64,  2.519764e-06   $    0.001708,  0.003415
+        -2503, OUTER_BOARD.29, OUTER_BOARD.71,  6.292600e-07   $    0.000426,  0.001706
+        -2504, OUTER_BOARD.29, OUTER_BOARD.99,  1.193892e-06   $    0.000809,  0.001618
+        -2505, OUTER_BOARD.29,OUTER_BOARD.106,  2.858247e-06   $    0.001937,  0.001937
+        -2506, OUTER_BOARD.29,OUTER_BOARD.113,  1.593687e-06   $    0.001080,  0.001080
+        -2507, OUTER_BOARD.29,OUTER_BOARD.127,  5.925998e-06   $    0.004016,  0.008032
+        -2508, OUTER_BOARD.30, OUTER_BOARD.37,  5.733776e-06   $    0.007772,  0.007772
+        -2509, OUTER_BOARD.30, OUTER_BOARD.51,  8.853617e-07   $    0.001200,  0.004800
+        -2510, OUTER_BOARD.30, OUTER_BOARD.58,  6.017203e-06   $    0.008156,  0.016312
+        -2511, OUTER_BOARD.30, OUTER_BOARD.65,  1.094920e-06   $    0.001484,  0.002968
+        -2512, OUTER_BOARD.30,OUTER_BOARD.107,  1.123889e-06   $    0.001523,  0.001523
+        -2513, OUTER_BOARD.30,OUTER_BOARD.128,  4.619194e-06   $    0.006261,  0.012522
+        -2514, OUTER_BOARD.31, OUTER_BOARD.38,  4.813256e-06   $    0.006524,  0.013048
+        -2515, OUTER_BOARD.31, OUTER_BOARD.52,  1.126033e-06   $    0.001526,  0.003052
+        -2516, OUTER_BOARD.31, OUTER_BOARD.59,  5.698562e-06   $    0.007724,  0.015448
+        -2517, OUTER_BOARD.31, OUTER_BOARD.66,  7.936242e-07   $    0.001076,  0.004303
+        -2518, OUTER_BOARD.31,OUTER_BOARD.108,  9.887565e-07   $    0.001340,  0.001340
+        -2519, OUTER_BOARD.32, OUTER_BOARD.39,  4.864677e-06   $    0.006594,  0.013187
+        -2520, OUTER_BOARD.32, OUTER_BOARD.53,  1.269942e-06   $    0.001721,  0.003443
+        -2521, OUTER_BOARD.32, OUTER_BOARD.60,  5.815723e-06   $    0.007883,  0.015766
+        -2522, OUTER_BOARD.32, OUTER_BOARD.67,  7.863320e-07   $    0.001066,  0.004263
+        -2523, OUTER_BOARD.32,OUTER_BOARD.109,  9.303596e-07   $    0.001261,  0.001261
+        -2524, OUTER_BOARD.33, OUTER_BOARD.40,  4.603949e-06   $    0.006240,  0.012481
+        -2525, OUTER_BOARD.33, OUTER_BOARD.54,  1.201571e-06   $    0.001629,  0.003257
+        -2526, OUTER_BOARD.33, OUTER_BOARD.61,  6.105086e-06   $    0.008275,  0.016550
+        -2527, OUTER_BOARD.33, OUTER_BOARD.68,  9.029836e-07   $    0.001224,  0.004896
+        -2528, OUTER_BOARD.33,OUTER_BOARD.110,  9.685149e-07   $    0.001313,  0.001313
+        -2529, OUTER_BOARD.34, OUTER_BOARD.41,  5.111395e-06   $    0.006928,  0.013856
+        -2530, OUTER_BOARD.34, OUTER_BOARD.55,  9.061731e-07   $    0.001228,  0.002456
+        -2531, OUTER_BOARD.34, OUTER_BOARD.62,  5.816842e-06   $    0.007884,  0.015769
+        -2532, OUTER_BOARD.34, OUTER_BOARD.69,  8.450837e-07   $    0.001145,  0.004582
+        -2533, OUTER_BOARD.34,OUTER_BOARD.111,  1.061102e-06   $    0.001438,  0.001438
+        -2534, OUTER_BOARD.35, OUTER_BOARD.42,  4.698788e-06   $    0.006369,  0.012738
+        -2535, OUTER_BOARD.35, OUTER_BOARD.56,  1.149707e-06   $    0.001558,  0.003117
+        -2536, OUTER_BOARD.35, OUTER_BOARD.63,  5.902240e-06   $    0.008000,  0.016000
+        -2537, OUTER_BOARD.35, OUTER_BOARD.70,  9.445719e-07   $    0.001280,  0.005121
+        -2538, OUTER_BOARD.35,OUTER_BOARD.112,  1.159241e-06   $    0.001571,  0.001571
+        -2539, OUTER_BOARD.36, OUTER_BOARD.43,  6.312051e-06   $    0.004278,  0.008555
+        -2540, OUTER_BOARD.36, OUTER_BOARD.50,  4.013728e-07   $    0.000272,  0.001088
+        -2541, OUTER_BOARD.36, OUTER_BOARD.57,  2.964062e-06   $    0.002009,  0.004018
+        -2542, OUTER_BOARD.36, OUTER_BOARD.64,  6.629782e-06   $    0.004493,  0.008986
+        -2543, OUTER_BOARD.36, OUTER_BOARD.71,  1.695956e-06   $    0.001149,  0.004597
+        -2544, OUTER_BOARD.36,OUTER_BOARD.106,  2.056734e-06   $    0.001394,  0.001394
+        -2545, OUTER_BOARD.36,OUTER_BOARD.113,  3.363208e-06   $    0.002279,  0.002279
+        -2546, OUTER_BOARD.36,OUTER_BOARD.120,  1.172460e-06   $    0.000795,  0.001589
+        -2547, OUTER_BOARD.36,OUTER_BOARD.127,  1.281772e-06   $    0.000869,  0.001737
+        -2548, OUTER_BOARD.37, OUTER_BOARD.44,  4.890553e-06   $    0.006629,  0.013258
+        -2549, OUTER_BOARD.37, OUTER_BOARD.58,  1.351412e-06   $    0.001832,  0.003663
+        -2550, OUTER_BOARD.37, OUTER_BOARD.65,  6.051267e-06   $    0.008202,  0.016404
+        -2551, OUTER_BOARD.37, OUTER_BOARD.72,  7.421312e-07   $    0.001006,  0.004024
+        -2552, OUTER_BOARD.37,OUTER_BOARD.114,  1.181760e-06   $    0.001602,  0.001602
+        -2553, OUTER_BOARD.38, OUTER_BOARD.59,  8.810624e-07   $    0.002388,  0.002388
+        -2554, OUTER_BOARD.38, OUTER_BOARD.66,  1.105740e-06   $    0.002997,  0.005995
+        -2555, OUTER_BOARD.39, OUTER_BOARD.60,  6.927803e-07   $    0.001878,  0.001878
+        -2556, OUTER_BOARD.39, OUTER_BOARD.67,  1.011836e-06   $    0.002743,  0.005486
+        -2557, OUTER_BOARD.40, OUTER_BOARD.61,  8.575286e-07   $    0.002325,  0.002325
+        -2558, OUTER_BOARD.40, OUTER_BOARD.68,  1.063423e-06   $    0.002883,  0.005766
+        -2559, OUTER_BOARD.41, OUTER_BOARD.62,  7.191975e-07   $    0.001950,  0.001950
+        -2560, OUTER_BOARD.41, OUTER_BOARD.69,  1.053643e-06   $    0.002856,  0.005713
+        -2561, OUTER_BOARD.42, OUTER_BOARD.63,  8.765695e-07   $    0.002376,  0.002376
+        -2562, OUTER_BOARD.42, OUTER_BOARD.70,  1.046494e-06   $    0.002837,  0.005674
+        -2563, OUTER_BOARD.43, OUTER_BOARD.64,  1.634553e-06   $    0.002216,  0.002216
+        -2564, OUTER_BOARD.43, OUTER_BOARD.71,  1.859509e-06   $    0.002520,  0.005041
+        -2565, OUTER_BOARD.43,OUTER_BOARD.113,  9.282155e-07   $    0.001258,  0.000629
+        -2566, OUTER_BOARD.44, OUTER_BOARD.65,  7.503787e-07   $    0.002034,  0.002034
+        -2567, OUTER_BOARD.44, OUTER_BOARD.72,  1.093678e-06   $    0.002965,  0.005930
+        -2568, OUTER_BOARD.45, OUTER_BOARD.52,  2.345009e-06   $    0.012714,  0.006357
+        -2569, OUTER_BOARD.45,OUTER_BOARD.122,  1.004193e-06   $    0.005444,  0.002722
+        -2570, OUTER_BOARD.46, OUTER_BOARD.53,  2.268966e-06   $    0.012302,  0.006151
+        -2571, OUTER_BOARD.46,OUTER_BOARD.123,  1.036276e-06   $    0.005618,  0.002809
+        -2572, OUTER_BOARD.47, OUTER_BOARD.54,  2.344067e-06   $    0.012709,  0.006354
+        -2573, OUTER_BOARD.47,OUTER_BOARD.124,  1.047236e-06   $    0.005678,  0.002839
+        -2574, OUTER_BOARD.48, OUTER_BOARD.55,  2.303337e-06   $    0.012488,  0.006244
+        -2575, OUTER_BOARD.48,OUTER_BOARD.125,  1.249586e-06   $    0.006775,  0.003387
+        -2576, OUTER_BOARD.49, OUTER_BOARD.56,  2.442877e-06   $    0.013245,  0.006622
+        -2577, OUTER_BOARD.49,OUTER_BOARD.126,  1.037265e-06   $    0.005624,  0.002812
+        -2578, OUTER_BOARD.50, OUTER_BOARD.57,  2.979618e-06   $    0.008077,  0.004039
+        -2579, OUTER_BOARD.50,OUTER_BOARD.127,  1.584765e-06   $    0.004296,  0.002148
+        -2580, OUTER_BOARD.51, OUTER_BOARD.58,  2.248762e-06   $    0.012192,  0.006096
+        -2581, OUTER_BOARD.51,OUTER_BOARD.128,  1.036195e-06   $    0.005618,  0.002809
+        -2582, OUTER_BOARD.52, OUTER_BOARD.59,  2.509596e-06   $    0.006803,  0.006803
+        -2583, OUTER_BOARD.52,OUTER_BOARD.122,  8.412408e-07   $    0.002280,  0.002280
+        -2584, OUTER_BOARD.53, OUTER_BOARD.60,  2.683677e-06   $    0.007275,  0.007275
+        -2585, OUTER_BOARD.53,OUTER_BOARD.123,  1.047962e-06   $    0.002841,  0.002841
+        -2586, OUTER_BOARD.54, OUTER_BOARD.61,  2.684922e-06   $    0.007278,  0.007278
+        -2587, OUTER_BOARD.54,OUTER_BOARD.124,  9.871828e-07   $    0.002676,  0.002676
+        -2588, OUTER_BOARD.55, OUTER_BOARD.62,  2.861469e-06   $    0.007757,  0.007757
+        -2589, OUTER_BOARD.55,OUTER_BOARD.125,  9.160459e-07   $    0.002483,  0.002483
+        -2590, OUTER_BOARD.56, OUTER_BOARD.63,  2.773351e-06   $    0.007518,  0.007518
+        -2591, OUTER_BOARD.56,OUTER_BOARD.126,  7.752558e-07   $    0.002102,  0.002102
+        -2592, OUTER_BOARD.57, OUTER_BOARD.64,  4.003835e-06   $    0.005427,  0.005427
+        -2593, OUTER_BOARD.57,OUTER_BOARD.113,  7.398441e-07   $    0.001003,  0.000501
+        -2594, OUTER_BOARD.57,OUTER_BOARD.127,  1.575528e-06   $    0.002136,  0.002136
+        -2595, OUTER_BOARD.58, OUTER_BOARD.65,  2.864163e-06   $    0.007764,  0.007764
+        -2596, OUTER_BOARD.58,OUTER_BOARD.128,  7.963721e-07   $    0.002159,  0.002159
+        -2597, OUTER_BOARD.59, OUTER_BOARD.66,  2.363669e-06   $    0.006408,  0.012815
+        -2598, OUTER_BOARD.60, OUTER_BOARD.67,  2.315060e-06   $    0.006276,  0.012552
+        -2599, OUTER_BOARD.60, OUTER_BOARD.84,  3.689878e-07   $    0.001000,  0.001000
+        -2600, OUTER_BOARD.61, OUTER_BOARD.68,  2.294968e-06   $    0.006221,  0.012443
+        -2601, OUTER_BOARD.62, OUTER_BOARD.69,  2.372238e-06   $    0.006431,  0.012862
+        -2602, OUTER_BOARD.63, OUTER_BOARD.70,  2.323637e-06   $    0.006299,  0.012598
+        -2603, OUTER_BOARD.64, OUTER_BOARD.71,  3.199091e-06   $    0.004336,  0.008672
+        -2604, OUTER_BOARD.64,OUTER_BOARD.106,  9.275618e-07   $    0.001257,  0.000629
+        -2605, OUTER_BOARD.64,OUTER_BOARD.113,  9.210446e-07   $    0.001248,  0.000624
+        -2606, OUTER_BOARD.65, OUTER_BOARD.72,  2.237676e-06   $    0.006066,  0.012132
+        -2607, OUTER_BOARD.73, OUTER_BOARD.80,  2.594057e-06   $    0.007032,  0.007032
+        -2608, OUTER_BOARD.73, OUTER_BOARD.94,  7.691067e-07   $    0.002085,  0.002085
+        -2609, OUTER_BOARD.73,OUTER_BOARD.101,  5.545478e-06   $    0.015033,  0.007516
+        -2610, OUTER_BOARD.73,OUTER_BOARD.108,  1.018807e-06   $    0.002762,  0.001381
+        -2611, OUTER_BOARD.74, OUTER_BOARD.81,  2.888894e-06   $    0.007831,  0.007831
+        -2612, OUTER_BOARD.74, OUTER_BOARD.95,  7.975071e-07   $    0.002162,  0.002162
+        -2613, OUTER_BOARD.74,OUTER_BOARD.102,  5.902741e-06   $    0.016001,  0.008001
+        -2614, OUTER_BOARD.74,OUTER_BOARD.109,  1.068575e-06   $    0.002897,  0.001448
+        -2615, OUTER_BOARD.75, OUTER_BOARD.82,  2.766845e-06   $    0.007500,  0.007500
+        -2616, OUTER_BOARD.75, OUTER_BOARD.96,  6.823060e-07   $    0.001850,  0.001850
+        -2617, OUTER_BOARD.75,OUTER_BOARD.103,  5.639166e-06   $    0.015287,  0.007643
+        -2618, OUTER_BOARD.75,OUTER_BOARD.110,  1.120945e-06   $    0.003039,  0.001519
+        -2619, OUTER_BOARD.76, OUTER_BOARD.83,  2.620774e-06   $    0.007105,  0.007105
+        -2620, OUTER_BOARD.76, OUTER_BOARD.97,  8.766816e-07   $    0.002377,  0.002377
+        -2621, OUTER_BOARD.76,OUTER_BOARD.104,  5.716988e-06   $    0.015498,  0.007749
+        -2622, OUTER_BOARD.76,OUTER_BOARD.111,  1.317766e-06   $    0.003572,  0.001786
+        -2623, OUTER_BOARD.77, OUTER_BOARD.84,  2.783394e-06   $    0.007545,  0.007545
+        -2624, OUTER_BOARD.77, OUTER_BOARD.98,  6.984978e-07   $    0.001894,  0.001894
+        -2625, OUTER_BOARD.77,OUTER_BOARD.105,  5.539345e-06   $    0.015016,  0.007508
+        -2626, OUTER_BOARD.77,OUTER_BOARD.112,  1.260129e-06   $    0.003416,  0.001708
+        -2627, OUTER_BOARD.78, OUTER_BOARD.85,  3.127656e-06   $    0.004239,  0.004239
+        -2628, OUTER_BOARD.78, OUTER_BOARD.99,  1.238720e-06   $    0.001679,  0.001679
+        -2629, OUTER_BOARD.78,OUTER_BOARD.106,  6.166124e-06   $    0.008358,  0.004179
+        -2630, OUTER_BOARD.78,OUTER_BOARD.113,  1.608546e-06   $    0.002180,  0.001090
+        -2631, OUTER_BOARD.79, OUTER_BOARD.86,  2.554990e-06   $    0.006926,  0.006926
+        -2632, OUTER_BOARD.79,OUTER_BOARD.100,  7.697778e-07   $    0.002087,  0.002087
+        -2633, OUTER_BOARD.79,OUTER_BOARD.107,  5.634535e-06   $    0.015274,  0.007637
+        -2634, OUTER_BOARD.79,OUTER_BOARD.114,  1.155009e-06   $    0.003131,  0.001566
+        -2635, OUTER_BOARD.80, OUTER_BOARD.87,  2.014244e-06   $    0.005460,  0.010921
+        -2636, OUTER_BOARD.80,OUTER_BOARD.101,  1.157596e-06   $    0.003138,  0.001569
+        -2637, OUTER_BOARD.80,OUTER_BOARD.108,  5.584231e-06   $    0.015138,  0.007569
+        -2638, OUTER_BOARD.80,OUTER_BOARD.115,  8.112193e-07   $    0.002199,  0.002199
+        -2639, OUTER_BOARD.81, OUTER_BOARD.88,  2.193868e-06   $    0.005947,  0.011894
+        -2640, OUTER_BOARD.81,OUTER_BOARD.102,  1.309811e-06   $    0.003551,  0.001775
+        -2641, OUTER_BOARD.81,OUTER_BOARD.109,  5.472677e-06   $    0.014836,  0.007418
+        -2642, OUTER_BOARD.81,OUTER_BOARD.116,  8.627872e-07   $    0.002339,  0.002339
+        -2643, OUTER_BOARD.82, OUTER_BOARD.89,  2.179501e-06   $    0.005908,  0.011817
+        -2644, OUTER_BOARD.82,OUTER_BOARD.103,  1.156399e-06   $    0.003135,  0.001567
+        -2645, OUTER_BOARD.82,OUTER_BOARD.110,  5.583519e-06   $    0.015136,  0.007568
+        -2646, OUTER_BOARD.82,OUTER_BOARD.117,  6.650642e-07   $    0.001803,  0.001803
+        -2647, OUTER_BOARD.83, OUTER_BOARD.90,  2.293350e-06   $    0.006217,  0.012434
+        -2648, OUTER_BOARD.83,OUTER_BOARD.104,  1.224447e-06   $    0.003319,  0.001660
+        -2649, OUTER_BOARD.83,OUTER_BOARD.111,  6.048276e-06   $    0.016396,  0.008198
+        -2650, OUTER_BOARD.83,OUTER_BOARD.118,  8.252919e-07   $    0.002237,  0.002237
+        -2651, OUTER_BOARD.84, OUTER_BOARD.91,  2.237050e-06   $    0.006064,  0.012129
+        -2652, OUTER_BOARD.84,OUTER_BOARD.105,  1.483397e-06   $    0.004021,  0.002011
+        -2653, OUTER_BOARD.84,OUTER_BOARD.112,  5.807643e-06   $    0.015744,  0.007872
+        -2654, OUTER_BOARD.84,OUTER_BOARD.119,  8.189572e-07   $    0.002220,  0.002220
+        -2655, OUTER_BOARD.85, OUTER_BOARD.92,  2.811892e-06   $    0.003811,  0.007623
+        -2656, OUTER_BOARD.85,OUTER_BOARD.106,  2.131314e-06   $    0.002889,  0.001444
+        -2657, OUTER_BOARD.85,OUTER_BOARD.113,  6.820235e-06   $    0.009244,  0.004622
+        -2658, OUTER_BOARD.85,OUTER_BOARD.120,  1.312697e-06   $    0.001779,  0.001779
+        -2659, OUTER_BOARD.86, OUTER_BOARD.93,  2.046885e-06   $    0.005549,  0.011098
+        -2660, OUTER_BOARD.86,OUTER_BOARD.107,  1.104760e-06   $    0.002995,  0.001497
+        -2661, OUTER_BOARD.86,OUTER_BOARD.114,  5.787069e-06   $    0.015688,  0.007844
+        -2662, OUTER_BOARD.86,OUTER_BOARD.121,  8.748152e-07   $    0.002371,  0.002371
+        -2663, OUTER_BOARD.87,OUTER_BOARD.108,  8.588768e-07   $    0.004657,  0.001164
+        -2664, OUTER_BOARD.87,OUTER_BOARD.115,  1.065816e-06   $    0.005779,  0.002889
+        -2665, OUTER_BOARD.88,OUTER_BOARD.109,  7.614067e-07   $    0.004128,  0.001032
+        -2666, OUTER_BOARD.88,OUTER_BOARD.116,  1.065077e-06   $    0.005775,  0.002887
+        -2667, OUTER_BOARD.89,OUTER_BOARD.110,  9.229196e-07   $    0.005004,  0.001251
+        -2668, OUTER_BOARD.89,OUTER_BOARD.117,  1.077615e-06   $    0.005842,  0.002921
+        -2669, OUTER_BOARD.90,OUTER_BOARD.111,  7.534380e-07   $    0.004085,  0.001021
+        -2670, OUTER_BOARD.90,OUTER_BOARD.118,  9.488455e-07   $    0.005144,  0.002572
+        -2671, OUTER_BOARD.91,OUTER_BOARD.112,  7.387524e-07   $    0.004005,  0.001001
+        -2672, OUTER_BOARD.91,OUTER_BOARD.119,  9.669544e-07   $    0.005243,  0.002621
+        -2673, OUTER_BOARD.92,OUTER_BOARD.106,  4.264316e-07   $    0.001156,  0.000289
+        -2674, OUTER_BOARD.92,OUTER_BOARD.113,  1.226427e-06   $    0.003325,  0.000831
+        -2675, OUTER_BOARD.92,OUTER_BOARD.120,  1.430414e-06   $    0.003878,  0.001939
+        -2676, OUTER_BOARD.93,OUTER_BOARD.114,  8.008404e-07   $    0.004342,  0.001085
+        -2677, OUTER_BOARD.93,OUTER_BOARD.121,  1.038160e-06   $    0.005629,  0.002814
+        -2678, OUTER_BOARD.94,OUTER_BOARD.101,  4.941548e-06   $    0.013396,  0.006698
+        -2679, OUTER_BOARD.95,OUTER_BOARD.102,  4.990073e-06   $    0.013527,  0.006764
+        -2680, OUTER_BOARD.96,OUTER_BOARD.103,  4.727012e-06   $    0.012814,  0.006407
+        -2681, OUTER_BOARD.97,OUTER_BOARD.104,  5.375011e-06   $    0.014571,  0.007285
+        -2682, OUTER_BOARD.98,OUTER_BOARD.105,  4.623098e-06   $    0.012532,  0.006266
+        -2683, OUTER_BOARD.99,OUTER_BOARD.106,  6.452827e-06   $    0.008746,  0.004373
+        -2684, OUTER_BOARD.99,OUTER_BOARD.113,  8.944657e-07   $    0.001212,  0.000606
+        -2685, OUTER_BOARD.99,OUTER_BOARD.127,  7.417751e-07   $    0.001005,  0.001005
+        -2686,OUTER_BOARD.100,OUTER_BOARD.107,  5.318245e-06   $    0.014417,  0.007208
+        -2687,OUTER_BOARD.101,OUTER_BOARD.108,  5.393013e-06   $    0.007310,  0.007310
+        -2688,OUTER_BOARD.102,OUTER_BOARD.109,  5.418942e-06   $    0.007345,  0.007345
+        -2689,OUTER_BOARD.103,OUTER_BOARD.110,  5.957479e-06   $    0.008075,  0.008075
+        -2690,OUTER_BOARD.104,OUTER_BOARD.111,  6.025640e-06   $    0.008167,  0.008167
+        -2691,OUTER_BOARD.105,OUTER_BOARD.112,  6.092318e-06   $    0.008258,  0.008258
+        -2692,OUTER_BOARD.106,OUTER_BOARD.113,  7.236433e-06   $    0.004904,  0.004904
+        -2693,OUTER_BOARD.106,OUTER_BOARD.120,  9.752533e-07   $    0.000661,  0.001322
+        -2694,OUTER_BOARD.106,OUTER_BOARD.127,  1.516038e-06   $    0.001027,  0.002055
+        -2695,OUTER_BOARD.107,OUTER_BOARD.114,  6.597758e-06   $    0.008943,  0.008943
+        -2696,OUTER_BOARD.108,OUTER_BOARD.115,  4.745064e-06   $    0.006432,  0.012863
+        -2697,OUTER_BOARD.109,OUTER_BOARD.116,  4.714251e-06   $    0.006390,  0.012780
+        -2698,OUTER_BOARD.110,OUTER_BOARD.117,  5.350348e-06   $    0.007252,  0.014504
+        -2699,OUTER_BOARD.111,OUTER_BOARD.118,  4.988552e-06   $    0.006762,  0.013523
+        -2700,OUTER_BOARD.112,OUTER_BOARD.119,  5.349530e-06   $    0.007251,  0.014502
+        -2701,OUTER_BOARD.113,OUTER_BOARD.120,  6.201240e-06   $    0.004203,  0.008405
+        -2702,OUTER_BOARD.114,OUTER_BOARD.121,  4.965114e-06   $    0.006730,  0.013460
+C
+C Summary data for nodes with Bij sums < 0.900000 or > 1.100000
+C BijSum always contains Bij Self
+C
+C Summary data for position 1
+C       node           area         rays     emiss       Bij     Bij     Bij   Weighted
+C                                                        sum    self   inact   % Error
+C        BATTERY.1    0.000723      2500  0.800000  0.559163   0.003   0.444    16.4
+C        BATTERY.2    0.001447      2500  0.800000  0.568427   0.005   0.439    15.2
+C        BATTERY.3    0.000723      2500  0.800000  0.574013   0.004   0.433    16.6
+C        BATTERY.4    0.001447      2500  0.800000  0.568825   0.005   0.433    15.1
+C        BATTERY.5    0.002893      2500  0.800000  0.605873   0.008   0.408    12.8
+C        BATTERY.6    0.001447      2500  0.800000  0.591264   0.004   0.406    15.5
+C        BATTERY.7    0.000723      2500  0.800000  0.567575   0.004   0.431    16.2
+C        BATTERY.8    0.001447      2500  0.800000  0.572425   0.006   0.419    15.4
+C        BATTERY.9    0.000723      2500  0.800000  0.580566   0.002   0.419    16.7
+C       BATTERY.10    0.000723      2500  0.800000  0.407827   0.003   0.585    13.0
+C       BATTERY.11    0.001447      2500  0.800000  0.424838   0.005   0.579    12.1
+C       BATTERY.12    0.000723      2500  0.800000  0.515127   0.002   0.487    15.1
+C       BATTERY.13    0.001447      2500  0.800000  0.408077   0.005   0.593    11.9
+C       BATTERY.14    0.002893      2500  0.800000  0.451692   0.007   0.553    10.2
+C       BATTERY.15    0.001447      2500  0.800000  0.542628   0.004   0.459    13.9
+C       BATTERY.16    0.000723      2500  0.800000  0.412250   0.002   0.587    13.0
+C       BATTERY.17    0.001447      2500  0.800000  0.407270   0.005   0.577    12.0
+C       BATTERY.18    0.000723      2500  0.800000  0.510788   0.003   0.489    15.1
+C           MAIN.4    0.000314      2500  0.800000  0.572295   0.005   0.422    13.8
+C           MAIN.5    0.000314      2500  0.800000  0.651420   0.003   0.336    14.8
+C           MAIN.8    0.000314      2500  0.800000  0.621645   0.003   0.385    13.7
+C          MAIN.26    0.000556      2500  0.800000  0.454436   0.007   0.537    10.0
+C          MAIN.37    0.000314      2500  0.800000  0.589648   0.005   0.411    14.0
+C          MAIN.38    0.000314      2500  0.800000  0.607272   0.006   0.386    14.9
+C          MAIN.43    0.002222      2500  0.800000  0.331589   0.019   0.661     8.8
+C          MAIN.54    0.002222      2500  0.800000  0.334332   0.018   0.663     9.2
+C          MAIN.67    0.001111      2500  0.800000  0.325980   0.014   0.668    10.3
+C          MAIN.78    0.000556      2500  0.800000  0.440597   0.007   0.552     9.8
+C          MAIN.91    0.001111      2500  0.800000  0.322055   0.013   0.672     9.8
+C         MAIN.106    0.001111      2500  0.800000  0.324440   0.014   0.674    10.1
+C         MAIN.118    0.000556      2500  0.800000  0.441649   0.006   0.550    10.4
+C         MAIN.133    0.001111      2500  0.800000  0.324858   0.012   0.668     9.7
+C         MAIN.144    0.000628      2500  0.800000  0.550669   0.008   0.448    14.5
+C         MAIN.145    0.000628      2500  0.800000  0.562851   0.010   0.432    14.8
+C         MAIN.148    0.001111      2500  0.800000  0.329538   0.014   0.662    10.2
+C         MAIN.159    0.000628      2500  0.800000  0.554169   0.010   0.439    14.8
+C         MAIN.160    0.000628      2500  0.800000  0.542665   0.011   0.442    14.1
+C         MAIN.162    0.000556      2500  0.800000  0.442572   0.006   0.545    10.2
+C         MAIN.173    0.000314      2500  0.800000  0.595099   0.007   0.402    14.4
+C         MAIN.175    0.001111      2500  0.800000  0.327488   0.012   0.663    10.0
+C         MAIN.186    0.000314      2500  0.800000  0.607608   0.004   0.388    13.2
+C         MAIN.188    0.002222      2500  0.800000  0.322890   0.020   0.675     8.8
+C         MAIN.199    0.000628      2500  0.800000  0.587357   0.007   0.413    14.5
+C         MAIN.200    0.000628      2500  0.800000  0.592143   0.005   0.403    14.8
+C         MAIN.203    0.002222      2500  0.800000  0.325745   0.020   0.669     9.4
+C         MAIN.214    0.000628      2500  0.800000  0.609034   0.007   0.381    14.8
+C         MAIN.215    0.000628      2500  0.800000  0.585193   0.005   0.409    14.4
+C         MAIN.217    0.001111      2500  0.800000  0.332822   0.013   0.655    10.3
+C         MAIN.228    0.000314      2500  0.800000  0.673496   0.003   0.323    15.2
+C         MAIN.230    0.001111      2500  0.800000  0.328144   0.014   0.670     9.7
+C    OUTER_BOARD.1    0.000231      2500  0.800000  0.618758   0.025   0.380     4.7
+C    OUTER_BOARD.2    0.000461      2500  0.800000  0.285020   0.056   0.714     5.1
+C    OUTER_BOARD.3    0.000461      2500  0.800000  0.280188   0.057   0.719     5.1
+C    OUTER_BOARD.4    0.000231      2500  0.800000  0.622602   0.022   0.376     4.8
+C    OUTER_BOARD.5    0.000461      2500  0.800000  0.668073   0.024   0.330     4.6
+C    OUTER_BOARD.6    0.000922      2500  0.800000  0.374146   0.058   0.625     5.0
+C    OUTER_BOARD.7    0.000922      2500  0.800000  0.381612   0.057   0.618     5.0
+C    OUTER_BOARD.8    0.000461      2500  0.800000  0.674234   0.023   0.323     4.5
+C    OUTER_BOARD.9    0.000461      2500  0.800000  0.683913   0.022   0.312     4.6
+C   OUTER_BOARD.10    0.000922      2500  0.800000  0.415901   0.055   0.583     5.1
+C   OUTER_BOARD.11    0.000922      2500  0.800000  0.402940   0.055   0.597     5.2
+C   OUTER_BOARD.12    0.000461      2500  0.800000  0.688810   0.022   0.309     4.5
+C   OUTER_BOARD.13    0.000231      2500  0.800000  0.599038   0.024   0.397     5.3
+C   OUTER_BOARD.14    0.000461      2500  0.800000  0.245721   0.060   0.750     5.8
+C   OUTER_BOARD.15    0.000461      2500  0.800000  0.240356   0.057   0.752     5.8
+C   OUTER_BOARD.16    0.000231      2500  0.800000  0.612676   0.024   0.384     5.2
+C   OUTER_BOARD.17    0.000231      2500  0.800000  0.614183   0.024   0.385     4.9
+C   OUTER_BOARD.18    0.000231      2500  0.800000  0.625984   0.022   0.373     4.7
+C   OUTER_BOARD.19    0.000231      2500  0.800000  0.609995   0.024   0.389     4.7
+C   OUTER_BOARD.20    0.000231      2500  0.800000  0.645149   0.021   0.352     5.2
+C   OUTER_BOARD.21    0.000231      2500  0.800000  0.637367   0.021   0.359     5.3
+C   OUTER_BOARD.22    0.000461      2500  0.800000  0.598880   0.011   0.400    13.1
+C   OUTER_BOARD.23    0.000231      2500  0.800000  0.632533   0.020   0.363     5.3
+C   OUTER_BOARD.24    0.000922      2500  0.800000  0.400366   0.054   0.597     5.2
+C   OUTER_BOARD.25    0.000922      2500  0.800000  0.401645   0.055   0.595     5.2
+C   OUTER_BOARD.26    0.000922      2500  0.800000  0.405718   0.053   0.592     5.2
+C   OUTER_BOARD.27    0.000922      2500  0.800000  0.399961   0.054   0.597     5.0
+C   OUTER_BOARD.28    0.000922      2500  0.800000  0.395378   0.054   0.602     5.1
+C   OUTER_BOARD.29    0.001844      2500  0.800000  0.392232   0.031   0.613     8.7
+C   OUTER_BOARD.30    0.000922      2500  0.800000  0.414096   0.052   0.584     5.1
+C   OUTER_BOARD.31    0.000922      2500  0.800000  0.404615   0.054   0.593     5.1
+C   OUTER_BOARD.32    0.000922      2500  0.800000  0.416527   0.054   0.582     5.1
+C   OUTER_BOARD.33    0.000922      2500  0.800000  0.403155   0.056   0.596     5.1
+C   OUTER_BOARD.34    0.000922      2500  0.800000  0.405846   0.054   0.593     5.0
+C   OUTER_BOARD.35    0.000922      2500  0.800000  0.397622   0.054   0.600     5.0
+C   OUTER_BOARD.36    0.001844      2500  0.800000  0.400908   0.028   0.606     8.9
+C   OUTER_BOARD.37    0.000922      2500  0.800000  0.402106   0.054   0.597     5.0
+C   OUTER_BOARD.38    0.000461      2500  0.800000  0.673642   0.023   0.324     4.6
+C   OUTER_BOARD.39    0.000461      2500  0.800000  0.682404   0.023   0.316     4.5
+C   OUTER_BOARD.40    0.000461      2500  0.800000  0.688488   0.022   0.310     4.6
+C   OUTER_BOARD.41    0.000461      2500  0.800000  0.675782   0.023   0.322     4.6
+C   OUTER_BOARD.42    0.000461      2500  0.800000  0.694531   0.021   0.304     4.5
+C   OUTER_BOARD.43    0.000922      2500  0.800000  0.539654   0.011   0.457     9.5
+C   OUTER_BOARD.44    0.000461      2500  0.800000  0.691100   0.021   0.308     4.5
+C   OUTER_BOARD.45    0.000231      2500  0.800000  0.604615   0.023   0.390     5.4
+C   OUTER_BOARD.46    0.000231      2500  0.800000  0.597253   0.025   0.399     5.0
+C   OUTER_BOARD.47    0.000231      2500  0.800000  0.595954   0.024   0.398     5.3
+C   OUTER_BOARD.48    0.000231      2500  0.800000  0.627500   0.022   0.372     4.6
+C   OUTER_BOARD.49    0.000231      2500  0.800000  0.612944   0.024   0.387     4.7
+C   OUTER_BOARD.50    0.000461      2500  0.800000  0.498316   0.013   0.492     8.4
+C   OUTER_BOARD.51    0.000231      2500  0.800000  0.610382   0.025   0.390     4.7
+C   OUTER_BOARD.52    0.000461      2500  0.800000  0.248073   0.057   0.746     5.9
+C   OUTER_BOARD.53    0.000461      2500  0.800000  0.243403   0.058   0.752     5.9
+C   OUTER_BOARD.54    0.000461      2500  0.800000  0.237749   0.057   0.756     6.1
+C   OUTER_BOARD.55    0.000461      2500  0.800000  0.264607   0.057   0.735     4.8
+C   OUTER_BOARD.56    0.000461      2500  0.800000  0.251514   0.059   0.749     4.8
+C   OUTER_BOARD.57    0.000922      2500  0.800000  0.293162   0.033   0.708     8.6
+C   OUTER_BOARD.58    0.000461      2500  0.800000  0.258730   0.056   0.739     4.7
+C   OUTER_BOARD.59    0.000461      2500  0.800000  0.246140   0.057   0.746     6.0
+C   OUTER_BOARD.60    0.000461      2500  0.800000  0.247190   0.056   0.746     5.8
+C   OUTER_BOARD.61    0.000461      2500  0.800000  0.235380   0.055   0.758     6.0
+C   OUTER_BOARD.62    0.000461      2500  0.800000  0.269125   0.057   0.731     4.9
+C   OUTER_BOARD.63    0.000461      2500  0.800000  0.248967   0.059   0.750     4.7
+C   OUTER_BOARD.64    0.000922      2500  0.800000  0.317653   0.032   0.675     8.4
+C   OUTER_BOARD.65    0.000461      2500  0.800000  0.261141   0.058   0.738     4.8
+C   OUTER_BOARD.66    0.000231      2500  0.800000  0.604825   0.024   0.391     5.6
+C   OUTER_BOARD.67    0.000231      2500  0.800000  0.597521   0.024   0.398     5.2
+C   OUTER_BOARD.68    0.000231      2500  0.800000  0.587728   0.024   0.408     5.4
+C   OUTER_BOARD.69    0.000231      2500  0.800000  0.613348   0.023   0.386     4.7
+C   OUTER_BOARD.70    0.000231      2500  0.800000  0.616921   0.022   0.383     4.7
+C   OUTER_BOARD.71    0.000461      2500  0.800000  0.507760   0.012   0.485     8.5
+C   OUTER_BOARD.72    0.000231      2500  0.800000  0.606889   0.025   0.392     4.7
+C   OUTER_BOARD.73    0.000461      2500  0.800000  0.291170   0.057   0.708     5.2
+C   OUTER_BOARD.74    0.000461      2500  0.800000  0.274948   0.058   0.725     5.1
+C   OUTER_BOARD.75    0.000461      2500  0.800000  0.299692   0.054   0.699     5.2
+C   OUTER_BOARD.76    0.000461      2500  0.800000  0.306740   0.053   0.687     6.1
+C   OUTER_BOARD.77    0.000461      2500  0.800000  0.286488   0.053   0.706     6.1
+C   OUTER_BOARD.78    0.000922      2500  0.800000  0.453328   0.026   0.549    13.1
+C   OUTER_BOARD.79    0.000461      2500  0.800000  0.303303   0.055   0.693     6.2
+C   OUTER_BOARD.80    0.000461      2500  0.800000  0.274663   0.057   0.724     5.0
+C   OUTER_BOARD.81    0.000461      2500  0.800000  0.286316   0.056   0.713     5.1
+C   OUTER_BOARD.82    0.000461      2500  0.800000  0.291162   0.057   0.708     5.1
+C   OUTER_BOARD.83    0.000461      2500  0.800000  0.299920   0.054   0.695     6.1
+C   OUTER_BOARD.84    0.000461      2500  0.800000  0.299955   0.053   0.694     6.1
+C   OUTER_BOARD.85    0.000922      2500  0.800000  0.442640   0.029   0.555    13.5
+C   OUTER_BOARD.86    0.000461      2500  0.800000  0.305395   0.054   0.688     6.1
+C   OUTER_BOARD.87    0.000231      2500  0.800000  0.620624   0.025   0.379     4.7
+C   OUTER_BOARD.88    0.000231      2500  0.800000  0.623817   0.023   0.375     4.7
+C   OUTER_BOARD.89    0.000231      2500  0.800000  0.612223   0.024   0.386     4.7
+C   OUTER_BOARD.90    0.000231      2500  0.800000  0.634504   0.022   0.361     5.3
+C   OUTER_BOARD.91    0.000231      2500  0.800000  0.637892   0.022   0.358     5.2
+C   OUTER_BOARD.92    0.000461      2500  0.800000  0.614779   0.012   0.381    13.2
+C   OUTER_BOARD.93    0.000231      2500  0.800000  0.629104   0.023   0.366     5.2
+C   OUTER_BOARD.94    0.000461      2500  0.800000  0.682555   0.022   0.315     4.5
+C   OUTER_BOARD.95    0.000461      2500  0.800000  0.677154   0.023   0.322     4.6
+C   OUTER_BOARD.96    0.000461      2500  0.800000  0.681717   0.023   0.316     4.5
+C   OUTER_BOARD.97    0.000461      2500  0.800000  0.651629   0.024   0.346     4.7
+C   OUTER_BOARD.98    0.000461      2500  0.800000  0.652129   0.027   0.346     4.7
+C   OUTER_BOARD.99    0.000922      2500  0.800000  0.554783   0.012   0.443    10.9
+C  OUTER_BOARD.100    0.000461      2500  0.800000  0.654670   0.025   0.344     4.7
+C  OUTER_BOARD.101    0.000922      2500  0.800000  0.387599   0.057   0.611     5.0
+C  OUTER_BOARD.102    0.000922      2500  0.800000  0.395908   0.055   0.602     5.0
+C  OUTER_BOARD.103    0.000922      2500  0.800000  0.376192   0.060   0.623     5.0
+C  OUTER_BOARD.104    0.000922      2500  0.800000  0.371226   0.058   0.627     5.3
+C  OUTER_BOARD.105    0.000922      2500  0.800000  0.372156   0.059   0.627     5.1
+C  OUTER_BOARD.106    0.001844      2500  0.800000  0.399800   0.030   0.598    10.0
+C  OUTER_BOARD.107    0.000922      2500  0.800000  0.356611   0.057   0.640     5.1
+C  OUTER_BOARD.108    0.000922      2500  0.800000  0.393184   0.057   0.606     5.1
+C  OUTER_BOARD.109    0.000922      2500  0.800000  0.382958   0.059   0.616     5.0
+C  OUTER_BOARD.110    0.000922      2500  0.800000  0.380882   0.057   0.618     5.0
+C  OUTER_BOARD.111    0.000922      2500  0.800000  0.345944   0.060   0.651     5.2
+C  OUTER_BOARD.112    0.000922      2500  0.800000  0.337349   0.061   0.660     5.1
+C  OUTER_BOARD.113    0.001844      2500  0.800000  0.404517   0.030   0.600    10.0
+C  OUTER_BOARD.114    0.000922      2500  0.800000  0.371557   0.056   0.626     5.3
+C  OUTER_BOARD.115    0.000461      2500  0.800000  0.667635   0.023   0.330     4.5
+C  OUTER_BOARD.116    0.000461      2500  0.800000  0.690914   0.021   0.308     4.5
+C  OUTER_BOARD.117    0.000461      2500  0.800000  0.672844   0.023   0.326     4.6
+C  OUTER_BOARD.118    0.000461      2500  0.800000  0.657521   0.025   0.340     4.6
+C  OUTER_BOARD.119    0.000461      2500  0.800000  0.677427   0.022   0.321     4.7
+C  OUTER_BOARD.120    0.000922      2500  0.800000  0.567871   0.012   0.430    10.5
+C  OUTER_BOARD.121    0.000461      2500  0.800000  0.658937   0.026   0.340     4.7
+C  OUTER_BOARD.122    0.000461      2500  0.800000  0.698865   0.020   0.299     4.6
+C  OUTER_BOARD.123    0.000461      2500  0.800000  0.683942   0.023   0.314     4.6
+C  OUTER_BOARD.124    0.000461      2500  0.800000  0.685698   0.022   0.313     4.5
+C  OUTER_BOARD.125    0.000461      2500  0.800000  0.695678   0.021   0.303     4.5
+C  OUTER_BOARD.126    0.000461      2500  0.800000  0.689640   0.021   0.308     4.5
+C  OUTER_BOARD.127    0.000922      2500  0.800000  0.535188   0.012   0.455     9.3
+C  OUTER_BOARD.128    0.000461      2500  0.800000  0.695498   0.023   0.304     4.6
+C
+PSTART
+C    370 calculation nodes
+C    2702 radks were output, 3198 radks were filtered out
+C    0 nodes(0%) have bij sum + bij inactive < .9
+C    2500 average number of rays per node shot
+C    178 nodes(48%) have Bij Inactive > .2
+C        This may be ok, but may be an indication of an incorrect active side
+C     

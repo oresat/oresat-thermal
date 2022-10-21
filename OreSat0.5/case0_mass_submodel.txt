@@ -1,0 +1,9 @@
+Submodel, Substrate, Insulation Mass, kg
+    BATTERY 0.03125 0.
+      FRAME 0.30928 0.
+       MAIN 0.41690 0.
+OUTER_BOARD 0.22066 0.
+SOLAR_PANEL 0.02390 0.
+     Total: 1.00198 0.
+
+Total Mass = 1.001984 kg

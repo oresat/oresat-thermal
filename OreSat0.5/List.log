@@ -1,0 +1,21 @@
+[ AutoCAD - Sat Apr 30 15:26:18 2022  ]----------------------------------------
+
+FloCAD Conn                   RCCONN    Layer: "0"
+                            Space: Model space
+                   Handle = 334
+
+     Contactor from objects(1):
+          Rect--Z[FRAME]::276 on layer 0
+
+     Contactor to objects(4):
+          Rect--Y[FRAME]::2A7 on layer 0
+          Rect-+X[FRAME]::2C5 on layer 0
+          Rect-+Y[FRAME]::2FF on layer 0
+          Rect--X[FRAME]::2E2 on layer 0
+
+    Contact (Conductance/Edge Length) 1. W/m/K
+    Show calcs done: 0
+    Contact is from Edges.
+    tolerance               = 100000002004087734272.000000
+    contact integrations    = 10
+    Number of check objects = 4

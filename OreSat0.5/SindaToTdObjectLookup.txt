@@ -1,0 +1,5636 @@
+Node: BATTERY.1
+      BATTERY.1::744
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.2
+      BATTERY.2::745
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.3
+      BATTERY.3::746
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.4
+      BATTERY.4::747
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.5
+      BATTERY.5::748
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.6
+      BATTERY.6::749
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.7
+      BATTERY.7::74A
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.8
+      BATTERY.8::74B
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.9
+      BATTERY.9::74C
+      Rect-Bat2[BATTERY]::6A8
+Node: BATTERY.10
+      BATTERY.10::73B
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.11
+      BATTERY.11::73C
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.12
+      BATTERY.12::73D
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.13
+      BATTERY.13::73E
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.14
+      BATTERY.14::73F
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.15
+      BATTERY.15::740
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.16
+      BATTERY.16::741
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.17
+      BATTERY.17::742
+      Rect-Bat1[BATTERY]::6CB
+Node: BATTERY.18
+      BATTERY.18::743
+      Rect-Bat1[BATTERY]::6CB
+Node: FRAME.1
+      FRAME.1::473
+      Rect-+Z[FRAME]::472
+Node: FRAME.2
+      FRAME.2::474
+      Rect-+Z[FRAME]::472
+Node: FRAME.3
+      FRAME.3::475
+      Rect-+Z[FRAME]::472
+Node: FRAME.4
+      FRAME.4::476
+      Rect-+Z[FRAME]::472
+Node: FRAME.5
+      FRAME.5::477
+      Rect-+Z[FRAME]::472
+Node: FRAME.6
+      FRAME.6::478
+      Rect-+Z[FRAME]::472
+Node: FRAME.7
+      FRAME.7::479
+      Rect-+Z[FRAME]::472
+Node: FRAME.8
+      FRAME.8::47A
+      Rect-+Z[FRAME]::472
+Node: FRAME.9
+      FRAME.9::47B
+      Rect-+Z[FRAME]::472
+Node: FRAME.10
+      FRAME.10::47C
+      Rect-+Z[FRAME]::472
+Node: FRAME.11
+      FRAME.11::47D
+      Rect-+Z[FRAME]::472
+Node: FRAME.12
+      FRAME.12::47E
+      Rect-+Z[FRAME]::472
+Node: FRAME.13
+      FRAME.13::47F
+      Rect-+Z[FRAME]::472
+Node: FRAME.14
+      FRAME.14::480
+      Rect-+Z[FRAME]::472
+Node: FRAME.15
+      FRAME.15::481
+      Rect-+Z[FRAME]::472
+Node: FRAME.16
+      FRAME.16::482
+      Rect-+Z[FRAME]::472
+Node: FRAME.17
+      FRAME.17::310
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.18
+      FRAME.18::311
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.19
+      FRAME.19::312
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.20
+      FRAME.20::313
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.21
+      FRAME.21::314
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.22
+      FRAME.22::315
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.23
+      FRAME.23::316
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.24
+      FRAME.24::317
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.25
+      FRAME.25::318
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.26
+      FRAME.26::319
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.27
+      FRAME.27::31A
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.28
+      FRAME.28::31B
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.29
+      FRAME.29::278
+      Rect--Z[FRAME]::276
+Node: FRAME.30
+      FRAME.30::2A9
+      Rect--Y[FRAME]::2A7
+Node: FRAME.31
+      FRAME.31::2C6
+      Rect-+X[FRAME]::2C5
+Node: FRAME.32
+      FRAME.32::2E3
+      Rect--X[FRAME]::2E2
+Node: FRAME.33
+      FRAME.33::300
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.34
+      FRAME.34::281
+      Rect--Z[FRAME]::276
+Node: FRAME.35
+      FRAME.35::2B2
+      Rect--Y[FRAME]::2A7
+Node: FRAME.36
+      FRAME.36::2CF
+      Rect-+X[FRAME]::2C5
+Node: FRAME.37
+      FRAME.37::2EC
+      Rect--X[FRAME]::2E2
+Node: FRAME.38
+      FRAME.38::309
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.39
+      FRAME.39::282
+      Rect--Z[FRAME]::276
+Node: FRAME.40
+      FRAME.40::2B3
+      Rect--Y[FRAME]::2A7
+Node: FRAME.41
+      FRAME.41::2D0
+      Rect-+X[FRAME]::2C5
+Node: FRAME.42
+      FRAME.42::2ED
+      Rect--X[FRAME]::2E2
+Node: FRAME.43
+      FRAME.43::30A
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.44
+      FRAME.44::283
+      Rect--Z[FRAME]::276
+Node: FRAME.45
+      FRAME.45::2B4
+      Rect--Y[FRAME]::2A7
+Node: FRAME.46
+      FRAME.46::2D1
+      Rect-+X[FRAME]::2C5
+Node: FRAME.47
+      FRAME.47::2EE
+      Rect--X[FRAME]::2E2
+Node: FRAME.48
+      FRAME.48::30B
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.49
+      FRAME.49::284
+      Rect--Z[FRAME]::276
+Node: FRAME.50
+      FRAME.50::2B5
+      Rect--Y[FRAME]::2A7
+Node: FRAME.51
+      FRAME.51::2D2
+      Rect-+X[FRAME]::2C5
+Node: FRAME.52
+      FRAME.52::2EF
+      Rect--X[FRAME]::2E2
+Node: FRAME.53
+      FRAME.53::30C
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.54
+      FRAME.54::285
+      Rect--Z[FRAME]::276
+Node: FRAME.55
+      FRAME.55::2B6
+      Rect--Y[FRAME]::2A7
+Node: FRAME.56
+      FRAME.56::2D3
+      Rect-+X[FRAME]::2C5
+Node: FRAME.57
+      FRAME.57::2F0
+      Rect--X[FRAME]::2E2
+Node: FRAME.58
+      FRAME.58::30D
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.59
+      FRAME.59::286
+      Rect--Z[FRAME]::276
+Node: FRAME.60
+      FRAME.60::2B7
+      Rect--Y[FRAME]::2A7
+Node: FRAME.61
+      FRAME.61::2D4
+      Rect-+X[FRAME]::2C5
+Node: FRAME.62
+      FRAME.62::2F1
+      Rect--X[FRAME]::2E2
+Node: FRAME.63
+      FRAME.63::30E
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.64
+      FRAME.64::287
+      Rect--Z[FRAME]::276
+Node: FRAME.65
+      FRAME.65::2B8
+      Rect--Y[FRAME]::2A7
+Node: FRAME.66
+      FRAME.66::2D5
+      Rect-+X[FRAME]::2C5
+Node: FRAME.67
+      FRAME.67::2F2
+      Rect--X[FRAME]::2E2
+Node: FRAME.68
+      FRAME.68::30F
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.69
+      FRAME.69::2B9
+      Rect--Y[FRAME]::2A7
+Node: FRAME.70
+      FRAME.70::2D6
+      Rect-+X[FRAME]::2C5
+Node: FRAME.71
+      FRAME.71::2F3
+      Rect--X[FRAME]::2E2
+Node: FRAME.72
+      FRAME.72::2BA
+      Rect--Y[FRAME]::2A7
+Node: FRAME.73
+      FRAME.73::2D7
+      Rect-+X[FRAME]::2C5
+Node: FRAME.74
+      FRAME.74::2F4
+      Rect--X[FRAME]::2E2
+Node: FRAME.75
+      FRAME.75::2BB
+      Rect--Y[FRAME]::2A7
+Node: FRAME.76
+      FRAME.76::2D8
+      Rect-+X[FRAME]::2C5
+Node: FRAME.77
+      FRAME.77::2F5
+      Rect--X[FRAME]::2E2
+Node: FRAME.78
+      FRAME.78::279
+      Rect--Z[FRAME]::276
+Node: FRAME.79
+      FRAME.79::2AA
+      Rect--Y[FRAME]::2A7
+Node: FRAME.80
+      FRAME.80::2C7
+      Rect-+X[FRAME]::2C5
+Node: FRAME.81
+      FRAME.81::2E4
+      Rect--X[FRAME]::2E2
+Node: FRAME.82
+      FRAME.82::301
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.83
+      FRAME.83::2BC
+      Rect--Y[FRAME]::2A7
+Node: FRAME.84
+      FRAME.84::2D9
+      Rect-+X[FRAME]::2C5
+Node: FRAME.85
+      FRAME.85::2F6
+      Rect--X[FRAME]::2E2
+Node: FRAME.86
+      FRAME.86::2BD
+      Rect--Y[FRAME]::2A7
+Node: FRAME.87
+      FRAME.87::2DA
+      Rect-+X[FRAME]::2C5
+Node: FRAME.88
+      FRAME.88::2F7
+      Rect--X[FRAME]::2E2
+Node: FRAME.89
+      FRAME.89::2BE
+      Rect--Y[FRAME]::2A7
+Node: FRAME.90
+      FRAME.90::2DB
+      Rect-+X[FRAME]::2C5
+Node: FRAME.91
+      FRAME.91::2F8
+      Rect--X[FRAME]::2E2
+Node: FRAME.92
+      FRAME.92::2BF
+      Rect--Y[FRAME]::2A7
+Node: FRAME.93
+      FRAME.93::2DC
+      Rect-+X[FRAME]::2C5
+Node: FRAME.94
+      FRAME.94::2F9
+      Rect--X[FRAME]::2E2
+Node: FRAME.95
+      FRAME.95::2C0
+      Rect--Y[FRAME]::2A7
+Node: FRAME.96
+      FRAME.96::2DD
+      Rect-+X[FRAME]::2C5
+Node: FRAME.97
+      FRAME.97::2FA
+      Rect--X[FRAME]::2E2
+Node: FRAME.98
+      FRAME.98::2C1
+      Rect--Y[FRAME]::2A7
+Node: FRAME.99
+      FRAME.99::2DE
+      Rect-+X[FRAME]::2C5
+Node: FRAME.100
+      FRAME.100::2FB
+      Rect--X[FRAME]::2E2
+Node: FRAME.101
+      FRAME.101::2C2
+      Rect--Y[FRAME]::2A7
+Node: FRAME.102
+      FRAME.102::2DF
+      Rect-+X[FRAME]::2C5
+Node: FRAME.103
+      FRAME.103::2FC
+      Rect--X[FRAME]::2E2
+Node: FRAME.104
+      FRAME.104::2C3
+      Rect--Y[FRAME]::2A7
+Node: FRAME.105
+      FRAME.105::2E0
+      Rect-+X[FRAME]::2C5
+Node: FRAME.106
+      FRAME.106::2FD
+      Rect--X[FRAME]::2E2
+Node: FRAME.107
+      FRAME.107::2C4
+      Rect--Y[FRAME]::2A7
+Node: FRAME.108
+      FRAME.108::2E1
+      Rect-+X[FRAME]::2C5
+Node: FRAME.109
+      FRAME.109::2FE
+      Rect--X[FRAME]::2E2
+Node: FRAME.110
+      FRAME.110::27A
+      Rect--Z[FRAME]::276
+Node: FRAME.111
+      FRAME.111::2AB
+      Rect--Y[FRAME]::2A7
+Node: FRAME.112
+      FRAME.112::2C8
+      Rect-+X[FRAME]::2C5
+Node: FRAME.113
+      FRAME.113::2E5
+      Rect--X[FRAME]::2E2
+Node: FRAME.114
+      FRAME.114::302
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.115
+      FRAME.115::27B
+      Rect--Z[FRAME]::276
+Node: FRAME.116
+      FRAME.116::2AC
+      Rect--Y[FRAME]::2A7
+Node: FRAME.117
+      FRAME.117::2C9
+      Rect-+X[FRAME]::2C5
+Node: FRAME.118
+      FRAME.118::2E6
+      Rect--X[FRAME]::2E2
+Node: FRAME.119
+      FRAME.119::303
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.120
+      FRAME.120::27C
+      Rect--Z[FRAME]::276
+Node: FRAME.121
+      FRAME.121::2AD
+      Rect--Y[FRAME]::2A7
+Node: FRAME.122
+      FRAME.122::2CA
+      Rect-+X[FRAME]::2C5
+Node: FRAME.123
+      FRAME.123::2E7
+      Rect--X[FRAME]::2E2
+Node: FRAME.124
+      FRAME.124::304
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.125
+      FRAME.125::27D
+      Rect--Z[FRAME]::276
+Node: FRAME.126
+      FRAME.126::2AE
+      Rect--Y[FRAME]::2A7
+Node: FRAME.127
+      FRAME.127::2CB
+      Rect-+X[FRAME]::2C5
+Node: FRAME.128
+      FRAME.128::2E8
+      Rect--X[FRAME]::2E2
+Node: FRAME.129
+      FRAME.129::305
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.130
+      FRAME.130::27E
+      Rect--Z[FRAME]::276
+Node: FRAME.131
+      FRAME.131::2AF
+      Rect--Y[FRAME]::2A7
+Node: FRAME.132
+      FRAME.132::2CC
+      Rect-+X[FRAME]::2C5
+Node: FRAME.133
+      FRAME.133::2E9
+      Rect--X[FRAME]::2E2
+Node: FRAME.134
+      FRAME.134::306
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.135
+      FRAME.135::27F
+      Rect--Z[FRAME]::276
+Node: FRAME.136
+      FRAME.136::2B0
+      Rect--Y[FRAME]::2A7
+Node: FRAME.137
+      FRAME.137::2CD
+      Rect-+X[FRAME]::2C5
+Node: FRAME.138
+      FRAME.138::2EA
+      Rect--X[FRAME]::2E2
+Node: FRAME.139
+      FRAME.139::307
+      Rect-+Y[FRAME]::2FF
+Node: FRAME.140
+      FRAME.140::280
+      Rect--Z[FRAME]::276
+Node: FRAME.141
+      FRAME.141::2B1
+      Rect--Y[FRAME]::2A7
+Node: FRAME.142
+      FRAME.142::2CE
+      Rect-+X[FRAME]::2C5
+Node: FRAME.143
+      FRAME.143::2EB
+      Rect--X[FRAME]::2E2
+Node: FRAME.144
+      FRAME.144::308
+      Rect-+Y[FRAME]::2FF
+Node: MAIN.1
+      Cylinder[MAIN]::794
+      MAIN.1::8A0
+Node: MAIN.2
+      Cylinder[MAIN]::794
+      MAIN.2::89A
+Node: MAIN.3
+      Cylinder[MAIN]::794
+      MAIN.3::89B
+Node: MAIN.4
+      MAIN.4::736
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.5
+      MAIN.5::737
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.6
+      Cylinder[MAIN]::794
+      MAIN.6::8A2
+Node: MAIN.7
+      Cylinder[MAIN]::794
+      MAIN.7::89F
+Node: MAIN.8
+      MAIN.8::73A
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.9
+      Cylinder[MAIN]::794
+      MAIN.9::8A8
+Node: MAIN.10
+      MAIN.10::46B
+      Rect-Board01[MAIN]::461
+Node: MAIN.11
+      Cylinder[MAIN]::794
+      MAIN.11::8A7
+Node: MAIN.12
+      MAIN.12::46D
+      Rect-Board01[MAIN]::461
+Node: MAIN.13
+      Cylinder[MAIN]::794
+      MAIN.13::8AC
+Node: MAIN.14
+      Cylinder[MAIN]::794
+      MAIN.14::8B0
+Node: MAIN.15
+      Cylinder[MAIN]::794
+      MAIN.15::8AE
+Node: MAIN.16
+      Cylinder[MAIN]::794
+      MAIN.16::8AF
+Node: MAIN.18
+      Cylinder[MAIN]::794
+      MAIN.18::8B8
+Node: MAIN.19
+      Cylinder[MAIN]::794
+      MAIN.19::8B9
+Node: MAIN.20
+      Cylinder[MAIN]::794
+      MAIN.20::8BA
+Node: MAIN.21
+      Cylinder[MAIN]::794
+      MAIN.21::8BB
+Node: MAIN.22
+      Cylinder[MAIN]::794
+      MAIN.22::8B5
+Node: MAIN.23
+      Cylinder[MAIN]::794
+      MAIN.23::8B6
+Node: MAIN.24
+      Cylinder[MAIN]::794
+      MAIN.24::8B7
+Node: MAIN.25
+      MAIN.25::396
+      Rect-Board12[MAIN]::395
+Node: MAIN.26
+      MAIN.26::3A7
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.27
+      MAIN.27::3B8
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.28
+      MAIN.28::3C9
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.29
+      MAIN.29::3DA
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.30
+      MAIN.30::3FC
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.31
+      MAIN.31::40D
+      Rect-Board06[MAIN]::40C
+Node: MAIN.32
+      MAIN.32::41E
+      Rect-Board05[MAIN]::41D
+Node: MAIN.33
+      MAIN.33::42F
+      Rect-Board04[MAIN]::42E
+Node: MAIN.34
+      MAIN.34::440
+      Rect-Board03[MAIN]::43F
+Node: MAIN.35
+      MAIN.35::451
+      Rect-Board02[MAIN]::450
+Node: MAIN.36
+      MAIN.36::462
+      Rect-Board01[MAIN]::461
+Node: MAIN.37
+      MAIN.37::72B
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.38
+      MAIN.38::733
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.39
+      Cylinder[MAIN]::794
+      MAIN.39::899
+Node: MAIN.40
+      Cylinder[MAIN]::794
+      MAIN.40::89C
+Node: MAIN.41
+      Cylinder[MAIN]::794
+      MAIN.41::89D
+Node: MAIN.42
+      MAIN.42::39F
+      Rect-Board12[MAIN]::395
+Node: MAIN.43
+      MAIN.43::3B0
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.44
+      MAIN.44::3C1
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.45
+      MAIN.45::3D2
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.46
+      MAIN.46::3E3
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.47
+      MAIN.47::405
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.48
+      MAIN.48::416
+      Rect-Board06[MAIN]::40C
+Node: MAIN.49
+      MAIN.49::427
+      Rect-Board05[MAIN]::41D
+Node: MAIN.50
+      MAIN.50::438
+      Rect-Board04[MAIN]::42E
+Node: MAIN.51
+      MAIN.51::449
+      Rect-Board03[MAIN]::43F
+Node: MAIN.52
+      MAIN.52::45A
+      Rect-Board02[MAIN]::450
+Node: MAIN.53
+      MAIN.53::3A0
+      Rect-Board12[MAIN]::395
+Node: MAIN.54
+      MAIN.54::3B1
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.55
+      MAIN.55::3C2
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.56
+      MAIN.56::3D3
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.57
+      MAIN.57::3E4
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.58
+      MAIN.58::406
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.59
+      MAIN.59::417
+      Rect-Board06[MAIN]::40C
+Node: MAIN.60
+      MAIN.60::428
+      Rect-Board05[MAIN]::41D
+Node: MAIN.61
+      MAIN.61::439
+      Rect-Board04[MAIN]::42E
+Node: MAIN.62
+      MAIN.62::44A
+      Rect-Board03[MAIN]::43F
+Node: MAIN.63
+      MAIN.63::45B
+      Rect-Board02[MAIN]::450
+Node: MAIN.64
+      MAIN.64::46C
+      Rect-Board01[MAIN]::461
+Node: MAIN.65
+      Cylinder[MAIN]::794
+      MAIN.65::8A3
+Node: MAIN.66
+      MAIN.66::3A1
+      Rect-Board12[MAIN]::395
+Node: MAIN.67
+      MAIN.67::3B2
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.68
+      MAIN.68::3C3
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.69
+      MAIN.69::3D4
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.70
+      MAIN.70::3E5
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.71
+      MAIN.71::407
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.72
+      MAIN.72::418
+      Rect-Board06[MAIN]::40C
+Node: MAIN.73
+      MAIN.73::429
+      Rect-Board05[MAIN]::41D
+Node: MAIN.74
+      MAIN.74::43A
+      Rect-Board04[MAIN]::42E
+Node: MAIN.75
+      MAIN.75::44B
+      Rect-Board03[MAIN]::43F
+Node: MAIN.76
+      MAIN.76::45C
+      Rect-Board02[MAIN]::450
+Node: MAIN.77
+      MAIN.77::3A2
+      Rect-Board12[MAIN]::395
+Node: MAIN.78
+      MAIN.78::3B3
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.79
+      MAIN.79::3C4
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.80
+      MAIN.80::3D5
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.81
+      MAIN.81::3E6
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.82
+      MAIN.82::408
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.83
+      MAIN.83::419
+      Rect-Board06[MAIN]::40C
+Node: MAIN.84
+      MAIN.84::42A
+      Rect-Board05[MAIN]::41D
+Node: MAIN.85
+      MAIN.85::43B
+      Rect-Board04[MAIN]::42E
+Node: MAIN.86
+      MAIN.86::44C
+      Rect-Board03[MAIN]::43F
+Node: MAIN.87
+      MAIN.87::45D
+      Rect-Board02[MAIN]::450
+Node: MAIN.88
+      MAIN.88::46E
+      Rect-Board01[MAIN]::461
+Node: MAIN.89
+      Cylinder[MAIN]::794
+      MAIN.89::8A5
+Node: MAIN.90
+      MAIN.90::3A3
+      Rect-Board12[MAIN]::395
+Node: MAIN.91
+      MAIN.91::3B4
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.92
+      MAIN.92::3C5
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.93
+      MAIN.93::3D6
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.94
+      MAIN.94::3E7
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.95
+      MAIN.95::409
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.96
+      MAIN.96::41A
+      Rect-Board06[MAIN]::40C
+Node: MAIN.97
+      MAIN.97::42B
+      Rect-Board05[MAIN]::41D
+Node: MAIN.98
+      MAIN.98::43C
+      Rect-Board04[MAIN]::42E
+Node: MAIN.99
+      MAIN.99::44D
+      Rect-Board03[MAIN]::43F
+Node: MAIN.100
+      MAIN.100::45E
+      Rect-Board02[MAIN]::450
+Node: MAIN.101
+      MAIN.101::46F
+      Rect-Board01[MAIN]::461
+Node: MAIN.102
+      Cylinder[MAIN]::794
+      MAIN.102::8A6
+Node: MAIN.103
+      Cylinder[MAIN]::794
+      MAIN.103::8A9
+Node: MAIN.104
+      Cylinder[MAIN]::794
+      MAIN.104::8AD
+Node: MAIN.105
+      MAIN.105::3A4
+      Rect-Board12[MAIN]::395
+Node: MAIN.106
+      MAIN.106::3B5
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.107
+      MAIN.107::3C6
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.108
+      MAIN.108::3D7
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.109
+      MAIN.109::3E8
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.110
+      MAIN.110::40A
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.111
+      MAIN.111::41B
+      Rect-Board06[MAIN]::40C
+Node: MAIN.112
+      MAIN.112::42C
+      Rect-Board05[MAIN]::41D
+Node: MAIN.113
+      MAIN.113::43D
+      Rect-Board04[MAIN]::42E
+Node: MAIN.114
+      MAIN.114::44E
+      Rect-Board03[MAIN]::43F
+Node: MAIN.115
+      MAIN.115::45F
+      Rect-Board02[MAIN]::450
+Node: MAIN.116
+      MAIN.116::470
+      Rect-Board01[MAIN]::461
+Node: MAIN.117
+      MAIN.117::3A5
+      Rect-Board12[MAIN]::395
+Node: MAIN.118
+      MAIN.118::3B6
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.119
+      MAIN.119::3C7
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.120
+      MAIN.120::3D8
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.121
+      MAIN.121::3E9
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.122
+      MAIN.122::40B
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.123
+      MAIN.123::41C
+      Rect-Board06[MAIN]::40C
+Node: MAIN.124
+      MAIN.124::42D
+      Rect-Board05[MAIN]::41D
+Node: MAIN.125
+      MAIN.125::43E
+      Rect-Board04[MAIN]::42E
+Node: MAIN.126
+      MAIN.126::44F
+      Rect-Board03[MAIN]::43F
+Node: MAIN.127
+      MAIN.127::460
+      Rect-Board02[MAIN]::450
+Node: MAIN.128
+      MAIN.128::471
+      Rect-Board01[MAIN]::461
+Node: MAIN.129
+      Cylinder[MAIN]::794
+      MAIN.129::8AB
+Node: MAIN.130
+      Cylinder[MAIN]::794
+      MAIN.130::8B1
+Node: MAIN.131
+      Cylinder[MAIN]::794
+      MAIN.131::8B2
+Node: MAIN.132
+      MAIN.132::397
+      Rect-Board12[MAIN]::395
+Node: MAIN.133
+      MAIN.133::3A8
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.134
+      MAIN.134::3B9
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.135
+      MAIN.135::3CA
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.136
+      MAIN.136::3DB
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.137
+      MAIN.137::3FD
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.138
+      MAIN.138::40E
+      Rect-Board06[MAIN]::40C
+Node: MAIN.139
+      MAIN.139::41F
+      Rect-Board05[MAIN]::41D
+Node: MAIN.140
+      MAIN.140::430
+      Rect-Board04[MAIN]::42E
+Node: MAIN.141
+      MAIN.141::441
+      Rect-Board03[MAIN]::43F
+Node: MAIN.142
+      MAIN.142::452
+      Rect-Board02[MAIN]::450
+Node: MAIN.143
+      MAIN.143::463
+      Rect-Board01[MAIN]::461
+Node: MAIN.144
+      MAIN.144::72C
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.145
+      MAIN.145::734
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.146
+      Cylinder[MAIN]::794
+      MAIN.146::8B4
+Node: MAIN.147
+      MAIN.147::398
+      Rect-Board12[MAIN]::395
+Node: MAIN.148
+      MAIN.148::3A9
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.149
+      MAIN.149::3BA
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.150
+      MAIN.150::3CB
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.151
+      MAIN.151::3DC
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.152
+      MAIN.152::3FE
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.153
+      MAIN.153::40F
+      Rect-Board06[MAIN]::40C
+Node: MAIN.154
+      MAIN.154::420
+      Rect-Board05[MAIN]::41D
+Node: MAIN.155
+      MAIN.155::431
+      Rect-Board04[MAIN]::42E
+Node: MAIN.156
+      MAIN.156::442
+      Rect-Board03[MAIN]::43F
+Node: MAIN.157
+      MAIN.157::453
+      Rect-Board02[MAIN]::450
+Node: MAIN.158
+      MAIN.158::464
+      Rect-Board01[MAIN]::461
+Node: MAIN.159
+      MAIN.159::72D
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.160
+      MAIN.160::735
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.161
+      MAIN.161::399
+      Rect-Board12[MAIN]::395
+Node: MAIN.162
+      MAIN.162::3AA
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.163
+      MAIN.163::3BB
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.164
+      MAIN.164::3CC
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.165
+      MAIN.165::3DD
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.166
+      MAIN.166::3FF
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.167
+      MAIN.167::410
+      Rect-Board06[MAIN]::40C
+Node: MAIN.168
+      MAIN.168::421
+      Rect-Board05[MAIN]::41D
+Node: MAIN.169
+      MAIN.169::432
+      Rect-Board04[MAIN]::42E
+Node: MAIN.170
+      MAIN.170::443
+      Rect-Board03[MAIN]::43F
+Node: MAIN.171
+      MAIN.171::454
+      Rect-Board02[MAIN]::450
+Node: MAIN.172
+      MAIN.172::465
+      Rect-Board01[MAIN]::461
+Node: MAIN.173
+      MAIN.173::72E
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.174
+      MAIN.174::39A
+      Rect-Board12[MAIN]::395
+Node: MAIN.175
+      MAIN.175::3AB
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.176
+      MAIN.176::3BC
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.177
+      MAIN.177::3CD
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.178
+      MAIN.178::3DE
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.179
+      MAIN.179::400
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.180
+      MAIN.180::411
+      Rect-Board06[MAIN]::40C
+Node: MAIN.181
+      MAIN.181::422
+      Rect-Board05[MAIN]::41D
+Node: MAIN.182
+      MAIN.182::433
+      Rect-Board04[MAIN]::42E
+Node: MAIN.183
+      MAIN.183::444
+      Rect-Board03[MAIN]::43F
+Node: MAIN.184
+      MAIN.184::455
+      Rect-Board02[MAIN]::450
+Node: MAIN.185
+      MAIN.185::466
+      Rect-Board01[MAIN]::461
+Node: MAIN.186
+      MAIN.186::72F
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.187
+      MAIN.187::39B
+      Rect-Board12[MAIN]::395
+Node: MAIN.188
+      MAIN.188::3AC
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.189
+      MAIN.189::3BD
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.190
+      MAIN.190::3CE
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.191
+      MAIN.191::3DF
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.192
+      MAIN.192::401
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.193
+      MAIN.193::412
+      Rect-Board06[MAIN]::40C
+Node: MAIN.194
+      MAIN.194::423
+      Rect-Board05[MAIN]::41D
+Node: MAIN.195
+      MAIN.195::434
+      Rect-Board04[MAIN]::42E
+Node: MAIN.196
+      MAIN.196::445
+      Rect-Board03[MAIN]::43F
+Node: MAIN.197
+      MAIN.197::456
+      Rect-Board02[MAIN]::450
+Node: MAIN.198
+      MAIN.198::467
+      Rect-Board01[MAIN]::461
+Node: MAIN.199
+      MAIN.199::730
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.200
+      MAIN.200::738
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.201
+      Cylinder[MAIN]::794
+      MAIN.201::89E
+Node: MAIN.202
+      MAIN.202::39C
+      Rect-Board12[MAIN]::395
+Node: MAIN.203
+      MAIN.203::3AD
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.204
+      MAIN.204::3BE
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.205
+      MAIN.205::3CF
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.206
+      MAIN.206::3E0
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.207
+      MAIN.207::402
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.208
+      MAIN.208::413
+      Rect-Board06[MAIN]::40C
+Node: MAIN.209
+      MAIN.209::424
+      Rect-Board05[MAIN]::41D
+Node: MAIN.210
+      MAIN.210::435
+      Rect-Board04[MAIN]::42E
+Node: MAIN.211
+      MAIN.211::446
+      Rect-Board03[MAIN]::43F
+Node: MAIN.212
+      MAIN.212::457
+      Rect-Board02[MAIN]::450
+Node: MAIN.213
+      MAIN.213::468
+      Rect-Board01[MAIN]::461
+Node: MAIN.214
+      MAIN.214::731
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.215
+      MAIN.215::739
+      Rect-+X ReactionWheel[MAIN]::686
+Node: MAIN.216
+      MAIN.216::39D
+      Rect-Board12[MAIN]::395
+Node: MAIN.217
+      MAIN.217::3AE
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.218
+      MAIN.218::3BF
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.219
+      MAIN.219::3D0
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.220
+      MAIN.220::3E1
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.221
+      MAIN.221::403
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.222
+      MAIN.222::414
+      Rect-Board06[MAIN]::40C
+Node: MAIN.223
+      MAIN.223::425
+      Rect-Board05[MAIN]::41D
+Node: MAIN.224
+      MAIN.224::436
+      Rect-Board04[MAIN]::42E
+Node: MAIN.225
+      MAIN.225::447
+      Rect-Board03[MAIN]::43F
+Node: MAIN.226
+      MAIN.226::458
+      Rect-Board02[MAIN]::450
+Node: MAIN.227
+      MAIN.227::469
+      Rect-Board01[MAIN]::461
+Node: MAIN.228
+      MAIN.228::732
+      Rect--X ReactionWheel[MAIN]::682
+Node: MAIN.229
+      MAIN.229::39E
+      Rect-Board12[MAIN]::395
+Node: MAIN.230
+      MAIN.230::3AF
+      Rect-Cu_block[MAIN]::3A6
+Node: MAIN.231
+      MAIN.231::3C0
+      Rect-Board10[MAIN]::3B7
+Node: MAIN.232
+      MAIN.232::3D1
+      Rect-Board09[MAIN]::3C8
+Node: MAIN.233
+      MAIN.233::3E2
+      Rect-Board08[MAIN]::3D9
+Node: MAIN.234
+      MAIN.234::404
+      Rect-Board07[MAIN]::3FB
+Node: MAIN.235
+      MAIN.235::415
+      Rect-Board06[MAIN]::40C
+Node: MAIN.236
+      MAIN.236::426
+      Rect-Board05[MAIN]::41D
+Node: MAIN.237
+      MAIN.237::437
+      Rect-Board04[MAIN]::42E
+Node: MAIN.238
+      MAIN.238::448
+      Rect-Board03[MAIN]::43F
+Node: MAIN.239
+      MAIN.239::459
+      Rect-Board02[MAIN]::450
+Node: MAIN.240
+      MAIN.240::46A
+      Rect-Board01[MAIN]::461
+Node: MAIN.241
+      Cylinder[MAIN]::794
+      MAIN.241::8A4
+Node: OUTER_BOARD.1
+      OUTER_BOARD.1::562
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.2
+      OUTER_BOARD.2::563
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.3
+      OUTER_BOARD.3::564
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.4
+      OUTER_BOARD.4::565
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.5
+      OUTER_BOARD.5::566
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.6
+      OUTER_BOARD.6::567
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.7
+      OUTER_BOARD.7::568
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.8
+      OUTER_BOARD.8::569
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.9
+      OUTER_BOARD.9::56A
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.10
+      OUTER_BOARD.10::56B
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.11
+      OUTER_BOARD.11::56C
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.12
+      OUTER_BOARD.12::56D
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.13
+      OUTER_BOARD.13::56E
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.14
+      OUTER_BOARD.14::56F
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.15
+      OUTER_BOARD.15::570
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.16
+      OUTER_BOARD.16::571
+      Rect-+X board2[OUTER_BOARD]::561
+Node: OUTER_BOARD.17
+      OUTER_BOARD.17::497
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.18
+      OUTER_BOARD.18::4A8
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.19
+      OUTER_BOARD.19::4DB
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.20
+      OUTER_BOARD.20::4EC
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.21
+      OUTER_BOARD.21::4FD
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.22
+      OUTER_BOARD.22::50E
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.23
+      OUTER_BOARD.23::51F
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.24
+      OUTER_BOARD.24::4A0
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.25
+      OUTER_BOARD.25::4B1
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.26
+      OUTER_BOARD.26::4E4
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.27
+      OUTER_BOARD.27::4F5
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.28
+      OUTER_BOARD.28::506
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.29
+      OUTER_BOARD.29::517
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.30
+      OUTER_BOARD.30::528
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.31
+      OUTER_BOARD.31::4A1
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.32
+      OUTER_BOARD.32::4B2
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.33
+      OUTER_BOARD.33::4E5
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.34
+      OUTER_BOARD.34::4F6
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.35
+      OUTER_BOARD.35::507
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.36
+      OUTER_BOARD.36::518
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.37
+      OUTER_BOARD.37::529
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.38
+      OUTER_BOARD.38::4A2
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.39
+      OUTER_BOARD.39::4B3
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.40
+      OUTER_BOARD.40::4E6
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.41
+      OUTER_BOARD.41::4F7
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.42
+      OUTER_BOARD.42::508
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.43
+      OUTER_BOARD.43::519
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.44
+      OUTER_BOARD.44::52A
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.45
+      OUTER_BOARD.45::4A3
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.46
+      OUTER_BOARD.46::4B4
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.47
+      OUTER_BOARD.47::4E7
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.48
+      OUTER_BOARD.48::4F8
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.49
+      OUTER_BOARD.49::509
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.50
+      OUTER_BOARD.50::51A
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.51
+      OUTER_BOARD.51::52B
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.52
+      OUTER_BOARD.52::4A4
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.53
+      OUTER_BOARD.53::4B5
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.54
+      OUTER_BOARD.54::4E8
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.55
+      OUTER_BOARD.55::4F9
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.56
+      OUTER_BOARD.56::50A
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.57
+      OUTER_BOARD.57::51B
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.58
+      OUTER_BOARD.58::52C
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.59
+      OUTER_BOARD.59::4A5
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.60
+      OUTER_BOARD.60::4B6
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.61
+      OUTER_BOARD.61::4E9
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.62
+      OUTER_BOARD.62::4FA
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.63
+      OUTER_BOARD.63::50B
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.64
+      OUTER_BOARD.64::51C
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.65
+      OUTER_BOARD.65::52D
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.66
+      OUTER_BOARD.66::4A6
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.67
+      OUTER_BOARD.67::4B7
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.68
+      OUTER_BOARD.68::4EA
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.69
+      OUTER_BOARD.69::4FB
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.70
+      OUTER_BOARD.70::50C
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.71
+      OUTER_BOARD.71::51D
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.72
+      OUTER_BOARD.72::52E
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.73
+      OUTER_BOARD.73::498
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.74
+      OUTER_BOARD.74::4A9
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.75
+      OUTER_BOARD.75::4DC
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.76
+      OUTER_BOARD.76::4ED
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.77
+      OUTER_BOARD.77::4FE
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.78
+      OUTER_BOARD.78::50F
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.79
+      OUTER_BOARD.79::520
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.80
+      OUTER_BOARD.80::499
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.81
+      OUTER_BOARD.81::4AA
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.82
+      OUTER_BOARD.82::4DD
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.83
+      OUTER_BOARD.83::4EE
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.84
+      OUTER_BOARD.84::4FF
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.85
+      OUTER_BOARD.85::510
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.86
+      OUTER_BOARD.86::521
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.87
+      OUTER_BOARD.87::49A
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.88
+      OUTER_BOARD.88::4AB
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.89
+      OUTER_BOARD.89::4DE
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.90
+      OUTER_BOARD.90::4EF
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.91
+      OUTER_BOARD.91::500
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.92
+      OUTER_BOARD.92::511
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.93
+      OUTER_BOARD.93::522
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.94
+      OUTER_BOARD.94::49B
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.95
+      OUTER_BOARD.95::4AC
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.96
+      OUTER_BOARD.96::4DF
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.97
+      OUTER_BOARD.97::4F0
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.98
+      OUTER_BOARD.98::501
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.99
+      OUTER_BOARD.99::512
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.100
+      OUTER_BOARD.100::523
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.101
+      OUTER_BOARD.101::49C
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.102
+      OUTER_BOARD.102::4AD
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.103
+      OUTER_BOARD.103::4E0
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.104
+      OUTER_BOARD.104::4F1
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.105
+      OUTER_BOARD.105::502
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.106
+      OUTER_BOARD.106::513
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.107
+      OUTER_BOARD.107::524
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.108
+      OUTER_BOARD.108::49D
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.109
+      OUTER_BOARD.109::4AE
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.110
+      OUTER_BOARD.110::4E1
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.111
+      OUTER_BOARD.111::4F2
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.112
+      OUTER_BOARD.112::503
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.113
+      OUTER_BOARD.113::514
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.114
+      OUTER_BOARD.114::525
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.115
+      OUTER_BOARD.115::49E
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.116
+      OUTER_BOARD.116::4AF
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.117
+      OUTER_BOARD.117::4E2
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.118
+      OUTER_BOARD.118::4F3
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.119
+      OUTER_BOARD.119::504
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.120
+      OUTER_BOARD.120::515
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.121
+      OUTER_BOARD.121::526
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: OUTER_BOARD.122
+      OUTER_BOARD.122::49F
+      Rect--Y board2[OUTER_BOARD]::495
+Node: OUTER_BOARD.123
+      OUTER_BOARD.123::4B0
+      Rect--X board2[OUTER_BOARD]::4A7
+Node: OUTER_BOARD.124
+      OUTER_BOARD.124::4E3
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Node: OUTER_BOARD.125
+      OUTER_BOARD.125::4F4
+      Rect--Y board1[OUTER_BOARD]::4EB
+Node: OUTER_BOARD.126
+      OUTER_BOARD.126::505
+      Rect--X board1[OUTER_BOARD]::4FC
+Node: OUTER_BOARD.127
+      OUTER_BOARD.127::516
+      Rect-+X board1[OUTER_BOARD]::50D
+Node: OUTER_BOARD.128
+      OUTER_BOARD.128::527
+      Rect-+Y board1[OUTER_BOARD]::51E
+Node: SOLAR_PANEL.1
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.1::78C
+Node: SOLAR_PANEL.2
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.2::78D
+Node: SOLAR_PANEL.3
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.3::78E
+Node: SOLAR_PANEL.4
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.4::78F
+Node: SOLAR_PANEL.5
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.5::790
+Node: SOLAR_PANEL.6
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.6::791
+Node: SOLAR_PANEL.7
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.7::792
+Node: SOLAR_PANEL.8
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+      SOLAR_PANEL.8::793
+Node: SOLAR_PANEL.9
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.9::6EB
+Node: SOLAR_PANEL.10
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.10::6F3
+Node: SOLAR_PANEL.11
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.11::6FB
+Node: SOLAR_PANEL.12
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.12::703
+Node: SOLAR_PANEL.13
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.13::70B
+Node: SOLAR_PANEL.14
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.14::713
+Node: SOLAR_PANEL.15
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.15::71B
+Node: SOLAR_PANEL.16
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.16::723
+Node: SOLAR_PANEL.17
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.17::754
+Node: SOLAR_PANEL.18
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.18::75C
+Node: SOLAR_PANEL.19
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.19::764
+Node: SOLAR_PANEL.20
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.20::76C
+Node: SOLAR_PANEL.21
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.21::774
+Node: SOLAR_PANEL.22
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.22::77C
+Node: SOLAR_PANEL.23
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.23::784
+Node: SOLAR_PANEL.24
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.24::6EC
+Node: SOLAR_PANEL.25
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.25::6F4
+Node: SOLAR_PANEL.26
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.26::6FC
+Node: SOLAR_PANEL.27
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.27::704
+Node: SOLAR_PANEL.28
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.28::70C
+Node: SOLAR_PANEL.29
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.29::714
+Node: SOLAR_PANEL.30
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.30::71C
+Node: SOLAR_PANEL.31
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.31::724
+Node: SOLAR_PANEL.32
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.32::755
+Node: SOLAR_PANEL.33
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.33::75D
+Node: SOLAR_PANEL.34
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.34::765
+Node: SOLAR_PANEL.35
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.35::76D
+Node: SOLAR_PANEL.36
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.36::775
+Node: SOLAR_PANEL.37
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.37::77D
+Node: SOLAR_PANEL.38
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.38::785
+Node: SOLAR_PANEL.39
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.39::6ED
+Node: SOLAR_PANEL.40
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.40::6F5
+Node: SOLAR_PANEL.41
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.41::6FD
+Node: SOLAR_PANEL.42
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.42::705
+Node: SOLAR_PANEL.43
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.43::70D
+Node: SOLAR_PANEL.44
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.44::715
+Node: SOLAR_PANEL.45
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.45::71D
+Node: SOLAR_PANEL.46
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.46::725
+Node: SOLAR_PANEL.47
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.47::756
+Node: SOLAR_PANEL.48
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.48::75E
+Node: SOLAR_PANEL.49
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.49::766
+Node: SOLAR_PANEL.50
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.50::76E
+Node: SOLAR_PANEL.51
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.51::776
+Node: SOLAR_PANEL.52
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.52::77E
+Node: SOLAR_PANEL.53
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.53::786
+Node: SOLAR_PANEL.54
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.54::6EE
+Node: SOLAR_PANEL.55
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.55::6F6
+Node: SOLAR_PANEL.56
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.56::6FE
+Node: SOLAR_PANEL.57
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.57::706
+Node: SOLAR_PANEL.58
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.58::70E
+Node: SOLAR_PANEL.59
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.59::716
+Node: SOLAR_PANEL.60
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.60::71E
+Node: SOLAR_PANEL.61
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.61::726
+Node: SOLAR_PANEL.62
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.62::757
+Node: SOLAR_PANEL.63
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.63::75F
+Node: SOLAR_PANEL.64
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.64::767
+Node: SOLAR_PANEL.65
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.65::76F
+Node: SOLAR_PANEL.66
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.66::777
+Node: SOLAR_PANEL.67
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.67::77F
+Node: SOLAR_PANEL.68
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.68::787
+Node: SOLAR_PANEL.69
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.69::6EF
+Node: SOLAR_PANEL.70
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.70::6F7
+Node: SOLAR_PANEL.71
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.71::6FF
+Node: SOLAR_PANEL.72
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.72::707
+Node: SOLAR_PANEL.73
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.73::70F
+Node: SOLAR_PANEL.74
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.74::717
+Node: SOLAR_PANEL.75
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.75::71F
+Node: SOLAR_PANEL.76
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.76::727
+Node: SOLAR_PANEL.77
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.77::758
+Node: SOLAR_PANEL.78
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.78::760
+Node: SOLAR_PANEL.79
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.79::768
+Node: SOLAR_PANEL.80
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.80::770
+Node: SOLAR_PANEL.81
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.81::778
+Node: SOLAR_PANEL.82
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.82::780
+Node: SOLAR_PANEL.83
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.83::788
+Node: SOLAR_PANEL.84
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.84::6F0
+Node: SOLAR_PANEL.85
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.85::6F8
+Node: SOLAR_PANEL.86
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.86::700
+Node: SOLAR_PANEL.87
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.87::708
+Node: SOLAR_PANEL.88
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.88::710
+Node: SOLAR_PANEL.89
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.89::718
+Node: SOLAR_PANEL.90
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.90::720
+Node: SOLAR_PANEL.91
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.91::728
+Node: SOLAR_PANEL.92
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.92::759
+Node: SOLAR_PANEL.93
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.93::761
+Node: SOLAR_PANEL.94
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.94::769
+Node: SOLAR_PANEL.95
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.95::771
+Node: SOLAR_PANEL.96
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.96::779
+Node: SOLAR_PANEL.97
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.97::781
+Node: SOLAR_PANEL.98
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.98::789
+Node: SOLAR_PANEL.99
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.99::6F1
+Node: SOLAR_PANEL.100
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.100::6F9
+Node: SOLAR_PANEL.101
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.101::701
+Node: SOLAR_PANEL.102
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.102::709
+Node: SOLAR_PANEL.103
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.103::711
+Node: SOLAR_PANEL.104
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.104::719
+Node: SOLAR_PANEL.105
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.105::721
+Node: SOLAR_PANEL.106
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.106::729
+Node: SOLAR_PANEL.107
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.107::75A
+Node: SOLAR_PANEL.108
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.108::762
+Node: SOLAR_PANEL.109
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.109::76A
+Node: SOLAR_PANEL.110
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.110::772
+Node: SOLAR_PANEL.111
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.111::77A
+Node: SOLAR_PANEL.112
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.112::782
+Node: SOLAR_PANEL.113
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.113::78A
+Node: SOLAR_PANEL.114
+      Rect--X solar1[SOLAR_PANEL]::62D
+      SOLAR_PANEL.114::6F2
+Node: SOLAR_PANEL.115
+      Rect--X solar2[SOLAR_PANEL]::61C
+      SOLAR_PANEL.115::6FA
+Node: SOLAR_PANEL.116
+      Rect--X solar3[SOLAR_PANEL]::60B
+      SOLAR_PANEL.116::702
+Node: SOLAR_PANEL.117
+      Rect--X solar4[SOLAR_PANEL]::5FA
+      SOLAR_PANEL.117::70A
+Node: SOLAR_PANEL.118
+      Rect-+Y solar1[SOLAR_PANEL]::671
+      SOLAR_PANEL.118::712
+Node: SOLAR_PANEL.119
+      Rect-+Y solar2[SOLAR_PANEL]::660
+      SOLAR_PANEL.119::71A
+Node: SOLAR_PANEL.120
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+      SOLAR_PANEL.120::722
+Node: SOLAR_PANEL.121
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+      SOLAR_PANEL.121::72A
+Node: SOLAR_PANEL.122
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+      SOLAR_PANEL.122::75B
+Node: SOLAR_PANEL.123
+      Rect--Y solar2[SOLAR_PANEL]::594
+      SOLAR_PANEL.123::763
+Node: SOLAR_PANEL.124
+      Rect--Y solar3[SOLAR_PANEL]::583
+      SOLAR_PANEL.124::76B
+Node: SOLAR_PANEL.125
+      Rect--Y solar4[SOLAR_PANEL]::541
+      SOLAR_PANEL.125::773
+Node: SOLAR_PANEL.126
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+      SOLAR_PANEL.126::77B
+Node: SOLAR_PANEL.127
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+      SOLAR_PANEL.127::783
+Node: SOLAR_PANEL.128
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+      SOLAR_PANEL.128::78B
+Node: SPACE.1
+      FRAME.29::278
+Conductor: BATTERY.1
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.2
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.3
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.4
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.5
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.6
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.7
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.8
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.9
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.10
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.11
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.12
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.13
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.14
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.15
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.16
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.17
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.18
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.19
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.20
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.21
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.22
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.23
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.24
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.25
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.26
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.27
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.28
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.29
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.30
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.31
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.32
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.33
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.34
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.35
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.36
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.37
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.38
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.39
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.40
+      Rect-Bat2[BATTERY]::6A8
+Conductor: BATTERY.41
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.42
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.43
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.44
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.45
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.46
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.47
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.48
+      Face Contactor-Bat2[BATTERY][1]::849
+Conductor: BATTERY.49
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.50
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.51
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.52
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.53
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.54
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.55
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.56
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.57
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.58
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.59
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.60
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.61
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.62
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.63
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.64
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.65
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.66
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.67
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.68
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.69
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.70
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.71
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.72
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.73
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.74
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.75
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.76
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.77
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.78
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.79
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.80
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.81
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.82
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.83
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.84
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.85
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.86
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.87
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.88
+      Rect-Bat1[BATTERY]::6CB
+Conductor: BATTERY.89
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.90
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.91
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.92
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.93
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.94
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.95
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: BATTERY.96
+      Face Contactor-Bat1[BATTERY][1]::848
+Conductor: FRAME.1
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.2
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.3
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.4
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.5
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.6
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.7
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.8
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.9
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.10
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.11
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.12
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.13
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.14
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.15
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.16
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.17
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.18
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.19
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.20
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.21
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.22
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.23
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.24
+      Rect-+Z[FRAME]::472
+Conductor: FRAME.25
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.26
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.27
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.28
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.29
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.30
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.31
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.32
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.33
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.34
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.35
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.36
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.37
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.38
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.39
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.40
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.41
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.42
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.43
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.44
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.45
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.46
+      Rect--Z[FRAME]::276
+Conductor: FRAME.47
+      Rect--Z[FRAME]::276
+Conductor: FRAME.48
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.49
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.50
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.51
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.52
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.53
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.54
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.55
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.56
+      Rect--Z[FRAME]::276
+Conductor: FRAME.57
+      Rect--Z[FRAME]::276
+Conductor: FRAME.58
+      Rect--Z[FRAME]::276
+Conductor: FRAME.59
+      Rect--Z[FRAME]::276
+Conductor: FRAME.60
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.61
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.62
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.63
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.64
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.65
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.66
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.67
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.68
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.69
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.70
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.71
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.72
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.73
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.74
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.75
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.76
+      Rect--Z[FRAME]::276
+Conductor: FRAME.77
+      Rect--Z[FRAME]::276
+Conductor: FRAME.78
+      Rect--Z[FRAME]::276
+Conductor: FRAME.79
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.80
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.81
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.82
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.83
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.84
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.85
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.86
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.87
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.88
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.89
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.90
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.91
+      Rect--Z[FRAME]::276
+Conductor: FRAME.92
+      Rect--Z[FRAME]::276
+Conductor: FRAME.93
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.94
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.95
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.96
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.97
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.98
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.99
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.100
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.101
+      Rect--Z[FRAME]::276
+Conductor: FRAME.102
+      Rect--Z[FRAME]::276
+Conductor: FRAME.103
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.104
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.105
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.106
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.107
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.108
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.109
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.110
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.111
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.112
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.113
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.114
+      Rect--Z[FRAME]::276
+Conductor: FRAME.115
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.116
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.117
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.118
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.119
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.120
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.121
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.122
+      Rect--Z[FRAME]::276
+Conductor: FRAME.123
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.124
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.125
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.126
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.127
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.128
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.129
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.130
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.131
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.132
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.133
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.134
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.135
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.136
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.137
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.138
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.139
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.140
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.141
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.142
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.143
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.144
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.145
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.146
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.147
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.148
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.149
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.150
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.151
+      Rect--Z[FRAME]::276
+Conductor: FRAME.152
+      Rect--Z[FRAME]::276
+Conductor: FRAME.153
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.154
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.155
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.156
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.157
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.158
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.159
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.160
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.161
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.162
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.163
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.164
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.165
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.166
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.167
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.168
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.169
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.170
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.171
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.172
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.173
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.174
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.175
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.176
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.177
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.178
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.179
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.180
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.181
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.182
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.183
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.184
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.185
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.186
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.187
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.188
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.189
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.190
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.191
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.192
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.193
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.194
+      Rect--Z[FRAME]::276
+Conductor: FRAME.195
+      Rect--Z[FRAME]::276
+Conductor: FRAME.196
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.197
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.198
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.199
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.200
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.201
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.202
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.203
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.204
+      Rect--Z[FRAME]::276
+Conductor: FRAME.205
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.206
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.207
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.208
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.209
+      Rect--Z[FRAME]::276
+Conductor: FRAME.210
+      Rect--Z[FRAME]::276
+Conductor: FRAME.211
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.212
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.213
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.214
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.215
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.216
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.217
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.218
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.219
+      Rect--Z[FRAME]::276
+Conductor: FRAME.220
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.221
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.222
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.223
+      Rect-+Y[FRAME]::2FF
+Conductor: FRAME.224
+      Rect--Z[FRAME]::276
+Conductor: FRAME.225
+      Rect--Y[FRAME]::2A7
+Conductor: FRAME.226
+      Rect-+X[FRAME]::2C5
+Conductor: FRAME.227
+      Rect--X[FRAME]::2E2
+Conductor: FRAME.228
+      Rect-+Y[FRAME]::2FF
+Conductor: MAIN.1
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.2
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.3
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.4
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.5
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.6
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.7
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.8
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.9
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.10
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.11
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.12
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.13
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.14
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.15
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.16
+      Edge Contactor[MAIN][2]::334
+Conductor: MAIN.17
+      Cylinder[MAIN]::794
+Conductor: MAIN.18
+      Cylinder[MAIN]::794
+Conductor: MAIN.19
+      Cylinder[MAIN]::794
+Conductor: MAIN.20
+      Cylinder[MAIN]::794
+Conductor: MAIN.21
+      Cylinder[MAIN]::794
+Conductor: MAIN.22
+      Cylinder[MAIN]::794
+Conductor: MAIN.23
+      Cylinder[MAIN]::794
+Conductor: MAIN.24
+      Cylinder[MAIN]::794
+Conductor: MAIN.25
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.26
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.27
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.28
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.29
+      Cylinder[MAIN]::794
+Conductor: MAIN.30
+      Cylinder[MAIN]::794
+Conductor: MAIN.31
+      Cylinder[MAIN]::794
+Conductor: MAIN.32
+      Cylinder[MAIN]::794
+Conductor: MAIN.33
+      Cylinder[MAIN]::794
+Conductor: MAIN.34
+      Cylinder[MAIN]::794
+Conductor: MAIN.35
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.36
+      Cylinder[MAIN]::794
+Conductor: MAIN.37
+      Cylinder[MAIN]::794
+Conductor: MAIN.38
+      Cylinder[MAIN]::794
+Conductor: MAIN.39
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.40
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.41
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.42
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.43
+      Cylinder[MAIN]::794
+Conductor: MAIN.44
+      Cylinder[MAIN]::794
+Conductor: MAIN.45
+      Cylinder[MAIN]::794
+Conductor: MAIN.46
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.47
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.48
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.49
+      Cylinder[MAIN]::794
+Conductor: MAIN.50
+      Cylinder[MAIN]::794
+Conductor: MAIN.51
+      Cylinder[MAIN]::794
+Conductor: MAIN.52
+      Cylinder[MAIN]::794
+Conductor: MAIN.53
+      Cylinder[MAIN]::794
+Conductor: MAIN.54
+      Cylinder[MAIN]::794
+Conductor: MAIN.55
+      Cylinder[MAIN]::794
+Conductor: MAIN.56
+      Cylinder[MAIN]::794
+Conductor: MAIN.57
+      Cylinder[MAIN]::794
+Conductor: MAIN.58
+      Cylinder[MAIN]::794
+Conductor: MAIN.59
+      Cylinder[MAIN]::794
+Conductor: MAIN.60
+      Cylinder[MAIN]::794
+Conductor: MAIN.61
+      Cylinder[MAIN]::794
+Conductor: MAIN.62
+      Cylinder[MAIN]::794
+Conductor: MAIN.63
+      Cylinder[MAIN]::794
+Conductor: MAIN.64
+      Cylinder[MAIN]::794
+Conductor: MAIN.65
+      Cylinder[MAIN]::794
+Conductor: MAIN.66
+      Cylinder[MAIN]::794
+Conductor: MAIN.67
+      Cylinder[MAIN]::794
+Conductor: MAIN.68
+      Cylinder[MAIN]::794
+Conductor: MAIN.69
+      Cylinder[MAIN]::794
+Conductor: MAIN.70
+      Cylinder[MAIN]::794
+Conductor: MAIN.71
+      Cylinder[MAIN]::794
+Conductor: MAIN.72
+      Cylinder[MAIN]::794
+Conductor: MAIN.73
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.74
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.75
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.76
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.77
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.78
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.79
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.80
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.81
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.82
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.83
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.84
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.85
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.86
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.87
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.88
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.89
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.90
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.91
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.92
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.93
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.94
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.95
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.96
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.97
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.98
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.99
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.100
+      Cylinder[MAIN]::794
+Conductor: MAIN.101
+      Cylinder[MAIN]::794
+Conductor: MAIN.102
+      Cylinder[MAIN]::794
+Conductor: MAIN.103
+      Cylinder[MAIN]::794
+Conductor: MAIN.104
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.105
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.106
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.107
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.108
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.109
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.110
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.111
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.112
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.113
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.114
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.115
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.116
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.117
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.118
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.119
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.120
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.121
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.122
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.123
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.124
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.125
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.126
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.127
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.128
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.129
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.130
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.131
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.132
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.133
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.134
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.135
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.136
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.137
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.138
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.139
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.140
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.141
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.142
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.143
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.144
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.145
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.146
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.147
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.148
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.149
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.150
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.151
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.152
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.153
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.154
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.155
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.156
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.157
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.158
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.159
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.160
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.161
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.162
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.163
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.164
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.165
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.166
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.167
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.168
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.169
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.170
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.171
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.172
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.173
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.174
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.175
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.176
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.177
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.178
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.179
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.180
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.181
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.182
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.183
+      Cylinder[MAIN]::794
+Conductor: MAIN.184
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.185
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.186
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.187
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.188
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.189
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.190
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.191
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.192
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.193
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.194
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.195
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.196
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.197
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.198
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.199
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.200
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.201
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.202
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.203
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.204
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.205
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.206
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.207
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.208
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.209
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.210
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.211
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.212
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.213
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.214
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.215
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.216
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.217
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.218
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.219
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.220
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.221
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.222
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.223
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.224
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.225
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.226
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.227
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.228
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.229
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.230
+      Cylinder[MAIN]::794
+Conductor: MAIN.231
+      Cylinder[MAIN]::794
+Conductor: MAIN.232
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.233
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.234
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.235
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.236
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.237
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.238
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.239
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.240
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.241
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.242
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.243
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.244
+      Cylinder[MAIN]::794
+Conductor: MAIN.245
+      Cylinder[MAIN]::794
+Conductor: MAIN.246
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.247
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.248
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.249
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.250
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.251
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.252
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.253
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.254
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.255
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.256
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.257
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.258
+      Cylinder[MAIN]::794
+Conductor: MAIN.259
+      Cylinder[MAIN]::794
+Conductor: MAIN.260
+      Cylinder[MAIN]::794
+Conductor: MAIN.261
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.262
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.263
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.264
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.265
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.266
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.267
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.268
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.269
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.270
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.271
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.272
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.273
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.274
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.275
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.276
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.277
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.278
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.279
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.280
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.281
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.282
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.283
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.284
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.285
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.286
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.287
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.288
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.289
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.290
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.291
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.292
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.293
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.294
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.295
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.296
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.297
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.298
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.299
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.300
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.301
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.302
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.303
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.304
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.305
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.306
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.307
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.308
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.309
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.310
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.311
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.312
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.313
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.314
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.315
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.316
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.317
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.318
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.319
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.320
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.321
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.322
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.323
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.324
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.325
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.326
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.327
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.328
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.329
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.330
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.331
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.332
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.333
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.334
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.335
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.336
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.337
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.338
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.339
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.340
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.341
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.342
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.343
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.344
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.345
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.346
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.347
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.348
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.349
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.350
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.351
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.352
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.353
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.354
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.355
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.356
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.357
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.358
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.359
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.360
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.361
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.362
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.363
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.364
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.365
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.366
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: MAIN.367
+      Rect-+X ReactionWheel[MAIN]::686
+Conductor: MAIN.368
+      Rect-Board12[MAIN]::395
+Conductor: MAIN.369
+      Rect-Cu_block[MAIN]::3A6
+Conductor: MAIN.370
+      Rect-Board10[MAIN]::3B7
+Conductor: MAIN.371
+      Rect-Board09[MAIN]::3C8
+Conductor: MAIN.372
+      Rect-Board08[MAIN]::3D9
+Conductor: MAIN.373
+      Rect-Board07[MAIN]::3FB
+Conductor: MAIN.374
+      Rect-Board06[MAIN]::40C
+Conductor: MAIN.375
+      Rect-Board05[MAIN]::41D
+Conductor: MAIN.376
+      Rect-Board04[MAIN]::42E
+Conductor: MAIN.377
+      Rect-Board03[MAIN]::43F
+Conductor: MAIN.378
+      Rect-Board02[MAIN]::450
+Conductor: MAIN.379
+      Rect-Board01[MAIN]::461
+Conductor: MAIN.380
+      Rect--X ReactionWheel[MAIN]::682
+Conductor: NEG_X.1
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.2
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.3
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.4
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.5
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.6
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.7
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.8
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.9
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.10
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.11
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.12
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.13
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.14
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.15
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.16
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.17
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.18
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.19
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.20
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.21
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.22
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.23
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.24
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.25
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.26
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.27
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.28
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.29
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.30
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.31
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.32
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.33
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.34
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.35
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.36
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.37
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.38
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.39
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.40
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.41
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.42
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.43
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.44
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.45
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.46
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.47
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.48
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.49
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.50
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.51
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.52
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.53
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.54
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.55
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.56
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.57
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.58
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.59
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.60
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.61
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.62
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.63
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.64
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.65
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.66
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.67
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.68
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.69
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.70
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.71
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.72
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.73
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.74
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.75
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.76
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.77
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.78
+      Face Contactor[NEG_X][4]::7A8
+Conductor: NEG_X.79
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.80
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.81
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.82
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.83
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.84
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.85
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.86
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.87
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.88
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.89
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.90
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.91
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.92
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.93
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.94
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.95
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.96
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.97
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.98
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.99
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.100
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.101
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.102
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.103
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.104
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.105
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.106
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.107
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.108
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.109
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.110
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.111
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.112
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.113
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.114
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.115
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.116
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.117
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.118
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.119
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.120
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.121
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.122
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.123
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.124
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.125
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.126
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.127
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.128
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.129
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.130
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.131
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.132
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.133
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.134
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.135
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.136
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.137
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.138
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.139
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.140
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.141
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.142
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.143
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.144
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.145
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.146
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.147
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.148
+      Face Contactor-Board2_solar[NEG_X][6]::7A9
+Conductor: NEG_X.149
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_X.150
+      Face Contactor-Board1_solar[NEG_X][4]::7AD
+Conductor: NEG_Y.1
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.2
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.3
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.4
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.5
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.6
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.7
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.8
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.9
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.10
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.11
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.12
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.13
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.14
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.15
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.16
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.17
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.18
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.19
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.20
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.21
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.22
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.23
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.24
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.25
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.26
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.27
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.28
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.29
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.30
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.31
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.32
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.33
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.34
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.35
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.36
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.37
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.38
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.39
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.40
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.41
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.42
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.43
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.44
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.45
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.46
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.47
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.48
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.49
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.50
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.51
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.52
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.53
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.54
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.55
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.56
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.57
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.58
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.59
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.60
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.61
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.62
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.63
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.64
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.65
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.66
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.67
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.68
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.69
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.70
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.71
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.72
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.73
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.74
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.75
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.76
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.77
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.78
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.79
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.80
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.81
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.82
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.83
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.84
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.85
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.86
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.87
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.88
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.89
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.90
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.91
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.92
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.93
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.94
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.95
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.96
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.97
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.98
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.99
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.100
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.101
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.102
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.103
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.104
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.105
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.106
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.107
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.108
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.109
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.110
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.111
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.112
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.113
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.114
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.115
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.116
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.117
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.118
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.119
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.120
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.121
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.122
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.123
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.124
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.125
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.126
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.127
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.128
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.129
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.130
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.131
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.132
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.133
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.134
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.135
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.136
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.137
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.138
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.139
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.140
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.141
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.142
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.143
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.144
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.145
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.146
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.147
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.148
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.149
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.150
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.151
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.152
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.153
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.154
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.155
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.156
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.157
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.158
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.159
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.160
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.161
+      Face Contactor-Reaction_wheel[NEG_Y][0]::847
+Conductor: NEG_Y.162
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.163
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.164
+      Edge Contactor-Frame_intCard[NEG_Y][1]::840
+Conductor: NEG_Y.165
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.166
+      Face Contactor[NEG_Y][4]::7C9
+Conductor: NEG_Y.167
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.168
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.169
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.170
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.171
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.172
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.173
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.174
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.175
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.176
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.177
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.178
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.179
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.180
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.181
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.182
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.183
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.184
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.185
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.186
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.187
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.188
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.189
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.190
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.191
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.192
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.193
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.194
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.195
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.196
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.197
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.198
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.199
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.200
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.201
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.202
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.203
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.204
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.205
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.206
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.207
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.208
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.209
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.210
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.211
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.212
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.213
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.214
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.215
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.216
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.217
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.218
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.219
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.220
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.221
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.222
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.223
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.224
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.225
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.226
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.227
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.228
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.229
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.230
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.231
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.232
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.233
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.234
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.235
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.236
+      Face Contactor-Board2_solar[NEG_Y][1]::82A
+Conductor: NEG_Y.237
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: NEG_Y.238
+      Face Contactor-Board1_solar[NEG_Y][0]::829
+Conductor: OUTER_BOARD.1
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.2
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.3
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.4
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.5
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.6
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.7
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.8
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.9
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.10
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.11
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.12
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.13
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.14
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.15
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.16
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.17
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.18
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.19
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.20
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.21
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.22
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.23
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.24
+      Rect-+X board2[OUTER_BOARD]::561
+Conductor: OUTER_BOARD.25
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.26
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.27
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.28
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.29
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.30
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.31
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.32
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.33
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.34
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.35
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.36
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.37
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.38
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.39
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.40
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.41
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.42
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.43
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.44
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.45
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.46
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.47
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.48
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.49
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.50
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.51
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.52
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.53
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.54
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.55
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.56
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.57
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.58
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.59
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.60
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.61
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.62
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.63
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.64
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.65
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.66
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.67
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.68
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.69
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.70
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.71
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.72
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.73
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.74
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.75
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.76
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.77
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.78
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.79
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.80
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.81
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.82
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.83
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.84
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.85
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.86
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.87
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.88
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.89
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.90
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.91
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.92
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.93
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.94
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.95
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.96
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.97
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.98
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.99
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.100
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.101
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.102
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.103
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.104
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.105
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.106
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.107
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.108
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.109
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.110
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.111
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.112
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.113
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.114
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.115
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.116
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.117
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.118
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.119
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.120
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.121
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.122
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.123
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.124
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.125
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.126
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.127
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.128
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.129
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.130
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.131
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.132
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.133
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.134
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.135
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.136
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.137
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.138
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.139
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.140
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.141
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.142
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.143
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.144
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.145
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.146
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.147
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.148
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.149
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.150
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.151
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.152
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.153
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.154
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.155
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.156
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.157
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.158
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.159
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.160
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.161
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.162
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.163
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.164
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.165
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.166
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.167
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.168
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.169
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.170
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.171
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.172
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.173
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.174
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.175
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.176
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.177
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.178
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.179
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.180
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.181
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.182
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.183
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.184
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.185
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: OUTER_BOARD.186
+      Rect--Y board2[OUTER_BOARD]::495
+Conductor: OUTER_BOARD.187
+      Rect--X board2[OUTER_BOARD]::4A7
+Conductor: OUTER_BOARD.188
+      Rect-+Y board2[OUTER_BOARD]::4DA
+Conductor: OUTER_BOARD.189
+      Rect--Y board1[OUTER_BOARD]::4EB
+Conductor: OUTER_BOARD.190
+      Rect--X board1[OUTER_BOARD]::4FC
+Conductor: OUTER_BOARD.191
+      Rect-+X board1[OUTER_BOARD]::50D
+Conductor: OUTER_BOARD.192
+      Rect-+Y board1[OUTER_BOARD]::51E
+Conductor: POS_X.1
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.2
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.3
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.4
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.5
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.6
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.7
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.8
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.9
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.10
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.11
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.12
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.13
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.14
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.15
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.16
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.17
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.18
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.19
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.20
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.21
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.22
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.23
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.24
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.25
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.26
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.27
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.28
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.29
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.30
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.31
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.32
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.33
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.34
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.35
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.36
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.37
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.38
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.39
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.40
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.41
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.42
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.43
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.44
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.45
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.46
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.47
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.48
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.49
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.50
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.51
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.52
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.53
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.54
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.55
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.56
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.57
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.58
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.59
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.60
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.61
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.62
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.63
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.64
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.65
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.66
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.67
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.68
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.69
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.70
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.71
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.72
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.73
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.74
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.75
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.76
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.77
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.78
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.79
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.80
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.81
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.82
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.83
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.84
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.85
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.86
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.87
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.88
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.89
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.90
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.91
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.92
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.93
+      Edge Contactor-Board_frame[POS_X][0]::845
+Conductor: POS_X.94
+      Face Contactor[POS_X][1]::82E
+Conductor: POS_X.95
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.96
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.97
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.98
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.99
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.100
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.101
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.102
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.103
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.104
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.105
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.106
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.107
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.108
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.109
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.110
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.111
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.112
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.113
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.114
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.115
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.116
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.117
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.118
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.119
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.120
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.121
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.122
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.123
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.124
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.125
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.126
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.127
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.128
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.129
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_X.130
+      Face Contactor-Board1_solar[POS_X][1]::832
+Conductor: POS_Y.1
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.2
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.3
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.4
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.5
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.6
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.7
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.8
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.9
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.10
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.11
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.12
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.13
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.14
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.15
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.16
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.17
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.18
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.19
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.20
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.21
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.22
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.23
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.24
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.25
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.26
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.27
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.28
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.29
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.30
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.31
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.32
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.33
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.34
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.35
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.36
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.37
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.38
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.39
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.40
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.41
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.42
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.43
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.44
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.45
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.46
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.47
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.48
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.49
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.50
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.51
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.52
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.53
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.54
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.55
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.56
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.57
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.58
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.59
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.60
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.61
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.62
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.63
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.64
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.65
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.66
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.67
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.68
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.69
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.70
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.71
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.72
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.73
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.74
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.75
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.76
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.77
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.78
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.79
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.80
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.81
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.82
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.83
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.84
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.85
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.86
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.87
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.88
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.89
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.90
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.91
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.92
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.93
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.94
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.95
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.96
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.97
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.98
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.99
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.100
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.101
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.102
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.103
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.104
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.105
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.106
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.107
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.108
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.109
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.110
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.111
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.112
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.113
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.114
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.115
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.116
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.117
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.118
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.119
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.120
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.121
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.122
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.123
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.124
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.125
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.126
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.127
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.128
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.129
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.130
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.131
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.132
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.133
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.134
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.135
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.136
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.137
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.138
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.139
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.140
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.141
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.142
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.143
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.144
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.145
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.146
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.147
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.148
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.149
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.150
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.151
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.152
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.153
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.154
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.155
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.156
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.157
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.158
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.159
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.160
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.161
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.162
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.163
+      Edge Contactor-Board_frame[POS_Y][1]::850
+Conductor: POS_Y.164
+      Face Contactor-Reaction_Wheel[POS_Y][0]::846
+Conductor: POS_Y.165
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.166
+      Face Contactor[POS_Y][1]::837
+Conductor: POS_Y.167
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.168
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.169
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.170
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.171
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.172
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.173
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.174
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.175
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.176
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.177
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.178
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.179
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.180
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.181
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.182
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.183
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.184
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.185
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.186
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.187
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.188
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.189
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.190
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.191
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.192
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.193
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.194
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.195
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.196
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.197
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.198
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.199
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.200
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.201
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.202
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.203
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.204
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.205
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.206
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.207
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.208
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.209
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.210
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.211
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.212
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.213
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.214
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.215
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.216
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.217
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.218
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.219
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.220
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.221
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.222
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.223
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.224
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.225
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.226
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.227
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.228
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.229
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.230
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.231
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.232
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.233
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.234
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.235
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.236
+      Face Contactor-Board2_solar[POS_Y][0]::839
+Conductor: POS_Y.237
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: POS_Y.238
+      Face Contactor-Board1_solar[POS_Y][1]::838
+Conductor: SOLAR_PANEL.1
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.2
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.3
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.4
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.5
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.6
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.7
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.8
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.9
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.10
+      Rect-+X solar4[SOLAR_PANEL]::5B6
+Conductor: SOLAR_PANEL.11
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.12
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.13
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.14
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.15
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.16
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.17
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.18
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.19
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.20
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.21
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.22
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.23
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.24
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.25
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.26
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.27
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.28
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.29
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.30
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.31
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.32
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.33
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.34
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.35
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.36
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.37
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.38
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.39
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.40
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.41
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.42
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.43
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.44
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.45
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.46
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.47
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.48
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.49
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.50
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.51
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.52
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.53
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.54
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.55
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.56
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.57
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.58
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.59
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.60
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.61
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.62
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.63
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.64
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.65
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.66
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.67
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.68
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.69
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.70
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.71
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.72
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.73
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.74
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.75
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.76
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.77
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.78
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.79
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.80
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.81
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.82
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.83
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.84
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.85
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.86
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.87
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.88
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.89
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.90
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.91
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.92
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.93
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.94
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.95
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.96
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.97
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.98
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.99
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.100
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.101
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.102
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.103
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.104
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.105
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.106
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.107
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.108
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.109
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.110
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.111
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.112
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.113
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.114
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.115
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.116
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.117
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.118
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.119
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.120
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.121
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.122
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.123
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.124
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.125
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.126
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.127
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.128
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.129
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.130
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.131
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.132
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.133
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.134
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.135
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.136
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.137
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.138
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.139
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.140
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.141
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.142
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.143
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.144
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.145
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Conductor: SOLAR_PANEL.146
+      Rect--X solar1[SOLAR_PANEL]::62D
+Conductor: SOLAR_PANEL.147
+      Rect--X solar2[SOLAR_PANEL]::61C
+Conductor: SOLAR_PANEL.148
+      Rect--X solar3[SOLAR_PANEL]::60B
+Conductor: SOLAR_PANEL.149
+      Rect--X solar4[SOLAR_PANEL]::5FA
+Conductor: SOLAR_PANEL.150
+      Rect-+Y solar1[SOLAR_PANEL]::671
+Conductor: SOLAR_PANEL.151
+      Rect-+Y solar2[SOLAR_PANEL]::660
+Conductor: SOLAR_PANEL.152
+      Rect-+Y solar3[SOLAR_PANEL]::64F
+Conductor: SOLAR_PANEL.153
+      Rect-+Y solar4[SOLAR_PANEL]::63E
+Conductor: SOLAR_PANEL.154
+      Rect--Y solar1[SOLAR_PANEL]::5A5
+Conductor: SOLAR_PANEL.155
+      Rect--Y solar2[SOLAR_PANEL]::594
+Conductor: SOLAR_PANEL.156
+      Rect--Y solar3[SOLAR_PANEL]::583
+Conductor: SOLAR_PANEL.157
+      Rect--Y solar4[SOLAR_PANEL]::541
+Conductor: SOLAR_PANEL.158
+      Rect-+X solar1[SOLAR_PANEL]::5E9
+Conductor: SOLAR_PANEL.159
+      Rect-+X solar2[SOLAR_PANEL]::5D8
+Conductor: SOLAR_PANEL.160
+      Rect-+X solar3[SOLAR_PANEL]::5C7
+Heat Load: BATTERY.1
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.2
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.3
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.4
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.5
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.6
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.7
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.8
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.9
+      Heat Load[MAIN]::8D8
+Heat Load: BATTERY.10
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.11
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.12
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.13
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.14
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.15
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.16
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.17
+      Heat Load-Bat1_heat_load[BATTERY]::8D7
+Heat Load: BATTERY.18
+      Heat Load-Bat1_heat_load[BATTERY]::8D7

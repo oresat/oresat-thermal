@@ -1,0 +1,5 @@
+Face Contactor-Bat2[BATTERY][1]::849
+From areas = 0.01, To areas = 0.00578664
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+Total connected Area = 0.01 .vs. Total = 0.01
