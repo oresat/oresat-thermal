@@ -1,0 +1,56 @@
+﻿contactConn_BatteryToHousing	0.591*0.005/(0.014)	guess of contact conductance from batteries to top of housing	ties	010100
+dutyCycleBatHeater	30	% duty cycle of battery heater	pwr	010100
+elecConn_CardtoBackplane	5		ties	010100
+hrBetaAngle	0		orbital	000100
+hrEccen	0		orbital	000100
+hrIllum	0		orbital	000100
+hrMeanAnom	96		orbital	000100
+hrPeriod	5676.98	Always in current user units. If programming, use hrPeriodSec so that conversion are correct	orbital	000100
+hrPeriodSec	5676.98		orbital	000100
+hrPlanetX	0		orbital	000100
+hrPlanetY	3.46945e-18		orbital	000100
+hrPlanetZ	-1		orbital	000100
+hrPos	4		orbital	000100
+hrShadowEntry	201.985		orbital	000100
+hrShadowExit	338.015		orbital	000100
+hrSpeed	7.61261		orbital	000100
+hrSubSolarMeanAnom	90	-180 to 180	orbital	000100
+hrSubSolarTrueAnom	90	-180 to 180	orbital	000100
+hrSunX	-0.104528		orbital	000100
+hrSunY	1.73472e-18		orbital	000100
+hrSunZ	0.994522		orbital	000100
+hrTime	1513.86	Always in current user units. If programming, use hrTimeSec so that conversion are correct	orbital	000100
+hrTimeSec	1513.86		orbital	000100
+hrTimeShadowEntry	3185.17		orbital	000100
+hrTimeShadowEntrySec	3185.17		orbital	000100
+hrTimeShadowExit	5330.3		orbital	000100
+hrTimeShadowExitSec	5330.3		orbital	000100
+hrTrueAnom	96		orbital	000100
+hrVelocityX	1		orbital	000100
+hrVelocityY	-5.55112e-17		orbital	000100
+hrVelocityZ	0		orbital	000100
+mechConn_BatteryToCard	0.08	Conductance (W/K) of battery mount	ties	010100
+MechConn_BatteryToHousing	0.15		ties	010100
+mechConn_CardToFrame	0.3301	Conductance (W/K) along edges of cards to frame	ties	010100
+mechConn_ModuleToFrames
+"1"
+"Linear conductance (PER AREA) between solar modules and frame.
+NOTE: radiation contactor made via radk"
+"ties"
+"010100"
+mechConn_PanelToSolarModule	1	Conduction (PER AREA) between solar panels and solar modules	ties	010100
+mechConn_RadStandOff	0.25*pi/4*(0.004^2-0.002^2)/0.0004+15*pi/4*0.002^2/0.0004		ties	010100
+pwrBackPlane	0.1		pwr	010100
+pwrBatHeater	10		pwr	010100
+pwrC3	1.08	orbital average power (W) for C3 card	pwr	010100
+pwrCFC	0.5	Power (W) of CFC card	pwr	010100
+pwrCFC_standby	.01	Power (W) of CFC card in standby mode	pwr	010100
+pwrDetector	0.15		pwr	010100
+thrmConn_CopperStraps
+"(2/1.85+2/(380*.0007*0.0135/.00047)+1/1.34)^-1"
+"series stack of (a) contact resistance between spreader/strap (use 10,000W/m2K over area), copper straps themselves (2 .7mmX13.5mm straps),
+and (c) contact resistance between strap and radiator (once again used 10,000 W/m2K, two of these)"
+"ties"
+"010100"
+thrmConn_DetectorToTEC	1		ties	010100
+thrmConn_TECToHeatSpreader	1		ties	010100
