@@ -1,0 +1,75 @@
+[ AutoCAD - Fri Apr 22 19:11:28 2022  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Overriding 1 symbol values for this case set
+
+Warning: AREA units tag not defined, the current set will be used
+    Occurred during Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C with Expression=Lattice_Indent_Area
+
+Calculating SINDA/FLUINT data
+Calculating Thermal Analyzer Input took 1.00 sec
+
+Outputting SINDA/FLUINT data
+Outputting data for submodel CARDS...
+Outputting data for submodel FRAMES...
+Outputting data for submodel GLOBAL...
+Outputting data for submodel SOLAR_CARDS...
+Outputting data for submodel SOLAR_PANELS...
+Outputting data for submodel SPACE...
+    Number of nodes:      2185
+    Number of conductors: 6148
+    
+Total Nodal Mass = 1.220264 kg
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Exterior-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+    1020 calculation nodes
+    6138 radks were output, 17088 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    2500 average number of rays per node shot
+    355 nodes(34%) have Bij Inactive > .2
+        This may be ok, but may be an indication of an incorrect active side
+     
+    No overlapping surfaces greater than 10.0% found in Exterior
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database Exterior-FullSun_RandomOrientation_BatteryHeatersOff-RcOptics.rch
+
+Warning: AREA units tag not defined, the current set will be used
+    Occurred during Face Contactor-Radiation (+Y) Solar Card to (+Y) Frame[SOLAR_CARDS][0]::159C with Expression=Lattice_Indent_Area
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+
+
+*** RADCAD RAYTRACE RADK RUN START for database Interior-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Using regular optical properties
+Restart was successful. No calculations were performed.
+    1364 calculation nodes
+    81533 radks were output, 190193 radks were filtered out
+    4 nodes(0%) have bij sum + bij inactive < .9
+        This may be ok, but could be reduced by lowering the BIJ Cutoff on the RADK Output Page
+    5000 average number of rays per node shot
+    629 nodes(46%)  have weighted error > 25
+        This can be lowered by shooting more rays
+     
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+    Node FRAMES.62::781 is overlapped by CARDS.4 covering   20%
+    Node FRAMES.60::77F is overlapped by CARDS.2 covering   16%
+    Node FRAMES.61::780 is overlapped by CARDS.3 covering   16%
+    Node FRAMES.63::782 is overlapped by CARDS.5 covering   16%
+    Node FRAMES.64::783 is overlapped by CARDS.6 covering   16%
+    Node FRAMES.65::784 is overlapped by CARDS.7 covering   12%
+    Note that overlapping surfaces cause INCORRECT and INCONSISTENT results.
+
+*** Running SINDA model named C:\Users\zachg\oresat-thermal\Oresat0-Simulation\OreSat0.inp
+Successful completion of processor
+From C:\Users\zachg\oresat-thermal\Oresat0-Simulation\messages_OreSat0.log
+     LOOPCT =              10  The ASTAP execution time is:    393.788204899989       seconds
+Time to run SINDA = 398.64 sec
+
+Case Set Solved::Elapsed time = 400.65 sec
